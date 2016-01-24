@@ -1,1 +1,386 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Launch_Tower_Computer_III-cache
+LIBS:Solar_Array-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LTC2990 U?
+U 1 1 56A46621
+P 9000 3350
+F 0 "U?" H 8400 3850 50  0000 L CNN
+F 1 "LTC2990" H 9150 2850 50  0000 L CNN
+F 2 "" H 8300 3750 50  0000 C CNN
+F 3 "" H 8400 3850 50  0000 C CNN
+	1    9000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPV1040 IC?
+U 1 1 56A473EA
+P 2200 2350
+F 0 "IC?" H 1900 2750 40  0000 C CNN
+F 1 "SPV1040" H 2600 1900 40  0000 C CNN
+F 2 "TSSOP8" H 2150 2400 35  0000 C CIN
+F 3 "" H 2100 2500 60  0000 C CNN
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3950 9000 4200
+$Comp
+L GND #PWR?
+U 1 1 56A4A6F1
+P 9000 4200
+F 0 "#PWR?" H 9000 3950 50  0001 C CNN
+F 1 "GND" H 9000 4050 50  0000 C CNN
+F 2 "" H 9000 4200 60  0000 C CNN
+F 3 "" H 9000 4200 60  0000 C CNN
+	1    9000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2750 9300 2400
+$Comp
+L +5V #PWR?
+U 1 1 56A4A70F
+P 9300 2400
+F 0 "#PWR?" H 9300 2250 50  0001 C CNN
+F 1 "+5V" H 9300 2540 50  0000 C CNN
+F 2 "" H 9300 2400 60  0000 C CNN
+F 3 "" H 9300 2400 60  0000 C CNN
+	1    9300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3250 10100 3250
+Wire Wire Line
+	9600 3350 10100 3350
+Text HLabel 10100 3250 2    60   Input ~ 0
+i2c_DATA
+Text HLabel 10100 3350 2    60   Input ~ 0
+i2c_CLOCK
+Wire Wire Line
+	9600 3550 9850 3550
+Wire Wire Line
+	9850 3650 9600 3650
+Wire Wire Line
+	9850 4000 9000 4000
+Connection ~ 9000 4000
+Connection ~ 9850 3650
+Text Notes 8200 4600 0    60   ~ 0
+i2c addr: 0x98
+Connection ~ 9850 3550
+$Comp
+L C C?
+U 1 1 56A4F81E
+P 9850 2750
+F 0 "C?" H 9875 2850 50  0000 L CNN
+F 1 ".1u" H 9875 2650 50  0000 L CNN
+F 2 "" H 9888 2600 30  0000 C CNN
+F 3 "" H 9850 2750 60  0000 C CNN
+	1    9850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2900 9850 4000
+Wire Wire Line
+	9850 2600 9850 2550
+Wire Wire Line
+	9850 2550 9300 2550
+Connection ~ 9300 2550
+Wire Notes Line
+	8050 2150 11000 2150
+Wire Notes Line
+	11000 2150 11000 4700
+Wire Notes Line
+	11000 4700 8050 4700
+Wire Notes Line
+	8050 4700 8050 2150
+$Comp
+L LTC2990 U?
+U 1 1 56A4FB8A
+P 4900 3400
+F 0 "U?" H 4300 3900 50  0000 L CNN
+F 1 "LTC2990" H 5050 2900 50  0000 L CNN
+F 2 "" H 4200 3800 50  0000 C CNN
+F 3 "" H 4300 3900 50  0000 C CNN
+	1    4900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4000 4900 4250
+$Comp
+L GND #PWR?
+U 1 1 56A4FB91
+P 4900 4250
+F 0 "#PWR?" H 4900 4000 50  0001 C CNN
+F 1 "GND" H 4900 4100 50  0000 C CNN
+F 2 "" H 4900 4250 60  0000 C CNN
+F 3 "" H 4900 4250 60  0000 C CNN
+	1    4900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2800 5200 2450
+$Comp
+L +5V #PWR?
+U 1 1 56A4FB98
+P 5200 2450
+F 0 "#PWR?" H 5200 2300 50  0001 C CNN
+F 1 "+5V" H 5200 2590 50  0000 C CNN
+F 2 "" H 5200 2450 60  0000 C CNN
+F 3 "" H 5200 2450 60  0000 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3300 6000 3300
+Wire Wire Line
+	5500 3400 6000 3400
+Text HLabel 6000 3300 2    60   Input ~ 0
+i2c_DATA
+Text HLabel 6000 3400 2    60   Input ~ 0
+i2c_CLOCK
+Wire Wire Line
+	5500 3600 5750 3600
+Wire Wire Line
+	5750 3700 5500 3700
+Wire Wire Line
+	5750 4050 4900 4050
+Connection ~ 4900 4050
+Connection ~ 5750 3700
+Text Notes 4100 4650 0    60   ~ 0
+i2c addr: 0x98
+Connection ~ 5750 3600
+$Comp
+L C C?
+U 1 1 56A4FBA9
+P 5750 2800
+F 0 "C?" H 5775 2900 50  0000 L CNN
+F 1 ".1u" H 5775 2700 50  0000 L CNN
+F 2 "" H 5788 2650 30  0000 C CNN
+F 3 "" H 5750 2800 60  0000 C CNN
+	1    5750 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2950 5750 4050
+Wire Wire Line
+	5750 2650 5750 2600
+Wire Wire Line
+	5750 2600 5200 2600
+Connection ~ 5200 2600
+Wire Notes Line
+	3950 2200 6900 2200
+Wire Notes Line
+	6900 2200 6900 4750
+Wire Notes Line
+	6900 4750 3950 4750
+Wire Notes Line
+	3950 4750 3950 2200
+$Comp
+L LTC2990 U?
+U 1 1 56A4FE59
+P 2150 5300
+F 0 "U?" H 1550 5800 50  0000 L CNN
+F 1 "LTC2990" H 2300 4800 50  0000 L CNN
+F 2 "" H 1450 5700 50  0000 C CNN
+F 3 "" H 1550 5800 50  0000 C CNN
+	1    2150 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5900 2150 6150
+$Comp
+L GND #PWR?
+U 1 1 56A4FE60
+P 2150 6150
+F 0 "#PWR?" H 2150 5900 50  0001 C CNN
+F 1 "GND" H 2150 6000 50  0000 C CNN
+F 2 "" H 2150 6150 60  0000 C CNN
+F 3 "" H 2150 6150 60  0000 C CNN
+	1    2150 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4700 2450 4350
+$Comp
+L +5V #PWR?
+U 1 1 56A4FE67
+P 2450 4350
+F 0 "#PWR?" H 2450 4200 50  0001 C CNN
+F 1 "+5V" H 2450 4490 50  0000 C CNN
+F 2 "" H 2450 4350 60  0000 C CNN
+F 3 "" H 2450 4350 60  0000 C CNN
+	1    2450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5200 3250 5200
+Wire Wire Line
+	2750 5300 3250 5300
+Text HLabel 3250 5200 2    60   Input ~ 0
+i2c_DATA
+Text HLabel 3250 5300 2    60   Input ~ 0
+i2c_CLOCK
+Wire Wire Line
+	2750 5500 3000 5500
+Wire Wire Line
+	3000 5600 2750 5600
+Wire Wire Line
+	3000 5950 2150 5950
+Connection ~ 2150 5950
+Connection ~ 3000 5600
+Text Notes 1350 6550 0    60   ~ 0
+i2c addr: 0x98
+Connection ~ 3000 5500
+$Comp
+L C C?
+U 1 1 56A4FE78
+P 3000 4700
+F 0 "C?" H 3025 4800 50  0000 L CNN
+F 1 ".1u" H 3025 4600 50  0000 L CNN
+F 2 "" H 3038 4550 30  0000 C CNN
+F 3 "" H 3000 4700 60  0000 C CNN
+	1    3000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4850 3000 5950
+Wire Wire Line
+	3000 4550 3000 4500
+Wire Wire Line
+	3000 4500 2450 4500
+Connection ~ 2450 4500
+Wire Notes Line
+	1200 4100 4150 4100
+Wire Notes Line
+	4150 4100 4150 6650
+Wire Notes Line
+	4150 6650 1200 6650
+Wire Notes Line
+	1200 6650 1200 4100
+$Comp
+L LTC2990 U?
+U 1 1 56A4FFDC
+P 5250 6450
+F 0 "U?" H 4650 6950 50  0000 L CNN
+F 1 "LTC2990" H 5400 5950 50  0000 L CNN
+F 2 "" H 4550 6850 50  0000 C CNN
+F 3 "" H 4650 6950 50  0000 C CNN
+	1    5250 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 7050 5250 7300
+$Comp
+L GND #PWR?
+U 1 1 56A4FFE3
+P 5250 7300
+F 0 "#PWR?" H 5250 7050 50  0001 C CNN
+F 1 "GND" H 5250 7150 50  0000 C CNN
+F 2 "" H 5250 7300 60  0000 C CNN
+F 3 "" H 5250 7300 60  0000 C CNN
+	1    5250 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5850 5550 5500
+$Comp
+L +5V #PWR?
+U 1 1 56A4FFEA
+P 5550 5500
+F 0 "#PWR?" H 5550 5350 50  0001 C CNN
+F 1 "+5V" H 5550 5640 50  0000 C CNN
+F 2 "" H 5550 5500 60  0000 C CNN
+F 3 "" H 5550 5500 60  0000 C CNN
+	1    5550 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 6350 6350 6350
+Wire Wire Line
+	5850 6450 6350 6450
+Text HLabel 6350 6350 2    60   Input ~ 0
+i2c_DATA
+Text HLabel 6350 6450 2    60   Input ~ 0
+i2c_CLOCK
+Wire Wire Line
+	5850 6650 6100 6650
+Wire Wire Line
+	6100 6750 5850 6750
+Wire Wire Line
+	6100 7100 5250 7100
+Connection ~ 5250 7100
+Connection ~ 6100 6750
+Text Notes 4450 7700 0    60   ~ 0
+i2c addr: 0x98
+Connection ~ 6100 6650
+$Comp
+L C C?
+U 1 1 56A4FFFB
+P 6100 5850
+F 0 "C?" H 6125 5950 50  0000 L CNN
+F 1 ".1u" H 6125 5750 50  0000 L CNN
+F 2 "" H 6138 5700 30  0000 C CNN
+F 3 "" H 6100 5850 60  0000 C CNN
+	1    6100 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 6000 6100 7100
+Wire Wire Line
+	6100 5700 6100 5650
+Wire Wire Line
+	6100 5650 5550 5650
+Connection ~ 5550 5650
+Wire Notes Line
+	4300 5250 7250 5250
+Wire Notes Line
+	7250 5250 7250 7800
+Wire Notes Line
+	7250 7800 4300 7800
+Wire Notes Line
+	4300 7800 4300 5250
+$EndSCHEMATC
