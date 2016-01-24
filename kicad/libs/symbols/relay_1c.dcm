@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RELAY_1C
+D Form 1C SPDT Relay
+K 1C SPDT Relay
+$ENDCMP
+#
+#End Doc Library

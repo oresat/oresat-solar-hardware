@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT8490
+D LT8490
+K buck-boost battery charge controller mppt
+F http://www.linear.com/product/LT8490
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC2990
+D LTC2990 quad I2C voltage, current, and temperature monitor
+K LTC2990 I2C voltage current temperature
+F http://www.linear.com/product/LTC2990
+$ENDCMP
+#
+$CMP LTC2991
+D LTC2991 octal I2C voltage, current, and temperature monitor
+K LTC2991 I2C voltage current temperature
+F http://www.linear.com/product/LTC2991
+$ENDCMP
+#
+#End Doc Library

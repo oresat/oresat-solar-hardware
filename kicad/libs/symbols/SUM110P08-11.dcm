@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SUM110P08-11
+D 80V Vds, 110A Id, TO-263
+K P-Channel MOSFET
+F http://www.vishay.com/docs/73472/sum110p0.pdf
+$ENDCMP
+#
+#End Doc Library

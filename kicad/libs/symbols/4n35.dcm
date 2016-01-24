@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4N35
+D DIP6, DC Optocoupler Base Connected, Vce 10V, CTR 100%, Viso 3550Vrms
+K NPN DC Optocoupler Base Connected
+$ENDCMP
+#
+#End Doc Library

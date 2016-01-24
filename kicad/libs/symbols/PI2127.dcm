@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PI2127
+D Picor PI2127 60 Volt 12 Amp Ideal Diode OR
+K 60V 12A Ideal Diode OR
+F http://cdn.vicorpower.com/documents/datasheets/Picor/ds_pi2127.pdf
+$ENDCMP
+#
+#End Doc Library

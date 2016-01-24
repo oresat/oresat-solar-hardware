@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTN78020H
+D PTN78020H 6-A Wide-Input Adjustable Switching Regulator
+K PTN78020H
+$ENDCMP
+#
+$CMP PTN78020W
+D PTN78020W 6-A Wide-Input Adjustable Switching Regulator
+K PTN78020W
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed 04 Mar 2015 03:59:11 PM PST
+#
+$CMP SPST_switch
+D SPST switch
+K SPST single pole throw switch
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 741G08
+D Single 2-Input AND Gate
+K TTL and2
+$ENDCMP
+#
+#End Doc Library

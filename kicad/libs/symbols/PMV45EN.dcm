@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMV45EN
+D PMV45EN NMOSFET 30 Vds 5.4 Id
+K N-Channel enhancement MOSFET
+F http://www.nxp.com/documents/data_sheet/PMV45EN.pdf
+$ENDCMP
+#
+#End Doc Library

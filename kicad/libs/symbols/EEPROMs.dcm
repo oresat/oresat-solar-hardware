@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24C256
+D 24C256 256kb I2C EEPROM
+K 24C256 256kb I2C EEPROM
+$ENDCMP
+#
+#End Doc Library

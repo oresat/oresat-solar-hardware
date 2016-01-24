@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD74HC14
+D CD74HC14 High Speed CMOS Logic Hex Inverting Schmitt Trigger
+K CMOS Hex Inverting Schmitt Trigger 54HC14 74HC14
+$ENDCMP
+#
+#End Doc Library

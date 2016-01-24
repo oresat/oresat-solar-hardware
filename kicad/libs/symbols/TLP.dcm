@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: Tue 07 Apr 2015 10:57:43 PM PDT
+#
+$CMP TLP3542
+D TLP3542, DIP6, MOSFET Photorelay 1-Form-A, Voff 60V, Ion 2.5A
+K MOSFET Output Photorelay 1-Form-A
+F http://www.toshiba.com/taec/components2/Datasheet_Sync/200709/DST_TLP3542-TDE_EN_11172.pdf
+$ENDCMP
+#
+#End Doc Library
