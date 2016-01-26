@@ -1550,4 +1550,6 @@ Text HLabel 12500 7500 2    60   Input ~ 0
 PV
 Text HLabel 4650 7500 2    60   Input ~ 0
 PV
+Text Notes 1200 9750 0    60   ~ 0
+ToDo:\n***Select component values\n***Design more robust automatic shutdown?
 $EndSCHEMATC
