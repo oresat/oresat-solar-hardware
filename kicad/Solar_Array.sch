@@ -1551,7 +1551,7 @@ PV
 Text HLabel 4650 7500 2    60   Input ~ 0
 PV
 Text Notes 1200 9750 0    60   ~ 0
-ToDo:\n***Select component values\n***Design more robust automatic shutdown?
+ToDo:\n***Select component values\n***Design more robust automatic shutdown?\n***Add physical connectors\n***Add Solar Cells\n***Add mux for i2c\n***Delete extraneous systems\n
 Text Notes 2050 6300 1    60   ~ 0
 1%
 Text Notes 9900 6300 1    60   ~ 0
@@ -1560,4 +1560,6 @@ Text Notes 2050 1450 1    60   ~ 0
 1%
 Text Notes 9900 1500 1    60   ~ 0
 1%
+Text Notes 7100 2450 0    60   ~ 0
+add mux for i2c to share address 98
 $EndSCHEMATC
