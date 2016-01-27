@@ -77,8 +77,6 @@ F 3 "" H 7300 1800 60  0000 C CNN
 	1    7300 1800
 	1    0    0    -1  
 $EndComp
-Text HLabel 8150 1800 2    60   Input ~ 0
-i2c_DATA
 Text Notes 6200 4000 0    60   ~ 0
 i2c addr: 0x98
 $Comp
@@ -159,7 +157,7 @@ F 3 "" H 16050 8000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 1200 9750 0    60   ~ 0
-ToDo:\n***Select component values\n***Design more robust automatic shutdown?\n***Add physical connectors\n***Add Solar Cells\n***Add mux for i2c\n***Delete extraneous systems\n
+ToDo:\n***Select component values\n***Design more robust automatic shutdown\n***Add mux for i2c\n
 Text Notes 3750 1250 1    60   ~ 0
 1%
 Text Notes 7200 4050 0    60   ~ 0
