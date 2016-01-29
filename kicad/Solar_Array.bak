@@ -113,7 +113,7 @@ F 3 "" H 7850 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1200 9750 0    60   ~ 0
-ToDo:\n***Select component values\n***Design more robust automatic shutdown\n***Add mux for i2c\n
+ToDo:\n***Select component values\n***Design more robust automatic shutdown\n***Add mux for i2c\n***Low voltage warning to payload for save and reboot.\n***3.3v for uC (10 ma each uC)\n***PA need 20V
 Text Notes 3750 1250 1    60   ~ 0
 1%
 Text Notes 7200 4050 0    60   ~ 0
@@ -255,7 +255,7 @@ L R R?
 U 1 1 56A98B14
 P 4900 2250
 F 0 "R?" V 4980 2250 50  0000 C CNN
-F 1 "R" V 4900 2250 50  0000 C CNN
+F 1 ".007" V 4900 2250 50  0000 C CNN
 F 2 "" V 4830 2250 30  0000 C CNN
 F 3 "" H 4900 2250 30  0000 C CNN
 	1    4900 2250
@@ -461,7 +461,6 @@ F 3 "" H 850 2800 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3100 3300 3250 3300
-Connection ~ 3100 3300
 Wire Wire Line
 	3900 1700 5150 1700
 $Comp

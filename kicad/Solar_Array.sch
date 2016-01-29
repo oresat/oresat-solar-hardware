@@ -113,7 +113,7 @@ F 3 "" H 7850 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1200 9750 0    60   ~ 0
-ToDo:\n***Select component values\n***Design more robust automatic shutdown\n***Add mux for i2c\n
+ToDo:\n***Select component values\n***Design more robust automatic shutdown\n***Add mux for i2c\n***Low voltage warning to payload for save and reboot.\n***3.3v for uC (10 ma each uC)\n***PA need 20V
 Text Notes 3750 1250 1    60   ~ 0
 1%
 Text Notes 7200 4050 0    60   ~ 0
@@ -272,6 +272,87 @@ F 3 "" H 3900 3600 60  0000 C CNN
 	1    3900 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X01 P?
+U 1 1 56A9AD7A
+P 8300 2850
+F 0 "P?" H 8300 2950 50  0000 C CNN
+F 1 "i2c_CLOCK" H 8300 2750 50  0000 C CNN
+F 2 "" H 8300 2850 60  0000 C CNN
+F 3 "" H 8300 2850 60  0000 C CNN
+	1    8300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P?
+U 1 1 56A9B08F
+P 8300 2550
+F 0 "P?" H 8300 2650 50  0000 C CNN
+F 1 "i2c_DATA" H 8300 2450 50  0000 C CNN
+F 2 "" H 8300 2550 60  0000 C CNN
+F 3 "" H 8300 2550 60  0000 C CNN
+	1    8300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56A9DF6A
+P 9150 1300
+F 0 "#PWR?" H 9150 1050 50  0001 C CNN
+F 1 "GND" H 9150 1150 50  0000 C CNN
+F 2 "" H 9150 1300 60  0000 C CNN
+F 3 "" H 9150 1300 60  0000 C CNN
+	1    9150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 56A9E16B
+P 850 2800
+F 0 "P?" H 850 2950 50  0000 C CNN
+F 1 "PV_CELL" V 950 2800 50  0000 C CNN
+F 2 "" H 850 2800 60  0000 C CNN
+F 3 "" H 850 2800 60  0000 C CNN
+	1    850  2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P?
+U 1 1 56AA3494
+P 2900 3300
+F 0 "P?" H 2900 3400 50  0000 C CNN
+F 1 "X_SHUT" H 2900 3200 50  0000 C CNN
+F 2 "" H 2900 3300 60  0000 C CNN
+F 3 "" H 2900 3300 60  0000 C CNN
+	1    2900 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 56AA5ABE
+P 9450 1050
+F 0 "P?" H 9450 1250 50  0000 C CNN
+F 1 "V_OUT" H 9650 1150 50  0000 C CNN
+F 2 "" H 9450 1050 60  0000 C CNN
+F 3 "" H 9450 1050 60  0000 C CNN
+	1    9450 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 9550 1050 0    50   ~ 0
+VCC_IN
+$Comp
+L D_Schottky D?
+U 1 1 56AA70D2
+P 1500 2750
+F 0 "D?" H 1500 2850 50  0000 C CNN
+F 1 "D_Schottky" H 1500 2650 50  0000 C CNN
+F 2 "" H 1500 2750 60  0000 C CNN
+F 3 "" H 1500 2750 60  0000 C CNN
+	1    1500 2750
+	-1   0    0    1   
+$EndComp
+Text Notes 3900 9500 0    60   ~ 0
+Notes:\n***3.3v for uC (10 ma each uC)\n***PA need 20V\n***Test BQ3060
 Wire Wire Line
 	7000 3350 7000 3600
 Wire Wire Line
@@ -371,34 +452,12 @@ Wire Wire Line
 Wire Wire Line
 	6000 1150 6000 2550
 Connection ~ 2100 2750
-$Comp
-L CONN_01X01 P?
-U 1 1 56A9AD7A
-P 8300 2850
-F 0 "P?" H 8300 2950 50  0000 C CNN
-F 1 "i2c_CLOCK" H 8300 2750 50  0000 C CNN
-F 2 "" H 8300 2850 60  0000 C CNN
-F 3 "" H 8300 2850 60  0000 C CNN
-	1    8300 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 2750 8000 2750
 Wire Wire Line
 	8000 2750 8000 2850
 Wire Wire Line
 	8000 2850 8100 2850
-$Comp
-L CONN_01X01 P?
-U 1 1 56A9B08F
-P 8300 2550
-F 0 "P?" H 8300 2650 50  0000 C CNN
-F 1 "i2c_DATA" H 8300 2450 50  0000 C CNN
-F 2 "" H 8300 2550 60  0000 C CNN
-F 3 "" H 8300 2550 60  0000 C CNN
-	1    8300 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 2650 8000 2650
 Wire Wire Line
@@ -435,78 +494,20 @@ Wire Wire Line
 	6000 1150 4000 1150
 Wire Wire Line
 	3900 950  9250 950 
-$Comp
-L GND #PWR?
-U 1 1 56A9DF6A
-P 9150 1300
-F 0 "#PWR?" H 9150 1050 50  0001 C CNN
-F 1 "GND" H 9150 1150 50  0000 C CNN
-F 2 "" H 9150 1300 60  0000 C CNN
-F 3 "" H 9150 1300 60  0000 C CNN
-	1    9150 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3900 950  3900 1050
-$Comp
-L CONN_01X02 P?
-U 1 1 56A9E16B
-P 850 2800
-F 0 "P?" H 850 2950 50  0000 C CNN
-F 1 "PV_CELL" V 950 2800 50  0000 C CNN
-F 2 "" H 850 2800 60  0000 C CNN
-F 3 "" H 850 2800 60  0000 C CNN
-	1    850  2800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3100 3300 3250 3300
-Connection ~ 3100 3300
 Wire Wire Line
 	3900 1700 5150 1700
-$Comp
-L CONN_01X01 P?
-U 1 1 56AA3494
-P 2900 3300
-F 0 "P?" H 2900 3400 50  0000 C CNN
-F 1 "X_SHUT" H 2900 3200 50  0000 C CNN
-F 2 "" H 2900 3300 60  0000 C CNN
-F 3 "" H 2900 3300 60  0000 C CNN
-	1    2900 3300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3900 2250 4250 2250
-$Comp
-L CONN_01X03 P?
-U 1 1 56AA5ABE
-P 9450 1050
-F 0 "P?" H 9450 1250 50  0000 C CNN
-F 1 "V_BATT" H 9650 1150 50  0000 C CNN
-F 2 "" H 9450 1050 60  0000 C CNN
-F 3 "" H 9450 1050 60  0000 C CNN
-	1    9450 1050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 1150 9250 1150
 Wire Wire Line
 	9150 1150 9150 1300
 Wire Wire Line
 	7300 1050 9250 1050
-Text Notes 9550 1050 0    50   ~ 0
-VCC_IN
-$Comp
-L D_Schottky D?
-U 1 1 56AA70D2
-P 1500 2750
-F 0 "D?" H 1500 2850 50  0000 C CNN
-F 1 "D_Schottky" H 1500 2650 50  0000 C CNN
-F 2 "" H 1500 2750 60  0000 C CNN
-F 3 "" H 1500 2750 60  0000 C CNN
-	1    1500 2750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1050 2750 1350 2750
 Wire Wire Line
@@ -515,4 +516,34 @@ Wire Wire Line
 	1250 2850 1250 3100
 Wire Wire Line
 	1650 2750 2450 2750
+$Comp
+L D_Schottky D?
+U 1 1 56AC3033
+P 10650 1000
+F 0 "D?" H 10650 1100 50  0000 C CNN
+F 1 "D_Schottky" H 10650 900 50  0000 C CNN
+F 2 "" H 10650 1000 60  0000 C CNN
+F 3 "" H 10650 1000 60  0000 C CNN
+	1    10650 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW?
+U 1 1 56AC30B8
+P 11300 1000
+F 0 "SW?" H 11100 1150 50  0000 C CNN
+F 1 "SWITCH_INV" H 11150 850 50  0000 C CNN
+F 2 "" H 11300 1000 60  0000 C CNN
+F 3 "" H 11300 1000 60  0000 C CNN
+	1    11300 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 900  12250 900 
+Wire Wire Line
+	11800 1100 12250 1100
+Text Notes 12250 900  0    60   ~ 0
+V_BATT
+Text Notes 12250 1100 0    60   ~ 0
+PV_OUT
 $EndSCHEMATC
