@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Launch_Tower_Computer_III-cache
 LIBS:Solar_Array-cache
 EELAYER 25 0
 EELAYER END
@@ -100,23 +101,10 @@ F 3 "" H 6600 1450 60  0000 C CNN
 	1    6600 1450
 	0    1    1    0   
 $EndComp
-$Comp
-L C C4
-U 1 1 56A7DA5A
-P 7850 2150
-F 0 "C4" H 7875 2250 50  0000 L CNN
-F 1 ".1u" H 7875 2050 50  0000 L CNN
-F 2 "" H 7888 2000 30  0000 C CNN
-F 3 "" H 7850 2150 60  0000 C CNN
-	1    7850 2150
-	1    0    0    -1  
-$EndComp
 Text Notes 1200 9750 0    60   ~ 0
 ToDo:\n***Select component values\n***Design more robust automatic shutdown\n***Add mux for i2c\n***Low voltage warning to payload for save and reboot.\n***3.3v for uC (10 ma each uC)\n***PA need 20V
 Text Notes 3750 1250 1    60   ~ 0
 1%
-Text Notes 7200 4050 0    60   ~ 0
-add mux for i2c to share address 98
 $Comp
 L GND #PWR02
 U 1 1 56A96BD7
@@ -274,12 +262,12 @@ $EndComp
 $Comp
 L GND #PWR06
 U 1 1 56A9DF6A
-P 9150 1600
-F 0 "#PWR06" H 9150 1350 50  0001 C CNN
-F 1 "GND" H 9150 1450 50  0000 C CNN
-F 2 "" H 9150 1600 60  0000 C CNN
-F 3 "" H 9150 1600 60  0000 C CNN
-	1    9150 1600
+P 9150 1750
+F 0 "#PWR06" H 9150 1500 50  0001 C CNN
+F 1 "GND" H 9150 1600 50  0000 C CNN
+F 2 "" H 9150 1750 60  0000 C CNN
+F 3 "" H 9150 1750 60  0000 C CNN
+	1    9150 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -295,17 +283,6 @@ F 3 "" H 850 2800 60  0000 C CNN
 $EndComp
 Text Notes 9600 1050 0    50   ~ 0
 VCC_IN
-$Comp
-L D_Schottky D1
-U 1 1 56AA70D2
-P 1500 2750
-F 0 "D1" H 1500 2850 50  0000 C CNN
-F 1 "D_Schottky" H 1500 2650 50  0000 C CNN
-F 2 "" H 1500 2750 60  0000 C CNN
-F 3 "" H 1500 2750 60  0000 C CNN
-	1    1500 2750
-	-1   0    0    1   
-$EndComp
 Text Notes 3900 9500 0    60   ~ 0
 Notes:\n***3.3v for uC (10 ma each uC)\n***PA need 20V\n***Test BQ3060
 Wire Wire Line
@@ -315,22 +292,13 @@ Wire Wire Line
 Wire Wire Line
 	7600 2950 7850 2950
 Wire Wire Line
-	7850 3050 7600 3050
-Connection ~ 7850 3050
-Connection ~ 7850 2950
-Wire Wire Line
-	7850 2000 7850 1950
-Wire Wire Line
-	7850 1950 7300 1950
-Connection ~ 7300 1950
+	7600 3050 8350 3050
 Wire Notes Line
 	9000 1300 9000 4100
 Wire Notes Line
 	9000 4100 6050 4100
 Wire Notes Line
 	6050 4100 6050 1300
-Wire Wire Line
-	7850 2300 7850 3050
 Wire Wire Line
 	5900 2950 6400 2950
 Wire Wire Line
@@ -440,8 +408,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 1150 4000 1150
 Wire Wire Line
-	3900 950  9250 950 
-Wire Wire Line
 	3900 950  3900 1050
 Wire Wire Line
 	3000 3300 3250 3300
@@ -469,21 +435,6 @@ Wire Wire Line
 	8150 2750 8150 1250
 Wire Wire Line
 	8150 1250 9250 1250
-$Comp
-L CONN_01X06 P2
-U 1 1 56B283C9
-P 9450 1200
-F 0 "P2" H 9450 1550 50  0000 C CNN
-F 1 "CONN_01X06" V 9550 1200 50  0000 C CNN
-F 2 "" H 9450 1200 60  0000 C CNN
-F 3 "" H 9450 1200 60  0000 C CNN
-	1    9450 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9250 1450 9150 1450
-Wire Wire Line
-	9150 1450 9150 1600
 Wire Wire Line
 	8250 1350 8250 3800
 Wire Wire Line
@@ -497,7 +448,62 @@ i2c_DATA
 Text Notes 9600 1250 0    50   ~ 0
 i2c_CLOCK
 Text Notes 9600 1350 0    50   ~ 0
-X_SHUT
+i2c_ADR1
+Text Notes 9600 1550 0    50   ~ 0
+GND
+$Comp
+L D_Schottky D?
+U 1 1 56BAC557
+P 6600 950
+F 0 "D?" H 6600 1050 50  0000 C CNN
+F 1 "D_Schottky" H 6600 850 50  0000 C CNN
+F 2 "" H 6600 950 60  0000 C CNN
+F 3 "" H 6600 950 60  0000 C CNN
+	1    6600 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 950  6450 950 
+Wire Wire Line
+	6750 950  9250 950 
+Text Notes 7100 4200 0    60   ~ 0
+Add ESD protection on in and output -a TVS.\naim for 5.0 V
+Text Notes 1400 2700 0    60   ~ 0
+tvs here
+Text Notes 9350 650  0    60   ~ 0
+tvs' here not need for gnd
+$Comp
+L GND #PWR?
+U 1 1 56BAE8DD
+P 7850 3600
+F 0 "#PWR?" H 7850 3350 50  0001 C CNN
+F 1 "GND" H 7850 3450 50  0000 C CNN
+F 2 "" H 7850 3600 50  0000 C CNN
+F 3 "" H 7850 3600 50  0000 C CNN
+	1    7850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2950 7850 3600
+Wire Wire Line
+	8350 3050 8350 1450
+Wire Wire Line
+	8350 1450 9250 1450
+$Comp
+L CONN_01X07 P?
+U 1 1 56BAEA85
+P 9450 1250
+F 0 "P?" H 9450 1650 50  0000 C CNN
+F 1 "CONN_01X07" V 9550 1250 50  0000 C CNN
+F 2 "" H 9450 1250 50  0000 C CNN
+F 3 "" H 9450 1250 50  0000 C CNN
+	1    9450 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1550 9150 1550
+Wire Wire Line
+	9150 1550 9150 1750
 Text Notes 9600 1450 0    50   ~ 0
 GND
 $EndSCHEMATC
