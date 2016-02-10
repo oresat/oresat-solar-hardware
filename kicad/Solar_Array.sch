@@ -102,7 +102,7 @@ F 3 "" H 6600 1450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 1200 9750 0    60   ~ 0
-ToDo:\n***Select component values\n***Design more robust automatic shutdown\n***Add mux for i2c\n***Low voltage warning to payload for save and reboot.\n***3.3v for uC (10 ma each uC)\n***PA need 20V
+ToDo:\n***Design more robust automatic shutdown\n***Low voltage warning to payload for save and reboot.\n***Add PV Cells
 Text Notes 3750 1250 1    60   ~ 0
 1%
 $Comp
@@ -172,11 +172,11 @@ F 3 "" H 4900 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R R?
 U 1 1 56A97A23
 P 5150 2600
-F 0 "R5" V 5230 2600 50  0000 C CNN
-F 1 "R" V 5150 2600 50  0000 C CNN
+F 0 "R?" V 5230 2600 50  0000 C CNN
+F 1 "12k" V 5150 2600 50  0000 C CNN
 F 2 "" V 5080 2600 30  0000 C CNN
 F 3 "" H 5150 2600 30  0000 C CNN
 	1    5150 2600
@@ -187,7 +187,7 @@ L R R6
 U 1 1 56A97AAE
 P 5150 2900
 F 0 "R6" V 5230 2900 50  0000 C CNN
-F 1 "R" V 5150 2900 50  0000 C CNN
+F 1 "1k2" V 5150 2900 50  0000 C CNN
 F 2 "" V 5080 2900 30  0000 C CNN
 F 3 "" H 5150 2900 30  0000 C CNN
 	1    5150 2900
@@ -218,35 +218,24 @@ $EndComp
 $Comp
 L R R3
 U 1 1 56A9803B
-P 4400 2250
-F 0 "R3" V 4480 2250 50  0000 C CNN
-F 1 "R" V 4400 2250 50  0000 C CNN
-F 2 "" V 4330 2250 30  0000 C CNN
-F 3 "" H 4400 2250 30  0000 C CNN
-	1    4400 2250
+P 4400 1950
+F 0 "R3" V 4480 1950 50  0000 C CNN
+F 1 "10k" V 4400 1950 50  0000 C CNN
+F 2 "" V 4330 1950 30  0000 C CNN
+F 3 "" H 4400 1950 30  0000 C CNN
+	1    4400 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L R R2
 U 1 1 56A981E3
-P 3900 1950
-F 0 "R2" V 3980 1950 50  0000 C CNN
-F 1 "R" V 3900 1950 50  0000 C CNN
-F 2 "" V 3830 1950 30  0000 C CNN
-F 3 "" H 3900 1950 30  0000 C CNN
-	1    3900 1950
+P 3900 1700
+F 0 "R2" V 3980 1700 50  0000 C CNN
+F 1 ".007" V 3900 1700 50  0000 C CNN
+F 2 "" V 3830 1700 30  0000 C CNN
+F 3 "" H 3900 1700 30  0000 C CNN
+	1    3900 1700
 	-1   0    0    1   
-$EndComp
-$Comp
-L R R4
-U 1 1 56A98B14
-P 4900 2250
-F 0 "R4" V 4980 2250 50  0000 C CNN
-F 1 ".007" V 4900 2250 50  0000 C CNN
-F 2 "" V 4830 2250 30  0000 C CNN
-F 3 "" H 4900 2250 30  0000 C CNN
-	1    4900 2250
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
@@ -281,10 +270,145 @@ F 3 "" H 850 2800 60  0000 C CNN
 	1    850  2800
 	-1   0    0    1   
 $EndComp
-Text Notes 9600 1050 0    50   ~ 0
+Text Notes 11200 1050 0    50   ~ 0
 VCC_IN
 Text Notes 3900 9500 0    60   ~ 0
 Notes:\n***3.3v for uC (10 ma each uC)\n***PA need 20V\n***Test BQ3060
+Text Notes 11200 950  0    50   ~ 0
+V_OUT
+Text Notes 11200 1150 0    50   ~ 0
+i2c_DATA
+Text Notes 11200 1250 0    50   ~ 0
+i2c_CLOCK
+Text Notes 11200 1350 0    50   ~ 0
+X_SHUT
+Text Notes 11200 1550 0    50   ~ 0
+GND
+$Comp
+L D_Schottky D?
+U 1 1 56BAC557
+P 6600 950
+F 0 "D?" H 6600 1050 50  0000 C CNN
+F 1 "D_Schottky" H 6600 850 50  0000 C CNN
+F 2 "" H 6600 950 60  0000 C CNN
+F 3 "" H 6600 950 60  0000 C CNN
+	1    6600 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56BAE8DD
+P 7850 3600
+F 0 "#PWR?" H 7850 3350 50  0001 C CNN
+F 1 "GND" H 7850 3450 50  0000 C CNN
+F 2 "" H 7850 3600 50  0000 C CNN
+F 3 "" H 7850 3600 50  0000 C CNN
+	1    7850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X07 P?
+U 1 1 56BAEA85
+P 11050 1250
+F 0 "P?" H 11050 1650 50  0000 C CNN
+F 1 "CONN_01X07" V 11150 1250 50  0000 C CNN
+F 2 "" H 11050 1250 50  0000 C CNN
+F 3 "" H 11050 1250 50  0000 C CNN
+	1    11050 1250
+	1    0    0    -1  
+$EndComp
+Text Notes 11200 1450 0    50   ~ 0
+i2c_ADR1
+$Comp
+L TVS D?
+U 1 1 56BB9867
+P 1500 3050
+F 0 "D?" H 1500 3200 50  0000 C CNN
+F 1 "TVS" H 1500 2900 50  0000 C CNN
+F 2 "" H 1500 3050 50  0000 C CNN
+F 3 "" H 1500 3050 50  0000 C CNN
+	1    1500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56BB9B10
+P 1500 3350
+F 0 "#PWR?" H 1500 3100 50  0001 C CNN
+F 1 "GND" H 1500 3200 50  0000 C CNN
+F 2 "" H 1500 3350 50  0000 C CNN
+F 3 "" H 1500 3350 50  0000 C CNN
+	1    1500 3350
+	1    0    0    -1  
+$EndComp
+Text Notes 750  2500 0    60   ~ 0
+add actual pv cells
+$Comp
+L TVS D?
+U 1 1 56BBB34D
+P 9500 2000
+F 0 "D?" H 9500 2150 50  0000 C CNN
+F 1 "TVS" H 9500 1850 50  0000 C CNN
+F 2 "" H 9500 2000 50  0000 C CNN
+F 3 "" H 9500 2000 50  0000 C CNN
+	1    9500 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L TVS D?
+U 1 1 56BBB616
+P 9750 2000
+F 0 "D?" H 9750 2150 50  0000 C CNN
+F 1 "TVS" H 9750 1850 50  0000 C CNN
+F 2 "" H 9750 2000 50  0000 C CNN
+F 3 "" H 9750 2000 50  0000 C CNN
+	1    9750 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L TVS D?
+U 1 1 56BBB6B0
+P 10000 2000
+F 0 "D?" H 10000 2150 50  0000 C CNN
+F 1 "TVS" H 10000 1850 50  0000 C CNN
+F 2 "" H 10000 2000 50  0000 C CNN
+F 3 "" H 10000 2000 50  0000 C CNN
+	1    10000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L TVS D?
+U 1 1 56BBB711
+P 10250 2000
+F 0 "D?" H 10250 2150 50  0000 C CNN
+F 1 "TVS" H 10250 1850 50  0000 C CNN
+F 2 "" H 10250 2000 50  0000 C CNN
+F 3 "" H 10250 2000 50  0000 C CNN
+	1    10250 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L TVS D?
+U 1 1 56BBB769
+P 10500 2000
+F 0 "D?" H 10500 2150 50  0000 C CNN
+F 1 "TVS" H 10500 1850 50  0000 C CNN
+F 2 "" H 10500 2000 50  0000 C CNN
+F 3 "" H 10500 2000 50  0000 C CNN
+	1    10500 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L TVS D?
+U 1 1 56BBBE2D
+P 10750 2000
+F 0 "D?" H 10750 2150 50  0000 C CNN
+F 1 "TVS" H 10750 1850 50  0000 C CNN
+F 2 "" H 10750 2000 50  0000 C CNN
+F 3 "" H 10750 2000 50  0000 C CNN
+	1    10750 2000
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	7000 3350 7000 3600
 Wire Wire Line
@@ -355,11 +479,9 @@ Wire Wire Line
 	3150 2400 3350 2400
 Connection ~ 3900 2400
 Wire Wire Line
-	5150 1700 5150 2450
+	5150 1500 5150 2450
 Wire Wire Line
-	4900 1700 4900 2100
-Wire Wire Line
-	3900 2100 3900 2500
+	3900 1850 3900 2500
 Wire Wire Line
 	3900 3550 3900 3600
 Wire Notes Line
@@ -380,29 +502,12 @@ Wire Wire Line
 Wire Wire Line
 	7600 2650 8050 2650
 Wire Wire Line
-	4700 2250 4700 2600
-Wire Wire Line
-	4700 2600 4900 2600
-Wire Wire Line
-	4900 2400 4900 3000
-Connection ~ 4900 2600
-Wire Wire Line
 	4700 3100 4700 3000
 Wire Wire Line
 	4700 3000 4900 3000
-Wire Wire Line
-	5050 3300 5050 1700
 Connection ~ 4900 3300
 Wire Wire Line
 	3650 2400 3900 2400
-Wire Wire Line
-	4700 2250 4550 2250
-Connection ~ 3900 2250
-Wire Wire Line
-	3900 1350 3900 1800
-Connection ~ 4900 1700
-Connection ~ 5050 1700
-Connection ~ 3900 1700
 Wire Wire Line
 	5900 1250 4000 1250
 Wire Wire Line
@@ -412,98 +517,161 @@ Wire Wire Line
 Wire Wire Line
 	3000 3300 3250 3300
 Wire Wire Line
-	3900 1700 5150 1700
+	8050 1150 10850 1150
 Wire Wire Line
-	3900 2250 4250 2250
-Wire Wire Line
-	8050 1150 9250 1150
-Wire Wire Line
-	7300 1050 9250 1050
-Wire Wire Line
-	1050 2750 1350 2750
+	7300 1050 10850 1050
 Wire Wire Line
 	1050 2850 1250 2850
 Wire Wire Line
 	1250 2850 1250 3100
 Wire Wire Line
-	1650 2750 2450 2750
-Wire Wire Line
-	8250 1350 9250 1350
+	8250 1350 10850 1350
 Wire Wire Line
 	8050 2650 8050 1150
 Wire Wire Line
 	8150 2750 8150 1250
 Wire Wire Line
-	8150 1250 9250 1250
+	8150 1250 10850 1250
 Wire Wire Line
 	8250 1350 8250 3800
 Wire Wire Line
 	8250 3800 3000 3800
 Wire Wire Line
 	3000 3800 3000 3300
-Text Notes 9600 950  0    50   ~ 0
-V_OUT
-Text Notes 9600 1150 0    50   ~ 0
-i2c_DATA
-Text Notes 9600 1250 0    50   ~ 0
-i2c_CLOCK
-Text Notes 9600 1350 0    50   ~ 0
-i2c_ADR1
-Text Notes 9600 1550 0    50   ~ 0
-GND
-$Comp
-L D_Schottky D?
-U 1 1 56BAC557
-P 6600 950
-F 0 "D?" H 6600 1050 50  0000 C CNN
-F 1 "D_Schottky" H 6600 850 50  0000 C CNN
-F 2 "" H 6600 950 60  0000 C CNN
-F 3 "" H 6600 950 60  0000 C CNN
-	1    6600 950 
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3900 950  6450 950 
 Wire Wire Line
-	6750 950  9250 950 
-Text Notes 7100 4200 0    60   ~ 0
-Add ESD protection on in and output -a TVS.\naim for 5.0 V
-Text Notes 1400 2700 0    60   ~ 0
-tvs here
-Text Notes 9350 650  0    60   ~ 0
-tvs' here not need for gnd
-$Comp
-L GND #PWR?
-U 1 1 56BAE8DD
-P 7850 3600
-F 0 "#PWR?" H 7850 3350 50  0001 C CNN
-F 1 "GND" H 7850 3450 50  0000 C CNN
-F 2 "" H 7850 3600 50  0000 C CNN
-F 3 "" H 7850 3600 50  0000 C CNN
-	1    7850 3600
-	1    0    0    -1  
-$EndComp
+	6750 950  10850 950 
 Wire Wire Line
 	7850 2950 7850 3600
 Wire Wire Line
 	8350 3050 8350 1450
 Wire Wire Line
-	8350 1450 9250 1450
+	8350 1450 10850 1450
+Wire Wire Line
+	9150 1550 10850 1550
+Wire Wire Line
+	9150 1550 9150 1750
+Wire Wire Line
+	1050 2750 2450 2750
+Connection ~ 1500 2750
+Wire Wire Line
+	9500 1700 9500 950 
+Connection ~ 9500 950 
+Wire Wire Line
+	9750 1700 9750 1050
+Connection ~ 9750 1050
+Wire Wire Line
+	10000 1700 10000 1150
+Connection ~ 10000 1150
+Wire Wire Line
+	10250 1700 10250 1250
+Connection ~ 10250 1250
+Wire Wire Line
+	10500 1700 10500 1350
+Connection ~ 10500 1350
+Wire Wire Line
+	10750 1700 10750 1450
+Connection ~ 10750 1450
+Wire Wire Line
+	10750 2300 10750 2350
+Wire Wire Line
+	10750 2350 9500 2350
+Wire Wire Line
+	9500 2350 9500 2300
+Wire Wire Line
+	9750 2300 9750 2350
+Connection ~ 9750 2350
+Wire Wire Line
+	10000 2300 10000 2350
+Connection ~ 10000 2350
+Wire Wire Line
+	10250 2300 10250 2350
+Connection ~ 10250 2350
+Wire Wire Line
+	10500 2300 10500 2350
+Connection ~ 10500 2350
 $Comp
-L CONN_01X07 P?
-U 1 1 56BAEA85
-P 9450 1250
-F 0 "P?" H 9450 1650 50  0000 C CNN
-F 1 "CONN_01X07" V 9550 1250 50  0000 C CNN
-F 2 "" H 9450 1250 50  0000 C CNN
-F 3 "" H 9450 1250 50  0000 C CNN
-	1    9450 1250
+L GND #PWR?
+U 1 1 56BBC663
+P 10000 2350
+F 0 "#PWR?" H 10000 2100 50  0001 C CNN
+F 1 "GND" H 10000 2200 50  0000 C CNN
+F 2 "" H 10000 2350 50  0000 C CNN
+F 3 "" H 10000 2350 50  0000 C CNN
+	1    10000 2350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9250 1650 10350 1650
+Wire Notes Line
+	10350 1650 10350 2700
+Wire Notes Line
+	10350 2700 9250 2700
+Wire Notes Line
+	9250 2700 9250 1650
+Wire Notes Line
+	10400 1650 10400 2700
+Wire Notes Line
+	10400 2700 11050 2700
+Wire Notes Line
+	11050 2700 11050 1650
+Wire Notes Line
+	11050 1650 10400 1650
+Text Notes 9300 2650 0    60   ~ 0
+ESD5004
+Wire Wire Line
+	4900 3000 4900 1950
+$Comp
+L R R?
+U 1 1 56BBD407
+P 5050 2100
+F 0 "R?" V 5130 2100 50  0000 C CNN
+F 1 "10k" V 5050 2100 50  0000 C CNN
+F 2 "" V 4980 2100 30  0000 C CNN
+F 3 "" H 5050 2100 30  0000 C CNN
+	1    5050 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 3300 5050 2250
+Wire Wire Line
+	5050 1500 5050 1950
+Text Notes 4000 1800 1    41   ~ 0
+shunt
+$Comp
+L GND #PWR?
+U 1 1 56BBD7C0
+P 2850 2350
+F 0 "#PWR?" H 2850 2100 50  0001 C CNN
+F 1 "GND" H 2850 2200 50  0000 C CNN
+F 2 "" H 2850 2350 50  0000 C CNN
+F 3 "" H 2850 2350 50  0000 C CNN
+	1    2850 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 1550 9150 1550
+	3900 1500 5150 1500
 Wire Wire Line
-	9150 1550 9150 1750
-Text Notes 9600 1450 0    50   ~ 0
-GND
+	3900 1350 3900 1550
+Connection ~ 3900 1500
+Connection ~ 5050 1500
+Wire Wire Line
+	2850 1950 4250 1950
+Connection ~ 3900 1950
+Wire Wire Line
+	4900 1950 4550 1950
+$Comp
+L C C?
+U 1 1 56BBDDFD
+P 2850 2200
+F 0 "C?" H 2875 2300 50  0000 L CNN
+F 1 ".1u" H 2875 2100 50  0000 L CNN
+F 2 "" H 2888 2050 50  0000 C CNN
+F 3 "" H 2850 2200 50  0000 C CNN
+	1    2850 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1950 2850 2050
 $EndSCHEMATC

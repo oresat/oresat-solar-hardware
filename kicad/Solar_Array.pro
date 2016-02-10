@@ -1,4 +1,4 @@
-update=Sat 23 Jan 2016 10:17:37 PM PST
+update=Wed 10 Feb 2016 12:03:07 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../launch-tower/ltc3/kicad;../../launch-tower/ltc3/kicad/libs/symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
