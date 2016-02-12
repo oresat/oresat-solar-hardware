@@ -101,7 +101,7 @@ F 3 "" H 6600 1450 60  0000 C CNN
 	1    6600 1450
 	0    1    1    0   
 $EndComp
-Text Notes 850  9900 0    60   ~ 0
+Text Notes 800  9600 0    60   ~ 0
 ToDo:\n***Design more robust automatic shutdown\n***Low voltage warning to payload for save and reboot.\n******LTCwill sniff voltages and software can warn payload of LV?\n***Add PV Cells
 Text Notes 3750 1250 1    60   ~ 0
 1%
@@ -273,7 +273,7 @@ $EndComp
 Text Notes 11200 1050 0    50   ~ 0
 VCC_IN
 Text Notes 3900 9500 0    60   ~ 0
-Notes:\n***3.3v for uC (10 ma each uC)\n***PA need 20V\n***Test BQ3060
+Notes:\n***Output is 5V\n***Test BQ3060
 Text Notes 11200 950  0    50   ~ 0
 V_OUT
 Text Notes 11200 1150 0    50   ~ 0
@@ -601,21 +601,11 @@ F 3 "" H 10000 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	9250 1650 10350 1650
-Wire Notes Line
-	10350 1650 10350 2700
-Wire Notes Line
-	10350 2700 9250 2700
+	9250 1650 11050 1650
 Wire Notes Line
 	9250 2700 9250 1650
 Wire Notes Line
-	10400 1650 10400 2700
-Wire Notes Line
-	10400 2700 11050 2700
-Wire Notes Line
-	11050 2700 11050 1650
-Wire Notes Line
-	11050 1650 10400 1650
+	11050 1650 11050 2700
 Text Notes 9300 2650 0    60   ~ 0
 PESD5V0F1BL
 Wire Wire Line
@@ -687,4 +677,6 @@ Wire Wire Line
 	7850 3450 7850 3600
 Wire Wire Line
 	7850 2950 7850 3150
+Wire Notes Line
+	11050 2700 9250 2700
 $EndSCHEMATC
