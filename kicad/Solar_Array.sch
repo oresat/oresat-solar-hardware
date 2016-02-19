@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:LTC299x
+LIBS:Launch_Tower_Computer_III-cache
 LIBS:TLP
 LIBS:switches
 LIBS:SUM110P08-11
@@ -93,7 +94,7 @@ U 1 1 56A7974E
 P 6850 1650
 F 0 "Q1" H 7150 1700 50  0000 R CNN
 F 1 "Q_NPN_BCE" H 7450 1600 50  0000 R CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_SmallPads" H 7050 1750 29  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7050 1750 29  0001 C CNN
 F 3 "" H 6850 1650 60  0000 C CNN
 	1    6850 1650
 	0    1    1    0   
