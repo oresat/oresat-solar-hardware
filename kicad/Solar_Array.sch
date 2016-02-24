@@ -111,7 +111,7 @@ F 3 "" H 6600 1450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 800  9600 0    60   ~ 0
-ToDo:\n***Design more robust automatic shutdown\n***Low voltage warning to payload for save and reboot.\n******LTCwill sniff voltages and software can warn payload of LV?\n***Add PV Cells
+ToDo:\n***Design more robust automatic shutdown\n***Low voltage warning to payload for save and reboot.\n******LTCwill sniff voltages and software can warn payload of LV?\n***Add PV Cells\n**Consider replacing LTC2990\n*****http://www.ti.com/product/ina209
 Text Notes 3750 1250 1    60   ~ 0
 1%
 $Comp
@@ -282,7 +282,7 @@ $EndComp
 Text Notes 11200 1050 0    50   ~ 0
 VCC_IN
 Text Notes 3900 9500 0    60   ~ 0
-Notes:\n***Input is 7 0.7V OC Monocrystalline PV Cells\n***Output is 5V\n***Test BQ3060
+Notes:\n***Input is 10 0.6V OC Monocrystalline PV Cells\n      	Input V is likely ~5.1-5.28V\n	Monocrystalline Cells lose 12-15% efficiency\n	at temperatures over 50C\n***Output is 5V\n***Test BQ3060
 Text Notes 11200 950  0    50   ~ 0
 V_OUT
 Text Notes 11200 1150 0    50   ~ 0

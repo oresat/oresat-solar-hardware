@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:LTC299x
+LIBS:Launch_Tower_Computer_III-cache
 LIBS:TLP
 LIBS:switches
 LIBS:SUM110P08-11
@@ -93,7 +94,7 @@ U 1 1 56A7974E
 P 6850 1650
 F 0 "Q1" H 7150 1700 50  0000 R CNN
 F 1 "Q_NPN_BCE" H 7450 1600 50  0000 R CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_SmallPads" H 7050 1750 29  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7050 1750 29  0001 C CNN
 F 3 "" H 6850 1650 60  0000 C CNN
 	1    6850 1650
 	0    1    1    0   
@@ -110,7 +111,7 @@ F 3 "" H 6600 1450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 800  9600 0    60   ~ 0
-ToDo:\n***Design more robust automatic shutdown\n***Low voltage warning to payload for save and reboot.\n******LTCwill sniff voltages and software can warn payload of LV?\n***Add PV Cells
+ToDo:\n***Design more robust automatic shutdown\n***Low voltage warning to payload for save and reboot.\n******LTCwill sniff voltages and software can warn payload of LV?\n***Add PV Cells\n**Consider replacing LTC2990\n*****http://www.ti.com/product/ina209
 Text Notes 3750 1250 1    60   ~ 0
 1%
 $Comp
