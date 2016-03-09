@@ -1,4 +1,4 @@
-update=Sat 13 Feb 2016 01:54:19 PM PST
+update=Tue 08 Mar 2016 08:50:56 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -79,3 +79,13 @@ LibName47=libs/symbols/BeagleBone_Black
 LibName48=libs/symbols/battery_single_cell
 LibName49=libs/symbols/741g08
 LibName50=libs/symbols/4n35
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
