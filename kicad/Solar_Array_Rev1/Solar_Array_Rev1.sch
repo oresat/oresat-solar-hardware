@@ -342,7 +342,7 @@ L C C6
 U 1 1 56FC33BF
 P 5750 2750
 F 0 "C6" H 5775 2850 50  0000 L CNN
-F 1 "C" H 5775 2650 50  0000 L CNN
+F 1 "216" H 5775 2650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5788 2600 50  0001 C CNN
 F 3 "" H 5750 2750 50  0000 C CNN
 	1    5750 2750
@@ -462,7 +462,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3250 8500 2550
 Wire Wire Line
-	8500 2550 10150 2550
+	8500 2550 10200 2550
 $Comp
 L GND #PWR08
 U 1 1 56FCAF6F
@@ -505,7 +505,7 @@ F 1 "CONN_01X07" V 10550 2500 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 10450 2500 50  0001 C CNN
 F 3 "" H 10450 2500 50  0000 C CNN
 	1    10450 2500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9900 2400 9900 2200
@@ -518,11 +518,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 2500 10100 2500
 Wire Wire Line
-	10100 2500 10100 2400
-Wire Wire Line
 	10100 2400 10250 2400
-Wire Wire Line
-	10150 2550 10150 2500
 Wire Wire Line
 	3350 3800 3350 4400
 Wire Wire Line
@@ -535,27 +531,17 @@ Wire Wire Line
 	10100 2650 10100 2700
 Wire Wire Line
 	10100 2700 10250 2700
-Wire Wire Line
-	10050 2800 10250 2800
-Wire Wire Line
-	10050 2800 10050 2950
 $Comp
 L GND #PWR010
 U 1 1 56FCEB98
-P 10050 2950
-F 0 "#PWR010" H 10050 2700 50  0001 C CNN
-F 1 "GND" H 10050 2800 50  0000 C CNN
-F 2 "" H 10050 2950 50  0000 C CNN
-F 3 "" H 10050 2950 50  0000 C CNN
-	1    10050 2950
+P 10200 2900
+F 0 "#PWR010" H 10200 2650 50  0001 C CNN
+F 1 "GND" H 10200 2750 50  0000 C CNN
+F 2 "" H 10200 2900 50  0000 C CNN
+F 3 "" H 10200 2900 50  0000 C CNN
+	1    10200 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8900 2950 8900 2400
-Connection ~ 8900 2400
-Wire Wire Line
-	9100 2450 9100 3000
-Connection ~ 9100 2450
 Wire Wire Line
 	9300 2500 9300 3150
 Connection ~ 9300 2500
@@ -671,19 +657,13 @@ Wire Wire Line
 Wire Wire Line
 	4050 4450 8650 4450
 Wire Wire Line
-	8650 4450 8650 2950
-Wire Wire Line
-	8650 2950 8900 2950
+	8650 4450 8650 2400
 Wire Wire Line
 	4000 5150 4100 5150
 Wire Wire Line
 	4100 5150 4100 4500
 Wire Wire Line
 	4100 4500 8700 4500
-Wire Wire Line
-	8700 4500 8700 3000
-Wire Wire Line
-	8700 3000 9100 3000
 $Comp
 L GND #PWR012
 U 1 1 56FC80D2
@@ -731,18 +711,40 @@ Text Notes 4000 2350 0    60   ~ 0
 5V
 Text Notes 1600 3200 0    60   ~ 0
 0-3.5V
-Wire Wire Line
-	10150 2500 10250 2500
 Text Notes 10300 2200 2    39   ~ 0
 Vout
 Text Notes 10300 2300 2    39   ~ 0
 VCC
 Text Notes 10300 2400 2    39   ~ 0
 SDA
-Text Notes 10300 2500 2    39   ~ 0
-SCL
 Text Notes 10300 2600 2    39   ~ 0
 ADR1
 Text Notes 10300 2700 2    39   ~ 0
 XSHUT
+Text Notes 7400 7500 0    60   ~ 0
+Cubesat 0 Solar Array
+Text Notes 10600 7650 0    60   ~ 0
+Rev 1.0
+Text Notes 8150 7650 0    60   ~ 0
+March 29, 2016
+Text Notes 7050 6900 0    60   ~ 0
+Portland State Aerospace Society\nAustin Joseph\nAndrew Greenberg
+Wire Wire Line
+	10100 2500 10100 2400
+Text Notes 10300 2500 2    39   ~ 0
+SCL
+Wire Wire Line
+	10200 2550 10200 2500
+Wire Wire Line
+	10200 2500 10250 2500
+Wire Wire Line
+	10200 2800 10200 2900
+Wire Wire Line
+	10250 2800 10200 2800
+Connection ~ 8650 2400
+Wire Wire Line
+	8700 4500 8700 2450
+Connection ~ 8700 2450
+Text Notes 1250 7100 0    60   ~ 0
+TODO\nClean up CONN1x7\nDouble Check Breakdown voltage of diode array
 $EndSCHEMATC
