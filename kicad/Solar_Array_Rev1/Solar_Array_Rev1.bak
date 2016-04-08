@@ -431,7 +431,7 @@ Wire Wire Line
 	7450 2400 7450 2650
 Connection ~ 5750 2400
 Wire Wire Line
-	7750 2400 7750 2650
+	7750 2200 7750 2650
 Connection ~ 7450 2400
 Connection ~ 7750 2400
 $Comp
@@ -448,21 +448,15 @@ $EndComp
 Wire Wire Line
 	5150 2400 7450 2400
 Wire Wire Line
-	7750 2400 9900 2400
+	8050 2300 8050 2650
 Wire Wire Line
-	8050 2650 8050 2450
+	8450 3150 8350 3150
 Wire Wire Line
-	8050 2450 10000 2450
+	8450 2400 8450 3150
 Wire Wire Line
-	8350 3150 8450 3150
+	8500 3250 8350 3250
 Wire Wire Line
-	8450 3150 8450 2500
-Wire Wire Line
-	8350 3250 8500 3250
-Wire Wire Line
-	8500 3250 8500 2550
-Wire Wire Line
-	8500 2550 10200 2550
+	8500 2500 8500 3250
 $Comp
 L GND #PWR08
 U 1 1 56FCAF6F
@@ -508,29 +502,17 @@ F 3 "" H 10450 2500 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	9900 2400 9900 2200
+	7750 2200 10250 2200
 Wire Wire Line
-	9900 2200 10250 2200
+	8050 2300 10250 2300
 Wire Wire Line
-	10000 2450 10000 2300
-Wire Wire Line
-	10000 2300 10250 2300
-Wire Wire Line
-	8450 2500 10100 2500
-Wire Wire Line
-	10100 2400 10250 2400
+	8450 2400 10250 2400
 Wire Wire Line
 	3350 3800 3350 4400
 Wire Wire Line
 	3350 4400 8600 4400
 Wire Wire Line
-	8600 4400 8600 2650
-Wire Wire Line
-	8600 2650 10100 2650
-Wire Wire Line
-	10100 2650 10100 2700
-Wire Wire Line
-	10100 2700 10250 2700
+	8600 2700 10250 2700
 $Comp
 L GND #PWR010
 U 1 1 56FCEB98
@@ -543,23 +525,8 @@ F 3 "" H 10200 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 2950 8900 2400
-Connection ~ 8900 2400
-Wire Wire Line
-	9100 2450 9100 3000
-Connection ~ 9100 2450
-Wire Wire Line
-	9300 2500 9300 3150
-Connection ~ 9300 2500
-Wire Wire Line
-	9500 2550 9500 3250
-Connection ~ 9500 2550
-Wire Wire Line
 	9700 2600 9700 3250
 Connection ~ 9700 2600
-Wire Wire Line
-	9900 2650 9900 3150
-Connection ~ 9900 2650
 $Comp
 L C C4
 U 1 1 56FD0100
@@ -641,17 +608,13 @@ Wire Wire Line
 Wire Wire Line
 	10700 3150 9900 3150
 Wire Wire Line
-	9100 3600 9050 3600
+	9050 3600 9100 3600
 Wire Wire Line
-	9050 3600 9050 3250
+	9050 2500 9050 3600
 Wire Wire Line
-	9050 3250 9500 3250
+	8950 4000 9100 4000
 Wire Wire Line
-	9100 4000 8950 4000
-Wire Wire Line
-	8950 4000 8950 3150
-Wire Wire Line
-	8950 3150 9300 3150
+	8950 2400 8950 4000
 Wire Wire Line
 	1850 3250 1850 4700
 Wire Wire Line
@@ -663,19 +626,13 @@ Wire Wire Line
 Wire Wire Line
 	4050 4450 8650 4450
 Wire Wire Line
-	8650 4450 8650 2950
-Wire Wire Line
-	8650 2950 8900 2950
+	8650 4450 8650 2200
 Wire Wire Line
 	4000 5150 4100 5150
 Wire Wire Line
 	4100 5150 4100 4500
 Wire Wire Line
 	4100 4500 8700 4500
-Wire Wire Line
-	8700 4500 8700 3000
-Wire Wire Line
-	8700 3000 9100 3000
 $Comp
 L GND #PWR012
 U 1 1 56FC80D2
@@ -741,16 +698,26 @@ Text Notes 8150 7650 0    60   ~ 0
 March 29, 2016
 Text Notes 7050 6900 0    60   ~ 0
 Portland State Aerospace Society\nAustin Joseph\nAndrew Greenberg
-Wire Wire Line
-	10100 2500 10100 2400
 Text Notes 10300 2500 2    39   ~ 0
 SCL
 Wire Wire Line
-	10200 2550 10200 2500
-Wire Wire Line
-	10200 2500 10250 2500
+	8500 2500 10250 2500
 Wire Wire Line
 	10200 2800 10200 2900
 Wire Wire Line
 	10250 2800 10200 2800
+Wire Wire Line
+	8700 4500 8700 2300
+Text Notes 1250 7100 0    60   ~ 0
+TODO\nClean up CONN1x7\nDouble Check Breakdown voltage of diode array
+Connection ~ 8650 2200
+Connection ~ 8050 2450
+Connection ~ 8700 2300
+Wire Wire Line
+	8600 4400 8600 2700
+Connection ~ 8950 2400
+Connection ~ 9050 2500
+Wire Wire Line
+	9900 3150 9900 2700
+Connection ~ 9900 2700
 $EndSCHEMATC
