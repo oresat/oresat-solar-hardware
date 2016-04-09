@@ -320,7 +320,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 57083269) (tstamp 56FC55CF)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 57083294) (tstamp 56FC55CF)
     (at 148.209 99.441)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -329,7 +329,7 @@
     (fp_text reference C6 (at 0 -0.254) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value C (at 0 0.381) (layer F.Fab)
+    (fp_text value 22u (at 0 0.381) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -1.45 -0.75) (end 1.45 -0.75) (layer F.CrtYd) (width 0.05))
