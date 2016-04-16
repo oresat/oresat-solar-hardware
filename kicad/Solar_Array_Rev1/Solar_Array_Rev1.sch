@@ -189,17 +189,6 @@ F 3 "" H 6050 2400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C6
-U 1 1 56FC2C40
-P 5300 2600
-F 0 "C6" H 5325 2700 50  0000 L CNN
-F 1 "22u" H 5325 2500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5338 2450 50  0001 C CNN
-F 3 "" H 5300 2600 50  0000 C CNN
-	1    5300 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR04
 U 1 1 56FC2C93
 P 5450 2950
@@ -244,77 +233,6 @@ F 3 "" H 6450 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ZENER D2
-U 1 1 56FC305C
-P 5600 2650
-F 0 "D2" H 5600 2750 50  0000 C CNN
-F 1 "ZENER" H 5600 2550 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-323" H 5600 2650 50  0001 C CNN
-F 3 "" H 5600 2650 50  0000 C CNN
-	1    5600 2650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2600 3350 2600 3250
-Wire Wire Line
-	4150 3250 4400 3250
-Wire Wire Line
-	4250 3250 4250 2900
-Wire Wire Line
-	4250 2900 4500 2900
-Connection ~ 4250 3250
-Wire Wire Line
-	4800 2900 5050 2900
-Wire Wire Line
-	5050 2400 5050 3000
-Connection ~ 5050 2900
-Connection ~ 2850 3250
-Wire Wire Line
-	4000 3550 4400 3550
-Wire Wire Line
-	5050 4150 5050 4050
-Wire Wire Line
-	4100 3650 4100 3550
-Connection ~ 4100 3550
-Wire Wire Line
-	4100 3950 4100 4050
-Wire Wire Line
-	5800 3250 5900 3250
-Wire Wire Line
-	6200 3500 5800 3500
-Wire Wire Line
-	6200 2950 6200 3500
-Connection ~ 6200 3250
-Wire Wire Line
-	5850 3250 5850 2950
-Connection ~ 5850 3250
-Wire Wire Line
-	5050 2400 5900 2400
-Wire Wire Line
-	5850 2650 5850 2400
-Connection ~ 5850 2400
-Wire Wire Line
-	6450 2400 6450 3250
-Connection ~ 6450 2400
-Wire Wire Line
-	6450 3700 5800 3700
-Connection ~ 6450 3700
-Wire Wire Line
-	5300 2450 5300 2400
-Connection ~ 5300 2400
-Wire Wire Line
-	5600 2450 5600 2400
-Connection ~ 5600 2400
-Wire Wire Line
-	5300 2750 5300 2900
-Wire Wire Line
-	5300 2900 5600 2900
-Wire Wire Line
-	5600 2900 5600 2850
-Wire Wire Line
-	5450 2950 5450 2900
-Connection ~ 5450 2900
-$Comp
 L C C9
 U 1 1 56FC33BF
 P 6800 2700
@@ -336,8 +254,6 @@ F 3 "" H 6800 3000 50  0000 C CNN
 	1    6800 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6800 2850 6800 3000
 $Comp
 L CONN_01X02 P1
 U 1 1 56FC3614
@@ -349,7 +265,6 @@ F 3 "" H 700 3300 50  0000 C CNN
 	1    700  3300
 	-1   0    0    1   
 $EndComp
-Connection ~ 2600 3250
 $Comp
 L GND #PWR07
 U 1 1 56FC3723
@@ -383,51 +298,17 @@ F 3 "" H 7100 3550 50  0000 C CNN
 	1    7100 3550
 	0    1    1    0   
 $EndComp
-Connection ~ 7300 3050
-Wire Wire Line
-	7000 3250 6950 3250
-Wire Wire Line
-	6950 3050 6950 3550
-Wire Wire Line
-	7250 3550 7400 3550
-Wire Wire Line
-	7300 3550 7300 3450
-Wire Wire Line
-	7400 3550 7400 3450
-Wire Wire Line
-	7400 3450 7700 3450
-Connection ~ 7300 3550
-Wire Wire Line
-	6950 3050 7700 3050
-Connection ~ 6950 3250
-Wire Wire Line
-	8000 2400 8000 2650
-Connection ~ 6800 2400
-Wire Wire Line
-	8300 2200 8300 2650
-Connection ~ 8000 2400
-Connection ~ 8300 2400
 $Comp
 L R R9
 U 1 1 56FCABFE
-P 8150 2400
-F 0 "R9" V 8230 2400 50  0000 C CNN
-F 1 ".3" V 8150 2400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8080 2400 50  0001 C CNN
-F 3 "" H 8150 2400 50  0000 C CNN
-	1    8150 2400
+P 6050 2050
+F 0 "R9" V 6130 2050 50  0000 C CNN
+F 1 "NP" V 6050 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5980 2050 50  0001 C CNN
+F 3 "" H 6050 2050 50  0000 C CNN
+	1    6050 2050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8600 2300 8600 2650
-Wire Wire Line
-	9000 3150 8900 3150
-Wire Wire Line
-	9000 2400 9000 3150
-Wire Wire Line
-	9050 3250 8900 3250
-Wire Wire Line
-	9050 2500 9050 3250
 $Comp
 L GND #PWR08
 U 1 1 56FCAF6F
@@ -439,16 +320,6 @@ F 3 "" H 8300 3950 50  0000 C CNN
 	1    8300 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8300 3950 8300 3850
-Wire Wire Line
-	8900 3550 9100 3550
-Wire Wire Line
-	9100 3550 9100 2600
-Wire Wire Line
-	9100 2600 10800 2600
-Wire Wire Line
-	8900 3450 9000 3450
 $Comp
 L GND #PWR09
 U 1 1 56FCBA35
@@ -471,12 +342,6 @@ F 3 "" H 11000 2500 50  0000 C CNN
 	1    11000 2500
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	8600 2300 10800 2300
-Wire Wire Line
-	9000 2400 10800 2400
-Wire Wire Line
-	9150 2700 10800 2700
 $Comp
 L GND #PWR010
 U 1 1 56FCEB98
@@ -510,11 +375,6 @@ F 3 "" H 5850 4200 50  0000 C CNN
 	1    5850 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5850 4200 5850 4100
-Wire Wire Line
-	5850 3800 5850 3700
-Connection ~ 5850 3700
 $Comp
 L R R10
 U 1 1 56FD0BDD
@@ -526,14 +386,6 @@ F 3 "" H 9000 3800 50  0000 C CNN
 	1    9000 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 3450 9000 3650
-Wire Wire Line
-	9000 3950 9000 4100
-Wire Wire Line
-	6450 3550 6450 3800
-Wire Wire Line
-	6450 4100 6450 4200
 $Comp
 L GND #PWR012
 U 1 1 56FC80D2
@@ -547,8 +399,8 @@ F 3 "" H 1200 3850 50  0000 C CNN
 $EndComp
 Text Notes 6000 2300 0    60   ~ 0
 1%
-Text Notes 8100 2300 0    60   ~ 0
-1%
+Text Notes 6000 1950 0    60   ~ 0
+1% .3V
 Text Notes 5050 2350 0    60   ~ 0
 5V
 Text Notes 600  3000 0    60   ~ 0
@@ -565,20 +417,8 @@ Text Notes 10600 7650 0    60   ~ 0
 Rev 1.0
 Text Notes 10850 2500 2    39   ~ 0
 SCL
-Wire Wire Line
-	9050 2500 10800 2500
-Wire Wire Line
-	10750 2800 10750 2900
-Wire Wire Line
-	10800 2800 10750 2800
 Text Notes 1250 7100 0    60   ~ 0
 TODO\n-NMOS can be small\n-PMOS need to handle 1 amp\n-Very good notes please\n-Assign TVS to diode symbols on schema, \n--find out how to assign to parts of ic's\n--NUP4202W1_4INPUT_TVS\n
-Connection ~ 8600 2450
-Wire Wire Line
-	9150 4400 9150 2700
-Wire Wire Line
-	10450 2700 10450 3250
-Connection ~ 10450 2700
 $Comp
 L LTC2990.1 IC3
 U 1 1 57094BE2
@@ -634,29 +474,6 @@ F 3 "" H 2000 3350 50  0000 C CNN
 	1    2000 3350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6200 2400 8000 2400
-Wire Wire Line
-	6200 2650 6200 2400
-Wire Wire Line
-	1550 3650 2000 3650
-Wire Wire Line
-	2000 3550 2000 3700
-Connection ~ 2000 3650
-Wire Wire Line
-	900  3250 1800 3250
-Wire Wire Line
-	1550 3350 1550 3250
-Connection ~ 1550 3250
-Wire Wire Line
-	1350 3350 1350 3250
-Connection ~ 1350 3250
-Wire Wire Line
-	1700 3900 1350 3900
-Wire Wire Line
-	1350 3650 1350 4400
-Wire Wire Line
-	2000 4100 2000 4150
 $Comp
 L GND #PWR013
 U 1 1 5709901A
@@ -668,45 +485,8 @@ F 3 "" H 2000 4150 50  0000 C CNN
 	1    2000 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1350 4400 9150 4400
-Connection ~ 1350 3900
-Wire Wire Line
-	2200 3250 3550 3250
 Text Notes 10850 2700 2    39   ~ 0
 FETS
-Connection ~ 1200 3250
-Wire Wire Line
-	4400 3800 4300 3800
-Wire Wire Line
-	4300 3800 4300 3550
-Connection ~ 4300 3550
-Wire Wire Line
-	10000 3250 10000 2400
-Connection ~ 10000 2400
-Connection ~ 10150 2500
-Wire Wire Line
-	10300 3250 10300 2600
-Connection ~ 10300 2600
-Wire Wire Line
-	9750 3250 9750 2300
-Connection ~ 9750 2300
-Wire Wire Line
-	9600 3850 9600 4100
-Wire Wire Line
-	9600 4100 10450 4100
-Wire Wire Line
-	10450 4100 10450 3850
-Wire Wire Line
-	10300 3850 10300 4100
-Connection ~ 10300 4100
-Connection ~ 10150 4100
-Wire Wire Line
-	10000 3850 10000 4200
-Connection ~ 10000 4100
-Wire Wire Line
-	9750 3850 9750 4100
-Connection ~ 9750 4100
 $Comp
 L GND #PWR014
 U 1 1 570C3955
@@ -795,10 +575,6 @@ F 3 "" H 10450 3550 50  0000 C CNN
 	2    10450 3550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10150 3250 10150 2500
-Wire Wire Line
-	10150 3850 10150 4100
 $Comp
 L C C2
 U 1 1 570C5D46
@@ -832,29 +608,6 @@ F 3 "" H 3100 3500 50  0000 C CNN
 	1    3100 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 3350 2350 3250
-Connection ~ 2350 3250
-Wire Wire Line
-	2850 3250 2850 3350
-Wire Wire Line
-	3100 3250 3100 3350
-Connection ~ 3100 3250
-Wire Wire Line
-	3400 3550 3400 3250
-Connection ~ 3400 3250
-Wire Wire Line
-	2350 3650 2350 3700
-Wire Wire Line
-	2350 3700 3100 3700
-Wire Wire Line
-	3100 3700 3100 3650
-Wire Wire Line
-	2850 3650 2850 3700
-Connection ~ 2850 3700
-Wire Wire Line
-	2600 3650 2600 3700
-Connection ~ 2600 3700
 $Comp
 L C C10
 U 1 1 570C70B1
@@ -888,6 +641,243 @@ F 3 "" H 7400 2700 50  0000 C CNN
 	1    7400 2700
 	1    0    0    -1  
 $EndComp
+Text Notes 1250 4850 0    60   ~ 0
+These Fets act as a\nmore robust shut-\ndown than XShut.
+Text Notes 2250 4850 0    60   ~ 0
+Input filter caps\ndesigned for ~10mV \nripple voltage.
+Text Notes 3400 4850 0    60   ~ 0
+SPV1040\nMaximum Power Point Tracker\nVoltage set to 5V. 
+Text Notes 6650 4750 0    60   ~ 0
+Output Filter Caps\nSet for 10mV ripple.
+Text Notes 7650 5300 0    60   ~ 0
+LTC2990\nTemperature, Voltage\nand Current Monitor\nI2C designed on a bus.\nLTC2990 should be\npowered down when\nnot being sourced by\nAtMega.
+Text Notes 9400 4850 0    60   ~ 0
+TVS Diode Array\n2 packages TVS diodes \ntied to ground Vbr ~6V
+$Comp
+L C C14
+U 1 1 570D89CF
+P 3850 3800
+F 0 "C14" H 3875 3900 50  0000 L CNN
+F 1 "1.2u" H 3875 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3888 3650 50  0001 C CNN
+F 3 "" H 3850 3800 50  0000 C CNN
+	1    3850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 56FC2C40
+P 5450 2600
+F 0 "C6" H 5475 2700 50  0000 L CNN
+F 1 "22u" H 5475 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5488 2450 50  0001 C CNN
+F 3 "" H 5450 2600 50  0000 C CNN
+	1    5450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3350 2600 3250
+Wire Wire Line
+	4150 3250 4400 3250
+Wire Wire Line
+	4250 3250 4250 2900
+Wire Wire Line
+	4250 2900 4500 2900
+Connection ~ 4250 3250
+Wire Wire Line
+	4800 2900 5050 2900
+Wire Wire Line
+	5050 2400 5050 3000
+Connection ~ 5050 2900
+Connection ~ 2850 3250
+Wire Wire Line
+	4000 3550 4400 3550
+Wire Wire Line
+	5050 4150 5050 4050
+Wire Wire Line
+	4100 3650 4100 3550
+Connection ~ 4100 3550
+Wire Wire Line
+	4100 3950 4100 4050
+Wire Wire Line
+	5800 3250 5900 3250
+Wire Wire Line
+	6200 3500 5800 3500
+Wire Wire Line
+	6200 2950 6200 3500
+Connection ~ 6200 3250
+Wire Wire Line
+	5850 3250 5850 2950
+Connection ~ 5850 3250
+Wire Wire Line
+	5050 2400 5900 2400
+Connection ~ 5850 2400
+Wire Wire Line
+	6450 2400 6450 3250
+Connection ~ 6450 2400
+Wire Wire Line
+	6450 3700 5800 3700
+Connection ~ 6450 3700
+Wire Wire Line
+	5450 2750 5450 2950
+Wire Wire Line
+	6800 2850 6800 3000
+Connection ~ 2600 3250
+Connection ~ 7300 3050
+Wire Wire Line
+	7000 3250 6950 3250
+Wire Wire Line
+	6950 3050 6950 3550
+Wire Wire Line
+	7250 3550 7400 3550
+Wire Wire Line
+	7300 3550 7300 3450
+Wire Wire Line
+	7400 3550 7400 3450
+Wire Wire Line
+	7400 3450 7700 3450
+Connection ~ 7300 3550
+Wire Wire Line
+	6950 3050 7700 3050
+Connection ~ 6950 3250
+Connection ~ 6800 2400
+Wire Wire Line
+	8600 2300 8600 2650
+Wire Wire Line
+	9000 3150 8900 3150
+Wire Wire Line
+	9000 2400 9000 3150
+Wire Wire Line
+	9050 3250 8900 3250
+Wire Wire Line
+	9050 2500 9050 3250
+Wire Wire Line
+	8300 3950 8300 3850
+Wire Wire Line
+	8900 3550 9100 3550
+Wire Wire Line
+	9100 3550 9100 2600
+Wire Wire Line
+	9100 2600 10800 2600
+Wire Wire Line
+	8900 3450 9000 3450
+Wire Wire Line
+	8600 2300 10800 2300
+Wire Wire Line
+	9000 2400 10800 2400
+Wire Wire Line
+	9150 2700 10800 2700
+Wire Wire Line
+	5850 4200 5850 4100
+Wire Wire Line
+	5850 3800 5850 3700
+Connection ~ 5850 3700
+Wire Wire Line
+	9000 3450 9000 3650
+Wire Wire Line
+	9000 3950 9000 4100
+Wire Wire Line
+	6450 3550 6450 3800
+Wire Wire Line
+	6450 4100 6450 4200
+Wire Wire Line
+	9050 2500 10800 2500
+Wire Wire Line
+	10750 2800 10750 2900
+Wire Wire Line
+	10800 2800 10750 2800
+Wire Wire Line
+	9150 4400 9150 2700
+Wire Wire Line
+	10450 2700 10450 3250
+Connection ~ 10450 2700
+Wire Wire Line
+	6200 2400 8500 2400
+Wire Wire Line
+	6200 1900 6200 2650
+Wire Wire Line
+	1550 3650 2000 3650
+Wire Wire Line
+	2000 3550 2000 3700
+Connection ~ 2000 3650
+Wire Wire Line
+	900  3250 1800 3250
+Wire Wire Line
+	1550 3350 1550 3250
+Connection ~ 1550 3250
+Wire Wire Line
+	1350 3350 1350 3250
+Connection ~ 1350 3250
+Wire Wire Line
+	1700 3900 1350 3900
+Wire Wire Line
+	1350 3650 1350 4400
+Wire Wire Line
+	2000 4100 2000 4150
+Wire Wire Line
+	1350 4400 9150 4400
+Connection ~ 1350 3900
+Wire Wire Line
+	2200 3250 3550 3250
+Connection ~ 1200 3250
+Wire Wire Line
+	4400 3800 4300 3800
+Wire Wire Line
+	4300 3800 4300 3550
+Connection ~ 4300 3550
+Wire Wire Line
+	10000 3250 10000 2400
+Connection ~ 10000 2400
+Connection ~ 10150 2500
+Wire Wire Line
+	10300 3250 10300 2600
+Connection ~ 10300 2600
+Wire Wire Line
+	9750 3250 9750 2300
+Connection ~ 9750 2300
+Wire Wire Line
+	9600 3850 9600 4100
+Wire Wire Line
+	9600 4100 10450 4100
+Wire Wire Line
+	10450 4100 10450 3850
+Wire Wire Line
+	10300 3850 10300 4100
+Connection ~ 10300 4100
+Connection ~ 10150 4100
+Wire Wire Line
+	10000 3850 10000 4200
+Connection ~ 10000 4100
+Wire Wire Line
+	9750 3850 9750 4100
+Connection ~ 9750 4100
+Wire Wire Line
+	10150 3250 10150 2500
+Wire Wire Line
+	10150 3850 10150 4100
+Wire Wire Line
+	2350 3350 2350 3250
+Connection ~ 2350 3250
+Wire Wire Line
+	2850 3250 2850 3350
+Wire Wire Line
+	3100 3250 3100 3350
+Connection ~ 3100 3250
+Wire Wire Line
+	3400 3550 3400 3250
+Connection ~ 3400 3250
+Wire Wire Line
+	2350 3650 2350 3700
+Wire Wire Line
+	2350 3700 3100 3700
+Wire Wire Line
+	3100 3700 3100 3650
+Wire Wire Line
+	2850 3650 2850 3700
+Connection ~ 2850 3700
+Wire Wire Line
+	2600 3650 2600 3700
+Connection ~ 2600 3700
 Connection ~ 7000 2400
 Connection ~ 7200 2400
 Connection ~ 7400 2400
@@ -910,8 +900,6 @@ Wire Wire Line
 	7200 2550 7200 2400
 Wire Wire Line
 	7400 2550 7400 2400
-Wire Wire Line
-	8300 2200 10800 2200
 Wire Wire Line
 	9600 3250 9600 2200
 Connection ~ 9600 2200
@@ -961,33 +949,10 @@ Wire Notes Line
 	7600 4550 6650 4550
 Wire Notes Line
 	6650 4550 6650 2150
-Text Notes 1250 4850 0    60   ~ 0
-These Fets act as a\nmore robust shut-\ndown than XShut.
 Wire Notes Line
 	1250 4550 1250 2600
-Text Notes 2250 4850 0    60   ~ 0
-Input filter caps\ndesigned for ~10mV \nripple voltage.
-Text Notes 3400 4850 0    60   ~ 0
-SPV1040\nMaximum Power Point Tracker\nVoltage set to 5V. 
-Text Notes 6650 4750 0    60   ~ 0
-Output Filter Caps\nSet for 10mV ripple.
-Text Notes 7650 5300 0    60   ~ 0
-LTC2990\nTemperature, Voltage\nand Current Monitor\nI2C designed on a bus.\nLTC2990 should be\npowered down when\nnot being sourced by\nAtMega.
-Text Notes 9400 4850 0    60   ~ 0
-TVS Diode Array\n2 packages TVS diodes \ntied to ground Vbr ~6V
 Wire Wire Line
 	3400 3550 3450 3550
-$Comp
-L C C14
-U 1 1 570D89CF
-P 3850 3800
-F 0 "C14" H 3875 3900 50  0000 L CNN
-F 1 "1.2u" H 3875 3700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3888 3650 50  0001 C CNN
-F 3 "" H 3850 3800 50  0000 C CNN
-	1    3850 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 3550 3750 3550
 Wire Wire Line
@@ -1005,4 +970,26 @@ Wire Wire Line
 Wire Wire Line
 	2750 3750 2750 3700
 Connection ~ 2750 3700
+Wire Wire Line
+	5450 2450 5450 2400
+Connection ~ 5450 2400
+Wire Wire Line
+	5850 1800 5850 2650
+Wire Wire Line
+	8000 1900 6200 1900
+Connection ~ 6200 2400
+Connection ~ 6200 2050
+Wire Wire Line
+	8300 1800 5850 1800
+Wire Wire Line
+	5850 2050 5900 2050
+Connection ~ 5850 2050
+Wire Wire Line
+	8000 2650 8000 1900
+Wire Wire Line
+	8300 1800 8300 2650
+Wire Wire Line
+	8500 2400 8500 2200
+Wire Wire Line
+	8500 2200 10800 2200
 $EndSCHEMATC
