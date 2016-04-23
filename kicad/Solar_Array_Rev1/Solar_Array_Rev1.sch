@@ -127,7 +127,7 @@ L C C5
 U 1 1 56FC265F
 P 4100 3800
 F 0 "C5" H 4125 3900 50  0000 L CNN
-F 1 "6.8u" H 4125 3700 50  0000 L CNN
+F 1 ".1u" H 4125 3700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4138 3650 50  0001 C CNN
 F 3 "" H 4100 3800 50  0000 C CNN
 	1    4100 3800
@@ -158,12 +158,12 @@ $EndComp
 $Comp
 L R R6
 U 1 1 56FC29FE
-P 6200 2800
-F 0 "R6" V 6280 2800 50  0000 C CNN
-F 1 "1k" V 6200 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6130 2800 50  0001 C CNN
-F 3 "" H 6200 2800 50  0000 C CNN
-	1    6200 2800
+P 6250 2800
+F 0 "R6" V 6330 2800 50  0000 C CNN
+F 1 "1k" V 6250 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6180 2800 50  0001 C CNN
+F 3 "" H 6250 2800 50  0000 C CNN
+	1    6250 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -204,7 +204,7 @@ L R R7
 U 1 1 56FC2D48
 P 6450 3400
 F 0 "R7" V 6530 3400 50  0000 C CNN
-F 1 "240" V 6450 3400 50  0000 C CNN
+F 1 "820k" V 6450 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6380 3400 50  0001 C CNN
 F 3 "" H 6450 3400 50  0000 C CNN
 	1    6450 3400
@@ -215,7 +215,7 @@ L R R8
 U 1 1 56FC2DE0
 P 6450 3950
 F 0 "R8" V 6530 3950 50  0000 C CNN
-F 1 "80" V 6450 3950 50  0000 C CNN
+F 1 "270k" V 6450 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6380 3950 50  0001 C CNN
 F 3 "" H 6450 3950 50  0000 C CNN
 	1    6450 3950
@@ -281,7 +281,7 @@ L Q_NPN_BCE Q3
 U 1 1 56FC9EC1
 P 7200 3250
 F 0 "Q3" H 7500 3300 50  0000 R CNN
-F 1 "Q_NPN_BCE" H 7800 3200 50  0000 R CNN
+F 1 "MMBT3904" H 7800 3200 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7400 3350 50  0001 C CNN
 F 3 "" H 7200 3250 50  0000 C CNN
 	1    7200 3250
@@ -292,7 +292,7 @@ L C C11
 U 1 1 56FC9F2E
 P 7100 3550
 F 0 "C11" H 7125 3650 50  0000 L CNN
-F 1 "1.2u" H 7125 3450 50  0000 L CNN
+F 1 "470p" H 7125 3450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7138 3400 50  0001 C CNN
 F 3 "" H 7100 3550 50  0000 C CNN
 	1    7100 3550
@@ -301,13 +301,13 @@ $EndComp
 $Comp
 L R R9
 U 1 1 56FCABFE
-P 6050 2050
-F 0 "R9" V 6130 2050 50  0000 C CNN
-F 1 "NP" V 6050 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5980 2050 50  0001 C CNN
-F 3 "" H 6050 2050 50  0000 C CNN
-	1    6050 2050
-	0    1    1    0   
+P 8150 2400
+F 0 "R9" V 8230 2400 50  0000 C CNN
+F 1 "2" V 8150 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8080 2400 50  0001 C CNN
+F 3 "" H 8150 2400 50  0000 C CNN
+	1    8150 2400
+	0    1    -1   0   
 $EndComp
 $Comp
 L GND #PWR08
@@ -358,7 +358,7 @@ L C C7
 U 1 1 56FD0100
 P 5850 3950
 F 0 "C7" H 5875 4050 50  0000 L CNN
-F 1 "2u" H 5875 3850 50  0000 L CNN
+F 1 ".1u" H 5875 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5888 3800 50  0001 C CNN
 F 3 "" H 5850 3950 50  0000 C CNN
 	1    5850 3950
@@ -399,8 +399,8 @@ F 3 "" H 1200 3850 50  0000 C CNN
 $EndComp
 Text Notes 6000 2300 0    60   ~ 0
 1%
-Text Notes 6000 1950 0    60   ~ 0
-1% .3V
+Text Notes 8100 2250 0    60   ~ 0
+1%\n
 Text Notes 5050 2350 0    60   ~ 0
 5V
 Text Notes 600  3000 0    60   ~ 0
@@ -419,17 +419,6 @@ Text Notes 10850 2500 2    39   ~ 0
 SCL
 Text Notes 1250 7100 0    60   ~ 0
 TODO\n-NMOS can be small\n-PMOS need to handle 1 amp\n-Very good notes please\n-Assign TVS to diode symbols on schema, \n--find out how to assign to parts of ic's\n--NUP4202W1_4INPUT_TVS\n
-$Comp
-L LTC2990.1 IC3
-U 1 1 57094BE2
-P 8300 3250
-F 0 "IC3" H 7700 3750 50  0000 L CNN
-F 1 "LTC2990.1" H 8450 2750 50  0000 L CNN
-F 2 "Solar:MSOP-10" H 7600 3650 50  0001 C CNN
-F 3 "" H 7700 3750 50  0000 C CNN
-	1    8300 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R2
 U 1 1 570953E8
@@ -457,7 +446,7 @@ L Q_NMOS_DGS Q1
 U 1 1 57096EE0
 P 1900 3900
 F 0 "Q1" H 2200 3950 50  0000 R CNN
-F 1 "Q_NMOS_DGS" H 2550 3850 50  0000 R CNN
+F 1 "2N7002WT1GOSCT" H 2550 3850 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SC-70" H 2100 4000 50  0001 C CNN
 F 3 "" H 1900 3900 50  0000 C CNN
 	1    1900 3900
@@ -468,7 +457,7 @@ L Q_PMOS_DGS Q2
 U 1 1 57096F83
 P 2000 3350
 F 0 "Q2" H 2300 3400 50  0000 R CNN
-F 1 "Q_PMOS_DGS" H 2650 3300 50  0000 R CNN
+F 1 "NTR1P02T1GOSCT" H 2650 3300 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 2200 3450 50  0001 C CNN
 F 3 "" H 2000 3350 50  0000 C CNN
 	1    2000 3350
@@ -649,27 +638,16 @@ Text Notes 3400 4850 0    60   ~ 0
 SPV1040\nMaximum Power Point Tracker\nVoltage set to 5V. 
 Text Notes 6650 4750 0    60   ~ 0
 Output Filter Caps\nSet for 10mV ripple.
-Text Notes 7650 5300 0    60   ~ 0
-LTC2990\nTemperature, Voltage\nand Current Monitor\nI2C designed on a bus.\nLTC2990 should be\npowered down when\nnot being sourced by\nAtMega.
+Text Notes 7650 5900 0    60   ~ 0
+LTC2990\nTemperature, Voltage\nand Current Monitor\nI2C designed on a bus.\nLTC2990 should be\npowered down when\nnot being sourced by\nAtMega.\n\nsense R must follow\n0.300 V/ Rmea_max\n.300/.151 ~ 2 ohms\n\nI2C addr when inactive x00\nI2C addr when sourced x01
 Text Notes 9400 4850 0    60   ~ 0
 TVS Diode Array\n2 packages TVS diodes \ntied to ground Vbr ~6V
-$Comp
-L C C14
-U 1 1 570D89CF
-P 3850 3800
-F 0 "C14" H 3875 3900 50  0000 L CNN
-F 1 "1.2u" H 3875 3700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3888 3650 50  0001 C CNN
-F 3 "" H 3850 3800 50  0000 C CNN
-	1    3850 3800
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C6
 U 1 1 56FC2C40
 P 5450 2600
 F 0 "C6" H 5475 2700 50  0000 L CNN
-F 1 "22u" H 5475 2500 50  0000 L CNN
+F 1 "10u" H 5475 2500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5488 2450 50  0001 C CNN
 F 3 "" H 5450 2600 50  0000 C CNN
 	1    5450 2600
@@ -702,10 +680,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 3250 5900 3250
 Wire Wire Line
-	6200 3500 5800 3500
-Wire Wire Line
-	6200 2950 6200 3500
-Connection ~ 6200 3250
+	5800 3500 6250 3500
 Wire Wire Line
 	5850 3250 5850 2950
 Connection ~ 5850 3250
@@ -791,10 +766,6 @@ Wire Wire Line
 Wire Wire Line
 	10450 2700 10450 3250
 Connection ~ 10450 2700
-Wire Wire Line
-	6200 2400 8500 2400
-Wire Wire Line
-	6200 1900 6200 2650
 Wire Wire Line
 	1550 3650 2000 3650
 Wire Wire Line
@@ -956,14 +927,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 3550 3750 3550
 Wire Wire Line
-	3850 3650 3850 3550
-Connection ~ 3850 3550
-Wire Wire Line
-	3850 3950 3850 4000
-Wire Wire Line
-	3850 4000 4100 4000
-Connection ~ 4100 4000
-Wire Wire Line
 	900  3350 1000 3350
 Wire Wire Line
 	1000 3350 1000 3850
@@ -974,22 +937,46 @@ Wire Wire Line
 	5450 2450 5450 2400
 Connection ~ 5450 2400
 Wire Wire Line
-	5850 1800 5850 2650
-Wire Wire Line
-	8000 1900 6200 1900
-Connection ~ 6200 2400
-Connection ~ 6200 2050
-Wire Wire Line
-	8300 1800 5850 1800
-Wire Wire Line
-	5850 2050 5900 2050
-Connection ~ 5850 2050
-Wire Wire Line
-	8000 2650 8000 1900
-Wire Wire Line
-	8300 1800 8300 2650
-Wire Wire Line
 	8500 2400 8500 2200
 Wire Wire Line
 	8500 2200 10800 2200
+Wire Wire Line
+	8500 2400 8300 2400
+Wire Wire Line
+	6200 2400 8000 2400
+Wire Wire Line
+	8000 2650 8000 2550
+Wire Wire Line
+	8000 2550 7950 2550
+Wire Wire Line
+	7950 2550 7950 2400
+Connection ~ 7950 2400
+Wire Wire Line
+	8300 2650 8300 2550
+Wire Wire Line
+	8300 2550 8350 2550
+Wire Wire Line
+	8350 2550 8350 2400
+Connection ~ 8350 2400
+Wire Wire Line
+	6250 3500 6250 2950
+Wire Wire Line
+	6200 3250 6250 3250
+Connection ~ 6250 3250
+Wire Wire Line
+	6250 2650 6250 2400
+Connection ~ 6250 2400
+Wire Wire Line
+	5850 2650 5850 2400
+$Comp
+L LTC2990.2 U1
+U 1 1 571B5390
+P 8300 3250
+F 0 "U1" H 7700 3750 50  0000 L CNN
+F 1 "LTC2990" H 8450 2750 50  0000 L CNN
+F 2 "Solar:MSOP-10" H 7600 3650 50  0001 C CNN
+F 3 "" H 7700 3750 50  0000 C CNN
+	1    8300 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
