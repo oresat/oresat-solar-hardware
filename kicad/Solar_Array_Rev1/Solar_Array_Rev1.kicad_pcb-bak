@@ -3,9 +3,9 @@
   (general
     (links 75)
     (no_connects 0)
-    (area 143.993399 66.802799 197.050001 97.230401)
+    (area 150.949999 66.949999 197.050001 97.050001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 474)
     (zones 0)
     (modules 34)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -1174,6 +1174,9 @@
     )
   )
 
+  (gr_text "Cubesat 0 Power System Rev1\nPortland State Aerospace Society\nAndrew Greenberg\nAustin Joseph" (at 152.5 92.8) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify left))
+  )
   (gr_line (start 151 97) (end 151 67) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 197 97) (end 151 97) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 197 67) (end 197 97) (angle 90) (layer Edge.Cuts) (width 0.1))
