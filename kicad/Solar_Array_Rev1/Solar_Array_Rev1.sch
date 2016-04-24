@@ -634,12 +634,12 @@ Text Notes 1250 4850 0    60   ~ 0
 These Fets act as a\nmore robust shut-\ndown than XShut.
 Text Notes 2250 4850 0    60   ~ 0
 Input filter caps\ndesigned for ~10mV \nripple voltage.
-Text Notes 3400 4850 0    60   ~ 0
-SPV1040\nMaximum Power Point Tracker\nVoltage set to 5V. 
+Text Notes 3400 5900 0    60   ~ 0
+SPV1040\nMaximum Power Point Tracker\nVoltage set to 5V. \n\nC5 and C7 need to live very\nclose to the terminals\n\nAll calculations assuming\nrough tested values of\nVoc 2.9 V\nIsc .151 A\n\nCurrent at Vctrl needs to be\nbetween 2-20 uA
 Text Notes 6650 4750 0    60   ~ 0
 Output Filter Caps\nSet for 10mV ripple.
-Text Notes 7650 5900 0    60   ~ 0
-LTC2990\nTemperature, Voltage\nand Current Monitor\nI2C designed on a bus.\nLTC2990 should be\npowered down when\nnot being sourced by\nAtMega.\n\nsense R must follow\n0.300 V/ Rmea_max\n.300/.151 ~ 2 ohms\n\nI2C addr when inactive x00\nI2C addr when sourced x01
+Text Notes 7650 6250 0    60   ~ 0
+LTC2990\nTemperature, Voltage\nand Current Monitor\nI2C designed on a bus.\nLTC2990 should be\npowered down when\nnot being sourced by\nAtMega.\n\nsense R must follow\n0.300 V/ Rmea_max\n.300/.151 ~ 2 ohms\n\nI2C addr when inactive x00\nI2C addr when sourced x01\n\nTrace shield transistor and\nplace close to pins.
 Text Notes 9400 4850 0    60   ~ 0
 TVS Diode Array\n2 packages TVS diodes \ntied to ground Vbr ~6V
 $Comp
