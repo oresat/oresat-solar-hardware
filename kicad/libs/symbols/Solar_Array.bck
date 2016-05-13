@@ -12,9 +12,32 @@ K Temperature Voltage Current Monitor I2C AFE
 F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
 $ENDCMP
 #
+$CMP MAX5092BATE
+D 4V to 72V Input LDOs with Boost Preregulator, 250mA Output, 5V Preset Vout, TQFN-16
+K High Voltage 72V Input LDO Boost Preregulator 250mA 5V
+F http://datasheets.maximintegrated.com/en/ds/MAX5092-MAX5093.pdf
+$ENDCMP
+#
+$CMP MAX5093AATE
+D 4V to 72V Input LDOs with Boost Preregulator, 250mA Output, 3.3V Preset Vout, TQFN-16
+K High Voltage 72V Input LDO Boost Preregulator 250mA 3.3V
+F http://datasheets.maximintegrated.com/en/ds/MAX5092-MAX5093.pdf
+$ENDCMP
+#
+$CMP MAX5093BATE
+D 4V to 72V Input LDOs with Boost Preregulator, 250mA Output, 5V Preset Vout, TQFN-16
+K High Voltage 72V Input LDO Boost Preregulator 250mA 5V
+F http://datasheets.maximintegrated.com/en/ds/MAX5092-MAX5093.pdf
+$ENDCMP
+#
 $CMP TVS_4x4
 D Transient voltage suppressor diode (bi-directional)
 K DEV TVS TRANSIENT SUPPROESSOR ESD
+$ENDCMP
+#
+$CMP ZSPM4521
+D DC/DC Synchronous switching lithium-ion battery charger with maximum power point tracking
+F http://www.idt.com/products/power-management/battery-charger-ics/zspm4521-high-efficiency-charger-li-ion-batteries-photovoltaic-sources?orig=zmdi
 $ENDCMP
 #
 #End Doc Library
