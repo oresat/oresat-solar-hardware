@@ -30,6 +30,12 @@ K High Voltage 72V Input LDO Boost Preregulator 250mA 5V
 F http://datasheets.maximintegrated.com/en/ds/MAX5092-MAX5093.pdf
 $ENDCMP
 #
+$CMP TSC888
+D Dual Voltage Comparator
+K Comp
+F ns/lm193.pdf
+$ENDCMP
+#
 $CMP TVS_4x4
 D Transient voltage suppressor diode (bi-directional)
 K DEV TVS TRANSIENT SUPPROESSOR ESD

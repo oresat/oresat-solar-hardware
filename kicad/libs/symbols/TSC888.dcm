@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM193
+D Single Voltage Comparator
+K Comp
+$ENDCMP
+#
 $CMP LTC2990
 D Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
 K Temperature Voltage Current Monitor I2C AFE

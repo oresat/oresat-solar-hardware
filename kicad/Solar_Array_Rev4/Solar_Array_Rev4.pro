@@ -1,4 +1,4 @@
-update=Sun 22 May 2016 07:17:27 PM PDT
+update=Fri 27 May 2016 01:59:48 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=/home/austin/solar/kicad/libs/symbols/Solar_Array
