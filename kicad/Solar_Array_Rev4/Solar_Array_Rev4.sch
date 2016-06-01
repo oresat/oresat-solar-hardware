@@ -113,12 +113,12 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 57427E8E
-P 3550 3350
-F 0 "#PWR?" H 3550 3100 50  0001 C CNN
-F 1 "GND" H 3555 3177 50  0000 C CNN
-F 2 "" H 3550 3350 50  0000 C CNN
-F 3 "" H 3550 3350 50  0000 C CNN
-	1    3550 3350
+P 3550 3300
+F 0 "#PWR?" H 3550 3050 50  0001 C CNN
+F 1 "GND" H 3555 3127 50  0000 C CNN
+F 2 "" H 3550 3300 50  0000 C CNN
+F 3 "" H 3550 3300 50  0000 C CNN
+	1    3550 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -168,12 +168,12 @@ $EndComp
 $Comp
 L STM32F042x6 U?
 U 1 1 5748B95F
-P 4200 5100
-F 0 "U?" H 4200 5887 60  0000 C CNN
-F 1 "STM32F042x6" H 4200 5781 60  0000 C CNN
-F 2 "" H 4200 5100 60  0001 C CNN
-F 3 "" H 4200 5100 60  0001 C CNN
-	1    4200 5100
+P 4800 4400
+F 0 "U?" H 4800 5187 60  0000 C CNN
+F 1 "STM32F042x6" H 4800 5081 60  0000 C CNN
+F 2 "" H 4800 4400 60  0001 C CNN
+F 3 "" H 4800 4400 60  0001 C CNN
+	1    4800 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -233,8 +233,6 @@ F 3 "" H 4350 2950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2700 3000 2700 3050
-Wire Wire Line
-	3550 3250 3550 3350
 Wire Wire Line
 	5400 3000 5400 3100
 Wire Wire Line
@@ -363,4 +361,71 @@ F 3 "" H 8200 2450 50  0000 C CNN
 	1    8000 2450
 	0    1    1    0   
 $EndComp
+Connection ~ 7900 2450
+Wire Wire Line
+	5600 4250 5750 4250
+Wire Wire Line
+	5600 4150 5750 4150
+Text Notes 5750 4150 0    60   ~ 0
+CAN_TX
+Text Notes 5750 4250 0    60   ~ 0
+CAN_RX
+Text Notes 5750 3950 0    60   ~ 0
+SW_CLK
+Wire Wire Line
+	5600 3950 5750 3950
+Text Notes 4000 4450 2    60   ~ 0
+Standard 3.3V I/O
+Text Notes 4000 4550 2    60   ~ 0
+Standard 3.3V I/O
+Text Notes 4000 4650 2    60   ~ 0
+Standard 3.3V I/O
+Text Notes 4000 4750 2    60   ~ 0
+Standard 3.3V I/O
+Text Notes 4000 4850 2    60   ~ 0
+ADC_IN4
+Text Notes 5600 4650 0    60   ~ 0
+TIM1_CH1N
+Text Notes 5600 4550 0    60   ~ 0
+TIM1_CH3N
+Text Notes 5600 4850 0    60   ~ 0
+ADC_IN5
+Wire Wire Line
+	5600 4650 6200 4650
+Wire Wire Line
+	6200 4650 6200 3350
+Wire Wire Line
+	6200 3350 5000 3350
+Wire Wire Line
+	5000 3350 5000 2800
+Wire Wire Line
+	5000 2800 5100 2800
+Wire Wire Line
+	5600 4550 6100 4550
+Wire Wire Line
+	6100 4550 6100 3450
+Wire Wire Line
+	6100 3450 3150 3450
+Wire Wire Line
+	3150 3450 3150 2750
+Wire Wire Line
+	3550 3250 3550 3300
+Text Notes 5600 4750 0    60   ~ 0
+ADC_IN6
+Wire Wire Line
+	6300 4750 6300 3350
+Wire Wire Line
+	6300 3350 7200 3350
+Wire Wire Line
+	6300 4750 5600 4750
+Wire Wire Line
+	7200 3350 7200 3250
+Wire Wire Line
+	5600 4850 6400 4850
+Wire Wire Line
+	6400 4850 6400 3450
+Wire Wire Line
+	6400 3450 7900 3450
+Wire Wire Line
+	7900 3450 7900 2450
 $EndSCHEMATC
