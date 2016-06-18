@@ -1342,10 +1342,10 @@
       (net 45 "Net-(P1-Pad39)"))
     (pad 40 thru_hole circle (at 2.54 11.43 90) (size 1 1) (drill 0.5) (layers *.Cu *.Mask F.SilkS)
       (net 46 "Net-(P1-Pad40)"))
-    (model ${KISYS3DMOD}/Connect.3dshapes/HE10_20D.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x20.wrl
+      (at (xyz 0 0.025 0))
+      (scale (xyz 0.5 2 0.5))
+      (rotate (xyz 0 0 90))
     )
   )
 
