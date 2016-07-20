@@ -2493,6 +2493,67 @@ Source: http://www.linear.com .. LT1996</description>
 </package>
 </packages>
 </library>
+<library name="Harwin_2x20">
+<packages>
+<package name="HARWIN_2X20">
+<description>Harwin 2x20 straight pin header.</description>
+<pad name="1" x="-2.54" y="12.7" drill="0.50038125" shape="square"/>
+<pad name="2" x="-2.54" y="11.43" drill="0.50038125" shape="square"/>
+<pad name="3" x="-2.54" y="10.16" drill="0.50038125" shape="square"/>
+<pad name="4" x="-2.54" y="8.89" drill="0.50038125" shape="square"/>
+<pad name="5" x="-2.54" y="7.62" drill="0.50038125" shape="square"/>
+<pad name="6" x="-2.54" y="6.35" drill="0.50038125" shape="square"/>
+<pad name="7" x="-2.54" y="5.08" drill="0.50038125" shape="square"/>
+<pad name="8" x="-2.54" y="3.81" drill="0.50038125" shape="square"/>
+<pad name="9" x="-2.54" y="2.54" drill="0.50038125" shape="square"/>
+<pad name="10" x="-2.54" y="1.27" drill="0.50038125" shape="square"/>
+<pad name="11" x="-2.54" y="0" drill="0.50038125" shape="square"/>
+<pad name="12" x="-2.54" y="-1.27" drill="0.50038125" shape="square"/>
+<pad name="13" x="-2.54" y="-2.54" drill="0.50038125" shape="square"/>
+<pad name="14" x="-2.54" y="-3.81" drill="0.50038125" shape="square"/>
+<pad name="15" x="-2.54" y="-6.35" drill="0.50038125" shape="square"/>
+<pad name="16" x="-2.54" y="-5.08" drill="0.50038125" shape="square"/>
+<pad name="17" x="-2.54" y="-7.62" drill="0.50038125" shape="square"/>
+<pad name="18" x="-2.54" y="-8.89" drill="0.50038125" shape="square"/>
+<pad name="19" x="-2.54" y="-10.16" drill="0.50038125" shape="square"/>
+<pad name="20" x="-2.54" y="-11.43" drill="0.50038125" shape="square"/>
+<pad name="40" x="2.54" y="-11.43" drill="0.50038125" shape="square"/>
+<pad name="39" x="2.54" y="-10.16" drill="0.50038125" shape="square"/>
+<pad name="38" x="2.54" y="-8.89" drill="0.50038125" shape="square"/>
+<pad name="37" x="2.54" y="-7.62" drill="0.50038125" shape="square"/>
+<pad name="36" x="2.54" y="-6.35" drill="0.50038125" shape="square"/>
+<pad name="34" x="2.54" y="-3.81" drill="0.50038125" shape="square"/>
+<pad name="35" x="2.54" y="-5.08" drill="0.50038125" shape="square"/>
+<pad name="33" x="2.54" y="-2.54" drill="0.50038125" shape="square"/>
+<pad name="32" x="2.54" y="-1.27" drill="0.50038125" shape="square"/>
+<pad name="30" x="2.54" y="1.27" drill="0.50038125" shape="square"/>
+<pad name="31" x="2.54" y="0" drill="0.50038125" shape="square"/>
+<pad name="29" x="2.54" y="2.54" drill="0.50038125" shape="square"/>
+<pad name="28" x="2.54" y="3.81" drill="0.50038125" shape="square"/>
+<pad name="27" x="2.54" y="5.08" drill="0.50038125" shape="square"/>
+<pad name="26" x="2.54" y="6.35" drill="0.50038125" shape="square"/>
+<pad name="25" x="2.54" y="7.62" drill="0.50038125" shape="square"/>
+<pad name="24" x="2.54" y="8.89" drill="0.50038125" shape="square"/>
+<pad name="23" x="2.54" y="10.16" drill="0.50038125" shape="square"/>
+<pad name="22" x="2.54" y="11.43" drill="0.50038125" shape="square"/>
+<pad name="21" x="2.54" y="12.7" drill="0.50038125" shape="square"/>
+<text x="-4" y="-14.4" size="1.27" layer="21">Harwin 2x20</text>
+<text x="-2.54" y="12.7" size="1.27" layer="21">1</text>
+<text x="2.54" y="-11.43" size="1.27" layer="21" rot="R180">40</text>
+<wire x1="-3" y1="14" x2="2.5" y2="14" width="0.127" layer="21"/>
+<wire x1="3.5" y1="13" x2="3.5" y2="-12" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-12" x2="3" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-12.5" x2="-3" y2="-12.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-12.5" x2="-3.5" y2="-12" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-12" x2="-3.5" y2="13.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="14" x2="-3.5" y2="13.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="14" x2="3" y2="14" width="0.127" layer="21"/>
+<wire x1="3" y1="14" x2="3.5" y2="13.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="13.5" x2="3.5" y2="13" width="0.127" layer="21"/>
+<dimension x1="3.5" y1="13" x2="3.5" y2="-12" x3="11.5" y3="0.5" textsize="1.27" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2701,6 +2762,7 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <element name="U$1" library="LTC2990" package="MSOP10" value="LTC2990" x="-33.344" y="0"/>
 <element name="U$2" library="LTC2990" package="MSOP10" value="LTC2990" x="-40.758665625" y="0"/>
 <element name="U$3" library="LTC2990" package="MSOP10" value="LTC2990" x="-40" y="-199"/>
+<element name="U$4" library="Harwin_2x20" package="HARWIN_2X20" value="HARWIN_2X20_PIN" x="-51" y="-187"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2764,6 +2826,14 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="C3" pad="2"/>
 <contactref element="C12" pad="2"/>
 <contactref element="U$3" pad="5"/>
+<contactref element="U$4" pad="8"/>
+<contactref element="U$4" pad="9"/>
+<contactref element="U$4" pad="28"/>
+<contactref element="U$4" pad="29"/>
+<wire x1="-48.46" y1="-183.19" x2="-39" y2="-201.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.46" y1="-184.46" x2="-48.46" y2="-183.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.54" y1="-184.46" x2="-48.46" y2="-184.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.54" y1="-183.19" x2="-53.54" y2="-184.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.05" y1="-191" x2="-39" y2="-201.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.95" y1="-184" x2="-26.05" y2="-191" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.88" y1="-176.675" x2="-27.95" y2="-184" width="0" layer="19" extent="1-1"/>
@@ -2810,7 +2880,19 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="R6" pad="2"/>
 <contactref element="D1" pad="3"/>
 <contactref element="U1" pad="4"/>
-<wire x1="-26.05" y1="-128" x2="-26.88" y2="-177.975" width="0" layer="19" extent="1-1"/>
+<contactref element="R9" pad="1"/>
+<contactref element="U$3" pad="2"/>
+<contactref element="U$4" pad="2"/>
+<contactref element="U$4" pad="1"/>
+<contactref element="U$4" pad="21"/>
+<contactref element="U$4" pad="22"/>
+<wire x1="-48.46" y1="-175.57" x2="-48.46" y2="-174.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.5" y1="-201.05" x2="-48.46" y2="-174.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.54" y1="-175.57" x2="-48.46" y2="-175.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.54" y1="-174.3" x2="-53.54" y2="-175.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.88" y1="-177.975" x2="-53.54" y2="-175.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.95" y1="-154" x2="-26.88" y2="-177.975" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.05" y1="-128" x2="-27.95" y2="-154" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.05" y1="-120" x2="-26.05" y2="-128" width="0" layer="19" extent="1-1"/>
 <wire x1="-8" y1="-72.9" x2="-26.05" y2="-120" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2834,11 +2916,6 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="U1" pad="3"/>
 <wire x1="-8.95" y1="-75.1" x2="-26.88" y2="-177.325" width="0" layer="19" extent="1-1"/>
 <wire x1="-7" y1="-45.8" x2="-8.95" y2="-75.1" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$18">
-<contactref element="R9" pad="1"/>
-<contactref element="U$3" pad="2"/>
-<wire x1="-27.95" y1="-154" x2="-40.5" y2="-201.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="C14" pad="1"/>
@@ -2871,9 +2948,13 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <wire x1="-26.05" y1="-124" x2="-27.95" y2="-128" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.95" y1="-113" x2="-26.05" y2="-124" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$20">
+<signal name="SHORT">
 <contactref element="R1" pad="1"/>
 <contactref element="Q2" pad="1"/>
+<contactref element="U$4" pad="7"/>
+<contactref element="U$4" pad="27"/>
+<wire x1="-53.54" y1="-181.92" x2="-48.46" y2="-181.92" width="0" layer="19" extent="1-1"/>
+<wire x1="2.05" y1="-54.1" x2="-53.54" y2="-181.92" width="0" layer="19" extent="1-1"/>
 <wire x1="1.05" y1="-4" x2="2.05" y2="-54.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
@@ -2881,14 +2962,33 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="R10" pad="1"/>
 <wire x1="-27.95" y1="-173" x2="-40" y2="-196.95" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$7">
-<contactref element="U$3" pad="9"/>
-</signal>
-<signal name="N$9">
-<contactref element="U$3" pad="7"/>
-</signal>
-<signal name="N$10">
+<signal name="SDA">
 <contactref element="U$3" pad="6"/>
+<contactref element="U$4" pad="4"/>
+<contactref element="U$4" pad="24"/>
+<wire x1="-39" y1="-196.95" x2="-48.46" y2="-178.11" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.54" y1="-178.11" x2="-48.46" y2="-178.11" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SCL">
+<contactref element="U$3" pad="7"/>
+<contactref element="U$4" pad="5"/>
+<contactref element="U$4" pad="25"/>
+<wire x1="-39.5" y1="-196.95" x2="-48.46" y2="-179.38" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.54" y1="-179.38" x2="-48.46" y2="-179.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ADR1">
+<contactref element="U$3" pad="9"/>
+<contactref element="U$4" pad="6"/>
+<contactref element="U$4" pad="26"/>
+<wire x1="-40.5" y1="-196.95" x2="-48.46" y2="-180.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.54" y1="-180.65" x2="-48.46" y2="-180.65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC">
+<contactref element="U$3" pad="10"/>
+<contactref element="U$4" pad="3"/>
+<contactref element="U$4" pad="23"/>
+<wire x1="-41" y1="-196.95" x2="-48.46" y2="-176.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.54" y1="-176.84" x2="-48.46" y2="-176.84" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
