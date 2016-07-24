@@ -2257,31 +2257,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="PIS2816">
-<description>&lt;b&gt;PIS 2826&lt;/b&gt; Inductor&lt;p&gt;
-Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
-<wire x1="-3.65" y1="-3.65" x2="3.65" y2="-3.65" width="0.2032" layer="51"/>
-<wire x1="3.65" y1="-3.65" x2="3.65" y2="3.65" width="0.2032" layer="21"/>
-<wire x1="3.65" y1="3.65" x2="-3.65" y2="3.65" width="0.2032" layer="51"/>
-<wire x1="-3.65" y1="3.65" x2="-3.65" y2="-3.65" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="1.125" x2="-2.875" y2="-0.625" width="0.1016" layer="21"/>
-<wire x1="-2.75" y1="-1.125" x2="2.875" y2="0.625" width="0.1016" layer="21"/>
-<wire x1="-2.875" y1="-0.625" x2="2.75" y2="1.125" width="0.1016" layer="51" curve="-169.840784"/>
-<wire x1="2.875" y1="0.625" x2="-2.75" y2="-1.125" width="0.1016" layer="51" curve="-169.840784"/>
-<wire x1="-2.875" y1="-0.625" x2="-1.375" y2="2.6" width="0.1016" layer="21" curve="-74.384165"/>
-<wire x1="2.75" y1="1.125" x2="1.275" y2="2.675" width="0.1016" layer="21" curve="42.122709"/>
-<wire x1="2.875" y1="0.625" x2="1.375" y2="-2.6" width="0.1016" layer="21" curve="-74.384165"/>
-<wire x1="-2.75" y1="-1.125" x2="-1.275" y2="-2.675" width="0.1016" layer="21" curve="42.122709"/>
-<wire x1="-1.35" y1="3.65" x2="-3.65" y2="3.65" width="0.2032" layer="21"/>
-<wire x1="-3.65" y1="-3.65" x2="-1.35" y2="-3.65" width="0.2032" layer="21"/>
-<wire x1="1.35" y1="-3.65" x2="3.65" y2="-3.65" width="0.2032" layer="21"/>
-<wire x1="3.65" y1="3.65" x2="1.35" y2="3.65" width="0.2032" layer="21"/>
-<circle x="1.5" y="1.375" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="0" y="3.2" dx="2.2" dy="1.6" layer="1"/>
-<smd name="2" x="0" y="-3.2" dx="2.2" dy="1.6" layer="1"/>
-<text x="-3.625" y="4.5" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.625" y="-6.25" size="1.778" layer="27">&gt;VALUE</text>
-</package>
 <package name="R0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
@@ -2622,6 +2597,35 @@ Source: http://www.rohm.com/products/databook/tr/pdf/umx1n.pdf</description>
 </package>
 </packages>
 </library>
+<library name="inductor-for-spv">
+<packages>
+<package name="PIS2816">
+<description>&lt;b&gt;PIS 2826&lt;/b&gt; Inductor&lt;p&gt;
+Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
+<wire x1="-3.65" y1="-3.9" x2="3.65" y2="-3.9" width="0.2032" layer="51"/>
+<wire x1="3.65" y1="-3.9" x2="3.65" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="3.65" y1="3.9" x2="-3.65" y2="3.9" width="0.2032" layer="51"/>
+<wire x1="-3.65" y1="3.9" x2="-3.65" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="2.75" y1="1.125" x2="-2.875" y2="-0.625" width="0.1016" layer="21"/>
+<wire x1="-2.75" y1="-1.125" x2="2.875" y2="0.625" width="0.1016" layer="21"/>
+<wire x1="-2.875" y1="-0.625" x2="2.75" y2="1.125" width="0.1016" layer="51" curve="-169.840784"/>
+<wire x1="2.875" y1="0.625" x2="-2.75" y2="-1.125" width="0.1016" layer="51" curve="-169.840784"/>
+<wire x1="-2.875" y1="-0.625" x2="-1.375" y2="2.6" width="0.1016" layer="21" curve="-74.384165"/>
+<wire x1="2.75" y1="1.125" x2="1.275" y2="2.675" width="0.1016" layer="21" curve="42.122709"/>
+<wire x1="2.875" y1="0.625" x2="1.375" y2="-2.6" width="0.1016" layer="21" curve="-74.384165"/>
+<wire x1="-2.75" y1="-1.125" x2="-1.275" y2="-2.675" width="0.1016" layer="21" curve="42.122709"/>
+<wire x1="-1.35" y1="3.9" x2="-3.65" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-3.65" y1="-3.9" x2="-1.6" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-3.9" x2="3.65" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="3.65" y1="3.9" x2="2.85" y2="3.9" width="0.2032" layer="21"/>
+<circle x="1.5" y="1.375" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="0" y="2.725" dx="3.5" dy="2.95" layer="1"/>
+<smd name="2" x="0" y="-2.725" dx="3.5" dy="2.95" layer="1"/>
+<text x="-3.625" y="4.5" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.625" y="-6.25" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2804,7 +2808,6 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <elements>
 <element name="R1" library="resistor" package="R0805" value="10k" x="2" y="-4"/>
 <element name="R2" library="resistor" package="R0805" value="100k" x="2" y="-8"/>
-<element name="L1" library="rcl" package="PIS2816" value="" x="158" y="46"/>
 <element name="R3" library="resistor" package="R0805" value="1k" x="156" y="35"/>
 <element name="C6" library="rcl" package="C0805" value=".1u" x="156" y="28"/>
 <element name="D1" library="diode" package="SOT23" value="BAS70" x="157" y="21"/>
@@ -2837,6 +2840,7 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <element name="C10" library="rcl" package="C1210" value="150u" x="143" y="95"/>
 <element name="C15" library="rcl" package="C1210" value="150u" x="137" y="87"/>
 <element name="C16" library="rcl" package="C0805" value="20u" x="137" y="80"/>
+<element name="L2" library="inductor-for-spv" package="PIS2816" value="" x="-11.6" y="-4.2"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2939,7 +2943,6 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <wire x1="41.5" y1="92.75" x2="155.05" y2="28" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SOLAR-IN-SWITCHED">
-<contactref element="L1" pad="2"/>
 <contactref element="R3" pad="2"/>
 <contactref element="U1" pad="1"/>
 <contactref element="U$5" pad="3"/>
@@ -2948,14 +2951,15 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="C7" pad="1"/>
 <contactref element="C8" pad="1"/>
 <contactref element="C9" pad="1"/>
-<wire x1="122" y1="95" x2="11.12" y2="30.975" width="0" layer="19" extent="1-1"/>
+<contactref element="L2" pad="2"/>
 <wire x1="134.6" y1="67" x2="122" y2="95" width="0" layer="19" extent="1-1"/>
 <wire x1="134.6" y1="61" x2="134.6" y2="67" width="0" layer="19" extent="1-1"/>
 <wire x1="134.6" y1="55" x2="134.6" y2="61" width="0" layer="19" extent="1-1"/>
 <wire x1="134.6" y1="49" x2="134.6" y2="55" width="0" layer="19" extent="1-1"/>
 <wire x1="135.05" y1="44" x2="134.6" y2="49" width="0" layer="19" extent="1-1"/>
-<wire x1="156.95" y1="35" x2="11.12" y2="30.975" width="0" layer="19" extent="1-1"/>
-<wire x1="158" y1="42.8" x2="156.95" y2="35" width="0" layer="19" extent="1-1"/>
+<wire x1="156.95" y1="35" x2="135.05" y2="44" width="0" layer="19" extent="1-1"/>
+<wire x1="11.12" y1="30.975" x2="135.05" y2="44" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.6" y1="-6.925" x2="11.12" y2="30.975" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XSHUT">
 <contactref element="R3" pad="1"/>
@@ -3011,11 +3015,11 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <wire x1="10.05" y1="83" x2="10.05" y2="60" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LX">
-<contactref element="L1" pad="1"/>
 <contactref element="D1" pad="1"/>
 <contactref element="U1" pad="3"/>
-<wire x1="156.05" y1="19.9" x2="11.12" y2="29.675" width="0" layer="19" extent="1-1"/>
-<wire x1="158" y1="49.2" x2="156.05" y2="19.9" width="0" layer="19" extent="1-1"/>
+<contactref element="L2" pad="1"/>
+<wire x1="11.12" y1="29.675" x2="156.05" y2="19.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.6" y1="-1.475" x2="11.12" y2="29.675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="C14" pad="1"/>
