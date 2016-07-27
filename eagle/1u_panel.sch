@@ -10204,11 +10204,11 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <part name="U$3" library="LTC2990" deviceset="LTC2990" device=""/>
 <part name="U$4" library="Harwin_2x20" deviceset="HARWIN_2X20_PIN" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="U$5" library="on-p-channel-fet" deviceset="ONP-CHANNEL" device=""/>
-<part name="U$6" library="on-n-channel-fet" deviceset="ON-N-CHANNEL-FET" device=""/>
-<part name="U$7" library="diodes-inc-npn" deviceset="DIODE-INC-NPN" device=""/>
-<part name="U$8" library="on-tvs-diode-array" deviceset="ON-TVS-ARRAY" device=""/>
-<part name="U$9" library="on-tvs-diode-array" deviceset="ON-TVS-ARRAY" device=""/>
+<part name="U5" library="on-p-channel-fet" deviceset="ONP-CHANNEL" device=""/>
+<part name="U6" library="on-n-channel-fet" deviceset="ON-N-CHANNEL-FET" device=""/>
+<part name="U7" library="diodes-inc-npn" deviceset="DIODE-INC-NPN" device=""/>
+<part name="U8" library="on-tvs-diode-array" deviceset="ON-TVS-ARRAY" device=""/>
+<part name="U9" library="on-tvs-diode-array" deviceset="ON-TVS-ARRAY" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -10268,20 +10268,20 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <instance part="U$3" gate="G$1" x="289.56" y="177.8"/>
 <instance part="U$4" gate="G$1" x="391.16" y="187.96"/>
 <instance part="GND12" gate="1" x="375.92" y="185.42"/>
-<instance part="U$5" gate="G$1" x="55.88" y="195.58" rot="R90"/>
-<instance part="U$6" gate="G$1" x="50.8" y="177.8"/>
-<instance part="U$7" gate="G$1" x="254" y="187.96" rot="MR0"/>
-<instance part="U$8" gate="A" x="330.2" y="182.88" rot="R270"/>
-<instance part="U$8" gate="B" x="337.82" y="182.88" rot="R270"/>
-<instance part="U$8" gate="C" x="345.44" y="182.88" rot="R270"/>
-<instance part="U$8" gate="D" x="353.06" y="182.88" rot="R270"/>
-<instance part="U$8" gate="G$5" x="30.48" y="45.72" rot="R90"/>
-<instance part="U$9" gate="A" x="360.68" y="182.88" rot="R270"/>
-<instance part="U$9" gate="B" x="368.3" y="182.88" rot="R270"/>
-<instance part="U$9" gate="C" x="25.4" y="190.5" rot="R90"/>
+<instance part="U5" gate="G$1" x="55.88" y="195.58" rot="R90"/>
+<instance part="U6" gate="G$1" x="50.8" y="177.8"/>
+<instance part="U7" gate="G$1" x="254" y="187.96" rot="MR0"/>
+<instance part="U8" gate="A" x="330.2" y="182.88" rot="R270"/>
+<instance part="U8" gate="B" x="337.82" y="182.88" rot="R270"/>
+<instance part="U8" gate="C" x="345.44" y="182.88" rot="R270"/>
+<instance part="U8" gate="D" x="353.06" y="182.88" rot="R270"/>
+<instance part="U8" gate="G$5" x="30.48" y="45.72" rot="R90"/>
+<instance part="U9" gate="A" x="360.68" y="182.88" rot="R270"/>
+<instance part="U9" gate="B" x="368.3" y="182.88" rot="R270"/>
+<instance part="U9" gate="C" x="25.4" y="190.5" rot="R90"/>
 <instance part="GND14" gate="1" x="368.3" y="167.64"/>
-<instance part="U$9" gate="D" x="35.56" y="30.48" rot="R180"/>
-<instance part="U$9" gate="G$5" x="30.48" y="38.1" rot="R90"/>
+<instance part="U9" gate="D" x="35.56" y="30.48" rot="R180"/>
+<instance part="U9" gate="G$5" x="30.48" y="38.1" rot="R90"/>
 <instance part="GND13" gate="1" x="25.4" y="167.64"/>
 <instance part="GND15" gate="1" x="48.26" y="33.02"/>
 <instance part="C4" gate="G$1" x="63.5" y="193.04"/>
@@ -10314,27 +10314,27 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <junction x="33.02" y="198.12"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="198.12" x2="40.64" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="S"/>
+<pinref part="U5" gate="G$1" pin="S"/>
 <wire x1="40.64" y1="198.12" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
 <junction x="40.64" y="198.12"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N6" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="185.42" x2="53.34" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="185.42" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="182.88" x2="53.34" y2="185.42" width="0.1524" layer="91"/>
 <junction x="53.34" y="185.42"/>
-<pinref part="U$5" gate="G$1" pin="G"/>
-<pinref part="U$6" gate="G$1" pin="D"/>
+<pinref part="U5" gate="G$1" pin="G"/>
+<pinref part="U6" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="53.34" y1="170.18" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="S"/>
+<pinref part="U6" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -10410,18 +10410,18 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="U$9" gate="C" pin="1"/>
+<pinref part="U9" gate="C" pin="1"/>
 <wire x1="25.4" y1="170.18" x2="25.4" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="48.26" y1="35.56" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$5" pin="GND"/>
+<pinref part="U9" gate="G$5" pin="GND"/>
 <wire x1="48.26" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <junction x="43.18" y="38.1"/>
-<pinref part="U$8" gate="G$5" pin="GND"/>
+<pinref part="U8" gate="G$5" pin="GND"/>
 <wire x1="43.18" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10481,7 +10481,7 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <junction x="104.14" y="193.04"/>
 <wire x1="60.96" y1="198.12" x2="63.5" y2="198.12" width="0.1524" layer="91"/>
 <junction x="104.14" y="198.12"/>
-<pinref part="U$5" gate="G$1" pin="D"/>
+<pinref part="U5" gate="G$1" pin="D"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="198.12" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="198.12" x2="78.74" y2="198.12" width="0.1524" layer="91"/>
@@ -10567,7 +10567,7 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <pinref part="U$4" gate="G$1" pin="P$22"/>
 <wire x1="414.02" y1="208.28" x2="381" y2="208.28" width="0.1524" layer="91"/>
 <junction x="381" y="208.28"/>
-<pinref part="U$8" gate="A" pin="1"/>
+<pinref part="U8" gate="A" pin="1"/>
 <wire x1="330.2" y1="187.96" x2="330.2" y2="208.28" width="0.1524" layer="91"/>
 <junction x="330.2" y="208.28"/>
 </segment>
@@ -10607,7 +10607,7 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="V4" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="254" y1="175.26" x2="251.46" y2="175.26" width="0.1524" layer="91"/>
@@ -10618,10 +10618,10 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <wire x1="266.7" y1="170.18" x2="251.46" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="170.18" x2="251.46" y2="175.26" width="0.1524" layer="91"/>
 <junction x="251.46" y="175.26"/>
-<pinref part="U$7" gate="G$1" pin="E"/>
+<pinref part="U7" gate="G$1" pin="E"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="V3" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="175.26" x2="264.16" y2="175.26" width="0.1524" layer="91"/>
@@ -10629,13 +10629,13 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <wire x1="264.16" y1="187.96" x2="264.16" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="195.58" x2="251.46" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="195.58" x2="251.46" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="C"/>
+<pinref part="U7" gate="G$1" pin="C"/>
 <pinref part="U$3" gate="G$1" pin="V3"/>
 <wire x1="269.24" y1="185.42" x2="266.7" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="185.42" x2="266.7" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="187.96" x2="264.16" y2="187.96" width="0.1524" layer="91"/>
 <junction x="264.16" y="187.96"/>
-<pinref part="U$7" gate="G$1" pin="B"/>
+<pinref part="U7" gate="G$1" pin="B"/>
 <wire x1="256.54" y1="187.96" x2="264.16" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10651,17 +10651,17 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <junction x="381" y="195.58"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="185.42" x2="33.02" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="G"/>
+<pinref part="U6" gate="G$1" pin="G"/>
 <wire x1="33.02" y1="175.26" x2="40.64" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="175.26" x2="45.72" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="137.16" x2="40.64" y2="175.26" width="0.1524" layer="91"/>
 <junction x="40.64" y="175.26"/>
-<pinref part="U$9" gate="B" pin="1"/>
+<pinref part="U9" gate="B" pin="1"/>
 <wire x1="368.3" y1="187.96" x2="368.3" y2="195.58" width="0.1524" layer="91"/>
 <junction x="368.3" y="195.58"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="ADDR0" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="ADR0"/>
 <wire x1="309.88" y1="170.18" x2="314.96" y2="170.18" width="0.1524" layer="91"/>
@@ -10680,7 +10680,7 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <wire x1="345.44" y1="203.2" x2="381" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="203.2" x2="381" y2="203.2" width="0.1524" layer="91"/>
 <junction x="381" y="203.2"/>
-<pinref part="U$8" gate="C" pin="1"/>
+<pinref part="U8" gate="C" pin="1"/>
 <wire x1="345.44" y1="187.96" x2="345.44" y2="203.2" width="0.1524" layer="91"/>
 <junction x="345.44" y="203.2"/>
 </segment>
@@ -10696,7 +10696,7 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <wire x1="353.06" y1="200.66" x2="381" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="200.66" x2="381" y2="200.66" width="0.1524" layer="91"/>
 <junction x="381" y="200.66"/>
-<pinref part="U$8" gate="D" pin="1"/>
+<pinref part="U8" gate="D" pin="1"/>
 <wire x1="353.06" y1="187.96" x2="353.06" y2="200.66" width="0.1524" layer="91"/>
 <junction x="353.06" y="200.66"/>
 </segment>
@@ -10712,7 +10712,7 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <wire x1="360.68" y1="198.12" x2="381" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="198.12" x2="381" y2="198.12" width="0.1524" layer="91"/>
 <junction x="381" y="198.12"/>
-<pinref part="U$9" gate="A" pin="1"/>
+<pinref part="U9" gate="A" pin="1"/>
 <wire x1="360.68" y1="187.96" x2="360.68" y2="198.12" width="0.1524" layer="91"/>
 <junction x="360.68" y="198.12"/>
 </segment>
@@ -10727,7 +10727,7 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <wire x1="337.82" y1="205.74" x2="381" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="205.74" x2="381" y2="205.74" width="0.1524" layer="91"/>
 <junction x="381" y="205.74"/>
-<pinref part="U$8" gate="B" pin="1"/>
+<pinref part="U8" gate="B" pin="1"/>
 <wire x1="337.82" y1="187.96" x2="337.82" y2="205.74" width="0.1524" layer="91"/>
 <junction x="337.82" y="205.74"/>
 </segment>
