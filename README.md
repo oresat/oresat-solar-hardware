@@ -6,7 +6,7 @@ OreSat solar array designs and CAD.
 The solar array provides operating power and charges Oresat's lipo bank.
 
 <p align="center">
-  <img src="http://i.imgur.com/8L8mwpQ.png"/>
+  <img src="http://i.imgur.com/sdlSdFT.png"/>
 </p>
 [Block Diagram](http://i.imgur.com/8L8mwpQ.png)
 
