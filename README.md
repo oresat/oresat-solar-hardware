@@ -16,10 +16,25 @@ The Solar Array will utilize gallium arsenide solar cell's.  We are considering 
 
 # Design
 
-- [Parts Selection]
-- [Bill of Materials]
+- [Parts Selection](https://github.com/oresat/solar/blob/master/Parts_Selection.md)
+- [Bill of Materials](https://github.com/oresat/solar/blob/master/doc/BOM/Rev1_BOM.ods)
 - [Eagle Schematic](https://github.com/oresat/solar/blob/master/eagle/1u_panel.sch)
 - [Eagle Layout](https://github.com/oresat/solar/blob/master/eagle/1u_panel.brd)
+
+# Contents
+- doc
+- - BOM - Bill of Materials
+- - PDF - Drawings (schematics, board layout etc.)
+- - Solar Cells - Info on cells
+- - datasheets - Datasheets for ic's
+- eagle - Drawings and libs for eagle
+- kicad - Outdated versions on done on kicad (do not use)
+- mechanical - CAD drawings of physical board
+
+
+## Project Team
+Andrew Greenberg
+Austin Joseph
 
 
 
