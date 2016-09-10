@@ -15,10 +15,11 @@ The solar array provides operating power and charges Oresat's lipo bank.
 The Solar Array will utilize gallium arsenide solar cell's.  We are considering using cells manufactured by [Alta Devices](https://http://www.altadevices.com/).  The SPV1040 switching boost regulator will condition the incoming power.  The LTC2990 sense IC will communicate via I2C with the system controller.  A pair of mosfets are connected to a shorting bar that will keep the cubesat off until it is launched.
 
 # Design
-[Parts Selection]
-[Bill of Materials]
-[Eagle Schematic](https://github.com/oresat/solar/blob/master/eagle/1u_panel.sch)
-[Eagle Layout](https://github.com/oresat/solar/blob/master/eagle/1u_panel.brd)
+
+ [Parts Selection]
+ [Bill of Materials]
+ [Eagle Schematic](https://github.com/oresat/solar/blob/master/eagle/1u_panel.sch)
+ [Eagle Layout](https://github.com/oresat/solar/blob/master/eagle/1u_panel.brd)
 
 
 
