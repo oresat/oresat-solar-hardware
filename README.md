@@ -33,8 +33,8 @@ The Solar Array will utilize gallium arsenide solar cell's.  We are considering 
 
 
 ## Project Team
-  Andrew Greenberg  
-  Austin Joseph
+  [Andrew Greenberg](https://github.com/andrewgreenberg)  
+  [Austin Joseph](https://github.com/austinjoseph)
 
 
 
