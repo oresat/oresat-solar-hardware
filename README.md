@@ -5,10 +5,9 @@ Current design documentation can be found [here on the solar array google doc](h
 
 # Overview
 <p align="center">
-  <img src="http://i.imgur.com/65JZeoG.png"/>
+  <img src="http://imgur.com/8L8mwpQ"/>
 </p>
-http://i.imgur.com/65JZeoG.png
-[Imgur](http://i.imgur.com/65JZeoG.png)
+[Block Diagram Link](http://imgur.com/8L8mwpQ)
 
 
 
