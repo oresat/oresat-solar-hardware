@@ -16,10 +16,10 @@ The Solar Array will utilize gallium arsenide solar cell's.  We are considering 
 
 # Design
 
- [Parts Selection]
- [Bill of Materials]
- [Eagle Schematic](https://github.com/oresat/solar/blob/master/eagle/1u_panel.sch)
- [Eagle Layout](https://github.com/oresat/solar/blob/master/eagle/1u_panel.brd)
+- [Parts Selection]
+- [Bill of Materials]
+- [Eagle Schematic](https://github.com/oresat/solar/blob/master/eagle/1u_panel.sch)
+- [Eagle Layout](https://github.com/oresat/solar/blob/master/eagle/1u_panel.brd)
 
 
 
