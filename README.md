@@ -5,7 +5,7 @@ Current design documentation can be found [here on the solar array google doc](h
 
 # Overview
 <p align="left">
-  <img src="http://imgur.com/a/Y61F7"/>
+  <img src="http://imgur.com/65JZeoG"/>
 </p>
 
 
