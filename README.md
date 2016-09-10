@@ -28,7 +28,8 @@ The Solar Array will utilize gallium arsenide solar cell's.  We are considering 
   - Solar Cells - Info on cells
   - datasheets - Datasheets for ic's
 - eagle - Drawings and libs for eagle
-- kicad - Outdated versions on done on kicad (do not use)
+  - lib - Project specific parts lib
+- kicad - Outdated versions done on kicad (do not use)
 - mechanical - CAD drawings of physical board
 
 
