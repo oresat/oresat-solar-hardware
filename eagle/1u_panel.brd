@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -2685,6 +2685,22 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </package>
 </packages>
 </library>
+<library name="CSM-8Q">
+<packages>
+<package name="4-SMD">
+<smd name="4" x="-3" y="1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="3" x="3" y="1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="1" x="-3" y="-1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="3" y="-1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<wire x1="-3.5" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="20"/>
+<wire x1="3.5" y1="2.5" x2="3.5" y2="-2.5" width="0.127" layer="20"/>
+<wire x1="3.5" y1="-2.5" x2="-3.5" y2="-2.5" width="0.127" layer="20"/>
+<wire x1="-3.5" y1="-2.5" x2="-3.5" y2="2.5" width="0.127" layer="20"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 <library name="STM32F042F6">
 <packages>
 <package name="TSSOP20">
@@ -2741,6 +2757,44 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="-1.7266" y1="2.2828" x2="-1.5234" y2="3.121" layer="51"/>
 <rectangle x1="-2.3766" y1="2.2828" x2="-2.1734" y2="3.121" layer="51"/>
 <rectangle x1="-3.0266" y1="2.2828" x2="-2.8234" y2="3.121" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="SN65HVD231">
+<packages>
+<package name="SO-08">
+<description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
+
+Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
+<wire x1="-2.754" y1="3.9" x2="2.754" y2="3.9" width="0.2" layer="39"/>
+<wire x1="2.754" y1="3.9" x2="2.754" y2="-3.9" width="0.2" layer="39"/>
+<wire x1="2.754" y1="-3.9" x2="-2.754" y2="-3.9" width="0.2" layer="39"/>
+<wire x1="-2.754" y1="-3.9" x2="-2.754" y2="3.9" width="0.2" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
 </packages>
 </library>
@@ -2957,7 +3011,9 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <element name="C15" library="rcl_custom" package="1206-B" value="47u" x="43" y="74"/>
 <element name="L2" library="inductor-for-spv" package="PIS2816" value="" x="33.98" y="66.57" rot="R270"/>
 <element name="CM1" library="oresat-eagle" package="HARWIN-ARCHER-M50-3502042" value="ORESAT-BACKPLANE-40PIN" x="41.5" y="97" locked="yes"/>
-<element name="U$1" library="STM32F042F6" package="TSSOP20" value="STM32F042F6" x="56.25" y="79.25" rot="R270"/>
+<element name="U$2" library="CSM-8Q" package="4-SMD" value="CSM-8Q" x="52.5" y="65.75"/>
+<element name="U$1" library="STM32F042F6" package="TSSOP20" value="STM32F042F6" x="52.5" y="73.75"/>
+<element name="U$4" library="SN65HVD231" package="SO-08" value="SN65HVD231" x="61.25" y="80.25"/>
 </elements>
 <signals>
 <signal name="SOLAR-IN">

@@ -11336,6 +11336,55 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </deviceset>
 </devicesets>
 </library>
+<library name="CSM-8Q">
+<packages>
+<package name="4-SMD">
+<smd name="4" x="-3" y="1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="3" x="3" y="1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="1" x="-3" y="-1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="3" y="-1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<wire x1="-3.5" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="20"/>
+<wire x1="3.5" y1="2.5" x2="3.5" y2="-2.5" width="0.127" layer="20"/>
+<wire x1="3.5" y1="-2.5" x2="-3.5" y2="-2.5" width="0.127" layer="20"/>
+<wire x1="-3.5" y1="-2.5" x2="-3.5" y2="2.5" width="0.127" layer="20"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CSM-8Q">
+<pin name="IN" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="OUT" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<text x="-10.16" y="-10.16" size="1.778" layer="95">&gt;VALUE</text>
+<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CSM-8Q">
+<description>http://www.digikey.com/product-detail/en/ecs-inc/ECS-80-18-20BQ-DS/XC2015CT-ND/4073726</description>
+<gates>
+<gate name="G$1" symbol="CSM-8Q" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="4-SMD">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="STM32F042F6">
 <packages>
 <package name="TSSOP20">
@@ -11396,32 +11445,32 @@ MAX3223-MAX3243.pdf</description>
 </packages>
 <symbols>
 <symbol name="STM32F042F6">
-<wire x1="0" y1="0" x2="40" y2="0" width="0.254" layer="94"/>
-<wire x1="40" y1="0" x2="40" y2="-42" width="0.254" layer="94"/>
-<wire x1="40" y1="-42" x2="0" y2="-42" width="0.254" layer="94"/>
-<wire x1="0" y1="-42" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="PB8-BOOT0" x="-5" y="-10" visible="pin" length="middle"/>
-<pin name="PF0-OSC_IN" x="-5" y="-14" visible="pin" length="middle"/>
-<pin name="PF1-OSC_OUT" x="-5" y="-18" visible="pin" length="middle"/>
-<pin name="NRST" x="-5" y="-22" visible="pin" length="middle"/>
-<pin name="VDDA" x="9" y="5" visible="pin" length="middle" rot="R270"/>
-<pin name="PA0" x="45" y="-3" visible="pin" length="middle" rot="R180"/>
-<pin name="PA1" x="45" y="-7" visible="pin" length="middle" rot="R180"/>
-<pin name="PA2" x="45" y="-11" visible="pin" length="middle" rot="R180"/>
-<pin name="PA3" x="45" y="-15" visible="pin" length="middle" rot="R180"/>
-<pin name="PA4" x="45" y="-19" visible="pin" length="middle" rot="R180"/>
-<pin name="PA5" x="45" y="-23" visible="pin" length="middle" rot="R180"/>
-<pin name="PA6" x="45" y="-27" visible="pin" length="middle" rot="R180"/>
-<pin name="PA7" x="45" y="-31" visible="pin" length="middle" rot="R180"/>
-<pin name="PB1" x="45" y="-35" visible="pin" length="middle" rot="R180"/>
-<pin name="VSS" x="17" y="5" visible="pin" length="middle" rot="R270"/>
-<pin name="VDD" x="26" y="5" visible="pin" length="middle" rot="R270"/>
-<pin name="PA9_(PA11)" x="-5" y="-31" visible="pin" length="middle"/>
-<pin name="PA10_(PA12)" x="45" y="-39" visible="pin" length="middle" rot="R180"/>
-<pin name="PA13" x="-5" y="-35" visible="pin" length="middle"/>
-<pin name="PA14" x="-5" y="-39" visible="pin" length="middle"/>
-<text x="1" y="1" size="1.27" layer="95">&gt;NAME</text>
-<text x="2" y="-44" size="1.27" layer="95">&gt;VALUE</text>
+<pin name="PB8-BOOT0" x="-25.4" y="10.16" visible="pin" length="middle"/>
+<pin name="PF0-OSC_IN" x="-25.4" y="5.08" visible="pin" length="middle"/>
+<pin name="PF1-OSC_OUT" x="-25.4" y="2.54" visible="pin" length="middle"/>
+<pin name="NRST" x="-25.4" y="-2.54" visible="pin" length="middle"/>
+<pin name="VDDA" x="-10.16" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="PA0" x="25.4" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="PA1" x="25.4" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PA2" x="25.4" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PA3" x="25.4" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PA4" x="25.4" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PA5" x="25.4" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PA6" x="25.4" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="PA7" x="25.4" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PB1" x="25.4" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="VSS" x="-2.54" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="VDD" x="5.08" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="PA9_(PA11)" x="-25.4" y="-12.7" visible="pin" length="middle"/>
+<pin name="PA10_(PA12)" x="25.4" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PA13" x="-25.4" y="-15.24" visible="pin" length="middle"/>
+<pin name="PA14" x="-25.4" y="-17.78" visible="pin" length="middle"/>
+<text x="-19.32" y="21.32" size="1.27" layer="95">&gt;NAME</text>
+<text x="-18.32" y="-23.68" size="1.27" layer="95">&gt;VALUE</text>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-20.32" x2="-20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-20.32" x2="-20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11454,6 +11503,86 @@ http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-c
 <connect gate="G$1" pin="VDD" pad="16"/>
 <connect gate="G$1" pin="VDDA" pad="5"/>
 <connect gate="G$1" pin="VSS" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SN65HVD231">
+<packages>
+<package name="SO-08">
+<description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
+
+Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
+<wire x1="-2.754" y1="3.9" x2="2.754" y2="3.9" width="0.2" layer="39"/>
+<wire x1="2.754" y1="3.9" x2="2.754" y2="-3.9" width="0.2" layer="39"/>
+<wire x1="2.754" y1="-3.9" x2="-2.754" y2="-3.9" width="0.2" layer="39"/>
+<wire x1="-2.754" y1="-3.9" x2="-2.754" y2="3.9" width="0.2" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SN65HVD231">
+<pin name="VCC" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
+<pin name="VREF" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="CANH" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="CANL" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="R" x="-17.78" y="2.54" length="middle"/>
+<pin name="RS" x="-17.78" y="-2.54" length="middle"/>
+<pin name="D" x="-17.78" y="7.62" length="middle"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SN65HVD231">
+<gates>
+<gate name="G$1" symbol="SN65HVD231" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SO-08">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="R" pad="4"/>
+<connect gate="G$1" pin="RS" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VREF" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11521,7 +11650,9 @@ http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-c
 <part name="C15" library="rcl_custom" deviceset="C-EU" device="1206-B" value="47u"/>
 <part name="L2" library="inductor-for-spv" deviceset="L" device="PIS2816"/>
 <part name="CM1" library="oresat-eagle" deviceset="ORESAT-BACKPLANE-40PIN" device=""/>
+<part name="U$2" library="CSM-8Q" deviceset="CSM-8Q" device=""/>
 <part name="U$1" library="STM32F042F6" deviceset="STM32F042F6" device=""/>
+<part name="U$4" library="SN65HVD231" deviceset="SN65HVD231" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11599,7 +11730,9 @@ Design ignoring layers 2 and 15</text>
 <instance part="C15" gate="CE" x="233.68" y="203.2"/>
 <instance part="L2" gate="G$1" x="114.3" y="198.12" rot="R270"/>
 <instance part="CM1" gate="G$1" x="414.02" y="189.23" rot="MR0"/>
-<instance part="U$1" gate="G$1" x="175.26" y="116.84"/>
+<instance part="U$2" gate="G$1" x="254" y="91.44"/>
+<instance part="U$1" gate="G$1" x="317.5" y="86.36"/>
+<instance part="U$4" gate="G$1" x="375.92" y="99.06"/>
 </instances>
 <busses>
 </busses>
