@@ -123,7 +123,7 @@ MAX3223-MAX3243.pdf</description>
 <pin name="PF0-OSC_IN" x="-25.4" y="5.08" visible="pin" length="middle"/>
 <pin name="PF1-OSC_OUT" x="-25.4" y="2.54" visible="pin" length="middle"/>
 <pin name="NRST" x="-25.4" y="-2.54" visible="pin" length="middle"/>
-<pin name="VDDA" x="-10.16" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="VDDA" x="-15.24" y="25.4" visible="pin" length="middle" rot="R270"/>
 <pin name="PA0" x="25.4" y="15.24" visible="pin" length="middle" rot="R180"/>
 <pin name="PA1" x="25.4" y="12.7" visible="pin" length="middle" rot="R180"/>
 <pin name="PA2" x="25.4" y="10.16" visible="pin" length="middle" rot="R180"/>
@@ -134,8 +134,8 @@ MAX3223-MAX3243.pdf</description>
 <pin name="PA7" x="25.4" y="-2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="PB1" x="25.4" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="VSS" x="-2.54" y="25.4" visible="pin" length="middle" rot="R270"/>
-<pin name="VDD" x="5.08" y="25.4" visible="pin" length="middle" rot="R270"/>
-<pin name="PA9_(PA11)" x="-25.4" y="-12.7" visible="pin" length="middle"/>
+<pin name="VDD" x="10.16" y="25.4" visible="pin" length="middle" rot="R270"/>
+<pin name="PA9_(PA11)" x="25.4" y="-12.7" visible="pin" length="middle" rot="R180"/>
 <pin name="PA10_(PA12)" x="25.4" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="PA13" x="-25.4" y="-15.24" visible="pin" length="middle"/>
 <pin name="PA14" x="-25.4" y="-17.78" visible="pin" length="middle"/>
