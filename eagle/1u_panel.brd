@@ -2757,60 +2757,47 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 </library>
 <library name="STM32F042F6">
 <packages>
-<package name="TSSOP20">
-<description>&lt;b&gt;Thin Shrink Small Outline Plastic 20&lt;/b&gt;&lt;p&gt;
-MAX3223-MAX3243.pdf</description>
-<wire x1="-3.1646" y1="-2.2828" x2="3.1646" y2="-2.2828" width="0.1524" layer="21"/>
-<wire x1="3.1646" y1="2.2828" x2="3.1646" y2="-2.2828" width="0.1524" layer="21"/>
-<wire x1="3.1646" y1="2.2828" x2="-3.1646" y2="2.2828" width="0.1524" layer="21"/>
-<wire x1="-3.1646" y1="-2.2828" x2="-3.1646" y2="2.2828" width="0.1524" layer="21"/>
-<wire x1="-2.936" y1="-2.0542" x2="2.936" y2="-2.0542" width="0.0508" layer="21"/>
-<wire x1="2.936" y1="2.0542" x2="2.936" y2="-2.0542" width="0.0508" layer="21"/>
-<wire x1="2.936" y1="2.0542" x2="-2.936" y2="2.0542" width="0.0508" layer="21"/>
-<wire x1="-2.936" y1="-2.0542" x2="-2.936" y2="2.0542" width="0.0508" layer="21"/>
-<circle x="-2.2756" y="-1.2192" radius="0.4572" width="0.1524" layer="21"/>
-<smd name="1" x="-2.925" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="2" x="-2.275" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="3" x="-1.625" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="4" x="-0.975" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="5" x="-0.325" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="6" x="0.325" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="7" x="0.975" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="8" x="1.625" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="9" x="2.275" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="10" x="2.925" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="11" x="2.925" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="12" x="2.275" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="13" x="1.625" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="14" x="0.975" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="15" x="0.325" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="16" x="-0.325" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="17" x="-0.975" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="18" x="-1.625" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="19" x="-2.275" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<smd name="20" x="-2.925" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
-<text x="-3.5456" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="4.5362" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-3.0266" y1="-3.121" x2="-2.8234" y2="-2.2828" layer="51"/>
-<rectangle x1="-2.3766" y1="-3.121" x2="-2.1734" y2="-2.2828" layer="51"/>
-<rectangle x1="-1.7266" y1="-3.121" x2="-1.5234" y2="-2.2828" layer="51"/>
-<rectangle x1="-1.0766" y1="-3.121" x2="-0.8734" y2="-2.2828" layer="51"/>
-<rectangle x1="-0.4266" y1="-3.121" x2="-0.2234" y2="-2.2828" layer="51"/>
-<rectangle x1="0.2234" y1="-3.121" x2="0.4266" y2="-2.2828" layer="51"/>
-<rectangle x1="0.8734" y1="-3.121" x2="1.0766" y2="-2.2828" layer="51"/>
-<rectangle x1="1.5234" y1="-3.121" x2="1.7266" y2="-2.2828" layer="51"/>
-<rectangle x1="2.1734" y1="-3.121" x2="2.3766" y2="-2.2828" layer="51"/>
-<rectangle x1="2.8234" y1="-3.121" x2="3.0266" y2="-2.2828" layer="51"/>
-<rectangle x1="2.8234" y1="2.2828" x2="3.0266" y2="3.121" layer="51"/>
-<rectangle x1="2.1734" y1="2.2828" x2="2.3766" y2="3.121" layer="51"/>
-<rectangle x1="1.5234" y1="2.2828" x2="1.7266" y2="3.121" layer="51"/>
-<rectangle x1="0.8734" y1="2.2828" x2="1.0766" y2="3.121" layer="51"/>
-<rectangle x1="0.2234" y1="2.2828" x2="0.4266" y2="3.121" layer="51"/>
-<rectangle x1="-0.4266" y1="2.2828" x2="-0.2234" y2="3.121" layer="51"/>
-<rectangle x1="-1.0766" y1="2.2828" x2="-0.8734" y2="3.121" layer="51"/>
-<rectangle x1="-1.7266" y1="2.2828" x2="-1.5234" y2="3.121" layer="51"/>
-<rectangle x1="-2.3766" y1="2.2828" x2="-2.1734" y2="3.121" layer="51"/>
-<rectangle x1="-3.0266" y1="2.2828" x2="-2.8234" y2="3.121" layer="51"/>
+<package name="UFQFPN-28">
+<description>&lt;b&gt;QFPN-28&lt;/b&gt; 7x7 x 1.8mm&lt;p&gt;
+Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</description>
+<wire x1="-1.95" y1="1.95" x2="1.95" y2="1.95" width="0.1016" layer="51"/>
+<wire x1="1.95" y1="1.95" x2="1.95" y2="-1.95" width="0.1016" layer="51"/>
+<wire x1="1.95" y1="-1.95" x2="-1.95" y2="-1.95" width="0.1016" layer="51"/>
+<wire x1="-1.95" y1="-1.95" x2="-1.95" y2="1.95" width="0.1016" layer="51"/>
+<smd name="1" x="-1.9" y="1.5" dx="0.4" dy="0.35" layer="1" roundness="50"/>
+<smd name="2" x="-1.9" y="1" dx="0.5" dy="0.35" layer="1" roundness="50"/>
+<smd name="3" x="-1.9" y="0.5" dx="0.5" dy="0.35" layer="1" roundness="50"/>
+<smd name="4" x="-1.9" y="0" dx="0.5" dy="0.35" layer="1" roundness="50"/>
+<smd name="5" x="-1.9" y="-0.5" dx="0.5" dy="0.35" layer="1" roundness="50"/>
+<smd name="6" x="-1.9" y="-1" dx="0.5" dy="0.35" layer="1" roundness="50"/>
+<smd name="7" x="-1.9" y="-1.5" dx="0.4" dy="0.35" layer="1" roundness="50"/>
+<smd name="9" x="-1" y="-1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R90"/>
+<smd name="8" x="-1.5" y="-1.9" dx="0.4" dy="0.35" layer="1" roundness="50" rot="R90"/>
+<smd name="10" x="-0.5" y="-1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R90"/>
+<smd name="11" x="0" y="-1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R90"/>
+<smd name="12" x="0.5" y="-1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R90"/>
+<smd name="13" x="1" y="-1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R90"/>
+<smd name="14" x="1.5" y="-1.9" dx="0.4" dy="0.35" layer="1" roundness="50" rot="R90"/>
+<smd name="15" x="1.9" y="-1.5" dx="0.4" dy="0.35" layer="1" roundness="50" rot="R180"/>
+<smd name="16" x="1.9" y="-1" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R180"/>
+<smd name="17" x="1.9" y="-0.5" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R180"/>
+<smd name="18" x="1.9" y="0" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R180"/>
+<smd name="19" x="1.9" y="0.5" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R180"/>
+<smd name="20" x="1.9" y="1" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R180"/>
+<smd name="21" x="1.9" y="1.5" dx="0.4" dy="0.35" layer="1" roundness="50" rot="R180"/>
+<smd name="22" x="1.5" y="1.9" dx="0.4" dy="0.35" layer="1" roundness="50" rot="R270"/>
+<smd name="23" x="1" y="1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R270"/>
+<smd name="24" x="0.5" y="1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R270"/>
+<smd name="25" x="0" y="1.9" dx="0.5" dy="0.25" layer="1" roundness="50" rot="R270"/>
+<smd name="26" x="-0.5" y="1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R270"/>
+<smd name="27" x="-1" y="1.9" dx="0.5" dy="0.35" layer="1" roundness="50" rot="R270"/>
+<smd name="28" x="-1.5" y="1.9" dx="0.4" dy="0.35" layer="1" roundness="50" rot="R270"/>
+<smd name="TH" x="0" y="0" dx="2.9" dy="2.9" layer="1" stop="no"/>
+<text x="-3.2" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.2" y="-5.2" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.525" y1="-2.525" x2="2.525" y2="2.525" layer="29"/>
+<rectangle x1="-2" y1="-2" x2="2" y2="2" layer="31"/>
+<text x="-1.5" y="1" size="0.3048" layer="25">1</text>
 </package>
 </packages>
 </library>
@@ -3034,7 +3021,9 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <element name="C11" library="rcl" package="C0603" value="" x="-3.25" y="-9.5"/>
 <element name="C16" library="rcl" package="C0603" value="" x="-3.25" y="-13"/>
 <element name="C17" library="rcl" package="C0603" value="" x="-3.25" y="-16.5"/>
-<element name="U$1" library="STM32F042F6" package="TSSOP20" value="STM32F042F6" x="0.25" y="-21.5"/>
+<element name="U$1" library="STM32F042F6" package="UFQFPN-28" value="STM32F042" x="-9.25" y="-11.75"/>
+<element name="C18" library="rcl" package="C0603" value="" x="-11.25" y="-20"/>
+<element name="C19" library="rcl" package="C0603" value="" x="-11.25" y="-23.5"/>
 </elements>
 <signals>
 <signal name="SOLAR-IN">
@@ -3260,7 +3249,9 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="C17" pad="1"/>
 <contactref element="U$4" pad="2"/>
 <contactref element="U$4" pad="8"/>
-<contactref element="U$1" pad="15"/>
+<contactref element="U$1" pad="16"/>
+<contactref element="C18" pad="2"/>
+<contactref element="C19" pad="2"/>
 <wire x1="67" y1="88" x2="67" y2="91" width="0" layer="19" extent="1-1"/>
 <wire x1="63" y1="91" x2="67" y2="91" width="0" layer="19" extent="1-1"/>
 <wire x1="63" y1="88" x2="63" y2="91" width="0" layer="19" extent="1-1"/>
@@ -3324,7 +3315,9 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <wire x1="-2.4" y1="-9.5" x2="-4.1" y2="-6" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.4" y1="-13" x2="-2.4" y2="-9.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.1" y1="-16.5" x2="-2.4" y2="-13" width="0" layer="19" extent="1-1"/>
-<wire x1="0.575" y1="-18.5822" x2="-4.1" y2="-16.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.35" y1="-12.75" x2="-2.4" y2="-13" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.4" y1="-20" x2="-4.1" y2="-16.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.4" y1="-23.5" x2="-10.4" y2="-20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOLAR-IN-SWITCHED">
 <contactref element="R3" pad="2"/>
@@ -3662,41 +3655,36 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 </signal>
 <signal name="3.3V">
 <contactref element="C9" pad="2"/>
-<contactref element="C3" pad="2"/>
 <contactref element="U$4" pad="3"/>
 <contactref element="C17" pad="2"/>
 <contactref element="CM1" pad="P$38"/>
 <contactref element="CM1" pad="P$37"/>
+<contactref element="C3" pad="2"/>
 <contactref element="U$1" pad="1"/>
 <contactref element="U$1" pad="5"/>
-<contactref element="U$1" pad="16"/>
+<contactref element="U$1" pad="17"/>
 <wire x1="52.295" y1="96.365" x2="52.295" y2="97.635" width="0" layer="19" extent="1-1"/>
 <wire x1="61.885" y1="77.65" x2="52.295" y2="96.365" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.4" y1="-2.5" x2="61.885" y2="77.65" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.4" y1="-6" x2="-2.4" y2="-2.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.4" y1="-16.5" x2="-2.4" y2="-6" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.075" y1="-18.5822" x2="-2.4" y2="-16.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.075" y1="-24.4178" x2="-0.075" y2="-18.5822" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.675" y1="-24.4178" x2="-0.075" y2="-24.4178" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.35" y1="-12.25" x2="-2.4" y2="-6" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.15" y1="-12.25" x2="-7.35" y2="-12.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.15" y1="-10.25" x2="-11.15" y2="-12.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.4" y1="-16.5" x2="-7.35" y2="-12.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CRYSTALIN">
 <contactref element="U$2" pad="1"/>
 <contactref element="C16" pad="1"/>
 <contactref element="U$1" pad="2"/>
 <wire x1="-4.1" y1="-13" x2="49.5" y2="64.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.025" y1="-24.4178" x2="-4.1" y2="-13" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.15" y1="-10.75" x2="-4.1" y2="-13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CRYSTALOUT">
 <contactref element="U$2" pad="3"/>
 <contactref element="C11" pad="1"/>
 <contactref element="U$1" pad="3"/>
 <wire x1="-4.1" y1="-9.5" x2="55.5" y2="67.02" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.375" y1="-24.4178" x2="-4.1" y2="-9.5" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="CAND">
-<contactref element="U$4" pad="1"/>
-<contactref element="U$1" pad="18"/>
-<wire x1="-1.375" y1="-18.5822" x2="59.345" y2="77.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.15" y1="-11.25" x2="-4.1" y2="-9.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANH">
 <contactref element="U$4" pad="7"/>
@@ -3708,18 +3696,37 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="CM1" pad="P$40"/>
 <wire x1="61.885" y1="82.85" x2="53.565" y2="97.635" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CANR">
-<contactref element="U$4" pad="4"/>
-<contactref element="U$1" pad="17"/>
-<wire x1="-0.725" y1="-18.5822" x2="63.155" y2="77.65" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$1">
-<contactref element="U$1" pad="4"/>
 <contactref element="CM1" pad="P$36"/>
-<wire x1="-0.725" y1="-24.4178" x2="51.025" y2="97.635" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="4"/>
+<wire x1="-11.15" y1="-11.75" x2="51.025" y2="97.635" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$3" pad="9"/>
+</signal>
+<signal name="N$4">
+<contactref element="U$3" pad="6"/>
+<contactref element="U$1" pad="28"/>
+<wire x1="-10.75" y1="-9.85" x2="47.46" y2="82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="U$3" pad="7"/>
+<contactref element="U$1" pad="27"/>
+<wire x1="-10.25" y1="-9.85" x2="47.46" y2="82.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="U$1" pad="20"/>
+<contactref element="U$4" pad="1"/>
+<contactref element="C19" pad="1"/>
+<wire x1="-7.35" y1="-10.75" x2="59.345" y2="77.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.1" y1="-23.5" x2="-7.35" y2="-10.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="U$1" pad="19"/>
+<contactref element="U$4" pad="4"/>
+<contactref element="C18" pad="1"/>
+<wire x1="-7.35" y1="-11.25" x2="63.155" y2="77.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.1" y1="-20" x2="-7.35" y2="-11.25" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
