@@ -15562,6 +15562,7 @@ like ~ 100 mA and has a voltage divider to provide a low-voltage disable</text>
 <text x="345.44" y="68.58" size="1.778" layer="97">Low power mode?
 Babble mode?
 </text>
+<text x="137.16" y="142.24" size="1.778" layer="95">5V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -16075,6 +16076,7 @@ Babble mode?
 <wire x1="142.24" y1="157.48" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="157.48" x2="241.3" y2="208.28" width="0.1524" layer="91"/>
 <junction x="241.3" y="208.28"/>
+<label x="142.24" y="158.75" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSOLAR" class="0">
