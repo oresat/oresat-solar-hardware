@@ -194,16 +194,16 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <pin name="PF1-OSC_OUT" x="-25.4" y="7.62" visible="pin" length="middle"/>
 <pin name="NRST" x="-25.4" y="2.54" visible="pin" length="middle"/>
 <pin name="VDDA" x="-15.24" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="PA0" x="25.4" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="PA1" x="25.4" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="PA2" x="25.4" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="PA3" x="25.4" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="PA4" x="25.4" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="PA5" x="25.4" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="PA6" x="25.4" y="-20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="PA7" x="25.4" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="PA0" x="25.4" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="PA1" x="25.4" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PA2" x="25.4" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PA3" x="25.4" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PA4" x="25.4" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PA5" x="25.4" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PA6" x="25.4" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="PA7" x="25.4" y="-17.78" visible="pin" length="middle" rot="R180"/>
 <pin name="PB1" x="-25.4" y="-15.24" visible="pin" length="middle"/>
-<pin name="VSS" x="-5.08" y="30.48" visible="pin" length="middle" rot="R270"/>
+<pin name="VSS" x="25.4" y="-22.86" visible="pin" length="middle" rot="R180"/>
 <pin name="VDD" x="5.08" y="30.48" visible="pin" length="middle" rot="R270"/>
 <pin name="PA9_(PA11)" x="25.4" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="PA10_(PA12)" x="25.4" y="10.16" visible="pin" length="middle" rot="R180"/>

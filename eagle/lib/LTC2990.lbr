@@ -123,13 +123,13 @@ Source: http://www.linear.com .. LT1996</description>
 <pin name="V3" x="-20.32" y="7.62" length="middle"/>
 <pin name="V4" x="-20.32" y="-5.08" length="middle"/>
 <pin name="GND" x="0" y="-20.32" length="middle" rot="R90"/>
-<pin name="V1" x="-7.62" y="20.32" length="middle" rot="R270"/>
-<pin name="V2" x="2.54" y="20.32" length="middle" rot="R270"/>
-<pin name="VCC" x="10.16" y="20.32" length="middle" rot="R270"/>
-<pin name="SDA" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="SCL" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="ADR0" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="ADR1" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="V1" x="-5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="V2" x="5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="VCC" x="-12.7" y="20.32" length="middle" rot="R270"/>
+<pin name="SDA" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="SCL" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="ADR0" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="ADR1" x="20.32" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
