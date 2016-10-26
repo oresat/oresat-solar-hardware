@@ -15662,6 +15662,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R22" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
 <part name="R23" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
 <part name="R25" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
+<part name="U$6" library="on-n-channel-fet" deviceset="ON-N-CHANNEL-FET" device=""/>
+<part name="U$7" library="on-n-channel-fet" deviceset="ON-N-CHANNEL-FET" device=""/>
+<part name="R24" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
+<part name="R26" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
 </parts>
 <sheets>
 <sheet>
@@ -15784,6 +15788,10 @@ Babble mode?
 <instance part="R22" gate="R" x="312.42" y="198.12" rot="R270"/>
 <instance part="R23" gate="R" x="320.04" y="198.12" rot="R270"/>
 <instance part="R25" gate="R" x="304.8" y="203.2"/>
+<instance part="U$6" gate="G$1" x="355.6" y="187.96" rot="R270"/>
+<instance part="U$7" gate="G$1" x="363.22" y="193.04" rot="R270"/>
+<instance part="R24" gate="R" x="337.82" y="185.42"/>
+<instance part="R26" gate="R" x="337.82" y="190.5"/>
 </instances>
 <busses>
 </busses>
@@ -15993,6 +16001,24 @@ Babble mode?
 <wire x1="114.3" y1="83.82" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <junction x="114.3" y="78.74"/>
 </segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="365.76" y1="149.86" x2="365.76" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="CM1" gate="G$1" pin="26"/>
+<wire x1="365.76" y1="154.94" x2="373.38" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="154.94" x2="365.76" y2="157.48" width="0.1524" layer="91"/>
+<junction x="365.76" y="154.94"/>
+<pinref part="CM1" gate="G$1" pin="25"/>
+<wire x1="365.76" y1="157.48" x2="373.38" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="157.48" x2="365.76" y2="160.02" width="0.1524" layer="91"/>
+<junction x="365.76" y="157.48"/>
+<pinref part="CM1" gate="G$1" pin="24"/>
+<wire x1="365.76" y1="160.02" x2="373.38" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="160.02" x2="365.76" y2="162.56" width="0.1524" layer="91"/>
+<junction x="365.76" y="160.02"/>
+<pinref part="CM1" gate="G$1" pin="23"/>
+<wire x1="365.76" y1="162.56" x2="373.38" y2="162.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SOLAR-IN-SWITCHED" class="0">
 <segment>
@@ -16153,17 +16179,6 @@ Babble mode?
 <pinref part="CM1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ADDR0" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="ADR0"/>
-<wire x1="309.88" y1="180.34" x2="317.5" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R10" gate="R" pin="1"/>
-<wire x1="317.5" y1="180.34" x2="317.5" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="CM1" gate="G$1" pin="16"/>
-<wire x1="317.5" y1="180.34" x2="373.38" y2="180.34" width="0.1524" layer="91"/>
-<junction x="317.5" y="180.34"/>
-</segment>
-</net>
 <net name="SOLAR-IN-SWITCHED2" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -16181,20 +16196,6 @@ Babble mode?
 <label x="142.24" y="158.75" size="1.778" layer="95"/>
 <pinref part="R18" gate="R" pin="2"/>
 <wire x1="241.3" y1="157.48" x2="241.3" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VSOLAR" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="208.28" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="208.28" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="200.66" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="V2"/>
-<wire x1="294.64" y1="198.12" x2="294.64" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="208.28" x2="327.66" y2="208.28" width="0.1524" layer="91"/>
-<junction x="297.18" y="208.28"/>
-<label x="311.15" y="209.55" size="1.778" layer="95"/>
-<pinref part="D3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="CRYSTALIN" class="0">
@@ -16223,7 +16224,7 @@ Babble mode?
 <junction x="177.8" y="106.68"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="D" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA10_(PA12)"/>
 <pinref part="U$4" gate="G$1" pin="D"/>
@@ -16234,7 +16235,7 @@ Babble mode?
 <junction x="269.24" y="99.06"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="R" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA9_(PA11)"/>
 <pinref part="U$4" gate="G$1" pin="R"/>
@@ -16370,16 +16371,22 @@ Babble mode?
 <wire x1="327.66" y1="144.78" x2="327.66" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="CANH" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="CANH"/>
-<wire x1="322.58" y1="99.06" x2="330.2" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="99.06" x2="332.74" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="99.06" x2="332.74" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="CM1" gate="G$1" pin="17"/>
+<wire x1="332.74" y1="177.8" x2="373.38" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="CANL" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="CANL"/>
-<wire x1="322.58" y1="93.98" x2="332.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="93.98" x2="337.82" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="93.98" x2="337.82" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="CM1" gate="G$1" pin="19"/>
+<wire x1="337.82" y1="172.72" x2="373.38" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16388,7 +16395,7 @@ Babble mode?
 <pinref part="R16" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="SWDIO" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA13"/>
 <wire x1="208.28" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
@@ -16397,14 +16404,14 @@ Babble mode?
 <wire x1="124.46" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="SWDCLK" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA14"/>
 <wire x1="208.28" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J" pin="SWDCLK/TCK"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="TDI" class="0">
 <segment>
 <pinref part="J1" gate="J" pin="NC/TDI"/>
 <pinref part="U$1" gate="G$1" pin="PB0"/>
@@ -16413,7 +16420,7 @@ Babble mode?
 <wire x1="119.38" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="SWO" class="0">
 <segment>
 <pinref part="J1" gate="J" pin="SWO/TDO"/>
 <pinref part="U$1" gate="G$1" pin="PA15"/>
@@ -16422,7 +16429,7 @@ Babble mode?
 <wire x1="116.84" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="RESET" class="0">
 <segment>
 <pinref part="J1" gate="J" pin="!RESET"/>
 <wire x1="111.76" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
@@ -16431,7 +16438,7 @@ Babble mode?
 <wire x1="205.74" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="SOLAR-IN-SWITCHED1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="V1"/>
 <wire x1="284.48" y1="198.12" x2="284.48" y2="200.66" width="0.1524" layer="91"/>
@@ -16493,12 +16500,12 @@ Babble mode?
 <pinref part="R20" gate="R" pin="1"/>
 <wire x1="312.42" y1="185.42" x2="322.58" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="139.7" x2="322.58" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="CM1" gate="G$1" pin="14"/>
-<wire x1="322.58" y1="185.42" x2="373.38" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="185.42" x2="332.74" y2="185.42" width="0.1524" layer="91"/>
 <junction x="322.58" y="185.42"/>
 <pinref part="R22" gate="R" pin="2"/>
 <wire x1="312.42" y1="193.04" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
 <junction x="312.42" y="185.42"/>
+<pinref part="R24" gate="R" pin="1"/>
 </segment>
 </net>
 <net name="SDAOPT1" class="0">
@@ -16508,12 +16515,12 @@ Babble mode?
 <pinref part="R21" gate="R" pin="1"/>
 <wire x1="320.04" y1="190.5" x2="309.88" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="190.5" x2="327.66" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="CM1" gate="G$1" pin="12"/>
-<wire x1="327.66" y1="190.5" x2="373.38" y2="190.5" width="0.1524" layer="91"/>
-<junction x="327.66" y="190.5"/>
 <pinref part="R23" gate="R" pin="2"/>
 <wire x1="320.04" y1="193.04" x2="320.04" y2="190.5" width="0.1524" layer="91"/>
 <junction x="320.04" y="190.5"/>
+<junction x="327.66" y="190.5"/>
+<pinref part="R26" gate="R" pin="1"/>
+<wire x1="332.74" y1="190.5" x2="327.66" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWITCHEDOUT" class="0">
@@ -16549,9 +16556,74 @@ Babble mode?
 <pinref part="CM1" gate="G$1" pin="6"/>
 <wire x1="368.3" y1="205.74" x2="373.38" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="205.74" x2="368.3" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="203.2" x2="373.38" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="203.2" x2="368.3" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="203.2" x2="370.84" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="203.2" x2="373.38" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="203.2" x2="353.06" y2="203.2" width="0.1524" layer="91"/>
 <junction x="368.3" y="203.2"/>
+<pinref part="U$6" gate="G$1" pin="G"/>
+<wire x1="353.06" y1="203.2" x2="360.68" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="203.2" x2="368.3" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="193.04" x2="353.06" y2="203.2" width="0.1524" layer="91"/>
+<junction x="353.06" y="203.2"/>
+<pinref part="U$7" gate="G$1" pin="G"/>
+<wire x1="360.68" y1="198.12" x2="360.68" y2="203.2" width="0.1524" layer="91"/>
+<junction x="360.68" y="203.2"/>
+<wire x1="370.84" y1="203.2" x2="370.84" y2="200.66" width="0.1524" layer="91"/>
+<junction x="370.84" y="203.2"/>
+<pinref part="CM1" gate="G$1" pin="8"/>
+<wire x1="370.84" y1="200.66" x2="373.38" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCLOPT1OUT" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="D"/>
+<pinref part="CM1" gate="G$1" pin="14"/>
+<wire x1="360.68" y1="185.42" x2="373.38" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SDAOPT1OUT" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="D"/>
+<pinref part="CM1" gate="G$1" pin="12"/>
+<wire x1="368.3" y1="190.5" x2="373.38" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ADDRSELECT" class="0">
+<segment>
+<pinref part="R10" gate="R" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="ADR0"/>
+<wire x1="309.88" y1="180.34" x2="317.5" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="180.34" x2="317.5" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="CM1" gate="G$1" pin="16"/>
+<wire x1="317.5" y1="180.34" x2="373.38" y2="180.34" width="0.1524" layer="91"/>
+<junction x="317.5" y="180.34"/>
+</segment>
+</net>
+<net name="SDAOPT1ON" class="0">
+<segment>
+<pinref part="R26" gate="R" pin="2"/>
+<pinref part="U$7" gate="G$1" pin="S"/>
+<wire x1="342.9" y1="190.5" x2="358.14" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCLOPT1ON" class="0">
+<segment>
+<pinref part="R24" gate="R" pin="2"/>
+<pinref part="U$6" gate="G$1" pin="S"/>
+<wire x1="342.9" y1="185.42" x2="350.52" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VSOLAR" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="V2"/>
+<wire x1="294.64" y1="198.12" x2="294.64" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="200.66" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="200.66" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="297.18" y1="208.28" x2="294.64" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="297.18" y1="208.28" x2="327.66" y2="208.28" width="0.1524" layer="91"/>
+<junction x="297.18" y="208.28"/>
 </segment>
 </net>
 </nets>
