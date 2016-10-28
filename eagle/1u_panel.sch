@@ -15206,86 +15206,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </deviceset>
 </devicesets>
 </library>
-<library name="SN65HVD231">
-<packages>
-<package name="SO-08">
-<description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
-
-Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
-<wire x1="-2.754" y1="3.9" x2="2.754" y2="3.9" width="0.2" layer="39"/>
-<wire x1="2.754" y1="3.9" x2="2.754" y2="-3.9" width="0.2" layer="39"/>
-<wire x1="2.754" y1="-3.9" x2="-2.754" y2="-3.9" width="0.2" layer="39"/>
-<wire x1="-2.754" y1="-3.9" x2="-2.754" y2="3.9" width="0.2" layer="39"/>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
-<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
-<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
-<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
-<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
-<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SN65HVD231">
-<pin name="VCC" x="0" y="15.24" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
-<pin name="VREF" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="CANH" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="CANL" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="R" x="-17.78" y="2.54" length="middle"/>
-<pin name="RS" x="-17.78" y="-2.54" length="middle"/>
-<pin name="D" x="-17.78" y="7.62" length="middle"/>
-<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<text x="-12.7" y="12.7" size="1.27" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SN65HVD231">
-<gates>
-<gate name="G$1" symbol="SN65HVD231" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="SO-08">
-<connects>
-<connect gate="G$1" pin="CANH" pad="7"/>
-<connect gate="G$1" pin="CANL" pad="6"/>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="R" pad="4"/>
-<connect gate="G$1" pin="RS" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-<connect gate="G$1" pin="VREF" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="STM32F042F6">
 <packages>
 <package name="UFQFPN-28">
@@ -15563,6 +15483,86 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </deviceset>
 </devicesets>
 </library>
+<library name="SN65HVD231">
+<packages>
+<package name="SO-08">
+<description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
+
+Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
+<wire x1="-2.754" y1="3.9" x2="2.754" y2="3.9" width="0.2" layer="39"/>
+<wire x1="2.754" y1="3.9" x2="2.754" y2="-3.9" width="0.2" layer="39"/>
+<wire x1="2.754" y1="-3.9" x2="-2.754" y2="-3.9" width="0.2" layer="39"/>
+<wire x1="-2.754" y1="-3.9" x2="-2.754" y2="3.9" width="0.2" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SN65HVD231">
+<pin name="VCC" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
+<pin name="VREF" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="CANH" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="CANL" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="R" x="-17.78" y="2.54" length="middle"/>
+<pin name="RS" x="-17.78" y="-2.54" length="middle"/>
+<pin name="D" x="-17.78" y="7.62" length="middle"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SN65HVD231">
+<gates>
+<gate name="G$1" symbol="SN65HVD231" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SO-08">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="R" pad="4"/>
+<connect gate="G$1" pin="RS" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VREF" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15595,7 +15595,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="R9" library="rcl" deviceset="R-US_" device="R0805"/>
 <part name="C14" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="20u"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="alta-cell" deviceset="ALTA-5-CELL-ARRAY" device=""/>
 <part name="U1" library="spv1040" deviceset="SPV1040" device=""/>
@@ -15617,7 +15616,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="L2" library="inductor-for-spv" deviceset="L" device="PIS2816"/>
 <part name="CM1" library="oresat-eagle" deviceset="ORESAT-BACKPLANE-40PIN" device=""/>
 <part name="U$2" library="CSM-8Q" deviceset="CSM-8Q" device=""/>
-<part name="U$4" library="SN65HVD231" deviceset="SN65HVD231" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603"/>
@@ -15666,6 +15664,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="U$7" library="on-n-channel-fet" deviceset="ON-N-CHANNEL-FET" device=""/>
 <part name="R24" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
 <part name="R26" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
+<part name="U$4" library="SN65HVD231" deviceset="SN65HVD231" device=""/>
+<part name="R10" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -15719,7 +15719,6 @@ Babble mode?
 <instance part="R9" gate="G$1" x="289.56" y="208.28" rot="R180"/>
 <instance part="C14" gate="CE" x="256.54" y="175.26" rot="R90"/>
 <instance part="GND8" gate="1" x="289.56" y="152.4"/>
-<instance part="R10" gate="R" x="317.5" y="167.64" rot="R270"/>
 <instance part="GND9" gate="1" x="317.5" y="152.4"/>
 <instance part="D2" gate="G$1" x="17.78" y="185.42"/>
 <instance part="U1" gate="G$1" x="149.86" y="190.5" smashed="yes">
@@ -15743,7 +15742,6 @@ Babble mode?
 <instance part="L2" gate="G$1" x="114.3" y="198.12" rot="R270"/>
 <instance part="CM1" gate="G$1" x="373.38" y="168.91" rot="MR0"/>
 <instance part="U$2" gate="G$1" x="160.02" y="109.22"/>
-<instance part="U$4" gate="G$1" x="304.8" y="91.44"/>
 <instance part="C3" gate="G$1" x="223.52" y="134.62" rot="R270"/>
 <instance part="C9" gate="G$1" x="233.68" y="134.62" rot="R90"/>
 <instance part="C11" gate="G$1" x="177.8" y="101.6"/>
@@ -15792,6 +15790,8 @@ Babble mode?
 <instance part="U$7" gate="G$1" x="363.22" y="193.04" rot="R270"/>
 <instance part="R24" gate="R" x="337.82" y="185.42"/>
 <instance part="R26" gate="R" x="337.82" y="190.5"/>
+<instance part="U$4" gate="G$1" x="304.8" y="91.44"/>
+<instance part="R10" gate="R" x="317.5" y="167.64" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -15843,7 +15843,6 @@ Babble mode?
 <wire x1="203.2" y1="170.18" x2="203.2" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R10" gate="R" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="317.5" y1="154.94" x2="317.5" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R12" gate="R" pin="2"/>
@@ -15851,6 +15850,7 @@ Babble mode?
 <wire x1="312.42" y1="162.56" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="160.02" x2="317.5" y2="160.02" width="0.1524" layer="91"/>
 <junction x="317.5" y="160.02"/>
+<pinref part="R10" gate="R" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -15930,9 +15930,9 @@ Babble mode?
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="304.8" y1="78.74" x2="304.8" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -16227,30 +16227,30 @@ Babble mode?
 <net name="D" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA10_(PA12)"/>
-<pinref part="U$4" gate="G$1" pin="D"/>
 <wire x1="259.08" y1="99.06" x2="269.24" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="99.06" x2="287.02" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="86.36" x2="269.24" y2="99.06" width="0.1524" layer="91"/>
 <junction x="269.24" y="99.06"/>
+<pinref part="U$4" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="R" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA9_(PA11)"/>
-<pinref part="U$4" gate="G$1" pin="R"/>
 <wire x1="259.08" y1="93.98" x2="276.86" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="93.98" x2="287.02" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="86.36" x2="276.86" y2="93.98" width="0.1524" layer="91"/>
 <junction x="276.86" y="93.98"/>
+<pinref part="U$4" gate="G$1" pin="R"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="RS"/>
 <pinref part="R11" gate="R" pin="1"/>
 <wire x1="287.02" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="RS"/>
 </segment>
 </net>
 <net name="ADR1" class="0">
@@ -16293,7 +16293,6 @@ Babble mode?
 <wire x1="304.8" y1="114.3" x2="304.8" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="114.3" x2="299.72" y2="114.3" width="0.1524" layer="91"/>
 <junction x="304.8" y="114.3"/>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
 <wire x1="304.8" y1="106.68" x2="304.8" y2="114.3" width="0.1524" layer="91"/>
 <junction x="241.3" y="139.7"/>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -16322,6 +16321,7 @@ Babble mode?
 <pinref part="R19" gate="R" pin="2"/>
 <wire x1="246.38" y1="175.26" x2="246.38" y2="139.7" width="0.1524" layer="91"/>
 <junction x="246.38" y="139.7"/>
+<pinref part="U$4" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -16373,20 +16373,20 @@ Babble mode?
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="CANH"/>
 <wire x1="322.58" y1="99.06" x2="332.74" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="99.06" x2="332.74" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="CM1" gate="G$1" pin="17"/>
 <wire x1="332.74" y1="177.8" x2="373.38" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="CANH"/>
 </segment>
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="CANL"/>
 <wire x1="322.58" y1="93.98" x2="337.82" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="93.98" x2="337.82" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="CM1" gate="G$1" pin="19"/>
 <wire x1="337.82" y1="172.72" x2="373.38" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="CANL"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16590,13 +16590,13 @@ Babble mode?
 </net>
 <net name="ADDRSELECT" class="0">
 <segment>
-<pinref part="R10" gate="R" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="ADR0"/>
 <wire x1="309.88" y1="180.34" x2="317.5" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="180.34" x2="317.5" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="CM1" gate="G$1" pin="16"/>
 <wire x1="317.5" y1="180.34" x2="373.38" y2="180.34" width="0.1524" layer="91"/>
 <junction x="317.5" y="180.34"/>
+<pinref part="R10" gate="R" pin="1"/>
 </segment>
 </net>
 <net name="SDAOPT1ON" class="0">
