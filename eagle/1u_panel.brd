@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -32,31 +32,31 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -72,36 +72,40 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="83" y2="0" width="0" layer="20"/>
-<wire x1="83" y1="0" x2="83" y2="100" width="0" layer="20"/>
-<wire x1="83" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<hole x="2.5" y="12.5" drill="1.78"/>
-<hole x="2.5" y="32.5" drill="1.78"/>
-<hole x="2.5" y="52.5" drill="1.78"/>
-<hole x="2.5" y="72.5" drill="1.78"/>
-<hole x="2.5" y="92.5" drill="1.78"/>
-<hole x="80.5" y="12.5" drill="1.78"/>
-<hole x="80.5" y="32.5" drill="1.78"/>
-<hole x="80.5" y="52.5" drill="1.78"/>
-<hole x="80.5" y="72.5" drill="1.78"/>
-<hole x="80.5" y="92.5" drill="1.78"/>
-<wire x1="14.732" y1="20.5" x2="6.018" y2="20.5" width="0.1" layer="20"/>
-<wire x1="6.018" y1="20.5" x2="5.25" y2="21.268" width="0.1" layer="20" curve="-90"/>
-<wire x1="5.25" y1="21.268" x2="5.25" y2="78.732" width="0.1" layer="20"/>
-<wire x1="5.25" y1="78.732" x2="6.018" y2="79.5" width="0.1" layer="20" curve="-90"/>
-<wire x1="6.018" y1="79.5" x2="14.732" y2="79.5" width="0.1" layer="20"/>
-<wire x1="14.732" y1="79.5" x2="15.5" y2="78.732" width="0.1" layer="20" curve="-90"/>
-<wire x1="15.5" y1="78.732" x2="15.5" y2="21.268" width="0.1" layer="20"/>
-<wire x1="15.5" y1="21.268" x2="14.732" y2="20.5" width="0.1" layer="20" curve="-90"/>
-<wire x1="68.268" y1="20.5" x2="76.982" y2="20.5" width="0.1" layer="20"/>
-<wire x1="76.982" y1="20.5" x2="77.75" y2="21.268" width="0.1" layer="20" curve="90"/>
-<wire x1="77.75" y1="21.268" x2="77.75" y2="78.732" width="0.1" layer="20"/>
-<wire x1="77.75" y1="78.732" x2="76.982" y2="79.5" width="0.1" layer="20" curve="90"/>
-<wire x1="76.982" y1="79.5" x2="68.268" y2="79.5" width="0.1" layer="20"/>
-<wire x1="68.268" y1="79.5" x2="67.5" y2="78.732" width="0.1" layer="20" curve="90"/>
-<wire x1="67.5" y1="78.732" x2="67.5" y2="21.268" width="0.1" layer="20"/>
-<wire x1="67.5" y1="21.268" x2="68.268" y2="20.5" width="0.1" layer="20" curve="90"/>
+<wire x1="80" y1="100" x2="2" y2="100" width="0" layer="20"/>
+<wire x1="2" y1="100" x2="0" y2="98" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="98" x2="0" y2="2" width="0" layer="20"/>
+<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="2" y1="0" x2="80" y2="0" width="0" layer="20"/>
+<wire x1="80" y1="0" x2="82" y2="2" width="0" layer="20" curve="90"/>
+<wire x1="82" y1="2" x2="82" y2="98" width="0" layer="20"/>
+<wire x1="82" y1="98" x2="80" y2="100" width="0" layer="20" curve="90"/>
+<hole x="3.5" y="14.2" drill="2.1"/>
+<hole x="3.5" y="34.2" drill="2.1"/>
+<hole x="3.5" y="54.2" drill="2.1"/>
+<hole x="3.5" y="74.2" drill="2.1"/>
+<hole x="3.5" y="94.2" drill="2.1"/>
+<hole x="78.5" y="14.2" drill="2.1"/>
+<hole x="78.5" y="34.2" drill="2.1"/>
+<hole x="78.5" y="54.2" drill="2.1"/>
+<hole x="78.5" y="74.2" drill="2.1"/>
+<hole x="78.5" y="94.2" drill="2.1"/>
+<wire x1="15" y1="84" x2="15" y2="16" width="0.1" layer="20"/>
+<wire x1="15" y1="16" x2="14" y2="15" width="0.1" layer="20" curve="-90"/>
+<wire x1="14" y1="15" x2="8" y2="15" width="0.1" layer="20"/>
+<wire x1="8" y1="15" x2="7" y2="16" width="0.1" layer="20" curve="-90"/>
+<wire x1="7" y1="16" x2="7" y2="84" width="0.1" layer="20"/>
+<wire x1="7" y1="84" x2="8" y2="85" width="0.1" layer="20" curve="-90"/>
+<wire x1="8" y1="85" x2="14" y2="85" width="0.1" layer="20"/>
+<wire x1="14" y1="85" x2="15" y2="84" width="0.1" layer="20" curve="-90"/>
+<wire x1="67" y1="16" x2="67" y2="84" width="0.1" layer="20"/>
+<wire x1="67" y1="84" x2="68" y2="85" width="0.1" layer="20" curve="-90"/>
+<wire x1="68" y1="85" x2="74" y2="85" width="0.1" layer="20"/>
+<wire x1="67" y1="16" x2="68" y2="15" width="0.1" layer="20" curve="90"/>
+<wire x1="68" y1="15" x2="74" y2="15" width="0.1" layer="20"/>
+<wire x1="74" y1="15" x2="75" y2="16" width="0.1" layer="20" curve="90"/>
+<wire x1="74" y1="85" x2="75" y2="84" width="0.1" layer="20" curve="-90"/>
+<wire x1="75" y1="84" x2="75" y2="16" width="0.1" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -3069,7 +3073,7 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <element name="C13" library="rcl_custom" package=".0603-B-NOSILK" value=".1u" x="38" y="77" rot="R180"/>
 <element name="R9" library="rcl" package="R0805" value="" x="40" y="83" rot="R270"/>
 <element name="C14" library="rcl_custom" package=".0603-B-NOSILK" value="20u" x="41.5" y="50" rot="R180"/>
-<element name="D2" library="alta-cell" package="ALTA-FIVE-CELL" value="ALTA-5-CELL-ARRAY" x="41.5" y="47" locked="yes" rot="MR0"/>
+<element name="D2" library="alta-cell" package="ALTA-FIVE-CELL" value="ALTA-5-CELL-ARRAY" x="41" y="47" locked="yes" rot="MR0"/>
 <element name="U1" library="spv1040" package="TSSOP-8" value="SPV1040" x="34" y="76" rot="R90"/>
 <element name="U$3" library="LTC2990" package="MSOP10" value="LTC2990" x="45.41" y="83" rot="R270"/>
 <element name="U5" library="vishay-p-channel-fet" package="SO8" value="P-CHANNELFET" x="26.18" y="59.2"/>
@@ -3127,7 +3131,7 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="D2" pad="POS"/>
 <contactref element="R2" pad="2"/>
 <contactref element="U5" pad="2"/>
-<wire x1="41.5" y1="4.25" x2="42.8" y2="4.25" width="0.2" layer="16"/>
+<wire x1="41" y1="4.25" x2="42.8" y2="4.25" width="0.2" layer="16"/>
 <via x="17" y="6" extent="1-16" drill="0.254"/>
 <via x="17" y="3" extent="1-16" drill="0.254"/>
 <via x="21" y="6" extent="1-16" drill="0.254"/>
@@ -3150,7 +3154,6 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <via x="41" y="6" extent="1-16" drill="0.254"/>
 <via x="45" y="6" extent="1-16" drill="0.254"/>
 <via x="45" y="3" extent="1-16" drill="0.254"/>
-<wire x1="41.5" y1="4.25" x2="41" y2="4.25" width="0.2" layer="16"/>
 <wire x1="41" y1="4.25" x2="41" y2="3" width="0.2" layer="16"/>
 <via x="49" y="6" extent="1-16" drill="0.254"/>
 <via x="49" y="3" extent="1-16" drill="0.254"/>
