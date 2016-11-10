@@ -1,0 +1,915 @@
+[33mcommit c3c8e51d968d322332c111eaa361d2415baa8f2f[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Fri Nov 4 16:26:39 2016 -0700
+
+    OreSat rev0.5 structure changes with Calvin.
+
+[33mcommit 78804d139f4c1b731267fd52d2537fa2fe721435[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Nov 1 18:50:17 2016 -0700
+
+    Finished board layout, fixed upside-down NPN pinout.
+
+[33mcommit b2feba38824d37c05d1e24732f1295a9e8cfe128[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Oct 28 16:27:47 2016 -0700
+
+    Fixed and adjusted various problem packages.
+
+[33mcommit 637ef00888e193e5a73051354c94bcc82fcb33a9[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Oct 28 16:27:12 2016 -0700
+
+    More routing fun times goody.
+
+[33mcommit 5b5cfb371deec59f5a46ed437213873510c0c440[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Oct 28 15:07:41 2016 -0700
+
+    Fixed forward/back annotation errors. Yay.
+
+[33mcommit 5ea70316025955b9ca6984d39451f16101cac941[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Oct 26 20:54:55 2016 -0700
+
+    Board routing and fun times.
+
+[33mcommit 9e7d9a1d735483a24b4338d068f8e9eef71fd303[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Oct 25 19:51:37 2016 -0700
+
+    Changed power output pins on header, placed components.
+
+[33mcommit 203a4445aa138b8c3f8e6aa1b18783a4773721ae[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Thu Oct 20 09:20:46 2016 -0700
+
+    Added NP resistors for system isolation.
+
+[33mcommit 1c7365bd038e70ae1c3d0ddfbf93bc0afc34b146[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Oct 19 12:56:02 2016 -0700
+
+    Connected SWD to STM32
+
+[33mcommit 7805d1bf6b44142eadd3e77fc52a8566932f6b9f[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Oct 19 12:55:37 2016 -0700
+
+    Added SWD Lib
+
+[33mcommit dfc324627091264f44fe98e4aae9e2a9fe661eef[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Oct 18 19:46:52 2016 -0700
+
+    Added net annotations
+
+[33mcommit 774888cc13dcd8857610d7d7263a08ed44d84951[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Oct 18 19:13:03 2016 -0700
+
+    Added LM3761, removed TPS arrays, adjusted schematic symbols to clean up drawings
+
+[33mcommit 3606f9a45b5ff03ce35e8ec271f577776feb381c[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Mon Oct 17 15:54:06 2016 -0700
+
+    Pushing changes from Space Electronics workshop - no more TVS diodes, need onboard regulator, etc.
+
+[33mcommit 930ba0c27480aa823e969d271dcafdd4d35cc0f8[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Oct 5 22:46:25 2016 -0700
+
+    Added new MCU to board attached I2C, crystal and can nets
+
+[33mcommit 88c6d7c3c9396c60bab3a0c6bfabf589b8ed4a9b[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Oct 5 22:45:35 2016 -0700
+
+    Created UFQFPN-28 Footprint, Symbol and Device
+
+[33mcommit efdc01037c385274fb78ef4b91ac4ea768e8cc81[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Oct 4 21:52:15 2016 -0700
+
+    Nets, Caps, GND oh my.
+
+[33mcommit ff2c1a1165c702fe489990d1be2fcca7d9ae3207[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Oct 4 21:51:35 2016 -0700
+
+    Changed pins on symbol to clean up schematic.
+
+[33mcommit 1f18159cbdb744ac4c4c9092fe1250d756ecaf02[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Sep 27 23:44:24 2016 -0700
+
+    Added symbols and footprints to drawing.
+
+[33mcommit 135e21adfa61f28a7ae4cee3fb41aae928dc4523[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Sep 27 23:43:48 2016 -0700
+
+    Set STM32 Symbol on correct grid (2.54mm)
+
+[33mcommit fa4ec4d3c8c981c9dafa3afa868aa90817d0b1a5[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Sep 27 23:42:32 2016 -0700
+
+    Added 3.3v CAN Transceiver symbol and footprint
+
+[33mcommit b1344539128851f829af9d488b8eced151702ea2[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Sep 27 23:42:01 2016 -0700
+
+    Added crystal symbol and footprint
+
+[33mcommit d9a6e5cb106c07c6f8928e0343a92d4f762102b4[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sun Sep 25 20:32:16 2016 -0700
+
+    Added STM32 MCU
+
+[33mcommit c2fe51883c3f9a856738beaf313cb23e3a4da28b[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sun Sep 25 20:31:43 2016 -0700
+
+    Created STM32 MCU
+
+[33mcommit f7fe8d57f6e950f9b1455ebe3390b8245b6529d8[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:50:36 2016 -0700
+
+    Links to team members
+
+[33mcommit ee87aeca4a4b2f4d1d58417ff09df98e64cf432a[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:47:24 2016 -0700
+
+    Updated Block Diagram
+
+[33mcommit 247a46c19fd3012c5002ecc5fded704d353ced25[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:34:28 2016 -0700
+
+    Formatting
+
+[33mcommit ae8b72865c02ea05c06597abdf7177655397d831[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:30:12 2016 -0700
+
+    Formatting, Editing
+
+[33mcommit 5d0c64aa853c3c954153bc7466cf0ca66dc75d90[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:27:35 2016 -0700
+
+    Yay markdown!
+
+[33mcommit d4f8f69ce6a4625186c44d88dc98467a6ef3a51f[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:23:03 2016 -0700
+
+    Text, links, formatting
+
+[33mcommit b23eec9b1384e2ff8ed213199d4ae2138ab1cd56[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:11:03 2016 -0700
+
+    Create Parts_Selection.md
+
+[33mcommit ba1c7ff6e97662070076f86fa989b4444efcd65e[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:10:23 2016 -0700
+
+    Formatting
+
+[33mcommit ef9262008468721c81432851220811f494cfa128[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:09:05 2016 -0700
+
+    Formatting
+
+[33mcommit 43eddd4d78b43bb5c38edcbb4c5bc3bbf85a7ed5[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:08:02 2016 -0700
+
+    Added text, links
+
+[33mcommit 4d8ada7b8fd6d532cdf49ec3cc23b2be3f82d749[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 19:01:13 2016 -0700
+
+    Added text, links, formatting
+
+[33mcommit 7f8241c537a9dfc129958dce895207cd61ea4375[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 18:48:47 2016 -0700
+
+    Fixed Image
+
+[33mcommit 2d283d3491523f7754096712ca79f71ba508836e[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 18:48:08 2016 -0700
+
+    Update README.md
+
+[33mcommit 4c510a69991b385502373663bedaa379003cf08e[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 18:47:32 2016 -0700
+
+    Formatted Link
+
+[33mcommit 1e5179ef181a1b04d76af2927366471977415c3e[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 18:40:44 2016 -0700
+
+    Fixed Image
+
+[33mcommit 560b964e3b6d335eaeb9cef5e4355cc341e4f208[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 18:36:02 2016 -0700
+
+    Update README.md
+
+[33mcommit 6f2398aea25f2418e2344b33b5f8a85b1acf7134[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 18:34:49 2016 -0700
+
+    Update README.md
+
+[33mcommit 09d3937e792187eb7cc724ce3c0013bcfa238a95[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 18:33:43 2016 -0700
+
+    Fixed Image
+
+[33mcommit eb5540b2d90afd4253f3e140476296a3dd385c12[m
+Author: Austin <austinjoseph@users.noreply.github.com>
+Date:   Fri Sep 9 18:31:40 2016 -0700
+
+    Added Block Diag
+
+[33mcommit dd1276a34a6bbaac96ed7cdb51fa6887e37dd95b[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Fri Jul 29 18:28:00 2016 -0700
+
+    mitred corners
+
+[33mcommit 97be8c7a4b04248f2095a5de07c1c84a8049b66d[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Fri Jul 29 18:24:39 2016 -0700
+
+    Added giant cutouts for umbilicals. Wow, sometimes using the same thing over and over sucks :)
+
+[33mcommit c16e7f12245b9f26e010fc811ee0b36ad2f71ca4[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 29 18:02:35 2016 -0700
+
+    Finished preliminary board layout
+
+[33mcommit f7145b16390a8d2e6a919b11d0c5f320025dadfd[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 29 18:02:12 2016 -0700
+
+    Added new SO-8 P-Channel MOSFET
+
+[33mcommit 60b65166200c3218f88d99587cb9c88700ae960b[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jul 26 22:21:22 2016 -0700
+
+    Added todo and started polygons
+
+[33mcommit a98137d7af228079a14abe1b2916fd6ea5fb8afe[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Tue Jul 26 22:11:38 2016 -0700
+
+    Finished topological layout. Fixed polygons, replaced caps and other passives, replaced connector.
+
+[33mcommit 3eb516e6a767a564f2a7854563467134b6980cbf[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jul 26 21:03:07 2016 -0700
+
+    Removed lockfiles I'm a bad person for commiting them
+
+[33mcommit 7f52833af031b8259574fa78530591bea291bc39[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jul 26 21:00:51 2016 -0700
+
+    Ruining things.
+
+[33mcommit 78a9c1dedc3281bae07d69924fc48f2b1e1d3061[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jul 26 19:49:40 2016 -0700
+
+    First draft of layout rough
+
+[33mcommit 49534b70365b4278665279aaf3674c7bdd728444[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sun Jul 24 12:12:21 2016 -0700
+
+    Added inductor for switching reg to schema/board
+
+[33mcommit 6cb7ffe066b51e3cabf21189cd52c98f5d977221[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 22 16:54:27 2016 -0700
+
+    Backups and minor library corrections.
+
+[33mcommit c903a08d632041dcc3ded701febca6be4fc6f723[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 22 16:54:04 2016 -0700
+
+    Updated Schematic and Layout.
+
+[33mcommit 927ff9f1c5cfaf4dcff294bc691e399f819f95ba[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 22 16:53:41 2016 -0700
+
+    Added Fets and diode arrays from on semi.
+
+[33mcommit aa3e9ad42819eaf4fb6ac38e428a2aa3cada2829[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 22 16:53:00 2016 -0700
+
+    Added inductor switching reg.
+
+[33mcommit 5a902aecbf05d8bab732a299aef5de765fdbbf98[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 22 16:52:36 2016 -0700
+
+    Added npn for I/C/V sense circuit
+
+[33mcommit ffab73bf0dc935b49b6c3236fadb2e1739683323[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jul 19 20:59:31 2016 -0700
+
+    Various backups/junk.
+
+[33mcommit df20de58ddbf65870ecbadb4e73fc9503515dc2d[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jul 19 20:59:16 2016 -0700
+
+    Added pinheader to schematic.
+
+[33mcommit b030f72d6d5a051891908e866ff9cc6d7c85b26e[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jul 19 20:58:31 2016 -0700
+
+    Added 2x20 pinheader to libs.
+
+[33mcommit 5644c1bdd8ed620a2298336fbf7e67a24acbfd27[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jul 11 10:16:00 2016 -0700
+
+    Added LTC2990.
+
+[33mcommit 929da7a70995068182fad3ff88ed79535ff98c1d[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Sun Jul 10 14:32:49 2016 -0700
+
+    Added Alta cell array, SPV1040 library, still neds I/V/T measurement device.
+
+[33mcommit 9f11999bb261ac97f23aacc163679c9d9ae012dd[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Sun Jul 10 12:35:41 2016 -0700
+
+    Oh another temp file
+
+[33mcommit 6c84848c596ed70a201088e7e1cf134f13d663db[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Sun Jul 10 12:31:08 2016 -0700
+
+    Removed eagle temp files, added gitignore to ignore them
+
+[33mcommit 52d98dad37d7c9ca1a8b04c48ce43f5eb8566048[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 8 13:01:52 2016 -0700
+
+    Started making SPV1040 drawings.
+
+[33mcommit f7b58510fdc9594430ab153f33b0056d9f04a0f9[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jul 8 12:42:14 2016 -0700
+
+    Continued copying designs into eagle.
+
+[33mcommit 047fbfbaa03101d7e6973d93222b4211623f2084[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jun 27 11:10:17 2016 -0700
+
+    Started transcription from kicad to Eagle
+     -Added RCL to board
+     -Added stand-in parts for p/n fets
+     -Started nets.
+
+[33mcommit 3b5a50e012fbedaaaa994988818582cc32a6ca61[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jun 27 11:09:57 2016 -0700
+
+    Deleted lock preventing non-Andrews from accessing sch/brd
+
+[33mcommit 867ab02b4938278e0590aefd94f30c31883145f0[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jun 27 11:08:16 2016 -0700
+
+    Created stitching footprint for Kicad
+
+[33mcommit 02f3d4b13d430e86dc4ef5478632e015e691665d[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jun 27 11:07:29 2016 -0700
+
+    Created new Part library for project
+
+[33mcommit 9f9e97ce250d52a55a4c86d91bf406a9a9124472[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Sat Jun 25 15:10:01 2016 -0700
+
+     HA! No schematic. Added.
+
+[33mcommit 297f20a14a32e232a742e733d7dc97768a319119[m
+Author: Andrew Greenberg <adg@ece.pdx.edu>
+Date:   Sat Jun 25 15:08:34 2016 -0700
+
+    First of the eagle solar array design.
+
+[33mcommit f5bf8d870629e0d9dff8a5ae07df9ab9607ff6f6[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 24 15:43:46 2016 -0700
+
+    Added Mechanical drawings/folder. Finished layout.
+    -Added /mechanical to /solar
+    -Added solar stl
+    -Finished layout
+
+[33mcommit 6259bee7872affd8153f9e3e3c6e614352751ecb[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 24 13:17:53 2016 -0700
+
+    Routed PCB
+
+[33mcommit 42a52aee6af500eb08cc1294f745f91eaef0f980[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 17 20:05:27 2016 -0700
+
+    PDF of Rev5 placed in PDF folder under doc.
+
+[33mcommit a1d14460e7aa8c4c460bf76af6552fccb6128932[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 17 20:01:51 2016 -0700
+
+    Slight footprint adjustment.
+
+[33mcommit 2f7294e6f9f2e55e851684097f09a57b76d4a389[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 17 19:59:09 2016 -0700
+
+    Faked 3d drawing of pin header.
+
+[33mcommit 41ea14381b9a27c347f65275e92f9c0d062c4478[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 17 19:43:30 2016 -0700
+
+    Updated schematic values, regenerated netlist, reassigned footprints, added components.
+    
+    -Added 5th cap to input/output cap array.
+    -Added schematic drawing of solar cells.
+    -Added Schematic drawing of 40pin header.
+    -Updated component footprint assignments for caps.
+    -Reorganized drawing to accomodate larger size.
+
+[33mcommit fe80c9beb8076796f957f5b29e31c6edd70189ba[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 17 19:43:08 2016 -0700
+
+    Created and added mount holes to pcb backing to Solar lib and design.
+
+[33mcommit 62daad74faaa93374c29d693fd0974bb56b581b3[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 17 19:42:24 2016 -0700
+
+    Created and added 40 pin header to Solar lib.
+
+[33mcommit aee805de777dd8a4de6696ebe8c73860bd6993a7[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 17 19:41:39 2016 -0700
+
+    Added Alta Cell footprints to Solar library.
+
+[33mcommit a00338c82ef0b3bd32833b3419dc091477c4162c[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 17 19:41:01 2016 -0700
+
+    Added Rev 5 and saved files into doc.
+
+[33mcommit 5f09c2954eea17f29185c37bca8bde605c7aa456[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 10 21:25:47 2016 -0700
+
+    Rev1 GERBS.  Rev 4 Schematic editing/placement.
+    -Regenerated rev1 gerbs
+    -Added/updated schematic symbols for LDO, Crystal, CAN, uC
+    -Added decoupling caps to various inputs
+    -Reworked schematics because beauty
+
+[33mcommit 996e451fa57fd2ec4684e33385c923574ff7c274[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 3 17:58:54 2016 -0700
+
+    Including backups to push.
+
+[33mcommit e4d536fdd5adfb450e35f86fe90a22d0a09cfd40[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 3 17:58:30 2016 -0700
+
+    Added 10 pin SWD footprint and CAN Trancsciever footprints
+
+[33mcommit 45b2a8c74314e029d0e0a34004b5be79a74fb600[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jun 3 17:57:52 2016 -0700
+
+    Included footrpints for SWD and CAN Transciever
+
+[33mcommit 45b494f496d0c3c940a47650bcbf59f7e880a6ae[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue May 31 21:03:11 2016 -0700
+
+    Assigned Pin functions to ST microcontroller.
+    -Found CAN TX/RX and assigned.
+    -Found ADC in's for voltage/current sense.
+    -Found TIM1 chn 1/3 for PWM control
+
+[33mcommit 684ff28183e9ec5d4d43486dc6f5e60d43851257[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri May 27 18:40:18 2016 -0700
+
+    Created Schematics, Added Current Sense Circuitry
+    -Created microcontroller schematic symbol
+    -Created sense comparator schematic
+    -Updated design with correct symbols
+    -Added PV in/out
+    -Calculated and selected
+    --P-MOS
+    --N-MOS
+    --Check design docs for details
+
+[33mcommit 68872250ae317406413fb9d19d0c9af4a1db773a[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue May 24 20:49:33 2016 -0700
+
+    Added MPPT folder and started design for chip.
+
+[33mcommit 9514b6b021dd37e66dec125df2cd9021a2e47618[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri May 13 15:38:14 2016 -0700
+
+    Various minor changes.
+
+[33mcommit a0bf5843301c4c95f65cf35426ec4d90241ad5c5[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri May 13 15:37:28 2016 -0700
+
+    Added data sheet for new ZSPM cihp.
+
+[33mcommit 79eadd60f96e3205b9dc459d446e4b2dcec2207e[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri May 13 15:37:02 2016 -0700
+
+    Added info on AltaCells to repo.
+
+[33mcommit 59d02a5773a1810d4b47f68559312d04ba71c394[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sun Apr 24 16:11:45 2016 -0700
+
+    Saved changes, minor touch ups.
+
+[33mcommit c4be5ce02b580f16f2fa22d6824915ff783959e2[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sun Apr 24 15:56:34 2016 -0700
+
+    Finished Layout, updated notes, regenerated PDF's
+    -  Finished the board layout with obnoxious stitching.
+    -  Updated component notes for IC's
+    -  Regenerated F/B copper PDF's and schema PDF's
+
+[33mcommit d68775c4bcb435aa7c47ad22ca1992dedd137915[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Apr 22 17:27:54 2016 -0700
+
+    Optimized for power.
+    -Changed Vctrl divider on SPV1040 to limit power dissipation and current.
+    -Removed needlessly large input capacitor.
+    -Lowered cap value to recommended values near temp sensing transistor
+    -Added 2ohm sense resistor for LTC2990 cutting power dissipation by 83.3%
+    -Cleared old board and regenerated netlists.
+    -Fixed LTC2990 to represent new schematic us under "LTC2990.2"
+
+[33mcommit 1010e4c2dd9c72530de4fd66a145b210a3761699[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sat Apr 16 14:59:19 2016 -0700
+
+    Removed D2.  Set R9 as NP resistor and tied sensor to R5.
+
+[33mcommit 141c14dc94027e121aa3e2f0ae2be114c3610ca5[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Apr 13 13:57:34 2016 -0700
+
+    Removed old files, repaired broken schema, finished layout.
+    
+    -Removed old SVG DRL and  GBR files
+    -Removed old PDF files
+    -Fixed broken TVS_4x4 Schematic and updated footprint
+    -PCB file created
+    -Board layout finished
+
+[33mcommit fcdbf2a7c9e2af093d04b4b426858278ffbc4f6d[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Apr 12 14:56:52 2016 -0700
+
+    Added components, updated BOM
+    -Added parallel filter cap input.
+    -Updated BOM to reflect new parts.
+
+[33mcommit 56e1a92b63e547bc0e1e35275705d92b278588d8[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Apr 12 09:59:19 2016 -0700
+
+    Finished Footprint/Part Selection
+
+[33mcommit f59b44b05a5865aaf7a5706763106f2f28188753[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Apr 11 14:08:49 2016 -0700
+
+    Updated component vals.  Added filter Caps, TVS array
+    
+    -Updated and used //47uF for in/out filters.
+    -Added more robust shutdown. XShut tied to input.
+    -Introduced TVS array on schematics.
+
+[33mcommit 89885d0067ecb2425fcbff8ba60fb2937cec3e95[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sat Apr 9 11:14:02 2016 -0700
+
+    Added PDF's and generated SVG's.  Updated Component values.
+    
+    -Fixed mixing capacitor values on board layout.
+    -Added 'PDF' folder to docs
+    -Generated svg and pdf's of project
+
+[33mcommit 268695dc81d2f7319d29d9c846fa696cd5056ff3[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Apr 8 15:44:26 2016 -0700
+
+    Updated Component values to reflect design doc.
+
+[33mcommit 35bbf34a36ff0ee5528c4aeeb05ad2d4738e9239[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Apr 6 12:11:55 2016 -0700
+
+    Added Rev1_BOM, added todo's to schematics
+
+[33mcommit 943d2f2e9800b985aa98182eaa65777c1a328131[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Mar 30 17:18:35 2016 -0700
+
+    Created Libs, Finished PCB Layout.
+    -Created Solar_Array lib.
+    -Finished layout for rev 1.0
+
+[33mcommit 81bbf4514acc0d3ad06e94a0b1d4a23ce603c92a[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Mar 30 12:37:02 2016 -0700
+
+    Created Rev 1
+    -Added several new filter caps.
+    -Added more accurate inductor values.
+    -Added Current limiting resistor.
+    -Updated all component values to reflect functioning values.
+
+[33mcommit b6cf4b959524b0384b009fcc1872b76928ba0da7[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Mar 30 11:50:04 2016 -0700
+
+    Organized for new Rev.
+
+[33mcommit 32a94644f86dbec004e298a3e30d053e1c5f1505[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Thu Mar 10 16:09:44 2016 -0800
+
+    Regenerated gerberfiles
+
+[33mcommit eb0fb0072eaac14115b528e2632bd1f2d09bb08e[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Mar 8 21:13:16 2016 -0800
+
+    Added ground tacks.
+
+[33mcommit 70546e2fceead0343c8a43a6349864f6b85d5fa8[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Mar 8 20:31:37 2016 -0800
+
+    Added test points.  Removed Shotkey.
+    
+    -Added test points to PVin, VCC and Vout.
+    -Removed potentially uneccesary shotkey diodes.
+    -Increased width of SPV1040 pads.
+    -Generally cleaned up traces on board.
+    -Updated 3d Model of various footprints in Solar Libs.
+
+[33mcommit 08789d7dd70e26a53e4ea0cec5558aea8a0bda9f[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Mar 8 19:02:02 2016 -0800
+
+    Fixed glaring errors in layout.  Changed footprints.
+    
+    -Fixed LTC2990 and SPV1040 footprints to reflect phsical layout
+    -Fixed board layout to accomodate actual design.
+
+[33mcommit 7e904b05e81864958232ba4f116b95bf2e4a6348[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Mar 4 14:17:24 2016 -0800
+
+    Updated Design Rules, generated new gerb files.
+    -Fixed issues with soldermask relief.
+    -Fixed issues with pad relief.
+    -Regenerated f.paste, b.paste, f.mask, b.mask gerber files
+    -
+
+[33mcommit 47a1d9d5d6b6bb3acfc571e9ddaad2231e0e2c5d[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Thu Mar 3 14:59:14 2016 -0800
+
+    Rebuilt LTC2990 footprint.  Regenerated Gerb Files
+    -Changed LTC2990 pad width from .334 to .305
+    -Replaced old footprint and generated gerb files
+     note that design check passed without warnings.
+
+[33mcommit d7e57a27162fd3b2eb37f44e53492cec4c83a1fa[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Thu Mar 3 10:03:16 2016 -0800
+
+    Changed Design Rules, created BOM
+    
+    *Changed global trace width allowances to .1 mm
+    *Adjusted settings on pad width/length of ltc2990 footprint.
+
+[33mcommit de215714f095e3b3a2ede8a72bc19051834b0ff5[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Feb 23 20:49:37 2016 -0800
+
+    Reduced size of PCB layout to 3 cm
+    
+    -Moved components
+    -Generated updated drill files
+    -Generated Gerb files
+    -Updated Notes on Cell power on schematic sheet.
+
+[33mcommit 358e5e744a46f4b8306e5fd4ef70023c670a35aa[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Feb 19 15:22:38 2016 -0800
+
+    Fixed missing/broken ground.
+
+[33mcommit 1a45a2a59a4dc81af52913928f5f0f23ea9c01ae[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Feb 19 15:06:00 2016 -0800
+
+    Organized components, connected wires, finished silkscreen.  Ready to fire.
+
+[33mcommit 0ed98a3e6c42fcbedd009850a1916296eab8491f[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sat Feb 13 15:23:34 2016 -0800
+
+    Finished footprints for SPV1040, LTC2990, TVS Diodes, generated netlist.  Initial PCB config finished.
+
+[33mcommit 90d948076dd692c5086fe464d1251930d777aef9[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Feb 12 15:06:42 2016 -0800
+
+    Update component values, generated netlist, changed notes.
+
+[33mcommit 373a00f9cc6cee5ebca6fb629a2375047ba1aa2f[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Thu Feb 11 12:37:29 2016 -0800
+
+    Updated todo, updated TVS diode.
+
+[33mcommit 6ea583d2bca3a760f1d910136fbd1cb38b6c83ce[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Feb 10 12:48:07 2016 -0800
+
+    Fixed voltage divider from SPV1040, Added Vctrl Divider component values, added Shunt to Vout of 1040, added TVS to PV in and to output bus.
+
+[33mcommit 61778200d95d5ad0b3b2e6af14158f955e6fea44[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Feb 9 20:28:02 2016 -0800
+
+    Removed input shotkey diode, adde design notes, readdressed ltc2990.
+
+[33mcommit f03af22da0af93fdd4a0a8bd403c427eaddc8225[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Feb 3 13:19:47 2016 -0800
+
+    Generated Netlist, blocked all I/O to 1x6 pin array.
+
+[33mcommit f3579ff37ccc84d3a99a987cd7ff14889e0f22ee[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Fri Jan 29 15:38:49 2016 -0800
+
+    Changed Requirements, Notes, Outputs. Added Reference Switch.  Design Docs Updated.
+
+[33mcommit 8a02745bbb0637907b082327719dda767e7430b8[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Thu Jan 28 11:36:30 2016 -0800
+
+    Removed extraneous circuitry, added more component values, swapped 1x2 conn with 1x3 conn.
+
+[33mcommit cf44d5d24b014ab04e21df364e6225ebfbd80617[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Jan 27 13:01:55 2016 -0800
+
+    Changed XSHUT to pin header.
+
+[33mcommit 9951771fd4e80b3212aa5f263f65515f5f72d3fd[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Wed Jan 27 12:46:42 2016 -0800
+
+    Deleted extraneous files, updated schema symbol for SPV1040 because pretty. Removed other addressed modules.  Added button for xshut for testing.
+
+[33mcommit be26fac4f79ad6c1743573794aa78475e59f4c79[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jan 26 20:21:11 2016 -0800
+
+    Added todo's for finishing schema.
+
+[33mcommit f0f13961b62ab98303352f6dfa70a92d407bf8f8[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jan 26 12:07:26 2016 -0800
+
+    Selected more component Vals.
+
+[33mcommit 4ae60cff3fff555787022041e70967bd669b19c1[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Tue Jan 26 09:58:42 2016 -0800
+
+    Compoonent values selected for some caps.
+
+[33mcommit bcb999629b81c466d78aed0daa375e62da64544b[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jan 25 17:52:33 2016 -0800
+
+    Added automatic powercycle, finished current, temp and voltage sense.
+
+[33mcommit 0be6ae1cb9f64b12e43408c45f1dddaa01fd773a[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jan 25 17:52:06 2016 -0800
+
+    Added automatic powercycle, finished current,temp and voltage sense.
+
+[33mcommit 0e150bfc21ebda1effb5e999eb952ec7bc7d790b[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jan 25 10:17:35 2016 -0800
+
+    Voltage sense from SPV to LTC.
+
+[33mcommit 240a80f7db1834ae69dab0e8a0a8205e81afaf16[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Mon Jan 25 10:00:08 2016 -0800
+
+    Added SPV1040 circuitry.
+
+[33mcommit feb5f2139567d01e0b9fa48d1de26446e64efe87[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sat Jan 23 23:03:11 2016 -0800
+
+    Added Sheet title, date etc.
+
+[33mcommit 299a7e6e3f6e6852697dede250eca9e94dd52b52[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sat Jan 23 22:59:30 2016 -0800
+
+    Added and addressed 4 LTC2990's.
+
+[33mcommit 24299facf07b7e344f07c68d67b6a909e4e708be[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sat Jan 23 22:22:04 2016 -0800
+
+    Created SPV1040 schematic symbol.  Added existing ltc3 libs. Created kicad pro.
+
+[33mcommit 61ec2b4fe37b6f0c26ea512588331385eee5bb32[m
+Author: austinjoseph <ajos2@pdx.edu>
+Date:   Sat Jan 23 19:17:13 2016 -0800
+
+    Added working directories and datasheets for LTC2990 and SPV1040.
+
+[33mcommit adcb7e16da83d3291f4a881d4da101ca9ea3ced6[m
+Author: Andrew Greenberg <andrew1602@gmail.com>
+Date:   Sat Jan 23 14:46:29 2016 -0800
+
+    Link to google doc.
+
+[33mcommit 3fd64a1163cbf858dcee1948441086f2656cfec4[m
+Author: Andrew Greenberg <andrew1602@gmail.com>
+Date:   Sat Jan 23 14:44:36 2016 -0800
+
+    Initial commit
