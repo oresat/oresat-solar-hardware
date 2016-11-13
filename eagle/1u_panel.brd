@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -173,22 +173,22 @@
 <hole x="78.5" y="54.2" drill="2.1"/>
 <hole x="78.5" y="74.2" drill="2.1"/>
 <hole x="78.5" y="94.2" drill="2.1"/>
-<wire x1="15" y1="84" x2="15" y2="16" width="0.1" layer="20"/>
-<wire x1="15" y1="16" x2="14" y2="15" width="0.1" layer="20" curve="-90"/>
-<wire x1="14" y1="15" x2="8" y2="15" width="0.1" layer="20"/>
-<wire x1="8" y1="15" x2="7" y2="16" width="0.1" layer="20" curve="-90"/>
-<wire x1="7" y1="16" x2="7" y2="84" width="0.1" layer="20"/>
-<wire x1="7" y1="84" x2="8" y2="85" width="0.1" layer="20" curve="-90"/>
-<wire x1="8" y1="85" x2="14" y2="85" width="0.1" layer="20"/>
-<wire x1="14" y1="85" x2="15" y2="84" width="0.1" layer="20" curve="-90"/>
-<wire x1="67" y1="16" x2="67" y2="84" width="0.1" layer="20"/>
-<wire x1="67" y1="84" x2="68" y2="85" width="0.1" layer="20" curve="-90"/>
-<wire x1="68" y1="85" x2="74" y2="85" width="0.1" layer="20"/>
-<wire x1="67" y1="16" x2="68" y2="15" width="0.1" layer="20" curve="90"/>
-<wire x1="68" y1="15" x2="74" y2="15" width="0.1" layer="20"/>
-<wire x1="74" y1="15" x2="75" y2="16" width="0.1" layer="20" curve="90"/>
-<wire x1="74" y1="85" x2="75" y2="84" width="0.1" layer="20" curve="-90"/>
-<wire x1="75" y1="84" x2="75" y2="16" width="0.1" layer="20"/>
+<wire x1="15" y1="83" x2="15" y2="17" width="0.1" layer="20"/>
+<wire x1="15" y1="17" x2="14" y2="16" width="0.1" layer="20" curve="-90"/>
+<wire x1="14" y1="16" x2="8" y2="16" width="0.1" layer="20"/>
+<wire x1="8" y1="16" x2="7" y2="17" width="0.1" layer="20" curve="-90"/>
+<wire x1="7" y1="17" x2="7" y2="83" width="0.1" layer="20"/>
+<wire x1="7" y1="83" x2="8" y2="84" width="0.1" layer="20" curve="-90"/>
+<wire x1="8" y1="84" x2="14" y2="84" width="0.1" layer="20"/>
+<wire x1="14" y1="84" x2="15" y2="83" width="0.1" layer="20" curve="-90"/>
+<wire x1="67" y1="17" x2="67" y2="83" width="0.1" layer="20"/>
+<wire x1="67" y1="83" x2="68" y2="84" width="0.1" layer="20" curve="-90"/>
+<wire x1="68" y1="84" x2="74" y2="84" width="0.1" layer="20"/>
+<wire x1="67" y1="17" x2="68" y2="16" width="0.1" layer="20" curve="90"/>
+<wire x1="68" y1="16" x2="74" y2="16" width="0.1" layer="20"/>
+<wire x1="74" y1="16" x2="75" y2="17" width="0.1" layer="20" curve="90"/>
+<wire x1="74" y1="84" x2="75" y2="83" width="0.1" layer="20" curve="-90"/>
+<wire x1="75" y1="83" x2="75" y2="17" width="0.1" layer="20"/>
 <wire x1="39.95" y1="50.55" x2="37" y2="50.55" width="0.1" layer="41"/>
 <wire x1="37" y1="50.55" x2="37.1" y2="41.55" width="0.1" layer="41"/>
 <wire x1="37.1" y1="41.55" x2="45.1" y2="41.55" width="0.1" layer="41"/>
