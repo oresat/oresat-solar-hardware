@@ -3275,12 +3275,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="55.505" y="66.03" size="0.635" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="58.905" y="68.14" size="0.635" layer="27" ratio="20" rot="R180"/>
 </element>
-<element name="R13" library="rcl_custom" package=".0402-B-NOSILK" value="100k" x="56.5" y="60.2" smashed="yes" rot="R180">
+<element name="R13" library="rcl_custom" package=".0402-B-NOSILK" value="665k" x="56.5" y="60.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.3" y="59.65" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="57.3" y="61.55" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="56.5" y="60.2" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="R14" library="rcl_custom" package=".0402-B-NOSILK" value="33.3k" x="58.5" y="60.2" smashed="yes" rot="R180">
+<element name="R14" library="rcl_custom" package=".0402-B-NOSILK" value="332k" x="58.5" y="60.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="62" y="60.45" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="59.3" y="61.55" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="58.5" y="60.2" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>

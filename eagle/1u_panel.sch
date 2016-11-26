@@ -17568,11 +17568,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
 <part name="L1" library="rcl" deviceset="L-US" device="L2012C" value="10u"/>
-<part name="R13" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="100k"/>
+<part name="R13" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="665k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="R14" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="33.3k"/>
+<part name="R14" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="332k"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="con-swd" deviceset="1.27MM-SWD-CONNECTOR" device=""/>
@@ -18826,7 +18826,6 @@ approximately 3.0V.</text>
 <junction x="170.18" y="125.73"/>
 <wire x1="170.18" y1="125.73" x2="148.59" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="125.73" x2="170.18" y2="123.19" width="0.1524" layer="91"/>
-<label x="107.95" y="128.27" size="1.778" layer="95"/>
 <wire x1="102.87" y1="143.51" x2="102.87" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="102.87" y1="142.24" x2="102.87" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="142.24" x2="102.87" y2="142.24" width="0.1524" layer="91"/>
