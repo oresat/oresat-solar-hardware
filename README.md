@@ -32,7 +32,7 @@ So our first design is based on a SPV1040 Maximum Power Point Tracker (MPPT) IC,
 
 # Rev 1 Design
 
-Shhhh! Don't tell anyone: rev 1 is a super secret project that uses a  **Zeta converter** running the *Incremental Conductance algorithm* on a 32bit ARM microcontroller that talks CAN! Oh, it's going to be great. After we figure out how to make it not catch fire in space, of course.
+Shhhh! Don't tell anyone: rev 1 is a super secret project that uses a  **Zeta converter** running the *Incremental Conductance algorithm* on a 32bit ARM microcontroller that talks CAN! Oh, it's going to be great. After we figure out how to make it not catch fire in space, of course. It's all preliminary, but you can find it in the [MPPT folder](https://github.com/oresat/solar/tree/master/MPPT).
 
 ## Project Team
   [Andrew Greenberg](https://github.com/andrewgreenberg)  
