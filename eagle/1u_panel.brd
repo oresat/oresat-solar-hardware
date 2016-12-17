@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,15 +28,15 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
@@ -70,7 +70,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="100" name="bDimensions" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="bDimensions" color="7" fill="1" visible="no" active="yes"/>
 <layer number="101" name="tDimensions" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
@@ -116,10 +116,10 @@
 <wire x1="37" y1="42.8" x2="37" y2="51.8" width="0.127" layer="42"/>
 <wire x1="39.5" y1="47" x2="42.5" y2="47" width="1.5" layer="46"/>
 <wire x1="41.45" y1="51.8" x2="40.6" y2="51.8" width="0.1" layer="41"/>
-<text x="47.8" y="94.8" size="1.5" layer="22" ratio="20" rot="MR0">OreSat Solar Module v1 </text>
-<text x="33.2" y="92.3" size="1.5" layer="22" ratio="20" rot="MR0">2016/11/12</text>
-<text x="5.6" y="94.4" size="0.635" layer="21" ratio="20">OreSat Solar Module v1 </text>
-<text x="5.6" y="92.9" size="0.635" layer="21" ratio="20">2016/11/25</text>
+<text x="75" y="95.5" size="1.5" layer="22" ratio="15" rot="MR0">OreSat Solar Module v1 </text>
+<text x="75" y="93.5" size="1.5" layer="22" ratio="15" rot="MR0">2016/12/17</text>
+<text x="5" y="90.5" size="1.5" layer="21" ratio="15">OreSat Solar Module v1 </text>
+<text x="5" y="88.5" size="1.5" layer="21" ratio="15">2016/12/17</text>
 <dimension x1="0" y1="98" x2="82" y2="86.7" x3="41" y3="121.5" textsize="2" textratio="5" layer="101" dtype="horizontal"/>
 <dimension x1="3.5" y1="94.2" x2="0" y2="118" x3="1.75" y3="118" textsize="2" textratio="5" layer="101" dtype="horizontal"/>
 <dimension x1="3.5" y1="14.2" x2="3.5" y2="0" x3="-10" y3="7.1" textsize="2" textratio="5" layer="101" dtype="vertical"/>
@@ -3480,11 +3480,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="49.65" y="79.9" size="0.635" layer="27" ratio="20" rot="R90"/>
 </element>
 <element name="CF1" library="oresat-eagle" package="CON-1.27-F-HARTING-1522012X601XXX" value="ORESAT-SOLARPANEL-12PIN" x="41" y="92.25" locked="yes" smashed="yes">
-<attribute name="NAME" x="45.285" y="87.525" size="0.635" layer="25" ratio="20"/>
+<attribute name="NAME" x="46.285" y="87.525" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="48.985" y="94.155" size="0.635" layer="27" ratio="20"/>
 </element>
-<element name="TP1" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="41.6" y="96.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.4" y="97.7" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="TP1" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="49" y="91" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.8" y="92" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP2" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="39.9" y="81.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.2" y="79.9" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -3522,7 +3522,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="38.5" y="61.3" size="0.4" layer="33" ratio="15" align="center"/>
 </element>
 <element name="R15" library="rcl_custom" package=".0805-B-NOSILK" value="0" x="41.3" y="62.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.9" y="61.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="42.9" y="60.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="43.1" y="60.7" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="41.3" y="62.2" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 </element>
@@ -3592,13 +3592,13 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="53.7" y="57.65" size="0.8" layer="27" font="vector" ratio="15"/>
 <attribute name="NAME" x="54.5" y="59" size="0.2" layer="33" ratio="15" align="center"/>
 </element>
-<element name="D3" library="diode-schottkey" package="DO214AC" value="STPS1L40AY" x="38.3" y="83.5" smashed="yes" rot="R180">
-<attribute name="DIST" value="Digi-Key" x="38.3" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="497-12286-1-ND" x="38.3" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="ST" x="38.3" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="STPS1L40AY" x="38.3" y="83.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="39.586" y="85.84" size="0.635" layer="25" ratio="20" rot="R270"/>
-<attribute name="VALUE" x="40.94" y="86.056" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="D3" library="diode-schottkey" package="DO214AC" value="STPS1L40AY" x="38.3" y="84.1" smashed="yes" rot="R180">
+<attribute name="DIST" value="Digi-Key" x="38.3" y="84.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="497-12286-1-ND" x="38.3" y="84.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="ST" x="38.3" y="84.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="STPS1L40AY" x="38.3" y="84.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="36.06" y="85.586" size="0.635" layer="25" ratio="20"/>
+<attribute name="VALUE" x="40.94" y="86.656" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="D1" library="diode-schottkey" package="DO214AC" value="STPS1L40AY" x="32.7" y="71.1" smashed="yes" rot="R270">
 <attribute name="DIST" value="Digi-Key" x="32.7" y="71.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3645,16 +3645,16 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="Q2" pad="2"/>
 <contactref element="Q2" pad="1"/>
 <contactref element="Q2" pad="3"/>
-<via x="20.5" y="87" extent="1-16" drill="0.3302"/>
-<via x="20.5" y="88" extent="1-16" drill="0.3302"/>
-<via x="21.5" y="87.5" extent="1-16" drill="0.3302"/>
-<via x="22.5" y="88" extent="1-16" drill="0.3302"/>
-<via x="23.5" y="87.5" extent="1-16" drill="0.3302"/>
-<via x="24.5" y="87" extent="1-16" drill="0.3302"/>
-<via x="24.5" y="88" extent="1-16" drill="0.3302"/>
-<via x="22.5" y="87" extent="1-16" drill="0.3302"/>
+<via x="20.5" y="95" extent="1-16" drill="0.3302"/>
+<via x="20.5" y="96" extent="1-16" drill="0.3302"/>
+<via x="21.5" y="95.5" extent="1-16" drill="0.3302"/>
+<via x="22.5" y="96" extent="1-16" drill="0.3302"/>
+<via x="23.5" y="95.5" extent="1-16" drill="0.3302"/>
+<via x="24.5" y="95" extent="1-16" drill="0.3302"/>
+<via x="24.5" y="96" extent="1-16" drill="0.3302"/>
+<via x="22.5" y="95" extent="1-16" drill="0.3302"/>
 <polygon width="0.1524" layer="1" isolate="0.2" thermals="no">
-<vertex x="20" y="88.5"/>
+<vertex x="20" y="96.5"/>
 <vertex x="20" y="81.5"/>
 <vertex x="18" y="79.5"/>
 <vertex x="18" y="78.7"/>
@@ -3663,18 +3663,22 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="21.6" y="79.5"/>
 <vertex x="21.6" y="76.9"/>
 <vertex x="24.9" y="76.9"/>
-<vertex x="24.9" y="88.5"/>
+<vertex x="24.9" y="96.5"/>
 </polygon>
 <contactref element="TP3" pad="1"/>
 <contactref element="PV1" pad="POS2"/>
 <polygon width="0.2" layer="16" isolate="0.2" thermals="no">
 <vertex x="14.5" y="80"/>
-<vertex x="14.5" y="86"/>
-<vertex x="67.5" y="86"/>
+<vertex x="14.5" y="89.5"/>
+<vertex x="19" y="94"/>
+<vertex x="63.2" y="94"/>
+<vertex x="67.7" y="89.5"/>
 <vertex x="67.5" y="80"/>
 <vertex x="73.5" y="80"/>
-<vertex x="73.5" y="89"/>
-<vertex x="8.5" y="89"/>
+<vertex x="73.5" y="89.5"/>
+<vertex x="66" y="97"/>
+<vertex x="16" y="97"/>
+<vertex x="8.5" y="89.5"/>
 <vertex x="8.5" y="80"/>
 </polygon>
 </signal>
@@ -3808,16 +3812,18 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 <via x="17.3" y="77.7" extent="1-16" drill="0.3302"/>
 <wire x1="37.825" y1="95" x2="37.825" y2="89.5" width="0.25" layer="1"/>
-<wire x1="37.825" y1="95" x2="37.825" y2="96.075" width="0.2" layer="1"/>
-<wire x1="37.825" y1="96.075" x2="37.2" y2="96.7" width="0.2" layer="1"/>
-<wire x1="37.2" y1="96.7" x2="33.5" y2="96.7" width="0.2" layer="1"/>
-<wire x1="33.5" y1="96.7" x2="25.8" y2="89" width="0.2" layer="1"/>
-<wire x1="25.8" y1="89" x2="19.8" y2="89" width="0.2" layer="1"/>
-<wire x1="19.8" y1="89" x2="19.5" y2="88.7" width="0.2" layer="1"/>
-<wire x1="19.5" y1="88.7" x2="19.5" y2="82" width="0.2" layer="1"/>
-<wire x1="19.5" y1="82" x2="17.5" y2="80" width="0.2" layer="1"/>
-<wire x1="17.5" y1="80" x2="17.5" y2="77.9" width="0.2" layer="1"/>
 <wire x1="17.5" y1="77.9" x2="17.3" y2="77.7" width="0.2" layer="1"/>
+<wire x1="37.825" y1="89.5" x2="37.825" y2="88.325" width="0.25" layer="1"/>
+<wire x1="37.825" y1="88.325" x2="37" y2="87.5" width="0.25" layer="1"/>
+<wire x1="37" y1="87.5" x2="27" y2="87.5" width="0.25" layer="1"/>
+<via x="27" y="87.5" extent="1-16" drill="0.3302"/>
+<wire x1="27" y1="87.5" x2="17.5" y2="87.5" width="0.25" layer="16"/>
+<via x="17.5" y="87.5" extent="1-16" drill="0.3302"/>
+<wire x1="17.5" y1="87.5" x2="17.5" y2="78" width="0.25" layer="1"/>
+<via x="18.5" y="87.5" extent="1-16" drill="0.3302"/>
+<wire x1="18.5" y1="87.5" x2="17.5" y2="87.5" width="0.25" layer="1"/>
+<via x="28" y="87.5" extent="1-16" drill="0.3302"/>
+<wire x1="27" y1="87.5" x2="28" y2="87.5" width="0.25" layer="16"/>
 </signal>
 <signal name="SOLAR-IN-SWITCHED2">
 <contactref element="R7" pad="1"/>
@@ -3871,8 +3877,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="VSOLAR">
 <polygon width="0.1524" layer="1" isolate="0.2" thermals="no">
 <vertex x="35.3" y="80.9"/>
-<vertex x="35.3" y="84.4"/>
-<vertex x="37.2" y="84.4"/>
+<vertex x="35.3" y="85"/>
+<vertex x="37.2" y="85"/>
 <vertex x="37.2" y="80.9"/>
 </polygon>
 <contactref element="U5" pad="1"/>
@@ -4077,8 +4083,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="VPV">
 <polygon width="0.1524" layer="1" isolate="0.2" thermals="no">
-<vertex x="40" y="83.3"/>
-<vertex x="40.8" y="83.3"/>
+<vertex x="40" y="83.9"/>
+<vertex x="40.8" y="83.9"/>
 <vertex x="40.8" y="95.6"/>
 <vertex x="40" y="95.6"/>
 </polygon>
@@ -4244,7 +4250,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="70" y="3" extent="1-16" drill="0.3302"/>
 <via x="75" y="3" extent="1-16" drill="0.3302"/>
 <via x="79" y="3" extent="1-16" drill="0.3302"/>
-<via x="10" y="90" extent="1-16" drill="0.3302"/>
 <via x="29.7" y="74.6" extent="1-16" drill="0.3302"/>
 <via x="50.2" y="82.3" extent="1-16" drill="0.3302"/>
 <wire x1="47.9" y1="82.475" x2="48.625" y2="82.475" width="0.254" layer="1"/>
@@ -4265,11 +4270,11 @@ Please make sure your boards conform to these design rules.</description>
 <via x="59.1" y="79.2" extent="1-16" drill="0.3302"/>
 <via x="58.1" y="80.2" extent="1-16" drill="0.3302"/>
 <via x="29.8" y="71.4" extent="1-16" drill="0.3302"/>
-<via x="30.7" y="65.6" extent="1-16" drill="0.3302"/>
+<via x="29.9" y="62.6" extent="1-16" drill="0.3302"/>
 <via x="27.6" y="76" extent="1-16" drill="0.3302"/>
 <via x="25.6" y="74.8" extent="1-16" drill="0.3302"/>
 <via x="22.6" y="75.5" extent="1-16" drill="0.3302"/>
-<via x="27.5" y="81.8" extent="1-16" drill="0.3302"/>
+<via x="26" y="82.8" extent="1-16" drill="0.3302"/>
 <via x="31.2" y="82.6" extent="1-16" drill="0.3302"/>
 <via x="32.2" y="82.6" extent="1-16" drill="0.3302"/>
 <via x="39.7" y="74.4" extent="1-16" drill="0.3302"/>
@@ -4277,8 +4282,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="42.5" y="68.4" extent="1-16" drill="0.3302"/>
 <via x="40.1" y="68.4" extent="1-16" drill="0.3302"/>
 <via x="37.7" y="68.4" extent="1-16" drill="0.3302"/>
-<via x="35.4" y="68.4" extent="1-16" drill="0.3302"/>
-<via x="39.3" y="64.1" extent="1-16" drill="0.3302"/>
+<via x="35.3" y="68.4" extent="1-16" drill="0.3302"/>
+<via x="39.9" y="62.6" extent="1-16" drill="0.3302"/>
 <via x="20.4" y="70" extent="1-16" drill="0.3302"/>
 <via x="20.4" y="67.6" extent="1-16" drill="0.3302"/>
 <via x="20.4" y="65.2" extent="1-16" drill="0.3302"/>
@@ -4290,10 +4295,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="56.3" y="77.2" extent="1-16" drill="0.3302"/>
 <via x="57.3" y="71.2" extent="1-16" drill="0.3302"/>
 <via x="49.6" y="78.8" extent="1-16" drill="0.3302"/>
-<via x="38.4" y="85.4" extent="1-16" drill="0.3302"/>
-<via x="39.1" y="90.6" extent="1-16" drill="0.3302"/>
-<via x="39.1" y="93.8" extent="1-16" drill="0.3302"/>
-<via x="39.1" y="96.2" extent="1-16" drill="0.3302"/>
+<via x="39.1" y="87.5" extent="1-16" drill="0.3302"/>
+<via x="39.1" y="90.7" extent="1-16" drill="0.3302"/>
 <via x="40.3" y="78.5" extent="1-16" drill="0.3302"/>
 <via x="46.9" y="78.9" extent="1-16" drill="0.3302"/>
 <contactref element="C5" pad="2"/>
@@ -4306,12 +4309,11 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C24" pad="2"/>
 <contactref element="D2" pad="A"/>
 <via x="31.5" y="75.5" extent="1-16" drill="0.3302"/>
-<via x="39.2" y="85.4" extent="1-16" drill="0.3302"/>
+<via x="39.1" y="91.6" extent="1-16" drill="0.3302"/>
 <contactref element="C25" pad="1"/>
 <via x="16.4" y="84.5" extent="1-16" drill="0.3302"/>
 <contactref element="PV1" pad="NEG2"/>
-<via x="37.6" y="85.4" extent="1-16" drill="0.3302"/>
-<via x="36.8" y="85.4" extent="1-16" drill="0.3302"/>
+<via x="39.1" y="86.7" extent="1-16" drill="0.3302"/>
 <via x="42.4" y="82.3" extent="1-16" drill="0.3302"/>
 <contactref element="CF2" pad="1"/>
 <via x="60" y="60" extent="1-16" drill="0.3302"/>
@@ -4328,11 +4330,25 @@ Please make sure your boards conform to these design rules.</description>
 <via x="51" y="93" extent="1-16" drill="0.3302"/>
 <via x="56" y="93" extent="1-16" drill="0.3302"/>
 <via x="61" y="93" extent="1-16" drill="0.3302"/>
-<via x="66" y="93" extent="1-16" drill="0.3302"/>
 <via x="61" y="83" extent="1-16" drill="0.3302"/>
 <via x="56" y="83" extent="1-16" drill="0.3302"/>
 <via x="71" y="93" extent="1-16" drill="0.3302"/>
-<via x="19.8" y="95.3" extent="1-16" drill="0.3302"/>
+<via x="42.7" y="62.6" extent="1-16" drill="0.3302"/>
+<via x="45" y="67.2" extent="1-16" drill="0.3302"/>
+<via x="45.1" y="74.4" extent="1-16" drill="0.3302"/>
+<via x="39.1" y="88.3" extent="1-16" drill="0.3302"/>
+<via x="45.1" y="86.8" extent="1-16" drill="0.3302"/>
+<via x="18.9" y="84.5" extent="1-16" drill="0.3302"/>
+<via x="19" y="93" extent="1-16" drill="0.3302"/>
+<via x="38" y="82" extent="1-16" drill="0.3302"/>
+<via x="31" y="86.5" extent="1-16" drill="0.3302"/>
+<via x="31" y="88.5" extent="1-16" drill="0.3302"/>
+<via x="17.4" y="73.8" extent="1-16" drill="0.3302"/>
+<via x="35.8" y="62.5" extent="1-16" drill="0.3302"/>
+<via x="61" y="88" extent="1-16" drill="0.3302"/>
+<via x="56" y="88" extent="1-16" drill="0.3302"/>
+<via x="51" y="88" extent="1-16" drill="0.3302"/>
+<via x="11" y="93" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="V4">
 <contactref element="U5" pad="4"/>
@@ -4431,8 +4447,11 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$3">
 <contactref element="TP1" pad="1"/>
 <contactref element="CF1" pad="6"/>
-<wire x1="41.635" y1="95" x2="41.635" y2="96.665" width="0.25" layer="1"/>
-<wire x1="41.635" y1="96.665" x2="41.6" y2="96.7" width="0.25" layer="1"/>
+<wire x1="41.635" y1="95" x2="41.635" y2="96.135" width="0.3" layer="1"/>
+<wire x1="41.635" y1="96.135" x2="42" y2="96.5" width="0.3" layer="1"/>
+<wire x1="42" y1="96.5" x2="47.5" y2="96.5" width="0.3" layer="1"/>
+<wire x1="47.5" y1="96.5" x2="49" y2="95" width="0.3" layer="1"/>
+<wire x1="49" y1="95" x2="49" y2="91" width="0.3" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="CF1" pad="5"/>
