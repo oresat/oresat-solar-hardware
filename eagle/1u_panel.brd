@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -89,21 +89,21 @@
 <hole x="78.5" y="14.2" drill="2.1"/>
 <hole x="78.5" y="54.2" drill="2.1"/>
 <hole x="78.5" y="94.2" drill="2.1"/>
-<wire x1="7" y1="56.2" x2="13" y2="56.2" width="0.1" layer="20"/>
+<wire x1="6.5" y1="56.2" x2="13" y2="56.2" width="0.1" layer="20"/>
 <wire x1="13" y1="56.2" x2="14" y2="57.2" width="0.1" layer="20" curve="90"/>
 <wire x1="14" y1="57.2" x2="14" y2="77" width="0.1" layer="20"/>
-<wire x1="6" y1="17" x2="6" y2="51.2" width="0.1" layer="20"/>
-<wire x1="6" y1="51.2" x2="7" y2="52.2" width="0.1" layer="20" curve="-90"/>
-<wire x1="7" y1="52.2" x2="13" y2="52.2" width="0.1" layer="20"/>
+<wire x1="5.5" y1="17" x2="5.5" y2="51.2" width="0.1" layer="20"/>
+<wire x1="5.5" y1="51.2" x2="6.5" y2="52.2" width="0.1" layer="20" curve="-90"/>
+<wire x1="6.5" y1="52.2" x2="13" y2="52.2" width="0.1" layer="20"/>
 <wire x1="13" y1="52.2" x2="14" y2="51.2" width="0.1" layer="20" curve="-90"/>
 <wire x1="14" y1="51.2" x2="14" y2="17" width="0.1" layer="20"/>
 <wire x1="14" y1="17" x2="13" y2="16" width="0.1" layer="20" curve="-90"/>
-<wire x1="13" y1="16" x2="7" y2="16" width="0.1" layer="20"/>
-<wire x1="7" y1="16" x2="6" y2="17" width="0.1" layer="20" curve="-90"/>
-<wire x1="6" y1="77" x2="6" y2="57.2" width="0.1" layer="20"/>
-<wire x1="6" y1="57.2" x2="7" y2="56.2" width="0.1" layer="20" curve="90"/>
-<wire x1="6" y1="77" x2="7" y2="78" width="0.1" layer="20" curve="-90"/>
-<wire x1="7" y1="78" x2="13" y2="78" width="0.1" layer="20"/>
+<wire x1="13" y1="16" x2="6.5" y2="16" width="0.1" layer="20"/>
+<wire x1="6.5" y1="16" x2="5.5" y2="17" width="0.1" layer="20" curve="-90"/>
+<wire x1="5.5" y1="77" x2="5.5" y2="57.2" width="0.1" layer="20"/>
+<wire x1="5.5" y1="57.2" x2="6.5" y2="56.2" width="0.1" layer="20" curve="90"/>
+<wire x1="5.5" y1="77" x2="6.5" y2="78" width="0.1" layer="20" curve="-90"/>
+<wire x1="6.5" y1="78" x2="13" y2="78" width="0.1" layer="20"/>
 <wire x1="13" y1="78" x2="14" y2="77" width="0.1" layer="20" curve="-90"/>
 <wire x1="39.95" y1="51.8" x2="37" y2="51.8" width="0.1" layer="41"/>
 <wire x1="37" y1="51.8" x2="37" y2="42.8" width="0.1" layer="41"/>
@@ -125,21 +125,21 @@
 <dimension x1="3.5" y1="14.2" x2="3.5" y2="0" x3="-10" y3="7.1" textsize="2" textratio="5" layer="101" dtype="vertical"/>
 <text x="25.9" y="-4.9" size="2" layer="101" ratio="5">All radii are 1 mm</text>
 <text x="101.7" y="93.4" size="2" layer="101" ratio="5">x6</text>
-<wire x1="69" y1="56.2" x2="75" y2="56.2" width="0.1" layer="20"/>
-<wire x1="75" y1="56.2" x2="76" y2="57.2" width="0.1" layer="20" curve="90"/>
-<wire x1="76" y1="57.2" x2="76" y2="77" width="0.1" layer="20"/>
+<wire x1="69" y1="56.2" x2="75.5" y2="56.2" width="0.1" layer="20"/>
+<wire x1="75.5" y1="56.2" x2="76.5" y2="57.2" width="0.1" layer="20" curve="90"/>
+<wire x1="76.5" y1="57.2" x2="76.5" y2="77" width="0.1" layer="20"/>
 <wire x1="68" y1="77" x2="68" y2="57.2" width="0.1" layer="20"/>
 <wire x1="68" y1="57.2" x2="69" y2="56.2" width="0.1" layer="20" curve="90"/>
 <wire x1="68" y1="77" x2="69" y2="78" width="0.1" layer="20" curve="-90"/>
-<wire x1="69" y1="78" x2="75" y2="78" width="0.1" layer="20"/>
-<wire x1="75" y1="78" x2="76" y2="77" width="0.1" layer="20" curve="-90"/>
+<wire x1="69" y1="78" x2="75.5" y2="78" width="0.1" layer="20"/>
+<wire x1="75.5" y1="78" x2="76.5" y2="77" width="0.1" layer="20" curve="-90"/>
 <wire x1="68" y1="17" x2="68" y2="51.2" width="0.1" layer="20"/>
 <wire x1="68" y1="51.2" x2="69" y2="52.2" width="0.1" layer="20" curve="-90"/>
-<wire x1="69" y1="52.2" x2="75" y2="52.2" width="0.1" layer="20"/>
-<wire x1="75" y1="52.2" x2="76" y2="51.2" width="0.1" layer="20" curve="-90"/>
-<wire x1="76" y1="51.2" x2="76" y2="17" width="0.1" layer="20"/>
-<wire x1="76" y1="17" x2="75" y2="16" width="0.1" layer="20" curve="-90"/>
-<wire x1="75" y1="16" x2="69" y2="16" width="0.1" layer="20"/>
+<wire x1="69" y1="52.2" x2="75.5" y2="52.2" width="0.1" layer="20"/>
+<wire x1="75.5" y1="52.2" x2="76.5" y2="51.2" width="0.1" layer="20" curve="-90"/>
+<wire x1="76.5" y1="51.2" x2="76.5" y2="17" width="0.1" layer="20"/>
+<wire x1="76.5" y1="17" x2="75.5" y2="16" width="0.1" layer="20" curve="-90"/>
+<wire x1="75.5" y1="16" x2="69" y2="16" width="0.1" layer="20"/>
 <wire x1="69" y1="16" x2="68" y2="17" width="0.1" layer="20" curve="-90"/>
 <dimension x1="3.5" y1="14.2" x2="3.5" y2="54.2" x3="-10" y3="34.2" textsize="1.778" layer="101" dtype="vertical"/>
 <dimension x1="3.5" y1="54.2" x2="3.5" y2="94.2" x3="-10" y3="74.2" textsize="1.778" layer="101" dtype="vertical"/>
@@ -156,7 +156,7 @@
 <dimension x1="7" y1="78" x2="8.5" y2="80" x3="-5.3" y3="79" textsize="1.778" layer="100" dtype="vertical" extoffset="1"/>
 <dimension x1="14" y1="77" x2="16" y2="77" x3="15" y3="106.2" textsize="1.778" layer="100" dtype="vertical" extoffset="1"/>
 <polygon width="0.1" layer="39">
-<vertex x="10" y="5"/>
+<vertex x="10" y="3"/>
 <vertex x="10" y="0"/>
 <vertex x="80" y="0" curve="90"/>
 <vertex x="82" y="2"/>
@@ -167,15 +167,15 @@
 <vertex x="0" y="2" curve="90"/>
 <vertex x="2" y="0"/>
 <vertex x="10" y="0"/>
-<vertex x="10" y="5"/>
-<vertex x="8" y="5" curve="-90"/>
-<vertex x="6" y="7"/>
-<vertex x="6" y="93" curve="-90"/>
-<vertex x="8" y="95"/>
-<vertex x="74" y="95" curve="-90"/>
-<vertex x="76" y="93"/>
-<vertex x="76" y="7" curve="-90"/>
-<vertex x="74" y="5"/>
+<vertex x="10" y="3"/>
+<vertex x="8" y="3" curve="-90"/>
+<vertex x="5.5" y="5"/>
+<vertex x="5.5" y="95" curve="-90"/>
+<vertex x="8" y="97"/>
+<vertex x="74.5" y="97" curve="-90"/>
+<vertex x="76.5" y="95"/>
+<vertex x="76.5" y="5" curve="-90"/>
+<vertex x="74.5" y="3"/>
 </polygon>
 <text x="67.6" y="69.2" size="1" layer="22" font="vector" ratio="20" rot="SMR270">DEBUG</text>
 <text x="67.6" y="60.4" size="1" layer="22" font="vector" ratio="20" rot="SMR270">1</text>
