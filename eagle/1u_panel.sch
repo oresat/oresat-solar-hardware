@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -5422,6 +5422,209 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <dimension x1="33" y1="33.5" x2="33" y2="40" x3="35.5" y3="36.75" textsize="1.27" textratio="10" layer="47" dtype="vertical" extlength="1"/>
 <dimension x1="-32" y1="40" x2="-32" y2="38" x3="-34" y3="39" textsize="1.27" textratio="10" layer="47" dtype="vertical" extoffset="1"/>
 </package>
+<package name="ALTA-FIVE-CELL-THROUGH-SLOT">
+<smd name="NEG2" x="22.5" y="35.5" dx="5" dy="6" layer="16" rot="R90" cream="no"/>
+<smd name="POS2" x="22.5" y="-35.5" dx="5" dy="6" layer="16" rot="R90" cream="no"/>
+<text x="27" y="30.5" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="27" y="28.5" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-25" y1="40" x2="25" y2="40" width="0.127" layer="21"/>
+<wire x1="25" y1="40" x2="25" y2="23" width="0.127" layer="21"/>
+<wire x1="25" y1="23" x2="25" y2="6" width="0.127" layer="21"/>
+<wire x1="25" y1="6" x2="25" y2="-11" width="0.127" layer="21"/>
+<wire x1="25" y1="-11" x2="25" y2="-28" width="0.127" layer="21"/>
+<wire x1="25" y1="-28" x2="25" y2="-40" width="0.127" layer="21"/>
+<wire x1="25" y1="-40" x2="25" y2="-45" width="0.127" layer="21"/>
+<wire x1="25" y1="-45" x2="-25" y2="-45" width="0.127" layer="21"/>
+<wire x1="-25" y1="-45" x2="-26.5" y2="-45" width="0.127" layer="21"/>
+<wire x1="-25" y1="-40" x2="-25" y2="-28" width="0.127" layer="21"/>
+<wire x1="-25" y1="-28" x2="-25" y2="-11" width="0.127" layer="21"/>
+<wire x1="-25" y1="-11" x2="-25" y2="6" width="0.127" layer="21"/>
+<wire x1="-25" y1="6" x2="-25" y2="23" width="0.127" layer="21"/>
+<wire x1="-25" y1="23" x2="-25" y2="40" width="0.127" layer="21"/>
+<wire x1="-25" y1="6" x2="25" y2="6" width="0.127" layer="21"/>
+<wire x1="-25" y1="-11" x2="25" y2="-11" width="0.127" layer="21"/>
+<wire x1="-25" y1="-28" x2="25" y2="-28" width="0.127" layer="21"/>
+<wire x1="-25" y1="23" x2="25" y2="23" width="0.127" layer="21"/>
+<wire x1="25" y1="-45" x2="26.5" y2="-45" width="0.127" layer="21"/>
+<wire x1="26.5" y1="-40" x2="25" y2="-40" width="0.127" layer="21"/>
+<wire x1="-26.5" y1="-40" x2="-25" y2="-40" width="0.127" layer="21"/>
+<wire x1="-26.5" y1="40" x2="-25" y2="40" width="0.127" layer="21"/>
+<wire x1="26.5" y1="40" x2="25" y2="40" width="0.127" layer="21"/>
+<wire x1="-26.5" y1="45" x2="26.5" y2="45" width="0.127" layer="21"/>
+<smd name="NEG1" x="-22.5" y="35.5" dx="5" dy="6" layer="16" rot="R90" cream="no"/>
+<smd name="POS1" x="-22.5" y="-35.5" dx="5" dy="6" layer="16" rot="R90" cream="no"/>
+<polygon width="0.127" layer="39">
+<vertex x="-28" y="-46.5"/>
+<vertex x="-26" y="-46.5"/>
+<vertex x="-26" y="-45.5"/>
+<vertex x="26" y="-45.5"/>
+<vertex x="26" y="-46.5"/>
+<vertex x="28" y="-46.5"/>
+<vertex x="28" y="-38.5"/>
+<vertex x="25.5" y="-38.5"/>
+<vertex x="25.5" y="38.5"/>
+<vertex x="28" y="38.5"/>
+<vertex x="28" y="46.5"/>
+<vertex x="26" y="46.5"/>
+<vertex x="26" y="45.5"/>
+<vertex x="-26" y="45.5"/>
+<vertex x="-26" y="46.5"/>
+<vertex x="-28" y="46.5"/>
+<vertex x="-28" y="38.5"/>
+<vertex x="-25.5" y="38.5"/>
+<vertex x="-25.5" y="-38.5"/>
+<vertex x="-28" y="-38.5"/>
+</polygon>
+<text x="23" y="38" size="1.27" layer="22" ratio="10" rot="MR0">-</text>
+<text x="-22.5" y="-39.5" size="1.27" layer="22" ratio="10" rot="MR0">+</text>
+<wire x1="-27" y1="45.5" x2="-27" y2="39.5" width="1" layer="46"/>
+<wire x1="27" y1="45.5" x2="27" y2="39.5" width="1" layer="46"/>
+<text x="-22" y="38" size="1.27" layer="22" ratio="10" rot="MR0">-</text>
+<polygon width="0.1" layer="41">
+<vertex x="-26.5" y="45.5"/>
+<vertex x="-24.5" y="45.5"/>
+<vertex x="-24.5" y="40"/>
+<vertex x="-24.5" y="39.5"/>
+<vertex x="-27" y="39.5"/>
+<vertex x="-27" y="45.5"/>
+</polygon>
+<wire x1="27" y1="-39.5" x2="27" y2="-45.5" width="1" layer="46"/>
+<wire x1="-27" y1="-39.5" x2="-27" y2="-45.5" width="1" layer="46"/>
+<polygon width="0.1" layer="41">
+<vertex x="25" y="45.5"/>
+<vertex x="27" y="45.5"/>
+<vertex x="27" y="40"/>
+<vertex x="27" y="39.5"/>
+<vertex x="24.5" y="39.5"/>
+<vertex x="24.5" y="45.5"/>
+</polygon>
+<wire x1="-25" y1="-45" x2="-25" y2="-40" width="0.127" layer="22"/>
+<wire x1="-25" y1="-45" x2="-20" y2="-40" width="0.127" layer="22"/>
+<wire x1="-20" y1="-38.25" x2="-20" y2="-40" width="0.127" layer="22"/>
+<wire x1="-25" y1="-40" x2="-25" y2="-38.25" width="0.127" layer="22"/>
+<wire x1="-25" y1="-33.5" x2="-25" y2="-38.5" width="0.127" layer="52"/>
+<wire x1="-20" y1="-33.5" x2="-20" y2="-38.5" width="0.127" layer="52"/>
+<wire x1="-25" y1="-33.5" x2="-20" y2="-33.5" width="0.127" layer="52"/>
+<wire x1="-26.5" y1="-40" x2="-25" y2="-40" width="0.127" layer="22"/>
+<wire x1="-25" y1="-45" x2="-26.5" y2="-45" width="0.127" layer="22"/>
+<wire x1="-25" y1="-40" x2="-25" y2="-45" width="0.127" layer="21"/>
+<wire x1="-26.5" y1="-40" x2="-27" y2="-40" width="0.127" layer="52"/>
+<wire x1="-27" y1="-40" x2="-27" y2="-45" width="0.127" layer="52"/>
+<wire x1="-27" y1="-45" x2="-26.5" y2="-45" width="0.127" layer="52"/>
+<text x="23" y="-39.5" size="1.27" layer="22" ratio="10" rot="MR0">+</text>
+<wire x1="25" y1="-45" x2="20" y2="-40" width="0.127" layer="22"/>
+<wire x1="25" y1="-45" x2="25" y2="-40" width="0.127" layer="22"/>
+<wire x1="25" y1="-38.25" x2="25" y2="-40" width="0.127" layer="22"/>
+<wire x1="20" y1="-40" x2="20" y2="-38.25" width="0.127" layer="22"/>
+<wire x1="20" y1="-33.5" x2="20" y2="-38.5" width="0.127" layer="52"/>
+<wire x1="25" y1="-33.5" x2="25" y2="-38.5" width="0.127" layer="52"/>
+<wire x1="20" y1="-33.5" x2="25" y2="-33.5" width="0.127" layer="52"/>
+<wire x1="26.5" y1="-40" x2="25" y2="-40" width="0.127" layer="22"/>
+<wire x1="25" y1="-45" x2="26.5" y2="-45" width="0.127" layer="22"/>
+<wire x1="26.5" y1="-40" x2="27" y2="-40" width="0.127" layer="52"/>
+<wire x1="27" y1="-40" x2="27" y2="-45" width="0.127" layer="52"/>
+<wire x1="27" y1="-45" x2="26.5" y2="-45" width="0.127" layer="52"/>
+<polygon width="0.1" layer="40">
+<vertex x="-26" y="-38"/>
+<vertex x="-26" y="-32.5"/>
+<vertex x="-19" y="-32.5"/>
+<vertex x="-19" y="-40"/>
+<vertex x="-24.5" y="-45.5"/>
+<vertex x="-26" y="-45.5"/>
+<vertex x="-26" y="-46.5"/>
+<vertex x="-28" y="-46.5"/>
+<vertex x="-28" y="-38.5"/>
+<vertex x="-26" y="-38.5"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="19" y="-32.5"/>
+<vertex x="19" y="-40"/>
+<vertex x="24.5" y="-45.5"/>
+<vertex x="26" y="-45.5"/>
+<vertex x="26" y="-46.5"/>
+<vertex x="28" y="-46.5"/>
+<vertex x="28" y="-38.5"/>
+<vertex x="26" y="-38.5"/>
+<vertex x="26" y="-32.5"/>
+</polygon>
+<wire x1="25" y1="33.5" x2="25" y2="38.5" width="0.127" layer="52"/>
+<wire x1="20" y1="33.5" x2="20" y2="38.5" width="0.127" layer="52"/>
+<wire x1="25" y1="33.5" x2="20" y2="33.5" width="0.127" layer="52"/>
+<wire x1="26.5" y1="40" x2="27" y2="40" width="0.127" layer="52"/>
+<wire x1="27" y1="40" x2="27" y2="45" width="0.127" layer="52"/>
+<wire x1="27" y1="45" x2="26.5" y2="45" width="0.127" layer="52"/>
+<wire x1="-20" y1="33.5" x2="-20" y2="38.5" width="0.127" layer="52"/>
+<wire x1="-25" y1="33.5" x2="-25" y2="38.5" width="0.127" layer="52"/>
+<wire x1="-20" y1="33.5" x2="-25" y2="33.5" width="0.127" layer="52"/>
+<wire x1="-26.5" y1="40" x2="-27" y2="40" width="0.127" layer="52"/>
+<wire x1="-27" y1="40" x2="-27" y2="45" width="0.127" layer="52"/>
+<wire x1="-27" y1="45" x2="-26.5" y2="45" width="0.127" layer="52"/>
+<wire x1="25" y1="45" x2="25" y2="40" width="0.127" layer="22"/>
+<wire x1="25" y1="45" x2="20" y2="40" width="0.127" layer="22"/>
+<wire x1="20" y1="38.25" x2="20" y2="40" width="0.127" layer="22"/>
+<wire x1="25" y1="40" x2="25" y2="38.25" width="0.127" layer="22"/>
+<wire x1="26.5" y1="40" x2="25" y2="40" width="0.127" layer="22"/>
+<wire x1="25" y1="45" x2="26.5" y2="45" width="0.127" layer="22"/>
+<wire x1="-25" y1="45" x2="-20" y2="40" width="0.127" layer="22"/>
+<wire x1="-25" y1="45" x2="-25" y2="40" width="0.127" layer="22"/>
+<wire x1="-25" y1="38.25" x2="-25" y2="40" width="0.127" layer="22"/>
+<wire x1="-20" y1="40" x2="-20" y2="38.25" width="0.127" layer="22"/>
+<wire x1="-26.5" y1="40" x2="-25" y2="40" width="0.127" layer="22"/>
+<wire x1="-25" y1="45" x2="-26.5" y2="45" width="0.127" layer="22"/>
+<wire x1="-26.5" y1="45" x2="-27" y2="45" width="0.127" layer="51"/>
+<wire x1="-27" y1="45" x2="-27" y2="40" width="0.127" layer="51"/>
+<wire x1="-27" y1="40" x2="-26.5" y2="40" width="0.127" layer="51"/>
+<wire x1="26.5" y1="40" x2="27" y2="40" width="0.127" layer="51"/>
+<wire x1="27" y1="40" x2="27" y2="45" width="0.127" layer="51"/>
+<wire x1="27" y1="45" x2="26.5" y2="45" width="0.127" layer="51"/>
+<wire x1="-26.5" y1="-40" x2="-27" y2="-40" width="0.127" layer="51"/>
+<wire x1="-27" y1="-40" x2="-27" y2="-45" width="0.127" layer="51"/>
+<wire x1="-27" y1="-45" x2="-26.5" y2="-45" width="0.127" layer="51"/>
+<wire x1="26.5" y1="-40" x2="27" y2="-40" width="0.127" layer="51"/>
+<wire x1="27" y1="-40" x2="27" y2="-45" width="0.127" layer="51"/>
+<wire x1="27" y1="-45" x2="26.5" y2="-45" width="0.127" layer="51"/>
+<polygon width="0.1" layer="40">
+<vertex x="-19" y="32.5"/>
+<vertex x="-19" y="40"/>
+<vertex x="-24.5" y="45.5"/>
+<vertex x="-26" y="45.5"/>
+<vertex x="-26" y="46.5"/>
+<vertex x="-28" y="46.5"/>
+<vertex x="-28" y="38.5"/>
+<vertex x="-26" y="38.5"/>
+<vertex x="-26" y="32.5"/>
+</polygon>
+<polygon width="0.1" layer="40">
+<vertex x="26" y="38"/>
+<vertex x="26" y="32.5"/>
+<vertex x="19" y="32.5"/>
+<vertex x="19" y="40"/>
+<vertex x="24.5" y="45.5"/>
+<vertex x="26" y="45.5"/>
+<vertex x="26" y="46.5"/>
+<vertex x="28" y="46.5"/>
+<vertex x="28" y="38.5"/>
+<vertex x="26" y="38.5"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="-26.5" y="-39.5"/>
+<vertex x="-24.5" y="-39.5"/>
+<vertex x="-24.5" y="-45"/>
+<vertex x="-24.5" y="-45.5"/>
+<vertex x="-27" y="-45.5"/>
+<vertex x="-27" y="-39.5"/>
+</polygon>
+<polygon width="0.1" layer="41">
+<vertex x="25" y="-39.5"/>
+<vertex x="27" y="-39.5"/>
+<vertex x="27" y="-45"/>
+<vertex x="27" y="-45.5"/>
+<vertex x="24.5" y="-45.5"/>
+<vertex x="24.5" y="-39.5"/>
+</polygon>
+<wire x1="25" y1="-45.25" x2="-25" y2="-45.25" width="0.127" layer="21"/>
+<wire x1="-26.5" y1="45.25" x2="26.5" y2="45.25" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="5-CELL-ARRAY">
@@ -5499,6 +5702,15 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </technologies>
 </device>
 <device name="BENT-TABS" package="ALTA-FIVE-CELL-BENT-TABS-IN">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG1 NEG2"/>
+<connect gate="G$1" pin="POS" pad="POS1 POS2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ALTA-FIVE-CELL-SLOT" package="ALTA-FIVE-CELL-THROUGH-SLOT">
 <connects>
 <connect gate="G$1" pin="NEG" pad="NEG1 NEG2"/>
 <connect gate="G$1" pin="POS" pad="POS1 POS2"/>
@@ -17665,7 +17877,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C14" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="20u"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="PV1" library="alta-cell" deviceset="ALTA-5-CELL-ARRAY" device="BENT-TABS" value="ALTA-5-CELL-ARRAYBENT-TABS"/>
+<part name="PV1" library="alta-cell" deviceset="ALTA-5-CELL-ARRAY" device="ALTA-FIVE-CELL-SLOT" value="ALTA-5-CELL-ARRAYALTA-FIVE-CELL-SLOT"/>
 <part name="U1" library="spv1040" deviceset="SPV1040" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="U5" library="LTC2990" deviceset="LTC2990" device=""/>
