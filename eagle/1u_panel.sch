@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17852,12 +17852,33 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="R1" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k"/>
-<part name="R2" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="100k"/>
+<part name="R1" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="RHM10.0KLCT-ND"/>
+<attribute name="MFR" value="Rohm Semiconductor"/>
+<attribute name="MPN" value="MCR01MZPF1002"/>
+</part>
+<part name="R2" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="100k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="RHM100KCDCT-ND"/>
+<attribute name="MFR" value="Rohm Semiconductor"/>
+<attribute name="MPN" value="MCR01MRTF1003"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="1k"/>
-<part name="C6" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="R3" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="1k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="RHM1.00KLCT-ND"/>
+<attribute name="MFN" value="Rohm Semiconductor"/>
+<attribute name="MPN" value=" MCR01MZPF1001"/>
+</part>
+<part name="C6" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value=" 	
+Samsung Electro-Mechanics America, Inc. "/>
+<attribute name="MPN" value=" CL05B104KO5NNNC"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="1k"/>
 <part name="R5" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="1k"/>
@@ -17867,23 +17888,73 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="RCWE0805R180FKEA"/>
 </part>
-<part name="R7" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="866k"/>
-<part name="R8" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="274k"/>
-<part name="C12" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="500p"/>
+<part name="R7" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="866k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-4285-1-ND"/>
+<attribute name="MFN" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="RC1005F8663CS"/>
+</part>
+<part name="R8" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="274k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="541-274KLCT-ND"/>
+<attribute name="MFR" value="Vishay Dale"/>
+<attribute name="MPN" value="CRCW0402274KFKED"/>
+</part>
+<part name="C12" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="500p">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1577-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B561KB5NNNC"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="1u"/>
-<part name="C14" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="20u"/>
+<part name="C13" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="1u">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1445-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value=" CL05A105KA5NQNC"/>
+</part>
+<part name="C14" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="20u">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" 1276-1274-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value=" CL10A226MP8NUNE"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="PV1" library="alta-cell" deviceset="ALTA-5-CELL-ARRAY" device="ALTA-FIVE-CELL-SLOT" value="ALTA-5-CELL-ARRAYALTA-FIVE-CELL-SLOT"/>
-<part name="U1" library="spv1040" deviceset="SPV1040" device=""/>
+<part name="U1" library="spv1040" deviceset="SPV1040" device="">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="497-11417-ND"/>
+<attribute name="MFR" value="STMicroelectronics"/>
+<attribute name="MPN" value="SPV1040T"/>
+</part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="U5" library="LTC2990" deviceset="LTC2990" device=""/>
-<part name="Q2" library="vishay-p-channel-fet" deviceset="P-CHANNELFET" device=""/>
-<part name="Q1" library="on-n-channel-fet" deviceset="ON-N-CHANNEL-FET" device="" value="ON-NFET"/>
-<part name="Q3" library="diodes-inc-npn" deviceset="DIODE-INC-NPN" device="SOT23HOLE" value="DIODE-INC-NPNSOT23HOLE"/>
+<part name="U5" library="LTC2990" deviceset="LTC2990" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="LTC2990CMS#PBF-ND"/>
+<attribute name="MFR" value="Linear Technology"/>
+<attribute name="MPN" value=" LTC2990CMS#PBF"/>
+</part>
+<part name="Q2" library="vishay-p-channel-fet" deviceset="P-CHANNELFET" device="" value="SI4431CDY-T1-GE3">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="SI4431CDY-T1-GE3CT-ND"/>
+<attribute name="MFR" value="Vishay Siliconix"/>
+<attribute name="MPN" value="   SI4431CDY-T1-GE3"/>
+</part>
+<part name="Q1" library="on-n-channel-fet" deviceset="ON-N-CHANNEL-FET" device="" value="2N7002WT1G">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="2N7002WT1GOSCT-ND"/>
+<attribute name="MFR" value="rer   ON Semiconductor"/>
+<attribute name="MPN" value="2N7002WT1G"/>
+</part>
+<part name="Q3" library="diodes-inc-npn" deviceset="DIODE-INC-NPN" device="SOT23HOLE" value="MMBT3904">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="MMBT3904FSCT-ND"/>
+<attribute name="MFR" value="   Fairchild/ON Semiconductor"/>
+<attribute name="MPN" value="MMBT3904"/>
+</part>
 <part name="C4" library="rcl_custom" deviceset="C-EU" device="1206-B" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="490-5309-1-ND"/>
@@ -17897,46 +17968,144 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="IFSC1515AHER220M01"/>
 </part>
-<part name="C3" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
-<part name="C9" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="C3" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value=" 	
+Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="C9" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value=" CL05B104KO5NNNC"/>
+</part>
 <part name="C11" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="20p?"/>
 <part name="C16" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="20p?"/>
-<part name="C17" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="C17" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" 1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="R12" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k"/>
+<part name="R12" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" RHM10.0KLCT-ND"/>
+<attribute name="MFR" value="Rohm Semiconductor"/>
+<attribute name="MPN" value="MCR01MZPF1002"/>
+</part>
 <part name="U3" library="LM3761" deviceset="LM3761" device="" value="LM3671MF-3.3"/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="4.7u"/>
-<part name="L1" library="rcl" deviceset="L-US" device="L2012C" value="10u"/>
-<part name="R13" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="665k"/>
+<part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="4.7u">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="4.7u">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value=" 	
+Samsung Electro-Mechanics America, Inc. "/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="L1" library="rcl" deviceset="L-US" device="L2012C" value="10u">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="587-2452-1-ND"/>
+<attribute name="MFR" value="Taiyo Yuden"/>
+<attribute name="MPN" value=" CB2012T100KR"/>
+</part>
+<part name="R13" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="665k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="R14" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="332k"/>
+<part name="R14" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="332k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-4245-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value=" RC1005F3323CS"/>
+</part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="R22" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="4.7k"/>
-<part name="R23" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="4.7k"/>
-<part name="R10" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k"/>
+<part name="R22" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="4.7k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="RHM4.7KBHCT-ND"/>
+<attribute name="MFR" value="Rohm Semiconductor"/>
+<attribute name="MPN" value="TRR01MZPF4701"/>
+</part>
+<part name="R23" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="4.7k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="RHM4.7KBHCT-ND"/>
+<attribute name="MFR" value="Rohm Semiconductor"/>
+<attribute name="MPN" value="TRR01MZPF4701"/>
+</part>
+<part name="R10" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" RHM10.0KLCT-ND"/>
+<attribute name="MFR" value="Rohm Semiconductor"/>
+<attribute name="MPN" value=" MCR01MZPF1002"/>
+</part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="C22" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
-<part name="X1" library="low-gain-radio" deviceset="CRYSTAL-WITH-GND" device="" value="8MHZ-2.5x2mm"/>
-<part name="U2" library="TCAN330" deviceset="TCAN330" device=""/>
-<part name="C18" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="C22" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="X1" library="low-gain-radio" deviceset="CRYSTAL-WITH-GND" device="" value="8MHZ-2.5x2mm">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="XC2015CT-ND"/>
+<attribute name="MFR" value="ECS Inc."/>
+<attribute name="MPN" value="ECS-80-18-20BQ-DS"/>
+</part>
+<part name="U2" library="TCAN330" deviceset="TCAN330" device="">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" 296-44211-1-ND"/>
+<attribute name="MFR" value="Texas Instruments"/>
+<attribute name="MPN" value="TCAN330GDCNT"/>
+</part>
+<part name="C18" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="C19" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" 1276-1001-1-ND"/>
+<attribute name="MFR" value=" 	
+Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C23" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="C23" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="U6" library="STM32F042K" deviceset="STM32F042K6" device=""/>
+<part name="U6" library="STM32F042K" deviceset="STM32F042K6" device="">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" 497-14647-ND"/>
+<attribute name="MFR" value="STMicroelectronics"/>
+<attribute name="MPN" value="STM32F042K6T6"/>
+</part>
 <part name="CF1" library="oresat-eagle" deviceset="ORESAT-SOLARPANEL-12PIN" device=""/>
 <part name="TP1" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP2" library="Tova" deviceset="TEST-POINT" device=""/>
@@ -17994,7 +18163,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="MFR" value="Murata"/>
 <attribute name="MPN" value="GRM31CR71A226KE15L"/>
 </part>
-<part name="C24" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="C24" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" 1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
 <part name="D3" library="diode-schottkey" deviceset="DIODE-" device="DO214AC" value="STPS1L40AY">
 <attribute name="DIST" value="Digi-Key"/>
 <attribute name="DPN" value="497-12286-1-ND"/>
@@ -18020,7 +18194,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="MFR" value="Vishay Dale"/>
 <attribute name="MPN" value="RCWE0805R180FKEA"/>
 </part>
-<part name="C25" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="C25" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-key"/>
+<attribute name="DPN" value=" 1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MPN" value=" CL05B104KO5NNNC"/>
+</part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="CF2" library="2mm-RA-solar-module-debugging" deviceset="2MM-RA-1X8" device="">
 <attribute name="DIST" value="Digi-Key"/>
@@ -18078,20 +18257,36 @@ approximately 3.0V.</text>
 <instance part="R1" gate="R" x="33.02" y="205.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.4386" y="205.74" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="29.718" y="212.09" size="1.778" layer="96" rot="R270"/>
+<attribute name="DIS" x="33.02" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="33.02" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="33.02" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="33.02" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R2" gate="R" x="39.37" y="205.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.7886" y="205.74" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="36.068" y="213.36" size="1.778" layer="96" rot="R270"/>
+<attribute name="DIS" x="39.37" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="39.37" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="39.37" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="39.37" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="54.61" y="207.01"/>
 <instance part="GND2" gate="1" x="96.52" y="167.64"/>
 <instance part="R3" gate="R" x="111.76" y="193.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="109.22" y="191.5414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="114.3" y="191.262" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="111.76" y="193.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="111.76" y="193.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFN" x="111.76" y="193.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="111.76" y="193.04" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C6" gate="CE" x="119.38" y="185.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="117.856" y="185.039" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.856" y="182.499" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="119.38" y="185.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="119.38" y="185.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="119.38" y="185.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="119.38" y="185.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="119.38" y="175.26"/>
 <instance part="R4" gate="R" x="231.14" y="200.66" smashed="yes" rot="R90">
@@ -18113,45 +18308,86 @@ approximately 3.0V.</text>
 <instance part="R7" gate="R" x="251.46" y="193.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="254" y="193.2686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="254" y="191.008" size="1.778" layer="96"/>
+<attribute name="DIS" x="251.46" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="251.46" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFN" x="251.46" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="251.46" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R8" gate="R" x="251.46" y="177.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="254" y="178.0286" size="1.778" layer="95"/>
 <attribute name="VALUE" x="254" y="175.768" size="1.778" layer="96"/>
+<attribute name="DIS" x="251.46" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="251.46" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="251.46" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="251.46" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="C12" gate="CE" x="243.84" y="177.8" rot="MR0"/>
+<instance part="C12" gate="CE" x="243.84" y="177.8" rot="MR0">
+<attribute name="DIS" x="243.84" y="177.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="243.84" y="177.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="243.84" y="177.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="243.84" y="177.8" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="243.84" y="167.64"/>
 <instance part="GND6" gate="1" x="152.4" y="167.64"/>
 <instance part="GND7" gate="1" x="251.46" y="167.64"/>
 <instance part="C13" gate="CE" x="238.76" y="193.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="235.839" y="194.564" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="240.919" y="194.564" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="238.76" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="238.76" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="238.76" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="238.76" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C14" gate="CE" x="285.75" y="173.99" smashed="yes" rot="R90">
 <attribute name="NAME" x="288.544" y="175.641" size="1.778" layer="95"/>
 <attribute name="VALUE" x="281.94" y="170.18" size="1.778" layer="96"/>
+<attribute name="DIS" x="285.75" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="285.75" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="285.75" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="285.75" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="318.77" y="149.86"/>
 <instance part="GND9" gate="1" x="346.71" y="149.86"/>
 <instance part="PV1" gate="G$1" x="15.24" y="166.37"/>
 <instance part="U1" gate="G$1" x="152.4" y="190.5" smashed="yes">
 <attribute name="NAME" x="167.64" y="176.53" size="1.778" layer="95"/>
+<attribute name="DIS" x="152.4" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="152.4" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="152.4" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="152.4" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="15.24" y="152.4"/>
 <instance part="U5" gate="G$1" x="318.77" y="172.72" smashed="yes">
 <attribute name="NAME" x="326.39" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="326.39" y="152.4" size="1.778" layer="96"/>
+<attribute name="DIS" x="318.77" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="318.77" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="318.77" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="318.77" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q2" gate="G$1" x="46.99" y="200.66" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="35.56" y="193.04" size="1.778" layer="96" rot="MR180"/>
-<attribute name="NAME" x="43.18" y="195.58" size="1.778" layer="95" rot="MR180"/>
+<attribute name="DIS" x="46.99" y="200.66" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DPN" x="46.99" y="200.66" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MFR" x="46.99" y="200.66" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="46.99" y="200.66" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="VALUE" x="36.83" y="195.58" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="49.53" y="203.2" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="Q1" gate="G$1" x="49.53" y="215.9" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="53.34" y="215.9" size="1.778" layer="96" rot="MR180"/>
-<attribute name="NAME" x="53.34" y="219.71" size="1.778" layer="95" rot="MR180"/>
+<attribute name="DIS" x="49.53" y="215.9" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DPN" x="49.53" y="215.9" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MFR" x="49.53" y="215.9" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MPN" x="49.53" y="215.9" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="VALUE" x="44.45" y="209.55" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="46.99" y="219.71" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="Q3" gate="G$1" x="283.21" y="182.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="283.21" y="186.69" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="193.04" size="1.778" layer="96" rot="MR270"/>
+<attribute name="VALUE" x="278.13" y="187.96" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIS" x="283.21" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="283.21" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="283.21" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="283.21" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C4" gate="CE" x="73.66" y="193.04">
 <attribute name="DIS" x="73.66" y="193.04" size="1.778" layer="96" display="off"/>
@@ -18168,11 +18404,26 @@ approximately 3.0V.</text>
 <attribute name="MFR" x="116.84" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MPN" x="116.84" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="C3" gate="CE" x="243.84" y="115.57" rot="R180"/>
-<instance part="C9" gate="CE" x="276.86" y="115.57" rot="MR180"/>
+<instance part="C3" gate="CE" x="243.84" y="115.57" rot="R180">
+<attribute name="DIS" x="243.84" y="115.57" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="243.84" y="115.57" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="243.84" y="115.57" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="243.84" y="115.57" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C9" gate="CE" x="276.86" y="115.57" rot="MR180">
+<attribute name="DIS" x="276.86" y="115.57" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="DPN" x="276.86" y="115.57" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MFR" x="276.86" y="115.57" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="276.86" y="115.57" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
 <instance part="C11" gate="CE" x="205.74" y="77.47"/>
 <instance part="C16" gate="CE" x="195.58" y="77.47"/>
-<instance part="C17" gate="CE" x="365.76" y="92.71" rot="R90"/>
+<instance part="C17" gate="CE" x="365.76" y="92.71" rot="R90">
+<attribute name="DIS" x="365.76" y="92.71" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="365.76" y="92.71" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="365.76" y="92.71" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="365.76" y="92.71" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="264.16" y="46.99"/>
 <instance part="GND16" gate="1" x="187.96" y="80.01"/>
 <instance part="GND17" gate="1" x="205.74" y="67.31"/>
@@ -18182,52 +18433,126 @@ approximately 3.0V.</text>
 <instance part="R12" gate="R" x="341.63" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="340.36" y="156.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="340.36" y="165.1" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="341.63" y="162.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="341.63" y="162.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="341.63" y="162.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="341.63" y="162.56" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="165.1" y="120.65" smashed="yes">
 <attribute name="NAME" x="157.48" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="129.54" size="1.778" layer="96"/>
 </instance>
-<instance part="C20" gate="G$1" x="135.89" y="120.65"/>
+<instance part="C20" gate="G$1" x="135.89" y="120.65">
+<attribute name="DIS" x="135.89" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="135.89" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="135.89" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="135.89" y="120.65" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C21" gate="G$1" x="198.12" y="120.65" smashed="yes">
 <attribute name="NAME" x="199.644" y="115.951" size="1.778" layer="95"/>
 <attribute name="VALUE" x="192.024" y="115.951" size="1.778" layer="96"/>
+<attribute name="DIS" x="198.12" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="198.12" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="198.12" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="198.12" y="120.65" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L1" gate="G$1" x="185.42" y="125.73" rot="R270"/>
-<instance part="R13" gate="R" x="147.32" y="118.11" rot="R90"/>
+<instance part="L1" gate="G$1" x="185.42" y="125.73" rot="R270">
+<attribute name="DIS" x="185.42" y="125.73" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="185.42" y="125.73" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="185.42" y="125.73" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="185.42" y="125.73" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R13" gate="R" x="147.32" y="118.11" rot="R90">
+<attribute name="DIS" x="147.32" y="118.11" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="147.32" y="118.11" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="147.32" y="118.11" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="147.32" y="118.11" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND14" gate="1" x="177.8" y="110.49"/>
 <instance part="GND24" gate="1" x="135.89" y="110.49"/>
 <instance part="GND25" gate="1" x="198.12" y="110.49" rot="MR0"/>
-<instance part="R14" gate="R" x="147.32" y="102.87" rot="R90"/>
+<instance part="R14" gate="R" x="147.32" y="102.87" rot="R90">
+<attribute name="DIS" x="147.32" y="102.87" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="147.32" y="102.87" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="147.32" y="102.87" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="147.32" y="102.87" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND26" gate="1" x="147.32" y="92.71"/>
 <instance part="GND15" gate="1" x="259.08" y="110.49" rot="MR0"/>
 <instance part="GND27" gate="1" x="203.2" y="5.08"/>
-<instance part="R22" gate="R" x="341.63" y="193.04" rot="R270"/>
-<instance part="R23" gate="R" x="349.25" y="193.04" rot="R270"/>
+<instance part="R22" gate="R" x="341.63" y="193.04" rot="R270">
+<attribute name="DIS" x="341.63" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="341.63" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="341.63" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="341.63" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R23" gate="R" x="349.25" y="193.04" rot="R270">
+<attribute name="DIS" x="349.25" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="349.25" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="349.25" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="349.25" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="R10" gate="R" x="346.71" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="345.44" y="156.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="345.44" y="165.1" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="346.71" y="162.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="346.71" y="162.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="346.71" y="162.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="346.71" y="162.56" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="396.24" y="213.36"/>
 <instance part="GND12" gate="1" x="243.84" y="110.49" rot="MR0"/>
 <instance part="GND29" gate="1" x="276.86" y="110.49" rot="MR0"/>
-<instance part="C22" gate="CE" x="259.08" y="115.57" rot="R180"/>
+<instance part="C22" gate="CE" x="259.08" y="115.57" rot="R180">
+<attribute name="DIS" x="259.08" y="115.57" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="259.08" y="115.57" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="259.08" y="115.57" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="259.08" y="115.57" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="X1" gate="G$1" x="205.74" y="85.09" smashed="yes" rot="R270">
 <attribute name="NAME" x="204.47" y="92.71" size="1.778" layer="95"/>
 <attribute name="VALUE" x="196.85" y="90.17" size="1.778" layer="96"/>
+<attribute name="DIS" x="205.74" y="85.09" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="205.74" y="85.09" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="205.74" y="85.09" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="205.74" y="85.09" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U2" gate="G$1" x="375.92" y="74.93" smashed="yes">
 <attribute name="NAME" x="379.73" y="59.69" size="1.778" layer="95"/>
 <attribute name="VALUE" x="379.73" y="57.15" size="1.778" layer="96"/>
+<attribute name="DIS" x="375.92" y="74.93" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="375.92" y="74.93" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="375.92" y="74.93" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="375.92" y="74.93" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C18" gate="CE" x="299.72" y="198.12" rot="MR90"/>
+<instance part="C18" gate="CE" x="299.72" y="198.12" rot="MR90">
+<attribute name="DIS" x="299.72" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DPN" x="299.72" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MFR" x="299.72" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="299.72" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
+</instance>
 <instance part="GND20" gate="1" x="292.1" y="194.31"/>
-<instance part="C19" gate="CE" x="205.74" y="120.65"/>
+<instance part="C19" gate="CE" x="205.74" y="120.65">
+<attribute name="DIS" x="205.74" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="205.74" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="205.74" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="205.74" y="120.65" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND13" gate="1" x="205.74" y="110.49" rot="MR0"/>
-<instance part="C23" gate="CE" x="125.73" y="120.65"/>
+<instance part="C23" gate="CE" x="125.73" y="120.65">
+<attribute name="DIS" x="125.73" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="125.73" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="125.73" y="120.65" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="125.73" y="120.65" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND22" gate="1" x="125.73" y="110.49"/>
 <instance part="U6" gate="G$1" x="264.16" y="77.47" smashed="yes">
 <attribute name="NAME" x="273.05" y="52.07" size="1.778" layer="95"/>
 <attribute name="VALUE" x="273.05" y="49.53" size="1.778" layer="96"/>
+<attribute name="DIS" x="264.16" y="77.47" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="264.16" y="77.47" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="264.16" y="77.47" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="264.16" y="77.47" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF1" gate="G$1" x="411.48" y="207.01" rot="R180"/>
 <instance part="TP1" gate="G$1" x="392.43" y="205.74" smashed="yes">
@@ -18317,7 +18642,12 @@ approximately 3.0V.</text>
 <attribute name="MFR" x="207.01" y="205.74" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="207.01" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C24" gate="CE" x="140.97" y="102.87" rot="MR0"/>
+<instance part="C24" gate="CE" x="140.97" y="102.87" rot="MR0">
+<attribute name="DIS" x="140.97" y="102.87" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="140.97" y="102.87" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="140.97" y="102.87" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="140.97" y="102.87" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="D3" gate="G$1" x="365.76" y="208.28">
 <attribute name="DIST" x="365.76" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="DPN" x="365.76" y="208.28" size="1.778" layer="96" display="off"/>
@@ -18350,6 +18680,10 @@ approximately 3.0V.</text>
 <instance part="C25" gate="CE" x="283.21" y="203.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="281.686" y="202.819" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="281.686" y="200.279" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIS" x="283.21" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="283.21" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="283.21" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="283.21" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="283.21" y="198.12"/>
 <instance part="CF2" gate="G$1" x="195.58" y="24.13" rot="R180">

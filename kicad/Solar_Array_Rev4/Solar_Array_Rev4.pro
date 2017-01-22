@@ -1,4 +1,4 @@
-update=Fri 27 May 2016 01:59:48 PM PDT
+update=Mon 09 Jan 2017 01:51:41 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/austin/solar/kicad/libs/symbols/Solar_Array
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3419,21 +3419,38 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="18.55" y="79.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="19.65" y="77.7" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="18.3" y="78.5" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-Key" x="18.3" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RHM10.0KLCT-ND" x="18.3" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Rohm Semiconductor" x="18.3" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MCR01MZPF1002" x="18.3" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R2" library="rcl_custom" package=".0402-B-NOSILK" value="100k" x="19.6" y="78.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.85" y="79.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="20.95" y="77.7" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="19.6" y="78.5" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="19.6" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RHM100KCDCT-ND" x="19.6" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Rohm Semiconductor" x="19.6" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MCR01MRTF1003" x="19.6" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="rcl_custom" package=".0402-B-NOSILK" value="1k" x="27.6" y="72.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.35" y="73.2" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="26.25" y="73.4" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="27.6" y="72.6" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
+<attribute name="DIS" value="Digi-key" x="27.6" y="72.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="RHM1.00KLCT-ND" x="27.6" y="72.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFN" value="Rohm Semiconductor" x="27.6" y="72.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value=" MCR01MZPF1001" x="27.6" y="72.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="27.6" y="74.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.45" y="75.3" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="26.25" y="75.4" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="27.6" y="74.6" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
+<attribute name="DIS" value="Digi-key" x="27.6" y="74.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="27.6" y="74.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value=" 	
+Samsung Electro-Mechanics America, Inc. " x="27.6" y="74.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value=" CL05B104KO5NNNC" x="27.6" y="74.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="rcl_custom" package=".0402-B-NOSILK" value="1k" x="33" y="75.4" smashed="yes">
 <attribute name="NAME" x="32.3" y="74.25" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -3458,26 +3475,46 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="33.85" y="80.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="33.8" y="80.95" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="33" y="79.6" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
+<attribute name="DIS" value="Digi-key" x="33" y="79.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-4285-1-ND" x="33" y="79.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFN" value="Samsung Electro-Mechanics America, Inc." x="33" y="79.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1005F8663CS" x="33" y="79.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="rcl_custom" package=".0402-B-NOSILK" value="274k" x="31.2" y="81.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.65" y="80.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="32.55" y="80.3" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="31.2" y="81.1" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="31.2" y="81.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="541-274KLCT-ND" x="31.2" y="81.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay Dale" x="31.2" y="81.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW0402274KFKED" x="31.2" y="81.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C12" library="rcl_custom" package=".0402-B-NOSILK" value="500p" x="32.2" y="81.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.55" y="82.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="33.55" y="80.3" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="32.2" y="81.1" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="32.2" y="81.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1577-1-ND" x="32.2" y="81.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="32.2" y="81.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B561KB5NNNC" x="32.2" y="81.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C13" library="rcl_custom" package=".0402-B-NOSILK" value="1u" x="32.5" y="76.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.65" y="76.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="31.15" y="77.7" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="32.5" y="76.9" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
+<attribute name="DIS" value="Digi-key" x="32.5" y="76.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1445-1-ND" x="32.5" y="76.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="32.5" y="76.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value=" CL05A105KA5NQNC" x="32.5" y="76.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C14" library="rcl_custom" package=".0603-B-NOSILK" value="20u" x="41.1" y="52.55" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.2" y="52.85" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="42.3" y="54.15" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="41.1" y="52.55" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
+<attribute name="DIS" value="Digi-key" x="41.1" y="52.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value=" 1276-1274-1-ND" x="41.1" y="52.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="41.1" y="52.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CL10A226MP8NUNE" x="41.1" y="52.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="PV1" library="alta-cell" package="ALTA-FIVE-CELL-THROUGH-SLOT" value="ALTA-5-CELL-ARRAYALTA-FIVE-CELL-SLOT" x="41" y="50" locked="yes" smashed="yes" rot="MR180">
 <attribute name="NAME" x="73.9" y="15.2" size="1.27" layer="26" font="vector" ratio="20" rot="MR180"/>
@@ -3486,22 +3523,42 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U1" library="spv1040" package="TSSOP-8" value="SPV1040" x="30" y="76" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.3" y="76.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="33.5" y="74.5" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
+<attribute name="DIS" value="Digi-key" x="30" y="76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="497-11417-ND" x="30" y="76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="STMicroelectronics" x="30" y="76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SPV1040T" x="30" y="76" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U5" library="LTC2990" package="MSOP10" value="LTC2990" x="41.71" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.106" y="73.974" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="40.098" y="72.622" size="0.635" layer="27" ratio="20"/>
+<attribute name="DIS" value="Digi-Key" x="41.71" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="LTC2990CMS#PBF-ND" x="41.71" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Linear Technology" x="41.71" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value=" LTC2990CMS#PBF" x="41.71" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q2" library="vishay-p-channel-fet" package="SO8" value="P-CHANNELFET" x="22.6" y="75.5" smashed="yes" rot="R180">
+<element name="Q2" library="vishay-p-channel-fet" package="SO8" value="SI4431CDY-T1-GE3" x="22.6" y="75.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.895" y="72.775" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="18.155" y="77.405" size="0.635" layer="27" ratio="20" rot="R270"/>
+<attribute name="DIS" value="Digi-key" x="22.6" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="SI4431CDY-T1-GE3CT-ND" x="22.6" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Vishay Siliconix" x="22.6" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="   SI4431CDY-T1-GE3" x="22.6" y="75.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q1" library="on-n-channel-fet" package="SOT23" value="ON-NFET" x="18.4" y="75.8" smashed="yes" rot="R270">
+<element name="Q1" library="on-n-channel-fet" package="SOT23" value="2N7002WT1G" x="18.4" y="75.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.295" y="75.505" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="15.225" y="77.705" size="0.635" layer="27" ratio="20" rot="R270"/>
+<attribute name="DIS" value="Digi-Key" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="2N7002WT1GOSCT-ND" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="rer   ON Semiconductor" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="2N7002WT1G" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q3" library="diodes-inc-npn" package="SOT23HOLE" value="DIODE-INC-NPNSOT23HOLE" x="41" y="50" locked="yes" smashed="yes" rot="R180">
+<element name="Q3" library="diodes-inc-npn" package="SOT23HOLE" value="MMBT3904" x="41" y="50" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.405" y="48.895" size="0.635" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="42.905" y="53.175" size="0.635" layer="27" ratio="20" rot="R180"/>
+<attribute name="DIS" value="Digi-Key" x="41" y="50" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="MMBT3904FSCT-ND" x="41" y="50" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="   Fairchild/ON Semiconductor" x="41" y="50" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="MMBT3904" x="41" y="50" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C4" library="rcl_custom" package="1206-B" value="22u" x="23.1" y="62.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.2" y="63.05" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
@@ -3523,11 +3580,20 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="48.1" y="70.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="48.4" y="69.05" size="0.635" layer="27" font="vector" ratio="20"/>
 <attribute name="NAME" x="49.2" y="70.4" size="0.635" layer="33" ratio="20" align="center"/>
+<attribute name="DIS" value="Digi-key" x="49.2" y="70.4" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="49.2" y="70.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value=" 	
+Samsung Electro-Mechanics America, Inc." x="49.2" y="70.4" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="49.2" y="70.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="57.6" y="79.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.7" y="80.35" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="58.4" y="80.55" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="57.6" y="79.2" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
+<attribute name="DIS" value="Digi-key" x="57.6" y="79.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="57.6" y="79.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="57.6" y="79.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CL05B104KO5NNNC" x="57.6" y="79.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C11" library="rcl_custom" package=".0402-B-NOSILK" value="20p?" x="52.8" y="68.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.35" y="68.8" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
@@ -3543,11 +3609,19 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="50.55" y="82.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="50.65" y="82" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="49.3" y="82.8" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="49.3" y="82.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value=" 1276-1001-1-ND" x="49.3" y="82.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="49.3" y="82.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="49.3" y="82.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R12" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="44.9" y="78.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.25" y="75.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="46.25" y="77.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="44.9" y="78.4" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="44.9" y="78.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value=" RHM10.0KLCT-ND" x="44.9" y="78.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Rohm Semiconductor" x="44.9" y="78.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MCR01MZPF1002" x="44.9" y="78.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U3" library="LM3761" package="SOT23-5" value="LM3671MF-3.3" x="53" y="62.8" smashed="yes">
 <attribute name="NAME" x="50.36" y="63.84" size="0.635" layer="25" ratio="20"/>
@@ -3556,71 +3630,133 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C20" library="rcl" package="C0603" value="4.7u" x="49.3" y="62.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.565" y="61.565" size="0.635" layer="25" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="51.205" y="61.565" size="0.635" layer="27" ratio="20" rot="R90"/>
+<attribute name="DIS" value="Digi-key" x="49.3" y="62.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="49.3" y="62.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="49.3" y="62.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="49.3" y="62.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C21" library="rcl" package="C0603" value="4.7u" x="56.7" y="63.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.535" y="64.235" size="0.635" layer="25" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="54.795" y="63.835" size="0.635" layer="27" ratio="20" rot="R270"/>
+<attribute name="DIS" value="Digi-key" x="56.7" y="63.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="56.7" y="63.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value=" 	
+Samsung Electro-Mechanics America, Inc. " x="56.7" y="63.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="56.7" y="63.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="L1" library="rcl" package="L2012C" value="10u" x="53" y="65.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.505" y="66.03" size="0.635" layer="25" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="54.905" y="68.14" size="0.635" layer="27" ratio="20" rot="R180"/>
+<attribute name="DIS" value="Digi-key" x="53" y="65.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="587-2452-1-ND" x="53" y="65.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="53" y="65.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CB2012T100KR" x="53" y="65.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="rcl_custom" package=".0402-B-NOSILK" value="665k" x="52.5" y="60.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.3" y="59.65" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="53.3" y="61.55" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="52.5" y="60.2" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
+<attribute name="DIS" value="Digi-key" x="52.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="52.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="52.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="52.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R14" library="rcl_custom" package=".0402-B-NOSILK" value="332k" x="54.5" y="60.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="58" y="60.45" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="55.3" y="61.55" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="54.5" y="60.2" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
+<attribute name="DIS" value="Digi-key" x="54.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-4245-1-ND" x="54.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="54.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" RC1005F3323CS" x="54.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R22" library="rcl_custom" package=".0402-B-NOSILK" value="4.7k" x="41.5" y="78.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.85" y="80.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="42.85" y="78" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="41.5" y="78.8" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="41.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RHM4.7KBHCT-ND" x="41.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Rohm Semiconductor" x="41.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TRR01MZPF4701" x="41.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R23" library="rcl_custom" package=".0402-B-NOSILK" value="4.7k" x="42.5" y="78.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.85" y="80.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="43.85" y="78" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="42.5" y="78.8" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="42.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="RHM4.7KBHCT-ND" x="42.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Rohm Semiconductor" x="42.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TRR01MZPF4701" x="42.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R10" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="45.9" y="78.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.25" y="75.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="47.25" y="77.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="45.9" y="78.4" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="45.9" y="78.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value=" RHM10.0KLCT-ND" x="45.9" y="78.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Rohm Semiconductor" x="45.9" y="78.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value=" MCR01MZPF1002" x="45.9" y="78.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C22" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="54.3" y="69.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.4" y="68.75" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="55.1" y="70.65" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="54.3" y="69.3" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
+<attribute name="DIS" value="Digi-key" x="54.3" y="69.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="54.3" y="69.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="54.3" y="69.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="54.3" y="69.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="8MHZ-2.5x2mm" x="50.6" y="68.1" smashed="yes">
 <attribute name="NAME" x="49.068" y="66.028" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="49.195" y="66.191" size="0.635" layer="27" ratio="20"/>
+<attribute name="DIS" value="Digi-key" x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="XC2015CT-ND" x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="ECS Inc." x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ECS-80-18-20BQ-DS" x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="TCAN330" package="SOT23-8_TI-DCN" value="TCAN330" x="46.6" y="82.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.7" y="80.6" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="47.3" y="84.7" size="0.635" layer="27" ratio="20" rot="R90"/>
+<attribute name="DIS" value="Digi-key" x="46.6" y="82.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value=" 296-44211-1-ND" x="46.6" y="82.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="46.6" y="82.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TCAN330GDCNT" x="46.6" y="82.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C18" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="43.5" y="78.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.85" y="80.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="44.85" y="78" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="43.5" y="78.8" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="43.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="43.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="43.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="43.5" y="78.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C19" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="55.1" y="63.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.9" y="66.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="53.75" y="64.4" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="55.1" y="63.6" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
+<attribute name="DIS" value="Digi-key" x="55.1" y="63.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value=" 1276-1001-1-ND" x="55.1" y="63.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value=" 	
+Samsung Electro-Mechanics America, Inc." x="55.1" y="63.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="55.1" y="63.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C23" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="50.9" y="62" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.15" y="59.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="52.25" y="61.2" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="50.9" y="62" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="DIS" value="Digi-key" x="50.9" y="62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="50.9" y="62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="50.9" y="62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="50.9" y="62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U6" library="STM32F042K" package="QFP32-7X7" value="STM32F042K6" x="53.4" y="74.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="57" y="70.5" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="49.65" y="79.9" size="0.635" layer="27" ratio="20" rot="R90"/>
+<attribute name="DIS" value="Digi-key" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value=" 497-14647-ND" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="STMicroelectronics" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="STM32F042K6T6" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="CF1" library="oresat-eagle" package="CON-1.27-F-HARTING-1522012X601XXX" value="ORESAT-SOLARPANEL-12PIN" x="41" y="92.25" locked="yes" smashed="yes">
 <attribute name="NAME" x="46.285" y="87.525" size="0.635" layer="25" ratio="20"/>
@@ -3734,6 +3870,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="55.6" y="58.75" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="53.7" y="57.65" size="0.8" layer="27" font="vector" ratio="15"/>
 <attribute name="NAME" x="54.5" y="59" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="DIS" value="Digi-key" x="54.5" y="59" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value=" 1276-1001-1-ND" x="54.5" y="59" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="54.5" y="59" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="54.5" y="59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D3" library="diode-schottkey" package="DO214AC" value="STPS1L40AY" x="38.3" y="84.1" smashed="yes" rot="R180">
 <attribute name="DIST" value="Digi-Key" x="38.3" y="84.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3772,6 +3912,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="34.25" y="83" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="33.25" y="81.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 <attribute name="NAME" x="34.6" y="80.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="DIS" value="Digi-key" x="34.6" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value=" 1276-1001-1-ND" x="34.6" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung Electro-Mechanics America, Inc." x="34.6" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value=" CL05B104KO5NNNC" x="34.6" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CF2" library="2mm-RA-solar-module-debugging" package="CF-2MM-RA-1X8-PRECIDIP-831" value="2MM-RA-1X8" x="65.2" y="67">
 <attribute name="DIST" value="Digi-Key" x="65.2" y="67" size="1.778" layer="27" display="off"/>
