@@ -8,7 +8,7 @@ This repo contains several designs for [OreSat's](oresat.org) solar array. The a
 
 So our first design is based on a SPV1040 Maximum Power Point Tracker (MPPT) IC, an STM32F0 processor because CAN-based telemetry, and an LTC2990 sense IC (V, I and T) because that chip does everything. A pair of MOSFETs connect to our "system shutdown" signal that keeps the cubesat powered off until deployment.
 
-- [Current Design Docs](https://docs.google.com/document/d/12vTM7Nvca8MzUQj_UqHETxqTQUYI2aZk1vTmDey_-34/edit?usp=sharing) - Currently on Google Docs, sorry.
+- [Current Design Docs](https://github.com/oresat/solar/blob/master/Design_Documentation.md)
 - [Parts Selection](https://github.com/oresat/solar/blob/master/Parts_Selection.md)
 - [Bill of Materials](https://github.com/oresat/solar/blob/master/doc/BOM/Rev1_BOM.ods)
 - [PDF Schematic](https://github.com/oresat/solar/blob/master/drawings/1u_panel_schematic.pdf)
