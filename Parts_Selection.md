@@ -1,7 +1,57 @@
-
 # Parts
-### STM32F042F6
-#### In the TQFP. The TSSOP is cute but doesn't have I2C + CAN available, and the QFN is just too HD (0.5 mm) which is annoying. And we have *plenty* of space.
+
+
+### U1, ST SPV1040T, High efficiency solar battery charger with embedded MPPT, TSSOP8, , –40 to 125 °C 
+
+One of the few single low voltage, small, and true MPPT ICs that also don't just shut down because it thinks its charging a Li battery. Surprisingly spacey (P CH MOSFET for switch).
+
+Cons: Boost (although we need that), Iq of 80 uA is kind of high.
+
+Notes: Configured to boost to 5.2V, which is why there's that flyback diode. Boost topology means it doesn't ever really shut off (even XSHUT won't turn it off) so that's why we have power transistors (Q1, Q2).
+
+
+### U2, TI TCAN330GDCNT, SOT23-8, 3.3-V CAN Transceivers with CAN FD (Flexible Data Rate), –40 to 125 °C 
+
+Choose this CAN transceiver because it operates on 3.3V, has a small package, and has both a low-current shutdown mode (2.5 uA) and a "silent" or listen only mode.
+
+Cons: unknown radiation performance.
+
+
+### U3, TI LM3671MF-3.3, SOT23-5, 2-MHz, 600-mA Step-Down DC-DC Converter (3.3V fixed), –40 to 125 °C
+
+Chosen because it's got a nice package, has extremely low Iq (~18 uA) when running, and should be fine.
+
+Cons: unknown radiation performance. Has a charge pump for the buck's N ch MOSFET, which isn't good. 
+
+Notes: By default runs on the output of the MPPT IC (R15). It has an option to be run straight off the solar cell, which we might want to do for some reason we can't predict right now (R11). The divider is set to turn on enable at 3.0V, which we're not sure why? Really it should turn on at 3.3V. It has a 100% duty cycle option.
+
+
+### U5, LT  LTC2990IMS#PBF, Quad I2C Voltage, Current and Temperature Monitor, MSOP-10, –40°C to 85°C
+
+Quick and dirty way to read voltage, current, and precision temperature of the module, only a few uA in shutdown mode.
+
+Cons: 1.8 mA when converting
+
+Notes: TODO
+
+
+### U6, ST STM32F042F6T7, TQFP-32, ARM Cortex-M0 USB line MCU with 32 Kbytes Flash, 48 MHz CPU, USB, CAN and CEC functions, –40 to 105 °C
+
+STM32 which is our processor of choice, talks CAN, low power, especially when sleeping. TQFP package. The TSSOP is cute but doesn't have I2C + CAN available, and the QFN is just too high densitiy (0.5 mm) which is annoying. And we have *plenty* of space.
+
+Cons: Not very space-y. High current draw when going full blast.
+
+Notes: Programs using SWD, which is available through a cutouff in the PCB via CF2. Runs off a 8 MHz crystal. NRST has a built-in pull up, so no resistor necessary. In version 2: BOOT0 to a testpad, maybe pull to ground? Maybe run the USB out for DFU?
+
+
+### C1, C2, C4, C5, C7, C8, C10, C15, 22µF ±10% 10V Ceramic Capacitor X7R, 1206, Generic part, chose  Murata GRM31CR71A226KE15L, -55 to 125°C
+
+This is a generic 22 uF 1206 part used for bypassing the input and outputs of the SPV1040. The SPV switches very slowly (~ 100 kHz) so it needs giant caps. We obviously didn't want aluminum caps, so we stuck with an array of ceramics. IMPORTANT NOTE: probably not all of these need to be stuffed. We should experiment and see what's really necessary.
+
+### R11, R15, 0 ohm 0805 resistors
+
+These two 0 ohm resistors are power supply selection jumpers for the LM3671 and thus STM32 supply. Usually R15 is populated and R11 is NP, which means that the supply works off of the MPPT output. THis makes sense because MPPT... although we're losing power putting it through two switchers.
+
 #### MCU 'C3' 100nF
 #### MCU 'C22' 100nF
 #### MCU 'C9' 100nF
