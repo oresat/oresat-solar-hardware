@@ -68,8 +68,13 @@ D23is the output blocking diode. All solar modules are "wired OR" to the Vpv bus
 
 Alternative: Comchip CDBA240LL-HF rated at 40V, 2A. It's equivalent, but the datasheet isn't near as complete as the ST part.
 
-### D3 
+### PV1, Alta Devices 5 cell array
 
+The photovoltaic array (solar cells) from Alta Devices come with a 5 mm wide metal tab on the top and bottom. We cut the tabs to 18 mm off each side of the array, bend it through slots in the PCB, fold it 90 degrees on the "back" side of the PCB, and then solder it to pads on the PCB. Putting the tabs through slots should help with different coefficients of thermal expansion between the boards and the array. We're not sure if this is actually a problem, but it's an easy way to be paranoid, and with the MPPT ICs on the "back" side of the PCB, it's convenient for layout as well.
+
+### D3, TVS DIODE 5.8VWM 10.5VC SMA (zener diode)
+
+The datasheet mentions it's possible for the SPV1040 to go nuts and produce high voltage outputs if there's no battery on the output. Huh. That seems.. bad? We'll do some experimentation on future dead boards to see what actually happens, but for now we follow the datasheet and put on a 5.8 V zener (TVS, actually) on it to cap the output voltage. 
 
 
 #### MCU 'C3' 100nF
