@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BeagleBone_Black_Expansion_Header
-D BeagleBone Black Expansion Headers
-K beaglebone headers
-$ENDCMP
-#
-#End Doc Library

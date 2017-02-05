@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP R4T
-D Resistor, four-terminal, current-sense
-K R 4 FOUR TERMINAL CURRENT SENSE SHUNT
-$ENDCMP
-#
-#End Doc Library

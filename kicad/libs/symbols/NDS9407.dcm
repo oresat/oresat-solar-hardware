@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP NDS9407
-D 60V Vds, 3A Id, SO-8
-K P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/ND/NDS9407.pdf
-$ENDCMP
-#
-#End Doc Library
