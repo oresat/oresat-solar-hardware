@@ -3543,9 +3543,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="16.295" y="75.505" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="15.225" y="77.705" size="0.635" layer="27" ratio="20" rot="R270"/>
 <attribute name="DIS" value="Digi-Key" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="2N7002WT1GOSCT-ND" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="2N7002ET1GOSCT-ND" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="ON Semiconductor" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="2N7002WT1G" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="2N7002ET1G" x="18.4" y="75.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q3" library="diodes-inc-npn" package="SOT23HOLE" value="MMBT3904" x="41" y="50" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.405" y="48.895" size="0.635" layer="25" ratio="20" rot="R180"/>

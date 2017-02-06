@@ -17942,9 +17942,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </part>
 <part name="Q1" library="on-n-channel-fet" deviceset="ON-N-CHANNEL-FET" device="" value="2N7002WT1G">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="2N7002WT1GOSCT-ND"/>
+<attribute name="DPN" value="2N7002ET1GOSCT-ND"/>
 <attribute name="MFR" value="ON Semiconductor"/>
-<attribute name="MPN" value="2N7002WT1G"/>
+<attribute name="MPN" value="2N7002ET1G"/>
 </part>
 <part name="Q3" library="diodes-inc-npn" deviceset="DIODE-INC-NPN" device="SOT23HOLE" value="MMBT3904">
 <attribute name="DIS" value="Digi-Key"/>
