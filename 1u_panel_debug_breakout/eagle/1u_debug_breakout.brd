@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18,12 +18,12 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -32,14 +32,14 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -138,9 +138,9 @@
 </layers>
 <board>
 <plain>
-<text x="36.5968" y="44.475" size="1.25" layer="21" rot="R270" align="center">1U Solar Panel
-Debug Breakout
-OreSat  http://oresat.org/</text>
+<text x="36.5968" y="44.475" size="1.3" layer="21" ratio="10" rot="R270" align="center">OreSat Solar Panel
+Debug Breakout v1
+2017-04-10</text>
 <text x="44" y="50.3" size="1" layer="21" align="center-left">3V3</text>
 <text x="44.015" y="47.825" size="1" layer="21" align="center-left">RESET</text>
 <text x="44.015" y="35.125" size="1" layer="21" align="center-left">DEBUG</text>
@@ -156,26 +156,35 @@ OreSat  http://oresat.org/</text>
 <wire x1="65" y1="32" x2="66" y2="33" width="0.2032" layer="20" curve="90"/>
 <wire x1="66" y1="33" x2="66" y2="55" width="0.2032" layer="20"/>
 <wire x1="66" y1="55" x2="65" y2="56" width="0.2032" layer="20" curve="90"/>
-<wire x1="65" y1="56" x2="37" y2="56" width="0.2032" layer="20"/>
+<wire x1="65" y1="56" x2="39.5" y2="56" width="0.2032" layer="20"/>
 <wire x1="30" y1="52" x2="30" y2="36" width="0.2032" layer="20"/>
-<wire x1="37" y1="32" x2="65" y2="32" width="0.2032" layer="20"/>
+<wire x1="39.5" y1="32" x2="65" y2="32" width="0.2032" layer="20"/>
 <text x="58.3" y="36" size="1.016" layer="21" align="bottom-center">TX</text>
 <text x="60.8" y="36" size="1.016" layer="21" align="bottom-center">RX</text>
 <text x="59.2" y="49.7" size="1" layer="21" align="center-right">DIO</text>
 <text x="59.2" y="48.4" size="1" layer="21" align="center-right">CLK</text>
 <dimension x1="30" y1="57" x2="66" y2="57" x3="48" y3="58" textsize="1" layer="48" dtype="horizontal" visible="yes"/>
 <dimension x1="29" y1="35" x2="29" y2="53" x3="27.999996875" y3="44" textsize="1" layer="48" visible="yes"/>
-<wire x1="37" y1="56" x2="36" y2="55" width="0.2032" layer="20" curve="90"/>
-<wire x1="36" y1="55" x2="36" y2="54" width="0.2032" layer="20"/>
-<wire x1="36" y1="54" x2="35" y2="53" width="0.2032" layer="20" curve="-90"/>
-<wire x1="35" y1="53" x2="31" y2="53" width="0.2032" layer="20"/>
+<wire x1="39.5" y1="56" x2="38.5" y2="55" width="0.2032" layer="20" curve="90"/>
+<wire x1="38.5" y1="55" x2="38.5" y2="54" width="0.2032" layer="20"/>
+<wire x1="38.5" y1="54" x2="37.5" y2="53" width="0.2032" layer="20" curve="-90"/>
+<wire x1="37.5" y1="53" x2="31" y2="53" width="0.2032" layer="20"/>
 <wire x1="31" y1="53" x2="30" y2="52" width="0.2032" layer="20" curve="90"/>
-<wire x1="37" y1="32" x2="36" y2="33" width="0.2032" layer="20" curve="-90"/>
-<wire x1="36" y1="33" x2="36" y2="34" width="0.2032" layer="20"/>
-<wire x1="36" y1="34" x2="35" y2="35" width="0.2032" layer="20" curve="90"/>
-<wire x1="35" y1="35" x2="31" y2="35" width="0.2032" layer="20"/>
+<wire x1="39.5" y1="32" x2="38.5" y2="33" width="0.2032" layer="20" curve="-90"/>
+<wire x1="38.5" y1="33" x2="38.5" y2="34" width="0.2032" layer="20"/>
+<wire x1="38.5" y1="34" x2="37.5" y2="35" width="0.2032" layer="20" curve="90"/>
+<wire x1="37.5" y1="35" x2="31" y2="35" width="0.2032" layer="20"/>
 <wire x1="31" y1="35" x2="30" y2="36" width="0.2032" layer="20" curve="-90"/>
 <dimension x1="67" y1="56" x2="68.5" y2="32" x3="68.5" y3="44" textsize="1" layer="48" dtype="vertical" precision="1" visible="yes"/>
+<text x="50.5" y="36" size="1.016" layer="21" align="bottom-center">BLK</text>
+<text x="47" y="52.9" size="1" layer="22" rot="MR0" align="center-left">GND</text>
+<text x="46.5" y="50.3" size="1" layer="22" rot="MR0" align="center-left">3V3</text>
+<text x="48.485" y="47.825" size="1" layer="22" rot="MR0" align="center-left">RESET</text>
+<text x="48.485" y="45.285" size="1" layer="22" rot="MR0" align="center-left">SWDIO</text>
+<text x="48.985" y="42.745" size="1" layer="22" rot="MR0" align="center-left">SWCLK</text>
+<text x="45.485" y="40.205" size="1" layer="22" rot="MR0" align="center-left">TX</text>
+<text x="45.985" y="37.665" size="1" layer="22" rot="MR0" align="center-left">RX</text>
+<text x="48.985" y="35.125" size="1" layer="22" rot="MR0" align="center-left">DEBUG</text>
 </plain>
 <libraries>
 <library name="con-swd">
@@ -1754,7 +1763,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="49.38" y="30.925" size="1.27" layer="27"/>
 </element>
 <element name="LED1" library="led" package="CHIPLED_0603" value="" x="61.595" y="40.005" smashed="yes" rot="R90">
-<attribute name="NAME" x="60" y="40.005" size="0.762" layer="25" font="vector" ratio="20" rot="R180" align="center-left"/>
+<attribute name="NAME" x="64" y="42.5" size="0.762" layer="25" font="vector" ratio="20" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="62.865" y="41.91" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="resistor" package="R0603" value="" x="61.595" y="41.91" smashed="yes" rot="R180">
@@ -1818,26 +1827,32 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="65.5" y="55" curve="90"/>
 <vertex x="65" y="55.5"/>
 </polygon>
+<via x="59.5" y="40" extent="1-16" drill="0.6"/>
+<via x="54" y="41.5" extent="1-16" drill="0.6"/>
+<via x="50" y="41.5" extent="1-16" drill="0.6"/>
+<via x="49.5" y="47.5" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="DEBUG">
 <contactref element="R1" pad="2"/>
 <contactref element="JP2" pad="8"/>
 <contactref element="U$1" pad="8"/>
-<wire x1="37.89" y1="35.11" x2="36" y2="37" width="0.4064" layer="1"/>
+<wire x1="39.89" y1="35.11" x2="38.5" y2="36.5" width="0.4064" layer="1"/>
+<wire x1="38.5" y1="36.5" x2="36.5" y2="36.5" width="0.4064" layer="1"/>
+<wire x1="36.5" y1="36.5" x2="36" y2="37" width="0.4064" layer="1"/>
 <wire x1="36" y1="37" x2="32" y2="37" width="0.4064" layer="1"/>
 <wire x1="42" y1="35.11" x2="47.11" y2="35.11" width="0.4064" layer="1"/>
 <wire x1="47.11" y1="35.11" x2="48" y2="36" width="0.4064" layer="1"/>
-<via x="48" y="36" extent="1-16" drill="0.6" shape="square"/>
+<via x="48" y="36" extent="1-16" drill="0.6"/>
 <wire x1="48" y1="36" x2="48" y2="38" width="0.4064" layer="16"/>
 <wire x1="48" y1="38" x2="49" y2="39" width="0.4064" layer="16"/>
-<via x="49" y="39" extent="1-16" drill="0.6" shape="square"/>
+<via x="49" y="39" extent="1-16" drill="0.6"/>
 <wire x1="49" y1="39" x2="57" y2="39" width="0.4064" layer="1"/>
 <wire x1="57" y1="39" x2="58" y2="40" width="0.4064" layer="1"/>
 <wire x1="58" y1="40" x2="58" y2="41" width="0.4064" layer="1"/>
 <wire x1="58" y1="41" x2="59" y2="42" width="0.4064" layer="1"/>
 <wire x1="59" y1="42" x2="60.655" y2="42" width="0.4064" layer="1"/>
 <wire x1="60.655" y1="42" x2="60.745" y2="41.91" width="0.4064" layer="1"/>
-<wire x1="37.89" y1="35.11" x2="42" y2="35.11" width="0.4064" layer="1"/>
+<wire x1="39.89" y1="35.11" x2="42" y2="35.11" width="0.4064" layer="1"/>
 </signal>
 <signal name="USART2_RX">
 <contactref element="JP3" pad="5"/>
@@ -1913,7 +1928,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="37.35" y1="50.35" x2="36" y2="49" width="0.4064" layer="1"/>
 <wire x1="36" y1="49" x2="32" y2="49" width="0.4064" layer="1"/>
 <wire x1="42" y1="50.35" x2="54.65" y2="50.35" width="0.4064" layer="16"/>
-<via x="61" y="46" extent="1-16" drill="0.6" shape="square"/>
+<via x="61" y="46" extent="1-16" drill="0.6"/>
 <wire x1="61" y1="46" x2="62" y2="46" width="0.4064" layer="1"/>
 <wire x1="62.635" y1="48.46" x2="62.635" y2="46.635" width="0.4064" layer="1"/>
 <wire x1="62.635" y1="46.635" x2="62" y2="46" width="0.4064" layer="1"/>
@@ -1928,6 +1943,115 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="62.445" y1="40.105" x2="62.345" y2="40.005" width="0.4064" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="18,29,ae9f739a44ef6469"/>
+<approved hash="18,29,7432557b95bd4d7b"/>
+<approved hash="18,29,b85144db2c79d48a"/>
+<approved hash="18,29,78d4f0c8173b46a3"/>
+<approved hash="18,29,0e0b7a564e1ce7c9"/>
+<approved hash="18,29,5a7ea3e6f9b20453"/>
+<approved hash="18,29,9cf4579b97a0a42c"/>
+<approved hash="18,29,500f44ef2c85cc7d"/>
+<approved hash="18,29,b525716246337f93"/>
+<approved hash="18,29,922ef0b81676ac08"/>
+<approved hash="18,29,1511782e4c04fcd7"/>
+<approved hash="18,29,b34ca3e2f8221c94"/>
+<approved hash="18,29,a3047264450169c2"/>
+<approved hash="18,29,44f4452f2dc5d906"/>
+<approved hash="18,29,8903568997ceb06b"/>
+<approved hash="18,29,86f5f1e817f8b8c1"/>
+<approved hash="18,29,03767b784f34ea92"/>
+<approved hash="18,29,a6e5a2f0f830093d"/>
+<approved hash="18,29,dee157f597dee629"/>
+<approved hash="18,29,120644fb2c99827c"/>
+<approved hash="18,29,f72e7d784a213d98"/>
+<approved hash="18,29,d02bf0c81618ee13"/>
+<approved hash="18,29,57187434401cbed4"/>
+<approved hash="18,29,f14fa3e0f8345283"/>
+<approved hash="18,29,e519726a42f32fcf"/>
+<approved hash="18,29,070b45272dcd9f19"/>
+<approved hash="18,29,cb08569b97c0f210"/>
+<approved hash="18,29,c492f1e017f6facc"/>
+<approved hash="18,29,457d7b764f3cab73"/>
+<approved hash="18,29,e4e0a2e2f9c24f38"/>
+<approved hash="18,29,b637588998468f7f"/>
+<approved hash="18,29,9098738445015a5e"/>
+<approved hash="18,29,7a5045272d8dea82"/>
+<approved hash="18,29,b6d9f13016c088a5"/>
+<approved hash="18,29,30327bb84e0cd9ce"/>
+<approved hash="18,29,9989a210f9b03a51"/>
+<approved hash="18,29,5faa473b2c49ccf0"/>
+<approved hash="18,29,90cd56ad9646a9c5"/>
+<approved hash="18,29,89ca71e0450143ac"/>
+<approved hash="18,29,9fc7f0d01740a1bf"/>
+<approved hash="18,29,29dc7b1c4c74c038"/>
+<approved hash="18,29,bfbb9f50fbbc237f"/>
+<approved hash="18,29,9c7373e244175745"/>
+<approved hash="18,29,68dd446b2c79e727"/>
+<approved hash="18,29,a4a6519b91449dde"/>
+<approved hash="18,29,3c677a6e4f24d5e5"/>
+<approved hash="18,29,abb8f7e0101295e6"/>
+<approved hash="18,29,8be2a36ef8a237c6"/>
+<approved hash="18,29,491c7416522aecc7"/>
+<approved hash="18,29,efcea1c4a60b0f84"/>
+<approved hash="18,29,650e03c083b42b7b"/>
+<approved hash="18,29,123438fd9369ac34"/>
+<approved hash="18,29,78a507515b174bf0"/>
+<approved hash="18,29,529221f4e53ec4ff"/>
+<approved hash="18,29,9e135d29bd1c66d6"/>
+<approved hash="18,29,306e818fc9446055"/>
+<approved hash="18,29,0b79b086edd40888"/>
+<approved hash="18,29,e5d85f419b6f42e1"/>
+<approved hash="18,29,7f68ad18acc47eb4"/>
+<approved hash="18,29,ff20f91c471a7346"/>
+<approved hash="18,29,8e1f9a1f99d38dd3"/>
+<approved hash="18,29,3a61790c3ac6570c"/>
+<approved hash="18,29,20566fa9c8ef9403"/>
+<approved hash="18,29,d0ee72282d13a72d"/>
+<approved hash="18,29,1e95ce800945f1a8"/>
+<approved hash="18,29,ef242840296e611d"/>
+<approved hash="18,29,7d85bb87cfd5bb74"/>
+<approved hash="18,29,2d6deff329386500"/>
+<approved hash="18,29,b75a7957fb10860f"/>
+<approved hash="18,29,5b815798c544c1bd"/>
+<approved hash="18,29,49fb37291d0b6b39"/>
+<approved hash="18,29,8e3161403f6f9f08"/>
+<approved hash="18,29,3490da8631d5ad61"/>
+<approved hash="18,29,264ed857c511b41a"/>
+<approved hash="18,29,8c787ef21b385b14"/>
+<approved hash="18,29,4f08f3ce13bcb57c"/>
+<approved hash="18,29,c08cdc80f544c1b0"/>
+<approved hash="18,29,c2f6ac291d135b34"/>
+<approved hash="18,29,31033a7fe950c904"/>
+<approved hash="18,29,6f9c65b967ea7b53"/>
+<approved hash="18,29,060280c8dc82b2a3"/>
+<approved hash="18,29,e5f3680e9f0550bf"/>
+<approved hash="18,29,98c2260580ab252a"/>
+<approved hash="18,29,aaf9b18517834baf"/>
+<approved hash="18,29,9f7c75447579b2aa"/>
+<approved hash="18,29,1edd1abfc38bf4dc"/>
+<approved hash="18,29,ff34af34af85ff85"/>
+<approved hash="18,29,8c951aa51a1c8c2c"/>
+<approved hash="18,29,ad0133ce83bb6b74"/>
+<approved hash="18,29,774455f30d39dd29"/>
+<approved hash="18,29,0d7323564310a226"/>
+<approved hash="18,29,3bc5b92ead1b3704"/>
+<approved hash="18,29,d5bc258899437183"/>
+<approved hash="18,29,aea80c8635d5415f"/>
+<approved hash="18,29,580ffb40d36f9b30"/>
+<approved hash="18,29,5e502cf0fb3adf3d"/>
+<approved hash="18,29,74670a5541135432"/>
+<approved hash="18,29,8cd15e29bd1c7710"/>
+<approved hash="18,29,32a8928fd9446197"/>
+<approved hash="18,29,c31a5441b16f6923"/>
+<approved hash="18,29,01bb9786c7d4234a"/>
+<approved hash="18,30,43da81cc25111c75"/>
+<approved hash="18,30,45369c7679855ecb"/>
+<approved hash="18,30,2aaee705e35f2e7a"/>
+<approved hash="18,30,4a4250f7af31b48c"/>
+<approved hash="18,30,c9ac1465156ace2d"/>
+<approved hash="18,30,491c7416522aecc7"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
