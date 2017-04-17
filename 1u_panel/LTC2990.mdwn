@@ -1,0 +1,53 @@
+# LTC2990 Setup and Usage Information
+
+This is of course all in the data sheet, but it's summarized here for ease of use.
+
+## I2C & Addresses
+
+- Clock frequency is 100 - 400 KHz. Suggest 100 KHz.
+- Base Address: 0x98 = 1001 1000
+
+The control registers we care about are:
+
+| REGISTER ADDRESS | REGISTER NAME | READ/WRITE | DESCRIPTION | 
+| 00h              | STATUS        | R          | Indicates BUSY State, Conversion Status | 
+| 01h              | CONTROL       | R/W        | Controls Mode, Single/Repeat, Celsius/Kelvin | 
+| 02h              | TRIGGER**     | R/W        | Triggers an Conversion | 
+
+## LTC2990 Usage
+
+- We're reading the solar module output current using the differential V1-V2 across a 180 mOhm shunt.
+- We're reading the solar module output voltage by measuring VCC.
+- We're reading the Solar array temperature using an external 2n3904 across V3 and V4.
+- We're also reading the internal temperature measurment, because we can.
+
+We want to minimize power consumption, so we're leaving it in "one shot" mode and only doing a conversion everyonce in a while. It's not clear, but we *think* when not converting it's in "shutdown" mode, which takes only a few microamps (versus several mA when converting).
+
+## Timing
+
+Not sure here; the timing values aren't tested or guaranteed and seem pretty fuzzy. We're doing two temperature measurements (55 ms max) plus current (1.8 ms) plus VCC (1.8 ms) so that's like 60 ms max. We'll call it 100 ms to be safe, so we can be polling at 10 Hz, which seems pretty reasonable, if not a little too fast.
+
+## Setup the CONTROL Register (0x01)
+
+- b7 = 0 = Celsius
+- b6 = 1 = Single Acquisition
+- b5 = 0 = reserved
+- b4 = 11 = all measurements
+- b3 
+- b2 = 001 = setup measuring current on V1 – V2 and TR2 (remote temperature probe on V3,v4)
+- b1
+- b0 
+
+## Triggering conversions
+
+- Write anything to the TRIGGER register (0x02).
+- Read the STATUS Register (0x00) bit 0.
+   - b0 = 1 means conversion  is still taking place
+   - b0 = 0 means conversion is complete
+   - Assuming we wait 100ms after conversion, it should be ready.
+- Using a multiple byte read, read locations 0x04 through 0x0F.
+- Calculate values
+    - 
+    - Tint = (13 bits of Tint register MSB:LSB (0x04:0x05)) / 16
+
+
