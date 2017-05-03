@@ -3758,9 +3758,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="57" y="70.5" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="53.35" y="74.9" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 <attribute name="DIS" value="Digi-Key" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="497-14647-ND" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="STM32F042K6T7-ND" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="STMicroelectronics" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="STM32F042K6T6" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="STM32F042K6T7" x="53.4" y="74.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="CF1" library="oresat-eagle" package="CON-1.27-F-HARTING-1522012X601XXX" value="15220122401000" x="41" y="92.25" locked="yes" smashed="yes">
 <attribute name="NAME" x="46.285" y="87.525" size="0.635" layer="25" ratio="20"/>

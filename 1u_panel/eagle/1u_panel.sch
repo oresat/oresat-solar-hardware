@@ -18111,9 +18111,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="U6" library="STM32F042K" deviceset="STM32F042K6" device="">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="497-14647-ND"/>
+<attribute name="DPN" value="STM32F042K6T7-ND"/>
 <attribute name="MFR" value="STMicroelectronics"/>
-<attribute name="MPN" value="STM32F042K6T6"/>
+<attribute name="MPN" value="STM32F042K6T7"/>
 </part>
 <part name="CF1" library="oresat-eagle" deviceset="ORESAT-SOLARPANEL-12PIN" device="" value="15220122401000">
 <attribute name="DIS" value="Digi-Key"/>
