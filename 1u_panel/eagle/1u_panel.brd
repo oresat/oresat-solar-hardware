@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3711,13 +3711,13 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="54.3" y="69.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="54.3" y="69.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="8MHZ-2.5x2mm" x="50.6" y="68.1" smashed="yes">
+<element name="X1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="16MHZ-2.5x2mm" x="50.6" y="68.1" smashed="yes">
 <attribute name="NAME" x="49.068" y="66.028" size="0.635" layer="25" ratio="20"/>
 <attribute name="VALUE" x="50.595" y="68.091" size="0.5" layer="27" ratio="20" align="center"/>
 <attribute name="DIS" value="Digi-Key" x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="XC2015CT-ND" x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="XC2181CT-ND" x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="ECS Inc." x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ECS-80-18-20BQ-DS" x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ECS-160-10-36Q-ES-TR" x="50.6" y="68.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="TCAN330" package="SOT23-8_TI-DCN" value="TCAN330" x="46.6" y="82.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.7" y="80.6" size="0.635" layer="25" ratio="20"/>

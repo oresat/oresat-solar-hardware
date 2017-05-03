@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18076,11 +18076,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="X1" library="low-gain-radio" deviceset="CRYSTAL-WITH-GND" device="" value="8MHZ-2.5x2mm">
+<part name="X1" library="low-gain-radio" deviceset="CRYSTAL-WITH-GND" device="" value="16MHZ-2.5x2mm">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="XC2015CT-ND"/>
+<attribute name="DPN" value="XC2181CT-ND"/>
 <attribute name="MFR" value="ECS Inc."/>
-<attribute name="MPN" value="ECS-80-18-20BQ-DS"/>
+<attribute name="MPN" value="ECS-160-10-36Q-ES-TR"/>
 </part>
 <part name="U2" library="TCAN330" deviceset="TCAN330" device="">
 <attribute name="DIS" value="Digi-Key"/>
