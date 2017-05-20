@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -17912,7 +17912,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05A105KA5NQNC"/>
 </part>
-<part name="C14" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="20u">
+<part name="C14" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="470p">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1274-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -18230,6 +18230,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="DPN" value="1212-1893-ND"/>
 <attribute name="MFR" value="PreciDip"/>
 <attribute name="MPN" value="831-87-050-40-001101"/>
+</part>
+<part name="GND31" library="supply1" deviceset="GND" device=""/>
+<part name="R17" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 </parts>
 <sheets>
@@ -18751,6 +18758,13 @@ approximately 3.0V.</text>
 <attribute name="MFR" x="195.58" y="24.13" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="195.58" y="24.13" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
+<instance part="GND31" gate="1" x="241.3" y="44.45"/>
+<instance part="R17" gate="R" x="241.3" y="52.07" rot="R90">
+<attribute name="DIS" x="241.3" y="52.07" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="241.3" y="52.07" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="241.3" y="52.07" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="241.3" y="52.07" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18976,6 +18990,10 @@ approximately 3.0V.</text>
 <segment>
 <pinref part="C25" gate="CE" pin="1"/>
 <pinref part="GND30" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R17" gate="R" pin="1"/>
+<pinref part="GND31" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SOLAR-IN-SWITCHED" class="0">
@@ -19292,14 +19310,14 @@ approximately 3.0V.</text>
 <pinref part="U5" gate="G$1" pin="SDA"/>
 <wire x1="354.33" y1="185.42" x2="349.25" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="349.25" y1="185.42" x2="339.09" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="354.33" y1="185.42" x2="354.33" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="354.33" y1="185.42" x2="354.33" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R23" gate="R" pin="2"/>
 <wire x1="349.25" y1="187.96" x2="349.25" y2="185.42" width="0.1524" layer="91"/>
 <junction x="349.25" y="185.42"/>
 <label x="237.49" y="59.69" size="1.778" layer="95"/>
 <wire x1="243.84" y1="59.69" x2="236.22" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="59.69" x2="236.22" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="41.91" x2="354.33" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="59.69" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="40.64" x2="354.33" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="PB7"/>
 </segment>
 </net>
@@ -19348,14 +19366,14 @@ approximately 3.0V.</text>
 <pinref part="U5" gate="G$1" pin="SCL"/>
 <wire x1="339.09" y1="180.34" x2="341.63" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="341.63" y1="180.34" x2="351.79" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="351.79" y1="39.37" x2="351.79" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="351.79" y1="38.1" x2="351.79" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="R22" gate="R" pin="2"/>
 <wire x1="341.63" y1="187.96" x2="341.63" y2="180.34" width="0.1524" layer="91"/>
 <junction x="341.63" y="180.34"/>
 <label x="237.49" y="62.23" size="1.778" layer="95"/>
 <wire x1="243.84" y1="62.23" x2="233.68" y2="62.23" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="62.23" x2="233.68" y2="39.37" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="39.37" x2="351.79" y2="39.37" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="62.23" x2="233.68" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="38.1" x2="351.79" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="PB6"/>
 </segment>
 </net>
@@ -19594,6 +19612,13 @@ approximately 3.0V.</text>
 <wire x1="284.48" y1="90.17" x2="308.61" y2="90.17" width="0.1524" layer="91"/>
 <label x="203.2" y="29.21" size="1.778" layer="95"/>
 <label x="287.02" y="90.17" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BOOT" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="PB8-BOOT0"/>
+<pinref part="R17" gate="R" pin="2"/>
+<wire x1="243.84" y1="57.15" x2="241.3" y2="57.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
