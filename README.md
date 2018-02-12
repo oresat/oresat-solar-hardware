@@ -1,5 +1,7 @@
 # OreSat Solar Modules
 
+[![Join the chat at https://gitter.im/oresat/oresat-solar](https://badges.gitter.im/oresat/oresat-solar.svg)](https://gitter.im/oresat/oresat-solar?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repo contains several designs for [OreSat's](oresat.org) solar array. The arrays are based on [Alta Devices](https://http://www.altadevices.com/) GaAs 5 cell solar modules, which produce about 1 W in AM0 (space) conditions. Part of OreSat's design is a module bus system that spans 1 - 3 U, so each array is its own 1U "panel". OreSat is 2U, so we have 2 of these modules per side. This approach has pretty severe drawbacks in terms of solar cell coverage area, but it's extremely flexible as our plans, and thus power needs, change. 
 
 ![CAD drawings of the satellite and panels](https://github.com/oresat/solar/blob/master/images/oresat-solar-modules.png)
