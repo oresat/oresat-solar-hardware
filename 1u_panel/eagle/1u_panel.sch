@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -10711,81 +10711,12 @@ Medium fit, class-B.</description>
 <vertex x="78" y="6" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="29">
-<vertex x="9" y="30.7"/>
-<vertex x="7" y="30.7" curve="-90"/>
-<vertex x="4" y="33.7"/>
-<vertex x="4" y="24.8" curve="-90"/>
-<vertex x="6.9" y="27.7"/>
-<vertex x="75" y="27.7" curve="-90"/>
-<vertex x="78" y="24.7"/>
-<vertex x="78" y="33.7" curve="-90"/>
-<vertex x="75" y="30.7"/>
-<vertex x="74.8" y="30.7"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="73.7" y="67.7"/>
-<vertex x="75" y="67.7" curve="-90"/>
-<vertex x="78" y="64.7"/>
-<vertex x="78" y="73.7" curve="-90"/>
-<vertex x="75" y="70.7"/>
-<vertex x="73.8" y="70.7"/>
+<vertex x="7" y="67.7"/>
+<vertex x="16" y="67.7"/>
+<vertex x="16" y="70.7"/>
 <vertex x="7" y="70.7" curve="-90"/>
 <vertex x="4" y="73.7"/>
 <vertex x="4" y="64.7" curve="-90"/>
-<vertex x="7" y="67.7"/>
-<vertex x="9.4" y="67.7"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="20" y="3"/>
-<vertex x="29" y="3" curve="-90"/>
-<vertex x="26" y="6"/>
-<vertex x="26" y="24.7" curve="-90"/>
-<vertex x="29" y="27.7"/>
-<vertex x="29" y="30.7" curve="-90"/>
-<vertex x="26" y="33.7"/>
-<vertex x="26" y="64.7" curve="-90"/>
-<vertex x="29" y="67.7"/>
-<vertex x="29" y="70.7" curve="-90"/>
-<vertex x="26" y="73.7"/>
-<vertex x="26" y="93" curve="-90"/>
-<vertex x="29" y="96"/>
-<vertex x="20" y="96" curve="-90"/>
-<vertex x="23" y="93"/>
-<vertex x="23" y="73.7" curve="-90"/>
-<vertex x="20" y="70.7"/>
-<vertex x="20" y="67.7" curve="-90"/>
-<vertex x="23" y="64.7"/>
-<vertex x="23" y="33.7" curve="-90"/>
-<vertex x="20" y="30.7"/>
-<vertex x="20" y="27.7" curve="-90"/>
-<vertex x="23" y="24.7"/>
-<vertex x="23" y="6" curve="-90"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="53" y="3" curve="90"/>
-<vertex x="56" y="6"/>
-<vertex x="56" y="24.7" curve="90"/>
-<vertex x="53" y="27.7"/>
-<vertex x="53" y="30.7" curve="90"/>
-<vertex x="56" y="33.7"/>
-<vertex x="56" y="64.7" curve="90"/>
-<vertex x="53" y="67.7"/>
-<vertex x="53" y="70.7" curve="90"/>
-<vertex x="56" y="73.7"/>
-<vertex x="56" y="93" curve="90"/>
-<vertex x="53" y="96"/>
-<vertex x="62" y="96" curve="90"/>
-<vertex x="59" y="93"/>
-<vertex x="59" y="73.7" curve="90"/>
-<vertex x="62" y="70.7"/>
-<vertex x="62" y="67.7" curve="90"/>
-<vertex x="59" y="64.7"/>
-<vertex x="59" y="33.7" curve="90"/>
-<vertex x="62" y="30.7"/>
-<vertex x="62" y="27.7" curve="90"/>
-<vertex x="59" y="24.7"/>
-<vertex x="59" y="6" curve="90"/>
-<vertex x="62" y="3"/>
 </polygon>
 <polygon width="0.127" layer="39">
 <vertex x="20" y="3"/>
@@ -10907,6 +10838,186 @@ Medium fit, class-B.</description>
 <vertex x="78" y="93"/>
 <vertex x="78" y="6" curve="-90"/>
 <vertex x="75" y="3"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="75" y="70.7"/>
+<vertex x="66" y="70.7"/>
+<vertex x="66" y="67.7"/>
+<vertex x="75" y="67.7" curve="-90"/>
+<vertex x="78" y="64.7"/>
+<vertex x="78" y="73.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="39" y="70.7"/>
+<vertex x="33" y="70.7"/>
+<vertex x="33" y="67.7"/>
+<vertex x="39" y="67.7"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="49" y="70.7"/>
+<vertex x="43" y="70.7"/>
+<vertex x="43" y="67.7"/>
+<vertex x="49" y="67.7"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="39" y="30.7"/>
+<vertex x="33" y="30.7"/>
+<vertex x="33" y="27.7"/>
+<vertex x="39" y="27.7"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="49" y="30.7"/>
+<vertex x="43" y="30.7"/>
+<vertex x="43" y="27.7"/>
+<vertex x="49" y="27.7"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="7" y="27.7"/>
+<vertex x="16" y="27.7"/>
+<vertex x="16" y="30.7"/>
+<vertex x="7" y="30.7" curve="-90"/>
+<vertex x="4" y="33.7"/>
+<vertex x="4" y="24.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="75" y="30.7"/>
+<vertex x="66" y="30.7"/>
+<vertex x="66" y="27.7"/>
+<vertex x="75" y="27.7" curve="-90"/>
+<vertex x="78" y="24.7"/>
+<vertex x="78" y="33.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="23" y="93"/>
+<vertex x="23" y="87"/>
+<vertex x="26" y="87"/>
+<vertex x="26" y="93" curve="-90"/>
+<vertex x="29" y="96"/>
+<vertex x="20" y="96" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="26" y="73.7"/>
+<vertex x="26" y="80"/>
+<vertex x="23" y="80"/>
+<vertex x="23" y="73.7" curve="-90"/>
+<vertex x="20" y="70.7"/>
+<vertex x="29" y="70.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="29" y="70.7"/>
+<vertex x="20" y="70.7"/>
+<vertex x="20" y="67.7"/>
+<vertex x="29" y="67.7"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="23" y="64.7"/>
+<vertex x="23" y="58"/>
+<vertex x="26" y="58"/>
+<vertex x="26" y="64.7" curve="-90"/>
+<vertex x="29" y="67.7"/>
+<vertex x="20" y="67.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="26" y="33.7"/>
+<vertex x="26" y="39.7"/>
+<vertex x="23" y="39.7"/>
+<vertex x="23" y="33.7" curve="-90"/>
+<vertex x="20" y="30.7"/>
+<vertex x="29" y="30.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="23" y="24.7"/>
+<vertex x="23" y="18"/>
+<vertex x="26" y="18"/>
+<vertex x="26" y="24.7" curve="-90"/>
+<vertex x="29" y="27.7"/>
+<vertex x="20" y="27.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="26" y="6"/>
+<vertex x="26" y="12"/>
+<vertex x="23" y="12"/>
+<vertex x="23" y="6" curve="-90"/>
+<vertex x="20" y="3"/>
+<vertex x="29" y="3" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="23" y="52"/>
+<vertex x="23" y="46"/>
+<vertex x="26" y="46"/>
+<vertex x="26" y="52"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="29" y="30.7"/>
+<vertex x="20" y="30.7"/>
+<vertex x="20" y="27.7"/>
+<vertex x="29" y="27.7"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="59" y="73.7"/>
+<vertex x="59" y="80"/>
+<vertex x="56" y="80"/>
+<vertex x="56" y="73.7" curve="-90"/>
+<vertex x="53" y="70.7"/>
+<vertex x="62" y="70.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="62" y="70.7"/>
+<vertex x="53" y="70.7"/>
+<vertex x="53" y="67.7"/>
+<vertex x="62" y="67.7"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="56" y="64.7"/>
+<vertex x="56" y="58"/>
+<vertex x="59" y="58"/>
+<vertex x="59" y="64.7" curve="-90"/>
+<vertex x="62" y="67.7"/>
+<vertex x="53" y="67.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="59" y="33.7"/>
+<vertex x="59" y="39.7"/>
+<vertex x="56" y="39.7"/>
+<vertex x="56" y="33.7" curve="-90"/>
+<vertex x="53" y="30.7"/>
+<vertex x="62" y="30.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="56" y="24.7"/>
+<vertex x="56" y="18"/>
+<vertex x="59" y="18"/>
+<vertex x="59" y="24.7" curve="-90"/>
+<vertex x="62" y="27.7"/>
+<vertex x="53" y="27.7" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="56" y="52"/>
+<vertex x="56" y="46"/>
+<vertex x="59" y="46"/>
+<vertex x="59" y="52"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="62" y="30.7"/>
+<vertex x="53" y="30.7"/>
+<vertex x="53" y="27.7"/>
+<vertex x="62" y="27.7"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="56" y="93"/>
+<vertex x="56" y="87"/>
+<vertex x="59" y="87"/>
+<vertex x="59" y="93" curve="-90"/>
+<vertex x="62" y="96"/>
+<vertex x="53" y="96" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="59" y="6"/>
+<vertex x="59" y="12"/>
+<vertex x="56" y="12"/>
+<vertex x="56" y="6" curve="-90"/>
+<vertex x="53" y="3"/>
+<vertex x="62" y="3" curve="-90"/>
 </polygon>
 </package>
 </packages>
