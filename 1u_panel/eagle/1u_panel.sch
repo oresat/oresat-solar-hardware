@@ -16455,7 +16455,7 @@ LED</description>
 <part name="L3" library="L-Bourns-SRU5018" deviceset="BOURNS-SRU5018-INDUCTOR" device="" value="4.7 uH">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="SRU5018-4R7YCT-ND"/>
-<attribute name="MFG" value="Bourns"/>
+<attribute name="MFR" value="Bourns"/>
 <attribute name="MPN" value="SRU5018-4R7Y"/>
 </part>
 <part name="C4" library="rcl_custom" deviceset="C-EU" device="1206-B" value="10u 1206">
@@ -16537,7 +16537,7 @@ LED</description>
 <part name="D2" library="D-0402-package" deviceset="D-0402" device="" value="1N4448HLP-7">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1N4448HLPDICT-ND"/>
-<attribute name="MFG" value="Diodes Inc"/>
+<attribute name="MFR" value="Diodes Inc"/>
 <attribute name="MPN" value="1N4448HLP-7"/>
 </part>
 <part name="CF3" library="J-precidip-831-2mm-RA" deviceset="2MM-RA-1X12" device=""/>
@@ -16545,7 +16545,7 @@ LED</description>
 <part name="D1" library="D-0402-package" deviceset="D-0402" device="" value="1N4448HLP-7">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1N4448HLPDICT-ND"/>
-<attribute name="MFG" value="Diodes Inc"/>
+<attribute name="MFR" value="Diodes Inc"/>
 <attribute name="MPN" value="1N4448HLP-7"/>
 </part>
 <part name="LED1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="RED"/>
@@ -16954,7 +16954,7 @@ flight</text>
 <instance part="L3" gate="G$1" x="127" y="227.33" smashed="yes" rot="R90">
 <attribute name="DIS" x="127" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DPN" x="127" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFG" x="127" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="127" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="127" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="125.73" y="224.79" size="1.778" layer="95"/>
 <attribute name="VALUE" x="123.19" y="229.87" size="1.778" layer="96"/>
@@ -17068,7 +17068,7 @@ flight</text>
 <instance part="D2" gate="G$1" x="78.74" y="237.49" smashed="yes" rot="R90">
 <attribute name="DIS" x="78.74" y="237.49" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DPN" x="78.74" y="237.49" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFG" x="78.74" y="237.49" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="78.74" y="237.49" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="78.74" y="237.49" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="73.66" y="236.22" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="76.2" y="229.87" size="1.778" layer="96" rot="R90"/>
@@ -17078,7 +17078,7 @@ flight</text>
 <instance part="D1" gate="G$1" x="78.74" y="181.61" smashed="yes" rot="R270">
 <attribute name="DIS" x="78.74" y="181.61" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DPN" x="78.74" y="181.61" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MFG" x="78.74" y="181.61" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="78.74" y="181.61" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="78.74" y="181.61" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="83.82" y="182.88" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="81.28" y="189.23" size="1.778" layer="96" rot="R270"/>
