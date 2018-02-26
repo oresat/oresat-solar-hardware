@@ -6087,6 +6087,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="oresat-misc">
+<packages>
+<package name="SCOPE_CLIP">
+<rectangle x1="-2" y1="-1" x2="2" y2="1" layer="29"/>
+<rectangle x1="-2" y1="-1" x2="2" y2="1" layer="30"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SCOPE-CLIP">
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<text x="2.54" y="-1.27" size="2.54" layer="94">Scope clip</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SCOPE_CLIP">
+<description>Ground clip pad for scope</description>
+<gates>
+<gate name="G$1" symbol="SCOPE-CLIP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SCOPE_CLIP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6120,6 +6152,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SW1" library="SW-TE-1825910-6mm-switch" deviceset="1825910-6" device=""/>
+<part name="U$1" library="oresat-misc" deviceset="SCOPE_CLIP" device=""/>
+<part name="U$2" library="oresat-misc" deviceset="SCOPE_CLIP" device=""/>
+<part name="U$3" library="oresat-misc" deviceset="SCOPE_CLIP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6157,6 +6192,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND8" gate="1" x="177.8" y="109.22"/>
 <instance part="SUPPLY5" gate="G$1" x="177.8" y="127"/>
 <instance part="SW1" gate="A" x="203.2" y="91.44" rot="R270"/>
+<instance part="U$1" gate="G$1" x="132.08" y="35.56"/>
+<instance part="U$2" gate="G$1" x="132.08" y="33.02"/>
+<instance part="U$3" gate="G$1" x="132.08" y="30.48"/>
 </instances>
 <busses>
 </busses>

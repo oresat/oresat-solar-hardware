@@ -196,6 +196,10 @@ COMPONENT SIDE</text>
 <wire x1="1.5" y1="29.3" x2="2.1" y2="29.9" width="0.1524" layer="22"/>
 <text x="8.4" y="31.5" size="0.635" layer="22" ratio="20" rot="MR0" align="center-left">DEBUG BOARD
 TOWARDS SOLAR</text>
+<text x="33" y="10.4" size="0.7" layer="21" font="vector" ratio="15">CANH</text>
+<text x="33.1" y="7.7" size="0.7" layer="21" font="vector" ratio="15">CANL</text>
+<text x="33.7" y="5.4" size="0.7" layer="21" font="vector" ratio="15">GND</text>
+<text x="33.3" y="13" size="0.7" layer="21" font="vector" ratio="15">3.3V</text>
 </plain>
 <libraries>
 <library name="con-swd">
@@ -1721,6 +1725,14 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="oresat-misc">
+<packages>
+<package name="SCOPE_CLIP">
+<rectangle x1="-2" y1="-1" x2="2" y2="1" layer="29"/>
+<rectangle x1="-2" y1="-1" x2="2" y2="1" layer="30"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1923,8 +1935,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="CM1" library="J-precidip-880-2mm" package="CF-2MM-1X12-PRECIDIP-880" value="2MM-1X12-M" x="1.5" y="17" rot="MR90"/>
 <element name="CM2" library="J-precidip-880-2mm" package="CF-2MM-1X12-PRECIDIP-880" value="2MM-1X12-M" x="6.5" y="17" rot="R90"/>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X12" package3d_urn="urn:adsk.eagle:package:22487/2" value="" x="13.5" y="17" rot="R90"/>
-<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="31.5" y="9.5" rot="R270"/>
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="30.1" y="9.4" rot="R270"/>
 <element name="SW1" library="SW-TE-1825910-6mm-switch" package="SWITCH_FSM4JAH" value="1825910-6" x="23.5" y="29.9"/>
+<element name="U$1" library="oresat-misc" package="SCOPE_CLIP" value="SCOPE_CLIP" x="31.5" y="32" rot="R90"/>
+<element name="U$2" library="oresat-misc" package="SCOPE_CLIP" value="SCOPE_CLIP" x="34" y="17"/>
+<element name="U$3" library="oresat-misc" package="SCOPE_CLIP" value="SCOPE_CLIP" x="23.5" y="2" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2076,8 +2091,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6.5" y1="10" x2="7.5" y2="10" width="0.3" layer="1"/>
 <wire x1="7.5" y1="10" x2="9.3" y2="8.2" width="0.3" layer="1"/>
 <wire x1="13.5" y1="8.2" x2="13.5" y2="8.11" width="0.3" layer="1"/>
-<wire x1="13.5" y1="8.2" x2="31.5" y2="8.2" width="0.3" layer="16"/>
-<wire x1="31.5" y1="8.2" x2="31.5" y2="8.23" width="0.3" layer="16"/>
+<wire x1="13.5" y1="8.2" x2="29.8" y2="8.2" width="0.3" layer="16"/>
+<wire x1="29.8" y1="8.2" x2="30.1" y2="8.13" width="0.3" layer="16"/>
 <wire x1="13.5" y1="8.2" x2="13.5" y2="8.11" width="0.3" layer="16"/>
 </signal>
 <signal name="CANH">
@@ -2090,8 +2105,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6.5" y1="12" x2="8" y2="12" width="0.3" layer="1"/>
 <wire x1="8" y1="12" x2="9.3" y2="10.7" width="0.3" layer="1"/>
 <wire x1="13.5" y1="10.7" x2="13.5" y2="10.65" width="0.3" layer="1"/>
-<wire x1="28" y1="10.7" x2="31.5" y2="10.7" width="0.3" layer="16"/>
-<wire x1="31.5" y1="10.7" x2="31.5" y2="10.77" width="0.3" layer="16"/>
+<wire x1="28" y1="10.7" x2="29.9" y2="10.7" width="0.3" layer="16"/>
+<wire x1="29.9" y1="10.7" x2="30.1" y2="10.67" width="0.3" layer="16"/>
 <wire x1="13.5" y1="10.65" x2="17.35" y2="10.65" width="0.3" layer="16"/>
 <wire x1="17.35" y1="10.65" x2="18.8" y2="9.2" width="0.3" layer="16"/>
 <wire x1="18.8" y1="9.2" x2="26.5" y2="9.2" width="0.3" layer="16"/>
@@ -2103,10 +2118,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="JP1" pad="11"/>
 <contactref element="J1" pad="VTREF"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="32.1" y1="14" x2="32.1" y2="23.4" width="0.3" layer="1"/>
-<wire x1="31.5" y1="13.4" x2="32.1" y2="14" width="0.3" layer="1"/>
-<wire x1="32.1" y1="23.4" x2="32.135" y2="23.46" width="0.3" layer="1"/>
-<wire x1="31.5" y1="13.4" x2="31.5" y2="13.31" width="0.3" layer="1"/>
 <wire x1="6.5" y1="26" x2="1.5" y2="26" width="0.3" layer="16"/>
 <wire x1="10.4" y1="28.4" x2="13.5" y2="28.4" width="0.3" layer="1"/>
 <wire x1="6.5" y1="26" x2="8" y2="26" width="0.3" layer="1"/>
@@ -2119,6 +2130,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.5" y1="28.4" x2="19.4" y2="22.5" width="0.3" layer="16"/>
 <wire x1="32.8" y1="22.8" x2="32.8" y2="23.4" width="0.3" layer="16"/>
 <wire x1="32.8" y1="23.4" x2="32.1" y2="23.4" width="0.3" layer="16"/>
+<wire x1="32.135" y1="23.46" x2="32.135" y2="21.735" width="0.5" layer="1"/>
+<wire x1="32.135" y1="21.735" x2="30.1" y2="19.7" width="0.5" layer="1"/>
+<wire x1="30.1" y1="19.7" x2="30.1" y2="13.21" width="0.5" layer="1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="J1" pad="!RESET"/>
