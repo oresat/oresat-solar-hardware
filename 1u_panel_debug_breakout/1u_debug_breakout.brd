@@ -202,41 +202,6 @@ TOWARDS SOLAR</text>
 <text x="33.3" y="13" size="0.7" layer="21" font="vector" ratio="15">3.3V</text>
 </plain>
 <libraries>
-<library name="con-swd">
-<packages>
-<package name="1.27MM_2X5">
-<pad name="GND" x="-0.635" y="1.27" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
-<pad name="GND@2" x="-0.635" y="0" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
-<pad name="GNDDET" x="-0.635" y="-2.54" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
-<wire x1="-2.54" y1="2.54" x2="-1.778" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="2.54" x2="-1.778" y2="3.175" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="3.175" x2="1.778" y2="3.175" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="3.175" x2="1.778" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="-2.54" x2="1.778" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="-3.175" x2="-1.778" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="-3.175" x2="-1.778" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.016" x2="-2.032" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-2.032" y1="1.016" x2="-2.54" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="1.016" x2="-2.54" y2="2.54" width="0.1524" layer="21"/>
-<text x="-1.778" y="3.429" size="0.762" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<pad name="VTREF" x="-0.635" y="2.54" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
-<pad name="SWDIO" x="0.635" y="2.54" drill="0.7" diameter="1.016" shape="offset"/>
-<pad name="SWDCLK" x="0.635" y="1.27" drill="0.7" diameter="1.016" shape="offset"/>
-<pad name="SWO" x="0.635" y="0" drill="0.7" diameter="1.016" shape="offset"/>
-<pad name="NC" x="0.635" y="-1.27" drill="0.7" diameter="1.016" shape="offset"/>
-<pad name="!RESET" x="0.635" y="-2.54" drill="0.7" diameter="1.016" shape="offset"/>
-<text x="-3.429" y="2.286" size="0.762" layer="21" font="vector" ratio="20">1</text>
-<wire x1="-1.778" y1="2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="-2.54" x2="1.778" y2="2.54" width="0.1524" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="pinhead">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -1733,6 +1698,41 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="J-CNC-3220-10-0100-00-ARM-SWD-port">
+<packages>
+<package name="1.27MM_2X5">
+<pad name="GND" x="-0.635" y="1.27" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
+<pad name="GND@2" x="-0.635" y="0" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
+<pad name="GNDDET" x="-0.635" y="-2.54" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-1.778" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="3.175" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="3.175" x2="1.778" y2="3.175" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="3.175" x2="1.778" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-2.54" x2="1.778" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-3.175" x2="-1.778" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="-3.175" x2="-1.778" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.032" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="1.016" x2="-2.54" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="2.54" width="0.1524" layer="21"/>
+<text x="-1.778" y="3.429" size="0.762" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<pad name="VTREF" x="-0.635" y="2.54" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
+<pad name="SWDIO" x="0.635" y="2.54" drill="0.7" diameter="1.016" shape="offset"/>
+<pad name="SWDCLK" x="0.635" y="1.27" drill="0.7" diameter="1.016" shape="offset"/>
+<pad name="SWO" x="0.635" y="0" drill="0.7" diameter="1.016" shape="offset"/>
+<pad name="NC" x="0.635" y="-1.27" drill="0.7" diameter="1.016" shape="offset"/>
+<pad name="!RESET" x="0.635" y="-2.54" drill="0.7" diameter="1.016" shape="offset"/>
+<text x="-3.429" y="2.286" size="0.762" layer="21" font="vector" ratio="20">1</text>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-2.54" x2="1.778" y2="2.54" width="0.1524" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1917,7 +1917,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="con-swd" package="1.27MM_2X5" value="1.27MM-SWD-CONNECTOR" x="31.5" y="26" smashed="yes" rot="R180">
+<element name="J1" library="J-CNC-3220-10-0100-00-ARM-SWD-port" package="1.27MM_2X5" value="1.27MM-SWD-CONNECTOR" x="31.5" y="26" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="31.5" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1175-1627-ND" x="31.5" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="CNC Tech" x="31.5" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="3220-10-0100-00" x="31.5" y="26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="32.138" y="22.291" size="0.762" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="JP3" library="pinhead" package="1X06" value="" x="23.5" y="17.5" smashed="yes" rot="R90">
@@ -1935,7 +1939,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="CM1" library="J-precidip-880-2mm" package="CF-2MM-1X12-PRECIDIP-880" value="2MM-1X12-M" x="1.5" y="17" rot="MR90"/>
 <element name="CM2" library="J-precidip-880-2mm" package="CF-2MM-1X12-PRECIDIP-880" value="2MM-1X12-M" x="6.5" y="17" rot="R90"/>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X12" package3d_urn="urn:adsk.eagle:package:22487/2" value="" x="13.5" y="17" rot="R90"/>
-<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="30.1" y="9.4" rot="R270"/>
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="30.1" y="9.4" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="30.1" y="9.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="ED10563-ND" x="30.1" y="9.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="OST" x="30.1" y="9.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="OSTVN04A150" x="30.1" y="9.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="SW1" library="SW-TE-1825910-6mm-switch" package="SWITCH_FSM4JAH" value="1825910-6" x="23.5" y="29.9"/>
 <element name="U$1" library="oresat-misc" package="SCOPE_CLIP" value="SCOPE_CLIP" x="31.5" y="32" rot="R90"/>
 <element name="U$2" library="oresat-misc" package="SCOPE_CLIP" value="SCOPE_CLIP" x="34" y="17"/>

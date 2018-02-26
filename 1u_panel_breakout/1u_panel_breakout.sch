@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -798,7 +798,7 @@ LETTER landscape</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
-<part name="CF1" library="oresat-connectors" deviceset="ORESAT-SOLARPANEL-CARD-12PIN" device=""/>
+<part name="CF1" library="oresat-connectors" deviceset="ORESAT-SOLARPANEL-CARD-12PIN" device="" value="15150122401000"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X12" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -814,6 +814,7 @@ LETTER landscape</description>
 <text x="36.83" y="38.1" size="1.778" layer="97">RA Solar
 Connector</text>
 <text x="111.76" y="85.09" size="1.778" layer="97">CAN</text>
+<text x="40.64" y="17.78" size="1.778" layer="97">Harwin 15150122401000</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-35.56" y="-48.26"/>

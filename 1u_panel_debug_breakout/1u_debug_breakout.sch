@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -237,86 +237,6 @@
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="con-swd">
-<packages>
-<package name="1.27MM_2X5">
-<pad name="GND" x="-0.635" y="1.27" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
-<pad name="GND@2" x="-0.635" y="0" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
-<pad name="GNDDET" x="-0.635" y="-2.54" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
-<wire x1="-2.54" y1="2.54" x2="-1.778" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="2.54" x2="-1.778" y2="3.175" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="3.175" x2="1.778" y2="3.175" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="3.175" x2="1.778" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="-2.54" x2="1.778" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="-3.175" x2="-1.778" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="-3.175" x2="-1.778" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.016" x2="-2.032" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-2.032" y1="1.016" x2="-2.54" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="1.016" x2="-2.54" y2="2.54" width="0.1524" layer="21"/>
-<text x="-1.778" y="3.429" size="0.762" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<pad name="VTREF" x="-0.635" y="2.54" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
-<pad name="SWDIO" x="0.635" y="2.54" drill="0.7" diameter="1.016" shape="offset"/>
-<pad name="SWDCLK" x="0.635" y="1.27" drill="0.7" diameter="1.016" shape="offset"/>
-<pad name="SWO" x="0.635" y="0" drill="0.7" diameter="1.016" shape="offset"/>
-<pad name="NC" x="0.635" y="-1.27" drill="0.7" diameter="1.016" shape="offset"/>
-<pad name="!RESET" x="0.635" y="-2.54" drill="0.7" diameter="1.016" shape="offset"/>
-<text x="-3.429" y="2.286" size="0.762" layer="21" font="vector" ratio="20">1</text>
-<wire x1="-1.778" y1="2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="-2.54" x2="1.778" y2="2.54" width="0.1524" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="10PIN-SWD">
-<wire x1="-8.89" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="12.7" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-8.89" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="-8.89" y1="12.7" x2="-8.89" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-8.89" y="13.335" size="1.778" layer="95">&gt;NAME</text>
-<pin name="VTREF" x="-10.16" y="10.16" visible="pin" length="middle" direction="pas" function="dot"/>
-<pin name="SWDIO/TMS" x="-10.16" y="7.62" visible="pin" length="middle" direction="pas" function="dot"/>
-<pin name="GND" x="-10.16" y="5.08" visible="pin" length="middle" direction="pas" function="dot"/>
-<pin name="SWDCLK/TCK" x="-10.16" y="2.54" visible="pin" length="middle" direction="pas" function="dot"/>
-<pin name="GND@2" x="-10.16" y="0" visible="pin" length="middle" direction="pas" function="dot"/>
-<pin name="SWO/TDO" x="-10.16" y="-2.54" visible="pin" length="middle" direction="pas" function="dot"/>
-<pin name="NC/TDI" x="-10.16" y="-7.62" visible="pin" length="middle" direction="pas" function="dot"/>
-<pin name="GNDDET" x="-10.16" y="-10.16" visible="pin" length="middle" direction="pas" function="dot"/>
-<pin name="!RESET" x="-10.16" y="-12.7" visible="pin" length="middle" direction="pas" function="dot"/>
-<text x="-8.255" y="-5.715" size="1.524" layer="97">KEY</text>
-<text x="-3.81" y="-17.78" size="1.524" layer="97">10pin SWD</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1.27MM-SWD-CONNECTOR" prefix="J">
-<gates>
-<gate name="J" symbol="10PIN-SWD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1.27MM_2X5">
-<connects>
-<connect gate="J" pin="!RESET" pad="!RESET"/>
-<connect gate="J" pin="GND" pad="GND"/>
-<connect gate="J" pin="GND@2" pad="GND@2"/>
-<connect gate="J" pin="GNDDET" pad="GNDDET"/>
-<connect gate="J" pin="NC/TDI" pad="NC"/>
-<connect gate="J" pin="SWDCLK/TCK" pad="SWDCLK"/>
-<connect gate="J" pin="SWDIO/TMS" pad="SWDIO"/>
-<connect gate="J" pin="SWO/TDO" pad="SWO"/>
-<connect gate="J" pin="VTREF" pad="VTREF"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6119,6 +6039,87 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="J-CNC-3220-10-0100-00-ARM-SWD-port">
+<packages>
+<package name="1.27MM_2X5">
+<pad name="GND" x="-0.635" y="1.27" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
+<pad name="GND@2" x="-0.635" y="0" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
+<pad name="GNDDET" x="-0.635" y="-2.54" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-1.778" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="3.175" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="3.175" x2="1.778" y2="3.175" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="3.175" x2="1.778" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-2.54" x2="1.778" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-3.175" x2="-1.778" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="-3.175" x2="-1.778" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.032" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="1.016" x2="-2.54" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="2.54" width="0.1524" layer="21"/>
+<text x="-1.778" y="3.429" size="0.762" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<pad name="VTREF" x="-0.635" y="2.54" drill="0.7" diameter="1.016" shape="offset" rot="R180"/>
+<pad name="SWDIO" x="0.635" y="2.54" drill="0.7" diameter="1.016" shape="offset"/>
+<pad name="SWDCLK" x="0.635" y="1.27" drill="0.7" diameter="1.016" shape="offset"/>
+<pad name="SWO" x="0.635" y="0" drill="0.7" diameter="1.016" shape="offset"/>
+<pad name="NC" x="0.635" y="-1.27" drill="0.7" diameter="1.016" shape="offset"/>
+<pad name="!RESET" x="0.635" y="-2.54" drill="0.7" diameter="1.016" shape="offset"/>
+<text x="-3.429" y="2.286" size="0.762" layer="21" font="vector" ratio="20">1</text>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-2.54" x2="1.778" y2="2.54" width="0.1524" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="10PIN-SWD">
+<wire x1="-8.89" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-8.89" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-8.89" y1="12.7" x2="-8.89" y2="-15.24" width="0.4064" layer="94"/>
+<text x="-8.89" y="13.335" size="1.778" layer="95">&gt;NAME</text>
+<pin name="VTREF" x="-10.16" y="10.16" visible="pin" length="middle" direction="pas" function="dot"/>
+<pin name="SWDIO/TMS" x="-10.16" y="7.62" visible="pin" length="middle" direction="pas" function="dot"/>
+<pin name="GND" x="-10.16" y="5.08" visible="pin" length="middle" direction="pas" function="dot"/>
+<pin name="SWDCLK/TCK" x="-10.16" y="2.54" visible="pin" length="middle" direction="pas" function="dot"/>
+<pin name="GND@2" x="-10.16" y="0" visible="pin" length="middle" direction="pas" function="dot"/>
+<pin name="SWO/TDO" x="-10.16" y="-2.54" visible="pin" length="middle" direction="pas" function="dot"/>
+<pin name="NC/TDI" x="-10.16" y="-7.62" visible="pin" length="middle" direction="pas" function="dot"/>
+<pin name="GNDDET" x="-10.16" y="-10.16" visible="pin" length="middle" direction="pas" function="dot"/>
+<pin name="!RESET" x="-10.16" y="-12.7" visible="pin" length="middle" direction="pas" function="dot"/>
+<text x="-8.255" y="-5.715" size="1.524" layer="97">KEY</text>
+<text x="-3.81" y="-17.78" size="1.524" layer="97">10pin SWD</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1.27MM-SWD-CONNECTOR" prefix="J">
+<description>ARM SWD Programming Header. Example part is the CNC 3220-10-0100-00</description>
+<gates>
+<gate name="J" symbol="10PIN-SWD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1.27MM_2X5">
+<connects>
+<connect gate="J" pin="!RESET" pad="!RESET"/>
+<connect gate="J" pin="GND" pad="GND"/>
+<connect gate="J" pin="GND@2" pad="GND@2"/>
+<connect gate="J" pin="GNDDET" pad="GNDDET"/>
+<connect gate="J" pin="NC/TDI" pad="NC"/>
+<connect gate="J" pin="SWDCLK/TCK" pad="SWDCLK"/>
+<connect gate="J" pin="SWDIO/TMS" pad="SWDIO"/>
+<connect gate="J" pin="SWO/TDO" pad="SWO"/>
+<connect gate="J" pin="VTREF" pad="VTREF"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6131,7 +6132,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="con-swd" deviceset="1.27MM-SWD-CONNECTOR" device=""/>
+<part name="J1" library="J-CNC-3220-10-0100-00-ARM-SWD-port" deviceset="1.27MM-SWD-CONNECTOR" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1175-1627-ND"/>
+<attribute name="MFR" value="CNC Tech"/>
+<attribute name="MPN" value="3220-10-0100-00"/>
+</part>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="4.7k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X6" device=""/>
@@ -6148,7 +6154,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="ED10563-ND"/>
+<attribute name="MFR" value="OST"/>
+<attribute name="MPN" value="OSTVN04A150"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SW1" library="SW-TE-1825910-6mm-switch" deviceset="1825910-6" device=""/>
@@ -6163,15 +6174,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="43.18" y="76.2" size="1.778" layer="97">Top 2MM</text>
 <text x="76.2" y="76.2" size="1.778" layer="97">Bottom 2MM</text>
 <text x="111.76" y="76.2" size="1.778" layer="97">0.1 header</text>
-<text x="160.02" y="149.86" size="1.778" layer="97">FTDI Cable</text>
-<text x="220.98" y="129.54" size="1.778" layer="97">ARM SWD</text>
-<text x="180.34" y="132.08" size="1.778" layer="97">CAN</text>
+<text x="172.72" y="137.16" size="1.778" layer="97">FTDI Cable</text>
+<text x="187.96" y="116.84" size="1.778" layer="97">CAN</text>
+<text x="241.3" y="109.22" size="1.778" layer="97">ARM SWD</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="GND1" gate="1" x="55.88" y="86.36"/>
-<instance part="J1" gate="J" x="226.06" y="111.76"/>
+<instance part="J1" gate="J" x="226.06" y="111.76">
+<attribute name="DIS" x="226.06" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="226.06" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="223.52" y="88.9" size="1.778" layer="96"/>
+<attribute name="MPN" x="220.98" y="86.36" size="1.778" layer="96"/>
+</instance>
 <instance part="R1" gate="G$1" x="152.4" y="91.44" rot="R90"/>
 <instance part="GND3" gate="1" x="152.4" y="71.12"/>
 <instance part="JP3" gate="A" x="170.18" y="139.7" rot="MR180"/>
@@ -6188,7 +6204,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY3" gate="G$1" x="121.92" y="127"/>
 <instance part="GND2" gate="1" x="203.2" y="81.28"/>
 <instance part="SUPPLY4" gate="G$1" x="213.36" y="127"/>
-<instance part="JP2" gate="A" x="185.42" y="116.84"/>
+<instance part="JP2" gate="A" x="185.42" y="116.84">
+<attribute name="DIS" x="185.42" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="185.42" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="182.88" y="109.22" size="1.778" layer="96"/>
+<attribute name="MPN" x="182.88" y="106.68" size="1.778" layer="96"/>
+</instance>
 <instance part="GND8" gate="1" x="177.8" y="109.22"/>
 <instance part="SUPPLY5" gate="G$1" x="177.8" y="127"/>
 <instance part="SW1" gate="A" x="203.2" y="91.44" rot="R270"/>
@@ -6273,14 +6294,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="USART2_RX" class="0">
 <segment>
-<wire x1="132.08" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="109.22" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
-<label x="147.32" y="139.7" size="1.778" layer="95"/>
-<pinref part="JP3" gate="A" pin="4"/>
-<wire x1="142.24" y1="139.7" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="114.3" y1="109.22" x2="128.27" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
 <label x="129.54" y="109.22" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="6"/>
 <pinref part="CM2" gate="G$1" pin="6"/>
@@ -6290,23 +6304,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="83.82" y="109.22"/>
 <wire x1="114.3" y1="109.22" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
 <junction x="114.3" y="109.22"/>
+<wire x1="142.24" y1="109.22" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<label x="147.32" y="139.7" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="142.24" y1="139.7" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART2_TX" class="0">
 <segment>
-<wire x1="132.08" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="106.68" x2="144.78" y2="142.24" width="0.1524" layer="91"/>
 <label x="147.32" y="142.24" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="5"/>
 <wire x1="144.78" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="CM1" gate="G$1" pin="7"/>
 <label x="58.42" y="106.68" size="1.778" layer="95"/>
 <pinref part="CM2" gate="G$1" pin="7"/>
 <wire x1="48.26" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 <junction x="83.82" y="106.68"/>
-<wire x1="114.3" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <label x="129.54" y="106.68" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="7"/>
 <wire x1="83.82" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
