@@ -5752,7 +5752,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="22.45" y="44.5" extent="1-16" drill="0.254"/>
 <wire x1="22.45" y1="44.5" x2="20.7" y2="44.5" width="0.2" layer="1"/>
 </signal>
-<signal name="CAN_EN">
+<signal name="CAN_SHDN">
 <contactref element="U2" pad="5"/>
 <contactref element="U6" pad="20"/>
 <wire x1="42.75" y1="37.5" x2="43.8" y2="37.5" width="0.2" layer="1"/>
@@ -5764,7 +5764,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="47.9" y1="37.625" x2="48.5822" y2="37.625" width="0.2" layer="1"/>
 <wire x1="48.5822" y1="37.625" x2="48.95" y2="37.2572" width="0.2" layer="1"/>
 </signal>
-<signal name="CAN_LSTN">
+<signal name="CAN_SILENT">
 <contactref element="U2" pad="8"/>
 <contactref element="U6" pad="19"/>
 <wire x1="42.75" y1="36.7" x2="43.8" y2="36.7" width="0.2" layer="1"/>

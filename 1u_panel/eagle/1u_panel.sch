@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -17724,7 +17724,7 @@ flight</text>
 <pinref part="U6" gate="G$1" pin="PA11"/>
 </segment>
 </net>
-<net name="CAN_EN" class="0">
+<net name="CAN_SHDN" class="0">
 <segment>
 <wire x1="353.06" y1="83.82" x2="289.56" y2="83.82" width="0.1524" layer="91"/>
 <label x="292.1" y="83.82" size="1.778" layer="95"/>
@@ -17732,7 +17732,7 @@ flight</text>
 <pinref part="U6" gate="G$1" pin="PA10"/>
 </segment>
 </net>
-<net name="CAN_LSTN" class="0">
+<net name="CAN_SILENT" class="0">
 <segment>
 <wire x1="289.56" y1="86.36" x2="347.98" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="86.36" x2="347.98" y2="78.74" width="0.1524" layer="91"/>
