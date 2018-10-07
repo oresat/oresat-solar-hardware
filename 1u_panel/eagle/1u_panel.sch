@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10563,17 +10563,31 @@ Medium fit, class-B.</description>
 <library name="oresat-solar-board">
 <packages>
 <package name="ORESAT-SOLAR-BOARD-V2">
-<wire x1="80" y1="100" x2="58.55" y2="100" width="0" layer="20"/>
-<wire x1="56.45" y1="100" x2="25.55" y2="100" width="0" layer="20"/>
-<wire x1="23.45" y1="100" x2="2" y2="100" width="0" layer="20"/>
+<wire x1="80" y1="100" x2="59.55" y2="100" width="0" layer="20"/>
+<wire x1="59.55" y1="100" x2="58.55" y2="99" width="0" layer="20" curve="90"/>
+<wire x1="58.55" y1="99" x2="58.55" y2="98" width="0" layer="20"/>
+<wire x1="56.45" y1="98" x2="56.45" y2="99" width="0" layer="20"/>
+<wire x1="56.45" y1="99" x2="55.45" y2="100" width="0" layer="20" curve="90"/>
+<wire x1="55.45" y1="100" x2="26.55" y2="100" width="0" layer="20"/>
+<wire x1="26.55" y1="100" x2="25.55" y2="99" width="0" layer="20" curve="90"/>
+<wire x1="25.55" y1="99" x2="25.55" y2="98" width="0" layer="20"/>
+<wire x1="23.45" y1="98" x2="23.45" y2="99" width="0" layer="20"/>
+<wire x1="23.45" y1="99" x2="22.45" y2="100" width="0" layer="20" curve="90"/>
+<wire x1="22.45" y1="100" x2="2" y2="100" width="0" layer="20"/>
 <wire x1="2" y1="100" x2="0" y2="98" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="98" x2="0" y2="2" width="0" layer="20"/>
 <wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="2" y1="0" x2="23.45" y2="0" width="0" layer="20"/>
-<wire x1="23.45" y1="0" x2="23.45" y2="1.5" width="0" layer="20"/>
-<wire x1="25.55" y1="1.5" x2="25.55" y2="0" width="0" layer="20"/>
-<wire x1="25.55" y1="0" x2="56.45" y2="0" width="0" layer="20"/>
-<wire x1="58.55" y1="0" x2="80" y2="0" width="0" layer="20"/>
+<wire x1="2" y1="0" x2="22.45" y2="0" width="0" layer="20"/>
+<wire x1="22.45" y1="0" x2="23.45" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="23.45" y1="1" x2="23.45" y2="1.5" width="0" layer="20"/>
+<wire x1="25.55" y1="1.5" x2="25.55" y2="1" width="0" layer="20"/>
+<wire x1="25.55" y1="1" x2="26.55" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="26.55" y1="0" x2="55.45" y2="0" width="0" layer="20"/>
+<wire x1="55.45" y1="0" x2="56.45" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="56.45" y1="1" x2="56.45" y2="1.5" width="0" layer="20"/>
+<wire x1="58.55" y1="1.5" x2="58.55" y2="1" width="0" layer="20"/>
+<wire x1="58.55" y1="1" x2="59.55" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="59.55" y1="0" x2="80" y2="0" width="0" layer="20"/>
 <wire x1="80" y1="0" x2="82" y2="2" width="0" layer="20" curve="90"/>
 <wire x1="82" y1="2" x2="82" y2="98" width="0" layer="20"/>
 <wire x1="82" y1="98" x2="80" y2="100" width="0" layer="20" curve="90"/>
@@ -10626,14 +10640,8 @@ Medium fit, class-B.</description>
 <hole x="2" y="65" drill="2.1"/>
 <hole x="80" y="65" drill="2.1"/>
 <wire x1="23.45" y1="1.5" x2="25.55" y2="1.5" width="0" layer="20" curve="-180"/>
-<wire x1="56.45" y1="0" x2="56.45" y2="1.5" width="0" layer="20"/>
-<wire x1="58.55" y1="1.5" x2="58.55" y2="0" width="0" layer="20"/>
 <wire x1="56.45" y1="1.5" x2="58.55" y2="1.5" width="0" layer="20" curve="-180"/>
-<wire x1="25.55" y1="100" x2="25.55" y2="98" width="0" layer="20"/>
-<wire x1="23.45" y1="98" x2="23.45" y2="100" width="0" layer="20"/>
 <wire x1="25.55" y1="98" x2="23.45" y2="98" width="0" layer="20" curve="-180"/>
-<wire x1="58.55" y1="100" x2="58.55" y2="98" width="0" layer="20"/>
-<wire x1="56.45" y1="98" x2="56.45" y2="100" width="0" layer="20"/>
 <wire x1="58.55" y1="98" x2="56.45" y2="98" width="0" layer="20" curve="-180"/>
 <wire x1="14.5" y1="64.7" x2="14.5" y2="33.7" width="0" layer="20"/>
 <wire x1="14.5" y1="33.7" x2="11.5" y2="30.7" width="0" layer="20" curve="-90"/>
@@ -10674,34 +10682,42 @@ Medium fit, class-B.</description>
 <vertex x="0" y="6"/>
 <vertex x="0" y="2" curve="90"/>
 <vertex x="2" y="0"/>
-<vertex x="23.4" y="0"/>
+<vertex x="22.4" y="0" curve="90"/>
+<vertex x="23.4" y="1"/>
 <vertex x="23.4" y="1.5" curve="-90"/>
 <vertex x="24.4" y="2.5"/>
 <vertex x="24.5" y="2.5" curve="-90"/>
 <vertex x="25.6" y="1.4"/>
-<vertex x="25.6" y="0"/>
-<vertex x="56.4" y="0"/>
+<vertex x="25.6" y="1" curve="90"/>
+<vertex x="26.6" y="0"/>
+<vertex x="55.4" y="0" curve="90"/>
+<vertex x="56.4" y="1"/>
 <vertex x="56.4" y="1.5" curve="-90"/>
 <vertex x="57.4" y="2.5"/>
 <vertex x="57.5" y="2.5" curve="-90"/>
 <vertex x="58.6" y="1.4"/>
-<vertex x="58.6" y="0"/>
+<vertex x="58.6" y="1" curve="90"/>
+<vertex x="59.6" y="0"/>
 <vertex x="80" y="0" curve="90"/>
 <vertex x="82" y="2"/>
 <vertex x="82" y="98" curve="90"/>
 <vertex x="80" y="100"/>
-<vertex x="58.6" y="100"/>
+<vertex x="59.6" y="100" curve="90"/>
+<vertex x="58.6" y="99"/>
 <vertex x="58.6" y="98" curve="-90"/>
 <vertex x="57.5" y="96.9"/>
 <vertex x="57.4" y="96.9" curve="-90"/>
 <vertex x="56.4" y="97.9"/>
-<vertex x="56.4" y="100"/>
-<vertex x="25.6" y="100"/>
+<vertex x="56.4" y="99" curve="90"/>
+<vertex x="55.4" y="100"/>
+<vertex x="26.6" y="100" curve="90"/>
+<vertex x="25.6" y="99"/>
 <vertex x="25.6" y="98" curve="-90"/>
 <vertex x="24.5" y="96.9"/>
 <vertex x="24.4" y="96.9" curve="-90"/>
 <vertex x="23.4" y="97.9"/>
-<vertex x="23.4" y="100"/>
+<vertex x="23.4" y="99" curve="90"/>
+<vertex x="22.4" y="100"/>
 <vertex x="2" y="100" curve="90"/>
 <vertex x="0" y="98"/>
 <vertex x="0" y="6.127"/>
@@ -10801,34 +10817,42 @@ Medium fit, class-B.</description>
 <vertex x="0" y="3"/>
 <vertex x="0" y="2" curve="90"/>
 <vertex x="2" y="0"/>
-<vertex x="23.4" y="0"/>
+<vertex x="22.4" y="0" curve="90"/>
+<vertex x="23.4" y="1"/>
 <vertex x="23.4" y="1.5" curve="-90"/>
 <vertex x="24.4" y="2.5"/>
 <vertex x="24.5" y="2.5" curve="-90"/>
 <vertex x="25.6" y="1.4"/>
-<vertex x="25.6" y="0"/>
-<vertex x="56.4" y="0"/>
+<vertex x="25.6" y="1" curve="90"/>
+<vertex x="26.6" y="0"/>
+<vertex x="55.4" y="0" curve="90"/>
+<vertex x="56.4" y="1"/>
 <vertex x="56.4" y="1.5" curve="-90"/>
 <vertex x="57.4" y="2.5"/>
 <vertex x="57.5" y="2.5" curve="-90"/>
 <vertex x="58.6" y="1.4"/>
-<vertex x="58.6" y="0"/>
+<vertex x="58.6" y="1" curve="90"/>
+<vertex x="59.6" y="0"/>
 <vertex x="80" y="0" curve="90"/>
 <vertex x="82" y="2"/>
 <vertex x="82" y="98" curve="90"/>
 <vertex x="80" y="100"/>
-<vertex x="58.6" y="100"/>
+<vertex x="59.6" y="100" curve="90"/>
+<vertex x="58.6" y="99"/>
 <vertex x="58.6" y="98" curve="-90"/>
 <vertex x="57.5" y="96.9"/>
 <vertex x="57.4" y="96.9" curve="-90"/>
 <vertex x="56.4" y="97.9"/>
-<vertex x="56.4" y="100"/>
-<vertex x="25.6" y="100"/>
+<vertex x="56.4" y="99" curve="90"/>
+<vertex x="55.4" y="100"/>
+<vertex x="26.6" y="100" curve="90"/>
+<vertex x="25.6" y="99"/>
 <vertex x="25.6" y="98" curve="-90"/>
 <vertex x="24.5" y="96.9"/>
 <vertex x="24.4" y="96.9" curve="-90"/>
 <vertex x="23.4" y="97.9"/>
-<vertex x="23.4" y="100"/>
+<vertex x="23.4" y="99" curve="90"/>
+<vertex x="22.4" y="100"/>
 <vertex x="2" y="100" curve="90"/>
 <vertex x="0" y="98"/>
 <vertex x="0" y="3"/>
