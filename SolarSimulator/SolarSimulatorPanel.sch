@@ -9949,18 +9949,6 @@ Based on the following sources:
 <approved hash="202,1,68.58,157.48,TB1,A5,,,,"/>
 <approved hash="202,1,68.58,160.02,TB1,A6,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,121.051,224.79,C8,,,,,"/>
-<approved hash="113,1,121.051,168.91,C1,,,,,"/>
-<approved hash="113,1,118.511,105.41,C6,,,,,"/>
-<approved hash="113,1,209.73,187.96,R6,,,,,"/>
-<approved hash="113,1,209.73,132.08,R2,,,,,"/>
-<approved hash="113,1,212.27,60.96,R3,,,,,"/>
-<approved hash="113,1,187.091,158.75,C3,,,,,"/>
-<approved hash="113,1,187.801,214.63,C10,,,,,"/>
-<approved hash="113,1,187.091,90.17,C7,,,,,"/>
-<approved hash="113,1,138.831,146.05,C2,,,,,"/>
-<approved hash="113,1,137.001,80.01,C12,,,,,"/>
-<approved hash="113,1,138.831,201.93,C9,,,,,"/>
 </errors>
 </schematic>
 </drawing>
