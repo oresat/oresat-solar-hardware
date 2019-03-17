@@ -144,12 +144,17 @@
 <library name="solarsim">
 <packages>
 <package name="X-QE">
-<wire x1="0" y1="0" x2="0" y2="1.6" width="0.127" layer="21"/>
-<wire x1="0" y1="1.6" x2="1.6" y2="1.6" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.6" y2="0" width="0.127" layer="21"/>
-<wire x1="1.6" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="INPUT" x="0.35" y="0.8" dx="0.6" dy="1.5" layer="1" rot="R180"/>
-<smd name="OUTPUT" x="1.25" y="0.8" dx="0.6" dy="1.5" layer="1" rot="R180"/>
+<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.127" layer="51"/>
+<smd name="ANODE" x="-0.45" y="0" dx="0.65" dy="1.6" layer="1" rot="R180"/>
+<smd name="CATHODE" x="0.45" y="0" dx="0.65" dy="1.6" layer="1" rot="R180"/>
+<wire x1="-0.3" y1="1.6" x2="-0.3" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="1" x2="0.1" y2="1.3" width="0.127" layer="21"/>
+<wire x1="0.1" y1="1.3" x2="-0.3" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.2" y1="1.6" x2="0.2" y2="1" width="0.127" layer="21"/>
+<text x="-0.9" y="-1.8" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
 <package name="M08A">
 <smd name="1" x="-2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
@@ -338,14 +343,17 @@
 </packages>
 <symbols>
 <symbol name="X-QE">
-<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.1778" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.1778" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="0" width="0.1778" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.905" width="0.1778" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.1778" layer="94"/>
 <text x="-2.3114" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.5654" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1778" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1778" layer="94"/>
 </symbol>
 <symbol name="LM3404HVMA">
 <pin name="SW" x="15.24" y="-2.54" length="short" direction="pwr" rot="R180"/>
@@ -394,15 +402,15 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="X-QE">
+<deviceset name="X-QE" prefix="D">
 <gates>
 <gate name="G$1" symbol="X-QE" x="5.08" y="0"/>
 </gates>
 <devices>
 <device name="" package="X-QE">
 <connects>
-<connect gate="G$1" pin="A" pad="INPUT"/>
-<connect gate="G$1" pin="C" pad="OUTPUT"/>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16392,7 +16400,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <wire x1="330.2" y1="213.36" x2="332.74" y2="213.36" width="0.3048" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="N$8SHSHOW" class="0">
 <segment>
 <pinref part="BLUE9" gate="G$1" pin="C"/>
 <pinref part="BLUE10" gate="G$1" pin="A"/>
