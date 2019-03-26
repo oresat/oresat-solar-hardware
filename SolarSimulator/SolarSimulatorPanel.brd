@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
@@ -2946,33 +2946,33 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="BLUE7" library="solarsim" package="X-QE" value="X-QE" x="114" y="38" smashed="yes" rot="R180"/>
 <element name="BLUE8" library="solarsim" package="X-QE" value="X-QE" x="94" y="38" smashed="yes" rot="R180"/>
 <element name="BLUE9" library="solarsim" package="X-QE" value="X-QE" x="74" y="38" smashed="yes" rot="R180"/>
-<element name="C11" library="oresat-rcl" package="1206-B" value="10u" x="43.1" y="63.4" smashed="yes" rot="R90">
+<element name="C11" library="oresat-rcl" package="1206-B" value="10uF" x="43.1" y="63.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.2" y="65.9" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="45.64" y="62.13" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C4" library="oresat-rcl" package="1206-B" value="10u" x="43" y="47.4" smashed="yes" rot="R90">
+<element name="C4" library="oresat-rcl" package="1206-B" value="10uF" x="43" y="47.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.6" y="49.8" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="45.54" y="37.13" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C5" library="oresat-rcl" package="1206-B" value="10u" x="43" y="31.7" smashed="yes" rot="R90">
+<element name="C5" library="oresat-rcl" package="1206-B" value="10uF" x="43" y="31.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.5" y="34.1" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="45.54" y="30.43" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="GREEN" library="solarsim" package="X-QE" value="X-QE" x="59" y="44" smashed="yes"/>
-<element name="GREEN1" library="solarsim" package="X-QE" value="X-QE" x="79" y="44" smashed="yes"/>
-<element name="GREEN10" library="solarsim" package="X-QE" value="X-QE" x="59" y="20" smashed="yes"/>
-<element name="GREEN11" library="solarsim" package="X-QE" value="X-QE" x="79" y="20" smashed="yes"/>
-<element name="GREEN12" library="solarsim" package="X-QE" value="X-QE" x="99" y="20" smashed="yes"/>
-<element name="GREEN13" library="solarsim" package="X-QE" value="X-QE" x="119" y="20" smashed="yes"/>
-<element name="GREEN14" library="solarsim" package="X-QE" value="X-QE" x="139" y="20" smashed="yes"/>
-<element name="GREEN2" library="solarsim" package="X-QE" value="X-QE" x="99" y="44" smashed="yes"/>
-<element name="GREEN3" library="solarsim" package="X-QE" value="X-QE" x="119" y="44" smashed="yes"/>
-<element name="GREEN4" library="solarsim" package="X-QE" value="X-QE" x="139" y="44" smashed="yes"/>
-<element name="GREEN5" library="solarsim" package="X-QE" value="X-QE" x="139" y="32" smashed="yes" rot="R180"/>
-<element name="GREEN6" library="solarsim" package="X-QE" value="X-QE" x="119" y="32" smashed="yes" rot="R180"/>
-<element name="GREEN7" library="solarsim" package="X-QE" value="X-QE" x="99" y="32" smashed="yes" rot="R180"/>
-<element name="GREEN8" library="solarsim" package="X-QE" value="X-QE" x="79" y="32" smashed="yes" rot="R180"/>
-<element name="GREEN9" library="solarsim" package="X-QE" value="X-QE" x="59" y="32" smashed="yes" rot="R180"/>
+<element name="GREEN1" library="solarsim" package="X-QE" value="X-QE" x="59" y="44" smashed="yes"/>
+<element name="GREEN2" library="solarsim" package="X-QE" value="X-QE" x="79" y="44" smashed="yes"/>
+<element name="GREEN11" library="solarsim" package="X-QE" value="X-QE" x="59" y="20" smashed="yes"/>
+<element name="GREEN12" library="solarsim" package="X-QE" value="X-QE" x="79" y="20" smashed="yes"/>
+<element name="GREEN13" library="solarsim" package="X-QE" value="X-QE" x="99" y="20" smashed="yes"/>
+<element name="GREEN14" library="solarsim" package="X-QE" value="X-QE" x="119" y="20" smashed="yes"/>
+<element name="GREEN15" library="solarsim" package="X-QE" value="X-QE" x="139" y="20" smashed="yes"/>
+<element name="GREEN3" library="solarsim" package="X-QE" value="X-QE" x="99" y="44" smashed="yes"/>
+<element name="GREEN4" library="solarsim" package="X-QE" value="X-QE" x="119" y="44" smashed="yes"/>
+<element name="GREEN5" library="solarsim" package="X-QE" value="X-QE" x="139" y="44" smashed="yes"/>
+<element name="GREEN6" library="solarsim" package="X-QE" value="X-QE" x="139" y="32" smashed="yes" rot="R180"/>
+<element name="GREEN7" library="solarsim" package="X-QE" value="X-QE" x="119" y="32" smashed="yes" rot="R180"/>
+<element name="GREEN8" library="solarsim" package="X-QE" value="X-QE" x="99" y="32" smashed="yes" rot="R180"/>
+<element name="GREE9" library="solarsim" package="X-QE" value="X-QE" x="79" y="32" smashed="yes" rot="R180"/>
+<element name="GREEN10" library="solarsim" package="X-QE" value="X-QE" x="59" y="32" smashed="yes" rot="R180"/>
 <element name="R1" library="oresat-rcl" package=".0603-B-NOSILK" value="597k" x="11.49" y="44.39" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.1" y="46" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="8.95" y="45.66" size="1.27" layer="27" rot="R270"/>
@@ -2985,31 +2985,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="11.1" y="62.2" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="9.01" y="61.77" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="RED" library="solarsim" package="X-QE" value="X-QE" x="64" y="50" smashed="yes"/>
-<element name="RED1" library="solarsim" package="X-QE" value="X-QE" x="84" y="50" smashed="yes"/>
-<element name="RED10" library="solarsim" package="X-QE" value="X-QE" x="64" y="26" smashed="yes"/>
-<element name="RED11" library="solarsim" package="X-QE" value="X-QE" x="84" y="26" smashed="yes"/>
-<element name="RED12" library="solarsim" package="X-QE" value="X-QE" x="104" y="26" smashed="yes"/>
-<element name="RED13" library="solarsim" package="X-QE" value="X-QE" x="124" y="26" smashed="yes"/>
-<element name="RED14" library="solarsim" package="X-QE" value="X-QE" x="144" y="26" smashed="yes"/>
-<element name="RED2" library="solarsim" package="X-QE" value="X-QE" x="104" y="50" smashed="yes"/>
-<element name="RED3" library="solarsim" package="X-QE" value="X-QE" x="124" y="50" smashed="yes"/>
-<element name="RED4" library="solarsim" package="X-QE" value="X-QE" x="144" y="50" smashed="yes"/>
-<element name="RED5" library="solarsim" package="X-QE" value="X-QE" x="144" y="38" smashed="yes" rot="R180"/>
-<element name="RED6" library="solarsim" package="X-QE" value="X-QE" x="124" y="38" smashed="yes" rot="R180"/>
-<element name="RED7" library="solarsim" package="X-QE" value="X-QE" x="104" y="38" smashed="yes" rot="R180"/>
-<element name="RED8" library="solarsim" package="X-QE" value="X-QE" x="84" y="38" smashed="yes" rot="R180"/>
-<element name="RED9" library="solarsim" package="X-QE" value="X-QE" x="64" y="38" smashed="yes" rot="R180"/>
-<element name="U1" library="solarsim" package="M08A" value="Red Driver" x="20.4" y="44.2" smashed="yes" rot="R180">
+<element name="RED1" library="solarsim" package="X-QE" value="X-QE" x="64" y="50" smashed="yes"/>
+<element name="RED2" library="solarsim" package="X-QE" value="X-QE" x="84" y="50" smashed="yes"/>
+<element name="RED11" library="solarsim" package="X-QE" value="X-QE" x="64" y="26" smashed="yes"/>
+<element name="RED12" library="solarsim" package="X-QE" value="X-QE" x="84" y="26" smashed="yes"/>
+<element name="RED13" library="solarsim" package="X-QE" value="X-QE" x="104" y="26" smashed="yes"/>
+<element name="RED14" library="solarsim" package="X-QE" value="X-QE" x="124" y="26" smashed="yes"/>
+<element name="RED15" library="solarsim" package="X-QE" value="X-QE" x="144" y="26" smashed="yes"/>
+<element name="RED3" library="solarsim" package="X-QE" value="X-QE" x="104" y="50" smashed="yes"/>
+<element name="RED4" library="solarsim" package="X-QE" value="X-QE" x="124" y="50" smashed="yes"/>
+<element name="RED5" library="solarsim" package="X-QE" value="X-QE" x="144" y="50" smashed="yes"/>
+<element name="RED6" library="solarsim" package="X-QE" value="X-QE" x="144" y="38" smashed="yes" rot="R180"/>
+<element name="RED7" library="solarsim" package="X-QE" value="X-QE" x="124" y="38" smashed="yes" rot="R180"/>
+<element name="RED8" library="solarsim" package="X-QE" value="X-QE" x="104" y="38" smashed="yes" rot="R180"/>
+<element name="RED9" library="solarsim" package="X-QE" value="X-QE" x="84" y="38" smashed="yes" rot="R180"/>
+<element name="RED10" library="solarsim" package="X-QE" value="X-QE" x="64" y="38" smashed="yes" rot="R180"/>
+<element name="U2" library="solarsim" package="M08A" value="Red Driver" x="20.4" y="44.2" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="lm3404hvma" x="20.4" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="16.9" y="46.9" size="0.7" layer="25" font="vector" ratio="20" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="20.4" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U2" library="solarsim" package="M08A" value="LM3404HVMA" x="20.4" y="28.7" smashed="yes" rot="R180">
+<element name="U3" library="solarsim" package="M08A" value="Green Driver" x="20.4" y="28.7" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="lm3404hvma" x="20.4" y="28.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Texas Instruments" x="20.4" y="28.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U3" library="solarsim" package="M08A" value="Blue Driver" x="20.5" y="60.2" smashed="yes" rot="R180">
+<element name="U1" library="solarsim" package="M08A" value="Blue Driver" x="20.5" y="60.2" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="lm3404hvma" x="20.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Texas Instruments" x="20.5" y="60.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -3037,45 +3037,45 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="13.365" y="7.035" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="12.195" y="6.135" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="" x="12.8" y="55.3" smashed="yes" rot="R270">
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="1 uF 120V" x="12.8" y="55.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="16" y="55.3" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="C" x="12.8" y="55.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.825" y="58.1" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="" x="12.7" y="39.3" smashed="yes" rot="R270">
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="1 uF 120V" x="12.7" y="39.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.8" y="39.2" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="C" x="12.7" y="39.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.725" y="42.1" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="" x="12.7" y="23.8" smashed="yes" rot="R270">
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="1 uF 120V" x="12.7" y="23.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.7" y="23.6" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="C" x="12.7" y="23.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.725" y="26.6" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="" x="22.8" y="64.9" smashed="yes">
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m" x="22.8" y="64.9" smashed="yes">
 <attribute name="NAME" x="22.025" y="67.005" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="R" x="22.8" y="64.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.625" y="61.725" size="1.27" layer="27"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="" x="22.7" y="48.9" smashed="yes">
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m" x="22.7" y="48.9" smashed="yes">
 <attribute name="NAME" x="22.225" y="50.605" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="R" x="22.7" y="48.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.525" y="45.725" size="1.27" layer="27"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="" x="22.7" y="33.2" smashed="yes">
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m" x="22.7" y="33.2" smashed="yes">
 <attribute name="NAME" x="22.325" y="35.005" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="R" x="22.7" y="33.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.525" y="30.025" size="1.27" layer="27"/>
 </element>
-<element name="C3" library="oresat-rcl" package=".0603-B-NOSILK" value="10n 25V" x="25.5" y="43.6" smashed="yes">
+<element name="C3" library="oresat-rcl" package=".0603-B-NOSILK" value="10nF 25V" x="25.5" y="43.6" smashed="yes">
 <attribute name="NAME" x="26" y="44.425" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="25" y="42.15" size="1.016" layer="27"/>
 </element>
-<element name="C10" library="oresat-rcl" package=".0603-B-NOSILK" value="10n 25V" x="25.8" y="59.6" smashed="yes">
+<element name="C10" library="oresat-rcl" package=".0603-B-NOSILK" value="10nF 25V" x="25.8" y="59.6" smashed="yes">
 <attribute name="NAME" x="26.3" y="60.425" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="25.3" y="58.15" size="1.016" layer="27"/>
 </element>
-<element name="C7" library="oresat-rcl" package=".0603-B-NOSILK" value="10n 25V" x="25.8" y="28.2" smashed="yes">
+<element name="C7" library="oresat-rcl" package=".0603-B-NOSILK" value="10nF 25V" x="25.8" y="28.2" smashed="yes">
 <attribute name="NAME" x="25.3" y="29.025" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="25.3" y="26.75" size="1.016" layer="27"/>
 </element>
@@ -3083,11 +3083,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="14.9" y="44.55" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.7" y="45.35" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="C12" library="oresat-rcl" package=".0603-B-NOSILK" value="100n 25V" x="14.5" y="28.2" smashed="yes" rot="R180">
+<element name="C12" library="oresat-rcl" package=".0603-B-NOSILK" value="100nF 25V" x="14.5" y="28.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.2" y="29" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.3" y="29.85" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="C9" library="oresat-rcl" package=".0603-B-NOSILK" value="100n 25V" x="15" y="59.7" smashed="yes" rot="R180">
+<element name="C9" library="oresat-rcl" package=".0603-B-NOSILK" value="100nF 25V" x="15" y="59.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.9" y="60.45" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.8" y="61.35" size="1.016" layer="27" rot="R180"/>
 </element>
@@ -3133,7 +3133,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </elements>
 <signals>
 <signal name="N$6">
-<contactref element="U1" pad="6"/>
+<contactref element="U2" pad="6"/>
 <contactref element="R1" pad="1"/>
 <wire x1="17.9362" y1="44.835" x2="15.265" y2="44.835" width="0.3" layer="1"/>
 <wire x1="15.265" y1="44.835" x2="14" y2="46.1" width="0.3" layer="1"/>
@@ -3142,8 +3142,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.8" y1="46.1" x2="11.49" y2="45.79" width="0.3" layer="1"/>
 </signal>
 <signal name="N$5">
-<contactref element="RED5" pad="CATHODE"/>
-<contactref element="RED6" pad="ANODE"/>
+<contactref element="RED6" pad="CATHODE"/>
+<contactref element="RED7" pad="ANODE"/>
 <via x="142.5" y="38.5" extent="1-16" drill="0.35"/>
 <via x="142.5" y="37.5" extent="1-16" drill="0.35"/>
 <via x="125.5" y="38.5" extent="1-16" drill="0.35"/>
@@ -3183,8 +3183,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$7">
-<contactref element="RED6" pad="CATHODE"/>
-<contactref element="RED7" pad="ANODE"/>
+<contactref element="RED7" pad="CATHODE"/>
+<contactref element="RED8" pad="ANODE"/>
 <via x="122.5" y="38.5" extent="1-16" drill="0.35"/>
 <via x="122.5" y="37.5" extent="1-16" drill="0.35"/>
 <via x="105.5" y="37.5" extent="1-16" drill="0.35"/>
@@ -3223,8 +3223,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$8">
-<contactref element="RED7" pad="CATHODE"/>
-<contactref element="RED8" pad="ANODE"/>
+<contactref element="RED8" pad="CATHODE"/>
+<contactref element="RED9" pad="ANODE"/>
 <via x="102.5" y="37.5" extent="1-16" drill="0.35"/>
 <via x="102.5" y="38.5" extent="1-16" drill="0.35"/>
 <via x="85.5" y="37.5" extent="1-16" drill="0.35"/>
@@ -3264,8 +3264,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$9">
-<contactref element="RED8" pad="CATHODE"/>
-<contactref element="RED9" pad="ANODE"/>
+<contactref element="RED9" pad="CATHODE"/>
+<contactref element="RED10" pad="ANODE"/>
 <via x="82.5" y="38.5" extent="1-16" drill="0.35"/>
 <via x="82.5" y="37.5" extent="1-16" drill="0.35"/>
 <via x="65.5" y="38.5" extent="1-16" drill="0.35"/>
@@ -3305,8 +3305,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$10">
-<contactref element="RED10" pad="CATHODE"/>
-<contactref element="RED11" pad="ANODE"/>
+<contactref element="RED11" pad="CATHODE"/>
+<contactref element="RED12" pad="ANODE"/>
 <via x="82.5" y="25.5" extent="1-16" drill="0.35"/>
 <via x="65.5" y="26.5" extent="1-16" drill="0.35"/>
 <via x="66.5" y="25.5" extent="1-16" drill="0.35"/>
@@ -3346,8 +3346,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$11">
-<contactref element="RED11" pad="CATHODE"/>
-<contactref element="RED12" pad="ANODE"/>
+<contactref element="RED12" pad="CATHODE"/>
+<contactref element="RED13" pad="ANODE"/>
 <via x="85.5" y="25.5" extent="1-16" drill="0.35"/>
 <via x="102.5" y="25.5" extent="1-16" drill="0.35"/>
 <via x="102.5" y="26.5" extent="1-16" drill="0.35"/>
@@ -3387,8 +3387,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$12">
-<contactref element="RED12" pad="CATHODE"/>
-<contactref element="RED13" pad="ANODE"/>
+<contactref element="RED13" pad="CATHODE"/>
+<contactref element="RED14" pad="ANODE"/>
 <via x="122.5" y="25.5" extent="1-16" drill="0.35"/>
 <via x="121.5" y="25.5" extent="1-16" drill="0.35"/>
 <via x="105.5" y="25.5" extent="1-16" drill="0.35"/>
@@ -3428,8 +3428,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$13">
-<contactref element="RED13" pad="CATHODE"/>
-<contactref element="RED14" pad="ANODE"/>
+<contactref element="RED14" pad="CATHODE"/>
+<contactref element="RED15" pad="ANODE"/>
 <via x="142.5" y="25.5" extent="1-16" drill="0.35"/>
 <via x="125.5" y="25.5" extent="1-16" drill="0.35"/>
 <via x="142.5" y="26.5" extent="1-16" drill="0.35"/>
@@ -3469,8 +3469,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$14">
-<contactref element="RED" pad="CATHODE"/>
-<contactref element="RED1" pad="ANODE"/>
+<contactref element="RED1" pad="CATHODE"/>
+<contactref element="RED2" pad="ANODE"/>
 <via x="65.5" y="50.5" extent="1-16" drill="0.35"/>
 <via x="82.5" y="49.5" extent="1-16" drill="0.35"/>
 <via x="65.5" y="49.5" extent="1-16" drill="0.35"/>
@@ -3510,8 +3510,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$15">
-<contactref element="RED1" pad="CATHODE"/>
-<contactref element="RED2" pad="ANODE"/>
+<contactref element="RED2" pad="CATHODE"/>
+<contactref element="RED3" pad="ANODE"/>
 <via x="102.5" y="50.5" extent="1-16" drill="0.35"/>
 <via x="85.5" y="49.5" extent="1-16" drill="0.35"/>
 <via x="102.5" y="49.5" extent="1-16" drill="0.35"/>
@@ -3551,8 +3551,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$16">
-<contactref element="RED2" pad="CATHODE"/>
-<contactref element="RED3" pad="ANODE"/>
+<contactref element="RED3" pad="CATHODE"/>
+<contactref element="RED4" pad="ANODE"/>
 <via x="122.5" y="50.5" extent="1-16" drill="0.35"/>
 <via x="105.5" y="49.5" extent="1-16" drill="0.35"/>
 <via x="122.5" y="49.5" extent="1-16" drill="0.35"/>
@@ -3592,8 +3592,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$17">
-<contactref element="RED3" pad="CATHODE"/>
-<contactref element="RED4" pad="ANODE"/>
+<contactref element="RED4" pad="CATHODE"/>
+<contactref element="RED5" pad="ANODE"/>
 <via x="142.5" y="50.5" extent="1-16" drill="0.35"/>
 <via x="125.5" y="50.5" extent="1-16" drill="0.35"/>
 <via x="142.5" y="49.5" extent="1-16" drill="0.35"/>
@@ -3633,21 +3633,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$22">
-<contactref element="U1" pad="2"/>
+<contactref element="U2" pad="2"/>
 <contactref element="C3" pad="1"/>
 <wire x1="22.8638" y1="43.565" x2="24.665" y2="43.565" width="0.5" layer="1"/>
 <wire x1="24.665" y1="43.565" x2="24.7" y2="43.6" width="0.5" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="U1" pad="7"/>
+<contactref element="U2" pad="7"/>
 <contactref element="C2" pad="1"/>
 <wire x1="17.9362" y1="43.565" x2="16.535" y2="43.565" width="0.55" layer="1"/>
 <wire x1="16.535" y1="43.565" x2="16.4" y2="43.7" width="0.55" layer="1"/>
 <wire x1="16.4" y1="43.7" x2="15.7" y2="43.7" width="0.55" layer="1"/>
 </signal>
 <signal name="GREEN-RTN">
-<contactref element="U2" pad="5"/>
-<contactref element="GREEN14" pad="CATHODE"/>
+<contactref element="U3" pad="5"/>
+<contactref element="GREEN15" pad="CATHODE"/>
 <contactref element="C5" pad="2"/>
 <via x="140.5" y="20.5" extent="1-16" drill="0.35"/>
 <via x="141.5" y="20.5" extent="1-16" drill="0.35"/>
@@ -3689,22 +3689,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="46.4" y1="32" x2="46.4" y2="31.2" width="1" layer="1"/>
 </signal>
 <signal name="N$32">
-<contactref element="U2" pad="2"/>
+<contactref element="U3" pad="2"/>
 <contactref element="C7" pad="1"/>
 <wire x1="22.8638" y1="28.065" x2="24.265" y2="28.065" width="0.3" layer="1"/>
 <wire x1="24.265" y1="28.065" x2="24.4" y2="28.2" width="0.3" layer="1"/>
 <wire x1="24.4" y1="28.2" x2="25" y2="28.2" width="0.3" layer="1"/>
 </signal>
 <signal name="N$33">
-<contactref element="U2" pad="7"/>
+<contactref element="U3" pad="7"/>
 <contactref element="C12" pad="1"/>
 <wire x1="17.9362" y1="28.065" x2="16.335" y2="28.065" width="0.55" layer="1"/>
 <wire x1="16.335" y1="28.065" x2="16.2" y2="28.2" width="0.55" layer="1"/>
 <wire x1="16.2" y1="28.2" x2="15.3" y2="28.2" width="0.55" layer="1"/>
 </signal>
 <signal name="N$35">
-<contactref element="GREEN" pad="CATHODE"/>
-<contactref element="GREEN1" pad="ANODE"/>
+<contactref element="GREEN1" pad="CATHODE"/>
+<contactref element="GREEN2" pad="ANODE"/>
 <via x="60.5" y="44.5" extent="1-16" drill="0.35"/>
 <via x="77.5" y="44.5" extent="1-16" drill="0.35"/>
 <via x="77.5" y="43.5" extent="1-16" drill="0.35"/>
@@ -3733,8 +3733,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$36">
-<contactref element="GREEN1" pad="CATHODE"/>
-<contactref element="GREEN2" pad="ANODE"/>
+<contactref element="GREEN2" pad="CATHODE"/>
+<contactref element="GREEN3" pad="ANODE"/>
 <via x="80.5" y="43.5" extent="1-16" drill="0.35"/>
 <via x="97.5" y="44.5" extent="1-16" drill="0.35"/>
 <via x="97.5" y="43.5" extent="1-16" drill="0.35"/>
@@ -3763,8 +3763,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$37">
-<contactref element="GREEN2" pad="CATHODE"/>
-<contactref element="GREEN3" pad="ANODE"/>
+<contactref element="GREEN3" pad="CATHODE"/>
+<contactref element="GREEN4" pad="ANODE"/>
 <via x="100.5" y="44.5" extent="1-16" drill="0.35"/>
 <via x="117.5" y="44.5" extent="1-16" drill="0.35"/>
 <via x="117.5" y="43.5" extent="1-16" drill="0.35"/>
@@ -3793,8 +3793,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$38">
-<contactref element="GREEN3" pad="CATHODE"/>
-<contactref element="GREEN4" pad="ANODE"/>
+<contactref element="GREEN4" pad="CATHODE"/>
+<contactref element="GREEN5" pad="ANODE"/>
 <via x="120.5" y="43.5" extent="1-16" drill="0.35"/>
 <via x="137.5" y="44.5" extent="1-16" drill="0.35"/>
 <via x="120.5" y="44.5" extent="1-16" drill="0.35"/>
@@ -3823,8 +3823,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$39">
-<contactref element="GREEN5" pad="CATHODE"/>
-<contactref element="GREEN6" pad="ANODE"/>
+<contactref element="GREEN6" pad="CATHODE"/>
+<contactref element="GREEN7" pad="ANODE"/>
 <via x="120.5" y="32.5" extent="1-16" drill="0.35"/>
 <via x="137.5" y="32.5" extent="1-16" drill="0.35"/>
 <via x="137.5" y="31.5" extent="1-16" drill="0.35"/>
@@ -3853,8 +3853,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$40">
-<contactref element="GREEN6" pad="CATHODE"/>
-<contactref element="GREEN7" pad="ANODE"/>
+<contactref element="GREEN7" pad="CATHODE"/>
+<contactref element="GREEN8" pad="ANODE"/>
 <via x="100.5" y="32.5" extent="1-16" drill="0.35"/>
 <via x="117.5" y="32.5" extent="1-16" drill="0.35"/>
 <via x="116.5" y="31.5" extent="1-16" drill="0.35"/>
@@ -3883,8 +3883,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$41">
-<contactref element="GREEN7" pad="CATHODE"/>
-<contactref element="GREEN8" pad="ANODE"/>
+<contactref element="GREEN8" pad="CATHODE"/>
+<contactref element="GREE9" pad="ANODE"/>
 <via x="80.5" y="32.5" extent="1-16" drill="0.35"/>
 <via x="97.5" y="32.5" extent="1-16" drill="0.35"/>
 <via x="96.5" y="31.5" extent="1-16" drill="0.35"/>
@@ -3913,8 +3913,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$42">
-<contactref element="GREEN8" pad="CATHODE"/>
-<contactref element="GREEN9" pad="ANODE"/>
+<contactref element="GREE9" pad="CATHODE"/>
+<contactref element="GREEN10" pad="ANODE"/>
 <via x="60.5" y="32.5" extent="1-16" drill="0.35"/>
 <via x="77.5" y="31.5" extent="1-16" drill="0.35"/>
 <via x="77.5" y="32.5" extent="1-16" drill="0.35"/>
@@ -3941,8 +3941,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$43">
-<contactref element="GREEN10" pad="CATHODE"/>
-<contactref element="GREEN11" pad="ANODE"/>
+<contactref element="GREEN11" pad="CATHODE"/>
+<contactref element="GREEN12" pad="ANODE"/>
 <via x="60.5" y="20.5" extent="1-16" drill="0.35"/>
 <via x="77.5" y="20.5" extent="1-16" drill="0.35"/>
 <via x="60.5" y="19.5" extent="1-16" drill="0.35"/>
@@ -3971,8 +3971,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$44">
-<contactref element="GREEN11" pad="CATHODE"/>
-<contactref element="GREEN12" pad="ANODE"/>
+<contactref element="GREEN12" pad="CATHODE"/>
+<contactref element="GREEN13" pad="ANODE"/>
 <via x="80.5" y="20.5" extent="1-16" drill="0.35"/>
 <via x="97.5" y="20.5" extent="1-16" drill="0.35"/>
 <via x="96.5" y="20.5" extent="1-16" drill="0.35"/>
@@ -4001,8 +4001,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$45">
-<contactref element="GREEN12" pad="CATHODE"/>
-<contactref element="GREEN13" pad="ANODE"/>
+<contactref element="GREEN13" pad="CATHODE"/>
+<contactref element="GREEN14" pad="ANODE"/>
 <via x="100.5" y="20.5" extent="1-16" drill="0.35"/>
 <via x="117.5" y="20.5" extent="1-16" drill="0.35"/>
 <polygon width="0.2" layer="1" thermals="no">
@@ -4031,8 +4031,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$46">
-<contactref element="GREEN13" pad="CATHODE"/>
-<contactref element="GREEN14" pad="ANODE"/>
+<contactref element="GREEN14" pad="CATHODE"/>
+<contactref element="GREEN15" pad="ANODE"/>
 <via x="120.5" y="19.5" extent="1-16" drill="0.35"/>
 <via x="137.5" y="20.5" extent="1-16" drill="0.35"/>
 <via x="137.5" y="19.5" extent="1-16" drill="0.35"/>
@@ -4061,8 +4061,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$77">
-<contactref element="GREEN4" pad="CATHODE"/>
-<contactref element="GREEN5" pad="ANODE"/>
+<contactref element="GREEN5" pad="CATHODE"/>
+<contactref element="GREEN6" pad="ANODE"/>
 <via x="140.5" y="44.5" extent="1-16" drill="0.35"/>
 <via x="140.5" y="43.5" extent="1-16" drill="0.35"/>
 <via x="140.5" y="31.5" extent="1-16" drill="0.35"/>
@@ -4102,8 +4102,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="141.5" y1="41.5" x2="141.5" y2="43.5" width="1" layer="1"/>
 </signal>
 <signal name="RED-RTN">
-<contactref element="RED14" pad="CATHODE"/>
-<contactref element="U1" pad="5"/>
+<contactref element="RED15" pad="CATHODE"/>
+<contactref element="U2" pad="5"/>
 <contactref element="C4" pad="2"/>
 <via x="145.5" y="26.5" extent="1-16" drill="0.35"/>
 <contactref element="R2" pad="2"/>
@@ -4143,7 +4143,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="58" y1="15" x2="59" y2="15" width="1" layer="1"/>
 </signal>
 <signal name="GRN-OUT">
-<contactref element="GREEN" pad="ANODE"/>
+<contactref element="GREEN1" pad="ANODE"/>
 <contactref element="C5" pad="1"/>
 <via x="57.5" y="44.5" extent="1-16" drill="0.35"/>
 <via x="57.5" y="43.5" extent="1-16" drill="0.35"/>
@@ -4177,7 +4177,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="43" y1="30.2" x2="43" y2="27.5" width="1" layer="1"/>
 </signal>
 <signal name="RED-OUT">
-<contactref element="RED" pad="ANODE"/>
+<contactref element="RED1" pad="ANODE"/>
 <contactref element="C4" pad="1"/>
 <via x="62.5" y="49.5" extent="1-16" drill="0.35"/>
 <via x="62.5" y="50.5" extent="1-16" drill="0.35"/>
@@ -4213,8 +4213,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="51.3" y1="46.9" x2="58.9" y2="46.9" width="1" layer="16"/>
 </signal>
 <signal name="88">
-<contactref element="RED4" pad="CATHODE"/>
-<contactref element="RED5" pad="ANODE"/>
+<contactref element="RED5" pad="CATHODE"/>
+<contactref element="RED6" pad="ANODE"/>
 <via x="145.5" y="50.5" extent="1-16" drill="0.35"/>
 <via x="145.5" y="49.5" extent="1-16" drill="0.35"/>
 <via x="145.5" y="37.5" extent="1-16" drill="0.35"/>
@@ -4250,8 +4250,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="146.5" y1="49.5" x2="146.5" y2="38.5" width="1" layer="16"/>
 </signal>
 <signal name="N$88">
-<contactref element="RED9" pad="CATHODE"/>
-<contactref element="RED10" pad="ANODE"/>
+<contactref element="RED10" pad="CATHODE"/>
+<contactref element="RED11" pad="ANODE"/>
 <via x="62.5" y="38.5" extent="1-16" drill="0.35"/>
 <via x="62.5" y="37.5" extent="1-16" drill="0.35"/>
 <via x="62.5" y="26.5" extent="1-16" drill="0.35"/>
@@ -4291,10 +4291,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="61.5" y1="28" x2="61.5" y2="26.5" width="1" layer="1"/>
 </signal>
 <signal name="GND">
-<contactref element="U2" pad="4"/>
-<contactref element="U1" pad="4"/>
-<contactref element="X1" pad="2"/>
 <contactref element="U3" pad="4"/>
+<contactref element="U2" pad="4"/>
+<contactref element="X1" pad="2"/>
+<contactref element="U1" pad="4"/>
 <polygon width="0.2" layer="1" rank="6">
 <vertex x="0" y="70"/>
 <vertex x="0" y="0"/>
@@ -4684,15 +4684,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="48.2" y="56.2" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VPP">
-<contactref element="U1" pad="8"/>
+<contactref element="U2" pad="8"/>
 <contactref element="R1" pad="2"/>
 <contactref element="X1" pad="1"/>
-<contactref element="U3" pad="8"/>
+<contactref element="U1" pad="8"/>
 <contactref element="R5" pad="2"/>
 <contactref element="C8" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C6" pad="1"/>
-<contactref element="U2" pad="8"/>
+<contactref element="U3" pad="8"/>
 <contactref element="R4" pad="2"/>
 <wire x1="9.04" y1="26.76" x2="7.9" y2="27.9" width="1" layer="1"/>
 <wire x1="16.33" y1="26.76" x2="13" y2="26.76" width="1" layer="1"/>
@@ -4731,8 +4731,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.9" y1="39.3" x2="7.9" y2="39.2" width="1" layer="1"/>
 </signal>
 <signal name="N$2">
-<contactref element="GREEN9" pad="CATHODE"/>
-<contactref element="GREEN10" pad="ANODE"/>
+<contactref element="GREEN10" pad="CATHODE"/>
+<contactref element="GREEN11" pad="ANODE"/>
 <via x="57.5" y="20.5" extent="1-16" drill="0.35"/>
 <via x="57.5" y="19.5" extent="1-16" drill="0.35"/>
 <via x="57.5" y="31.5" extent="1-16" drill="0.35"/>
@@ -4773,7 +4773,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$19">
 <contactref element="R4" pad="1"/>
-<contactref element="U2" pad="6"/>
+<contactref element="U3" pad="6"/>
 <wire x1="16.765" y1="29.335" x2="17.9362" y2="29.335" width="0.3" layer="1"/>
 <wire x1="11.12" y1="29.83" x2="11.12" y2="30.42" width="0.3" layer="1"/>
 <wire x1="11.12" y1="30.42" x2="11.4" y2="30.7" width="0.3" layer="1"/>
@@ -4781,7 +4781,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="15.4" y1="30.7" x2="16.765" y2="29.335" width="0.3" layer="1"/>
 </signal>
 <signal name="N$18">
-<contactref element="U3" pad="6"/>
+<contactref element="U1" pad="6"/>
 <contactref element="R5" pad="1"/>
 <wire x1="11.55" y1="61.3" x2="11.55" y2="62.05" width="0.3" layer="1"/>
 <wire x1="11.55" y1="62.05" x2="11.9" y2="62.4" width="0.3" layer="1"/>
@@ -5282,13 +5282,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 </signal>
 <signal name="N$52">
-<contactref element="U3" pad="2"/>
+<contactref element="U1" pad="2"/>
 <contactref element="C10" pad="1"/>
 <wire x1="22.9638" y1="59.565" x2="24.965" y2="59.565" width="0.5" layer="1"/>
 <wire x1="24.965" y1="59.565" x2="25" y2="59.6" width="0.5" layer="1"/>
 </signal>
 <signal name="N$53">
-<contactref element="U3" pad="7"/>
+<contactref element="U1" pad="7"/>
 <contactref element="C9" pad="1"/>
 <wire x1="18.0362" y1="59.565" x2="16.735" y2="59.565" width="0.55" layer="1"/>
 <wire x1="16.735" y1="59.565" x2="16.6" y2="59.7" width="0.55" layer="1"/>
@@ -5296,7 +5296,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="BLUE-RTN">
 <contactref element="BLUE15" pad="CATHODE"/>
-<contactref element="U3" pad="5"/>
+<contactref element="U1" pad="5"/>
 <contactref element="C11" pad="2"/>
 <via x="136.5" y="26.5" extent="1-16" drill="0.35"/>
 <wire x1="147.762" y1="36.162" x2="137.6" y2="26" width="1" layer="16"/>
@@ -5442,7 +5442,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="51.5" y1="37.5" x2="51.5" y2="26.5" width="1" layer="16"/>
 </signal>
 <signal name="N$1">
-<contactref element="U2" pad="1"/>
+<contactref element="U3" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="D3" pad="K"/>
 <contactref element="L3" pad="P$1"/>
@@ -5457,7 +5457,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30.07" y1="26.8" x2="30.13" y2="26.74" width="1" layer="1"/>
 </signal>
 <signal name="N$25">
-<contactref element="U1" pad="1"/>
+<contactref element="U2" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="D2" pad="K"/>
 <contactref element="L2" pad="P$1"/>
@@ -5472,7 +5472,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="27.45" y1="42.25" x2="27.4" y2="42.3" width="0.5" layer="1"/>
 </signal>
 <signal name="N$34">
-<contactref element="U3" pad="1"/>
+<contactref element="U1" pad="1"/>
 <contactref element="C10" pad="2"/>
 <contactref element="D1" pad="K"/>
 <contactref element="L1" pad="P$1"/>
@@ -5519,21 +5519,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="16.6" y1="6.3" x2="14.1" y2="6.3" width="0.5" layer="1"/>
 </signal>
 <signal name="D10/PWM_R">
-<contactref element="U1" pad="3"/>
-<wire x1="22.8638" y1="44.835" x2="25.465" y2="44.835" width="0.3" layer="1"/>
+<contactref element="U2" pad="3"/>
+<contactref element="PCB1" pad="13"/>
 <wire x1="25.465" y1="44.835" x2="25.5" y2="44.8" width="0.3" layer="1"/>
 <via x="25.5" y="44.8" extent="1-16" drill="0.254"/>
 <wire x1="25.5" y1="44.8" x2="28.2" y2="42.1" width="0.3" layer="16"/>
-<contactref element="PCB1" pad="13"/>
 <via x="28.2" y="13.4" extent="1-16" drill="0.35"/>
 <wire x1="28.2" y1="42.1" x2="28.2" y2="13.4" width="0.3" layer="16"/>
 <wire x1="11.57" y1="15.43" x2="11.57" y2="17.12" width="0.3" layer="1"/>
 <wire x1="28.2" y1="13.4" x2="13.6" y2="13.4" width="0.3" layer="1"/>
 <wire x1="13.6" y1="13.4" x2="11.57" y2="15.43" width="0.3" layer="1"/>
+<wire x1="25.465" y1="44.835" x2="22.8638" y2="44.835" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D9/PWM_B">
-<contactref element="U3" pad="3"/>
-<wire x1="22.9638" y1="60.835" x2="25.765" y2="60.835" width="0.3" layer="1"/>
 <wire x1="25.765" y1="60.835" x2="25.8" y2="60.8" width="0.3" layer="1"/>
 <via x="25.8" y="60.8" extent="1-16" drill="0.254"/>
 <wire x1="25.8" y1="60.8" x2="25.8" y2="54.2" width="0.3" layer="16"/>
@@ -5547,9 +5545,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.8" y1="14.6" x2="14.1" y2="15.3" width="0.3" layer="1"/>
 <wire x1="14.1" y1="15.3" x2="14.11" y2="15.31" width="0.3" layer="1"/>
 <wire x1="14.11" y1="15.31" x2="14.11" y2="17.12" width="0.3" layer="1"/>
+<contactref element="U1" pad="3"/>
+<wire x1="25.765" y1="60.835" x2="22.9638" y2="60.835" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D11/PWM_G">
-<contactref element="U2" pad="3"/>
+<contactref element="U3" pad="3"/>
 <wire x1="22.8638" y1="29.335" x2="27.465" y2="29.335" width="0.3" layer="1"/>
 <wire x1="27.465" y1="29.335" x2="27.5" y2="29.3" width="0.254" layer="1"/>
 <via x="27.5" y="29.3" extent="1-16" drill="0.254"/>
