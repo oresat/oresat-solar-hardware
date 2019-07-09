@@ -12,10 +12,15 @@ Our first design is based on a SPV1040 Maximum Power Point Tracker (MPPT) IC, an
 
 Our next super secret project (open source, of course) uses a  *Zeta converter* running the *Incremental Conductance algorithm* on a 32bit ARM microcontroller that talks CAN! Oh, it's going to be great. After we figure out how to make it not catch fire in space, of course. It's all preliminary, but you can find it in the ['zeta' folder](https://github.com/oresat/solar/tree/master/zeta).
 
+# Solar Panel Verification: "Solar Simulator"
+
+Our LED based solar simulator designed to test the response of our solar panels in extreme conditions
 ## Project Team (so far!)
 
 - [Andrew Greenberg](https://github.com/andrewgreenberg)  
 - [Austin Joseph](https://github.com/austinjoseph)
+- [David Lay](https://github.com/davidalay)
+- [Catie Spivey](https://github.com/catiespivey)
 
 
 
