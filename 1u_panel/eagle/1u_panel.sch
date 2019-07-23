@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -15767,67 +15767,39 @@ LED</description>
 <library name="U-Linear-LT1618E-Boost">
 <packages>
 <package name="MSOP-10_MS">
-<wire x1="-1.5494" y1="0.8636" x2="-1.5494" y2="1.143" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="1.143" x2="-2.54" y2="1.143" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="1.143" x2="-2.54" y2="0.8636" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="0.8636" x2="-1.5494" y2="0.8636" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="0.3556" x2="-1.5494" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="0.3556" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="0.3556" x2="-1.5494" y2="0.3556" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-0.1524" x2="-1.5494" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="0.1524" x2="-2.54" y2="0.127" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="0.127" x2="-2.54" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-0.1524" x2="-1.5494" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-0.635" x2="-1.5494" y2="-0.3556" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-0.3556" x2="-2.54" y2="-0.3556" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-0.3556" x2="-2.54" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-0.635" x2="-1.5494" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-1.143" x2="-1.5494" y2="-0.8636" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-0.8636" x2="-2.54" y2="-0.8636" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-0.8636" x2="-2.54" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-1.143" x2="-1.5494" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-0.8636" x2="1.5494" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="-1.143" x2="2.54" y2="-0.8636" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="-0.8636" x2="1.5494" y2="-0.8636" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-0.3556" x2="1.5494" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-0.635" x2="2.54" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="-0.635" x2="2.54" y2="-0.3556" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="-0.3556" x2="1.5494" y2="-0.3556" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="0.1524" x2="1.5494" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-0.1524" x2="2.54" y2="-0.127" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="-0.127" x2="2.54" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="0.1524" x2="1.5494" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="0.635" x2="1.5494" y2="0.3556" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="0.3556" x2="2.54" y2="0.3556" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="0.3556" x2="2.54" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="0.635" x2="1.5494" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="1.143" x2="1.5494" y2="0.8636" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="0.8636" x2="2.54" y2="0.8636" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="0.8636" x2="2.54" y2="1.143" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="1.143" x2="1.5494" y2="1.143" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="1.5494" x2="-1.5494" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-1.6764" y1="-1.6764" x2="1.6764" y2="-1.6764" width="0.1524" layer="21"/>
-<wire x1="1.6764" y1="1.6764" x2="-1.6764" y2="1.6764" width="0.1524" layer="21"/>
-<text x="-2.8829" y="1.840459375" size="0.4" layer="25">&gt;NAME</text>
-<text x="-2.8829" y="-1.840459375" size="0.4" layer="27" align="top-left">&gt;VALUE</text>
-<smd name="1" x="-2.1844" y="1.000759375" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="2" x="-2.1844" y="0.50038125" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="3" x="-2.1844" y="0" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="4" x="-2.1844" y="-0.50038125" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="5" x="-2.1844" y="-1.000759375" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="6" x="2.1844" y="-1.000759375" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="7" x="2.1844" y="-0.50038125" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="8" x="2.1844" y="0" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="9" x="2.1844" y="0.50038125" dx="1.397" dy="0.2794" layer="1"/>
-<smd name="10" x="2.1844" y="1.000759375" dx="1.397" dy="0.2794" layer="1"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="0.3048" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.5" x2="-0.3048" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="1.5" x2="-1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.5" x2="-0.3048" y2="1.5" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.1524" layer="21"/>
+<text x="-0.5" y="-2.5" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<smd name="1" x="-2.165" y="1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="2" x="-2.165" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="3" x="-2.165" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="4" x="-2.165" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="5" x="-2.165" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="6" x="2.165" y="-1" dx="0.9" dy="0.3" layer="1"/>
+<smd name="7" x="2.165" y="-0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="8" x="2.165" y="0" dx="0.9" dy="0.3" layer="1"/>
+<smd name="9" x="2.165" y="0.5" dx="0.9" dy="0.3" layer="1"/>
+<smd name="10" x="2.165" y="1" dx="0.9" dy="0.3" layer="1"/>
+<circle x="-2.1" y="1.6" radius="0.2" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.7" x2="1.7" y2="-1.7" width="0.01" layer="39"/>
+<wire x1="1.7" y1="-1.7" x2="1.7" y2="-1.4" width="0.01" layer="39"/>
+<wire x1="1.7" y1="-1.4" x2="2.8" y2="-1.4" width="0.01" layer="39"/>
+<wire x1="2.8" y1="-1.4" x2="2.8" y2="1.4" width="0.01" layer="39"/>
+<wire x1="2.8" y1="1.4" x2="1.7" y2="1.4" width="0.01" layer="39"/>
+<wire x1="1.7" y1="1.4" x2="1.7" y2="1.7" width="0.01" layer="39"/>
+<wire x1="1.7" y1="1.7" x2="-1.7" y2="1.7" width="0.01" layer="39"/>
+<wire x1="-1.7" y1="1.7" x2="-1.7" y2="1.4" width="0.01" layer="39"/>
+<wire x1="-1.7" y1="1.4" x2="-2.8" y2="1.4" width="0.01" layer="39"/>
+<wire x1="-2.8" y1="1.4" x2="-2.8" y2="-1.4" width="0.01" layer="39"/>
+<wire x1="-2.8" y1="-1.4" x2="-1.7" y2="-1.4" width="0.01" layer="39"/>
+<wire x1="-1.7" y1="-1.4" x2="-1.7" y2="-1.7" width="0.01" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -17379,9 +17351,9 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="U5" library="U-Maxim-MAX5805BAUBT-DAC" deviceset="MAX5805BAUBT" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
+<part name="C1" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value=".1"/>
+<part name="R5" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value=".1 0603"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17402,11 +17374,10 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="R12" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="14.2k"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R16" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="2k"/>
-<part name="C2" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="10n"/>
+<part name="C2" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="10n"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="TP2" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="TP4" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP5" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP7" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP8" library="Tova" deviceset="TEST-POINT" device=""/>
@@ -17416,9 +17387,9 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="TP14" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="R6" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
+<part name="C5" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
+<part name="C8" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C14" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="4.7u 0603"/>
@@ -17436,7 +17407,7 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="Q1" library="Q-MOSFET-PCH-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
 <part name="Q2" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
 <part name="R19" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k"/>
-<part name="C21" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
+<part name="C21" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -17997,9 +17968,6 @@ which shuts off LTC4412</text>
 <instance part="TP2" gate="G$1" x="166.37" y="195.58" smashed="yes">
 <attribute name="NAME" x="163.83" y="198.12" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP4" gate="G$1" x="175.26" y="246.38" smashed="yes">
-<attribute name="NAME" x="172.72" y="248.92" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="TP5" gate="G$1" x="194.31" y="246.38" smashed="yes">
 <attribute name="NAME" x="191.77" y="248.92" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -18145,7 +18113,6 @@ which shuts off LTC4412</text>
 <pinref part="U4" gate="A" pin="VIN+"/>
 <wire x1="87.63" y1="213.36" x2="77.47" y2="213.36" width="0.1524" layer="91"/>
 <label x="24.13" y="246.38" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP4" gate="G$1" pin="1"/>
 <junction x="175.26" y="246.38"/>
 <junction x="53.34" y="246.38"/>
 <pinref part="U3" gate="A" pin="VIN"/>
@@ -19026,7 +18993,7 @@ which shuts off LTC4412</text>
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="LT1618-IADJ" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="OUT"/>
 <wire x1="210.82" y1="165.1" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
@@ -19040,6 +19007,7 @@ which shuts off LTC4412</text>
 <junction x="166.37" y="195.58"/>
 <pinref part="R6" gate="R" pin="1"/>
 <junction x="175.26" y="215.9"/>
+<label x="187.96" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
