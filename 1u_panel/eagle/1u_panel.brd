@@ -58,7 +58,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -5816,6 +5816,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="25.9" y="83.5" extent="1-16" drill="0.254"/>
 <via x="24.6" y="82" extent="1-16" drill="0.254"/>
 <via x="30.8" y="25.3" extent="1-16" drill="0.254"/>
+<via x="22.3" y="43.9" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="U6" pad="23"/>
@@ -6504,6 +6505,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="23,1,9f441a84041381d3"/>
 <approved hash="6,16,2d8e9b9055741ef7"/>
 <approved hash="6,16,6e0221f516c5993d"/>
+<approved hash="23,1,1ff7bb07bbdb1f2b"/>
 </errors>
 </board>
 </drawing>
