@@ -4835,6 +4835,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U4" library="U-TI-INA226AIDGSR-CurrentMonitor" package="DGS10" value="INA226AIDGSR" x="36.9" y="65.7" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER_PART_NUMBER" value="INA226AIDGSR" x="36.9" y="65.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="TI" x="36.9" y="65.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="INA226AIDGSR" x="36.9" y="65.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="34.1234" y="63.515" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="36.9" y="65.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -4855,7 +4857,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="29.465" y="76.895" size="1.27" layer="27"/>
 </element>
 <element name="L2" library="L-Bourns-SRN4018TA" package="L-BOURNS-SRN4018TA" value="10u" x="34.4" y="78" smashed="yes">
-<attribute name="DIGI-PN" value="732-1025-1-ND" x="34.4" y="78" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="WURTH" x="34.4" y="78" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="744042100" x="34.4" y="78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R10" library="rcl_custom" package=".0402-B-NOSILK" value="82.5k" x="42" y="76.4" smashed="yes" rot="R90">
@@ -4990,7 +4992,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="43.8" y="60" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="44.6" y="61.35" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="J1" library="J-Wurth-686110183422-10pos-FFC" package="J-WURTH-686110183422" value="J-WURTH-686110183422" x="16" y="50.4" locked="yes" smashed="yes" rot="R270">
+<element name="J1" library="J-Wurth-686110183422-10pos-FFC" package="J-WURTH-686110183422" value="686110183422" x="16" y="50.4" locked="yes" smashed="yes" rot="R270">
+<attribute name="MFR" value="WURTH" x="16" y="50.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="686110183422" x="16" y="50.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="15.2" y="58.9" size="0.635" layer="21" font="vector" ratio="20"/>
 </element>
 <element name="TP4" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="19.8" y="53.9" smashed="yes">
