@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -15383,7 +15383,10 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PCB1" library="oresat-solar-board" deviceset="ORESAT-SOLAR-BOARD-V3" device=""/>
 <part name="U3" library="U-Linear-LT1618E-Boost" deviceset="LT1618EMSTRPBF" device=""/>
-<part name="U4" library="U-TI-INA226AIDGSR-CurrentMonitor" deviceset="INA226AIDGSR" device=""/>
+<part name="U4" library="U-TI-INA226AIDGSR-CurrentMonitor" deviceset="INA226AIDGSR" device="">
+<attribute name="MFR" value="TI"/>
+<attribute name="MPN" value="INA226AIDGSR"/>
+</part>
 <part name="U5" library="U-Maxim-MAX5805BAUBT-DAC" deviceset="MAX5805BAUBT" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15394,7 +15397,7 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L2" library="L-Bourns-SRN4018TA" deviceset="L-BOURNS-SRN4018TA" device="" value="10u">
-<attribute name="DIGI-PN" value="732-1025-1-ND"/>
+<attribute name="MFR" value="WURTH"/>
 <attribute name="MPN" value="744042100"/>
 </part>
 <part name="R10" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="82.5k">
@@ -15458,7 +15461,10 @@ Source: http://www.stetco.com/products/inductors/pdf/PIS2816.pdf</description>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R21" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="J-Wurth-686110183422-10pos-FFC" deviceset="J-WURTH-686110183422" device=""/>
+<part name="J1" library="J-Wurth-686110183422-10pos-FFC" deviceset="J-WURTH-686110183422" device="" value="686110183422">
+<attribute name="MFR" value="WURTH"/>
+<attribute name="MPN" value="686110183422"/>
+</part>
 <part name="TP4" library="Tova" deviceset="TEST-POINT" device=""/>
 </parts>
 <sheets>
@@ -15963,6 +15969,8 @@ fasteners</text>
 <instance part="U4" gate="A" x="102.87" y="213.36" smashed="yes">
 <attribute name="NAME" x="109.5756" y="200.8886" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="108.9406" y="198.3486" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MFR" x="102.87" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="102.87" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U5" gate="A" x="195.58" y="162.56" smashed="yes">
 <attribute name="NAME" x="204.47" y="144.51" size="2.0828" layer="95" ratio="10" rot="SR0"/>
@@ -15997,8 +16005,8 @@ fasteners</text>
 <instance part="L2" gate="G$1" x="205.74" y="246.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="203.2" y="241.3" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="207.01" y="241.3" size="1.778" layer="96" rot="R90" align="top-left"/>
-<attribute name="DIGI-PN" x="205.74" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="205.74" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="205.74" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R10" gate="R" x="228.6" y="238.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="227.1014" y="234.95" size="1.778" layer="95" rot="R90"/>
@@ -16176,6 +16184,8 @@ fasteners</text>
 <instance part="J1" gate="G$1" x="200.66" y="39.37" smashed="yes" rot="MR0">
 <attribute name="NAME" x="207.01" y="54.61" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="207.01" y="52.07" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MFR" x="200.66" y="39.37" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="200.66" y="39.37" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="TP4" gate="G$1" x="210.82" y="46.99" smashed="yes">
 <attribute name="NAME" x="213.36" y="46.99" size="1.778" layer="95" font="vector"/>
