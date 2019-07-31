@@ -775,6 +775,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,556b267dc785b5fd"/>
+<approved hash="4,1,1534afd8d3d2905c"/>
+<approved hash="4,1,bcfd39897a9b0a8d"/>
+<approved hash="4,1,faa214a868cc8ba8"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

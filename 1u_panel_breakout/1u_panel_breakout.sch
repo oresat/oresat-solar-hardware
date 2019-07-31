@@ -1006,8 +1006,8 @@ Connector</text>
 </sheets>
 <errors>
 <approved hash="113,1,88.796,44.346,FRAME1,,,,,"/>
-<approved hash="113,1,129.777,37.8739,JP1,,,,,"/>
-<approved hash="113,1,106.917,86.5861,JP2,,,,,"/>
+<approved hash="113,1,129.777,37.9044,JP1,,,,,"/>
+<approved hash="113,1,106.917,86.5556,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
