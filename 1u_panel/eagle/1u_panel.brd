@@ -7,9 +7,9 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,20 +24,20 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="route" color="14" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="48" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="48" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -54,13 +54,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -118,7 +118,7 @@
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
@@ -6891,8 +6891,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="36.06" y1="87.4" x2="35.4" y2="87.4" width="0.3" layer="1"/>
 <wire x1="35.4" y1="87.4" x2="34.8" y2="86.8" width="0.3" layer="1"/>
 <wire x1="34.8" y1="86.8" x2="34.8" y2="83.55" width="0.3" layer="1"/>
-<wire x1="32.6" y1="71.2" x2="31.2" y2="71.2" width="0.3" layer="1"/>
-<wire x1="31.2" y1="71.2" x2="28.7" y2="68.7" width="0.3" layer="1"/>
 <wire x1="38.1" y1="74.7" x2="37.7" y2="74.7" width="0.3" layer="1"/>
 <wire x1="37.7" y1="74.7" x2="37.5" y2="74.5" width="0.3" layer="1"/>
 <wire x1="37.5" y1="74.5" x2="36.865" y2="74.5" width="0.3" layer="1"/>
@@ -6908,7 +6906,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="34.4" y="73" extent="1-16" drill="0.254"/>
 <wire x1="34.4" y1="73" x2="32.6" y2="71.2" width="0.3" layer="16"/>
 <via x="32.6" y="71.2" extent="1-16" drill="0.254"/>
-<wire x1="28.7" y1="53.3" x2="28.7" y2="68.7" width="0.3" layer="1"/>
 <wire x1="28.7" y1="53.3" x2="45.9" y2="53.3" width="0.3" layer="1"/>
 <wire x1="45.9" y1="53.3" x2="50.6" y2="48.6" width="0.3" layer="1"/>
 <wire x1="39.2" y1="22.625" x2="39.975" y2="22.625" width="0.2" layer="1"/>
@@ -6931,6 +6928,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.6" y1="38.0586" x2="50.6" y2="29.6" width="0.3" layer="1"/>
 <wire x1="50.6" y1="39.9" x2="50.6" y2="38.0586" width="0.3" layer="16"/>
 <via x="50.6" y="24.6" extent="1-16" drill="0.254"/>
+<wire x1="30.6578" y1="71.2" x2="30.1498" y2="70.692" width="0.3" layer="1"/>
+<wire x1="30.1498" y1="67.9196" x2="28.7651" y2="66.5349" width="0.3" layer="1"/>
+<wire x1="32.6" y1="71.2" x2="30.6578" y2="71.2" width="0.3" layer="1"/>
+<wire x1="30.1498" y1="70.692" x2="30.1498" y2="67.9196" width="0.3" layer="1"/>
+<wire x1="28.7" y1="66.4698" x2="28.7651" y2="66.5349" width="0.3" layer="1"/>
+<wire x1="28.7" y1="53.3" x2="28.7" y2="66.4698" width="0.3" layer="1"/>
 </signal>
 <signal name="SHDN_STM">
 <contactref element="U6" pad="6"/>
