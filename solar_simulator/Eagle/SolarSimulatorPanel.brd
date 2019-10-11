@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3049,17 +3049,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="C" x="12.7" y="23.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.725" y="26.6" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m" x="22.8" y="64.9" smashed="yes">
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="250 m" x="22.8" y="64.9" smashed="yes">
 <attribute name="NAME" x="22.025" y="67.005" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="R" x="22.8" y="64.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.625" y="61.725" size="1.27" layer="27"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m" x="22.7" y="48.9" smashed="yes">
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="250 m" x="22.7" y="48.9" smashed="yes">
 <attribute name="NAME" x="22.225" y="50.605" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="R" x="22.7" y="48.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.525" y="45.725" size="1.27" layer="27"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m" x="22.7" y="33.2" smashed="yes">
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="250 m" x="22.7" y="33.2" smashed="yes">
 <attribute name="NAME" x="22.325" y="35.005" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="R" x="22.7" y="33.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.525" y="30.025" size="1.27" layer="27"/>

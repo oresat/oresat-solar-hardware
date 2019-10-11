@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15556,9 +15556,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="1 uF 120V"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="1 uF 120V"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="1 uF 120V"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="137 m"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="250 m"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="250 m"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="250 m"/>
 <part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10nF 25V"/>
 <part name="C10" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10nF 25V"/>
 <part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10nF 25V"/>
@@ -15618,6 +15618,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <wire x1="142.24" y1="38.1" x2="142.24" y2="86.36" width="0.1524" layer="97"/>
 <wire x1="142.24" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="97"/>
 <wire x1="93.98" y1="86.36" x2="93.98" y2="38.1" width="0.1524" layer="97"/>
+<text x="274.32" y="50.8" size="1.778" layer="97">250 mOhm gives approx 800 mA of current</text>
 </plain>
 <instances>
 <instance part="RED1" gate="G$1" x="274.32" y="154.94" smashed="yes">

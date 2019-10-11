@@ -15490,7 +15490,7 @@ built in</text>
 <text x="11.43" y="12.7" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="10.16" size="1.778" layer="97">All caps are ceramic 10% X5R &gt;= 16V Vwv unless marked</text>
 <text x="38.1" y="59.69" size="1.778" layer="97">0603</text>
-<text x="19.05" y="80.01" size="1.778" layer="97" rot="R90">0805</text>
+<text x="21.082" y="78.74" size="1.778" layer="97" rot="R90">0805</text>
 <text x="308.61" y="135.89" size="1.778" layer="97">Might need a time delay circuit
 here if the STM needs to hold
 !SHDWN low for longer periods.</text>

@@ -33,11 +33,11 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -5801,22 +5801,37 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="42.9" y="53.1" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="D5" library="apdm-ic-v2" package="SOD123" value="STPS1L40ZFY" x="39" y="78" smashed="yes" rot="R180">
+<attribute name="DISTRIBUTOR" value="digikey" x="39" y="78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="497-17153-1-ND" x="39" y="78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="STPS1L40ZFY" x="39" y="78" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="37.7" y="79" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="40.8" y="80" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="D3" library="apdm-ic-v2" package="SOD123" value="STPS1L40ZFY" x="50.2" y="82.4" smashed="yes" rot="R270">
+<attribute name="DISTRIBUTOR" value="Digikey" x="50.2" y="82.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="497-17153-1-ND" x="50.2" y="82.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="STPS1L40ZFY" x="50.2" y="82.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.9" y="82" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="48.2" y="84.2" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U12" library="U-LT-LTC4412-ideal-diode" package="SOT23-6" value="LTC4412" x="42.5" y="82.5" smashed="yes" rot="R90">
+<attribute name="DISTRIBUTOR" value="digikey" x="42.5" y="82.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="LTC4412ES6#TRPBFCT-ND" x="42.5" y="82.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LTC4412ES6#TRPBF" x="42.5" y="82.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="41.8" y="85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="42.5" y="82.5" size="0.5" layer="33" rot="R90" align="center"/>
 <attribute name="VALUE" x="44.7" y="80.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="top-left"/>
 </element>
 <element name="Q1" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="37.2" y="84.5" smashed="yes" rot="R270">
+<attribute name="DISTRIBUTOR" value="digikey" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="DMP3050LVT-7" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="38.202" y="85.983" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="Q2" library="Q-MOSFET-PCH-dual-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="47.1" y="82.5" smashed="yes" rot="R270">
+<attribute name="DISTRIBUTOR" value="Digikey" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="dmp3050LVT-7DICT" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="dmp3050LVT-7" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="46.602" y="80.083" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R19" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="37.1" y="82.4" smashed="yes">
@@ -6904,7 +6919,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="38.8" y1="74.7" x2="38.1" y2="74.7" width="0.3" layer="1"/>
 <wire x1="34.4" y1="74.4" x2="34.4" y2="73" width="0.3" layer="1"/>
 <via x="34.4" y="73" extent="1-16" drill="0.254"/>
-<wire x1="34.4" y1="73" x2="32.6" y2="71.2" width="0.3" layer="16"/>
+<wire x1="34.4" y1="73" x2="32.6" y2="73" width="0.3" layer="16"/>
+<wire x1="32.6" y1="73" x2="32.6" y2="71.2" width="0.3" layer="16"/>
 <via x="32.6" y="71.2" extent="1-16" drill="0.254"/>
 <wire x1="28.7" y1="53.3" x2="45.9" y2="53.3" width="0.3" layer="1"/>
 <wire x1="45.9" y1="53.3" x2="50.6" y2="48.6" width="0.3" layer="1"/>
@@ -6929,10 +6945,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.6" y1="39.9" x2="50.6" y2="38.0586" width="0.3" layer="16"/>
 <via x="50.6" y="24.6" extent="1-16" drill="0.254"/>
 <wire x1="30.6578" y1="71.2" x2="30.1498" y2="70.692" width="0.3" layer="1"/>
-<wire x1="30.1498" y1="67.9196" x2="28.7651" y2="66.5349" width="0.3" layer="1"/>
+<wire x1="30.1498" y1="67.9196" x2="28.7" y2="66.4698" width="0.3" layer="1"/>
 <wire x1="32.6" y1="71.2" x2="30.6578" y2="71.2" width="0.3" layer="1"/>
 <wire x1="30.1498" y1="70.692" x2="30.1498" y2="67.9196" width="0.3" layer="1"/>
-<wire x1="28.7" y1="66.4698" x2="28.7651" y2="66.5349" width="0.3" layer="1"/>
 <wire x1="28.7" y1="53.3" x2="28.7" y2="66.4698" width="0.3" layer="1"/>
 </signal>
 <signal name="SHDN_STM">
