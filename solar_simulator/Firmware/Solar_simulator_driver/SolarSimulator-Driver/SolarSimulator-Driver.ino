@@ -7,6 +7,7 @@ const int TempSenseG = 23;  //Green LED driver
 const int TempSenseB = 25;  //Blue LED driver
 const int TempSenseLED = 26; //LED array
 
+
 const float ThermalCutoff = 60; //Defines automatic shutoff temperature in celsius
 
 void DataDump (int SimulatorStatus, float RedTemp, float GreenTemp, float BlueTemp, float LEDTemp)
@@ -54,9 +55,9 @@ void loop()
     {
       while (SimulatorStatus != 0)
       {
-        analogWrite(PWMR, 125);
-        analogWrite(PWMG, 125);  //TODO: calculate correct ratios to match AM0 spectrum
-        analogWrite(PWMB, 125);
+        analogWrite(PWMR, 77);
+        analogWrite(PWMG, 77);  //77=30% duty cycle, which gives the correct power for AM0 assuming 1A at 100% duty cycle
+        analogWrite(PWMB, 77);
       }
       if (Serial.parseInt() == 0)
       {
@@ -71,7 +72,7 @@ void loop()
         for (int i = 0; i <= 255; i++)
         {
           analogWrite(PWMR, i);
-          analogWrite(PWMG, i); //TODO: Calculate corrections so that spectra is right, also correct the max value for i
+          analogWrite(PWMG, i);   //Slowly brightens LEDs so that they match AM0 in ratios, but not intensity
           analogWrite(PWMB, i);
           delay(10);
           if (Serial.parseInt() == 0)
