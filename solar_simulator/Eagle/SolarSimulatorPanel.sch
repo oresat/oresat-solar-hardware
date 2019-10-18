@@ -15548,10 +15548,26 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C11" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="10uF"/>
-<part name="RT4" library="solarsim" deviceset="NTCTHERMISTER" device="" value="10K"/>
-<part name="RT3" library="solarsim" deviceset="NTCTHERMISTER" device="" value="10K"/>
-<part name="RT2" library="solarsim" deviceset="NTCTHERMISTER" device="" value="10K"/>
-<part name="RT1" library="solarsim" deviceset="NTCTHERMISTER" device="" value="10K"/>
+<part name="RT4" library="solarsim" deviceset="NTCTHERMISTER" device="" value="10K">
+<attribute name="DISTRIBUTOR" value="digikey"/>
+<attribute name="DPN" value="445-2550-1-ND"/>
+<attribute name="MPN" value="NTCG103JF103FT1"/>
+</part>
+<part name="RT3" library="solarsim" deviceset="NTCTHERMISTER" device="" value="10K">
+<attribute name="DISTRIBUTOR" value="Digi-Key"/>
+<attribute name="DPN" value="445-2550-1-ND"/>
+<attribute name="MPN" value="NTCG103JF103FT1"/>
+</part>
+<part name="RT2" library="solarsim" deviceset="NTCTHERMISTER" device="" value="10K">
+<attribute name="DISTRIBUTOR" value="Digi-key"/>
+<attribute name="DPN" value="445-2550-1-ND"/>
+<attribute name="MPN" value="NTCG103JF103FT1"/>
+</part>
+<part name="RT1" library="solarsim" deviceset="NTCTHERMISTER" device="" value="10K">
+<attribute name="DISTRIBUTOR" value="Digi-Key"/>
+<attribute name="DPN" value="445-2550-1-ND"/>
+<attribute name="MPN" value="NTCG103JF103FT1"/>
+</part>
 <part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="10k"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="1 uF 120V"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="1 uF 120V"/>
@@ -15914,18 +15930,30 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <instance part="RT4" gate="G$1" x="116.84" y="198.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="122.809" y="201.93" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="120.65" y="201.93" size="1.778" layer="96" rot="R270"/>
+<attribute name="DISTRIBUTOR" x="116.84" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="116.84" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="116.84" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="RT3" gate="G$1" x="101.6" y="198.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="107.569" y="201.93" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="105.41" y="201.93" size="1.778" layer="96" rot="R270"/>
+<attribute name="DISTRIBUTOR" x="101.6" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="101.6" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="101.6" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="RT2" gate="G$1" x="86.36" y="198.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.329" y="201.93" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="90.17" y="201.93" size="1.778" layer="96" rot="R270"/>
+<attribute name="DISTRIBUTOR" x="86.36" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="86.36" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="86.36" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="RT1" gate="G$1" x="68.58" y="198.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="74.549" y="201.93" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="72.39" y="201.93" size="1.778" layer="96" rot="R270"/>
+<attribute name="DISTRIBUTOR" x="68.58" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="68.58" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="68.58" y="198.12" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R11" gate="R" x="116.84" y="213.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="120.8786" y="217.17" size="1.778" layer="95" rot="R270"/>
