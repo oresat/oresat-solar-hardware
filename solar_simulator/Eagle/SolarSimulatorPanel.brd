@@ -4868,8 +4868,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="+3V3">
 <contactref element="PCB1" pad="17"/>
-<contactref element="U$5" pad="1"/>
-<wire x1="9.03" y1="1.88" x2="-62.05" y2="-12" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$5" pad="5"/>
@@ -5112,6 +5110,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R29" pad="2"/>
 <wire x1="-70.85" y1="-157.5" x2="-69.75" y2="-160.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.7114" y1="-154.8988" x2="-70.85" y2="-157.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$80">
+<contactref element="U$5" pad="1"/>
+<contactref element="U$5" pad="3"/>
+<wire x1="-60.15" y1="-12" x2="-62.05" y2="-12" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
