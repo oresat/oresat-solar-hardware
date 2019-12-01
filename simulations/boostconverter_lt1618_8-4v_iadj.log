@@ -1,0 +1,24 @@
+Circuit: * C:\Users\dal56\Documents\Oresat\oresat-solar\simulations\boostconverter_lt1618_8-4v_iadj.asc
+
+WARNING: Less than two connections to node N005.  This node is used by B1.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u2:6)
+Ignoring empty pin current: Ix(u2:6)
+
+Date: Fri Nov 15 15:31:27 2019
+Total elapsed time: 11.513 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2032931
+traniter = 2032889
+tranpoints = 620450
+accept = 453048
+rejected = 167402
+matrix size = 26
+fillins = 3
+solver = Normal
+Matrix Compiler1: 952 bytes object code size  0.5/0.3/[0.1]
+Matrix Compiler2: 1.57 KB object code size  0.5/0.6/[0.3]
+
