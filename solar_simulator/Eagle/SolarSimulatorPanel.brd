@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -162,7 +162,6 @@
 <wire x1="150" y1="0" x2="150" y2="70" width="0" layer="20"/>
 <wire x1="150" y1="70" x2="-2" y2="70" width="0" layer="20"/>
 <wire x1="-2" y1="70" x2="-2" y2="0" width="0" layer="20"/>
-<text x="7.6" y="67.2" size="0.6096" layer="21">B Driver</text>
 <text x="54" y="48" size="0.6096" layer="51">B</text>
 <text x="74" y="48" size="0.6096" layer="51">B</text>
 <text x="94" y="48" size="0.6096" layer="51">B</text>
@@ -1445,44 +1444,6 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <rectangle x1="-1.1256" y1="1.5" x2="-0.8756" y2="2.5" layer="51" rot="R180"/>
 </package>
 </packages>
-</library>
-<library name="diode" urn="urn:adsk.eagle:library:210">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SMB" urn="urn:adsk.eagle:footprint:43181/1" library_version="4">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
-<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
-<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="-2.2606" y1="-1.905" x2="-2.2606" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="2.2606" y1="-1.905" x2="2.2606" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="0.193" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.83" y1="0" x2="0.193" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.193" y1="-1" x2="0.193" y2="1" width="0.2032" layer="21"/>
-<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
-<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
-<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.159" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
-<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
-<rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SMB" urn="urn:adsk.eagle:package:43404/2" type="model" library_version="4">
-<description>DIODE</description>
-<packageinstances>
-<packageinstance name="SMB"/>
-</packageinstances>
-</package3d>
-</packages3d>
 </library>
 <library name="Q-MOSFET-NCH-SOT223">
 <packages>
@@ -2884,6 +2845,29 @@ Metric Code Size 2012</description>
 </package>
 </packages>
 </library>
+<library name="D-MCC-SS2150-Schottky">
+<packages>
+<package name="DO-214AC" urn="urn:adsk.eagle:footprint:43216/1">
+<description>&lt;b&gt;SURFACE MOUNT GENERAL RECTIFIER&lt;/b&gt; JEDEC DO-214AC molded platic body&lt;p&gt;
+Method 2026&lt;br&gt;
+Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
+<wire x1="-2.15" y1="1.3" x2="2.15" y2="1.3" width="0.2032" layer="51"/>
+<wire x1="2.15" y1="1.3" x2="2.15" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="2.15" y1="-1.3" x2="-2.15" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="-2.15" y1="-1.3" x2="-2.15" y2="1.3" width="0.2032" layer="51"/>
+<wire x1="-1.035" y1="1.3" x2="1.025" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="1.025" y1="-1.3" x2="-1.035" y2="-1.3" width="0.2032" layer="21"/>
+<smd name="C" x="-2.025" y="0" dx="1.8" dy="2.4" layer="1"/>
+<smd name="A" x="2.025" y="0" dx="1.8" dy="2.4" layer="1" rot="R180"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.825" y1="-1.1" x2="-2.175" y2="1.1" layer="51"/>
+<rectangle x1="2.175" y1="-1.1" x2="2.825" y2="1.1" layer="51" rot="R180"/>
+<rectangle x1="-1.065" y1="-1.225" x2="-0.39" y2="1.225" layer="21"/>
+<rectangle x1="-1.75" y1="-1.225" x2="-1.075" y2="1.225" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3342,55 +3326,55 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DISTRIBUTOR" value="digikey" x="16.2" y="41" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="445-2550-1-ND" x="16.2" y="41" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="NTCG103JF103FT1" x="16.2" y="41" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.7" y="41.4" size="0.7" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="19.4" y="41.3" size="0.6" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="15.565" y="39.095" size="1.27" layer="27"/>
 </element>
 <element name="RT3" library="R-Generic-Thermister0402" package="R0402" value="10K" x="16.1" y="55.1" smashed="yes">
 <attribute name="DISTRIBUTOR" value="Digi-Key" x="16.1" y="55.1" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="445-2550-1-ND" x="16.1" y="55.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="NTCG103JF103FT1" x="16.1" y="55.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.935" y="55.465" size="0.7" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="18.935" y="55.465" size="0.6" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="15.465" y="53.195" size="1.27" layer="27"/>
 </element>
 <element name="RT2" library="R-Generic-Thermister0402" package="R0402" value="10K" x="15.7" y="67.4" smashed="yes">
 <attribute name="DISTRIBUTOR" value="Digi-key" x="15.7" y="67.4" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="445-2550-1-ND" x="15.7" y="67.4" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="NTCG103JF103FT1" x="15.7" y="67.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.7" y="67.8" size="0.7" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="18.7" y="67.8" size="0.6" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="15.065" y="65.495" size="1.27" layer="27"/>
 </element>
 <element name="RT1" library="R-Generic-Thermister0402" package="R0402" value="10K" x="99" y="35" smashed="yes" rot="R180">
 <attribute name="DISTRIBUTOR" value="Digi-Key" x="99" y="35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DPN" value="445-2550-1-ND" x="99" y="35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="NTCG103JF103FT1" x="99" y="35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="98.5" y="35.7" size="0.7" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="98.5" y="35.7" size="0.6" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="99.635" y="36.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R11" library="oresat-rcl" package=".0603-B-NOSILK" value="10k" x="12.4" y="15.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.665" y="16.835" size="0.7" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="11.665" y="16.835" size="0.6" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="10.495" y="15.935" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R12" library="oresat-rcl" package=".0603-B-NOSILK" value="10k" x="15" y="15.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.165" y="16.835" size="0.7" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="14.165" y="16.835" size="0.6" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="13.095" y="15.935" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R13" library="oresat-rcl" package=".0603-B-NOSILK" value="10k" x="17.5" y="15.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.665" y="16.835" size="0.7" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="16.665" y="16.835" size="0.6" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.595" y="15.935" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R14" library="oresat-rcl" package=".0603-B-NOSILK" value="10k" x="19.9" y="15.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.065" y="16.835" size="0.7" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="19.065" y="16.835" size="0.6" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="17.995" y="15.935" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="PCB1" library="U-Arduino-Nano-DevBoard" package="ARDUINO_NANO_SHIELD" value="ARDUINO_NANO" x="21.3" y="19.8" smashed="yes">
-<attribute name="NAME" x="45.43" y="19.8" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="45.43" y="19.8" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="U$1" library="U-TI-TPS92512-buck" package="MSOP10" value="" x="16.27" y="65.31" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="16.39" y="65.17" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="296-41002-1-ND" x="16.39" y="65.17" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Texas Instruments" x="16.39" y="65.17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TPS92512DGQR" x="16.39" y="65.17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.358" y="66.33" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="13.358" y="66.33" size="0.6" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="19.692" y="62.63" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U$2" library="U-TI-TPS92512-buck" package="MSOP10" value="" x="16.27" y="53.2" smashed="yes" rot="R270">
@@ -3398,7 +3382,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="296-41002-1-ND" x="16.27" y="53.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Texas Instruments" x="16.27" y="53.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="TPS92512DGQR" x="16.27" y="53.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.568" y="54.43" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="12.568" y="54.43" size="0.6" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="13.73" y="49.898" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="U$3" library="U-TI-TPS92512-buck" package="MSOP10" value="" x="16.47" y="38.9" smashed="yes" rot="R270">
@@ -3406,10 +3390,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="296-41002-1-ND" x="16.47" y="38.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Texas Instruments" x="16.47" y="38.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="TPS92512DGQR" x="16.47" y="38.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.13" y="41.932" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="10.13" y="41.932" size="0.6" layer="25" ratio="10"/>
 </element>
 <element name="U$4" library="U-Microchip-MCP4728-QuadDAC" package="MSOP10" value="MCP4728" x="6.1" y="55.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.168" y="56.76" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="7.168" y="56.76" size="0.6" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="3.56" y="51.798" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="J1" library="J-CUI-PJ102B-Barrel_Jack" package="CUI_PJ-102B" value="PJ-102B" x="2.5" y="5.9" smashed="yes" rot="R180">
@@ -3421,7 +3405,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MF" value="CUI Devices" x="2.5" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Conec" x="2.5" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="PJ-102B" x="2.5" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="10.28" y="9.11" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="10.28" y="9.11" size="0.6" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="2.5" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="2.5" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="7.58" y="16.06" size="1.27" layer="27" rot="R270"/>
@@ -3431,136 +3415,136 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="SC3832-ND" x="2.9" y="65.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="SwitchCraft" x="2.9" y="65.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RAPC722BKZ" x="2.9" y="65.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="7.98" y="69.41" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="7.98" y="69.41" size="0.6" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-7.26" y="70.68" size="1.27" layer="27"/>
 </element>
 <element name="R1" library="oresat-rcl" package=".0402-A-NOSILK" value="4.7k" x="8.85" y="18.345" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.7" y="20.545" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="8.7" y="20.545" size="0.6" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="NAME" x="8.85" y="18.345" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="10.15" y="17.945" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R2" library="oresat-rcl" package=".0402-A-NOSILK" value="4.7k" x="9.88" y="18.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.73" y="20.55" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="9.73" y="20.55" size="0.6" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="NAME" x="9.88" y="18.35" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="8.48" y="19.25" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R3" library="oresat-rcl" package=".0402-A-NOSILK" value="10k" x="10.98" y="18.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.93" y="20.55" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="10.93" y="20.55" size="0.6" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="NAME" x="10.88" y="18.45" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="9.58" y="19.25" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R4" library="oresat-rcl" package=".0402-A-NOSILK" value="100k" x="4.6" y="57.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="5" y="58.45" size="0.5" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="5" y="58.45" size="0.6" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="4" y="56.9" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="5.5" y="58.8" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C1" library="oresat-rcl" package=".0402-A-NOSILK" value="100n" x="14.7" y="41.9" smashed="yes">
-<attribute name="NAME" x="13.8" y="42.55" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="12.9" y="41.75" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="14.7" y="41.9" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="13.8" y="40.5" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C2" library="oresat-rcl" package=".0402-A-NOSILK" value="100n" x="14.7" y="56" smashed="yes">
-<attribute name="NAME" x="15.8" y="55.75" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="15.8" y="55.75" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="14.7" y="56" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="13.8" y="54.6" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C3" library="oresat-rcl" package=".0402-A-NOSILK" value=".1u" x="14.7" y="68.4" smashed="yes">
-<attribute name="NAME" x="13.8" y="69.05" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="13.8" y="69.05" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="14.7" y="68.4" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="13.8" y="67" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="" x="23.415" y="42.075" smashed="yes">
-<attribute name="NAME" x="21.256" y="44.234" size="1.27" layer="25"/>
+<element name="D1" library="D-MCC-SS2150-Schottky" package="DO-214AC" value="D-MCC-SS2150" x="23.415" y="42.075" smashed="yes">
+<attribute name="NAME" x="21.256" y="44.234" size="0.6" layer="25"/>
 <attribute name="VALUE" x="21.256" y="38.646" size="1.27" layer="27"/>
 </element>
-<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="" x="23.415" y="55.53" smashed="yes">
-<attribute name="NAME" x="21.256" y="57.689" size="1.27" layer="25"/>
+<element name="D2" library="D-MCC-SS2150-Schottky" package="DO-214AC" value="D-MCC-SS2150" x="23.415" y="55.53" smashed="yes">
+<attribute name="NAME" x="21.256" y="57.689" size="0.6" layer="25"/>
 <attribute name="VALUE" x="21.256" y="52.101" size="1.27" layer="27"/>
 </element>
-<element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="" x="23.415" y="67.775" smashed="yes">
-<attribute name="NAME" x="22.756" y="64.434" size="1.27" layer="25"/>
+<element name="D3" library="D-MCC-SS2150-Schottky" package="DO-214AC" value="D-MCC-SS2150" x="23.415" y="67.775" smashed="yes">
+<attribute name="NAME" x="22.756" y="64.434" size="0.6" layer="25"/>
 <attribute name="VALUE" x="21.256" y="64.346" size="1.27" layer="27"/>
 </element>
 <element name="R7" library="oresat-rcl" package=".0402-A-NOSILK" value="TBD" x="10.235" y="51.64" smashed="yes">
-<attribute name="NAME" x="9.635" y="52.39" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="9.635" y="52.39" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="10.235" y="51.64" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="9.335" y="50.24" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R8" library="oresat-rcl" package=".0402-A-NOSILK" value="TBD" x="11.855" y="52.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.305" y="52.005" size="0.5" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="11.305" y="52.005" size="0.6" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="11.855" y="52.305" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="13.255" y="51.405" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R9" library="oresat-rcl" package=".0402-A-NOSILK" value="TBD" x="10.4" y="63.655" smashed="yes">
-<attribute name="NAME" x="9.5" y="64.305" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="9.5" y="64.305" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="10.4" y="63.655" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="9.5" y="62.255" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R10" library="oresat-rcl" package=".0402-A-NOSILK" value="TBD" x="11.85" y="64.205" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.2" y="63.305" size="0.5" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="11.2" y="63.305" size="0.6" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="11.85" y="64.205" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="13.25" y="63.305" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C4" library="oresat-rcl" package=".0402-A-NOSILK" value="100n" x="11.65" y="39.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.85" y="39.91" size="0.5" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="9.85" y="39.91" size="0.6" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="11.65" y="39.66" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.55" y="41.06" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C5" library="oresat-rcl" package=".0402-A-NOSILK" value="100n" x="11.805" y="53.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.205" y="52.41" size="0.5" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="12.205" y="52.41" size="0.6" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="11.805" y="53.76" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.705" y="55.16" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C6" library="oresat-rcl" package=".0402-A-NOSILK" value="100n" x="11.795" y="65.81" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.695" y="65.16" size="0.5" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="12.695" y="65.16" size="0.6" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="11.795" y="65.81" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.695" y="67.21" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R15" library="oresat-rcl" package=".0402-A-NOSILK" value="1k" x="21.1" y="64.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="22" y="63.55" size="0.5" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="22" y="63.55" size="0.6" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="21.1" y="64.2" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="22" y="65.6" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R16" library="oresat-rcl" package=".0402-A-NOSILK" value="1k" x="20.8" y="52.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.5" y="51.45" size="0.5" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="21.5" y="51.45" size="0.6" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="20.8" y="52.1" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="21.7" y="53.5" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R17" library="oresat-rcl" package=".0402-A-NOSILK" value="1k" x="21.7" y="37.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.6" y="37.25" size="0.5" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="22.6" y="37.25" size="0.6" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="21.7" y="37.9" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="22.6" y="39.3" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="150n" x="41.48" y="61.985" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.33" y="62.585" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="42.33" y="62.585" size="0.6" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="NAME" x="41.48" y="61.985" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="52" x="41.48" y="61.985" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="41.48" y="61.985" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="40.08" y="62.885" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="150n" x="41.48" y="48.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.43" y="49.5" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="42.43" y="49.5" size="0.6" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="NAME" x="41.48" y="48.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="52" x="41.48" y="48.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="41.48" y="48.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="40.08" y="49.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="150n" x="41.88" y="35.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.53" y="36.2" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="42.53" y="36.2" size="0.6" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="NAME" x="41.88" y="35.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="52" x="41.88" y="35.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="41.88" y="35.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="40.48" y="36.2" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="300m" x="44.365" y="57.45" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.065" y="56.5" size="0.5" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="45.065" y="56.5" size="0.6" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="44.365" y="57.45" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="85" x="44.365" y="57.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="44.365" y="57.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="45.265" y="58.85" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="300m" x="41.55" y="45.175" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.7" y="44.375" size="0.5" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="43.7" y="44.375" size="0.6" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="41.55" y="45.175" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="85" x="41.55" y="45.175" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="41.55" y="45.175" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3572,42 +3556,42 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="R" x="44.615" y="34.35" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R21" library="oresat-rcl" package=".0402-A-NOSILK" value="11k" x="12.3" y="49.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.65" y="49" size="0.5" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="11.65" y="49" size="0.6" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="12.3" y="49.9" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="13.7" y="49" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C10" library="oresat-rcl" package=".0402-A-NOSILK" value=".1u" x="20.4" y="53.2" smashed="yes">
-<attribute name="NAME" x="19.8" y="53.85" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="19.8" y="53.85" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="20.4" y="53.2" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="19.5" y="51.8" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R22" library="oresat-rcl" package=".0402-A-NOSILK" value="11k" x="12.445" y="61.865" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.895" y="61.265" size="0.5" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="11.895" y="61.265" size="0.6" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="12.445" y="61.865" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="13.845" y="60.965" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C11" library="oresat-rcl" package=".0402-A-NOSILK" value=".1u" x="20.205" y="65.31" smashed="yes">
-<attribute name="NAME" x="19.605" y="65.96" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="19.605" y="65.96" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="20.205" y="65.31" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="19.305" y="63.91" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R5" library="oresat-rcl" package=".0402-A-NOSILK" value="TBD" x="10.145" y="37.545" smashed="yes">
-<attribute name="NAME" x="8.145" y="37.295" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="7.645" y="37.295" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="10.145" y="37.545" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="9.245" y="36.145" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R6" library="oresat-rcl" package=".0402-A-NOSILK" value="TBD" x="11.6" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.3" y="38.45" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="10.3" y="38.45" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="11.5" y="37.9" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="11.4" y="36.4" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R23" library="oresat-rcl" package=".0402-A-NOSILK" value="11k" x="13.34" y="36.57" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.69" y="35.67" size="0.5" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="12.69" y="35.67" size="0.6" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="NAME" x="13.34" y="36.57" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="14.74" y="35.67" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C12" library="oresat-rcl" package=".0402-A-NOSILK" value="100n" x="20.5" y="38.9" smashed="yes">
-<attribute name="NAME" x="19.9" y="39.85" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="19.9" y="39.85" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="20.5" y="38.9" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="19.6" y="37.5" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
@@ -3615,7 +3599,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIS" value="Digi-Key" x="33.6" y="36.8" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="TE2201TR-ND" x="33.6" y="36.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="SH150S-1.02-168" x="33.6" y="36.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.8" y="40.65" size="1" layer="25" ratio="10"/>
+<attribute name="NAME" x="40.8" y="40.65" size="0.6" layer="25" ratio="10"/>
 <attribute name="VALUE" x="32.8" y="34.6" size="1" layer="27" ratio="10"/>
 </element>
 <element name="L2" library="L_Wurst_7447709681" package="1212NONSTANDARD" value="170u" x="33.6" y="50.3" smashed="yes">
@@ -3623,7 +3607,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="TE2201TR-ND" x="33.6" y="50.3" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Amgis" x="33.6" y="50.3" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="SH150S-1.02-168" x="33.6" y="50.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.5" y="53.85" size="1" layer="25" ratio="10"/>
+<attribute name="NAME" x="40.5" y="53.85" size="0.6" layer="25" ratio="10"/>
 <attribute name="VALUE" x="32.8" y="48.1" size="1" layer="27" ratio="10"/>
 </element>
 <element name="L3" library="L_Wurst_7447709681" package="1212NONSTANDARD" value="170u" x="33.6" y="63.5" smashed="yes">
@@ -3631,16 +3615,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="TE2201TR-ND" x="33.6" y="63.5" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Amgis" x="33.6" y="63.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="SH150S-1.02-168" x="33.6" y="63.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41.3" y="67.75" size="1" layer="25" ratio="10"/>
+<attribute name="NAME" x="41.3" y="67.75" size="0.6" layer="25" ratio="10"/>
 <attribute name="VALUE" x="32.8" y="61.3" size="1" layer="27" ratio="10"/>
 </element>
 <element name="U$6" library="Q-MOSFET-NCH-SOT223" package="SOT223" value="NCH-SOT223" x="20.67" y="5.3" smashed="yes">
 <attribute name="MPN" value="DMN6068SE" x="20.67" y="5.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24.63" y="5.0508" size="1.27" layer="25"/>
+<attribute name="NAME" x="24.63" y="5.0508" size="0.6" layer="25"/>
 <attribute name="VALUE" x="18.13" y="3.9792" size="1.27" layer="27"/>
 </element>
 <element name="R29" library="oresat-rcl" package=".0402-A-NOSILK" value="10k" x="15.7" y="2.2" smashed="yes">
-<attribute name="NAME" x="14.8" y="2.85" size="0.5" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="14.8" y="2.85" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="15.7" y="2.2" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="14.8" y="0.8" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
@@ -3649,127 +3633,127 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$9" library="HL_HalogenBulb_G4Base" package="G4BASE" value="HL_G4BULB" x="110.5" y="32.2" smashed="yes" rot="R270"/>
 <element name="U$10" library="HL_HalogenBulb_G4Base" package="G4BASE" value="HL_G4BULB" x="130.1" y="32.2" smashed="yes" rot="R270"/>
 <element name="TP1" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="14.5" y="43.2" smashed="yes">
-<attribute name="NAME" x="11.5" y="43.5" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="11.5" y="43.5" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP2" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="25.1" y="30.3" smashed="yes">
-<attribute name="NAME" x="24.2" y="31.8" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="24.2" y="31.8" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="TP3" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="3.9" y="50.5" smashed="yes">
-<attribute name="NAME" x="3.8" y="47.5" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="TP3" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="0" y="51.3" smashed="yes">
+<attribute name="NAME" x="-0.7" y="49.4" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP4" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="45.2" y="6.4" smashed="yes">
-<attribute name="NAME" x="43.6" y="7.9" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="43.6" y="7.9" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="TP5" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="3.9" y="30.4" smashed="yes">
-<attribute name="NAME" x="2.3" y="31.9" size="0.8" layer="25" font="vector" ratio="20"/>
+<element name="TP5" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="3.8" y="31.3" smashed="yes">
+<attribute name="NAME" x="2.2" y="32.8" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP6" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="20.5" y="33.8" smashed="yes">
-<attribute name="NAME" x="18.9" y="35.3" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="18.9" y="35.3" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP7" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="20.3" y="47.9" smashed="yes">
-<attribute name="NAME" x="19.3" y="49.1" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="19.3" y="49.1" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP8" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="20.9" y="60.3" smashed="yes">
-<attribute name="NAME" x="20.1" y="61.6" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="20.1" y="61.6" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP9" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="10.725" y="35.93" smashed="yes">
-<attribute name="NAME" x="7.425" y="35.63" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="7.425" y="35.63" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP10" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="10.2" y="50.2" smashed="yes">
-<attribute name="NAME" x="6.6" y="49.7" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="6.6" y="49.7" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP11" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="10.26" y="62.225" smashed="yes">
-<attribute name="NAME" x="9.075" y="61.16" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="9.075" y="61.16" size="0.6" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="TP12" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="1.8" y="58.1" smashed="yes">
-<attribute name="NAME" x="-0.7" y="55.8" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="-1.2" y="57.9" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP13" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="11.4" y="5" smashed="yes">
-<attribute name="NAME" x="10.2" y="2.7" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="10.2" y="2.7" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP15" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="14.5" y="8.8" smashed="yes">
-<attribute name="NAME" x="12.9" y="10.3" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="12.9" y="10.3" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP17" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="0.1" y="13.7" smashed="yes">
-<attribute name="NAME" x="-0.6" y="15" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="-0.6" y="15" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP18" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="25.5" y="9.2" smashed="yes">
-<attribute name="NAME" x="23.9" y="10.7" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="24.5" y="7.4" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="TP19" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="1.9" y="56" smashed="yes">
-<attribute name="NAME" x="1.9" y="52.3" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="TP19" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="1.8" y="56" smashed="yes">
+<attribute name="NAME" x="-1.2" y="55.7" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP20" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="47.6" y="8.5" smashed="yes">
-<attribute name="NAME" x="46" y="10" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="46" y="10" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP21" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="22.9" y="50.6" smashed="yes">
-<attribute name="NAME" x="22.1" y="51.8" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="22.1" y="51.8" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP22" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="22.8" y="59" smashed="yes">
-<attribute name="NAME" x="23.2" y="60.1" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="23.2" y="60.1" size="0.6" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="TP23" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="24.1" y="36.4" smashed="yes">
-<attribute name="NAME" x="22.5" y="37.9" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="22.5" y="37.9" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP24" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="16.7" y="43.1" smashed="yes">
-<attribute name="NAME" x="17.8" y="43.4" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="17.8" y="43.4" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP25" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="24.8" y="46.6" smashed="yes">
-<attribute name="NAME" x="23.9" y="47.8" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="23.9" y="47.8" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP26" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="25.6" y="59.2" smashed="yes">
-<attribute name="NAME" x="24.4" y="60.5" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="24.4" y="60.5" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP14" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="6" y="51.9" smashed="yes">
-<attribute name="NAME" x="6" y="48.2" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="6" y="48.2" size="0.6" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="TP16" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="10.3" y="56.9" smashed="yes">
-<attribute name="NAME" x="8.9" y="58.1" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="8.9" y="58.1" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP27" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="46.4" y="21.5" smashed="yes">
-<attribute name="NAME" x="44.8" y="23" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="44.8" y="23" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP28" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="10.2" y="48.4" smashed="yes">
-<attribute name="NAME" x="6.5" y="47.8" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="6.5" y="47.8" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP29" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="10.25" y="60.435" smashed="yes">
-<attribute name="NAME" x="11.05" y="59.735" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="11.05" y="59.735" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP30" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="10.71" y="34.1" smashed="yes">
-<attribute name="NAME" x="6.81" y="33.6" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="6.81" y="33.6" size="0.6" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="10u" x="16.4" y="60.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.45" y="57.1" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="13.45" y="57.1" size="0.6" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="16.4" y="60.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="16.4" y="60.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="20.375" y="57.3" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="10u" x="16.8" y="33.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.85" y="30.8" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="12.65" y="30.9" size="0.6" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="16.8" y="33.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="16.8" y="33.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="20.775" y="30.8" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C2220K" package3d_urn="urn:adsk.eagle:package:23687/2" value="10u" x="16.3" y="47.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.35" y="45.1" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="13.35" y="45.1" size="0.6" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="16.3" y="47.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="16.3" y="47.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="20.275" y="45.1" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10M" x="21.9" y="33.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.535" y="34.835" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="22.535" y="34.835" size="0.6" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="34" x="21.9" y="33.3" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="21.9" y="33.3" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="VALUE" x="19.995" y="33.935" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10M" x="21.7" y="47.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.335" y="48.835" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="22.335" y="48.835" size="0.6" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="34" x="21.7" y="47.4" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="21.7" y="47.4" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="VALUE" x="19.795" y="48.035" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10M" x="20.9" y="58.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.135" y="59.135" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.135" y="59.135" size="0.6" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="34" x="20.9" y="58.4" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20.9" y="58.4" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="VALUE" x="18.995" y="59.035" size="1.27" layer="27" rot="R270"/>
@@ -5831,7 +5815,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="17.49" y1="12.18" x2="17.49" y2="14.49" width="0.1524" layer="1"/>
 <wire x1="17.49" y1="14.49" x2="17.5" y2="14.5" width="0.1524" layer="1"/>
 <wire x1="17.49" y1="12.71" x2="17.49" y2="12.18" width="0.2" layer="16"/>
-<wire x1="10.95" y1="13.85" x2="16.35" y2="13.85" width="0.2" layer="16"/>
 <wire x1="16.35" y1="13.85" x2="17.49" y2="12.71" width="0.2" layer="16"/>
 <contactref element="TP3" pad="1"/>
 <via x="17.1" y="67.4" extent="1-16" drill="0.254"/>
@@ -5839,13 +5822,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="15.9556" y1="66.2556" x2="15.61128125" y2="66.2556" width="0.2" layer="16"/>
 <wire x1="10.67013125" y1="61.31445" x2="9.8271375" y2="61.31445" width="0.2" layer="16"/>
 <wire x1="15.61128125" y1="66.2556" x2="10.67013125" y2="61.31445" width="0.2" layer="16"/>
-<wire x1="9.8271375" y1="61.31445" x2="2.3" y2="53.7873125" width="0.2" layer="16"/>
 <wire x1="16.2" y1="67.4" x2="17.1" y2="67.4" width="0.2" layer="1"/>
-<wire x1="2.3" y1="53.7873125" x2="2.3" y2="51.6" width="0.2" layer="16"/>
-<wire x1="2.3" y1="51.6" x2="2.3" y2="22.5" width="0.2" layer="16"/>
-<wire x1="2.3" y1="22.5" x2="10.95" y2="13.85" width="0.2" layer="16"/>
-<wire x1="3.9" y1="50.5" x2="2.8" y2="51.6" width="0.2" layer="16"/>
-<wire x1="2.8" y1="51.6" x2="2.3" y2="51.6" width="0.2" layer="16"/>
+<wire x1="1.2408" y1="52.7281125" x2="1.2408" y2="52.4" width="0.2" layer="16"/>
+<via x="1.2408" y="52.4" extent="1-16" drill="0.254"/>
+<wire x1="9.8271375" y1="61.31445" x2="1.2408" y2="52.7281125" width="0.2" layer="16"/>
+<wire x1="1.2408" y1="23.5592" x2="1.2408" y2="52.4" width="0.2" layer="1"/>
+<wire x1="11.3" y1="10.5" x2="11.3" y2="13.5" width="0.2" layer="1"/>
+<wire x1="11.3" y1="10.5" x2="11.7" y2="10.1" width="0.2" layer="1"/>
+<wire x1="11.7" y1="10.1" x2="17" y2="10.1" width="0.2" layer="1"/>
+<wire x1="17" y1="10.1" x2="17.49" y2="10.59" width="0.2" layer="1"/>
+<wire x1="17.49" y1="10.59" x2="17.49" y2="12.18" width="0.2" layer="1"/>
+<wire x1="11.3" y1="13.5" x2="1.2408" y2="23.5592" width="0.2" layer="1"/>
+<wire x1="0" y1="51.3" x2="0" y2="51.5" width="0.2" layer="1"/>
+<wire x1="0" y1="51.5" x2="0.9" y2="52.4" width="0.2" layer="1"/>
+<wire x1="0.9" y1="52.4" x2="1.2408" y2="52.4" width="0.2" layer="1"/>
 </signal>
 <signal name="A1">
 <contactref element="RT3" pad="2"/>
@@ -5922,11 +5912,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="8.85" y="21" extent="1-16" drill="0.254"/>
 <wire x1="8.85" y1="21" x2="8.85" y2="20.55" width="0.2" layer="1"/>
 <wire x1="8.85" y1="20.55" x2="8.8" y2="20.5" width="0.2" layer="1"/>
-<wire x1="2.2" y1="55" x2="2.55" y2="55.35" width="0.2" layer="1"/>
-<wire x1="2.55" y1="55.35" x2="2.8" y2="55.6" width="0.2" layer="1"/>
+<wire x1="2.2" y1="55" x2="2.5" y2="55.3" width="0.2" layer="1"/>
+<wire x1="2.5" y1="55.3" x2="2.8" y2="55.6" width="0.2" layer="1"/>
 <wire x1="2.8" y1="55.6" x2="3.9869" y2="55.6" width="0.2" layer="1"/>
 <wire x1="2.2" y1="25.4" x2="2.2" y2="55" width="0.2" layer="1"/>
-<wire x1="1.9" y1="56" x2="2.55" y2="55.35" width="0.2" layer="1"/>
+<wire x1="1.8" y1="56" x2="2.5" y2="55.3" width="0.2" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$4" pad="1"/>
@@ -5942,7 +5932,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="TP26" pad="1"/>
 <wire x1="15.25" y1="68.4" x2="18.45" y2="68.4" width="0.2" layer="1"/>
 <wire x1="19.075" y1="67.775" x2="18.45" y2="68.4" width="0.2" layer="1"/>
-<wire x1="19.075" y1="67.775" x2="21.215" y2="67.775" width="0.2" layer="1"/>
+<wire x1="19.075" y1="67.775" x2="21.39" y2="67.775" width="0.2" layer="1"/>
 <polygon width="0.2" layer="1" thermals="no">
 <vertex x="18" y="66.2"/>
 <vertex x="21" y="66.2"/>
@@ -5966,7 +5956,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D2" pad="C"/>
 <wire x1="17.72" y1="55.53" x2="17.25" y2="56" width="0.2" layer="1"/>
 <wire x1="15.25" y1="56" x2="17.25" y2="56" width="0.2" layer="1"/>
-<wire x1="17.72" y1="55.53" x2="21.215" y2="55.53" width="0.2" layer="1"/>
+<wire x1="17.72" y1="55.53" x2="21.39" y2="55.53" width="0.2" layer="1"/>
 <polygon width="0.2" layer="1" thermals="no">
 <vertex x="17.9" y="54.2"/>
 <vertex x="17.9" y="56"/>
@@ -6021,8 +6011,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.4836" y1="21.5" x2="6.6" y2="21.5" width="0.2" layer="1"/>
 <wire x1="6.6" y1="21.5" x2="4.79" y2="23.31" width="0.2" layer="1"/>
 <wire x1="4.79" y1="23.31" x2="4.79" y2="27.42" width="0.2" layer="1"/>
-<wire x1="3.9" y1="30.4" x2="4.79" y2="29.51" width="0.2" layer="1"/>
-<wire x1="4.79" y1="29.51" x2="4.79" y2="27.42" width="0.2" layer="1"/>
+<wire x1="3.8" y1="31.3" x2="4.79" y2="30.31" width="0.2" layer="1"/>
+<wire x1="4.79" y1="30.31" x2="4.79" y2="27.42" width="0.2" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="R4" pad="1"/>
