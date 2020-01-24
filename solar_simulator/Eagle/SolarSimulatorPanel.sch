@@ -16126,7 +16126,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <attribute name="MFR" value="Texas Instruments"/>
 <attribute name="MPN" value="TPS92512DGQR"/>
 </part>
-<part name="U$4" library="U-Microchip-MCP4728-QuadDAC" deviceset="MCP4728" device=""/>
+<part name="U4" library="U-Microchip-MCP4728-QuadDAC" deviceset="MCP4728" device=""/>
 <part name="J1" library="J-CUI-PJ102B-Barrel_Jack" deviceset="PJ-102B" device="">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="626-1968-ND"/>
@@ -16763,7 +16763,7 @@ on board</text>
 <attribute name="MFR" x="223.52" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="223.52" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$4" gate="G$1" x="129.54" y="101.6" smashed="yes">
+<instance part="U4" gate="G$1" x="129.54" y="101.6" smashed="yes">
 <attribute name="NAME" x="114.3" y="114.3" size="1.27" layer="97"/>
 <attribute name="VALUE" x="114.3" y="111.76" size="1.27" layer="97"/>
 </instance>
@@ -17424,7 +17424,7 @@ on board</text>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="129.54" y1="88.9" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -17745,7 +17745,7 @@ on board</text>
 <wire x1="35.56" y1="73.66" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="58.42" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="58.42" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="SDA"/>
+<pinref part="U4" gate="G$1" pin="SDA"/>
 <wire x1="106.68" y1="71.12" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R2" gate="R" pin="1"/>
@@ -17763,7 +17763,7 @@ on board</text>
 <wire x1="38.1" y1="76.2" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="60.96" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="SCL"/>
+<pinref part="U4" gate="G$1" pin="SCL"/>
 <wire x1="104.14" y1="71.12" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R1" gate="R" pin="1"/>
@@ -17823,7 +17823,7 @@ on board</text>
 </net>
 <net name="!LDAC" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="!LDAC"/>
+<pinref part="U4" gate="G$1" pin="!LDAC"/>
 <wire x1="111.76" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="99.06" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
@@ -17839,7 +17839,7 @@ on board</text>
 <segment>
 <pinref part="R4" gate="R" pin="1"/>
 <wire x1="144.78" y1="116.84" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="RDY/!BSY"/>
+<pinref part="U4" gate="G$1" pin="RDY/!BSY"/>
 <wire x1="147.32" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="106.68" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
@@ -18310,7 +18310,7 @@ on board</text>
 <pinref part="3V-5" gate="A" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="VDD"/>
+<pinref part="U4" gate="G$1" pin="VDD"/>
 <wire x1="129.54" y1="111.76" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R4" gate="R" pin="2"/>
 <wire x1="134.62" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
@@ -18321,7 +18321,7 @@ on board</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="VOUTD"/>
+<pinref part="U4" gate="G$1" pin="VOUTD"/>
 <wire x1="147.32" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="104.14" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="TP16" gate="G$1" pin="1"/>
@@ -18329,14 +18329,14 @@ on board</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="VOUTC"/>
+<pinref part="U4" gate="G$1" pin="VOUTC"/>
 <wire x1="152.4" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="VOUTB"/>
+<pinref part="U4" gate="G$1" pin="VOUTB"/>
 <wire x1="152.4" y1="96.52" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
@@ -18344,7 +18344,7 @@ on board</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="VOUTA"/>
+<pinref part="U4" gate="G$1" pin="VOUTA"/>
 <wire x1="152.4" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="91.44" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
