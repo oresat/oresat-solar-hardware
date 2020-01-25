@@ -2825,7 +2825,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="oshpark-4layer">
+<designrules name="oshpark-4layer *">
 <description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
@@ -2887,7 +2887,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="10mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -6849,6 +6849,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="7,39,86a9dbb7e15fc46c"/>
 <approved hash="7,39,2e382e10ae68ae40"/>
 <approved hash="7,39,59fd56ebb1c7c6fc"/>
+<approved hash="23,1,83abbe57be93836f"/>
+<approved hash="23,1,1222efdeef4112bd"/>
+<approved hash="23,1,17de173fcad21be2"/>
+<approved hash="23,1,00d0bf2cbf73008f"/>
+<approved hash="23,1,42ccd0033bb3ff53"/>
+<approved hash="23,1,89304f82459a8328"/>
+<approved hash="23,1,995bd0a9caec831e"/>
+<approved hash="23,1,d2c9ba717a7d3fec"/>
 </errors>
 </board>
 </drawing>
