@@ -8,6 +8,7 @@
 
 
   int Halogen = 9; //pin to control the halogen bulbs
+  
   int PWMR = 0;  // pwm pin control the red LED channel
   int PWMG = 0;  //pwm pin to control the green LED channel
   int PWMB = 0;  //pwm pin to control the blue LED channel
