@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -13983,10 +13983,8 @@ LED</description>
 <library name="D-Spectrolab-XTE-SF">
 <packages>
 <package name="SPECTROLAB-XTE-SF">
-<wire x1="-34.75" y1="-20" x2="34.75" y2="-20" width="0.127" layer="51"/>
-<wire x1="34.75" y1="-20" x2="34.75" y2="20" width="0.127" layer="51"/>
-<wire x1="23" y1="20" x2="-22.25" y2="20" width="0.1" layer="51"/>
-<wire x1="-22.25" y1="20" x2="-23.25" y2="20" width="0.1" layer="51"/>
+<wire x1="-34.75" y1="-20" x2="34.75" y2="-20" width="0.1" layer="51"/>
+<wire x1="34.75" y1="-20" x2="34.75" y2="20" width="0.1" layer="51"/>
 <wire x1="-23.25" y1="20" x2="-34.75" y2="20" width="0.1" layer="51"/>
 <wire x1="-34.75" y1="20" x2="-34.75" y2="-20" width="0.1" layer="51"/>
 <wire x1="-35" y1="-20.25" x2="35" y2="-20.25" width="0.1" layer="39"/>
@@ -13996,15 +13994,13 @@ LED</description>
 <wire x1="-23.25" y1="20" x2="-23.25" y2="25.5" width="0.1" layer="51"/>
 <wire x1="-23.25" y1="25.5" x2="-22.25" y2="25.5" width="0.1" layer="51"/>
 <wire x1="-22.25" y1="25.5" x2="-22.25" y2="20" width="0.1" layer="51"/>
-<wire x1="34.75" y1="20" x2="28" y2="20" width="0.1" layer="51"/>
 <wire x1="35" y1="20.25" x2="22.75" y2="20.25" width="0.1" layer="39"/>
 <wire x1="-21.75" y1="20.25" x2="-21.75" y2="25.75" width="0.1" layer="39"/>
 <wire x1="-21.75" y1="25.75" x2="-23.75" y2="25.75" width="0.1" layer="39"/>
 <wire x1="-23.75" y1="25.75" x2="-23.75" y2="20.25" width="0.1" layer="39"/>
 <smd name="NEG2" x="21.75" y="23.5" dx="3" dy="5" layer="1"/>
 <smd name="NEG1" x="-22.75" y="23.5" dx="3" dy="5" layer="1"/>
-<smd name="POS2" x="12.75" y="23.5" dx="5" dy="5" layer="1"/>
-<wire x1="28" y1="20" x2="23" y2="20" width="0.1" layer="21"/>
+<smd name="POS2" x="12" y="23.5" dx="5" dy="5" layer="1"/>
 <wire x1="21.25" y1="20" x2="21.25" y2="25.5" width="0.1" layer="51"/>
 <wire x1="21.25" y1="25.5" x2="22.25" y2="25.5" width="0.1" layer="51"/>
 <wire x1="22.25" y1="25.5" x2="22.25" y2="20" width="0.1" layer="51"/>
@@ -14031,6 +14027,23 @@ LED</description>
 <wire x1="-2.5" y1="20.25" x2="-21.75" y2="20.25" width="0.1" layer="39"/>
 <smd name="NEG3" x="1.5" y="23.5" dx="8.25" dy="5" layer="1"/>
 <smd name="POS1" x="-12" y="23.5" dx="5" dy="5" layer="1"/>
+<wire x1="-12.25" y1="20" x2="-12.25" y2="25.5" width="0.1" layer="51"/>
+<wire x1="-12.25" y1="25.5" x2="-11.25" y2="25.5" width="0.1" layer="51"/>
+<wire x1="-11.25" y1="25.5" x2="-11.25" y2="20" width="0.1" layer="51"/>
+<wire x1="11.75" y1="20" x2="11.75" y2="25.5" width="0.1" layer="51"/>
+<wire x1="11.75" y1="25.5" x2="12.75" y2="25.5" width="0.1" layer="51"/>
+<wire x1="12.75" y1="25.5" x2="12.75" y2="20" width="0.1" layer="51"/>
+<wire x1="-12.25" y1="20" x2="-22.25" y2="20" width="0.1" layer="51"/>
+<wire x1="-12.25" y1="20" x2="-11.25" y2="20" width="0.1" layer="51"/>
+<wire x1="-11.25" y1="20" x2="-2" y2="20" width="0.1" layer="51"/>
+<wire x1="-1" y1="20" x2="0" y2="20" width="0.1" layer="51"/>
+<wire x1="1" y1="20" x2="3.75" y2="20" width="0.1" layer="51"/>
+<wire x1="4.75" y1="20" x2="11.75" y2="20" width="0.1" layer="51"/>
+<wire x1="11.75" y1="20" x2="12.75" y2="20" width="0.1" layer="51"/>
+<wire x1="12.75" y1="20" x2="21.25" y2="20" width="0.1" layer="51"/>
+<wire x1="22.25" y1="20" x2="34.75" y2="20" width="0.1" layer="51"/>
+<wire x1="-34.75" y1="20" x2="34.75" y2="-20" width="0.1" layer="51"/>
+<wire x1="34.75" y1="20" x2="-34.75" y2="-20" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
