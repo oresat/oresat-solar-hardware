@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -14927,11 +14927,45 @@ LED</description>
 <wire x1="41.5" y1="50" x2="43" y2="50" width="0.2" layer="51"/>
 <wire x1="41.5" y1="50" x2="40" y2="50" width="0.2" layer="51"/>
 <circle x="41.5" y="50" radius="1" width="0.2" layer="51"/>
+<circle x="2" y="95" radius="2" width="0" layer="40"/>
+<circle x="81" y="95" radius="2" width="0" layer="40"/>
+<circle x="81" y="65" radius="2" width="0" layer="40"/>
+<circle x="81" y="35" radius="2" width="0" layer="40"/>
+<circle x="81" y="5" radius="2" width="0" layer="40"/>
+<circle x="2" y="5" radius="2" width="0" layer="40"/>
+<circle x="2" y="35" radius="2" width="0" layer="40"/>
+<circle x="2" y="65" radius="2" width="0" layer="40"/>
+<circle x="2" y="95" radius="2" width="0" layer="30"/>
+<circle x="81" y="95" radius="2" width="0" layer="30"/>
+<circle x="81" y="65" radius="2" width="0" layer="30"/>
+<circle x="81" y="35" radius="2" width="0" layer="30"/>
+<circle x="81" y="5" radius="2" width="0" layer="30"/>
+<circle x="2" y="5" radius="2" width="0" layer="30"/>
+<circle x="2" y="35" radius="2" width="0" layer="30"/>
+<circle x="2" y="65" radius="2" width="0" layer="30"/>
+<circle x="2" y="95" radius="2" width="0" layer="42"/>
+<circle x="81" y="95" radius="2" width="0" layer="42"/>
+<circle x="81" y="65" radius="2" width="0" layer="42"/>
+<circle x="81" y="35" radius="2" width="0" layer="42"/>
+<circle x="81" y="5" radius="2" width="0" layer="42"/>
+<circle x="2" y="5" radius="2" width="0" layer="42"/>
+<circle x="2" y="35" radius="2" width="0" layer="42"/>
+<circle x="2" y="65" radius="2" width="0" layer="42"/>
+<circle x="19.5" y="5.4" radius="1.2" width="0.001" layer="50"/>
+<circle x="41.5" y="5.4" radius="1.2" width="0.001" layer="50"/>
+<circle x="63.5" y="5.4" radius="1.2" width="0.001" layer="50"/>
+<wire x1="36.5" y1="95" x2="34" y2="92.5" width="0.001" layer="50" curve="90"/>
 <wire x1="26.5" y1="33.5" x2="29" y2="31" width="0.001" layer="50" curve="90"/>
 <wire x1="29" y1="68" x2="26.5" y2="65.5" width="0.001" layer="50" curve="90"/>
 <wire x1="56.5" y1="65.5" x2="54" y2="68" width="0.001" layer="50" curve="90"/>
 <wire x1="54" y1="31" x2="56.5" y2="33.5" width="0.001" layer="50" curve="90"/>
+<wire x1="49" y1="92.5" x2="46.5" y2="95" width="0.001" layer="50" curve="90"/>
+<wire x1="46.5" y1="89" x2="48.5" y2="90" width="0.001" layer="50" curve="53.130102"/>
+<wire x1="48.5" y1="90" x2="49" y2="91.5" width="0.001" layer="50" curve="36.869898"/>
+<wire x1="34" y1="91.5" x2="34.5" y2="90" width="0.001" layer="50" curve="36.869898"/>
+<wire x1="34" y1="91.5" x2="34.5" y2="90" width="0.001" layer="50" curve="36.869898"/>
 <circle x="2" y="35" radius="0.8" width="0.001" layer="50"/>
+<wire x1="34.5" y1="90" x2="36.5" y2="89" width="0.001" layer="50" curve="53.130102"/>
 <wire x1="59.5" y1="33.5" x2="62" y2="31" width="0.001" layer="50" curve="90"/>
 <wire x1="62" y1="68" x2="59.5" y2="65.5" width="0.001" layer="50" curve="90"/>
 <wire x1="79" y1="65.5" x2="76.5" y2="68" width="0.001" layer="50" curve="90"/>
@@ -14995,15 +15029,20 @@ LED</description>
 <circle x="19.5" y="15.4" radius="1.2" width="0.001" layer="50"/>
 <circle x="41.5" y="15.4" radius="1.2" width="0.001" layer="50"/>
 <circle x="63.5" y="15.4" radius="1.2" width="0.001" layer="50"/>
+<wire x1="36.5" y1="95" x2="46.5" y2="95" width="0.001" layer="50"/>
+<wire x1="49" y1="91.5" x2="49" y2="92.5" width="0.001" layer="50"/>
 <wire x1="54" y1="31" x2="29" y2="31" width="0.001" layer="50"/>
 <wire x1="26.5" y1="33.5" x2="26.5" y2="65.5" width="0.001" layer="50"/>
 <wire x1="29" y1="68" x2="54" y2="68" width="0.001" layer="50"/>
 <wire x1="56.5" y1="65.5" x2="56.5" y2="33.5" width="0.001" layer="50"/>
-<wire x1="70.75" y1="0" x2="76" y2="0" width="0.001" layer="50"/>
+<wire x1="34" y1="92.5" x2="34" y2="91.5" width="0.001" layer="50"/>
+<wire x1="36.5" y1="89" x2="46.5" y2="89" width="0.001" layer="50"/>
+<wire x1="34.5" y1="90" x2="48.5" y2="90" width="0.001" layer="50"/>
 <wire x1="76.5" y1="31" x2="62" y2="31" width="0.001" layer="50"/>
 <wire x1="59.5" y1="33.5" x2="59.5" y2="65.5" width="0.001" layer="50"/>
 <wire x1="62" y1="68" x2="76.5" y2="68" width="0.001" layer="50"/>
 <wire x1="21" y1="3" x2="6.5" y2="3" width="0.001" layer="50"/>
+<wire x1="4" y1="5.5" x2="4" y2="25.5" width="0.001" layer="50"/>
 <wire x1="6.5" y1="28" x2="21" y2="28" width="0.001" layer="50"/>
 <wire x1="23.5" y1="25.5" x2="23.5" y2="5.5" width="0.001" layer="50"/>
 <wire x1="54" y1="3" x2="29" y2="3" width="0.001" layer="50"/>
@@ -15013,76 +15052,60 @@ LED</description>
 <wire x1="76.5" y1="3" x2="62" y2="3" width="0.001" layer="50"/>
 <wire x1="59.5" y1="5.5" x2="59.5" y2="25.5" width="0.001" layer="50"/>
 <wire x1="62" y1="28" x2="76.5" y2="28" width="0.001" layer="50"/>
+<wire x1="79" y1="25.5" x2="79" y2="5.5" width="0.001" layer="50"/>
 <wire x1="21" y1="31" x2="6.5" y2="31" width="0.001" layer="50"/>
 <wire x1="6.5" y1="68" x2="21" y2="68" width="0.001" layer="50"/>
 <wire x1="23.5" y1="65.5" x2="23.5" y2="33.5" width="0.001" layer="50"/>
 <wire x1="76.5" y1="71" x2="62" y2="71" width="0.001" layer="50"/>
 <wire x1="59.5" y1="73.5" x2="59.5" y2="93.5" width="0.001" layer="50"/>
 <wire x1="62" y1="96" x2="76.5" y2="96" width="0.001" layer="50"/>
+<wire x1="79" y1="93.5" x2="79" y2="73.5" width="0.001" layer="50"/>
 <wire x1="54" y1="71" x2="29" y2="71" width="0.001" layer="50"/>
 <wire x1="26.5" y1="73.5" x2="26.5" y2="93.5" width="0.001" layer="50"/>
 <wire x1="56.5" y1="93.5" x2="56.5" y2="73.5" width="0.001" layer="50"/>
 <wire x1="21" y1="71" x2="6.5" y2="71" width="0.001" layer="50"/>
+<wire x1="4" y1="73.5" x2="4" y2="93.5" width="0.001" layer="50"/>
 <wire x1="6.5" y1="96" x2="21" y2="96" width="0.001" layer="50"/>
 <wire x1="23.5" y1="93.5" x2="23.5" y2="73.5" width="0.001" layer="50"/>
-<wire x1="47.5" y1="0" x2="54" y2="0" width="0.001" layer="50"/>
-<wire x1="7" y1="0" x2="12.25" y2="0" width="0.001" layer="50"/>
-<wire x1="29" y1="0" x2="35.5" y2="0" width="0.001" layer="50"/>
 <wire x1="29" y1="96" x2="54" y2="96" width="0.001" layer="50"/>
-<circle x="41.5" y="50" radius="0.75" width="0.001" layer="50"/>
 <circle x="46.885" y="92.1" radius="0.8" width="0.001" layer="50"/>
 <circle x="36.115" y="92.1" radius="0.8" width="0.001" layer="50"/>
-<circle x="81" y="65" radius="1.05" width="0.001" layer="50"/>
-<circle x="81" y="5" radius="1.05" width="0.001" layer="50"/>
-<circle x="81" y="35" radius="1.05" width="0.001" layer="50"/>
-<circle x="2" y="65" radius="1.05" width="0.001" layer="50"/>
-<circle x="2" y="5" radius="1.05" width="0.001" layer="50"/>
 <circle x="2" y="35" radius="1.05" width="0.001" layer="50"/>
+<circle x="2" y="5" radius="1.05" width="0.001" layer="50"/>
+<circle x="2" y="65" radius="1.05" width="0.001" layer="50"/>
 <circle x="2" y="95" radius="1.05" width="0.001" layer="50"/>
+<circle x="81" y="35" radius="1.05" width="0.001" layer="50"/>
+<circle x="81" y="5" radius="1.05" width="0.001" layer="50"/>
+<circle x="81" y="65" radius="1.05" width="0.001" layer="50"/>
 <circle x="81" y="95" radius="1.05" width="0.001" layer="50"/>
-<wire x1="2" y1="100" x2="81" y2="100" width="0.001" layer="50"/>
-<wire x1="83" y1="98" x2="83" y2="2" width="0.001" layer="50"/>
 <wire x1="81" y1="0" x2="2" y2="0" width="0.001" layer="50"/>
 <wire x1="0" y1="2" x2="0" y2="98" width="0.001" layer="50"/>
-<wire x1="4" y1="65.5" x2="4" y2="33.5" width="0.001" layer="50"/>
-<wire x1="4" y1="25.5" x2="4" y2="5.5" width="0.001" layer="50"/>
-<wire x1="4" y1="93.5" x2="4" y2="73.5" width="0.001" layer="50"/>
-<wire x1="79" y1="93.5" x2="79" y2="73.5" width="0.001" layer="50"/>
-<wire x1="79" y1="25.5" x2="79" y2="5.5" width="0.001" layer="50"/>
-<wire x1="79" y1="65.5" x2="79" y2="33.5" width="0.001" layer="50"/>
-<wire x1="83" y1="98" x2="81" y2="100" width="0.001" layer="50" curve="90"/>
-<wire x1="81" y1="0" x2="83" y2="2" width="0.001" layer="50" curve="90"/>
+<wire x1="2" y1="100" x2="81" y2="100" width="0.001" layer="50"/>
+<wire x1="83" y1="98" x2="83" y2="2" width="0.001" layer="50"/>
+<wire x1="6" y1="58" x2="12" y2="58" width="0.001" layer="50"/>
+<wire x1="4" y1="33.5" x2="4" y2="44" width="0.001" layer="50"/>
+<wire x1="4" y1="44" x2="4" y2="56" width="0.001" layer="50"/>
+<wire x1="4" y1="56" x2="4" y2="65.5" width="0.001" layer="50"/>
+<wire x1="12" y1="42" x2="6" y2="42" width="0.001" layer="50"/>
+<wire x1="14" y1="56" x2="14" y2="44" width="0.001" layer="50"/>
+<wire x1="77" y1="42" x2="71" y2="42" width="0.001" layer="50"/>
+<wire x1="79" y1="65.5" x2="79" y2="56" width="0.001" layer="50"/>
+<wire x1="79" y1="56" x2="79" y2="44" width="0.001" layer="50"/>
+<wire x1="79" y1="44" x2="79" y2="33.5" width="0.001" layer="50"/>
+<wire x1="71" y1="58" x2="77" y2="58" width="0.001" layer="50"/>
+<wire x1="69" y1="44" x2="69" y2="56" width="0.001" layer="50"/>
 <wire x1="0" y1="2" x2="2" y2="0" width="0.001" layer="50" curve="90"/>
 <wire x1="2" y1="100" x2="0" y2="98" width="0.001" layer="50" curve="90"/>
-<wire x1="6.5" y1="68" x2="4" y2="65.5" width="0.001" layer="50" curve="90"/>
-<wire x1="4" y1="33.5" x2="6.5" y2="31" width="0.001" layer="50" curve="90"/>
-<circle x="2" y="95" radius="2" width="0" layer="40"/>
-<circle x="81" y="95" radius="2" width="0" layer="40"/>
-<circle x="81" y="65" radius="2" width="0" layer="40"/>
-<circle x="81" y="35" radius="2" width="0" layer="40"/>
-<circle x="81" y="5" radius="2" width="0" layer="40"/>
-<circle x="2" y="5" radius="2" width="0" layer="40"/>
-<circle x="2" y="35" radius="2" width="0" layer="40"/>
-<circle x="2" y="65" radius="2" width="0" layer="40"/>
-<circle x="2" y="95" radius="2" width="0" layer="30"/>
-<circle x="81" y="95" radius="2" width="0" layer="30"/>
-<circle x="81" y="65" radius="2" width="0" layer="30"/>
-<circle x="81" y="35" radius="2" width="0" layer="30"/>
-<circle x="81" y="5" radius="2" width="0" layer="30"/>
-<circle x="2" y="5" radius="2" width="0" layer="30"/>
-<circle x="2" y="35" radius="2" width="0" layer="30"/>
-<circle x="2" y="65" radius="2" width="0" layer="30"/>
-<circle x="2" y="95" radius="2" width="0" layer="42"/>
-<circle x="81" y="95" radius="2" width="0" layer="42"/>
-<circle x="81" y="65" radius="2" width="0" layer="42"/>
-<circle x="81" y="35" radius="2" width="0" layer="42"/>
-<circle x="81" y="5" radius="2" width="0" layer="42"/>
-<circle x="2" y="5" radius="2" width="0" layer="42"/>
-<circle x="2" y="35" radius="2" width="0" layer="42"/>
-<circle x="2" y="65" radius="2" width="0" layer="42"/>
-<circle x="19.5" y="5.4" radius="1.2" width="0.001" layer="50"/>
-<circle x="41.5" y="5.4" radius="1.2" width="0.001" layer="50"/>
-<circle x="63.5" y="5.4" radius="1.2" width="0.001" layer="50"/>
+<wire x1="83" y1="98" x2="81" y2="100" width="0.001" layer="50" curve="90"/>
+<wire x1="6" y1="58" x2="4" y2="56" width="0.001" layer="50" curve="90"/>
+<wire x1="4" y1="44" x2="6" y2="42" width="0.001" layer="50" curve="90"/>
+<wire x1="12" y1="42" x2="14" y2="44" width="0.001" layer="50" curve="90"/>
+<wire x1="14" y1="56" x2="12" y2="58" width="0.001" layer="50" curve="90"/>
+<wire x1="77" y1="42" x2="79" y2="44" width="0.001" layer="50" curve="90"/>
+<wire x1="79" y1="56" x2="77" y2="58" width="0.001" layer="50" curve="90"/>
+<wire x1="71" y1="58" x2="69" y2="56" width="0.001" layer="50" curve="90"/>
+<wire x1="69" y1="44" x2="71" y2="42" width="0.001" layer="50" curve="90"/>
+<wire x1="81" y1="0" x2="83" y2="2" width="0.001" layer="50" curve="90"/>
 </package>
 </packages>
 <symbols>
