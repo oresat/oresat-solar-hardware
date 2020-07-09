@@ -13853,130 +13853,6 @@ LED</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="D-Spectrolab-XTE-SF">
-<packages>
-<package name="SPECTROLAB-XTE-SF">
-<wire x1="-34.75" y1="-20" x2="34.75" y2="-20" width="0.1" layer="51"/>
-<wire x1="34.75" y1="-20" x2="34.75" y2="20" width="0.1" layer="51"/>
-<wire x1="-23.25" y1="20" x2="-34.75" y2="20" width="0.1" layer="51"/>
-<wire x1="-34.75" y1="20" x2="-34.75" y2="-20" width="0.1" layer="51"/>
-<wire x1="-35" y1="-20.25" x2="35" y2="-20.25" width="0.1" layer="39"/>
-<wire x1="35" y1="-20.25" x2="35" y2="20.25" width="0.1" layer="39"/>
-<wire x1="-23.75" y1="20.25" x2="-35" y2="20.25" width="0.1" layer="39"/>
-<wire x1="-35" y1="20.25" x2="-35" y2="-20.25" width="0.1" layer="39"/>
-<wire x1="-23.25" y1="20" x2="-23.25" y2="25.5" width="0.1" layer="51"/>
-<wire x1="-23.25" y1="25.5" x2="-22.25" y2="25.5" width="0.1" layer="51"/>
-<wire x1="-22.25" y1="25.5" x2="-22.25" y2="20" width="0.1" layer="51"/>
-<wire x1="35" y1="20.25" x2="22.75" y2="20.25" width="0.1" layer="39"/>
-<wire x1="-21.75" y1="20.25" x2="-21.75" y2="25.75" width="0.1" layer="39"/>
-<wire x1="-21.75" y1="25.75" x2="-23.75" y2="25.75" width="0.1" layer="39"/>
-<wire x1="-23.75" y1="25.75" x2="-23.75" y2="20.25" width="0.1" layer="39"/>
-<smd name="NEG2" x="21.75" y="23.5" dx="3" dy="5" layer="1"/>
-<smd name="NEG1" x="-22.75" y="23.5" dx="3" dy="5" layer="1"/>
-<smd name="POS2" x="12" y="23.5" dx="5" dy="5" layer="1"/>
-<wire x1="21.25" y1="20" x2="21.25" y2="25.5" width="0.1" layer="51"/>
-<wire x1="21.25" y1="25.5" x2="22.25" y2="25.5" width="0.1" layer="51"/>
-<wire x1="22.25" y1="25.5" x2="22.25" y2="20" width="0.1" layer="51"/>
-<wire x1="22.75" y1="20.25" x2="22.75" y2="25.75" width="0.1" layer="39"/>
-<wire x1="22.75" y1="25.75" x2="20.75" y2="25.75" width="0.1" layer="39"/>
-<wire x1="20.75" y1="25.75" x2="20.75" y2="20.25" width="0.1" layer="39"/>
-<wire x1="3.75" y1="20" x2="3.75" y2="25.5" width="0.1" layer="51"/>
-<wire x1="3.75" y1="25.5" x2="4.75" y2="25.5" width="0.1" layer="51"/>
-<wire x1="4.75" y1="25.5" x2="4.75" y2="20" width="0.1" layer="51"/>
-<wire x1="5.25" y1="20.25" x2="5.25" y2="25.75" width="0.1" layer="39"/>
-<wire x1="5.25" y1="25.75" x2="3.25" y2="25.75" width="0.1" layer="39"/>
-<wire x1="3.25" y1="25.75" x2="3.25" y2="20.25" width="0.1" layer="39"/>
-<wire x1="5.25" y1="20.25" x2="20.75" y2="20.25" width="0.1" layer="39"/>
-<wire x1="-2" y1="20" x2="-2" y2="25.5" width="0.1" layer="51"/>
-<wire x1="-2" y1="25.5" x2="-1" y2="25.5" width="0.1" layer="51"/>
-<wire x1="-1" y1="25.5" x2="-1" y2="20" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="25.75" x2="-2.5" y2="20.25" width="0.1" layer="39"/>
-<wire x1="0" y1="20" x2="0" y2="25.5" width="0.1" layer="51"/>
-<wire x1="0" y1="25.5" x2="1" y2="25.5" width="0.1" layer="51"/>
-<wire x1="1" y1="25.5" x2="1" y2="20" width="0.1" layer="51"/>
-<wire x1="1.5" y1="20.25" x2="1.5" y2="25.75" width="0.1" layer="39"/>
-<wire x1="1.5" y1="25.75" x2="-2.5" y2="25.75" width="0.1" layer="39"/>
-<wire x1="3.25" y1="20.25" x2="1.5" y2="20.25" width="0.1" layer="39"/>
-<wire x1="-2.5" y1="20.25" x2="-21.75" y2="20.25" width="0.1" layer="39"/>
-<smd name="NEG3" x="1.5" y="23.5" dx="8.25" dy="5" layer="1"/>
-<smd name="POS1" x="-12" y="23.5" dx="5" dy="5" layer="1"/>
-<wire x1="-12.25" y1="20" x2="-12.25" y2="25.5" width="0.1" layer="51"/>
-<wire x1="-12.25" y1="25.5" x2="-11.25" y2="25.5" width="0.1" layer="51"/>
-<wire x1="-11.25" y1="25.5" x2="-11.25" y2="20" width="0.1" layer="51"/>
-<wire x1="11.75" y1="20" x2="11.75" y2="25.5" width="0.1" layer="51"/>
-<wire x1="11.75" y1="25.5" x2="12.75" y2="25.5" width="0.1" layer="51"/>
-<wire x1="12.75" y1="25.5" x2="12.75" y2="20" width="0.1" layer="51"/>
-<wire x1="-12.25" y1="20" x2="-22.25" y2="20" width="0.1" layer="51"/>
-<wire x1="-11.25" y1="20" x2="-2" y2="20" width="0.1" layer="51"/>
-<wire x1="1" y1="20" x2="3.75" y2="20" width="0.1" layer="51"/>
-<wire x1="4.75" y1="20" x2="11.75" y2="20" width="0.1" layer="51"/>
-<wire x1="12.75" y1="20" x2="21.25" y2="20" width="0.1" layer="51"/>
-<wire x1="22.25" y1="20" x2="34.75" y2="20" width="0.1" layer="51"/>
-<wire x1="-34.75" y1="20" x2="34.75" y2="-20" width="0.1" layer="51"/>
-<wire x1="34.75" y1="20" x2="-34.75" y2="-20" width="0.1" layer="51"/>
-<wire x1="-34.75" y1="-20" x2="34.75" y2="-20" width="0.1" layer="21"/>
-<wire x1="34.75" y1="-20" x2="34.75" y2="20" width="0.1" layer="21"/>
-<wire x1="-23.25" y1="20" x2="-34.75" y2="20" width="0.1" layer="21"/>
-<wire x1="-34.75" y1="20" x2="-34.75" y2="-20" width="0.1" layer="21"/>
-<wire x1="-12.25" y1="20" x2="-22.25" y2="20" width="0.1" layer="21"/>
-<wire x1="-12.25" y1="20" x2="-11.25" y2="20" width="0.1" layer="51"/>
-<wire x1="-11.25" y1="20" x2="-2" y2="20" width="0.1" layer="21"/>
-<wire x1="-1" y1="20" x2="0" y2="20" width="0.1" layer="51"/>
-<wire x1="1" y1="20" x2="3.75" y2="20" width="0.1" layer="21"/>
-<wire x1="4.75" y1="20" x2="11.75" y2="20" width="0.1" layer="21"/>
-<wire x1="11.75" y1="20" x2="12.75" y2="20" width="0.1" layer="51"/>
-<wire x1="12.75" y1="20" x2="21.25" y2="20" width="0.1" layer="21"/>
-<wire x1="22.25" y1="20" x2="34.75" y2="20" width="0.1" layer="21"/>
-<wire x1="-34.75" y1="20" x2="34.75" y2="-20" width="0.1" layer="21"/>
-<wire x1="34.75" y1="20" x2="-34.75" y2="-20" width="0.1" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SOLARCELL">
-<wire x1="1.905" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="1.397" x2="1.905" y2="1.397" width="0.254" layer="94"/>
-<wire x1="-3.556" y1="1.016" x2="-4.572" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="-2.794" y1="1.778" x2="-3.81" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<text x="3.81" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="3.81" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
-<pin name="C" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-4.064" y="1.016"/>
-<vertex x="-3.556" y="1.524"/>
-<vertex x="-3.302" y="0.762"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="1.778"/>
-<vertex x="-2.794" y="2.286"/>
-<vertex x="-2.54" y="1.524"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SPECTROLAB-XTE-SF" prefix="D">
-<gates>
-<gate name="G$1" symbol="SOLARCELL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SPECTROLAB-XTE-SF">
-<connects>
-<connect gate="G$1" pin="A" pad="POS1 POS2"/>
-<connect gate="G$1" pin="C" pad="NEG1 NEG2 NEG3" route="any"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="oresat-solar-board">
 <packages>
 <package name="ORESAT-SOLAR-BOARD-V3">
@@ -15404,6 +15280,159 @@ LED</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="D-Spectrolab-XTE-SF">
+<packages>
+<package name="SPECTROLAB-XTE-SF">
+<wire x1="-34.75" y1="-20" x2="34.75" y2="-20" width="0.1" layer="51"/>
+<wire x1="34.75" y1="-20" x2="34.75" y2="20" width="0.1" layer="51"/>
+<wire x1="-23.25" y1="20" x2="-34.75" y2="20" width="0.1" layer="51"/>
+<wire x1="-34.75" y1="20" x2="-34.75" y2="-20" width="0.1" layer="51"/>
+<wire x1="-35" y1="-20.25" x2="35" y2="-20.25" width="0.1" layer="39"/>
+<wire x1="35" y1="-20.25" x2="35" y2="20.25" width="0.1" layer="39"/>
+<wire x1="-23.75" y1="20.25" x2="-35" y2="20.25" width="0.1" layer="39"/>
+<wire x1="-35" y1="20.25" x2="-35" y2="-20.25" width="0.1" layer="39"/>
+<wire x1="-23.25" y1="20" x2="-23.25" y2="25.5" width="0.1" layer="51"/>
+<wire x1="-23.25" y1="25.5" x2="-22.25" y2="25.5" width="0.1" layer="51"/>
+<wire x1="-22.25" y1="25.5" x2="-22.25" y2="20" width="0.1" layer="51"/>
+<wire x1="35" y1="20.25" x2="22.75" y2="20.25" width="0.1" layer="39"/>
+<wire x1="-21.75" y1="20.25" x2="-21.75" y2="25.75" width="0.1" layer="39"/>
+<wire x1="-21.75" y1="25.75" x2="-23.75" y2="25.75" width="0.1" layer="39"/>
+<wire x1="-23.75" y1="25.75" x2="-23.75" y2="20.25" width="0.1" layer="39"/>
+<smd name="NEG2" x="21.75" y="23.5" dx="3" dy="5" layer="1" cream="no"/>
+<smd name="NEG1" x="-22.75" y="23.5" dx="3" dy="5" layer="1" cream="no"/>
+<smd name="POS2" x="12" y="23.5" dx="5" dy="5" layer="1" cream="no"/>
+<wire x1="21.25" y1="20" x2="21.25" y2="25.5" width="0.1" layer="51"/>
+<wire x1="21.25" y1="25.5" x2="22.25" y2="25.5" width="0.1" layer="51"/>
+<wire x1="22.25" y1="25.5" x2="22.25" y2="20" width="0.1" layer="51"/>
+<wire x1="22.75" y1="20.25" x2="22.75" y2="25.75" width="0.1" layer="39"/>
+<wire x1="22.75" y1="25.75" x2="20.75" y2="25.75" width="0.1" layer="39"/>
+<wire x1="20.75" y1="25.75" x2="20.75" y2="20.25" width="0.1" layer="39"/>
+<wire x1="3.75" y1="20" x2="3.75" y2="25.5" width="0.1" layer="51"/>
+<wire x1="3.75" y1="25.5" x2="4.75" y2="25.5" width="0.1" layer="51"/>
+<wire x1="4.75" y1="25.5" x2="4.75" y2="20" width="0.1" layer="51"/>
+<wire x1="5.25" y1="20.25" x2="5.25" y2="25.75" width="0.1" layer="39"/>
+<wire x1="5.25" y1="25.75" x2="3.25" y2="25.75" width="0.1" layer="39"/>
+<wire x1="3.25" y1="25.75" x2="3.25" y2="20.25" width="0.1" layer="39"/>
+<wire x1="5.25" y1="20.25" x2="20.75" y2="20.25" width="0.1" layer="39"/>
+<wire x1="-2" y1="20" x2="-2" y2="25.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="25.5" x2="-1" y2="25.5" width="0.1" layer="51"/>
+<wire x1="-1" y1="25.5" x2="-1" y2="20" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="25.75" x2="-2.5" y2="20.25" width="0.1" layer="39"/>
+<wire x1="0" y1="20" x2="0" y2="25.5" width="0.1" layer="51"/>
+<wire x1="0" y1="25.5" x2="1" y2="25.5" width="0.1" layer="51"/>
+<wire x1="1" y1="25.5" x2="1" y2="20" width="0.1" layer="51"/>
+<wire x1="1.5" y1="20.25" x2="1.5" y2="25.75" width="0.1" layer="39"/>
+<wire x1="1.5" y1="25.75" x2="-2.5" y2="25.75" width="0.1" layer="39"/>
+<wire x1="3.25" y1="20.25" x2="1.5" y2="20.25" width="0.1" layer="39"/>
+<wire x1="-2.5" y1="20.25" x2="-21.75" y2="20.25" width="0.1" layer="39"/>
+<smd name="NEG3" x="4.2" y="23.5" dx="3" dy="5" layer="1" cream="no"/>
+<smd name="POS1" x="-12" y="23.5" dx="5" dy="5" layer="1" cream="no"/>
+<wire x1="-12.45" y1="20" x2="-12.45" y2="25.5" width="0.1" layer="51"/>
+<wire x1="-12.45" y1="25.5" x2="-11.45" y2="25.5" width="0.1" layer="51"/>
+<wire x1="-11.45" y1="25.5" x2="-11.45" y2="20" width="0.1" layer="51"/>
+<wire x1="11.55" y1="20" x2="11.55" y2="25.5" width="0.1" layer="51"/>
+<wire x1="11.55" y1="25.5" x2="12.55" y2="25.5" width="0.1" layer="51"/>
+<wire x1="12.55" y1="25.5" x2="12.55" y2="20" width="0.1" layer="51"/>
+<wire x1="-12.45" y1="20" x2="-22.25" y2="20" width="0.1" layer="51"/>
+<wire x1="-11.45" y1="20" x2="-2" y2="20" width="0.1" layer="51"/>
+<wire x1="1" y1="20" x2="3.75" y2="20" width="0.1" layer="51"/>
+<wire x1="4.75" y1="20" x2="11.55" y2="20" width="0.1" layer="51"/>
+<wire x1="12.55" y1="20" x2="21.25" y2="20" width="0.1" layer="51"/>
+<wire x1="22.25" y1="20" x2="34.75" y2="20" width="0.1" layer="51"/>
+<wire x1="-34.75" y1="20" x2="34.75" y2="-20" width="0.1" layer="51"/>
+<wire x1="34.75" y1="20" x2="-34.75" y2="-20" width="0.1" layer="51"/>
+<wire x1="-34.75" y1="-20" x2="34.75" y2="-20" width="0.127" layer="21"/>
+<wire x1="34.75" y1="-20" x2="34.75" y2="20" width="0.127" layer="21"/>
+<wire x1="-23.25" y1="20" x2="-34.75" y2="20" width="0.127" layer="21"/>
+<wire x1="-34.75" y1="20" x2="-34.75" y2="-20" width="0.127" layer="21"/>
+<wire x1="-12.45" y1="20" x2="-22.25" y2="20" width="0.127" layer="21"/>
+<wire x1="-12.45" y1="20" x2="-11.45" y2="20" width="0.1" layer="51"/>
+<wire x1="-11.45" y1="20" x2="3.75" y2="20" width="0.127" layer="21"/>
+<wire x1="-1" y1="20" x2="0" y2="20" width="0.1" layer="51"/>
+<wire x1="4.75" y1="20" x2="11.55" y2="20" width="0.127" layer="21"/>
+<wire x1="11.55" y1="20" x2="12.55" y2="20" width="0.1" layer="51"/>
+<wire x1="12.55" y1="20" x2="21.25" y2="20" width="0.127" layer="21"/>
+<wire x1="22.25" y1="20" x2="34.75" y2="20" width="0.127" layer="21"/>
+<wire x1="-34.75" y1="20" x2="34.75" y2="-20" width="0.127" layer="21"/>
+<wire x1="34.75" y1="20" x2="-34.75" y2="-20" width="0.127" layer="21"/>
+<smd name="NEG4" x="-0.5" y="23.5" dx="5" dy="5" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SOLARCELL">
+<wire x1="-5.715" y1="2.54" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="5.715" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.715" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-5.715" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.715" y1="-3.937" x2="-5.715" y2="-3.937" width="0.254" layer="94"/>
+<wire x1="7.366" y1="0.254" x2="9.652" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="6.604" y1="-0.508" x2="8.89" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.254" layer="94"/>
+<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-8.89" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A2" x="-2.54" y="8.89" visible="off" length="point" direction="pas" rot="R270"/>
+<pin name="C1" x="2.54" y="-8.89" visible="off" length="point" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="7.874" y="0.254"/>
+<vertex x="7.366" y="-0.254"/>
+<vertex x="7.112" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="7.112" y="-0.508"/>
+<vertex x="6.604" y="-1.016"/>
+<vertex x="6.35" y="-0.254"/>
+</polygon>
+<wire x1="-8.255" y1="-2.54" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-12.065" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.065" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-8.255" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.065" y1="0.127" x2="-8.255" y2="0.127" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="3.81" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="-2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="0" y1="-8.89" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="6.35" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.35" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<pin name="A1" x="2.54" y="8.89" visible="off" length="point" direction="pas" rot="R270"/>
+<pin name="C2" x="0" y="-8.89" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="C3" x="-2.54" y="-8.89" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="C4" x="-10.16" y="-8.89" visible="off" length="point" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SPECTROLAB-XTE-SF" prefix="D">
+<gates>
+<gate name="G$1" symbol="SOLARCELL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPECTROLAB-XTE-SF">
+<connects>
+<connect gate="G$1" pin="A1" pad="POS1"/>
+<connect gate="G$1" pin="A2" pad="POS2"/>
+<connect gate="G$1" pin="C1" pad="NEG1" route="any"/>
+<connect gate="G$1" pin="C2" pad="NEG2"/>
+<connect gate="G$1" pin="C3" pad="NEG3"/>
+<connect gate="G$1" pin="C4" pad="NEG4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15838,8 +15867,6 @@ LED</description>
 </part>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP7" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="CELL2" library="D-Spectrolab-XTE-SF" deviceset="SPECTROLAB-XTE-SF" device=""/>
-<part name="CELL1" library="D-Spectrolab-XTE-SF" deviceset="SPECTROLAB-XTE-SF" device=""/>
 <part name="PCB1" library="oresat-solar-board" deviceset="ORESAT-SOLAR-BOARD-V4" device="-SPECTROLABS"/>
 <part name="TP8" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
@@ -15868,12 +15895,14 @@ LED</description>
 <part name="J1" library="J-Samtec-MMS-104-02-X-SH-smt-0.1-ra" deviceset="SAMTEC-MMS-104-02-X-SH" device="J"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="CELL2" library="D-Spectrolab-XTE-SF" deviceset="SPECTROLAB-XTE-SF" device="" value="XTE-SF 27.7cm2"/>
+<part name="CELL1" library="D-Spectrolab-XTE-SF" deviceset="SPECTROLAB-XTE-SF" device="" value="XTE-SF 27.7cm2"/>
 </parts>
 <sheets>
 <sheet>
 <description>MPPT / PWR</description>
 <plain>
-<text x="50.8" y="172.72" size="1.778" layer="97">2x Spectrolabs XTE-SF 
+<text x="49.53" y="167.64" size="1.778" layer="97">2x Spectrolabs XTE-SF 
       27cm^2 CIC
 - Voc = 5.50 V
 - Vmp = 4.87 V
@@ -15937,10 +15966,10 @@ fasteners</text>
 1.6V = 0 current</text>
 <text x="233.68" y="87.63" size="1.778" layer="97">NOTE: SPS is 3.3V output, but power from DEBUG
 connector is 3.0V (Schottkey drop) directly into 3.3V</text>
-<wire x1="77.47" y1="236.22" x2="77.47" y2="156.21" width="0.1524" layer="97"/>
-<wire x1="8.89" y1="236.22" x2="8.89" y2="156.21" width="0.1524" layer="97"/>
+<wire x1="77.47" y1="236.22" x2="77.47" y2="149.86" width="0.1524" layer="97"/>
+<wire x1="8.89" y1="236.22" x2="8.89" y2="149.86" width="0.1524" layer="97"/>
 <wire x1="77.47" y1="236.22" x2="8.89" y2="236.22" width="0.1524" layer="97"/>
-<wire x1="77.47" y1="156.21" x2="8.89" y2="156.21" width="0.1524" layer="97"/>
+<wire x1="77.47" y1="149.86" x2="8.89" y2="149.86" width="0.1524" layer="97"/>
 <text x="29.21" y="231.14" size="3.81" layer="97">Solar Cells</text>
 <wire x1="238.76" y1="171.45" x2="252.73" y2="171.45" width="0.1524" layer="97"/>
 <wire x1="252.73" y1="171.45" x2="252.73" y2="158.75" width="0.1524" layer="97"/>
@@ -15959,6 +15988,12 @@ connector is 3.0V (Schottkey drop) directly into 3.3V</text>
 DNP ALL OTHER BOARDS.
 
 Requires 2mm male shorting plug.</text>
+<text x="281.94" y="67.31" size="1.778" layer="97">DNP
+FOR
+FLIGHT</text>
+<text x="279.4" y="45.72" size="1.778" layer="97">DNP
+FOR
+FLIGHT</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -15980,8 +16015,8 @@ Requires 2mm male shorting plug.</text>
 <instance part="GND3" gate="1" x="60.96" y="196.85" smashed="yes">
 <attribute name="VALUE" x="58.42" y="194.31" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="41.91" y="166.37" smashed="yes">
-<attribute name="VALUE" x="39.37" y="163.83" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="25.4" y="156.21" smashed="yes">
+<attribute name="VALUE" x="22.86" y="153.67" size="1.778" layer="96"/>
 </instance>
 <instance part="C20" gate="CE" x="152.4" y="71.12" smashed="yes">
 <attribute name="DIS" x="152.4" y="71.12" size="1.778" layer="96" display="off"/>
@@ -16032,8 +16067,8 @@ Requires 2mm male shorting plug.</text>
 <instance part="TP1" gate="G$1" x="397.51" y="209.55" smashed="yes">
 <attribute name="NAME" x="391.16" y="208.28" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP3" gate="G$1" x="41.91" y="212.09" smashed="yes">
-<attribute name="NAME" x="44.45" y="209.55" size="1.778" layer="95" font="vector"/>
+<instance part="TP3" gate="G$1" x="25.4" y="212.09" smashed="yes">
+<attribute name="NAME" x="27.94" y="209.55" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP6" gate="G$1" x="259.08" y="76.2" smashed="yes">
 <attribute name="NAME" x="261.62" y="74.93" size="1.778" layer="95" font="vector"/>
@@ -16124,8 +16159,8 @@ Requires 2mm male shorting plug.</text>
 <instance part="SUPPLY1" gate="G$1" x="259.08" y="80.01" smashed="yes">
 <attribute name="VALUE" x="259.08" y="82.804" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="VSOLAR1" gate="G$1" x="41.91" y="217.17" smashed="yes">
-<attribute name="VALUE" x="41.91" y="219.964" size="1.778" layer="96" align="bottom-center"/>
+<instance part="VSOLAR1" gate="G$1" x="25.4" y="217.17" smashed="yes">
+<attribute name="VALUE" x="25.4" y="219.964" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="VSOLAR2" gate="G$1" x="129.54" y="91.44" smashed="yes">
 <attribute name="VALUE" x="137.16" y="91.694" size="1.778" layer="96" align="bottom-center"/>
@@ -16419,14 +16454,6 @@ Requires 2mm male shorting plug.</text>
 <instance part="GND12" gate="1" x="276.86" y="40.64" smashed="yes">
 <attribute name="VALUE" x="274.32" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="CELL2" gate="G$1" x="41.91" y="176.53" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.1" y="175.26" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="38.1" y="177.8" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="CELL1" gate="G$1" x="41.91" y="186.69" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.1" y="185.42" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="38.1" y="187.96" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="PCB1" gate="G$1" x="12.7" y="17.78" smashed="yes"/>
 <instance part="D7" gate="G$1" x="275.59" y="226.06" smashed="yes" rot="MR90">
 <attribute name="DIS" x="275.59" y="226.06" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -16471,6 +16498,14 @@ Requires 2mm male shorting plug.</text>
 </instance>
 <instance part="GND17" gate="1" x="381" y="100.33" smashed="yes">
 <attribute name="VALUE" x="378.46" y="97.79" size="1.778" layer="96"/>
+</instance>
+<instance part="CELL2" gate="G$1" x="25.4" y="193.04" smashed="yes">
+<attribute name="NAME" x="30.48" y="186.69" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.48" y="184.15" size="1.778" layer="96"/>
+</instance>
+<instance part="CELL1" gate="G$1" x="25.4" y="170.18" smashed="yes">
+<attribute name="NAME" x="30.48" y="163.83" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.48" y="161.29" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -16631,11 +16666,6 @@ Requires 2mm male shorting plug.</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CELL2" gate="G$1" pin="C"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="41.91" y1="173.99" x2="41.91" y2="168.91" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R7" gate="R" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="173.99" y1="173.99" x2="173.99" y2="175.26" width="0.1524" layer="91"/>
@@ -16659,6 +16689,23 @@ Requires 2mm male shorting plug.</text>
 <wire x1="378.46" y1="116.84" x2="381" y2="116.84" width="0.1524" layer="91"/>
 <junction x="381" y="116.84"/>
 <pinref part="GND17" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="CELL1" gate="G$1" pin="C2"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="25.4" y1="161.29" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="CELL1" gate="G$1" pin="C1"/>
+<wire x1="25.4" y1="160.02" x2="25.4" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="160.02" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="160.02" x2="27.94" y2="161.29" width="0.1524" layer="91"/>
+<junction x="25.4" y="160.02"/>
+<wire x1="25.4" y1="160.02" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="CELL1" gate="G$1" pin="C3"/>
+<wire x1="22.86" y1="160.02" x2="22.86" y2="161.29" width="0.1524" layer="91"/>
+<pinref part="CELL1" gate="G$1" pin="C4"/>
+<wire x1="22.86" y1="160.02" x2="15.24" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="160.02" x2="15.24" y2="161.29" width="0.1524" layer="91"/>
+<junction x="22.86" y="160.02"/>
 </segment>
 </net>
 <net name="!SHUTDOWN" class="0">
@@ -16788,7 +16835,7 @@ Requires 2mm male shorting plug.</text>
 <net name="VSOLAR" class="0">
 <segment>
 <pinref part="TP3" gate="G$1" pin="1"/>
-<junction x="41.91" y="212.09"/>
+<junction x="25.4" y="212.09"/>
 <junction x="194.31" y="212.09"/>
 <pinref part="C6" gate="CE" pin="1"/>
 <wire x1="60.96" y1="209.55" x2="60.96" y2="212.09" width="0.1524" layer="91"/>
@@ -16799,7 +16846,7 @@ Requires 2mm male shorting plug.</text>
 <wire x1="50.8" y1="212.09" x2="60.96" y2="212.09" width="0.3048" layer="91"/>
 <wire x1="50.8" y1="209.55" x2="50.8" y2="212.09" width="0.1524" layer="91"/>
 <pinref part="C4" gate="CE" pin="1"/>
-<wire x1="41.91" y1="212.09" x2="50.8" y2="212.09" width="0.3048" layer="91"/>
+<wire x1="25.4" y1="212.09" x2="50.8" y2="212.09" width="0.3048" layer="91"/>
 <pinref part="U3" gate="A" pin="ISP"/>
 <wire x1="194.31" y1="212.09" x2="194.31" y2="204.47" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="204.47" x2="196.85" y2="204.47" width="0.1524" layer="91"/>
@@ -16817,10 +16864,16 @@ Requires 2mm male shorting plug.</text>
 <pinref part="C14" gate="CE" pin="1"/>
 <junction x="173.99" y="212.09"/>
 <pinref part="VSOLAR1" gate="G$1" pin="VSOLAR"/>
-<wire x1="41.91" y1="212.09" x2="41.91" y2="217.17" width="0.1524" layer="91"/>
-<pinref part="CELL1" gate="G$1" pin="A"/>
-<wire x1="41.91" y1="189.23" x2="41.91" y2="212.09" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="212.09" x2="25.4" y2="217.17" width="0.1524" layer="91"/>
 <pinref part="R17" gate="R" pin="1"/>
+<pinref part="CELL2" gate="G$1" pin="A2"/>
+<wire x1="22.86" y1="201.93" x2="22.86" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="203.2" x2="25.4" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="CELL2" gate="G$1" pin="A1"/>
+<wire x1="25.4" y1="203.2" x2="27.94" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="203.2" x2="27.94" y2="201.93" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="212.09" x2="25.4" y2="203.2" width="0.1524" layer="91"/>
+<junction x="25.4" y="203.2"/>
 </segment>
 <segment>
 <pinref part="VSOLAR2" gate="G$1" pin="VSOLAR"/>
@@ -17152,13 +17205,6 @@ Requires 2mm male shorting plug.</text>
 <wire x1="276.86" y1="66.04" x2="276.86" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="C2C" class="0">
-<segment>
-<pinref part="CELL2" gate="G$1" pin="A"/>
-<pinref part="CELL1" gate="G$1" pin="C"/>
-<wire x1="41.91" y1="179.07" x2="41.91" y2="184.15" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="!SHDN-3.3V" class="0">
 <segment>
 <pinref part="R18" gate="R" pin="2"/>
@@ -17191,6 +17237,31 @@ Requires 2mm male shorting plug.</text>
 <wire x1="304.8" y1="180.34" x2="304.8" y2="179.07" width="0.1524" layer="91"/>
 <junction x="304.8" y="179.07"/>
 <label x="285.75" y="184.15" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="INTERCELL" class="0">
+<segment>
+<pinref part="CELL1" gate="G$1" pin="A2"/>
+<pinref part="CELL1" gate="G$1" pin="A1"/>
+<pinref part="CELL2" gate="G$1" pin="C2"/>
+<pinref part="CELL2" gate="G$1" pin="C1"/>
+<wire x1="25.4" y1="180.34" x2="25.4" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="182.88" x2="25.4" y2="184.15" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="184.15" x2="27.94" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="182.88" x2="25.4" y2="182.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="182.88"/>
+<wire x1="25.4" y1="182.88" x2="22.86" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="CELL2" gate="G$1" pin="C3"/>
+<wire x1="22.86" y1="182.88" x2="22.86" y2="184.15" width="0.1524" layer="91"/>
+<pinref part="CELL2" gate="G$1" pin="C4"/>
+<wire x1="22.86" y1="182.88" x2="15.24" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="182.88" x2="15.24" y2="184.15" width="0.1524" layer="91"/>
+<junction x="22.86" y="182.88"/>
+<wire x1="22.86" y1="179.07" x2="22.86" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="180.34" x2="25.4" y2="180.34" width="0.1524" layer="91"/>
+<junction x="25.4" y="180.34"/>
+<wire x1="27.94" y1="179.07" x2="27.94" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="180.34" x2="25.4" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -17226,6 +17297,12 @@ which the diode will block.</text>
 temperature</text>
 <text x="62.23" y="142.24" size="1.778" layer="97">CELL2
 temperature</text>
+<text x="313.69" y="146.05" size="1.778" layer="97">DNP
+FOR
+FLIGHT</text>
+<text x="331.47" y="137.16" size="1.778" layer="97">DNP
+FOR
+FLIGHT</text>
 </plain>
 <instances>
 <instance part="U11" gate="A" x="77.47" y="201.93" smashed="yes" rot="MR0">
