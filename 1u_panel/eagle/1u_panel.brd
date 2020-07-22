@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5067,6 +5067,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="44.4" y="78.9" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="U10" library="ic-pwr-tps63070x" package="TPS63070X" value="TPS63070" x="13.55" y="83.8" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="13.55" y="83.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="296-44764-1-ND" x="13.55" y="83.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="13.55" y="83.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TPS63070RNMT" x="13.55" y="83.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.15" y="85.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C7" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="16.8" y="84.65" smashed="yes">
@@ -5208,13 +5212,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" PMIC - DC/DC voltage regulator Linear Technology LT1618EMS#TRPBF Converter, Boost, Converter/amplifier, SEPIC MSOP 10 " x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="LT1618EMS#TRPBFCT-ND" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT1618EMS-TRPBF/LT1618EMS-TRPBFCT-ND/3885220?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="LT1618EMS#TRPBFCT-ND" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Linear Technology/Analog" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Linear Technologies" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="LT1618EMS#TRPBF" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LT1618EMS#TRPBF" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.9" y="71.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="PACKAGE" value="MSOP-10 Linear Technology" x="36.5" y="73.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="33.6171" y="71.959540625" size="0.4" layer="27" align="top-left"/>
 </element>
 <element name="U4" library="U-TI-INA226AIDGSR-CurrentMonitor" package="DGS10" value="INA226AIDGSR" x="30.9" y="83.1" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="30.9" y="83.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="296-29034-1-ND" x="30.9" y="83.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="INA226AIDGSR" x="30.9" y="83.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="TI" x="30.9" y="83.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="INA226AIDGSR" x="30.9" y="83.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5222,6 +5232,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VENDOR" value="Texas Instruments" x="30.9" y="83.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="L2" library="L-Bourns-SRN4018TA" package="L-BOURNS-SRN4018TA" value="10u" x="36.2" y="77.8" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="36.2" y="77.8" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="732-1025-1-ND" x="36.2" y="77.8" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="WURTH" x="36.2" y="77.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="744042100" x="36.2" y="77.8" size="1.778" layer="27" display="off"/>
 </element>
@@ -5242,6 +5254,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="45.905" y="73.265" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R16" library="oresat-rcl" package=".0603-C-NOSILK" value="2k" x="39.4" y="75.7" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="39.4" y="75.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="2019-RK73H1JTTD2001FCT-ND" x="39.4" y="75.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="KOA" x="39.4" y="75.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RK73H1JTTD2001F" x="39.4" y="75.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="39.365" y="74.435" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="40.035" y="77.605" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -5260,6 +5276,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="34.3" y="80.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U11" library="U-TI-TMP101-TempSensor" package="DBV6-SLOT" value="TMP101NA/3KSLOTTED" x="41.5" y="65.4" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="41.5" y="65.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="296-27725-1-ND" x="41.5" y="65.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="41.5" y="65.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TMP101NA/3K" x="41.5" y="65.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="43.0234" y="63.265" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
 </element>
 <element name="R6" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="31.85" y="74.2" smashed="yes" rot="R135">
@@ -5334,7 +5354,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP30" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="45.9" y="66.9" smashed="yes">
 <attribute name="NAME" x="46.8" y="66.7" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="D5" library="apdm-ic-v2" package="SOD123" value="STPS1L40ZFY" x="40.8" y="77.8" smashed="yes" rot="R180">
+<element name="D5" library="apdm-ic-v2" package="SOD123" value="0 Ohm Jumper for Flight" x="40.8" y="77.8" smashed="yes" rot="R180">
 <attribute name="DISTRIBUTOR" value="digikey" x="40.8" y="77.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DPN" value="497-17153-1-ND" x="40.8" y="77.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="STPS1L40ZFY" x="40.8" y="77.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5342,23 +5362,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="42.6" y="79.8" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="U12" library="U-LT-LTC4412-ideal-diode" package="SOT23-6" value="LTC4412" x="42.5" y="82.5" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="42.5" y="82.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="digikey" x="42.5" y="82.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DPN" value="LTC4412ES6#TRPBFCT-ND" x="42.5" y="82.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Linear Technologies" x="42.5" y="82.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="LTC4412ES6#TRPBF" x="42.5" y="82.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="42.5" y="82.5" size="0.5" layer="33" rot="R90" align="center"/>
 <attribute name="NAME" x="40" y="80.3" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="44.7" y="80.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="top-left"/>
 </element>
 <element name="Q1" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="37.2" y="84.5" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR" value="digikey" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="DMP2240UDMDICT-ND" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="DMP3050LVT-7" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Inc." x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="DMP2240UDM-7" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.102" y="86.283" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="Q2" library="Q-MOSFET-PCH-dual-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="47.1" y="82.5" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR" value="Digikey" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="dmp3050LVT-7DICT" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="dmp3050LVT-7" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Diodes Inc." x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="DMP3050LVT-7" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="46.602" y="80.083" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R19" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="37.2" y="82" smashed="yes">
@@ -5460,9 +5487,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U7" library="U-ST-STM32F091C-uC" package="STM32F091C" value="STM32F091C" x="69.9" y="81.8" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="69.9" y="81.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="497-18516-ND" x="69.9" y="81.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="497-18749-1-ND" x="69.9" y="81.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="STMicroelectronics" x="69.9" y="81.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="STM32F042K6T7" x="69.9" y="81.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="STM32F091CCT6TR" x="69.9" y="81.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="65.6" y="76.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="69.85" y="81.8" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 </element>
@@ -5488,6 +5515,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="71.8" y="64.6" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="J2" library="oresat-debug-connector" package="WURTH_687120183622" value="ORESAT-DEBUG-CONNECTOR-SOLAR" x="66.7" y="50" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="66.7" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="732-11341-1-ND" x="66.7" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Wurth" x="66.7" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="687120183622	
+" x="66.7" y="50" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="68" y="41.2" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="63.2" y="44.5" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
@@ -5534,6 +5566,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="70.75" y="87.9" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="U2" library="U-TI-TMP101-TempSensor" package="DBV6-SLOT" value="TMP101NA/3KSLOTTED" x="41.5" y="15.5" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="41.5" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="296-27725-1-ND" x="41.5" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="41.5" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TMP101NA/3K" x="41.5" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38.8" y="17.1" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
 </element>
 <element name="C1" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="37.1" y="16.45" smashed="yes" rot="R180">
