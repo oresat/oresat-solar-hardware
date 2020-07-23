@@ -24,18 +24,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="route" color="14" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="48" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -58,9 +58,9 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="61" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -5367,7 +5367,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="Q1" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="37.2" y="84.5" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR" value="digikey" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="DMP2240UDMDICT-ND" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DPN" value="DMP2240UDMDICT-ND" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Diodes Inc." x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="DMP2240UDM-7" x="37.2" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5680,16 +5680,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="CELL2" library="D-Spectrolab-XTE-SF" package="SPECTROLAB-XTE-SF" value="XTE-SF 27.7cm2" x="41.5" y="79" locked="yes" smashed="yes" rot="MR180"/>
 <element name="CELL1" library="D-Spectrolab-XTE-SF" package="SPECTROLAB-XTE-SF" value="XTE-SF 27.7cm2" x="41.5" y="21" locked="yes" smashed="yes" rot="MR0"/>
-<element name="CF1" library="J-Harwin-M55-60X1242R-Solar-board-connector" package="HARWIN-M55-60X1242R" value="HARWIN M55-6021242R" x="41.5" y="92.1" smashed="yes">
-<attribute name="DIS" value="DIGIKEY" x="41.5" y="92.1" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="M55-6021242R" x="41.5" y="92.1" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="HARWIN" x="41.5" y="92.1" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="M55-6021242R" x="41.5" y="92.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.485" y="92.1" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="CF1" library="J-Harwin-M55-60X1242R-Solar-board-connector" package="HARWIN-M55-60X1242R" value="HARWIN M55-6021242R" x="41.5" y="92.1" locked="yes" smashed="yes">
+<attribute name="DIS" value="DIGIKEY" x="41.5" y="92.1" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="M55-6021242R" x="41.5" y="92.1" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="HARWIN" x="41.5" y="92.1" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="M55-6021242R" x="41.5" y="92.1" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="48.485" y="92.1" locked="yes" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 </elements>
 <signals>
-<signal name="!SD">
+<signal name="!SHUTDOWN">
 <contactref element="D2" pad="C"/>
 <wire x1="38.325" y1="94.85" x2="38.325" y2="89.35" width="0.5" layer="1"/>
 <contactref element="D7" pad="C"/>
@@ -5728,8 +5728,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8.000003125" y1="62.299996875" x2="8.05" y2="62.25" width="0.2" layer="1"/>
 <via x="21.9" y="77.1" extent="1-16" drill="0.254"/>
 <wire x1="21.9" y1="76.6" x2="21.9" y2="77.1" width="0.3" layer="1"/>
-<contactref element="CF1" pad="1"/>
 <contactref element="CF1" pad="2"/>
+<contactref element="CF1" pad="1"/>
 </signal>
 <signal name="VSOLAR">
 <contactref element="TP3" pad="1"/>
@@ -6019,8 +6019,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="59.45" y1="85.35" x2="60.7" y2="86.6" width="0.2" layer="1"/>
 <wire x1="62.4564" y1="95.5564" x2="65.6436" y2="95.5564" width="0.2" layer="1"/>
 <wire x1="65.6436" y1="95.5564" x2="66.525" y2="94.675" width="0.2" layer="1"/>
-<contactref element="CF1" pad="12"/>
 <contactref element="CF1" pad="11"/>
+<contactref element="CF1" pad="12"/>
 </signal>
 <signal name="SDAOPT1">
 </signal>
@@ -7318,12 +7318,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CELL1" pad="NEG4"/>
 <via x="37.3" y="41.4" extent="1-16" drill="0.254"/>
 <via x="37.3" y="47.6" extent="1-16" drill="0.254"/>
-<contactref element="CF1" pad="3"/>
-<contactref element="CF1" pad="4"/>
-<contactref element="CF1" pad="P$1"/>
-<contactref element="CF1" pad="P$3"/>
-<contactref element="CF1" pad="P$4"/>
 <contactref element="CF1" pad="P$2"/>
+<contactref element="CF1" pad="P$3"/>
+<contactref element="CF1" pad="P$1"/>
+<contactref element="CF1" pad="P$4"/>
+<contactref element="CF1" pad="4"/>
+<contactref element="CF1" pad="3"/>
 </signal>
 <signal name="AUX">
 <contactref element="TP1" pad="1"/>
@@ -8426,15 +8426,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="7,39,39f7df09df0a39f4"/>
 <approved hash="7,39,bac23c3c3c27bad9"/>
 <approved hash="7,39,39f3df0ddf1539eb"/>
-<approved hash="23,1,f2700c078c0ef676"/>
-<approved hash="23,1,77c785b70500fbf5"/>
-<approved hash="23,1,4af5fd8c7970f4fd"/>
 <approved hash="23,1,c07e67779c9ec51e"/>
-<approved hash="23,1,6111c5e1c5a96159"/>
-<approved hash="23,1,cd69f195f6d3ca2f"/>
-<approved hash="23,1,71d3fe27fe3f71cb"/>
-<approved hash="23,1,f5f38c840cb5f1c5"/>
-<approved hash="23,1,f77b7d3cfd3f7c75"/>
 <approved hash="7,39,2e0e2c742c042e7e"/>
 <approved hash="7,39,681e32643244683e"/>
 <approved hash="7,39,aa6bf411f5c5abbf"/>
