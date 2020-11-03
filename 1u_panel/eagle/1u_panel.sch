@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -119,15 +119,30 @@
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="Testjig_Mill" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -12520,76 +12535,6 @@ This variant of the chip is specifically designed to be soldered upside down wit
 </deviceset>
 </devicesets>
 </library>
-<library name="apdm-ic-v2">
-<description>Integrated Circuits Associated with v2
-&lt;br&gt;&amp;copy; 2012 APDM Inc.</description>
-<packages>
-<package name="SOD123">
-<description>&lt;b&gt;SOD123&lt;/b&gt; Popular diode package
-&lt;br&gt;Slightly larger than e1206.</description>
-<smd name="K" x="-1.85" y="0" dx="0.7" dy="1.2" layer="1"/>
-<smd name="A" x="1.85" y="0" dx="0.7" dy="1.2" layer="1"/>
-<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.25" layer="21"/>
-<wire x1="-1.4" y1="-0.8" x2="1.4" y2="-0.8" width="0.25" layer="21"/>
-<wire x1="-0.1" y1="0.4" x2="-0.1" y2="-0.4" width="0.2" layer="21"/>
-<wire x1="-0.1" y1="-0.4" x2="-1" y2="0" width="0.2" layer="21"/>
-<wire x1="-1" y1="0" x2="-0.1" y2="0.4" width="0.2" layer="21"/>
-<wire x1="-1" y1="-0.4" x2="-1" y2="0" width="0.2" layer="21"/>
-<wire x1="-1" y1="0" x2="-1" y2="0.4" width="0.2" layer="21"/>
-<wire x1="-1.2" y1="0" x2="-1" y2="0" width="0.2" layer="21"/>
-<wire x1="0" y1="0" x2="1" y2="0" width="0.2" layer="21"/>
-<text x="-1.8" y="1.2" size="0.8" layer="25" font="vector" ratio="15">&gt;Name</text>
-<text x="-1.8" y="-2" size="0.8" layer="27" font="vector" ratio="15">&gt;Value</text>
-<wire x1="-2.495" y1="1.095" x2="-2.495" y2="-1.095" width="0.01" layer="39"/>
-<wire x1="-2.495" y1="-1.095" x2="2.495" y2="-1.095" width="0.01" layer="39"/>
-<wire x1="2.495" y1="-1.095" x2="2.495" y2="1.095" width="0.01" layer="39"/>
-<wire x1="2.495" y1="1.095" x2="-2.495" y2="1.095" width="0.01" layer="39"/>
-<wire x1="-1.35" y1="0.8" x2="1.35" y2="0.8" width="0.15" layer="51"/>
-<wire x1="1.35" y1="0.8" x2="1.35" y2="-0.8" width="0.15" layer="51"/>
-<wire x1="1.35" y1="-0.8" x2="-1.35" y2="-0.8" width="0.15" layer="51"/>
-<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.15" layer="51"/>
-<wire x1="-0.9" y1="0.7" x2="-0.9" y2="-0.7" width="0.15" layer="51"/>
-<rectangle x1="1.4" y1="-0.39" x2="1.925" y2="0.39" layer="51"/>
-<rectangle x1="-1.925" y1="-0.39" x2="-1.4" y2="0.39" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DIODE-SCHOTTKY">
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<text x="5.08" y="-1.524" size="2.032" layer="95" rot="R180">&gt;NAME</text>
-<text x="5.842" y="3.81" size="2.032" layer="96" rot="R180">&gt;VALUE</text>
-<pin name="ANODE" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="CATHODE" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="1.27" y1="1.27" x2="1.778" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.27" x2="1.778" y2="0.762" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-1.27" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DIODE-SCHOTTKY-MBR0520L" prefix="D">
-<description>Fairchild schottky diode, 350mV, 500mA, SOD123, Digikey No. MBR0520LCT-ND</description>
-<gates>
-<gate name="D" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD123">
-<connects>
-<connect gate="D" pin="ANODE" pad="A"/>
-<connect gate="D" pin="CATHODE" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="U-LT-LTC4412-ideal-diode">
 <packages>
 <package name="SOT23-6">
@@ -13572,58 +13517,6 @@ LED</description>
 <wire x1="-6.8" y1="-2" x2="-6.8" y2="-1.8" width="0.05" layer="39"/>
 <wire x1="-6.8" y1="-1.8" x2="-7.9" y2="-1.8" width="0.05" layer="39"/>
 </package>
-<package name="WURTH_687120183622">
-<wire x1="6.5" y1="-1.5" x2="-6.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="6.5" y1="-1.5" x2="6.5" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="-1.5" x2="-6.5" y2="1.4" width="0.127" layer="51"/>
-<wire x1="6.5" y1="1.4" x2="7.85" y2="1.4" width="0.127" layer="51"/>
-<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="1.4" x2="-7.85" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-7.85" y1="1.4" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="21"/>
-<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="-8" y1="4.3" x2="-8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2.6" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
-<wire x1="8" y1="-0.9" x2="8" y2="4.3" width="0.05" layer="39"/>
-<wire x1="8" y1="4.3" x2="-8" y2="4.3" width="0.05" layer="39"/>
-<wire x1="-7.85" y1="2.3" x2="-7.85" y2="1.4" width="0.127" layer="21"/>
-<text x="5.6" y="-2.5" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="5.6" y="-3.4" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<circle x="-4.779" y="-2.589" radius="0.1" width="0.2" layer="21"/>
-<smd name="1" x="-4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="-3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="-3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="-2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="-0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="PAD1" x="7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
-<smd name="PAD2" x="-7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
-<wire x1="-5.3" y1="2.5" x2="-5.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="5.3" y1="2.5" x2="5.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="8" y1="-0.9" x2="6.8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-0.9" x2="6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-2" x2="5.1" y2="-2" width="0.05" layer="39"/>
-<wire x1="5.1" y1="-2" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2.6" x2="-5.1" y2="-2" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2" x2="-6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-2" x2="-6.8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-0.9" x2="-8" y2="-0.9" width="0.05" layer="39"/>
-</package>
 </packages>
 <symbols>
 <symbol name="ORESAT-DEBUG-CONNECTOR">
@@ -13659,32 +13552,7 @@ LED</description>
 <gate name="G$1" symbol="ORESAT-DEBUG-CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-CARD" package="TE_2-1734592-0">
-<connects>
-<connect gate="G$1" pin="CARD-RX" pad="12"/>
-<connect gate="G$1" pin="CARD-TX" pad="13"/>
-<connect gate="G$1" pin="DEBUG-0" pad="17"/>
-<connect gate="G$1" pin="DEBUG-1" pad="18"/>
-<connect gate="G$1" pin="DEBUG-2" pad="19"/>
-<connect gate="G$1" pin="DEBUG-3" pad="20"/>
-<connect gate="G$1" pin="DEVICE-D+" pad="4"/>
-<connect gate="G$1" pin="DEVICE-D-" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3 6 9"/>
-<connect gate="G$1" pin="HOST-D+" pad="7"/>
-<connect gate="G$1" pin="HOST-D-" pad="8"/>
-<connect gate="G$1" pin="NRST" pad="10"/>
-<connect gate="G$1" pin="PAD" pad="PAD1 PAD2"/>
-<connect gate="G$1" pin="SWCLK" pad="15"/>
-<connect gate="G$1" pin="SWDIO" pad="14"/>
-<connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUSP" pad="1 2"/>
-<connect gate="G$1" pin="VTARGET" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SOLAR" package="WURTH_687120183622">
+<device name="-ALL" package="TE_2-1734592-0">
 <connects>
 <connect gate="G$1" pin="CARD-RX" pad="12"/>
 <connect gate="G$1" pin="CARD-TX" pad="13"/>
@@ -15515,10 +15383,15 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </library>
 <library name="oresat-flight-marker">
 <packages>
+<package name="FLIGHTMARKER_OLD_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
+<rectangle x1="36" y1="-0.2" x2="37.8" y2="1.6" layer="21"/>
+<wire x1="22.077" y1="-0.381" x2="26.087" y2="-0.381" width="0.1524" layer="21"/>
+</package>
 <package name="FLIGHTMARKER_NEW_BOARDS">
-<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
-<wire x1="18.9" y1="-0.4" x2="22.3" y2="-0.4" width="0.1524" layer="21"/>
-<rectangle x1="31.6" y1="-0.3" x2="33.5" y2="1.6" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
+<wire x1="19.2" y1="-0.5" x2="22.9" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -15531,12 +15404,87 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FLIGHTMARKER">
+<deviceset name="FLIGHMARKER">
 <gates>
 <gate name="G$1" symbol="FLIGHTHARDWARE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="NEW" package="FLIGHTMARKER_NEW_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OLD" package="FLIGHTMARKER_OLD_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="D-OnSemi-NRVB130T3G">
+<description>Generated from &lt;b&gt;1u_panel.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="SOD123">
+<description>&lt;b&gt;SOD123&lt;/b&gt; Popular diode package
+&lt;br&gt;Slightly larger than e1206.</description>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.25" layer="21"/>
+<wire x1="-1.4" y1="-0.8" x2="1.4" y2="-0.8" width="0.25" layer="21"/>
+<wire x1="-0.1" y1="0.4" x2="-0.1" y2="-0.4" width="0.2" layer="21"/>
+<wire x1="-0.1" y1="-0.4" x2="-1" y2="0" width="0.2" layer="21"/>
+<wire x1="-1" y1="0" x2="-0.1" y2="0.4" width="0.2" layer="21"/>
+<wire x1="-1" y1="-0.4" x2="-1" y2="0" width="0.2" layer="21"/>
+<wire x1="-1" y1="0" x2="-1" y2="0.4" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="0" x2="-1" y2="0" width="0.2" layer="21"/>
+<wire x1="0" y1="0" x2="1" y2="0" width="0.2" layer="21"/>
+<wire x1="-2.495" y1="1.095" x2="-2.495" y2="-1.095" width="0.01" layer="39"/>
+<wire x1="-2.495" y1="-1.095" x2="2.495" y2="-1.095" width="0.01" layer="39"/>
+<wire x1="2.495" y1="-1.095" x2="2.495" y2="1.095" width="0.01" layer="39"/>
+<wire x1="2.495" y1="1.095" x2="-2.495" y2="1.095" width="0.01" layer="39"/>
+<wire x1="-1.35" y1="0.8" x2="1.35" y2="0.8" width="0.15" layer="51"/>
+<wire x1="1.35" y1="0.8" x2="1.35" y2="-0.8" width="0.15" layer="51"/>
+<wire x1="1.35" y1="-0.8" x2="-1.35" y2="-0.8" width="0.15" layer="51"/>
+<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.15" layer="51"/>
+<wire x1="-0.9" y1="0.7" x2="-0.9" y2="-0.7" width="0.15" layer="51"/>
+<rectangle x1="1.4" y1="-0.39" x2="1.925" y2="0.39" layer="51"/>
+<rectangle x1="-1.925" y1="-0.39" x2="-1.4" y2="0.39" layer="51"/>
+<smd name="A" x="1.85" y="0" dx="0.7" dy="1.2" layer="1"/>
+<smd name="K" x="-1.85" y="0" dx="0.7" dy="1.2" layer="1"/>
+<text x="-1.8" y="1.2" size="0.8" layer="25" font="vector" ratio="15">&gt;Name</text>
+<text x="-1.8" y="-2" size="0.8" layer="27" font="vector" ratio="15">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE-SCHOTTKY">
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.778" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.27" x2="1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-1.27" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<pin name="ANODE" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="CATHODE" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="5.08" y="-1.524" size="2.032" layer="95" rot="R180">&gt;NAME</text>
+<text x="5.842" y="3.81" size="2.032" layer="96" rot="R180">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NRVB130TGSOD123" prefix="D">
+<description>OnSemi schottky diode, 350mV, 1A, SOD123</description>
+<gates>
+<gate name="D" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD123">
+<connects>
+<connect gate="D" pin="ANODE" pad="A"/>
+<connect gate="D" pin="CATHODE" pad="K"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -15559,17 +15507,17 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C20" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-12736-1-ND"/>
+<attribute name="DPN" value="490-12317-1-ND"/>
 <attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM188R61C106KAALJ"/>
+<attribute name="MPN" value="GRT188R61C106KE13D"/>
 </part>
 <part name="L1" library="L-TDK-VLS3010CX-1R5M-1" deviceset="VLS3010CX-1R5M-1" device="" value="1.5 uH">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15602,9 +15550,9 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </part>
 <part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="470k">
@@ -15622,9 +15570,9 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-12736-1-ND"/>
+<attribute name="DPN" value="490-12317-1-ND"/>
 <attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM188R61C106KAALJ"/>
+<attribute name="MPN" value="GRT188R61C106KE13D"/>
 </part>
 <part name="TP26" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP27" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -15644,34 +15592,34 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="C10" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-6473-1-ND"/>
+<attribute name="DPN" value="490-12379-2-ND"/>
 <attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="MPN" value="GRT21BR61C106KE01L"/>
 </part>
 <part name="C12" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-6473-1-ND"/>
+<attribute name="DPN" value="490-12379-2-ND"/>
 <attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="MPN" value="GRT21BR61C106KE01L"/>
 </part>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C13" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-12736-1-ND"/>
+<attribute name="DPN" value="490-12317-1-ND"/>
 <attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM188R61C106KAALJ"/>
+<attribute name="MPN" value="GRT188R61C106KE13D"/>
 </part>
 <part name="C15" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-6526-1-ND"/>
+<attribute name="DPN" value="1276-6817-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL21A226KOQNNNE"/>
+<attribute name="MPN" value="CL32B226KOJVPNE"/>
 </part>
 <part name="C19" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-6526-1-ND"/>
+<attribute name="DPN" value="1276-6817-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL21A226KOQNNNE"/>
+<attribute name="MPN" value="CL32B226KOJVPNE"/>
 </part>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP"/>
@@ -15731,9 +15679,9 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </part>
 <part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="478-0603YD103KAT2ACT-ND"/>
-<attribute name="MFR" value="AVX"/>
-<attribute name="MPN" value="0603YD103KAT2A"/>
+<attribute name="DPN" value="587-5957-1-ND"/>
+<attribute name="MFR" value="Taiyo"/>
+<attribute name="MPN" value="UMK107B7103KAHT"/>
 </part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP2" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -15755,29 +15703,29 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C8" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C14" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-10481-1-ND"/>
-<attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM188R61C475KAAJD"/>
+<attribute name="DPN" value="587-4332-1-ND"/>
+<attribute name="MFR" value="Taiyo"/>
+<attribute name="MPN" value="EMK107BBJ475KAHT"/>
 </part>
 <part name="C18" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-10481-1-ND"/>
-<attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM188R61C475KAAJD"/>
+<attribute name="DPN" value="587-4332-1-ND"/>
+<attribute name="MFR" value="Taiyo"/>
+<attribute name="MPN" value="EMK107BBJ475KAHT"/>
 </part>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15796,7 +15744,12 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </part>
 <part name="TP24" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP30" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="D5" library="apdm-ic-v2" deviceset="DIODE-SCHOTTKY-MBR0520L" device="" value="0 Ohm Jumper for Flight"/>
+<part name="D5" library="D-OnSemi-NRVB130T3G" deviceset="NRVB130TGSOD123" device="" value="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="NRVB130T3GOSCT-ND"/>
+<attribute name="MFR" value="OnSemi"/>
+<attribute name="MPN" value="NRVB130T3G"/>
+</part>
 <part name="U12" library="U-LT-LTC4412-ideal-diode" deviceset="LTC4412" device="">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="LTC4412ES6#TRPBFCT-ND"/>
@@ -15823,47 +15776,47 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </part>
 <part name="C21" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-1038-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0402C103K4RACTU"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C23" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-6526-1-ND"/>
+<attribute name="DPN" value="1276-6817-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL21A226KOQNNNE"/>
+<attribute name="MPN" value="CL32B226KOJVPNE"/>
 </part>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C25" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="C26" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="C27" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="20p">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14498-1-ND"/>
-<attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C200K4GAC7867"/>
+<attribute name="DPN" value="490-11157-2-ND"/>
+<attribute name="MFR" value="Murata"/>
+<attribute name="MPN" value="GCM1885C2A200JA16D"/>
 </part>
 <part name="C28" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="20p">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14498-1-ND"/>
-<attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C200K4GAC7867"/>
+<attribute name="DPN" value="490-11157-2-ND"/>
+<attribute name="MFR" value="Murata"/>
+<attribute name="MPN" value="GCM1885C2A200JA16D"/>
 </part>
 <part name="C29" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15876,9 +15829,9 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C30" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="X1" library="low-gain-radio" deviceset="CRYSTAL-WITH-GND" device="" value="16MHZ-2.5x2mm">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15915,7 +15868,7 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="TP13" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="J2" library="oresat-debug-connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-SOLAR">
+<part name="J2" library="oresat-debug-connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-ALL">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="732-11341-1-ND"/>
 <attribute name="MFR" value="Wurth"/>
@@ -15930,9 +15883,9 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <part name="TP21" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="C31" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="4.7k">
@@ -15942,6 +15895,10 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="13-RE0603FRE074K7LCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RE0603FRE074K7L"/>
 </part>
 <part name="R4" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="4.7k">
 <spice>
@@ -15950,6 +15907,10 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="13-RE0603FRE074K7LCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RE0603FRE074K7L"/>
 </part>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="U2" library="U-TI-TMP101-TempSensor" deviceset="TMP101NA/3K" device="SLOTTED">
@@ -15962,9 +15923,9 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C1" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="DPN" value="1276-6985-1-ND"/>
 <attribute name="MFR" value="Kemet"/>
-<attribute name="MPN" value="C0603C104K4PAC7867"/>
+<attribute name="MPN" value="CL10B104KB85PND"/>
 </part>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP4" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -16041,7 +16002,7 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <attribute name="MFR" value="TE"/>
 <attribute name="MPN" value="CRGCQ0805F100R"/>
 </part>
-<part name="D1" library="apdm-ic-v2" deviceset="DIODE-SCHOTTKY-MBR0520L" device="" value="">
+<part name="D1" library="D-OnSemi-NRVB130T3G" deviceset="NRVB130TGSOD123" device="" value="NRVB130TGSOD123">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="MBR0520LCT-ND"/>
 <attribute name="MFR" value="ON Semiconductor"/>
@@ -16049,33 +16010,33 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </part>
 <part name="C3" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-6473-1-ND"/>
-<attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="DPN" value="1276-6817-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL32B226KOJVPNE"/>
 </part>
 <part name="C9" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-6473-1-ND"/>
-<attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="DPN" value="1276-6817-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL32B226KOJVPNE"/>
 </part>
 <part name="C11" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-6473-1-ND"/>
-<attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="DPN" value="1276-6817-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL32B226KOJVPNE"/>
 </part>
 <part name="C16" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-6473-1-ND"/>
-<attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="DPN" value="1276-6817-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL32B226KOJVPNE"/>
 </part>
 <part name="C17" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="490-6473-1-ND"/>
-<attribute name="MFR" value="Murata"/>
-<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="DPN" value="1276-6817-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL32B226KOJVPNE"/>
 </part>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R20" library="oresat-rcl" deviceset="R-US_" device="0805-C-NOSILK" value="0">
@@ -16085,12 +16046,32 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <attribute name="MPN" value="RMCF0805ZT0R00"/>
 </part>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="R24" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k/NP"/>
-<part name="R25" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k/NP"/>
-<part name="R26" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k/NP"/>
-<part name="R27" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k/NP"/>
+<part name="R24" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k/NP">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="118-CR0603AFX-1001ELFCT-ND"/>
+<attribute name="MFR" value="Bourns"/>
+<attribute name="MPN" value="CR0603AFX-1001ELF"/>
+</part>
+<part name="R25" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k/NP">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="118-CR0603AFX-1001ELFCT-ND"/>
+<attribute name="MFR" value="Bourns"/>
+<attribute name="MPN" value="CR0603AFX-1001ELF"/>
+</part>
+<part name="R26" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k/NP">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="118-CR0603AFX-1001ELFCT-ND"/>
+<attribute name="MFR" value="Bourns"/>
+<attribute name="MPN" value="CR0603AFX-1001ELF"/>
+</part>
+<part name="R27" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k/NP">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="118-CR0603AFX-1001ELFCT-ND"/>
+<attribute name="MFR" value="Bourns"/>
+<attribute name="MPN" value="CR0603AFX-1001ELF"/>
+</part>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="oresat-flight-marker" deviceset="FLIGHTMARKER" device="NEW"/>
+<part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="OLD"/>
 </parts>
 <sheets>
 <sheet>
@@ -16571,6 +16552,10 @@ FLIGHT</text>
 </instance>
 <instance part="D5" gate="D" x="234.95" y="212.09" smashed="yes">
 <attribute name="NAME" x="233.68" y="207.264" size="2.032" layer="95"/>
+<attribute name="DPN" x="234.95" y="212.09" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="234.95" y="212.09" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="234.95" y="212.09" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="234.95" y="212.09" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U12" gate="G$1" x="327.66" y="209.55" smashed="yes">
 <attribute name="NAME" x="331.47" y="200.66" size="1.778" layer="95"/>
@@ -17746,10 +17731,18 @@ Required by CAN messages.
 <instance part="R3" gate="R" x="133.35" y="214.63" smashed="yes" rot="R90">
 <attribute name="NAME" x="131.8514" y="210.82" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="136.652" y="210.82" size="1.778" layer="96" rot="R90"/>
+<attribute name="DPN" x="133.35" y="214.63" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="133.35" y="214.63" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="133.35" y="214.63" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="133.35" y="214.63" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R4" gate="R" x="143.51" y="214.63" smashed="yes" rot="R90">
 <attribute name="NAME" x="142.0114" y="210.82" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="146.812" y="210.82" size="1.778" layer="96" rot="R90"/>
+<attribute name="DPN" x="143.51" y="214.63" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="143.51" y="214.63" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="143.51" y="214.63" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="143.51" y="214.63" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="138.43" y="229.87" smashed="yes">
 <attribute name="VALUE" x="138.43" y="232.664" size="1.778" layer="96" align="bottom-center"/>
@@ -17889,18 +17882,34 @@ Required by CAN messages.
 <instance part="R24" gate="R" x="218.44" y="62.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="217.17" y="57.15" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="217.17" y="63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="DPN" x="218.44" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="218.44" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="218.44" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="218.44" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R25" gate="R" x="223.52" y="62.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="222.25" y="57.15" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="222.25" y="63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="DPN" x="223.52" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="223.52" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="223.52" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="223.52" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R26" gate="R" x="228.6" y="62.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="227.33" y="57.15" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="227.33" y="63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="DPN" x="228.6" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="228.6" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="228.6" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="228.6" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R27" gate="R" x="233.68" y="62.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="232.41" y="57.15" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="232.41" y="63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="DPN" x="233.68" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="233.68" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="233.68" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="233.68" y="62.23" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="226.06" y="50.8" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="228.6" y="48.26" size="1.778" layer="96" rot="MR0"/>
