@@ -15448,40 +15448,8 @@ by exp-lbrs.ulp</description>
 </polygon>
 <polygon width="0.01" layer="1">
 <vertex x="-0.85" y="1.075"/>
-<vertex x="-0.725" y="1.075"/>
-<vertex x="-0.725" y="1.775"/>
-<vertex x="-0.475" y="1.775"/>
-<vertex x="-0.475" y="1.075"/>
-<vertex x="-0.325" y="1.075"/>
-<vertex x="-0.325" y="1.775"/>
-<vertex x="-0.075" y="1.775"/>
-<vertex x="-0.075" y="1.075"/>
-<vertex x="0.075" y="1.075"/>
-<vertex x="0.075" y="1.775"/>
-<vertex x="0.325" y="1.775"/>
-<vertex x="0.325" y="1.075"/>
-<vertex x="0.475" y="1.075"/>
-<vertex x="0.475" y="1.775"/>
-<vertex x="0.725" y="1.775"/>
-<vertex x="0.725" y="1.075"/>
 <vertex x="0.85" y="1.075"/>
 <vertex x="0.85" y="-1.075"/>
-<vertex x="0.725" y="-1.075"/>
-<vertex x="0.725" y="-1.775"/>
-<vertex x="0.475" y="-1.775"/>
-<vertex x="0.475" y="-1.075"/>
-<vertex x="0.325" y="-1.075"/>
-<vertex x="0.325" y="-1.775"/>
-<vertex x="0.075" y="-1.775"/>
-<vertex x="0.075" y="-1.075"/>
-<vertex x="-0.075" y="-1.075"/>
-<vertex x="-0.075" y="-1.775"/>
-<vertex x="-0.325" y="-1.775"/>
-<vertex x="-0.325" y="-1.075"/>
-<vertex x="-0.475" y="-1.075"/>
-<vertex x="-0.475" y="-1.775"/>
-<vertex x="-0.725" y="-1.775"/>
-<vertex x="-0.725" y="-1.075"/>
 <vertex x="-0.85" y="-1.075"/>
 </polygon>
 <rectangle x1="-0.76" y1="0.11" x2="-0.11" y2="1.01" layer="31"/>
@@ -15503,10 +15471,6 @@ by exp-lbrs.ulp</description>
 <circle x="-2.4" y="1.12" radius="0.08" width="0.16" layer="21"/>
 <circle x="-2.4" y="1.12" radius="0.08" width="0.16" layer="51"/>
 <smd name="1" x="-1.475" y="1" dx="0.5" dy="0.2" layer="1" stop="no" cream="no"/>
-<pad name="13" x="0.5" y="0.5" drill="0.3" diameter="0.4" stop="no"/>
-<pad name="12" x="-0.5" y="0.5" drill="0.3" diameter="0.4" stop="no"/>
-<pad name="15" x="0" y="0" drill="0.3" diameter="0.4" stop="no"/>
-<pad name="14" x="-0.5" y="-0.5" drill="0.3" diameter="0.4" stop="no"/>
 <smd name="11" x="0" y="0" dx="0.5" dy="0.5" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-1.475" y="0.5" dx="0.5" dy="0.2" layer="1" stop="no" cream="no"/>
 <smd name="3" x="-1.475" y="0" dx="0.5" dy="0.2" layer="1" stop="no" cream="no"/>
@@ -15517,7 +15481,20 @@ by exp-lbrs.ulp</description>
 <smd name="8" x="1.475" y="0" dx="0.5" dy="0.2" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="9" x="1.475" y="0.5" dx="0.5" dy="0.2" layer="1" rot="R180" stop="no" cream="no"/>
 <smd name="10" x="1.475" y="1" dx="0.5" dy="0.2" layer="1" rot="R180" stop="no" cream="no"/>
-<pad name="16" x="0.5" y="-0.5" drill="0.3" diameter="0.4" stop="no"/>
+<smd name="12" x="-0.6" y="1.4" dx="0.254" dy="0.8" layer="1"/>
+<smd name="13" x="-0.2" y="1.4" dx="0.254" dy="0.8" layer="1"/>
+<smd name="14" x="0.2" y="1.4" dx="0.254" dy="0.8" layer="1"/>
+<smd name="15" x="0.6" y="1.4" dx="0.254" dy="0.8" layer="1"/>
+<smd name="16" x="-0.6" y="-1.4" dx="0.254" dy="0.8" layer="1"/>
+<smd name="17" x="-0.2" y="-1.4" dx="0.254" dy="0.8" layer="1"/>
+<smd name="18" x="0.2" y="-1.4" dx="0.254" dy="0.8" layer="1"/>
+<smd name="19" x="0.6" y="-1.4" dx="0.254" dy="0.8" layer="1"/>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.889" y="1.143"/>
+<vertex x="-0.889" y="-1.143"/>
+<vertex x="0.889" y="-1.143"/>
+<vertex x="0.889" y="1.143"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -15555,7 +15532,7 @@ by exp-lbrs.ulp</description>
 <connect gate="G$1" pin="L1" pad="1"/>
 <connect gate="G$1" pin="L2" pad="10"/>
 <connect gate="G$1" pin="PG" pad="5"/>
-<connect gate="G$1" pin="PGND" pad="11 12 13 14 15 16"/>
+<connect gate="G$1" pin="PGND" pad="11 12 13 14 15 16 17 18 19"/>
 <connect gate="G$1" pin="PS/SYNC" pad="4"/>
 <connect gate="G$1" pin="VAUX" pad="6"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
