@@ -15865,9 +15865,9 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="Q2" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="DMP3050LVT-7DICT-ND"/>
+<attribute name="DPN" value="DMP2240UDMDICT-ND"/>
 <attribute name="MFR" value="Diodes Inc."/>
-<attribute name="MPN" value="DMP3050LVT-7"/>
+<attribute name="MPN" value="DMP2240UDM-7"/>
 </part>
 <part name="R19" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>

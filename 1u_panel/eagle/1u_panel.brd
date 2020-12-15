@@ -5554,9 +5554,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="Q2" library="Q-MOSFET-PCH-dual-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="47.1" y="82.5" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR" value="Digikey" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="DMP2240UDMDICT-ND" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Diodes Inc." x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="DMP3050LVT-7" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="DMP2240UDM-7" x="47.1" y="82.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="46.602" y="80.083" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R19" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="37.2" y="82" smashed="yes">
