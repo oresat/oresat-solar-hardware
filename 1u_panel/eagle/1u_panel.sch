@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -15115,18 +15115,14 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 <wire x1="22.077" y1="-0.381" x2="26.087" y2="-0.381" width="0.1524" layer="21"/>
 </package>
 <package name="FLIGHTMARKER_NEW_BOARDS">
-<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
-<wire x1="19.2" y1="-0.5" x2="22.9" y2="-0.5" width="0.1524" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
+<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
 <rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
 </package>
 </packages>
 <symbols>
 <symbol name="FLIGHTHARDWARE">
-<text x="0" y="0" size="2.54" layer="94">Flight Design If  NOT Checked</text>
-<wire x1="53.34" y1="2.54" x2="50.8" y2="2.54" width="0.254" layer="94"/>
-<wire x1="50.8" y1="2.54" x2="50.8" y2="0" width="0.254" layer="94"/>
-<wire x1="50.8" y1="0" x2="53.34" y2="0" width="0.254" layer="94"/>
-<wire x1="53.34" y1="0" x2="53.34" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="2.54" layer="94">Flight Hardware Marker (on PCB)</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -16172,7 +16168,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="CR0603AFX-1001ELF"/>
 </part>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="OLD"/>
+<part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="NEW" value="FLIGHMARKERNEW"/>
 <part name="C22" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10p">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="490-12317-1-ND"/>
