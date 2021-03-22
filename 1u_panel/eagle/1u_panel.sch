@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12193,7 +12193,6 @@ This variant of the chip is specifically designed to be soldered upside down wit
 <wire x1="0.3048" y1="1.53" x2="-0.3048" y2="1.53" width="0.1524" layer="51"/>
 <wire x1="-0.3048" y1="1.53" x2="-0.88" y2="1.53" width="0.1524" layer="51"/>
 <wire x1="-0.88" y1="1.53" x2="-0.88" y2="-1.53" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="1.53" x2="-0.3048" y2="1.53" width="0.1524" layer="51" curve="-180"/>
 <wire x1="-2.5" y1="-1.5" x2="-2.5" y2="1.5" width="0.01" layer="39"/>
 <wire x1="-2.5" y1="1.5" x2="-1.3" y2="1.5" width="0.01" layer="39"/>
 <wire x1="-1.3" y1="1.5" x2="-1.3" y2="2.8" width="0.01" layer="39"/>
@@ -12217,7 +12216,7 @@ This variant of the chip is specifically designed to be soldered upside down wit
 <rectangle x1="0.9" y1="-1.2" x2="1.5" y2="-0.7" layer="51"/>
 <rectangle x1="0.9" y1="-0.25" x2="1.5" y2="0.25" layer="51"/>
 <rectangle x1="-1.5" y1="-0.25" x2="-0.9" y2="0.25" layer="51"/>
-<text x="1.27" y="1.27" size="1.778" layer="21">*</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="21">*</text>
 </package>
 </packages>
 <symbols>
@@ -12292,12 +12291,12 @@ This variant of the chip is specifically designed to be soldered upside down wit
 </device>
 <device name="SLOTTED" package="DBV6-SLOT">
 <connects>
-<connect gate="A" pin="ADD0" pad="5"/>
-<connect gate="A" pin="ALERT" pad="3"/>
-<connect gate="A" pin="GND" pad="2"/>
-<connect gate="A" pin="SCL" pad="1"/>
-<connect gate="A" pin="SDA" pad="4"/>
-<connect gate="A" pin="V+" pad="6"/>
+<connect gate="A" pin="ADD0" pad="2"/>
+<connect gate="A" pin="ALERT" pad="6"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="SCL" pad="4"/>
+<connect gate="A" pin="SDA" pad="1"/>
+<connect gate="A" pin="V+" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15596,6 +15595,56 @@ paste inset 0.025&amp;nbsp;mm.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
+<packages>
+<package name="FIDUCIAL_1MM" urn="urn:adsk.eagle:footprint:6239986/1" library_version="2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="FIDUCIAL_1MM" urn="urn:adsk.eagle:package:6240632/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="FIDUCIAL_1MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="DOT" urn="urn:adsk.eagle:symbol:6239475/1" library_version="2">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" urn="urn:adsk.eagle:component:6240978/1" library_version="2">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240632/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16168,6 +16217,8 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP27" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP28" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="U$2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
+<part name="U$3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -16794,6 +16845,8 @@ mode enabled</text>
 <instance part="TP28" gate="G$1" x="172.72" y="52.07" smashed="yes">
 <attribute name="NAME" x="176.53" y="52.07" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="U$2" gate="G$1" x="396.24" y="40.64" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="403.86" y="40.64" smashed="yes"/>
 </instances>
 <busses>
 </busses>
