@@ -12189,9 +12189,7 @@ This variant of the chip is specifically designed to be soldered upside down wit
 <smd name="6" x="-1.75" y="0.95" dx="1.1" dy="0.6" layer="1"/>
 <wire x1="-0.88" y1="-1.53" x2="0.88" y2="-1.53" width="0.1524" layer="51"/>
 <wire x1="0.88" y1="-1.53" x2="0.88" y2="1.53" width="0.1524" layer="51"/>
-<wire x1="0.88" y1="1.53" x2="0.3048" y2="1.53" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="1.53" x2="-0.3048" y2="1.53" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="1.53" x2="-0.88" y2="1.53" width="0.1524" layer="51"/>
+<wire x1="0.88" y1="1.53" x2="-0.88" y2="1.53" width="0.1524" layer="51"/>
 <wire x1="-0.88" y1="1.53" x2="-0.88" y2="-1.53" width="0.1524" layer="51"/>
 <wire x1="-2.5" y1="-1.5" x2="-2.5" y2="1.5" width="0.01" layer="39"/>
 <wire x1="-2.5" y1="1.5" x2="-1.3" y2="1.5" width="0.01" layer="39"/>
@@ -12295,8 +12293,8 @@ This variant of the chip is specifically designed to be soldered upside down wit
 <connect gate="A" pin="ALERT" pad="6"/>
 <connect gate="A" pin="GND" pad="5"/>
 <connect gate="A" pin="SCL" pad="4"/>
-<connect gate="A" pin="SDA" pad="1"/>
-<connect gate="A" pin="V+" pad="3"/>
+<connect gate="A" pin="SDA" pad="3"/>
+<connect gate="A" pin="V+" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
