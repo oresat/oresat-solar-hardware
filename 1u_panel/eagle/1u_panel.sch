@@ -15694,12 +15694,7 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="TP6" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP16" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="U10" library="U-TI-TPS63060DSCT-buck-boost" deviceset="U-TI-TPS63060DCT-BUCKBOOST" device="" value="TPS63070">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="296-44764-1-ND"/>
-<attribute name="MFR" value="Texas Instruments"/>
-<attribute name="MPN" value="TPS63070RNMT"/>
-</part>
+<part name="U10" library="U-TI-TPS63060DSCT-buck-boost" deviceset="U-TI-TPS63060DCT-BUCKBOOST" device="" value="TPS63060"/>
 <part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-6985-1-ND"/>
@@ -16377,10 +16372,6 @@ mode enabled</text>
 <instance part="U10" gate="G$1" x="195.58" y="63.5" smashed="yes">
 <attribute name="NAME" x="203.2" y="38.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="203.2" y="35.56" size="1.778" layer="96"/>
-<attribute name="DPN" x="195.58" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="195.58" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="195.58" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="DIS" x="195.58" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="CE" x="172.72" y="43.18" smashed="yes" rot="MR0">
 <attribute name="DIS" x="172.72" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>

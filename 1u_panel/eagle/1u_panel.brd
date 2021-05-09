@@ -5297,11 +5297,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP16" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="43.85" y="80.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.4" y="78.9" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="U10" library="U-TI-TPS63060DSCT-buck-boost" package="CONV_TPS63060DSCT" value="TPS63070" x="13.6" y="83.93" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="13.6" y="83.93" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="296-44764-1-ND" x="13.6" y="83.93" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Texas Instruments" x="13.6" y="83.93" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="TPS63070RNMT" x="13.6" y="83.93" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U10" library="U-TI-TPS63060DSCT-buck-boost" package="CONV_TPS63060DSCT" value="TPS63060" x="13.6" y="83.93" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.3" y="87.33" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="C7" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="17.6" y="85" smashed="yes">
