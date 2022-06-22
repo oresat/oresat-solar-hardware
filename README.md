@@ -10,7 +10,7 @@ That and coffee. You're all doing coffee wrong, too, but we don't hold that agai
 
 ## Solar Cells
 
-[Spectrolab XTE-SF GaAs solar cells](https://www.spectrolab.com/photovoltaics/XTE-SF_Data_Sheet.pdf). Yeah, they're expensive. But you can't yet get anything close to that kind of power output. Luckily, our MPPT doesn't really care what cells it uses, as long as the Vmp is > 3 V and < 6 V, so you could use Silicon if you wanted to.
+[Spectrolab XTE-SF GaAs solar cells](https://www.spectrolab.com/photovoltaics/XTE-SF_Data_Sheet.pdf). Yeah, they're expensive. But you can't yet get anything close to that kind of power output.
 
 ## Design
 
