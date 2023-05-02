@@ -1750,6 +1750,27 @@
     (uuid f6ebe880-5c9a-48d6-a609-85f100984f59)
   )
 
+  (no_connect (at 138.43 231.14) (uuid 0569b71c-39eb-4a3b-84b5-b509e6b5f7c5))
+  (no_connect (at 298.45 171.45) (uuid 09709d3f-d571-47ed-a47f-e106567b7d63))
+  (no_connect (at 252.73 173.99) (uuid 0d193177-c3d4-4b13-9d2d-945725128784))
+  (no_connect (at 252.73 158.75) (uuid 175fe44d-3482-4a92-b7db-e42c77944de0))
+  (no_connect (at 298.45 173.99) (uuid 2e7d62e7-ed38-4c05-8264-8b8004bf7697))
+  (no_connect (at 138.43 220.98) (uuid 3d0e9454-a6c3-4101-b6b7-2633747289cb))
+  (no_connect (at 252.73 163.83) (uuid 47c1c904-fffd-4caf-a784-6010212306d9))
+  (no_connect (at 252.73 161.29) (uuid 59ec4f9a-2d46-4e55-af7f-110aa34cef90))
+  (no_connect (at 298.45 140.97) (uuid 5b805959-afd1-432e-9ea5-6dbe1ad6aed5))
+  (no_connect (at 138.43 223.52) (uuid 626d9d4b-4db8-4bb4-aa0f-f7e87210734b))
+  (no_connect (at 252.73 168.91) (uuid 64c7b3c4-19bd-4443-8954-a354f7ca3ab1))
+  (no_connect (at 252.73 171.45) (uuid 75c7f2e0-7502-4057-a3d9-2d79069ca420))
+  (no_connect (at 298.45 146.05) (uuid 9be0c8fd-7f04-47c6-b711-e5e42c386317))
+  (no_connect (at 252.73 166.37) (uuid a74e46dd-e067-4cbb-a0cc-9cb8a8b50c37))
+  (no_connect (at 298.45 186.69) (uuid b97b812d-7dac-49ec-a364-64ded35b40c1))
+  (no_connect (at 252.73 153.67) (uuid cc62e2a0-42ed-4c66-a576-9240405da180))
+  (no_connect (at 138.43 228.6) (uuid d172e189-69e5-4102-921f-0c02dd38f455))
+  (no_connect (at 252.73 156.21) (uuid d1d99b5b-a192-4caa-988d-5f82853b925b))
+  (no_connect (at 298.45 133.35) (uuid d334785a-cebe-4da5-89b7-54621dfcacc7))
+  (no_connect (at 252.73 176.53) (uuid fc6cb7c6-6362-466f-b3a3-38bec44796d7))
+
   (wire (pts (xy 172.72 100.33) (xy 172.72 93.98))
     (stroke (width 0.1524) (type solid))
     (uuid 00751061-bb6f-487e-8da2-f3903846e0fb)
@@ -2553,7 +2574,7 @@
     (uuid 6a6b8ec1-b300-4705-8d7b-78614b8e8a0c)
   )
   (text "CAN Transceiver" (at 393.7 148.59 0)
-    (effects (font (size 2.54 2.159)) (justify right top))
+    (effects (font (size 2.54 2.159)) (justify right bottom))
     (uuid 87163b43-d263-496d-9212-ce8cac6b707c)
   )
   (text "NP0 Dielectric" (at 187.96 157.48 90)
@@ -2804,7 +2825,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 243.84 246.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ce6ca2f-cacd-4070-af9a-e40de59af722)
-    (property "Reference" "#GND21" (at 243.84 246.38 0)
+    (property "Reference" "#GND021" (at 243.84 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 248.92 0)
@@ -2820,7 +2841,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND21") (unit 1)
+          (reference "#GND021") (unit 1)
         )
       )
     )
@@ -2917,7 +2938,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 223.52 168.91 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b51e25d-da34-44e8-9d7a-053db4408388)
-    (property "Reference" "#GND6" (at 223.52 168.91 0)
+    (property "Reference" "#GND06" (at 223.52 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 171.45 0)
@@ -2933,7 +2954,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND6") (unit 1)
+          (reference "#GND06") (unit 1)
         )
       )
     )
@@ -2980,7 +3001,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 288.29 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ec31819-3052-4979-978c-fb48ec01acc4)
-    (property "Reference" "#GND59" (at 288.29 110.49 0)
+    (property "Reference" "#GND059" (at 288.29 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 285.75 113.03 0)
@@ -2996,7 +3017,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND59") (unit 1)
+          (reference "#GND059") (unit 1)
         )
       )
     )
@@ -3005,7 +3026,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 95.25 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f08c2ae-f19d-4f20-888c-95edc221bade)
-    (property "Reference" "#SUPPLY10" (at 95.25 80.01 0)
+    (property "Reference" "#SUPPLY010" (at 95.25 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 95.25 77.216 0)
@@ -3021,7 +3042,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#SUPPLY10") (unit 1)
+          (reference "#SUPPLY010") (unit 1)
         )
       )
     )
@@ -3055,7 +3076,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 382.27 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29484476-7673-4c8f-91ff-4238cc11e29f)
-    (property "Reference" "#SUPPLY8" (at 382.27 158.75 0)
+    (property "Reference" "#SUPPLY08" (at 382.27 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 382.27 155.956 0)
@@ -3071,7 +3092,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#SUPPLY8") (unit 1)
+          (reference "#SUPPLY08") (unit 1)
         )
       )
     )
@@ -3080,7 +3101,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 367.03 166.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b773b7b-76af-491a-b160-b742114cd84d)
-    (property "Reference" "#GND55" (at 367.03 166.37 0)
+    (property "Reference" "#GND055" (at 367.03 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 369.57 168.91 0)
@@ -3096,7 +3117,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND55") (unit 1)
+          (reference "#GND055") (unit 1)
         )
       )
     )
@@ -3108,13 +3129,13 @@
     (property "Reference" "X1" (at 203.2 135.89 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "CRYSTAL-WITH-GND" (at 210.82 138.43 90)
+    (property "Value" "ECS-160-10-36Q-ES-TR" (at 210.82 138.43 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "1u_panel:CRYSTAL_2.5X2" (at 201.93 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 201.93 143.51 0)
+    (property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-2236Q.pdf" (at 201.93 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DIS" "Digi-Key" (at 201.93 143.51 0)
@@ -3171,15 +3192,15 @@
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 315feb09-9d7c-44a2-9557-29b931021daa)
     (property "Reference" "U7" (at 283.21 199.39 0)
-      (effects (font (size 1.778 1.5113)) (justify right bottom) hide)
+      (effects (font (size 1.778 1.5113)) (justify right bottom))
     )
-    (property "Value" "STM32F091C" (at 283.21 201.93 0)
-      (effects (font (size 1.778 1.5113)) (justify right bottom) hide)
+    (property "Value" "STM32F091CCT7" (at 283.21 201.93 0)
+      (effects (font (size 1.778 1.5113)) (justify right bottom))
     )
     (property "Footprint" "1u_panel:STM32F091C" (at 275.59 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 275.59 158.75 0)
+    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/95/3c/2e/5b/21/09/45/a6/DM00115237.pdf/files/DM00115237.pdf/jcr:content/translations/en.DM00115237.pdf" (at 275.59 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DIS" "Digi-Key" (at 275.59 158.75 0)
@@ -3254,7 +3275,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 209.55 161.29 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34782f83-2c63-40c0-8189-fc451d969b4d)
-    (property "Reference" "#GND52" (at 209.55 161.29 0)
+    (property "Reference" "#GND052" (at 209.55 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 163.83 0)
@@ -3270,7 +3291,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND52") (unit 1)
+          (reference "#GND052") (unit 1)
         )
       )
     )
@@ -3279,7 +3300,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 154.94 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b189264-1796-4726-909e-9e200dc059f5)
-    (property "Reference" "#SUPPLY11" (at 154.94 195.58 0)
+    (property "Reference" "#SUPPLY011" (at 154.94 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 154.94 192.786 0)
@@ -3295,7 +3316,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#SUPPLY11") (unit 1)
+          (reference "#SUPPLY011") (unit 1)
         )
       )
     )
@@ -3304,16 +3325,16 @@
   (symbol (lib_id "1u_panel-eagle-import:ORESAT-DEBUG-CONNECTOR-ALL") (at 127 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46977ea6-0236-4621-8c32-6248c1c4c0a1)
-    (property "Reference" "J2" (at 124.46 189.23 0)
-      (effects (font (size 2.0828 1.7703)) (justify left bottom) hide)
+    (property "Reference" "J2" (at 125.73 185.42 0)
+      (effects (font (size 2.0828 1.7703)) (justify left bottom))
     )
-    (property "Value" "ORESAT-DEBUG-CONNECTOR-ALL" (at 127 220.98 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Value" "2-1734592-0" (at 128.27 187.96 0)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "1u_panel:TE_2-1734592-0" (at 127 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 127 220.98 0)
+    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734592&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-1734592-0" (at 127 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DIS" "Digi-Key" (at 127 220.98 0)
@@ -3514,7 +3535,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 123.19 85.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51a69a52-79ed-4fd9-b958-d58bb092d40c)
-    (property "Reference" "#GND42" (at 123.19 85.09 0)
+    (property "Reference" "#GND042" (at 123.19 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 87.63 0)
@@ -3530,7 +3551,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND42") (unit 1)
+          (reference "#GND042") (unit 1)
         )
       )
     )
@@ -3539,7 +3560,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 123.19 130.81 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55ebf164-a52f-4830-a230-eb6d5aeba58d)
-    (property "Reference" "#GND4" (at 123.19 130.81 0)
+    (property "Reference" "#GND04" (at 123.19 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 133.35 0)
@@ -3555,7 +3576,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND4") (unit 1)
+          (reference "#GND04") (unit 1)
         )
       )
     )
@@ -3651,7 +3672,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 275.59 204.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d53de82-3fc2-4bb5-b3cb-07b1093f0291)
-    (property "Reference" "#GND51" (at 275.59 204.47 0)
+    (property "Reference" "#GND051" (at 275.59 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.13 207.01 0)
@@ -3667,7 +3688,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND51") (unit 1)
+          (reference "#GND051") (unit 1)
         )
       )
     )
@@ -3701,7 +3722,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 262.89 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 630f22c6-d755-4609-90a8-9438649e288d)
-    (property "Reference" "#GND58" (at 262.89 110.49 0)
+    (property "Reference" "#GND058" (at 262.89 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 113.03 0)
@@ -3717,7 +3738,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND58") (unit 1)
+          (reference "#GND058") (unit 1)
         )
       )
     )
@@ -3878,7 +3899,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 382.27 199.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78902359-6209-4c79-a271-ee68a62d08c5)
-    (property "Reference" "#GND56" (at 382.27 199.39 0)
+    (property "Reference" "#GND056" (at 382.27 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 384.81 201.93 0)
@@ -3894,7 +3915,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND56") (unit 1)
+          (reference "#GND056") (unit 1)
         )
       )
     )
@@ -3941,7 +3962,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 95.25 110.49 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7af8dcd3-8cdf-4d1e-a71c-cba8186c4db4)
-    (property "Reference" "#GND37" (at 95.25 110.49 0)
+    (property "Reference" "#GND037" (at 95.25 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 113.03 0)
@@ -3957,7 +3978,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND37") (unit 1)
+          (reference "#GND037") (unit 1)
         )
       )
     )
@@ -3966,7 +3987,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 201.93 161.29 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7df2a946-bf82-4e02-8e2d-b262bc2f196f)
-    (property "Reference" "#GND53" (at 201.93 161.29 0)
+    (property "Reference" "#GND053" (at 201.93 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 163.83 0)
@@ -3982,7 +4003,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND53") (unit 1)
+          (reference "#GND053") (unit 1)
         )
       )
     )
@@ -4269,7 +4290,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 255.27 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4e10714-fe4e-40bf-8d46-c7d4b00aa160)
-    (property "Reference" "#GND64" (at 255.27 110.49 0)
+    (property "Reference" "#GND064" (at 255.27 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 113.03 0)
@@ -4285,7 +4306,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND64") (unit 1)
+          (reference "#GND064") (unit 1)
         )
       )
     )
@@ -4294,7 +4315,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 194.31 161.29 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aaf6d9ca-f937-4471-ae66-358006123c6b)
-    (property "Reference" "#GND54" (at 194.31 161.29 0)
+    (property "Reference" "#GND054" (at 194.31 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 163.83 0)
@@ -4310,7 +4331,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND54") (unit 1)
+          (reference "#GND054") (unit 1)
         )
       )
     )
@@ -4445,7 +4466,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 344.17 166.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6ed9ae1-a493-44ef-a05b-169977acf0a7)
-    (property "Reference" "#GND62" (at 344.17 166.37 0)
+    (property "Reference" "#GND062" (at 344.17 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 346.71 168.91 0)
@@ -4461,7 +4482,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND62") (unit 1)
+          (reference "#GND062") (unit 1)
         )
       )
     )
@@ -4508,7 +4529,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 275.59 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd71ceff-63cc-4abc-a0ed-235d1c5d4e7f)
-    (property "Reference" "#GND57" (at 275.59 110.49 0)
+    (property "Reference" "#GND057" (at 275.59 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 273.05 113.03 0)
@@ -4524,7 +4545,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND57") (unit 1)
+          (reference "#GND057") (unit 1)
         )
       )
     )
@@ -4596,7 +4617,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 95.25 125.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb609f1d-992d-416c-b05f-4eac5d513552)
-    (property "Reference" "#SUPPLY3" (at 95.25 125.73 0)
+    (property "Reference" "#SUPPLY03" (at 95.25 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 90.17 125.476 0)
@@ -4612,7 +4633,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#SUPPLY3") (unit 1)
+          (reference "#SUPPLY03") (unit 1)
         )
       )
     )
@@ -4621,7 +4642,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 95.25 158.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc8cfed5-69c6-440b-86cc-2c732330f7ca)
-    (property "Reference" "#GND1" (at 95.25 158.75 0)
+    (property "Reference" "#GND01" (at 95.25 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 161.29 0)
@@ -4637,7 +4658,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND1") (unit 1)
+          (reference "#GND01") (unit 1)
         )
       )
     )
@@ -4646,10 +4667,10 @@
   (symbol (lib_id "1u_panel-eagle-import:TMP101NA/3KSLOTTED") (at 95.25 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2d3b660-bf79-4e62-a61d-eb9188dc5cc3)
-    (property "Reference" "U2" (at 102.87 151.13 0)
+    (property "Reference" "U2" (at 102.87 158.75 0)
       (effects (font (size 2.0828 1.7703)) (justify right bottom))
     )
-    (property "Value" "TMP101NA/3KSLOTTED" (at 102.87 153.67 0)
+    (property "Value" "TMP101NA/3KSLOTTED" (at 102.87 162.56 0)
       (effects (font (size 2.0828 1.7703)) (justify right bottom))
     )
     (property "Footprint" "1u_panel:DBV6-SLOT" (at 95.25 140.97 0)
@@ -4688,7 +4709,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 273.05 58.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d678ec8a-833f-42df-b479-8ab3a46a5f81)
-    (property "Reference" "#SUPPLY5" (at 273.05 58.42 0)
+    (property "Reference" "#SUPPLY05" (at 273.05 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 273.05 55.626 0)
@@ -4704,7 +4725,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#SUPPLY5") (unit 1)
+          (reference "#SUPPLY05") (unit 1)
         )
       )
     )
@@ -4741,13 +4762,13 @@
     (property "Reference" "U1" (at 386.08 194.31 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "TCAN330" (at 386.08 196.85 0)
+    (property "Value" "TCAN330GDCNT" (at 386.08 196.85 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "1u_panel:SOT23-8_TI-DCN" (at 382.27 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 382.27 179.07 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan330.pdf" (at 382.27 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DIS" "Digi-Key" (at 382.27 179.07 0)
@@ -4820,10 +4841,10 @@
   (symbol (lib_id "1u_panel-eagle-import:TMP101NA/3KSLOTTED") (at 95.25 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea832108-8ef4-4177-81a0-68b1a3f5dd9a)
-    (property "Reference" "U11" (at 102.87 105.41 0)
+    (property "Reference" "U11" (at 102.87 106.68 0)
       (effects (font (size 2.0828 1.7703)) (justify right bottom))
     )
-    (property "Value" "TMP101NA/3KSLOTTED" (at 102.87 109.22 0)
+    (property "Value" "TMP101NA/3KSLOTTED" (at 102.87 110.49 0)
       (effects (font (size 2.0828 1.7703)) (justify right bottom))
     )
     (property "Footprint" "1u_panel:DBV6-SLOT" (at 95.25 95.25 0)
@@ -4887,7 +4908,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 176.53 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f49668c6-a52d-4719-9268-853b4888a9e5)
-    (property "Reference" "#SUPPLY4" (at 176.53 233.68 0)
+    (property "Reference" "#SUPPLY04" (at 176.53 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 176.53 230.886 0)
@@ -4903,7 +4924,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#SUPPLY4") (unit 1)
+          (reference "#SUPPLY04") (unit 1)
         )
       )
     )
@@ -4912,7 +4933,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 285.75 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid faec1f08-4a89-4b11-86b9-80ec1cef59c9)
-    (property "Reference" "#GND19" (at 285.75 87.63 0)
+    (property "Reference" "#GND019" (at 285.75 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 283.21 90.17 0)
@@ -4928,7 +4949,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND19") (unit 1)
+          (reference "#GND019") (unit 1)
         )
       )
     )
@@ -4937,7 +4958,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 156.21 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbbd8a97-8c1a-46d6-a0cc-76d305774f02)
-    (property "Reference" "#SUPPLY2" (at 156.21 67.31 0)
+    (property "Reference" "#SUPPLY02" (at 156.21 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 156.21 64.516 0)
@@ -4953,7 +4974,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#SUPPLY2") (unit 1)
+          (reference "#SUPPLY02") (unit 1)
         )
       )
     )
@@ -4962,7 +4983,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 139.7 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fee9ffd4-8213-4f9f-971a-3144e422afb7)
-    (property "Reference" "#GND63" (at 139.7 266.7 0)
+    (property "Reference" "#GND063" (at 139.7 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 269.24 0)
@@ -4978,7 +4999,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-          (reference "#GND63") (unit 1)
+          (reference "#GND063") (unit 1)
         )
       )
     )

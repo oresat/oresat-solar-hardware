@@ -96,13 +96,13 @@
       )
     )
     (symbol "1u_panel-eagle-import:DIODE-SOD323-R" (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at -2.54 1.905 0)
+      (property "Reference" "D3" (at -5.08 -3.81 0)
         (effects (font (size 1.778 1.5113)) (justify left bottom))
       )
-      (property "Value" "" (at -2.54 -3.81 0)
+      (property "Value" "1N4151WS" (at 3.81 -2.54 0)
         (effects (font (size 1.778 1.5113)) (justify left bottom))
       )
-      (property "Footprint" "1u_panel:SOD323-R" (at 0 0 0)
+      (property "Footprint" "1u_panel:SOD323-R" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
@@ -175,12 +175,6 @@
           )
           (stroke (width 0.254) (type solid))
           (fill (type none))
-        )
-        (text "SpiceOrder 1" (at -2.54 0 0)
-          (effects (font (size 0.4064 0.3454)))
-        )
-        (text "SpiceOrder 2" (at 2.54 0 0)
-          (effects (font (size 0.4064 0.3454)))
         )
         (pin passive line (at -2.54 0 0) (length 0)
           (name "A" (effects (font (size 0 0))))
@@ -2153,10 +2147,10 @@
       )
     )
     (symbol "1u_panel-eagle-import:SAMTEC-MMS-104-02-X-SHJ" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
+      (property "Reference" "J1" (at 0 5.08 0)
         (effects (font (size 2.54 2.159)) (justify left bottom))
       )
-      (property "Value" "" (at 0 -15.24 0)
+      (property "Value" "MMS-104-01-[F/L]-SH" (at 0 -15.24 0)
         (effects (font (size 2.286 1.9431)) (justify left bottom))
       )
       (property "Footprint" "1u_panel:SAMTEC-MMS-104-02-X-SH" (at 0 0 0)
@@ -2240,9 +2234,6 @@
         )
         (text "4B" (at 20.5 -7.62 0)
           (effects (font (size 1.778 1.5113)) (justify left bottom))
-        )
-        (text "SAMTEC-MMS-104-02-X-SH" (at 0 -17.78 0)
-          (effects (font (size 2.286 1.9431)) (justify left bottom))
         )
         (pin passive line (at -5.08 0 0) (length 5.08)
           (name "1A" (effects (font (size 0 0))))
@@ -3056,6 +3047,97 @@
         )
       )
     )
+    (symbol "DIODE-SOD323-R_1" (in_bom yes) (on_board yes)
+      (property "Reference" "D1" (at -5.08 -3.81 0)
+        (effects (font (size 1.778 1.5113)) (justify left bottom))
+      )
+      (property "Value" "1N4151WS" (at 2.54 -3.81 0)
+        (effects (font (size 1.778 1.5113)) (justify left bottom))
+      )
+      (property "Footprint" "1u_panel:SOD323-R" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "DIODE-SOD323-R_1_1_0"
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy 1.27 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (pin passive line (at -2.54 0 0) (length 0)
+          (name "A" (effects (font (size 0 0))))
+          (number "A" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 2.54 0 180) (length 0)
+          (name "C" (effects (font (size 0 0))))
+          (number "C" (effects (font (size 0 0))))
+        )
+      )
+    )
   )
 
   (junction (at 43.18 116.84) (diameter 0) (color 0 0 0 0)
@@ -3528,7 +3610,7 @@
     (stroke (width 0.1524) (type solid))
     (uuid 445ebb9f-0af5-4349-9d4d-7edd5db519a5)
   )
-  (wire (pts (xy 252.73 123.19) (xy 252.73 124.46))
+  (wire (pts (xy 252.73 125.73) (xy 252.73 127))
     (stroke (width 0.1524) (type solid))
     (uuid 44a6646d-a280-4038-8e26-5079e0539b6b)
   )
@@ -3729,7 +3811,7 @@
     (uuid 6d860c63-1f88-4052-813e-e2c9f2eb5567)
   )
 
-  (wire (pts (xy 252.73 115.57) (xy 252.73 113.03))
+  (wire (pts (xy 252.73 118.11) (xy 252.73 113.03))
     (stroke (width 0.1524) (type solid))
     (uuid 6f20c3c3-2747-4d57-812e-8ce2995da25a)
   )
@@ -4584,7 +4666,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 256.54 236.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 019dc9ff-88cb-4cad-a02e-5457958ca7d7)
-    (property "Reference" "#GND25" (at 256.54 236.22 0)
+    (property "Reference" "#GND025" (at 256.54 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 240.03 0)
@@ -4600,7 +4682,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND25") (unit 1)
+          (reference "#GND025") (unit 1)
         )
       )
     )
@@ -4609,7 +4691,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 224.79 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02506009-dbf0-459c-b495-2d1f94f309cf)
-    (property "Reference" "#GND5" (at 224.79 125.73 0)
+    (property "Reference" "#GND05" (at 224.79 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 128.27 0)
@@ -4625,7 +4707,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND5") (unit 1)
+          (reference "#GND05") (unit 1)
         )
       )
     )
@@ -4634,7 +4716,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 68.58 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 031b039e-f576-47d2-9f90-0cf028260b7e)
-    (property "Reference" "#GND2" (at 68.58 100.33 0)
+    (property "Reference" "#GND02" (at 68.58 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 102.87 0)
@@ -4650,7 +4732,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND2") (unit 1)
+          (reference "#GND02") (unit 1)
         )
       )
     )
@@ -4697,7 +4779,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 191.77 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0531b808-c0bc-4d15-93fb-9a24dd9794d9)
-    (property "Reference" "#GND46" (at 191.77 97.79 0)
+    (property "Reference" "#GND046" (at 191.77 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 100.33 0)
@@ -4713,7 +4795,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND46") (unit 1)
+          (reference "#GND046") (unit 1)
         )
       )
     )
@@ -4848,7 +4930,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 153.67 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dba8b20-6cbc-412b-b47e-258ec5e1fecb)
-    (property "Reference" "#GND43" (at 153.67 105.41 0)
+    (property "Reference" "#GND043" (at 153.67 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 107.95 0)
@@ -4864,7 +4946,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND43") (unit 1)
+          (reference "#GND043") (unit 1)
         )
       )
     )
@@ -4982,7 +5064,7 @@
     (property "Footprint" "1u_panel:SPECTROLAB-XTE-SF" (at 43.18 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 43.18 127 0)
+    (property "Datasheet" "https://www.spectrolab.com/photovoltaics/XTE-SF_Data_Sheet.pdf" (at 43.18 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "NEG1" (uuid 7dc78f1d-cb6b-4ef6-8ba5-2679464fb6b3))
@@ -5003,7 +5085,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 424.18 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bbe0839-c22c-461d-a6af-cace9efe4341)
-    (property "Reference" "#GND18" (at 424.18 102.87 0)
+    (property "Reference" "#GND018" (at 424.18 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 421.64 105.41 0)
@@ -5019,7 +5101,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND18") (unit 1)
+          (reference "#GND018") (unit 1)
         )
       )
     )
@@ -5028,7 +5110,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 213.36 264.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 251115e6-19ad-4380-8e98-9b7e18fee7d6)
-    (property "Reference" "#GND14" (at 213.36 264.16 0)
+    (property "Reference" "#GND014" (at 213.36 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 266.7 0)
@@ -5044,7 +5126,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND14") (unit 1)
+          (reference "#GND014") (unit 1)
         )
       )
     )
@@ -5078,11 +5160,11 @@
   (symbol (lib_id "1u_panel-eagle-import:SOLAR-BOARD-CONNECTOR") (at 424.18 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 267993a8-5fed-41bb-9783-a2c90f5fdf8a)
-    (property "Reference" "CF1" (at 417.83 74.295 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    (property "Reference" "CF1" (at 422.91 71.12 0)
+      (effects (font (size 1.778 1.5113)))
     )
-    (property "Value" "SOLAR-BOARD-CONNECTOR" (at 411.48 76.2 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    (property "Value" "M55-6021242R" (at 424.18 74.93 0)
+      (effects (font (size 1.778 1.5113)))
     )
     (property "Footprint" "1u_panel:HARWIN-M55-60X1242R" (at 424.18 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5230,7 +5312,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 170.18 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3affeaac-8972-43ad-abac-50e47de5f3fb)
-    (property "Reference" "#GND24" (at 170.18 236.22 0)
+    (property "Reference" "#GND024" (at 170.18 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 238.76 0)
@@ -5246,7 +5328,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND24") (unit 1)
+          (reference "#GND024") (unit 1)
         )
       )
     )
@@ -5290,31 +5372,31 @@
     )
   )
 
-  (symbol (lib_id "1u_panel-eagle-import:oresat-rcl_C-EU0603-C-NOSILK") (at 252.73 118.11 0) (mirror y) (unit 1)
+  (symbol (lib_id "1u_panel-eagle-import:oresat-rcl_C-EU0603-C-NOSILK") (at 252.73 120.65 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43f1414e-1b87-44c0-8738-34b9f6a6803e)
-    (property "Reference" "C2" (at 251.206 117.729 0)
+    (property "Reference" "C2" (at 251.206 120.269 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "10n" (at 251.206 122.809 0)
+    (property "Value" "10n" (at 251.206 125.349 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "1u_panel:.0603-C-NOSILK" (at 252.73 118.11 0)
+    (property "Footprint" "1u_panel:.0603-C-NOSILK" (at 252.73 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 252.73 118.11 0)
+    (property "Datasheet" "" (at 252.73 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DIS" "Digi-Key" (at 252.73 118.11 0)
+    (property "DIS" "Digi-Key" (at 252.73 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "DPN" "587-5957-1-ND" (at 252.73 118.11 0)
+    (property "DPN" "587-5957-1-ND" (at 252.73 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "MFR" "Taiyo" (at 252.73 118.11 0)
+    (property "MFR" "Taiyo" (at 252.73 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "MPN" "UMK107B7103KAHT" (at 252.73 118.11 0)
+    (property "MPN" "UMK107B7103KAHT" (at 252.73 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid db41a165-daef-4c67-81b4-4e360c2a5325))
@@ -5369,11 +5451,11 @@
   (symbol (lib_id "1u_panel-eagle-import:L-MURATA-1226AS-H-1R0N=P2") (at 213.36 213.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48ed2ca6-1007-4c03-97ff-170ab3143e91)
-    (property "Reference" "L1" (at 208.28 210.82 90)
-      (effects (font (size 1.778 1.5113)) (justify right top) hide)
+    (property "Reference" "L1" (at 209.55 209.55 90)
+      (effects (font (size 1.778 1.5113)))
     )
-    (property "Value" "L-MURATA-1226AS-H-1R0N=P2" (at 214.63 210.82 90)
-      (effects (font (size 1.778 1.5113)) (justify right top))
+    (property "Value" "1u" (at 217.17 209.55 90)
+      (effects (font (size 1.778 1.5113)))
     )
     (property "Footprint" "1u_panel:IND_1226AS-H-1R0N=P2" (at 213.36 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5390,8 +5472,8 @@
     (property "MFR" "TDK" (at 213.36 213.36 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "MPN" "VLS3010CX-1R5M-1" (at 213.36 213.36 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    (property "MPN" "1226AS-H-1R0N=P2" (at 213.36 207.01 90)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid f28b483b-12fc-4275-a057-3f4fac14372a))
     (pin "2" (uuid eb191db6-dac2-4689-a74c-e848882f6a20))
@@ -5472,7 +5554,7 @@
     (property "Reference" "Q2" (at 356.87 74.93 90)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
-    (property "Value" "MOSFET-PCH-SOT23-6" (at 354.33 87.63 0)
+    (property "Value" "DMP2240UDM-7" (at 354.33 87.63 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (property "Footprint" "1u_panel:SOT23-6" (at 350.52 76.2 0)
@@ -5511,7 +5593,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 180.34 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57756986-856f-4fd6-baff-d6c6018fc758)
-    (property "Reference" "#GND39" (at 180.34 250.19 0)
+    (property "Reference" "#GND039" (at 180.34 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 252.73 0)
@@ -5527,7 +5609,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND39") (unit 1)
+          (reference "#GND039") (unit 1)
         )
       )
     )
@@ -5650,11 +5732,11 @@
   (symbol (lib_id "1u_panel-eagle-import:L-WURTH-744042100") (at 237.49 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f5ed032-a8f5-4137-b899-5d90f2a22cf9)
-    (property "Reference" "L2" (at 234.95 90.17 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    (property "Reference" "L2" (at 233.68 81.28 90)
+      (effects (font (size 1.778 1.5113)))
     )
-    (property "Value" "10u" (at 238.76 90.17 0)
-      (effects (font (size 1.778 1.5113)) (justify left top))
+    (property "Value" "10u" (at 241.3 81.28 90)
+      (effects (font (size 1.778 1.5113)))
     )
     (property "Footprint" "1u_panel:NONSTANDARD" (at 237.49 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5671,8 +5753,8 @@
     (property "MFR" "WURTH" (at 237.49 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "MPN" "744042100" (at 237.49 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    (property "MPN" "744042100" (at 237.49 77.47 90)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "P$1" (uuid b1ea77bf-61a5-4c94-abb0-f6d8ac88f8be))
     (pin "P$2" (uuid 5d581fdb-bc93-4b9b-b567-f884a4176ceb))
@@ -5777,7 +5859,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 78.74 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65161dac-ead0-4033-945d-c01f43f4afec)
-    (property "Reference" "#GND3" (at 78.74 100.33 0)
+    (property "Reference" "#GND03" (at 78.74 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 102.87 0)
@@ -5793,7 +5875,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND3") (unit 1)
+          (reference "#GND03") (unit 1)
         )
       )
     )
@@ -5802,7 +5884,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 266.7 236.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bcf2b3e-13bc-491b-917d-0d3455e37673)
-    (property "Reference" "#GND13" (at 266.7 236.22 0)
+    (property "Reference" "#GND013" (at 266.7 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 269.24 240.03 0)
@@ -5818,7 +5900,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND13") (unit 1)
+          (reference "#GND013") (unit 1)
         )
       )
     )
@@ -5852,7 +5934,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 345.44 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7300ceb6-06d9-4657-8ef5-ec661f68e0cd)
-    (property "Reference" "#GND11" (at 345.44 100.33 0)
+    (property "Reference" "#GND011" (at 345.44 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.9 102.87 0)
@@ -5868,7 +5950,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND11") (unit 1)
+          (reference "#GND011") (unit 1)
         )
       )
     )
@@ -5880,7 +5962,7 @@
     (property "Reference" "J1" (at 370.84 170.18 0)
       (effects (font (size 2.54 2.159)) (justify left bottom))
     )
-    (property "Value" "SAMTEC-MMS-104-02-X-SHJ" (at 370.84 190.5 0)
+    (property "Value" "MMS-104-01-[F/L]-SH" (at 364.49 193.04 0)
       (effects (font (size 2.286 1.9431)) (justify left bottom))
     )
     (property "Footprint" "1u_panel:SAMTEC-MMS-104-02-X-SH" (at 370.84 175.26 0)
@@ -5910,15 +5992,15 @@
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 782c457c-a628-47db-bb9e-93daea25dc88)
     (property "Reference" "U10" (at 220.98 259.08 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
+      (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "U-TI-TPS63060DCT-BUCKBOOST" (at 220.98 261.62 0)
+    (property "Value" "TPS63060DSCR" (at 220.98 261.62 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "1u_panel:CONV_TPS63060DSCT" (at 213.36 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 213.36 233.68 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63060.pdf" (at 213.36 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 72375fe5-53d3-4c8e-adb5-8e97cb392636))
@@ -5961,7 +6043,7 @@
     (property "Footprint" "1u_panel:SPECTROLAB-XTE-SF" (at 43.18 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 43.18 104.14 0)
+    (property "Datasheet" "https://www.spectrolab.com/photovoltaics/XTE-SF_Data_Sheet.pdf" (at 43.18 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "NEG1" (uuid eedbc8dc-4dd4-4a92-bfd0-4d21732eea30))
@@ -6007,7 +6089,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 261.62 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b135944-2827-4b25-87c5-2dac02df4aac)
-    (property "Reference" "#GND9" (at 261.62 118.11 0)
+    (property "Reference" "#GND09" (at 261.62 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 120.65 0)
@@ -6023,7 +6105,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND9") (unit 1)
+          (reference "#GND09") (unit 1)
         )
       )
     )
@@ -6119,7 +6201,7 @@
   (symbol (lib_id "1u_panel-eagle-import:VSOLAR") (at 147.32 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fbf2a2b-415e-486d-b330-39463ad579c7)
-    (property "Reference" "#VSOLAR2" (at 147.32 205.74 0)
+    (property "Reference" "#VSOLAR02" (at 147.32 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSOLAR" (at 154.94 205.486 0)
@@ -6135,7 +6217,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#VSOLAR2") (unit 1)
+          (reference "#VSOLAR02") (unit 1)
         )
       )
     )
@@ -6153,7 +6235,7 @@
     (property "Footprint" "1u_panel:SOT23-6" (at 345.44 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 345.44 87.63 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4412hvfs.pdf" (at 345.44 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DIS" "Digi-Key" (at 345.44 87.63 0)
@@ -6262,7 +6344,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 267.97 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c0a89fa-0223-46d4-ade7-2287cf5b577c)
-    (property "Reference" "#GND45" (at 267.97 97.79 0)
+    (property "Reference" "#GND045" (at 267.97 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 100.33 0)
@@ -6278,7 +6360,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND45") (unit 1)
+          (reference "#GND045") (unit 1)
         )
       )
     )
@@ -6363,7 +6445,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 332.74 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cba5402-b2da-48c3-8cff-183c50de2d8d)
-    (property "Reference" "#GND23" (at 332.74 100.33 0)
+    (property "Reference" "#GND023" (at 332.74 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 330.2 102.87 0)
@@ -6379,7 +6461,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND23") (unit 1)
+          (reference "#GND023") (unit 1)
         )
       )
     )
@@ -6426,7 +6508,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 190.5 264.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fc9e575-4b7d-4451-83e5-6f2963d08397)
-    (property "Reference" "#GND34" (at 190.5 264.16 0)
+    (property "Reference" "#GND034" (at 190.5 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.96 266.7 0)
@@ -6442,7 +6524,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND34") (unit 1)
+          (reference "#GND034") (unit 1)
         )
       )
     )
@@ -6451,7 +6533,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 243.84 245.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92545248-a6d4-49d3-879f-dad2d6a925ac)
-    (property "Reference" "#GND26" (at 243.84 245.11 0)
+    (property "Reference" "#GND026" (at 243.84 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 248.92 0)
@@ -6467,7 +6549,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND26") (unit 1)
+          (reference "#GND026") (unit 1)
         )
       )
     )
@@ -6476,7 +6558,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 411.48 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92f21a94-d8cc-4cbd-be1d-a28355c0b580)
-    (property "Reference" "#GND28" (at 411.48 106.68 0)
+    (property "Reference" "#GND028" (at 411.48 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 408.94 109.22 0)
@@ -6492,7 +6574,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND28") (unit 1)
+          (reference "#GND028") (unit 1)
         )
       )
     )
@@ -6526,7 +6608,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 298.45 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9abc9f5c-024d-4909-8222-97b021f5d572)
-    (property "Reference" "#SUPPLY7" (at 298.45 218.44 0)
+    (property "Reference" "#SUPPLY07" (at 298.45 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 298.45 215.646 0)
@@ -6542,7 +6624,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#SUPPLY7") (unit 1)
+          (reference "#SUPPLY07") (unit 1)
         )
       )
     )
@@ -6589,13 +6671,13 @@
   (symbol (lib_id "1u_panel-eagle-import:DIODE-SOD323-R") (at 303.53 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a34a34ed-63f0-46dc-abc2-96229b379c0a)
-    (property "Reference" "D3" (at 301.625 73.66 0)
+    (property "Reference" "D3" (at 307.34 76.2 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "1N4151WS" (at 307.34 73.66 0)
+    (property "Value" "1N4151WS" (at 306.07 67.31 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "1u_panel:SOD323-R" (at 303.53 71.12 0)
+    (property "Footprint" "1u_panel:SOD323-R" (at 299.72 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 303.53 71.12 0)
@@ -6740,7 +6822,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 237.49 248.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad63f302-b635-4940-bdf4-43a9e0f4bb48)
-    (property "Reference" "#GND36" (at 237.49 248.92 0)
+    (property "Reference" "#GND036" (at 237.49 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 251.46 0)
@@ -6756,7 +6838,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND36") (unit 1)
+          (reference "#GND036") (unit 1)
         )
       )
     )
@@ -6903,11 +6985,11 @@
   (symbol (lib_id "1u_panel-eagle-import:NRVB130TGSOD123") (at 252.73 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b73d06fd-447f-422f-86a7-99d05b27b7c8)
-    (property "Reference" "D5" (at 257.81 86.614 0)
-      (effects (font (size 2.032 1.7272)) (justify right top))
+    (property "Reference" "D5" (at 252.73 81.28 0)
+      (effects (font (size 2.032 1.7272)))
     )
-    (property "Value" "NRVB130TGSOD123" (at 258.572 81.28 0)
-      (effects (font (size 2.032 1.7272)) (justify right top))
+    (property "Value" "NRVB130TGSOD123" (at 262.89 78.74 0)
+      (effects (font (size 2.032 1.7272)))
     )
     (property "Footprint" "1u_panel:SOD123" (at 252.73 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6941,7 +7023,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 276.86 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc372805-7a3a-4f53-9853-738d54fa2a2a)
-    (property "Reference" "#GND35" (at 276.86 236.22 0)
+    (property "Reference" "#GND035" (at 276.86 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 240.03 0)
@@ -6957,7 +7039,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND35") (unit 1)
+          (reference "#GND035") (unit 1)
         )
       )
     )
@@ -6966,7 +7048,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 298.45 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc672540-bbe6-4621-8373-6779d26c9a3f)
-    (property "Reference" "#GND12" (at 298.45 256.54 0)
+    (property "Reference" "#GND012" (at 298.45 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 295.91 259.08 0)
@@ -6982,7 +7064,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND12") (unit 1)
+          (reference "#GND012") (unit 1)
         )
       )
     )
@@ -6991,7 +7073,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 398.78 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be214b41-bf00-47b4-a964-a684794b46c7)
-    (property "Reference" "#GND17" (at 398.78 196.85 0)
+    (property "Reference" "#GND017" (at 398.78 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 396.24 199.39 0)
@@ -7007,7 +7089,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND17") (unit 1)
+          (reference "#GND017") (unit 1)
         )
       )
     )
@@ -7016,7 +7098,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 120.65 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfa4071d-9044-498e-be38-91e96f62f211)
-    (property "Reference" "#GND8" (at 120.65 130.81 0)
+    (property "Reference" "#GND08" (at 120.65 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 133.35 0)
@@ -7032,7 +7114,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND8") (unit 1)
+          (reference "#GND08") (unit 1)
         )
       )
     )
@@ -7082,7 +7164,7 @@
     (property "Reference" "Q2" (at 326.39 74.93 90)
       (effects (font (size 1.778 1.5113)) (justify left top))
     )
-    (property "Value" "MOSFET-PCH-SOT23-6" (at 327.66 69.85 90)
+    (property "Value" "DMP2240UDM-7" (at 327.66 69.85 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "1u_panel:SOT23-6" (at 337.82 76.2 0)
@@ -7121,7 +7203,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 191.77 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c43a67e4-1770-4131-94ec-f76035d5901e)
-    (property "Reference" "#GND15" (at 191.77 125.73 0)
+    (property "Reference" "#GND015" (at 191.77 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 128.27 0)
@@ -7137,7 +7219,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND15") (unit 1)
+          (reference "#GND015") (unit 1)
         )
       )
     )
@@ -7174,7 +7256,7 @@
     (property "Reference" "Q1" (at 323.85 127 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "MOSFET-PCH-SOT23-6" (at 323.85 129.54 0)
+    (property "Value" "DMP3050LVT-7" (at 323.85 129.54 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "1u_panel:SOT23-6" (at 325.12 120.65 0)
@@ -7276,7 +7358,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 207.01 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0ff2995-4215-4236-af81-c1baff7c6f17)
-    (property "Reference" "#GND38" (at 207.01 129.54 0)
+    (property "Reference" "#GND038" (at 207.01 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 132.08 0)
@@ -7292,7 +7374,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND38") (unit 1)
+          (reference "#GND038") (unit 1)
         )
       )
     )
@@ -7301,7 +7383,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 138.43 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d146c542-1cf2-4dc4-8c1b-4a126502b38d)
-    (property "Reference" "#SUPPLY6" (at 138.43 100.33 0)
+    (property "Reference" "#SUPPLY06" (at 138.43 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 138.43 97.536 0)
@@ -7317,7 +7399,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#SUPPLY6") (unit 1)
+          (reference "#SUPPLY06") (unit 1)
         )
       )
     )
@@ -7326,7 +7408,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 154.94 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1bbc0a0-fdcf-41f2-ba58-903fe3c2dd5c)
-    (property "Reference" "#GND30" (at 154.94 236.22 0)
+    (property "Reference" "#GND030" (at 154.94 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 238.76 0)
@@ -7342,22 +7424,22 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND30") (unit 1)
+          (reference "#GND030") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "1u_panel-eagle-import:DIODE-SOD323-R") (at 293.37 71.12 90) (unit 1)
+  (symbol (lib_name "DIODE-SOD323-R_1") (lib_id "1u_panel-eagle-import:DIODE-SOD323-R") (at 293.37 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d27d1727-2368-43c4-9f16-9bf003b3fbb6)
-    (property "Reference" "D1" (at 291.465 73.66 0)
+    (property "Reference" "D1" (at 297.18 76.2 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "1N4151WS" (at 297.18 73.66 0)
+    (property "Value" "1N4151WS" (at 297.18 68.58 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "1u_panel:SOD323-R" (at 293.37 71.12 0)
+    (property "Footprint" "1u_panel:SOD323-R" (at 289.56 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 293.37 71.12 0)
@@ -7377,7 +7459,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 138.43 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2e74b9d-6edc-4b7c-a5c6-5ff73223c000)
-    (property "Reference" "#GND7" (at 138.43 135.89 0)
+    (property "Reference" "#GND07" (at 138.43 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 138.43 0)
@@ -7393,7 +7475,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND7") (unit 1)
+          (reference "#GND07") (unit 1)
         )
       )
     )
@@ -7402,7 +7484,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 364.49 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3d083b9-9525-4420-9b15-d2cad71e7d97)
-    (property "Reference" "#GND16" (at 364.49 196.85 0)
+    (property "Reference" "#GND016" (at 364.49 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 361.95 199.39 0)
@@ -7418,7 +7500,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND16") (unit 1)
+          (reference "#GND016") (unit 1)
         )
       )
     )
@@ -7427,7 +7509,7 @@
   (symbol (lib_id "1u_panel-eagle-import:3.3V") (at 276.86 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8742845-6370-4e1f-8b18-9f9ab6bb0beb)
-    (property "Reference" "#SUPPLY1" (at 276.86 207.01 0)
+    (property "Reference" "#SUPPLY01" (at 276.86 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V" (at 276.86 204.216 0)
@@ -7443,7 +7525,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#SUPPLY1") (unit 1)
+          (reference "#SUPPLY01") (unit 1)
         )
       )
     )
@@ -7452,7 +7534,7 @@
   (symbol (lib_id "1u_panel-eagle-import:VSOLAR") (at 43.18 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8ebfa04-ac23-4958-86e2-84515da813da)
-    (property "Reference" "#VSOLAR1" (at 43.18 80.01 0)
+    (property "Reference" "#VSOLAR01" (at 43.18 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSOLAR" (at 43.18 77.216 0)
@@ -7468,7 +7550,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#VSOLAR1") (unit 1)
+          (reference "#VSOLAR01") (unit 1)
         )
       )
     )
@@ -7539,7 +7621,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 43.18 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e944dfb6-abf7-474a-a80d-7b7c1d81a708)
-    (property "Reference" "#GND10" (at 43.18 140.97 0)
+    (property "Reference" "#GND010" (at 43.18 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 143.51 0)
@@ -7555,7 +7637,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND10") (unit 1)
+          (reference "#GND010") (unit 1)
         )
       )
     )
@@ -7589,7 +7671,7 @@
   (symbol (lib_id "1u_panel-eagle-import:VBUS") (at 392.43 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea970477-776a-4825-bc1b-dc797c5cc7aa)
-    (property "Reference" "#VBUS1" (at 392.43 80.01 0)
+    (property "Reference" "#VBUS01" (at 392.43 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 392.43 79.756 0)
@@ -7605,32 +7687,32 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#VBUS1") (unit 1)
+          (reference "#VBUS01") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "1u_panel-eagle-import:GND") (at 252.73 127 0) (unit 1)
+  (symbol (lib_id "1u_panel-eagle-import:GND") (at 252.73 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee8f87d3-df94-43e9-b1ce-814c563802a4)
-    (property "Reference" "#GND20" (at 252.73 127 0)
+    (property "Reference" "#GND020" (at 252.73 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 250.19 129.54 0)
+    (property "Value" "GND" (at 250.19 132.08 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "" (at 252.73 127 0)
+    (property "Footprint" "" (at 252.73 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 252.73 127 0)
+    (property "Datasheet" "" (at 252.73 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 00c019b6-9409-46e3-a7c3-0fa19a8ed92d))
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND20") (unit 1)
+          (reference "#GND020") (unit 1)
         )
       )
     )
@@ -7664,7 +7746,7 @@
   (symbol (lib_id "1u_panel-eagle-import:GND") (at 287.02 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f45fbfb1-fc04-4d9e-95b2-f0932341508c)
-    (property "Reference" "#GND32" (at 287.02 236.22 0)
+    (property "Reference" "#GND032" (at 287.02 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 284.48 240.03 0)
@@ -7680,7 +7762,7 @@
     (instances
       (project "1u_panel"
         (path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-          (reference "#GND32") (unit 1)
+          (reference "#GND032") (unit 1)
         )
       )
     )
@@ -7727,16 +7809,16 @@
   (symbol (lib_id "1u_panel-eagle-import:INA226AIDGSR") (at 138.43 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9dbd51a-3e12-46da-ab6a-f54c536b2934)
-    (property "Reference" "U4" (at 145.1356 130.5814 0)
-      (effects (font (size 2.0828 1.7703)) (justify left bottom) hide)
+    (property "Reference" "U4" (at 132.08 102.87 0)
+      (effects (font (size 2.0828 1.7703)) (justify left bottom))
     )
-    (property "Value" "INA226AIDGSR" (at 144.5006 133.1214 0)
-      (effects (font (size 2.0828 1.7703)) (justify left bottom) hide)
+    (property "Value" "INA226AIDGSR" (at 116.84 105.41 0)
+      (effects (font (size 2.0828 1.7703)) (justify left bottom))
     )
     (property "Footprint" "1u_panel:DGS10" (at 138.43 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 138.43 118.11 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina226.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1683058782602&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fina226" (at 138.43 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DIS" "Digi-Key" (at 138.43 118.11 0)
@@ -7773,16 +7855,16 @@
   (symbol (lib_id "1u_panel-eagle-import:LT1618EMSTRPBF") (at 224.79 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd6b947a-8e9a-4491-975c-f5327e44c58a)
-    (property "Reference" "U3" (at 231.5398 122.9458 0)
+    (property "Reference" "U3" (at 213.36 129.54 0)
       (effects (font (size 2.0863 1.7733)) (justify left bottom))
     )
-    (property "Value" "LT1618EMSTRPBF" (at 212.6168 133.1099 0)
+    (property "Value" "LT1618EMSTRPBF" (at 213.36 133.35 0)
       (effects (font (size 2.0864 1.7734)) (justify left bottom))
     )
     (property "Footprint" "1u_panel:MSOP-10_MS" (at 224.79 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 224.79 107.95 0)
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1618fas.pdf" (at 224.79 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "DIS" "Digi-Key" (at 224.79 107.95 0)
