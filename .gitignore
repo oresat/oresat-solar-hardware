@@ -1,5 +1,92 @@
-*.*#*
-*.swp
-*.swo
-*.scr
+# Ignore local archives
+build
+archive
 
+# Ignore for our Mac friends
+.DS_Store
+
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# ----------------------------------------------------------------------------
+
+# Ignore list for Eagle, a PCB layout tool
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+*.d#?
+*.b$?
+*.s$?
+*.l$?
+
+# Eagle project file
+# It contains a serial number and references to the file structure
+# on your computer.
+# comment the following line if you want to have your project file included.
+eagle.epf
+
+# Autorouter files
+*.pro
+*.job
+
+# CAM files
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+
+*.dri
+*.drl
+*.gpi
+*.pls
+*.ger
+*.gpi
+*.xln
+
+*.drd
+*.drd.*
+
+*.s#*
+*.b#*
+
+*.info
+
+*.eps
+
+# file locks introduced since 7.x
+*.lck
