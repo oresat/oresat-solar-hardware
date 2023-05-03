@@ -473,11 +473,11 @@
     ],
     [
       "5c4415f1-d90e-44ce-bb2c-b4c8edead48f",
-      "MPPT / PWR"
+      "1u_panel-power"
     ],
     [
       "bfa81e66-0bc2-4d21-a09c-e64719ae80bc",
-      "Microcontroller"
+      "1u_panel-microcontroller"
     ]
   ],
   "text_variables": {}
