@@ -32,10 +32,10 @@ In the following tests, do not continue to test if a test fails. Instead, debug 
       * Debugging notes: This verifies the !SD circuit is working on the 3.3V supply.
    1. Set: Remove RBF jumper.
    1. Set: Pull `TP10` up to 3.3V @ 10 mA max.
-   1. Measure: 8.2V +1%/-10% at `TP12`.
+   1. Measure: 8.4V +1%/-10% at `TP12`.
       * Debugging notes: The current limit on the LT1618 is set to very low, so it might current limit if there's any issue down the line towards Vbus.
    1. Measure: 8.4 V +1%/-10% at `TP14`.
-   1. Set: insert RBF jumper into J1.
+   1. Set: Insert RBF jumper into J1 and put some load to ground from TP14 (about 10k).
    1. Measure: ~ 0 V on `TP14`.
       * Debugging notes: This verifies the !SD circuit is working on MPPT / 8.2V supply.
    1. Set: Remove RBF jumper.
