@@ -21,8 +21,8 @@ This testing assumes R24-R27 (CAN bus addresses) are not stuffed.
 In the following tests, do not continue to test if a test fails. Instead, debug the PCB then continue to test. If you don't fix these problems in order, you may end up destroying other circuits.
 1. Circuit Test: Power
    1. Set: 5V @ 50 mA max into `Vsolar`.
-   1. Measure: power supply is providing no more than 20 mA (TODO: MEASURED VALUE).
-      - Debugging notes: It's not a big deal if it's near 20mA, but if the current draw is 50 mA, you have a short. Removing R17, R14, and R20 will let you identify where the short is. Hunt down the short in the downstream circuits using these three resistors.
+   1. Measure: Solar module is drawing 13.5 +3/-1 mA.
+      - Debugging notes: If the current draw is 50 mA, you have a short. Removing R17, R14, and R20 will let you identify where the short is. Hunt down the short in the downstream circuits using these three resistors. If the current draw is low, more debugging is necessary to determine the source of the error.
    1.Measure: 4.7V +/- 0.1V at `TP12`.
       - Debugging: The LT1618 should be off, so you'll just see the drop of D5. The LTC4412 may not work at 5V, so it's OK if `TP14` is weird.
    1. Measure: 3.3V +/- 5% at `TP6`. (TODO: ACTUAL PERCENTAGE ERROR)
