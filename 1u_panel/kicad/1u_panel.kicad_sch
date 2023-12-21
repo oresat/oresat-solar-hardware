@@ -2,7 +2,13 @@
 
   (uuid 115bd2cd-7c08-4b54-867b-a326ee0699c1)
 
-  (paper "A4")
+  (paper "USLedger")
+
+  (title_block
+    (title "OreSat Solar Module (for Frame 2.0)")
+    (date "2023-12-20")
+    (rev "6.0")
+  )
 
   (lib_symbols
   )
