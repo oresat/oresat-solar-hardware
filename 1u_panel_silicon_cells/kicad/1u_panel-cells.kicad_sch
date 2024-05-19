@@ -1,0 +1,5730 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f9e0ef83-9a90-4f91-960a-81a03afe74bc")
+	(paper "A4")
+	(title_block
+		(title "OreSat Solar Module (for Frame 2.0)")
+		(date "2023-12-20")
+		(rev "6.0")
+	)
+	(lib_symbols
+		(symbol "1u_panel-eagle-import:TEST-POINT-LARGE-SQUARE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "1u_panel:1X01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TEST-POINT-LARGE-SQUARE_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "1u_panel-eagle-import:VSOLAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#VSOLAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSOLAR"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VSOLAR_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "VSOLAR"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "oresat-diodes:LTC4411"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTC4411"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+				(at -1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.6A Ideal Diode, SOT23-5"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTC4411_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "CTL"
+					(at -2.286 -1.27 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+					)
+				)
+				(text "GND"
+					(at 0 -3.048 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+					)
+				)
+				(text "IN"
+					(at -2.794 1.27 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+					)
+				)
+				(text "OUT"
+					(at 2.032 1.27 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+					)
+				)
+				(text "STAT\n"
+					(at 2.032 -1.524 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "oresat-misc:IXOLAR-KXOB101K08TF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 -6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "KXOB101K08TF"
+				(at 5.08 -8.89 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-misc:KXOB101K08TF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IXOLAR-KXOB101K08TF_1_0"
+				(polyline
+					(pts
+						(xy -5.715 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.89) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -3.937) (xy -5.715 -3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -0.508) (xy 8.89 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 0.254) (xy 9.652 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 -0.508) (xy 6.604 -1.016) (xy 6.35 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 0.254) (xy 7.366 -0.254) (xy 7.112 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 0)
+					(name "C2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NEG2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 0)
+					(name "A1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "POS1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "oresat-misc:IXOLAR-KXOB2502X8F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 -6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "KXOB2502X8F"
+				(at 5.08 -8.89 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-misc:KXOB2502X8F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae06/DubuDisk/www/Gen3/KXOB25-02X8F%20DATA%20SHEET%20202007.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IXOLAR-KXOB2502X8F_1_0"
+				(polyline
+					(pts
+						(xy -5.715 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.89) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -3.937) (xy -5.715 -3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -0.508) (xy 8.89 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 0.254) (xy 9.652 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 -0.508) (xy 6.604 -1.016) (xy 6.35 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 0.254) (xy 7.366 -0.254) (xy 7.112 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 0)
+					(name "C2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NEG2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 0)
+					(name "A1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "POS1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "oresat-power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 1.27)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 114.3 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0554b011-a686-43bb-bed1-2030abe5c442")
+	)
+	(junction
+		(at 223.52 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ea86a94-8290-4101-8545-e80c2620a430")
+	)
+	(junction
+		(at 92.71 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ecece97-f60f-46b6-a008-cdb51389a9fe")
+	)
+	(junction
+		(at 55.88 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24668340-b5ca-46bf-8529-aa4f6bea5eea")
+	)
+	(junction
+		(at 39.37 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2629f108-fd24-4fe8-b5a3-548956646382")
+	)
+	(junction
+		(at 254 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "337da2ff-155f-43b5-944f-812a2e91df91")
+	)
+	(junction
+		(at 130.81 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41aa90d7-c32a-460f-b679-8bc15536c85a")
+	)
+	(junction
+		(at 162.56 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4391ed01-59a4-4df3-a0d5-5460fb9ee10c")
+	)
+	(junction
+		(at 151.13 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45594c49-2847-455b-9b5a-8d5c72646977")
+	)
+	(junction
+		(at 180.34 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fe027a7-c49a-4fe7-88c7-086d36afe130")
+	)
+	(junction
+		(at 144.78 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58b8a841-324f-4f91-a119-ecec62380122")
+	)
+	(junction
+		(at 69.85 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60448efc-7d32-488a-bdb6-606becff5081")
+	)
+	(junction
+		(at 143.51 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ca7beaf-f960-48bf-9c76-fdc61668ab3f")
+	)
+	(junction
+		(at 106.68 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d2d3ef0-3892-4ef0-9335-48caf6823c4a")
+	)
+	(junction
+		(at 240.03 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f1cf2af-55f5-4c35-b6ca-0fcf4bb45a64")
+	)
+	(junction
+		(at 149.86 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aea7c4d-2c28-4183-a30c-6b4fc5abf9b2")
+	)
+	(junction
+		(at 217.17 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "817e2e24-0503-4c1a-a7a5-cce0676774fc")
+	)
+	(junction
+		(at 167.64 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b93b094-e281-45a1-a651-f34c8e4557bd")
+	)
+	(junction
+		(at 181.61 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac20aa9-846b-4cc3-8913-bb0663f18d03")
+	)
+	(junction
+		(at 166.37 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b13fcda-cb2e-4437-9260-ead912963524")
+	)
+	(junction
+		(at 76.2 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c674176-096c-4904-a5ec-d6801ac84cec")
+	)
+	(junction
+		(at 186.69 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b350d067-a328-495b-b8c5-18b9c0f41035")
+	)
+	(junction
+		(at 113.03 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfde9ca0-5c2c-4ef1-be3e-15a20eea0dd2")
+	)
+	(junction
+		(at 129.54 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c16a49a6-8cd4-4447-bc8e-5fe7871464e2")
+	)
+	(junction
+		(at 203.2 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cff390b4-cdff-4b1f-86c3-17b7e3660cf6")
+	)
+	(junction
+		(at 180.34 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2d7ce46-722d-4d4c-886d-c373e98d42cd")
+	)
+	(junction
+		(at 162.56 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e441ead3-dbba-4e67-8baf-081b092aa8b9")
+	)
+	(junction
+		(at 217.17 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f47f8f2f-2e4b-4c5f-9c67-bfea01b291e8")
+	)
+	(junction
+		(at 106.68 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f80c94d0-bde1-4da6-9e14-a8d63780518d")
+	)
+	(junction
+		(at 143.51 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feba3a0d-871c-409c-88cf-1529764ca93a")
+	)
+	(no_connect
+		(at 62.23 85.09)
+		(uuid "19df3d9a-99e5-4516-8574-c9b7d1bc7d25")
+	)
+	(no_connect
+		(at 135.89 85.09)
+		(uuid "1cb7012b-88eb-4c65-9c89-9f4bcb9e1280")
+	)
+	(no_connect
+		(at 246.38 85.09)
+		(uuid "31686d30-df02-493a-9a7c-acd7dcb38b65")
+	)
+	(no_connect
+		(at 209.55 85.09)
+		(uuid "491544ff-0b8f-40b4-beb8-56d8ddc437d8")
+	)
+	(no_connect
+		(at 137.16 156.21)
+		(uuid "8ec64a45-5dbd-40e2-95f1-6e605d64bb7b")
+	)
+	(no_connect
+		(at 172.72 85.09)
+		(uuid "913b2cd2-096c-41bb-94e2-4dd737045576")
+	)
+	(no_connect
+		(at 99.06 85.09)
+		(uuid "ab540f72-da81-4283-a187-f902ed503168")
+	)
+	(no_connect
+		(at 173.99 156.21)
+		(uuid "e4b06741-d8a3-403b-8b39-5eec7bd3d53d")
+	)
+	(wire
+		(pts
+			(xy 52.07 71.12) (xy 39.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e6dfe4-ebc4-44b5-b851-c8f1fb2bc035")
+	)
+	(wire
+		(pts
+			(xy 161.29 156.21) (xy 160.02 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d64c4a-62e5-487a-99e2-2f6ff0d6ca31")
+	)
+	(wire
+		(pts
+			(xy 130.81 162.56) (xy 130.81 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059112ee-7942-48dc-95ce-06041ccb8170")
+	)
+	(wire
+		(pts
+			(xy 181.61 153.67) (xy 181.61 142.24)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "05bfd6d2-17a8-4727-9557-6816df66bce3")
+	)
+	(wire
+		(pts
+			(xy 151.13 156.21) (xy 151.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f1d243-dae8-4b41-9455-18fd3181ef2e")
+	)
+	(wire
+		(pts
+			(xy 143.51 71.12) (xy 143.51 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "1028f4fb-3a4b-4f78-a846-97dfa3c77c79")
+	)
+	(wire
+		(pts
+			(xy 163.83 142.24) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d7092e-aaf0-4115-bf74-07cdc16fd7b6")
+	)
+	(wire
+		(pts
+			(xy 149.86 85.09) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110da423-7000-4a07-af6a-5f1098d1b340")
+	)
+	(wire
+		(pts
+			(xy 167.64 162.56) (xy 167.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d37386-2a43-47bb-973b-9ab423aeccf6")
+	)
+	(wire
+		(pts
+			(xy 123.19 85.09) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1342a6a5-9348-4fb5-aa1c-4a76c83eacc0")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 86.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15903396-5517-4949-920c-395982d7afcb")
+	)
+	(wire
+		(pts
+			(xy 123.19 156.21) (xy 123.19 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172b6e3f-98c9-4e79-bc37-6779744ce039")
+	)
+	(wire
+		(pts
+			(xy 232.41 85.09) (xy 232.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18684d9c-4cd0-49f7-a504-880efed91293")
+	)
+	(wire
+		(pts
+			(xy 240.03 91.44) (xy 240.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b003fdc-7bda-436e-a305-41ae2d813c8b")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244b5d54-cfbb-486a-9283-d75903be510e")
+	)
+	(wire
+		(pts
+			(xy 69.85 52.07) (xy 106.68 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "24720264-c20d-4749-8f9e-15259370e1a5")
+	)
+	(wire
+		(pts
+			(xy 39.37 101.6) (xy 39.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c19c14-f8bc-4533-a182-40b3e2557425")
+	)
+	(wire
+		(pts
+			(xy 195.58 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c6803c-9f8b-470b-819f-a2e1527c7f94")
+	)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 203.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2512130f-113c-4dcb-8118-83f51e73a37d")
+	)
+	(wire
+		(pts
+			(xy 114.3 153.67) (xy 124.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27300873-ab2b-4032-bfa4-7fbedac554ff")
+	)
+	(wire
+		(pts
+			(xy 39.37 71.12) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27faa5ff-8497-41ad-8e4a-d8dca5c41a23")
+	)
+	(wire
+		(pts
+			(xy 203.2 91.44) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6e3df7-7787-46c9-aa2d-e0d91beb7aa5")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 162.56 123.19)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "2d3aaac7-25c8-4e15-a7b3-993b65056e5a")
+	)
+	(wire
+		(pts
+			(xy 59.69 71.12) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f126054-4cdf-40b1-aa5a-b8f669a03e8c")
+	)
+	(wire
+		(pts
+			(xy 69.85 82.55) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "2fddb6c8-0e8e-4a55-9622-1e28d454f6c7")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 129.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382f8b83-13a6-4981-9d27-289843cf55ec")
+	)
+	(wire
+		(pts
+			(xy 114.3 172.72) (xy 114.3 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39617841-f7d4-4250-a8d6-bd3d58d84e9c")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 92.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc2f71b-4d97-4801-81af-3f14c04f426a")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 76.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da1b272-9491-476e-bd1f-49179051b6a7")
+	)
+	(wire
+		(pts
+			(xy 243.84 71.12) (xy 254 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e340897-5157-4a08-a117-9bdd5c51d284")
+	)
+	(wire
+		(pts
+			(xy 149.86 71.12) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40bda483-3b31-4a69-a72b-26c253b0e358")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "45e1303a-6a35-4533-b301-28f5d8e07c96")
+	)
+	(wire
+		(pts
+			(xy 240.03 91.44) (xy 240.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c796049-9068-4010-8e20-8e6618ccae66")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb6815b-2acf-4cb0-9142-cc2b730c8161")
+	)
+	(wire
+		(pts
+			(xy 144.78 153.67) (xy 144.78 142.24)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "4f304ea1-5348-45fb-87fd-a1983023d926")
+	)
+	(wire
+		(pts
+			(xy 180.34 52.07) (xy 217.17 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "4f432658-d224-41c2-8b18-2289eaf17e25")
+	)
+	(wire
+		(pts
+			(xy 113.03 71.12) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527cc848-b1cd-481f-ac27-3e0ddaa23ac4")
+	)
+	(wire
+		(pts
+			(xy 186.69 82.55) (xy 196.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52991564-8fb4-4a68-b638-f6533cab38a2")
+	)
+	(wire
+		(pts
+			(xy 232.41 91.44) (xy 240.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5303566e-44ca-4dea-8d8e-b989cf7cd639")
+	)
+	(wire
+		(pts
+			(xy 223.52 71.12) (xy 223.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a01e344-5ec2-4fb6-a964-58680b8f8487")
+	)
+	(wire
+		(pts
+			(xy 55.88 91.44) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a268bc9-3e0a-4abf-800a-23dc39015356")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 195.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f10954b-2a82-46c2-bc7c-3295793e4f85")
+	)
+	(wire
+		(pts
+			(xy 48.26 91.44) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619250dc-9c55-475f-9371-3b5de76cee86")
+	)
+	(wire
+		(pts
+			(xy 85.09 85.09) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631ad2cd-d445-4253-ab4f-17e61d16eac1")
+	)
+	(wire
+		(pts
+			(xy 151.13 153.67) (xy 161.29 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d1cd80-c683-415e-8fdc-ca6d162bcd52")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65deadfe-550e-431f-a296-3df71b3606b0")
+	)
+	(wire
+		(pts
+			(xy 151.13 142.24) (xy 151.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692286a1-35af-4999-84a1-b0dbc4c7681f")
+	)
+	(wire
+		(pts
+			(xy 180.34 71.12) (xy 180.34 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "69e8b6cf-73db-4c50-ad55-51dee78f2ff0")
+	)
+	(wire
+		(pts
+			(xy 85.09 91.44) (xy 92.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1ed1ee-c6e7-4833-a3a2-f2677e5b916d")
+	)
+	(wire
+		(pts
+			(xy 124.46 156.21) (xy 123.19 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e71032d-be3d-464e-ac22-6d279b2cd998")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 92.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb08d15-2d37-4c87-bf5f-e4ade90a358e")
+	)
+	(wire
+		(pts
+			(xy 143.51 52.07) (xy 162.56 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "6ffd2991-0274-4c25-b7af-0a8893ae9a91")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 143.51 71.12)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "73656c99-08cb-410d-bf21-92a161f353fc")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748638b5-a159-45f9-9ffc-998173cd356b")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b79f21-15bd-458b-8dda-1aed8cdc577c")
+	)
+	(wire
+		(pts
+			(xy 217.17 71.12) (xy 217.17 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "76a38447-e2da-4160-b4dd-e058a96394a4")
+	)
+	(wire
+		(pts
+			(xy 186.69 85.09) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d323ed-87f9-4b60-9ff6-c3eea8658179")
+	)
+	(wire
+		(pts
+			(xy 151.13 172.72) (xy 151.13 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba07c17-6d40-44ce-8733-b268138754ad")
+	)
+	(wire
+		(pts
+			(xy 143.51 52.07) (xy 106.68 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "7bed6466-0216-4ba8-8fe8-2be09c6593a7")
+	)
+	(wire
+		(pts
+			(xy 162.56 52.07) (xy 162.56 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d3fc89d-3e24-4ea1-94bd-714d13440891")
+	)
+	(wire
+		(pts
+			(xy 69.85 71.12) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "7e5d8eab-79bb-40a9-8921-15730d69392c")
+	)
+	(wire
+		(pts
+			(xy 233.68 85.09) (xy 232.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1e11db-9e4c-4a32-a23a-efe65dcabf2e")
+	)
+	(wire
+		(pts
+			(xy 209.55 82.55) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dd8808-5f1f-44f2-b65a-320dffb9f26f")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8468c01e-423c-4a76-9434-9d567989de42")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85165bc4-4bac-40c0-8c05-68a748089a81")
+	)
+	(wire
+		(pts
+			(xy 114.3 156.21) (xy 114.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89aecf90-77c7-43de-807c-45930f8f32a1")
+	)
+	(wire
+		(pts
+			(xy 123.19 162.56) (xy 130.81 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9090b23f-80df-46d3-b7c7-84d4b99c404e")
+	)
+	(wire
+		(pts
+			(xy 55.88 91.44) (xy 55.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923b9d56-7e82-4cad-8f99-9c81a40f98a6")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9275d0ed-c1b0-449c-8090-fefd5f4c917e")
+	)
+	(wire
+		(pts
+			(xy 160.02 162.56) (xy 167.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93423ee0-7a11-4774-9bfe-ae2c46b82479")
+	)
+	(wire
+		(pts
+			(xy 162.56 123.19) (xy 181.61 123.19)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "96612e52-cbd5-4690-ae0e-8c36aa05247c")
+	)
+	(wire
+		(pts
+			(xy 130.81 162.56) (xy 130.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbaf92f-4c03-4d48-acc5-ca4fa64cb651")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39efbe9-38fc-4e97-9618-6bfe33afdf0f")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75262ae-3b45-4a2f-a3cc-dc89b77d5214")
+	)
+	(wire
+		(pts
+			(xy 162.56 52.07) (xy 180.34 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "a863c4d6-f956-42b9-9ba6-b9a358b580f6")
+	)
+	(wire
+		(pts
+			(xy 236.22 71.12) (xy 223.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae034889-62e6-4bd6-bc9e-58d2d3395fb5")
+	)
+	(wire
+		(pts
+			(xy 39.37 82.55) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae182488-6118-468c-b963-b5a406552994")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 166.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea10ee1-d21f-49d2-a829-44a8dc881409")
+	)
+	(wire
+		(pts
+			(xy 254 82.55) (xy 254 71.12)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "af5b2bb0-8656-4e57-9653-786a27c22d2d")
+	)
+	(wire
+		(pts
+			(xy 125.73 71.12) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02bb48a-adeb-481e-828a-dac491a3a188")
+	)
+	(wire
+		(pts
+			(xy 158.75 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1baf6d1-fa61-4b8b-aab0-ec19a01748bc")
+	)
+	(wire
+		(pts
+			(xy 137.16 153.67) (xy 144.78 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28e66d6-525b-4108-9f7b-0f4c58372fe8")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 106.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31283f2-06d0-4448-8c84-83a5bc0f7457")
+	)
+	(wire
+		(pts
+			(xy 172.72 82.55) (xy 180.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c510a8-08a0-4694-a5fe-d4fb1127a2c4")
+	)
+	(wire
+		(pts
+			(xy 195.58 85.09) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b655a316-80b6-4418-a3e5-e0e710ef2d1d")
+	)
+	(wire
+		(pts
+			(xy 186.69 101.6) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71d401e-4c55-4370-a9d7-8e8d9cec2c85")
+	)
+	(wire
+		(pts
+			(xy 48.26 85.09) (xy 48.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2c88c4-a0b3-4e11-9b7e-3ea8befab07c")
+	)
+	(wire
+		(pts
+			(xy 223.52 85.09) (xy 223.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1317446-7004-4ce3-a29d-7e356a1c4c40")
+	)
+	(wire
+		(pts
+			(xy 160.02 156.21) (xy 160.02 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a91eec-4fad-4390-81c0-cc6191e94f63")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 48.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e8efe1-778c-46d6-bd56-8268dd277757")
+	)
+	(wire
+		(pts
+			(xy 162.56 120.65) (xy 162.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c803b97e-ef17-4158-a822-30e20d787935")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 106.68 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "c83dc18c-991e-4e2f-a70f-5078abe86446")
+	)
+	(wire
+		(pts
+			(xy 181.61 142.24) (xy 181.61 123.19)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "cb5fefd4-a941-4dec-a69a-3a887d5710fa")
+	)
+	(wire
+		(pts
+			(xy 180.34 82.55) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "cd0a1b0b-d034-4521-84f6-48c4f22a0198")
+	)
+	(wire
+		(pts
+			(xy 86.36 85.09) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdadd475-68da-44d9-8568-0aee9b7c27fc")
+	)
+	(wire
+		(pts
+			(xy 199.39 71.12) (xy 186.69 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf03c2a1-3c77-4510-bb7d-c6c8d6753573")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 149.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1db961e-88dc-40a4-b2a6-2f3525a3ddcd")
+	)
+	(wire
+		(pts
+			(xy 121.92 85.09) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ed7341-3aaa-4476-b625-003405240171")
+	)
+	(wire
+		(pts
+			(xy 127 142.24) (xy 114.3 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c2217d-e9a4-4e05-8a10-e1f6f41e37c0")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8cdbb22-00d7-46cc-9261-18a85956a605")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 144.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e65a5a-4f8a-4c64-b662-2737b74f6e35")
+	)
+	(wire
+		(pts
+			(xy 149.86 82.55) (xy 160.02 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db10821c-811d-4e60-bb5c-6d847d70f266")
+	)
+	(wire
+		(pts
+			(xy 207.01 71.12) (xy 217.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6c6e7c-9145-40c6-b7dc-097743a20796")
+	)
+	(wire
+		(pts
+			(xy 246.38 82.55) (xy 254 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec7f11b-bfda-4360-b786-9e668b7768a4")
+	)
+	(wire
+		(pts
+			(xy 217.17 82.55) (xy 217.17 71.12)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "e22a148b-51d0-4902-a603-71d0205726ad")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31314c9-1dc5-4a62-beca-d05910a6df47")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45f652f-7229-4e7b-a331-b28da2d65e9e")
+	)
+	(wire
+		(pts
+			(xy 171.45 142.24) (xy 181.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58e1bb1-fc62-434e-b0b3-2cef0008c370")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 113.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81a8603-4784-4d06-9302-ba35e267179a")
+	)
+	(wire
+		(pts
+			(xy 133.35 71.12) (xy 143.51 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e966457a-33e0-4b84-bb70-85564d7ac44f")
+	)
+	(wire
+		(pts
+			(xy 186.69 71.12) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efec03b7-6554-4d08-96ac-7ca1276dc16a")
+	)
+	(wire
+		(pts
+			(xy 167.64 162.56) (xy 167.64 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d22da9-abde-4f96-954c-8f7348068558")
+	)
+	(wire
+		(pts
+			(xy 217.17 52.07) (xy 254 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "f25e32cf-a752-4d9f-a5f1-175dd6dabd1d")
+	)
+	(wire
+		(pts
+			(xy 254 71.12) (xy 254 52.07)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "f2744985-edf9-47af-99e9-3c9cbf9d7c7c")
+	)
+	(wire
+		(pts
+			(xy 173.99 153.67) (xy 181.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32a8951-637f-4968-aa81-e9fd57a8cbed")
+	)
+	(wire
+		(pts
+			(xy 96.52 71.12) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35c7d2b-2051-4b52-b442-d0a11093a10c")
+	)
+	(wire
+		(pts
+			(xy 144.78 142.24) (xy 144.78 123.19)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+		)
+		(uuid "f384dc0e-a254-4b50-89de-a9b2bfa5c77a")
+	)
+	(wire
+		(pts
+			(xy 62.23 82.55) (xy 69.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40b863e-833b-46a4-bf93-4f4924353488")
+	)
+	(wire
+		(pts
+			(xy 39.37 85.09) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51b4820-fced-49f8-94e9-37782edb505a")
+	)
+	(wire
+		(pts
+			(xy 113.03 82.55) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7cd5659-3762-454a-8730-b115384d3a3b")
+	)
+	(wire
+		(pts
+			(xy 223.52 82.55) (xy 233.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e1479c-8ad0-46ca-b111-2e47517a582d")
+	)
+	(wire
+		(pts
+			(xy 114.3 142.24) (xy 114.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb09c4a-3e6b-4630-bb33-4a520469d1a1")
+	)
+	(rectangle
+		(start 25.4 22.86)
+		(end 261.62 186.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 28dde7c2-fdd1-4ba7-8b4c-2dc14c23ea03)
+	)
+	(text "2x IXOLAR KXOB2502X8F\n1.84cm^2 ea, Silicon\n- Voc = 5.53 V\n- Vmp = 4.46 V\n- Isc = 12.6 mA\n- Imp = 11.8 mA"
+		(exclude_from_sim no)
+		(at 188.722 140.97 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "791313cf-f5fc-46bf-88aa-9fb46ff2a833")
+	)
+	(text "Solar Cells"
+		(exclude_from_sim no)
+		(at 129.794 29.972 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea61875e-22e6-49b7-9712-0d51705132bb")
+	)
+	(text "6x IXOLAR KXOB101K08TF\n9.66cm^2 ea, Silicon\n- Voc = 5.53 V\n- Vmp = 4.46 V\n- Isc = 256.8 mA\n- Imp = 241.2 mA"
+		(exclude_from_sim no)
+		(at 132.334 47.752 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ede0c8e7-0473-481d-992c-d570ee074a99")
+	)
+	(symbol
+		(lib_id "oresat-diodes:LTC4411")
+		(at 240.03 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "015c66e5-b516-4d2b-8549-aead2dc3c506")
+		(property "Reference" "U14"
+			(at 240.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 240.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 238.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89c06624-50a7-41b6-8806-f435aa209a5b")
+		)
+		(pin "3"
+			(uuid "d4fe8a1a-8ee1-4fa8-8109-5ea3d365a38d")
+		)
+		(pin "5"
+			(uuid "12abe599-b40e-425d-b914-a3d56eec6535")
+		)
+		(pin "2"
+			(uuid "72c237cd-a03e-46f9-9eac-e011b6995aa9")
+		)
+		(pin "4"
+			(uuid "c6fd004f-8493-44f3-86f4-3269f9138cbc")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 149.86 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "054ff1d8-25a8-4925-ae9d-ffb627825453")
+		(property "Reference" "#PWR07"
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4be21e41-af31-42de-bf1a-026e41332535")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 130.81 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a36a7f-3e78-42d8-bee3-c8077d612d2a")
+		(property "Reference" "#PWR014"
+			(at 130.81 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd22215-5139-4e22-916b-bcf229f471cf")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1u_panel-eagle-import:VSOLAR")
+		(at 162.56 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c3475b3-5ec6-4d03-8ed3-fc4932ef81f3")
+		(property "Reference" "#VSOLAR01"
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSOLAR"
+			(at 162.56 44.196 0)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8f266da-aaeb-4b22-98f8-9e77fa57bf00")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#VSOLAR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 167.64 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1db4657c-b97d-47de-992d-6be6433faf10")
+		(property "Reference" "#PWR016"
+			(at 167.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe23b6f-c91d-4942-ace1-bc97478d252a")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 166.37 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "215cc4ba-83eb-4000-bfa6-e2f8e8c29d6a")
+		(property "Reference" "R29"
+			(at 166.37 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 166.37 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1u_panel:.0603-C-NOSILK"
+			(at 166.624 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9619c2d8-9556-4bd4-bc10-2e3da3b77913")
+		)
+		(pin "2"
+			(uuid "3ebd451e-6e05-4607-a00d-9d425622e561")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 76.2 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b630973-7d82-4bf4-a4a9-7b6b0582ad1d")
+		(property "Reference" "#PWR03"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcfff22c-51ab-4098-a68f-c372714b3b10")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 240.03 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "4b798f0a-35bf-4681-ade3-e0e7a4b9c031")
+		(property "Reference" "R31"
+			(at 240.03 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 240.03 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1u_panel:.0603-C-NOSILK"
+			(at 240.284 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8e0c700-18ae-420d-ac36-b926dc63dd8f")
+		)
+		(pin "2"
+			(uuid "9b8b75a1-8fad-4c60-b858-2f1f56180fd4")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 92.71 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "4f289310-c457-4f94-aef0-1259c3970c77")
+		(property "Reference" "R8"
+			(at 92.71 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 92.71 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1u_panel:.0603-C-NOSILK"
+			(at 92.964 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "277b4726-549c-4788-844b-ef6a1fe72c94")
+		)
+		(pin "2"
+			(uuid "9ed6293a-8456-4e56-9665-4a88081b1809")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 129.54 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "59708ab4-abee-4632-bc2d-e5608b8df987")
+		(property "Reference" "R28"
+			(at 129.54 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 129.54 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1u_panel:.0603-C-NOSILK"
+			(at 129.794 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3f8c1de-5db6-4ae8-bf38-03aa1b1348a5")
+		)
+		(pin "2"
+			(uuid "82b1f713-e2d0-40f5-8603-8e37301d5fe2")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 130.81 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "648ba1da-1524-4045-8501-f06e16eb1293")
+		(property "Reference" "R32"
+			(at 130.81 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 130.81 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1u_panel:.0603-C-NOSILK"
+			(at 131.064 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02504ae8-dbaf-4a85-940e-cfe6aca3a551")
+		)
+		(pin "2"
+			(uuid "ae312a02-7474-4afc-b08d-256c44e71639")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 113.03 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6beb525b-683a-4333-bc92-2d7bdebe30d1")
+		(property "Reference" "#PWR05"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b716bb4c-4a07-44d2-816a-5533f60b42d7")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 203.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "708466b5-c204-41c7-b699-489444718019")
+		(property "Reference" "#PWR010"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba978a7e-7387-4219-8532-5f5bce55bcc3")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:IXOLAR-KXOB101K08TF")
+		(at 39.37 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7111f227-d5b0-461e-b5b9-a862d887ff6c")
+		(property "Reference" "D2"
+			(at 30.734 93.726 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KXOB101K08TF"
+			(at 40.64 100.076 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:KXOB101K08TF"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NEG2"
+			(uuid "435d9775-6ff3-4582-88c6-a07c006eb6bb")
+		)
+		(pin "POS1"
+			(uuid "0e1e739b-2de1-438c-a2b4-321d4e218dcb")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:LTC4411")
+		(at 129.54 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76fab2d5-9f34-4481-81ff-ea3c8104e478")
+		(property "Reference" "U8"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fff13798-a171-4194-983d-858410464eea")
+		)
+		(pin "3"
+			(uuid "d0e007ff-b219-4c8d-8ddd-72994c9e0146")
+		)
+		(pin "5"
+			(uuid "6d2deb84-62e1-498d-8298-b105660b2ebc")
+		)
+		(pin "2"
+			(uuid "2439b7fa-7a84-4dae-ab1f-77a31dff418e")
+		)
+		(pin "4"
+			(uuid "99a934a0-3095-4a56-bb1b-aa551e585578")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 55.88 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "774e2719-da5a-4f85-9977-e25b5fa72470")
+		(property "Reference" "R5"
+			(at 55.88 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 55.88 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1u_panel:.0603-C-NOSILK"
+			(at 56.134 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bac9f5cf-2e39-4c72-882a-5fcd14a5bdc5")
+		)
+		(pin "2"
+			(uuid "426b7f8f-d441-4ddf-950c-1601cca14007")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:LTC4411")
+		(at 203.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ab56a6-f1b0-425d-9acc-c6be9cb03e71")
+		(property "Reference" "U13"
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 203.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4814834a-60c8-4a04-8d1e-3d7ee0901e59")
+		)
+		(pin "3"
+			(uuid "03852979-4d66-45da-8aee-61eda5dcd32b")
+		)
+		(pin "5"
+			(uuid "61126180-81e6-41c1-a4e5-93913d1205bc")
+		)
+		(pin "2"
+			(uuid "3dcf3e20-f402-44b3-aa23-8677cdb91a03")
+		)
+		(pin "4"
+			(uuid "2079268f-1472-4ae1-b93c-04e4e38a269c")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:IXOLAR-KXOB101K08TF")
+		(at 113.03 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "858ba898-1b08-4199-be6d-4844ea121402")
+		(property "Reference" "D8"
+			(at 104.394 93.726 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KXOB101K08TF"
+			(at 114.046 99.822 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:KXOB101K08TF"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NEG2"
+			(uuid "5863a441-5b70-4337-9fe1-9c86a70b5d65")
+		)
+		(pin "POS1"
+			(uuid "bd2ea636-84a6-477d-b4ef-d349994740c6")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 151.13 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e58a954-a4c9-42b4-af3c-378662c54c3f")
+		(property "Reference" "#PWR015"
+			(at 151.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 176.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9a0e598-a97f-469e-bf46-4c98f36fe4f0")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:IXOLAR-KXOB101K08TF")
+		(at 149.86 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "954324ec-26ce-4767-9e95-e50e47ce2ce4")
+		(property "Reference" "D9"
+			(at 141.224 93.726 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KXOB101K08TF"
+			(at 151.638 99.822 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:KXOB101K08TF"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NEG2"
+			(uuid "076593ea-46b9-43d5-a732-6589bef47553")
+		)
+		(pin "POS1"
+			(uuid "7781c7e9-ecd0-4844-a3b2-b19c9097846b")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:IXOLAR-KXOB2502X8F")
+		(at 151.13 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fbc4f71-f8a4-4345-83ef-5ae0dfe7df36")
+		(property "Reference" "D13"
+			(at 142.494 164.846 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KXOB2502X8F"
+			(at 153.162 171.45 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:KXOB2502X8F"
+			(at 151.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae06/DubuDisk/www/Gen3/KXOB25-02X8F%20DATA%20SHEET%20202007.pdf"
+			(at 151.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NEG2"
+			(uuid "88275e82-c121-48ec-823e-461e00bf8709")
+		)
+		(pin "POS1"
+			(uuid "9b392da9-2822-4b0a-81c0-0518eec1d6e3")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:IXOLAR-KXOB101K08TF")
+		(at 223.52 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a07c6d07-c329-48d5-96a2-d839bfc0a4c5")
+		(property "Reference" "D11"
+			(at 214.884 93.726 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KXOB101K08TF"
+			(at 225.298 100.584 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:KXOB101K08TF"
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NEG2"
+			(uuid "020a7923-d8f9-4515-9608-5712a8c09c08")
+		)
+		(pin "POS1"
+			(uuid "270a0391-846f-4b77-a88b-e183d9a15bc7")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:LTC4411")
+		(at 92.71 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a478e27f-66d5-450e-bb14-f8eefc7654c2")
+		(property "Reference" "U6"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 92.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e91050ed-4886-4207-9b91-c7e107d55d3f")
+		)
+		(pin "3"
+			(uuid "f280b7ef-12fb-42b0-be92-d4814402a359")
+		)
+		(pin "5"
+			(uuid "ee4564d5-48aa-465a-95f6-805af606f8e1")
+		)
+		(pin "2"
+			(uuid "0938e13a-4911-4cf5-a143-f4ec50f6d1df")
+		)
+		(pin "4"
+			(uuid "377a86ae-3cf4-4d61-b3b1-ec5114575ba2")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:IXOLAR-KXOB101K08TF")
+		(at 186.69 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aceac3de-21fc-4bc5-8f0b-4e2c5facc85e")
+		(property "Reference" "D10"
+			(at 178.054 93.726 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KXOB101K08TF"
+			(at 187.198 100.584 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:KXOB101K08TF"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NEG2"
+			(uuid "d8ff89df-8213-4a5c-a5ba-193a2af32572")
+		)
+		(pin "POS1"
+			(uuid "3d9d082b-6c89-4dd0-9347-c51e89000e0d")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 223.52 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad8e1b24-ea28-4e02-8511-603dc6dde64b")
+		(property "Reference" "#PWR011"
+			(at 223.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bd1899e-0f93-4ca3-bd13-d96f0e5dd34d")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:LTC4411")
+		(at 166.37 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4bad31-ecaf-4767-8359-461802bc7843")
+		(property "Reference" "U9"
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 166.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b1c3ec-23d3-4c5f-b4ef-809b01426983")
+		)
+		(pin "3"
+			(uuid "9b76e756-2662-4a2c-afdc-d1d563e7cbca")
+		)
+		(pin "5"
+			(uuid "ce02b995-81e7-495e-a173-30fd37cab375")
+		)
+		(pin "2"
+			(uuid "5695c3eb-18a9-45b2-9b2f-925a9642ce0d")
+		)
+		(pin "4"
+			(uuid "b02656fc-8c01-44f1-b062-d73daccf4dee")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 167.64 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b4a7a2f3-d949-4a3b-893a-672daf5cf877")
+		(property "Reference" "R33"
+			(at 167.64 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 167.64 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1u_panel:.0603-C-NOSILK"
+			(at 167.894 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95fa28c3-8d83-495f-9c3f-b0426790f64b")
+		)
+		(pin "2"
+			(uuid "4735e60d-9e50-430e-9f84-39a6e0475225")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 55.88 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5faf9c9-82f6-4394-b26d-86f33e87a5ae")
+		(property "Reference" "#PWR01"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66b4707-1bef-4a9c-89a2-320292a75c96")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 129.54 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7bba3f9-3ad5-41a1-aace-a213a93a5d57")
+		(property "Reference" "#PWR06"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efa74254-995c-4f17-850a-e907723f8f93")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 92.71 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8acd024-4b11-4007-9f04-cc32c9a05c54")
+		(property "Reference" "#PWR04"
+			(at 92.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "446ffc7e-94b0-4ed0-83a8-20cf9c4aa55a")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1u_panel-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(at 162.56 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdda4d6a-c09a-4b33-9481-99e1b8b15414")
+		(property "Reference" "TP3"
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT-LARGE-SQUARE"
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "1u_panel:1X01"
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67c13543-90eb-4ca4-ab0b-661bae39e6b9")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1u_panel-eagle-import:VSOLAR")
+		(at 162.56 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d228eb66-29d4-4b3f-b20f-3b02e31ed6a3")
+		(property "Reference" "#VSOLAR04"
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSOLAR"
+			(at 162.56 117.856 0)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3194653c-8bd9-4d8d-b8f4-b8542e98654c")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#VSOLAR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:IXOLAR-KXOB2502X8F")
+		(at 114.3 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de3aba62-70e9-4046-bb72-44fee348316f")
+		(property "Reference" "D12"
+			(at 105.664 164.846 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KXOB2502X8F"
+			(at 116.586 171.45 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:KXOB2502X8F"
+			(at 114.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae06/DubuDisk/www/Gen3/KXOB25-02X8F%20DATA%20SHEET%20202007.pdf"
+			(at 114.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NEG2"
+			(uuid "8bd175a5-4135-43c7-934f-e5d2e5a6baf8")
+		)
+		(pin "POS1"
+			(uuid "67f0ee5d-070a-4c39-bc76-5cd8b5847551")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:LTC4411")
+		(at 167.64 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee79f16-2116-4435-b128-3b7ea7c884a1")
+		(property "Reference" "U16"
+			(at 167.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 167.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 166.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0edf44b2-f481-4c26-a95b-5299868a9d43")
+		)
+		(pin "3"
+			(uuid "bfdb3d1a-6825-4c45-a741-edf322813427")
+		)
+		(pin "5"
+			(uuid "58b8c99a-0857-4eee-af7a-cf6caeb590c2")
+		)
+		(pin "2"
+			(uuid "b72fc07d-c655-49ea-9ae9-7d5e9086af48")
+		)
+		(pin "4"
+			(uuid "9c6eb498-ecf1-43b1-811a-cee93035f937")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 166.37 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0f4051-269f-4194-8c26-91ce5fa10ec9")
+		(property "Reference" "#PWR08"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c61791a-0eda-4299-b344-9ab6c122e19b")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:IXOLAR-KXOB101K08TF")
+		(at 76.2 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e10eb2ce-6a2f-4d38-9b0f-f0dcf05fdc4d")
+		(property "Reference" "D7"
+			(at 67.564 93.726 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KXOB101K08TF"
+			(at 77.47 100.076 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-misc:KXOB101K08TF"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Azed/DubuDisk/www/Gen3/KXOB101K08TF%20DATA%20SHEET%2020210127.pdf"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NEG2"
+			(uuid "ddec765d-6592-40d9-a225-78a35d1da1d2")
+		)
+		(pin "POS1"
+			(uuid "4d6d603b-c35f-4b83-9e58-a39fe3c5a51c")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 240.03 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1ef8c83-27e8-41b2-b07a-2bf6b57b80b8")
+		(property "Reference" "#PWR012"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 96.52 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90dfcf83-e296-4aad-a1c9-4fecced2e40c")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:LTC4411")
+		(at 130.81 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed587133-bc3c-454b-b647-2083b237792d")
+		(property "Reference" "U15"
+			(at 130.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 130.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at 128.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at 128.27 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb71c82-c110-456d-b064-20f1afaf31e1")
+		)
+		(pin "3"
+			(uuid "b1dd0761-be61-4723-a813-f8da8b2ce4bd")
+		)
+		(pin "5"
+			(uuid "a442e16d-54ee-4331-9a36-eea521a14621")
+		)
+		(pin "2"
+			(uuid "01363d7a-8c37-406f-b0ae-02c52b6a38f1")
+		)
+		(pin "4"
+			(uuid "913196d1-c504-41f3-bb0b-13c1bea17b71")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:LTC4411")
+		(at 55.88 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee90214e-51fd-4908-be58-9a84733a9387")
+		(property "Reference" "U5"
+			(at 55.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4411"
+			(at 55.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A Ideal Diode, SOT23-5"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5c55cac-e32d-4bed-979a-375cb7a902ae")
+		)
+		(pin "3"
+			(uuid "1c15d4b7-4d46-4cb7-a984-9e9527669014")
+		)
+		(pin "5"
+			(uuid "c749a82f-b717-49d2-b249-68ab29a5fb29")
+		)
+		(pin "2"
+			(uuid "f789bd8b-4a7a-4bed-b3f2-783be0eebb95")
+		)
+		(pin "4"
+			(uuid "bd3037ed-0319-4b56-967d-f2f35c6ebbaf")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 203.2 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f11ae90e-4847-45df-8554-96f7eb2823fa")
+		(property "Reference" "R30"
+			(at 203.2 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 203.2 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1u_panel:.0603-C-NOSILK"
+			(at 203.454 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d78a655-dda5-4192-b3fb-f9eaae590484")
+		)
+		(pin "2"
+			(uuid "01dfea0e-67bd-4535-8670-771967f92383")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 186.69 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc88e0ed-e655-4a3e-878a-2cf49c657593")
+		(property "Reference" "#PWR09"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e4b1a82-bc09-47a5-9c9f-f25761625529")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 39.37 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe95207f-1d85-481f-b7fc-86542c92ef2e")
+		(property "Reference" "#PWR02"
+			(at 39.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43aec9be-b46c-4be0-a870-b76b1fc486c9")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 114.3 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff6b674a-77f9-4e39-8d25-c978126d408b")
+		(property "Reference" "#PWR013"
+			(at 114.3 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 176.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95d670ce-9e88-4429-8c25-6c0aabf613a0")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/ec17bb5c-246f-4d5d-bfe1-6c890233ea83"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
