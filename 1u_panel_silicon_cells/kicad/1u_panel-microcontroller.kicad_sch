@@ -5,9 +5,9 @@
 	(uuid "ebdfeab3-1fac-4297-94ce-8c36f574849d")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat Solar Module (for Frame 2.0)")
-		(date "2023-12-20")
-		(rev "6.0")
+		(title "OreSat Silicon Solar Module (for Frame 2.0)")
+		(date "2024-08-18")
+		(rev "1.0")
 	)
 	(lib_symbols
 		(symbol "1u_panel-eagle-import:3.3V"
