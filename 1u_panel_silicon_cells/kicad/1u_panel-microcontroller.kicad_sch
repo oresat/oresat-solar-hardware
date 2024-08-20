@@ -5724,7 +5724,7 @@
 		)
 		(uuid "b37fb2f2-9cbe-474c-a95d-e09c105f6e90")
 	)
-	(text "Solar module Serial Number\nRequired by CAN messages.\n0: +X+Z\n1: -Y+Z\n2: -X+Z\n3: -Y+Z\n4: +X-Z\n.. and so on."
+	(text "Solar module ID\nRequired by CAN messages.\n0: +X+Z\n1: -Y+Z\n2: -X+Z\n3: -Y+Z\n4: +X-Z\n.. and so on."
 		(exclude_from_sim no)
 		(at 226.06 215.9 0)
 		(effects

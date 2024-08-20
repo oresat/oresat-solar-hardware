@@ -52,25 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "copper_edge_clearance|147301100|138253600|fb8bd07f-0dfa-433d-bb4b-fb3812a7da3f|ff8a39b4-5b54-4daa-bba2-0ecf783ea641",
-        "copper_edge_clearance|147301100|139203600|fb8bd07f-0dfa-433d-bb4b-fb3812a7da3f|1e855840-e495-4a41-b814-5969cf4ab8e9",
-        "copper_edge_clearance|147301100|140153600|fb8bd07f-0dfa-433d-bb4b-fb3812a7da3f|5f3e732b-0718-4afa-9829-063180b34185",
-        "copper_edge_clearance|147301100|88353600|676287b3-e341-473e-88ca-32a2a3547525|db3a63bb-55a6-4b15-9fec-959fd2286844",
-        "copper_edge_clearance|147301100|89303600|676287b3-e341-473e-88ca-32a2a3547525|14948493-0f6b-48a6-bb83-10cf7ef071c1",
-        "copper_edge_clearance|147301100|90253600|676287b3-e341-473e-88ca-32a2a3547525|0317c021-5266-41a5-a656-9a59e0b8c82a",
-        "copper_edge_clearance|149701100|138853600|53b92f11-de30-4c4f-81f1-53abf1d9afa6|6ed848c2-f94f-459c-a3a2-9355dca85bd9",
-        "copper_edge_clearance|149701100|139803600|53b92f11-de30-4c4f-81f1-53abf1d9afa6|db44a96c-ec15-4202-b1fe-727f2058a26a",
-        "copper_edge_clearance|149701100|140753600|53b92f11-de30-4c4f-81f1-53abf1d9afa6|1c2f21d3-de4c-4546-9dab-e6c0ee030725",
-        "copper_edge_clearance|149701100|88953600|d4c6d6a9-6734-415a-a3f0-ce5f614a1ff1|c8dfb921-fabc-4ff4-a6c8-fd24bb4950d5",
-        "copper_edge_clearance|149701100|89903600|d4c6d6a9-6734-415a-a3f0-ce5f614a1ff1|9c06b887-2407-48a4-9e02-f47c423bfde7",
-        "copper_edge_clearance|149701100|90853600|d4c6d6a9-6734-415a-a3f0-ce5f614a1ff1|e91fe7f6-358f-47a8-a22d-3459edaccfa2",
-        "items_not_allowed|113085365|149725815|5a703ee4-0244-4a0a-9497-658dbc053b70|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|113085365|60725815|8d8da2c3-84c4-480b-bd80-26a40438a528|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|119001100|113003600|2a9a0ebd-940a-483c-aa27-b8542adf72d3|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|178750000|113003600|9c05c64d-35eb-4c22-984c-dee5415aa8e1|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|184085365|149725815|4408c2f2-9781-4d8d-9ed3-0adba096fcab|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

@@ -6726,7 +6726,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 69.85) (xy 162.56 67.31)
+			(xy 162.56 69.85) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -8133,6 +8133,16 @@
 			(type solid)
 		)
 		(uuid "bba641e2-fb18-46c4-b9cb-67a80edb4cb4")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 162.56 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc88fd6f-e1f4-4f50-b769-c5a57952b99d")
 	)
 	(wire
 		(pts
@@ -15149,7 +15159,7 @@
 	)
 	(symbol
 		(lib_id "1u_panel-eagle-import:oresat-rcl_C-EU0603-C-NOSILK")
-		(at 162.56 62.23 0)
+		(at 162.56 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15157,7 +15167,7 @@
 		(dnp no)
 		(uuid "b0596439-61ef-49ea-8b8d-d882e7df7b54")
 		(property "Reference" "C14"
-			(at 164.084 61.849 0)
+			(at 164.084 63.119 0)
 			(effects
 				(font
 					(size 1.778 1.27)
@@ -15166,7 +15176,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 164.084 66.929 0)
+			(at 164.084 68.199 0)
 			(effects
 				(font
 					(size 1.778 1.27)
@@ -15175,7 +15185,7 @@
 			)
 		)
 		(property "Footprint" "1u_panel:.0603-C-NOSILK"
-			(at 162.56 62.23 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15184,7 +15194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 62.23 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15193,7 +15203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 62.23 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15202,7 +15212,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 162.56 62.23 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15222,7 @@
 			)
 		)
 		(property "DPN" "587-4332-1-ND"
-			(at 162.56 62.23 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15222,7 +15232,7 @@
 			)
 		)
 		(property "MFR" "Taiyo"
-			(at 162.56 62.23 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15232,7 +15242,7 @@
 			)
 		)
 		(property "MPN" "EMK107BBJ475KAHT"
-			(at 162.56 62.23 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
