@@ -9565,7 +9565,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-6985-1-ND"
+		(property "DPN" "490-5798-2-ND"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -9575,7 +9575,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Kemet"
+		(property "MFR" "Murata"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -9585,7 +9585,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB85PND"
+		(property "MPN" "GCJ188R71H104KA12D"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -10953,7 +10953,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-5957-1-ND"
+		(property "DPN" "490-4781-2-ND"
 			(at 223.52 105.41 0)
 			(effects
 				(font
@@ -10963,7 +10963,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo"
+		(property "MFR" "Murata"
 			(at 223.52 105.41 0)
 			(effects
 				(font
@@ -10973,7 +10973,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UMK107B7103KAHT"
+		(property "MPN" "GCM188R72A103KA37D"
 			(at 223.52 105.41 0)
 			(effects
 				(font
@@ -11169,7 +11169,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "445-VLS3010CX-1R5M-1CT-ND"
+		(property "DPN" "490-14149-2-ND"
 			(at 182.88 205.74 0)
 			(effects
 				(font
@@ -11179,7 +11179,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TDK"
+		(property "MFR" "Murata"
 			(at 182.88 205.74 0)
 			(effects
 				(font
@@ -11339,7 +11339,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-4332-1-ND"
+		(property "DPN" "490-GRM188Z71C475KE21JTR-ND"
 			(at 238.76 64.77 0)
 			(effects
 				(font
@@ -11349,7 +11349,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo"
+		(property "MFR" "Murata"
 			(at 238.76 64.77 0)
 			(effects
 				(font
@@ -11359,7 +11359,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EMK107BBJ475KAHT"
+		(property "MPN" "GRM188Z71C475KE21J"
 			(at 238.76 64.77 0)
 			(effects
 				(font
@@ -11864,7 +11864,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "A129720CT-ND"
+		(property "DPN" "YAG4574TR-ND"
 			(at 219.71 198.12 0)
 			(effects
 				(font
@@ -11874,7 +11874,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE"
+		(property "MFR" "Yaego"
 			(at 219.71 198.12 0)
 			(effects
 				(font
@@ -11884,7 +11884,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRGCQ0603F470K"
+		(property "MPN" "RT0603BRD07560KL"
 			(at 219.71 198.12 0)
 			(effects
 				(font
@@ -12184,7 +12184,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND"
+		(property "DPN" "RR08P100KDCT-ND"
 			(at 162.56 100.33 0)
 			(effects
 				(font
@@ -12194,7 +12194,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Susumu"
 			(at 162.56 100.33 0)
 			(effects
 				(font
@@ -12204,7 +12204,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RR0816P-104-D"
 			(at 162.56 100.33 0)
 			(effects
 				(font
@@ -13117,7 +13117,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND"
+		(property "DPN" "RR08P100KDCT-ND"
 			(at 177.8 104.14 0)
 			(effects
 				(font
@@ -13127,7 +13127,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Susumu"
 			(at 177.8 104.14 0)
 			(effects
 				(font
@@ -13137,7 +13137,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RR0816P-104-D"
 			(at 177.8 104.14 0)
 			(effects
 				(font
@@ -13887,7 +13887,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND"
+		(property "DPN" "RR08P100KDCT-ND"
 			(at 290.83 86.36 0)
 			(effects
 				(font
@@ -13897,7 +13897,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Susumu"
 			(at 290.83 86.36 0)
 			(effects
 				(font
@@ -13907,7 +13907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RR0816P-104-D"
 			(at 290.83 86.36 0)
 			(effects
 				(font
@@ -14063,7 +14063,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-6985-1-ND"
+		(property "DPN" "490-5798-2-ND"
 			(at 208.28 222.25 0)
 			(effects
 				(font
@@ -14073,7 +14073,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Kemet"
+		(property "MFR" "Murata"
 			(at 208.28 222.25 0)
 			(effects
 				(font
@@ -14083,7 +14083,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB85PND"
+		(property "MPN" "GCJ188R71H104KA12D"
 			(at 208.28 222.25 0)
 			(effects
 				(font
@@ -14504,7 +14504,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-6985-1-ND"
+		(property "DPN" "490-5798-2-ND"
 			(at 303.53 66.04 0)
 			(effects
 				(font
@@ -14514,7 +14514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Kemet"
+		(property "MFR" "Murata"
 			(at 303.53 66.04 0)
 			(effects
 				(font
@@ -14524,7 +14524,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB85PND"
+		(property "MPN" "GCJ188R71H104KA12D"
 			(at 303.53 66.04 0)
 			(effects
 				(font
@@ -14984,7 +14984,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-6985-1-ND"
+		(property "DPN" "490-5798-2-ND"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -14994,7 +14994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Kemet"
+		(property "MFR" "Murata"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -15004,7 +15004,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB85PND"
+		(property "MPN" "GCJ188R71H104KA12D"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -15331,7 +15331,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-4332-1-ND"
+		(property "DPN" "490-GRM188Z71C475KE21JTR-ND"
 			(at 162.56 64.77 0)
 			(effects
 				(font
@@ -15341,7 +15341,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo"
+		(property "MFR" "Murata"
 			(at 162.56 64.77 0)
 			(effects
 				(font
@@ -15351,7 +15351,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EMK107BBJ475KAHT"
+		(property "MPN" "GRM188Z71C475KE21J"
 			(at 162.56 64.77 0)
 			(effects
 				(font
@@ -15549,7 +15549,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "541-100MAHTR-ND"
+		(property "DPN" "P19308TR-ND"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -15559,7 +15559,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Vishay"
+		(property "MFR" "Panasonic"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -15569,7 +15569,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0603100MJPEAHR"
+		(property "MPN" "ERJ-6DSFR10V"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -16134,7 +16134,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-12317-1-ND"
+		(property "DPN" "490-8011-2-ND"
 			(at 226.06 207.01 0)
 			(effects
 				(font
@@ -16154,7 +16154,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT188R61C106KE13D"
+		(property "MPN" "GCM1885G1H100JA16D"
 			(at 226.06 207.01 0)
 			(effects
 				(font
@@ -18128,7 +18128,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-12379-1-ND"
+		(property "DPN" "490-10516-2-ND"
 			(at 137.16 196.85 0)
 			(effects
 				(font
@@ -18148,7 +18148,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT21BR61C106KE01L"
+		(property "MPN" "GRM21BR71A106KA73L"
 			(at 137.16 196.85 0)
 			(effects
 				(font
@@ -18368,7 +18368,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND"
+		(property "DPN" "RR08P100KDCT-ND"
 			(at 165.1 195.58 0)
 			(effects
 				(font
@@ -18378,7 +18378,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Susumu"
 			(at 165.1 195.58 0)
 			(effects
 				(font
@@ -18388,7 +18388,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RR0816P-104-D"
 			(at 165.1 195.58 0)
 			(effects
 				(font
