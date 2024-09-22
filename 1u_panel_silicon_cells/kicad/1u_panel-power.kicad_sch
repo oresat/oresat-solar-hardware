@@ -2939,7 +2939,7 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 2.54 0)
+					(at -15.24 1.27 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -2985,6 +2985,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5086,6 +5104,10 @@
 		(color 0 0 0 0)
 		(uuid "f004d3c8-8cf7-4f6b-b2de-0c0effadfe92")
 	)
+	(no_connect
+		(at 180.34 86.36)
+		(uuid "af12bbb4-6497-47ff-b5d9-12643cd13651")
+	)
 	(polyline
 		(pts
 			(xy 283.21 29.21) (xy 345.44 29.21)
@@ -5748,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 88.9) (xy 177.8 88.9)
+			(xy 180.34 90.17) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -7258,7 +7280,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 88.9) (xy 177.8 59.69)
+			(xy 177.8 90.17) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -18154,6 +18176,9 @@
 		)
 		(pin "9"
 			(uuid "51215ce4-5739-414d-8c7e-9a336d354eca")
+		)
+		(pin "6"
+			(uuid "dd65dba8-a38a-41a7-a9c7-5031afd7cd1d")
 		)
 		(instances
 			(project "1u_panel-silicon"

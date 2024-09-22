@@ -146,26 +146,28 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND2"
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 0 5.715 0)
+				(at 3.175 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND2"
-				(at 0 3.81 0)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -186,7 +188,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Three pin crystal, GND on pin 2"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -213,7 +215,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND2_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -227,7 +229,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.905 0)
+						(xy -2.54 0) (xy -2.032 0)
 					)
 					(stroke
 						(width 0)
@@ -239,7 +241,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
+						(xy -2.032 -1.27) (xy -2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -263,7 +265,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 0) (xy 2.54 0)
+						(xy 0 3.556) (xy 0 3.81)
 					)
 					(stroke
 						(width 0)
@@ -275,10 +277,22 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27)
+						(xy 2.032 -1.27) (xy 2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -297,8 +311,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Crystal_GND2_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -318,7 +344,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 0 5.08 270)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -346,6 +372,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3413,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 115.57) (xy 166.37 96.52)
+			(xy 158.75 115.57) (xy 158.75 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -3543,7 +3587,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 127) (xy 166.37 129.54)
+			(xy 158.75 127) (xy 158.75 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3983,6 +4027,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 101.6) (xy 166.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df010f0-3d8e-4d57-9377-e7995c7bad35")
+	)
+	(wire
+		(pts
 			(xy 250.19 73.66) (xy 250.19 76.2)
 		)
 		(stroke
@@ -4080,6 +4134,16 @@
 			(type solid)
 		)
 		(uuid "57bc9a1c-c2fc-4d6a-aeb4-ee821d1224e3")
+	)
+	(wire
+		(pts
+			(xy 168.91 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59139509-38f1-49db-93c0-63b768a1542a")
 	)
 	(wire
 		(pts
@@ -4843,7 +4907,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 173.99 96.52)
+			(xy 158.75 96.52) (xy 173.99 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -4953,7 +5017,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 127) (xy 166.37 123.19)
+			(xy 158.75 127) (xy 158.75 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -5680,7 +5744,7 @@
 	)
 	(text "NP0 Dielectric"
 		(exclude_from_sim no)
-		(at 163.576 112.776 90)
+		(at 156.21 112.268 90)
 		(effects
 			(font
 				(size 1.778 1.27)
@@ -6268,6 +6332,73 @@
 			(project "1u_panel-silicon"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
 					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:GND")
+		(at 166.37 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "074966da-c02c-427b-aa2a-17982ed842b8")
+		(property "Reference" "#GND010"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.402 133.35 0)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "759a68ba-5995-41f2-a4b6-1732e3a5f419")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -7094,7 +7225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND2")
+		(lib_id "Device:Crystal_GND24")
 		(at 173.99 101.6 90)
 		(mirror x)
 		(unit 1)
@@ -7121,7 +7252,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+		(property "Footprint" "oresat-misc:ECS-160-10-36Q-ES-TR"
 			(at 173.99 101.6 0)
 			(effects
 				(font
@@ -7139,7 +7270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Three pin crystal, GND on pin 2"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 173.99 101.6 0)
 			(effects
 				(font
@@ -7196,6 +7327,9 @@
 		)
 		(pin "3"
 			(uuid "ac7e3875-c8c9-44d6-82cd-72ae1605527a")
+		)
+		(pin "4"
+			(uuid "b4c65f05-1afe-4735-8096-c553a4d40e01")
 		)
 		(instances
 			(project "1u_panel-silicon"
@@ -8047,7 +8181,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 119.38 0)
+		(at 158.75 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8056,7 +8190,7 @@
 		(dnp no)
 		(uuid "4d7b1b3c-e43b-4379-8619-4f406ab11592")
 		(property "Reference" "C28"
-			(at 164.846 117.856 0)
+			(at 157.226 117.856 0)
 			(effects
 				(font
 					(size 1.778 1.27)
@@ -8065,7 +8199,7 @@
 			)
 		)
 		(property "Value" "20p"
-			(at 164.846 122.936 0)
+			(at 157.226 122.936 0)
 			(effects
 				(font
 					(size 1.778 1.27)
@@ -8074,7 +8208,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 165.4048 123.19 0)
+			(at 157.7848 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +8217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 119.38 0)
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +8226,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 119.38 0)
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8235,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 166.37 119.38 0)
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8245,7 @@
 			)
 		)
 		(property "DPN" "490-1334-2-ND"
-			(at 166.37 119.38 0)
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8255,7 @@
 			)
 		)
 		(property "MFR" "Murata"
-			(at 166.37 119.38 0)
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8265,7 @@
 			)
 		)
 		(property "MPN" "GRM1885C2A200JA01D"
-			(at 166.37 119.38 0)
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +10149,11 @@
 			(uuid "e842d079-9413-4967-857f-b5e2c8de4dda")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project ""
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
+					(reference "C9")
+					(unit 1)
+				)
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
 					(reference "C9")
 					(unit 1)
@@ -10376,7 +10514,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:GND")
-		(at 166.37 129.54 0)
+		(at 158.75 129.54 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10385,7 +10523,7 @@
 		(dnp no)
 		(uuid "aaf6d9ca-f937-4471-ae66-358006123c6b")
 		(property "Reference" "#GND054"
-			(at 166.37 129.54 0)
+			(at 158.75 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10532,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.402 133.35 0)
+			(at 160.782 133.35 0)
 			(effects
 				(font
 					(size 1.778 1.27)
@@ -10403,7 +10541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 130.81 0)
+			(at 158.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 130.81 0)
+			(at 158.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 129.54 0)
+			(at 158.75 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
