@@ -2035,20 +2035,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CF1"
-				(at -1.27 13.97 0)
+			(property "Reference" "CF"
+				(at -6.35 10.795 0)
 				(effects
 					(font
-						(size 1.778 1.27)
+						(size 1.778 1.5113)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "M55-6021242R"
-				(at 0 10.16 0)
+			(property "Value" ""
+				(at -6.35 8.89 0)
 				(effects
 					(font
-						(size 1.778 1.27)
+						(size 1.778 1.5113)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "oresat-connectors:J-Harwin-M55-60X1242R"
@@ -2078,91 +2080,7 @@
 					(hide yes)
 				)
 			)
-			(property "DIS" "Digi-Key"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DPN" "952-3851-2-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFR" "Harwin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "M55-6021242R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "M55-6021242R_1_0"
-				(polyline
-					(pts
-						(xy -8.89 -10.16) (xy 8.89 -10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 7.62) (xy -8.89 -10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -10.16) (xy 8.89 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 7.62) (xy -8.89 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive inverted
 					(at -2.54 5.08 0)
 					(length 2.54)
@@ -2389,7 +2307,7 @@
 							)
 						)
 					)
-					(number "SH1"
+					(number "P$1"
 						(effects
 							(font
 								(size 0 0)
@@ -2407,7 +2325,7 @@
 							)
 						)
 					)
-					(number "SH2"
+					(number "P$2"
 						(effects
 							(font
 								(size 0 0)
@@ -2425,7 +2343,7 @@
 							)
 						)
 					)
-					(number "SH3"
+					(number "P$3"
 						(effects
 							(font
 								(size 0 0)
@@ -2443,12 +2361,25 @@
 							)
 						)
 					)
-					(number "SH4"
+					(number "P$4"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
+					)
+				)
+			)
+			(symbol "M55-6021242R_1_1"
+				(rectangle
+					(start -8.89 7.62)
+					(end 8.89 -10.16)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -2503,54 +2434,6 @@
 				)
 			)
 			(symbol "SAMTEC-MMS-104-02-X-SHJ_1_0"
-				(polyline
-					(pts
-						(xy 0 -12.7) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 20.3 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.3 -12.7) (xy 0 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.3 5.08) (xy 20.3 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
 					(start 20.32 -7.62)
 					(mid 10.16 -3.4116)
@@ -2816,6 +2699,19 @@
 					)
 				)
 			)
+			(symbol "SAMTEC-MMS-104-02-X-SHJ_1_1"
+				(rectangle
+					(start 0 5.08)
+					(end 20.32 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 		)
 		(symbol "oresat-ics:LT1618EMSTRPBF"
 			(exclude_from_sim no)
@@ -2907,54 +2803,6 @@
 				)
 			)
 			(symbol "LT1618EMSTRPBF_1_0"
-				(polyline
-					(pts
-						(xy -12.7 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 10.16) (xy -12.7 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 10.16) (xy -12.7 10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(text "LT1618"
 					(at 0 0 0)
 					(effects
@@ -3124,6 +2972,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "LT1618EMSTRPBF_1_1"
+				(rectangle
+					(start -12.7 10.16)
+					(end 12.7 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -10345,16 +10206,16 @@
 		(pin "9"
 			(uuid "8c9570dc-159f-4d30-ac5a-3f4b3377cb7a")
 		)
-		(pin "SH1"
+		(pin "P$1"
 			(uuid "c795d434-3c3e-435a-b8d5-83968dcaf617")
 		)
-		(pin "SH4"
+		(pin "P$4"
 			(uuid "3744c844-22e5-4c75-ada4-30c8f25f3273")
 		)
-		(pin "SH2"
+		(pin "P$3"
 			(uuid "9a9ee646-fa04-4212-95a0-ea875ab71c0d")
 		)
-		(pin "SH3"
+		(pin "P$2"
 			(uuid "a90aeeeb-4c8c-4ee2-906e-697505cbfa8c")
 		)
 		(instances
