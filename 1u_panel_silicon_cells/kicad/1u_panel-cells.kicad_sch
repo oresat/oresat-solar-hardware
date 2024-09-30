@@ -3,10 +3,10 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "f9e0ef83-9a90-4f91-960a-81a03afe74bc")
-	(paper "User" 431.8 279.4)
+	(paper "USLedger")
 	(title_block
-		(title "OreSat Silicon Solar Module (for Frame 2.0)")
-		(date "2024-08-18")
+		(title "OreSat Solar Module - Silicon Cells")
+		(date "2024-09-22")
 		(rev "1.0")
 	)
 	(lib_symbols

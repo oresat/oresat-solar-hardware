@@ -5,8 +5,8 @@
 	(uuid "8e5a1f14-6e06-4573-8170-cf8bfac4698f")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat Silicon Solar Module (for Frame 2.0)")
-		(date "2024-08-18")
+		(title "OreSat Solar Module - Silicon Cells")
+		(date "2024-09-22")
 		(rev "1.0")
 	)
 	(lib_symbols
@@ -8455,6 +8455,8 @@
 		(effects
 			(font
 				(size 3.81 3.2385)
+				(thickness 0.6477)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -8462,10 +8464,12 @@
 	)
 	(text "MPPT"
 		(exclude_from_sim no)
-		(at 195.58 40.64 0)
+		(at 194.31 35.56 0)
 		(effects
 			(font
 				(size 3.81 3.2385)
+				(thickness 0.6477)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -8488,6 +8492,8 @@
 		(effects
 			(font
 				(size 3.81 3.2385)
+				(thickness 0.6477)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -8539,7 +8545,7 @@
 	)
 	(text "Fiducials"
 		(exclude_from_sim no)
-		(at 39.37 209.55 0)
+		(at 55.88 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8587,6 +8593,8 @@
 		(effects
 			(font
 				(size 3.81 3.2385)
+				(thickness 0.6477)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -8594,10 +8602,12 @@
 	)
 	(text "V/I Sensor"
 		(exclude_from_sim no)
-		(at 95.25 40.64 0)
+		(at 93.98 41.91 0)
 		(effects
 			(font
 				(size 3.81 3.2385)
+				(thickness 0.6477)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -10253,8 +10263,8 @@
 		(lib_id "1u_panel-eagle-import:FIDUCIAL")
 		(at 52.07 209.55 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2987ef6d-d001-440c-8be3-253c9d5670af")
@@ -11099,8 +11109,8 @@
 		(lib_id "1u_panel-eagle-import:FIDUCIAL")
 		(at 67.31 209.55 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4f53a41f-1e32-4099-9ae3-42028c0c6348")
@@ -12493,19 +12503,19 @@
 		(dnp no)
 		(uuid "73ff7834-d02c-42d0-9205-a78534efe509")
 		(property "Reference" "J1"
-			(at 341.63 144.78 0)
+			(at 350.52 165.1 0)
 			(effects
 				(font
-					(size 2.54 2.159)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "MMS-104-01-[F/L]-SH"
-			(at 335.28 167.64 0)
+			(at 340.36 167.64 0)
 			(effects
 				(font
-					(size 2.286 1.9431)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -15091,8 +15101,8 @@
 		(lib_id "1u_panel-eagle-import:FIDUCIAL")
 		(at 59.69 209.55 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "afc84b4d-4f18-4794-92d5-5db2bca1242d")
