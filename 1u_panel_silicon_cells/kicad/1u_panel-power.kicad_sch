@@ -9087,7 +9087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±20% 16V Ceramic Capacitor X6S 0805 (2012 Metric)"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 248.92 196.85 0)
 			(effects
 				(font
@@ -9106,7 +9106,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GRT21BC81C226ME13KTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 248.92 196.85 0)
 			(effects
 				(font
@@ -9126,7 +9126,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT21BC81C226ME13K"
+		(property "MPN" "490-12389-2-ND"
 			(at 248.92 196.85 0)
 			(effects
 				(font
@@ -9457,7 +9457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -9476,7 +9476,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-C0603C101J5GAC3190CT-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -9486,7 +9486,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "MFR" "Taiyo Yuden"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -9496,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C101J5GAC3190"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -11142,7 +11142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µH Shielded Drum Core, Wirewound Inductor 3.3 A 32mOhm Max Nonstandard"
+		(property "Description" "1 µH Shielded Drum Core, Wirewound Inductor 3.7 A 29mOhm Max Nonstandard"
 			(at 182.88 205.74 0)
 			(effects
 				(font
@@ -11161,7 +11161,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-14149-2-ND"
+		(property "DPN" "490-14160-2-ND"
 			(at 182.88 205.74 0)
 			(effects
 				(font
@@ -11181,7 +11181,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1226AS-H-1R0N=P2"
+		(property "MPN" "1227AS-H-1R0N=P2"
 			(at 178.054 213.868 90)
 			(effects
 				(font
@@ -14189,7 +14189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 208.28 222.25 0)
 			(effects
 				(font
@@ -14208,7 +14208,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-C0603C101J5GAC3190CT-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 208.28 222.25 0)
 			(effects
 				(font
@@ -14218,7 +14218,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "MFR" "Taiyo Yuden"
 			(at 208.28 222.25 0)
 			(effects
 				(font
@@ -14228,7 +14228,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C101J5GAC3190"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 208.28 222.25 0)
 			(effects
 				(font
@@ -14639,7 +14639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 303.53 66.04 0)
 			(effects
 				(font
@@ -14658,7 +14658,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-C0603C101J5GAC3190CT-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 303.53 66.04 0)
 			(effects
 				(font
@@ -14668,7 +14668,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "MFR" "Taiyo Yuden"
 			(at 303.53 66.04 0)
 			(effects
 				(font
@@ -14678,7 +14678,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C101J5GAC3190"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 303.53 66.04 0)
 			(effects
 				(font
@@ -14889,7 +14889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±20% 16V Ceramic Capacitor X6S 0805 (2012 Metric)"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 269.24 196.85 0)
 			(effects
 				(font
@@ -14908,7 +14908,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GRT21BC81C226ME13KTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 269.24 196.85 0)
 			(effects
 				(font
@@ -14928,7 +14928,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT21BC81C226ME13K"
+		(property "MPN" "490-12389-2-ND"
 			(at 269.24 196.85 0)
 			(effects
 				(font
@@ -15146,7 +15146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -15165,7 +15165,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-C0603C101J5GAC3190CT-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -15175,7 +15175,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "MFR" "Taiyo Yuden"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -15185,7 +15185,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C101J5GAC3190"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -15264,7 +15264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±20% 16V Ceramic Capacitor X6S 0805 (2012 Metric)"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 259.08 196.85 0)
 			(effects
 				(font
@@ -15283,7 +15283,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GRT21BC81C226ME13KTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 259.08 196.85 0)
 			(effects
 				(font
@@ -15303,7 +15303,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT21BC81C226ME13K"
+		(property "MPN" "490-12389-2-ND"
 			(at 259.08 196.85 0)
 			(effects
 				(font
