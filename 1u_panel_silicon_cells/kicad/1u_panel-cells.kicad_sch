@@ -3180,7 +3180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 237.49 119.38 0)
 			(effects
 				(font
@@ -3217,6 +3217,15 @@
 			)
 		)
 		(property "MPN" "LTC4411ES5#TRMPBF"
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 240.03 120.65 0)
 			(effects
 				(font
@@ -3360,7 +3369,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 322.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 322.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 322.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 322.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
 			(at 322.58 107.95 0)
 			(effects
 				(font
@@ -3430,7 +3475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 95.25 198.12 0)
 			(effects
 				(font
@@ -3449,7 +3494,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 95.25 198.12 0)
 			(effects
 				(font
@@ -3459,7 +3504,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 95.25 198.12 0)
 			(effects
 				(font
@@ -3469,13 +3514,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 95.25 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 95.25 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3605,7 +3659,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
 			(at 233.68 107.95 0)
 			(effects
 				(font
@@ -3740,7 +3830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 193.04 119.38 0)
 			(effects
 				(font
@@ -3777,6 +3867,15 @@
 			)
 		)
 		(property "MPN" "LTC4411ES5#TRMPBF"
+			(at 195.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 195.58 120.65 0)
 			(effects
 				(font
@@ -3919,7 +4018,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 100.33 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
 			(at 100.33 181.61 0)
 			(effects
 				(font
@@ -3989,7 +4124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 95.25 124.46 0)
 			(effects
 				(font
@@ -4008,7 +4143,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 95.25 124.46 0)
 			(effects
 				(font
@@ -4018,7 +4153,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 95.25 124.46 0)
 			(effects
 				(font
@@ -4028,13 +4163,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 95.25 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4099,7 +4243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -4118,7 +4262,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -4128,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -4138,13 +4282,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 184.15 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 184.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4208,7 +4361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 124.46 129.54 0)
 			(effects
 				(font
@@ -4245,6 +4398,15 @@
 			)
 		)
 		(property "MPN" "KXOB101K08TF-TR"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 124.46 129.54 0)
 			(effects
 				(font
@@ -4313,7 +4475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 213.36 129.54 0)
 			(effects
 				(font
@@ -4350,6 +4512,15 @@
 			)
 		)
 		(property "MPN" "KXOB101K08TF-TR"
+			(at 213.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 213.36 129.54 0)
 			(effects
 				(font
@@ -4485,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 257.81 129.54 0)
 			(effects
 				(font
@@ -4522,6 +4693,15 @@
 			)
 		)
 		(property "MPN" "KXOB101K08TF-TR"
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 257.81 129.54 0)
 			(effects
 				(font
@@ -4590,7 +4770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 26.3 mW 5.53 V"
 			(at 124.46 203.2 0)
 			(effects
 				(font
@@ -4627,6 +4807,15 @@
 			)
 		)
 		(property "MPN" "  KXOB25-02X8F-TR"
+			(at 124.46 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 124.46 203.2 0)
 			(effects
 				(font
@@ -4762,7 +4951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 302.26 129.54 0)
 			(effects
 				(font
@@ -4799,6 +4988,15 @@
 			)
 		)
 		(property "MPN" "KXOB101K08TF-TR"
+			(at 302.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 302.26 129.54 0)
 			(effects
 				(font
@@ -4867,7 +5065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -4904,6 +5102,15 @@
 			)
 		)
 		(property "MPN" "KXOB101K08TF-TR"
+			(at 80.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -5040,7 +5247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 273.05 124.46 0)
 			(effects
 				(font
@@ -5059,7 +5266,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 273.05 124.46 0)
 			(effects
 				(font
@@ -5069,7 +5276,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 273.05 124.46 0)
 			(effects
 				(font
@@ -5079,13 +5286,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 273.05 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5148,7 +5364,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
 			(at 100.33 107.95 0)
 			(effects
 				(font
@@ -5218,7 +5470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 139.7 198.12 0)
 			(effects
 				(font
@@ -5237,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 139.7 198.12 0)
 			(effects
 				(font
@@ -5247,7 +5499,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 139.7 198.12 0)
 			(effects
 				(font
@@ -5257,13 +5509,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 139.7 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5326,7 +5587,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
 			(at 144.78 181.61 0)
 			(effects
 				(font
@@ -5729,7 +6026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 104.14 193.04 0)
 			(effects
 				(font
@@ -5766,6 +6063,15 @@
 			)
 		)
 		(property "MPN" "LTC4411ES5#TRMPBF"
+			(at 106.68 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 106.68 194.31 0)
 			(effects
 				(font
@@ -5844,7 +6150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -5863,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -5873,7 +6179,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -5883,13 +6189,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 139.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6085,7 +6400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 148.59 119.38 0)
 			(effects
 				(font
@@ -6122,6 +6437,15 @@
 			)
 		)
 		(property "MPN" "LTC4411ES5#TRMPBF"
+			(at 151.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 151.13 120.65 0)
 			(effects
 				(font
@@ -6265,7 +6589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 326.39 119.38 0)
 			(effects
 				(font
@@ -6302,6 +6626,15 @@
 			)
 		)
 		(property "MPN" "LTC4411ES5#TRMPBF"
+			(at 328.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 328.93 120.65 0)
 			(effects
 				(font
@@ -6445,7 +6778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 26.3 mW 5.53 V"
 			(at 80.01 203.2 0)
 			(effects
 				(font
@@ -6482,6 +6815,15 @@
 			)
 		)
 		(property "MPN" "  KXOB25-02X8F-TR"
+			(at 80.01 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 80.01 203.2 0)
 			(effects
 				(font
@@ -6549,7 +6891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 281.94 119.38 0)
 			(effects
 				(font
@@ -6586,6 +6928,15 @@
 			)
 		)
 		(property "MPN" "LTC4411ES5#TRMPBF"
+			(at 284.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 284.48 120.65 0)
 			(effects
 				(font
@@ -6729,7 +7080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 148.59 193.04 0)
 			(effects
 				(font
@@ -6766,6 +7117,15 @@
 			)
 		)
 		(property "MPN" "LTC4411ES5#TRMPBF"
+			(at 151.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 151.13 194.31 0)
 			(effects
 				(font
@@ -6843,7 +7203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 168.91 129.54 0)
 			(effects
 				(font
@@ -6880,6 +7240,15 @@
 			)
 		)
 		(property "MPN" "KXOB101K08TF-TR"
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 168.91 129.54 0)
 			(effects
 				(font
@@ -6947,7 +7316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 104.14 119.38 0)
 			(effects
 				(font
@@ -6984,6 +7353,15 @@
 			)
 		)
 		(property "MPN" "LTC4411ES5#TRMPBF"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -7062,7 +7440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 228.6 124.46 0)
 			(effects
 				(font
@@ -7081,7 +7459,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 228.6 124.46 0)
 			(effects
 				(font
@@ -7091,7 +7469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 228.6 124.46 0)
 			(effects
 				(font
@@ -7101,13 +7479,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 228.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7170,7 +7557,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 189.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 189.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 189.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 189.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
 			(at 189.23 107.95 0)
 			(effects
 				(font
@@ -7240,7 +7663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 317.5 124.46 0)
 			(effects
 				(font
@@ -7259,7 +7682,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 317.5 124.46 0)
 			(effects
 				(font
@@ -7269,7 +7692,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 317.5 124.46 0)
 			(effects
 				(font
@@ -7279,13 +7702,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 317.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 317.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7415,7 +7847,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 144.78 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 144.78 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 144.78 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 144.78 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
 			(at 144.78 107.95 0)
 			(effects
 				(font
@@ -7483,7 +7951,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
 			(at 278.13 107.95 0)
 			(effects
 				(font
