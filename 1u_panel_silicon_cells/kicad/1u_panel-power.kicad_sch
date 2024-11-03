@@ -5140,7 +5140,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 200.66) (xy 147.32 201.93)
+			(xy 147.32 200.66) (xy 147.32 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6438,16 +6438,6 @@
 		)
 		(uuid "6b081e60-50c4-4f4e-8e87-65b2f89268a5")
 	)
-	(wire
-		(pts
-			(xy 147.32 200.66) (xy 147.32 203.2)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6c2f8efe-7783-415c-b020-9c71212aabd3")
-	)
 	(polyline
 		(pts
 			(xy 227.33 109.22) (xy 241.3 109.22)
@@ -7637,16 +7627,6 @@
 			(type solid)
 		)
 		(uuid "cb341ce4-e354-44d9-8120-e59588443b19")
-	)
-	(wire
-		(pts
-			(xy 147.32 203.2) (xy 147.32 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc0f404d-46f8-49bc-b029-2fc40cd8136d")
 	)
 	(wire
 		(pts
@@ -10749,9 +10729,9 @@
 		(at 156.21 198.12 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3c6149f1-5b67-467d-bd74-7b6b790dc19f")
 		(property "Reference" "R13"
 			(at 161.29 199.644 0)

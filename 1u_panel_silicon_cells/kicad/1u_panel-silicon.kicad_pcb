@@ -386,7 +386,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -410,7 +410,7 @@
 				)
 			)
 		)
-		(property "DPN" "2571-GMC21X7R226M10NTTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -422,7 +422,7 @@
 				)
 			)
 		)
-		(property "MFR" "Cal-Chip"
+		(property "MFR" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -434,11 +434,24 @@
 				)
 			)
 		)
-		(property "MPN" "GMC21X7R226M10NT"
+		(property "MPN" "490-12389-2-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8417743-38a4-4041-871d-9d8e7a1ff7f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "355e1fa3-7b5e-457e-8b64-9ff2f36f261e")
 			(effects
 				(font
 					(size 1 1)
@@ -770,7 +783,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -807,7 +820,7 @@
 				)
 			)
 		)
-		(property "MFR" "Diodes Inc."
+		(property "MFR" "Diodes Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -837,6 +850,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89787a22-9004-4789-8e62-e35043b1e909")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c101037-3d5e-4c8d-922b-a8ba7c11bb84")
 			(effects
 				(font
 					(size 1 1)
@@ -1127,7 +1153,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "16 MHz ±30ppm Crystal 10pF 80 Ohms 4-SMD, No Lead"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1152,7 +1178,7 @@
 				)
 			)
 		)
-		(property "DPN" "XC2181CT-ND"
+		(property "DPN" "XC2181TR-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1181,6 +1207,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc63e103-2e84-46ab-9c5d-1ebc29e10cad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54f2cb00-3211-42ce-9080-193824adf0b4")
 			(effects
 				(font
 					(size 1 1)
@@ -1455,7 +1494,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1479,7 +1518,7 @@
 				)
 			)
 		)
-		(property "DPN" "2019-RK73H1JTTD2001FCT-ND"
+		(property "DPN" "RMCF0603FT2K00TR-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1491,7 +1530,7 @@
 				)
 			)
 		)
-		(property "MFR" "KOA"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1503,11 +1542,24 @@
 				)
 			)
 		)
-		(property "MPN" "RK73H1JTTD2001F"
+		(property "MPN" "RMCF0603FT2K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "361e9e42-2965-42cc-9d01-7bbc74ad2ba0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cdd36bd-e3e6-4aab-8642-a2e06d02fe3a")
 			(effects
 				(font
 					(size 1 1)
@@ -1791,7 +1843,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1815,7 +1867,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GRM188Z71C475KE21JTR-ND"
+		(property "DPN" "1276-1784-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1827,7 +1879,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1839,11 +1891,24 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188Z71C475KE21J"
+		(property "MPN" "CL10A475KO8NNNC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83726af6-7b7c-4469-9844-b462f1f0468b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "795462ff-807e-4c42-9a0c-5331c5f45dd4")
 			(effects
 				(font
 					(size 1 1)
@@ -2127,7 +2192,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2151,7 +2216,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2163,7 +2228,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2175,11 +2240,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56a7e6fc-e176-4ac0-b103-b4c57509686b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "874912db-b61e-431c-8c54-ecdfd0dc9199")
 			(effects
 				(font
 					(size 1 1)
@@ -2462,7 +2540,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2486,7 +2564,7 @@
 				)
 			)
 		)
-		(property "DPN" "RR08P100KDCT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2498,7 +2576,7 @@
 				)
 			)
 		)
-		(property "MFR" "Susumu"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2510,11 +2588,24 @@
 				)
 			)
 		)
-		(property "MPN" "RR0816P-104-D"
+		(property "MPN" "RMCF0603FT100K"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7acabcc3-7459-4372-b02a-bc349c0f2ac4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b321f20d-3714-4900-8bc5-362f17b79920")
 			(effects
 				(font
 					(size 1 1)
@@ -3016,7 +3107,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3040,7 +3131,7 @@
 				)
 			)
 		)
-		(property "DPN" "2571-GMC21X7R226M10NTTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3052,7 +3143,7 @@
 				)
 			)
 		)
-		(property "MFR" "Cal-Chip"
+		(property "MFR" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3064,11 +3155,24 @@
 				)
 			)
 		)
-		(property "MPN" "GMC21X7R226M10NT"
+		(property "MPN" "490-12389-2-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0b4426c-de2e-46da-b0d9-0919797de20a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2daca550-db9b-404f-9c27-ec4ef314c9f3")
 			(effects
 				(font
 					(size 1 1)
@@ -3296,7 +3400,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3320,7 +3424,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3332,7 +3436,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3344,11 +3448,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d929a60f-b436-4815-bbee-d0fffeff240d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "190e823a-3eb6-4266-b560-9aa2087a9b39")
 			(effects
 				(font
 					(size 1 1)
@@ -3631,7 +3748,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3667,7 +3784,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3684,6 +3801,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9cfeff4a-07e8-463a-832b-80315f93ed74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41d0f57c-5390-47bf-82d5-7d4e0923c9df")
 			(effects
 				(font
 					(size 1 1)
@@ -3966,7 +4096,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "14.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4002,7 +4132,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4019,6 +4149,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9405ec0e-bf54-4f03-bd7b-5ce952614dd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5063bb5e-39e2-4057-8d5f-eddb21844fc7")
 			(effects
 				(font
 					(size 1 1)
@@ -4300,7 +4443,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor_big-symbol"
+		(property "Description" "10 µH Shielded Drum Core, Wirewound Inductor 1.3 A 150mOhm Max 1919 (4848 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4308,6 +4451,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9ea7870-8db6-4dcb-a552-e26003b8b7f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "732-1025-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c803e8ab-4668-4431-a0a2-1b504b41d7ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "WURTH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cf1101e-612f-492b-9d04-328c049ee793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "744042100"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2bf1b19-1ebf-4adf-ac4e-ebb5583ca512")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c64b1b4-efbf-4b7a-b37b-ffacaf9ce44f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4645,7 +4853,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4669,7 +4877,7 @@
 				)
 			)
 		)
-		(property "DPN" "2571-GMC21X7R226M10NTTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4681,7 +4889,7 @@
 				)
 			)
 		)
-		(property "MFR" "Cal-Chip"
+		(property "MFR" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4693,11 +4901,24 @@
 				)
 			)
 		)
-		(property "MPN" "GMC21X7R226M10NT"
+		(property "MPN" "490-12389-2-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b7542b14-de22-47f7-ad6e-0777b939045f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "809e16d8-203c-4f71-93aa-cfb877a67359")
 			(effects
 				(font
 					(size 1 1)
@@ -4924,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Temperature Sensor Digital, Local -55°C ~ 125°C 11 b SOT-23-6"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4932,6 +5153,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2761fdef-e15a-4107-90f8-df1a548a6b73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "296-27725-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "374fcab5-1871-4819-84f7-aa5664cfefb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "066c77c8-af05-4bb6-855e-1cff5d0e7613")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TMP101NA/3K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee698044-96e0-4f0c-ae98-a60c92dd5fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a3079ba-f472-451b-95c2-3f045c29420c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5378,7 +5664,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5403,7 +5689,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5416,7 +5702,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5429,12 +5715,25 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a774525-d0ed-4d76-8914-5fb672feb114")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e637759-a97b-47eb-b01d-a99199d41305")
 			(effects
 				(font
 					(size 1 1)
@@ -5717,7 +6016,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5741,7 +6040,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5753,7 +6052,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5765,11 +6064,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c77409e-4852-4d63-a834-350968c13659")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0bdc867-f179-4a9a-b4ec-e48fc35b4fb4")
 			(effects
 				(font
 					(size 1 1)
@@ -6052,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6076,7 +6388,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0805ZT0R00CT-ND"
+		(property "DPN" "P0.0ATR-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6088,7 +6400,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6100,11 +6412,24 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0805ZT0R00"
+		(property "MPN" "ERJ-6GEY0R00V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1a2904f-da35-4fb4-b381-4e4323c940ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cfa0d82-796c-442e-914d-98b5dd027bb5")
 			(effects
 				(font
 					(size 1 1)
@@ -9947,7 +10272,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9972,7 +10297,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9985,7 +10310,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9998,12 +10323,25 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0a0b754-226f-404e-954a-a52c09a861b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "962a0bd5-f65a-442c-b584-98d794adb8c0")
 			(effects
 				(font
 					(size 1 1)
@@ -10287,7 +10625,7 @@
 				)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10345,6 +10683,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c120d98c-2284-487a-bb50-046014a4b6d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "953363de-292a-4f12-bc0c-aed8c8d04418")
 			(effects
 				(font
 					(size 1 1)
@@ -10620,7 +10971,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "20 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10644,7 +10995,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-1334-2-ND"
+		(property "DPN" "399-15921-2-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10656,7 +11007,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10668,11 +11019,24 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1885C2A200JA01D"
+		(property "MPN" "C0603C200J5GACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7cde5a4-75cc-4357-ac5c-58ddacd34d10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "881f3cb6-ee74-493f-a05c-3e8d0c5d69ea")
 			(effects
 				(font
 					(size 1 1)
@@ -10956,7 +11320,7 @@
 				)
 			)
 		)
-		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
+		(property "Description" "Current Monitor Regulator High/Low-Side 10mA 10-VSSOP"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11014,6 +11378,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "924a0856-96ad-4116-aa2a-ec634b849b24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "791d8fa7-9fec-4984-a510-b934438c73a5")
 			(effects
 				(font
 					(size 1 1)
@@ -11344,7 +11721,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11380,7 +11757,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11397,6 +11774,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5d36f87-7a71-477b-8fad-ca67c34bccd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94e9a298-80ed-4da3-93a8-be6d7c08bfac")
 			(effects
 				(font
 					(size 1 1)
@@ -11680,7 +12070,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "20 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11704,7 +12094,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-1334-2-ND"
+		(property "DPN" "399-15921-2-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11716,7 +12106,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11728,11 +12118,24 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1885C2A200JA01D"
+		(property "MPN" "C0603C200J5GACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8c43990d-5ae8-4546-a5c5-f633cb69e62e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5420d9f4-e2cf-47ab-a255-dfcfa0b69538")
 			(effects
 				(font
 					(size 1 1)
@@ -12016,7 +12419,7 @@
 				)
 			)
 		)
-		(property "Description" "Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10"
+		(property "Description" "Buck-Boost Switching Regulator IC Positive Adjustable 2.5V 1 Output 2A (Switch) 10-WFDFN Exposed Pad"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12025,6 +12428,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8115c71a-c09c-49ce-aa96-a530eec1e692")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "296-30204-2-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb0b18f8-6956-401e-94b1-ea73153a5775")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cfac87b-b8a8-4065-b113-5113dd7127a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "IC REG BUCK BOOST ADJ 2A 10WSON"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbb2dc37-ff68-4829-87dd-f6d410ef6dde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1bb3d70-00f4-4cda-9761-f65156dd84bc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12679,7 +13147,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12703,7 +13171,7 @@
 				)
 			)
 		)
-		(property "DPN" "RR08P100KDCT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12715,7 +13183,7 @@
 				)
 			)
 		)
-		(property "MFR" "Susumu"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12727,11 +13195,24 @@
 				)
 			)
 		)
-		(property "MPN" "RR0816P-104-D"
+		(property "MPN" "RMCF0603FT100K"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3759eb34-337f-4ab1-93ca-0e322f57b1d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6647b9b4-6555-47c5-aa43-64a35e84c716")
 			(effects
 				(font
 					(size 1 1)
@@ -13118,7 +13599,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13126,6 +13607,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e265065e-76c0-494a-8f60-d10caa446c51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "324386a5-578b-4d83-b783-f2202988dc08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41497c2f-8693-470a-96e8-13ebc173d4e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87ec6061-67ea-4ed1-8d42-b4c0eee81456")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13406,7 +13939,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13414,6 +13947,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a44e509f-6e4c-4024-af13-522c70ea8d67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebb4345b-4021-4d36-a302-6ae11e8a7480")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d639cb34-b50e-4679-9b2e-e8883597598d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8257e1c-a691-4f14-aa5c-fc378769d17f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13796,7 +14381,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13804,6 +14389,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adcbe324-0c3e-4c53-a2dd-7b720af4e032")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0085677e-6be0-4782-bcaf-a1f050059435")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29a03e2a-144e-4684-9ed9-abb1e26ebf12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5444dd6c-aa9b-4dcf-80bc-b421d6b02ae0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14084,7 +14721,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14108,7 +14745,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14120,7 +14757,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14132,11 +14769,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cacf2da9-e710-420a-86ae-69403cfe16c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c836b37d-8779-4dc7-a9b5-2e7957b76477")
 			(effects
 				(font
 					(size 1 1)
@@ -14475,6 +15125,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b30269b5-40f0-4438-a916-ca3f5f2b1d09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb0e5a3c-9714-4ed1-aebd-2acc1478e08e")
 			(effects
 				(font
 					(size 1 1)
@@ -15180,7 +15843,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15205,7 +15868,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603JT10K0"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15218,7 +15881,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15231,12 +15894,25 @@
 				)
 			)
 		)
-		(property "MPN" "  RMCF0603JT10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4e20977-93bd-4389-8bd4-b5297cb910c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cec1851d-4345-4ff6-a5db-fb21d67a6b0a")
 			(effects
 				(font
 					(size 1 1)
@@ -15856,7 +16532,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15880,7 +16556,7 @@
 				)
 			)
 		)
-		(property "DPN" "A129693CT-ND"
+		(property "DPN" "RMCF0603FT2K70TR-ND"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15892,7 +16568,7 @@
 				)
 			)
 		)
-		(property "MFR" "TE"
+		(property "MFR" "Stackpole Electronics Inc "
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15904,11 +16580,24 @@
 				)
 			)
 		)
-		(property "MPN" "CRGCQ0603F2K7"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09afc704-583d-4366-bc6b-5eecd9afccca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "267cbd02-a5cf-48a7-b22a-9d19fe96306b")
 			(effects
 				(font
 					(size 1 1)
@@ -16191,7 +16880,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16215,7 +16904,7 @@
 				)
 			)
 		)
-		(property "DPN" "RR08P100KDCT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16227,7 +16916,7 @@
 				)
 			)
 		)
-		(property "MFR" "Susumu"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16239,11 +16928,24 @@
 				)
 			)
 		)
-		(property "MPN" "RR0816P-104-D"
+		(property "MPN" "RMCF0603FT100K"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a95c28c-a092-487d-bbb0-71b2868a4ae9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46dedaa7-321a-4471-b23e-066109b9cdd6")
 			(effects
 				(font
 					(size 1 1)
@@ -16526,7 +17228,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16551,7 +17253,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-100HRTR-ND"
+		(property "DPN" "RMCF0603FT100RTR-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16564,7 +17266,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yaego"
+		(property "MFR" "Stackpole Electronics Inc "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16577,12 +17279,25 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL"
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "944ec8b5-c983-4cdb-a2f3-49fb85bbb185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "333302be-6475-40d5-9f16-6931bbec84bd")
 			(effects
 				(font
 					(size 1 1)
@@ -16865,7 +17580,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16889,7 +17604,7 @@
 				)
 			)
 		)
-		(property "DPN" "RR08P100KDCT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16901,7 +17616,7 @@
 				)
 			)
 		)
-		(property "MFR" "Susumu"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16913,11 +17628,24 @@
 				)
 			)
 		)
-		(property "MPN" "RR0816P-104-D"
+		(property "MPN" "RMCF0603FT100K"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41b3f9f3-d5d7-4bd5-a27c-2716f07d3ac6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b288601c-250d-4c05-ba35-6c71a193d39c")
 			(effects
 				(font
 					(size 1 1)
@@ -17200,7 +17928,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "82.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17224,7 +17952,7 @@
 				)
 			)
 		)
-		(property "DPN" "P82.5KDBCT-ND"
+		(property "DPN" "RMCF0603FT82K5TR-ND"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17236,7 +17964,7 @@
 				)
 			)
 		)
-		(property "MFR" "Panasonic"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17248,11 +17976,24 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-3AEB8252V"
+		(property "MPN" "RMCF0603FT82K5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7043cf83-bacd-4748-b6bd-4111a5792a93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a38f4170-b293-45ff-a7c3-581082b79fc0")
 			(effects
 				(font
 					(size 1 1)
@@ -17535,7 +18276,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "560 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17559,7 +18300,7 @@
 				)
 			)
 		)
-		(property "DPN" "YAG4574TR-ND"
+		(property "DPN" "RMCF0603FT560KTR-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17571,7 +18312,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yaego"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17583,11 +18324,24 @@
 				)
 			)
 		)
-		(property "MPN" "RT0603BRD07560KL"
+		(property "MPN" "RMCF0603FT560K"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3aead14c-47bc-4592-95d2-f382e7714fa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcc3a5fc-0aae-4b89-8f52-bdbd217a849e")
 			(effects
 				(font
 					(size 1 1)
@@ -17870,7 +18624,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17906,7 +18660,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17923,6 +18677,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3cb73a4-1742-45c8-8cb7-9858e3e33f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c600c93-c7e6-445e-b8b8-3356f3203277")
 			(effects
 				(font
 					(size 1 1)
@@ -18206,7 +18973,7 @@
 				)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18264,6 +19031,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "920a5b8d-9168-4625-8eb9-c474c826f60c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0344cc67-bc71-4a78-8586-389cd4d9ac45")
 			(effects
 				(font
 					(size 1 1)
@@ -18642,7 +19422,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18666,7 +19446,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18678,7 +19458,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18690,11 +19470,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7094def6-750e-4d4b-a56c-d4589a62c034")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "520f3442-28c7-4de9-adbf-d3d0ef2b4b16")
 			(effects
 				(font
 					(size 1 1)
@@ -18977,7 +19770,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19002,7 +19795,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19015,7 +19808,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19028,12 +19821,25 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0342860c-f27b-4247-8fe2-f80e3ab8991a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea84b339-d31a-4c34-92fe-bf35b89a953a")
 			(effects
 				(font
 					(size 1 1)
@@ -19316,7 +20122,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19340,7 +20146,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19352,7 +20158,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19364,11 +20170,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f23fb84-88b3-4abe-9280-7a28f5981bf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82250fa2-48be-4c8f-b1a0-3600b5595bfe")
 			(effects
 				(font
 					(size 1 1)
@@ -19652,7 +20471,7 @@
 				)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19710,6 +20529,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bed74708-a526-4fc7-a108-70fe42358004")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d8b3955-8595-4453-81c6-087e04631c1d")
 			(effects
 				(font
 					(size 1 1)
@@ -19984,7 +20816,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20008,7 +20840,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20020,7 +20852,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20032,7 +20864,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20044,10 +20876,24 @@
 				)
 			)
 		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e19b0274-93fa-4930-b126-1d8c773b8de5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5c4415f1-d90e-44ce-bb2c-b4c8edead48f/3c6149f1-5b67-467d-bd74-7b6b790dc19f")
 		(sheetname "1u_panel-power")
 		(sheetfile "1u_panel-power.kicad_sch")
+		(attr exclude_from_bom dnp)
 		(fp_line
 			(start 0.845 0.295)
 			(end 0.555 0.295)
@@ -20643,7 +21489,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20667,7 +21513,7 @@
 				)
 			)
 		)
-		(property "DPN" "2571-GMC21X7R226M10NTTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20679,7 +21525,7 @@
 				)
 			)
 		)
-		(property "MFR" "Cal-Chip"
+		(property "MFR" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20691,11 +21537,24 @@
 				)
 			)
 		)
-		(property "MPN" "GMC21X7R226M10NT"
+		(property "MPN" "490-12389-2-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c1339c2-81fd-4a34-b2e7-459193359539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08a14222-d67f-4286-91f1-f4309d2d53d3")
 			(effects
 				(font
 					(size 1 1)
@@ -21234,7 +22093,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21242,6 +22101,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8e4f02a-f433-4f8f-bde9-bead5d5007ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "796adee4-3064-41bb-822e-a071f3af12b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d10ee2e0-7f13-48ed-b803-1cae9999bf6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66b57954-f96b-43f1-af0a-e8a37a7a0080")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21731,7 +22642,7 @@
 				)
 			)
 		)
-		(property "Description" "Low Loss PowerPath Controller, TSOT-23-6"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21756,7 +22667,7 @@
 				)
 			)
 		)
-		(property "DPN" "LTC4412ES6#TRPBFCT-ND"
+		(property "DPN" "505-LTC4412ES6#TRPBFTR-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21785,6 +22696,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e9c4927-1c78-44b8-b75d-d6f8414a214b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f93a7ed9-5009-4d93-8dec-d0ac1fcd4cb6")
 			(effects
 				(font
 					(size 1 1)
@@ -22075,7 +22999,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Temperature Sensor Digital, Local -55°C ~ 125°C 11 b SOT-23-6"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -22083,6 +23007,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ea2a990-758e-4c3a-ad54-548d99745a79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "296-27725-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19ebb2de-c866-4f2c-a5b7-05958518387c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a74f3359-259c-4766-bd40-43f05c6b9604")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TMP101NA/3K"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ac76cb7-38c3-4ab2-b184-979c4817c761")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e06a36b-505d-4bec-91e0-a69dd9317ce1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22528,7 +23517,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22536,6 +23525,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bae88b2c-3b3f-422a-bdb6-73f4cf4c850e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51630713-5ac5-4b6f-99eb-ac1b0e9142a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac2f99c8-55cc-4cca-ab7e-f9807bbec08e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c98a2b86-4ce5-4c86-a8ce-616c6277d74f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22816,7 +23857,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22841,7 +23882,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0805ZT0R00CT-ND"
+		(property "DPN" "P0.0ATR-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22854,7 +23895,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Panasonic"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22867,12 +23908,25 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0805ZT0R00"
+		(property "MPN" "ERJ-6GEY0R00V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f25c4b8e-1388-481e-b003-637d1d7a6ea8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cab21eb-5012-4bcf-b819-e21cb3a20bc6")
 			(effects
 				(font
 					(size 1 1)
@@ -23099,7 +24153,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23123,7 +24177,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23135,7 +24189,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23147,11 +24201,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf38351c-495b-4be0-bd71-456329e10c80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0d8ea7b-d373-42e9-ad74-3a9568ba3977")
 			(effects
 				(font
 					(size 1 1)
@@ -23435,7 +24502,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Boost Switching Regulator IC Positive Adjustable 1.263V 1 Output 1.5A (Switch) 10-TFSOP, 10-MSOP (0.118\", 3.00mm Width)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23461,7 +24528,7 @@
 				)
 			)
 		)
-		(property "DPN" "LT1618EMS#TRPBFCT-ND"
+		(property "DPN" "LT1618EMS#TRPBFTR-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23474,7 +24541,7 @@
 				)
 			)
 		)
-		(property "MFR" "Linear Technologies"
+		(property "MFR" "Analog Devices Inc."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23487,12 +24554,25 @@
 				)
 			)
 		)
-		(property "MPN" "LT1618EMS#TRPBF"
+		(property "MPN" "IC REG BOOST ADJ 1.5A 10MSOP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc1a0144-c527-41e7-8982-9bae5b2965ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81d03fb5-a714-4d10-8f1d-a001805ea097")
 			(effects
 				(font
 					(size 1 1)
@@ -23913,7 +24993,7 @@
 				)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23971,6 +25051,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ea7777e-96a5-4395-b146-6a5778cf5415")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32b0f09a-e691-4fcf-b00f-fd44e5d97f2d")
 			(effects
 				(font
 					(size 1 1)
@@ -24350,7 +25443,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24374,7 +25467,7 @@
 				)
 			)
 		)
-		(property "DPN" "13-RE0603FRE074K7LCT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24386,7 +25479,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24398,11 +25491,24 @@
 				)
 			)
 		)
-		(property "MPN" "RE0603FRE074K7L"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd345726-5578-410c-8b79-839063768b13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5398f0e9-9239-429d-b00c-a092bb12f2df")
 			(effects
 				(font
 					(size 1 1)
@@ -24685,7 +25791,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24710,7 +25816,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-100HRTR-ND"
+		(property "DPN" "RMCF0603FT100RTR-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24723,7 +25829,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yaego"
+		(property "MFR" "Stackpole Electronics Inc "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24736,12 +25842,25 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL"
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f06e9071-35e9-48d3-a7db-17d48444b09a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa0de44a-dce8-404e-b8a1-66cf5f411be5")
 			(effects
 				(font
 					(size 1 1)
@@ -25024,7 +26143,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25032,6 +26151,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdd2ab83-ced1-4280-81f2-948719eca28d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcccd162-bb2c-4bed-b24f-672cffb7cea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3db7d01e-5bd8-42f5-874f-b924fce11423")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4dbe2a3-d3a9-4b04-8984-864da67c7f0b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25276,7 +26447,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NRVB130TGSOD123"
+		(property "Value" "NRVB130LSFT1G"
 			(at -1.8 2 180)
 			(layer "F.Fab")
 			(uuid "3ec5bdb3-de65-4a6a-94d4-57cdaf84801a")
@@ -25312,7 +26483,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode 30 V 1A Surface Mount SOD-123FL"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25336,7 +26507,7 @@
 				)
 			)
 		)
-		(property "DPN" "NRVB130T3GOSCT-ND"
+		(property "DPN" "NRVB130LSFT1GOSTR-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25360,11 +26531,24 @@
 				)
 			)
 		)
-		(property "MPN" "NRVB130T3G"
+		(property "MPN" "NRVB130LSFT1G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a749c5e-90b6-41d0-b275-0a051af73e3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd49b9d-53bf-4a98-a9a0-18cb8a5bf76f")
 			(effects
 				(font
 					(size 1 1)
@@ -25616,7 +26800,7 @@
 				)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25674,6 +26858,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fe70e67-478a-489b-9756-b0f31768217b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ada9a23d-2ff7-49ef-a166-5a3f0dcef71d")
 			(effects
 				(font
 					(size 1 1)
@@ -25948,7 +27145,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25973,7 +27170,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25986,7 +27183,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25999,12 +27196,25 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd2a811f-93b1-4c7a-b859-a35512ca4893")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f5e34f8-6360-4b3a-bef9-55427c5e1e56")
 			(effects
 				(font
 					(size 1 1)
@@ -26287,7 +27497,7 @@
 				)
 			)
 		)
-		(property "Description" "IC TRANSCEIVER 1/1 SOT23-8"
+		(property "Description" "1/1 Transceiver CANbus SOT-23-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26295,6 +27505,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d07c1ef-3412-4814-a30a-b7cf8f088504")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "296-44211-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e46f5401-f527-413c-b2b1-c90f370c9eed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ed95c4e-2ac0-49cb-8095-5bcff2ce1f66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TCAN330GDCNT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31ad55d6-2a54-4f0d-bff2-958c9cc24b94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed481637-e4ff-45a6-be7b-49c80650c040")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26639,7 +27914,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "1 µH Shielded Drum Core, Wirewound Inductor 3.7 A 29mOhm Max Nonstandard"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26647,6 +27922,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e8336b6-f1a6-4444-b585-733155dcce42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "490-14160-2-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2e640fc-2b48-4a53-b63a-3bb068469fce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dd92043-31f1-4dd4-9f9d-99064848c6d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1227AS-H-1R0N=P2"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d18c7e7-8780-45c7-9db8-9e3732d19d65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be6a3bd6-a588-4830-9291-517861cb5e85")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26905,7 +28245,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26929,7 +28269,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26941,7 +28281,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26953,11 +28293,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe2d0889-7057-41a4-9c16-64fbed324eba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3294d3fb-cb6e-4a97-aac4-1ad9b825b712")
 			(effects
 				(font
 					(size 1 1)
@@ -27241,7 +28594,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27265,7 +28618,7 @@
 				)
 			)
 		)
-		(property "DPN" "13-RE0603FRE074K7LCT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27277,7 +28630,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27289,11 +28642,24 @@
 				)
 			)
 		)
-		(property "MPN" "RE0603FRE074K7L"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "187edfc0-c384-40ae-a929-bb4a74c54a8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "205d44da-f6b6-4143-a926-66f8ffab7442")
 			(effects
 				(font
 					(size 1 1)
@@ -27682,7 +29048,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27706,7 +29072,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27718,7 +29084,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27730,11 +29096,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89ff8235-75af-4260-8419-b27a39ab61cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed3282ae-78ca-4869-b081-843f54812111")
 			(effects
 				(font
 					(size 1 1)
@@ -28018,7 +29397,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 Position FPC Connector Contacts, Bottom 0.020\" (0.50mm) Surface Mount, Right Angle"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28043,7 +29422,7 @@
 				)
 			)
 		)
-		(property "DPN" "A100287TR-ND"
+		(property "DPN" "A100287CT-ND"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28055,7 +29434,7 @@
 				)
 			)
 		)
-		(property "MFR" "TE"
+		(property "MFR" "TE Connectivity AMP Connectors"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28072,6 +29451,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02c5a209-36ce-4c67-9ab8-c36cb5e1a8f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8122c8a1-f694-4934-a2c7-8ef3cc702ebe")
 			(effects
 				(font
 					(size 1 1)
@@ -28652,7 +30044,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28676,7 +30068,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28688,7 +30080,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28700,11 +30092,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0d7c55d-bd99-44c0-b455-2ec0f55df66d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b289391c-d0bc-4410-89eb-4f92e3349e42")
 			(effects
 				(font
 					(size 1 1)
@@ -29091,7 +30496,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29115,7 +30520,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-10516-2-ND"
+		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29127,7 +30532,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29139,11 +30544,24 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR71A106KA73L"
+		(property "MPN" "GRT21BC71E106KE13L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "133ce78c-0b33-4c51-a0c7-74570258dd90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01e4f1bb-8d54-4a56-90ef-8a9ac05d2d74")
 			(effects
 				(font
 					(size 1 1)
@@ -29370,7 +30788,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29394,7 +30812,7 @@
 				)
 			)
 		)
-		(property "DPN" "A129693CT-ND"
+		(property "DPN" "RMCF0603FT2K70TR-ND"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29406,7 +30824,7 @@
 				)
 			)
 		)
-		(property "MFR" "TE"
+		(property "MFR" "Stackpole Electronics Inc "
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29418,11 +30836,24 @@
 				)
 			)
 		)
-		(property "MPN" "CRGCQ0603F2K7"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92ff9289-3250-4873-8462-9bc54f8657f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4712c913-4a70-4d41-b4be-012e04d687f6")
 			(effects
 				(font
 					(size 1 1)
@@ -29705,7 +31136,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29730,7 +31161,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-100HRTR-ND"
+		(property "DPN" "RMCF0603FT100RTR-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29743,7 +31174,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yaego"
+		(property "MFR" "Stackpole Electronics Inc "
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29756,12 +31187,25 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL"
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2d67ff7-92b4-4437-95aa-5ea304fec5cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "662d2a1a-9f7f-487e-a89c-1f6803c778ea")
 			(effects
 				(font
 					(size 1 1)
@@ -30150,7 +31594,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M0 MCU, 256KB flash, 32KB RAM, 48 MHz, 2.0-3.6V, 38 GPIO, UFQFPN48"
+		(property "Description" "ARM® Cortex®-M0 STM32F0 Microcontroller IC 32-Bit Single-Core 48MHz 256KB (256K x 8) FLASH 48-LQFP (7x7)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30176,7 +31620,7 @@
 				)
 			)
 		)
-		(property "DPN" "497-18749-1-ND"
+		(property "DPN" "STM32F091CCT7TR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30202,12 +31646,25 @@
 				)
 			)
 		)
-		(property "MPN" "STM32F091CCT6TR"
+		(property "MPN" "STM32F091CCT7TR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d666cb68-e862-487c-9df2-d148ab38561e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "114b79b3-e62c-4313-a16e-d97813d5b5a1")
 			(effects
 				(font
 					(size 1 1)
@@ -31158,7 +32615,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31166,6 +32623,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fcebd0b-f6d7-458d-b0bb-3e072a940e38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78b92102-a2b9-43a7-a136-4f8f084c55ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82ad7e83-35e6-4167-9b00-74e24db651af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d43e99bb-dd7b-4361-84e9-7a01f8af61f8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31446,7 +32955,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 nF (10000pF) ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31470,7 +32979,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-4781-2-ND"
+		(property "DPN" "399-14102-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31482,7 +32991,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31494,11 +33003,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCM188R72A103KA37D"
+		(property "MPN" "C0603C103J3GECAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63e78a5e-f644-4a7b-947b-75ef0e8e4055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8dd0f9f-aabe-4658-82f7-b6c3dd4dc868")
 			(effects
 				(font
 					(size 1 1)
@@ -31781,7 +33303,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31805,7 +33327,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-8011-2-ND"
+		(property "DPN" "399-6840-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31817,7 +33339,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31829,11 +33351,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCM1885G1H100JA16D"
+		(property "MPN" "C0603C100J5GACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e21ab8c8-08df-45b8-adbd-18fe8178dd7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b181676a-a374-4ff3-a3bf-7f3693481b5a")
 			(effects
 				(font
 					(size 1 1)
@@ -32117,7 +33652,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32141,7 +33676,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603JT10K0"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32153,7 +33688,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32165,11 +33700,24 @@
 				)
 			)
 		)
-		(property "MPN" "  RMCF0603JT10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bc1a875b-3281-49c3-97a3-5f6e8a9d1b21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "793742c3-c93c-4fc8-b1dd-b090d85d8c75")
 			(effects
 				(font
 					(size 1 1)
@@ -32452,7 +34000,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 mOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Current Sense Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32509,6 +34057,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "795b0bf8-ddef-4a1a-aa44-39345c7d08e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9cf09b4-a169-4043-b7f1-68dc06340a91")
 			(effects
 				(font
 					(size 1 1)
@@ -32735,7 +34296,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32760,7 +34321,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32773,7 +34334,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32786,12 +34347,25 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77d5f74d-1543-4775-ba2a-0c9f1cad2c91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6c09e3b-25b1-48e7-908b-8bed9f120bb4")
 			(effects
 				(font
 					(size 1 1)
@@ -33075,7 +34649,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33126,7 +34700,7 @@
 				)
 			)
 		)
-		(property "DPN" "12-1N4151WS-E3-08TR-ND"
+		(property "DPN" "112-1N4151WS-E3-08CT-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33152,12 +34726,25 @@
 				)
 			)
 		)
-		(property "MPN" "  1N4151WS-E3-08"
+		(property "MPN" "1N4151WS-E3-08"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c3a425e-ffd3-484a-ab57-a6746bc886fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e4fccf9-a5fe-4e0b-8848-071b462cf083")
 			(effects
 				(font
 					(size 1 1)
@@ -33469,7 +35056,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33494,7 +35081,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-100HRTR-ND"
+		(property "DPN" "RMCF0603FT100RTR-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33507,7 +35094,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yaego"
+		(property "MFR" "Stackpole Electronics Inc "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33520,12 +35107,25 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL"
+		(property "MPN" "RMCF0603FT100R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d0d6a7c-a284-45c7-98fe-ddb308fa7ed0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c50cd77f-ad74-4ac5-9dbe-6c6ef5f0a2f7")
 			(effects
 				(font
 					(size 1 1)
@@ -33809,7 +35409,7 @@
 				)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33867,6 +35467,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a1c2e0f-836c-480e-946e-2a256cf990bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d13826e7-7c60-461d-99de-81e38392a4e2")
 			(effects
 				(font
 					(size 1 1)
@@ -34142,7 +35755,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34166,7 +35779,7 @@
 				)
 			)
 		)
-		(property "DPN" "2571-GMC21X7R226M10NTTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34178,7 +35791,7 @@
 				)
 			)
 		)
-		(property "MFR" "Cal-Chip"
+		(property "MFR" "Murata"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34190,11 +35803,24 @@
 				)
 			)
 		)
-		(property "MPN" "GMC21X7R226M10NT"
+		(property "MPN" "490-12389-2-ND"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e71fb51-ea7c-40ff-acce-6734331b5fd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c251ce9c-97c9-4b5e-b6a7-b42f8008e68a")
 			(effects
 				(font
 					(size 1 1)
@@ -34422,7 +36048,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -34473,7 +36099,7 @@
 				)
 			)
 		)
-		(property "DPN" "12-1N4151WS-E3-08TR-ND"
+		(property "DPN" "112-1N4151WS-E3-08CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34499,12 +36125,25 @@
 				)
 			)
 		)
-		(property "MPN" "  1N4151WS-E3-08"
+		(property "MPN" "1N4151WS-E3-08"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cedf118c-c673-4f22-803c-51e74b1dda24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec903156-e2af-426d-80ef-007734828cd8")
 			(effects
 				(font
 					(size 1 1)
@@ -34817,7 +36456,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34841,7 +36480,7 @@
 				)
 			)
 		)
-		(property "DPN" "2571-GMC21X7R226M10NTTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34853,7 +36492,7 @@
 				)
 			)
 		)
-		(property "MFR" "Cal-Chip"
+		(property "MFR" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34865,11 +36504,24 @@
 				)
 			)
 		)
-		(property "MPN" "GMC21X7R226M10NT"
+		(property "MPN" "490-12389-2-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d01cee90-3706-43cf-9c42-1b4b9ba2835f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3ce6ed4-c02d-477a-a2eb-4e9f2cf733f7")
 			(effects
 				(font
 					(size 1 1)
@@ -35096,7 +36748,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35121,7 +36773,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35134,7 +36786,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35147,12 +36799,25 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc3d742d-d842-4527-90eb-b1fd28837764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d70f72e-8d00-4fa7-a3f1-0492184d37f8")
 			(effects
 				(font
 					(size 1 1)
@@ -35540,7 +37205,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35564,7 +37229,7 @@
 				)
 			)
 		)
-		(property "DPN" "2571-GMC21X7R226M10NTTR-ND"
+		(property "DPN" "GRT21BR61E226ME13L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35576,7 +37241,7 @@
 				)
 			)
 		)
-		(property "MFR" "Cal-Chip"
+		(property "MFR" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35588,11 +37253,24 @@
 				)
 			)
 		)
-		(property "MPN" "GMC21X7R226M10NT"
+		(property "MPN" "490-12389-2-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c5e3106d-2485-49c8-878f-0f33c28b6f46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f5f972d-ada8-4373-af7e-f1a55ac836d9")
 			(effects
 				(font
 					(size 1 1)
@@ -35819,7 +37497,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35844,7 +37522,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35857,7 +37535,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35870,12 +37548,25 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "011368aa-9a6d-4d74-b7d6-bfe18d4421b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd34d213-5def-41e6-a0c5-a33393fdb794")
 			(effects
 				(font
 					(size 1 1)
@@ -36158,7 +37849,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36182,7 +37873,7 @@
 				)
 			)
 		)
-		(property "DPN" "RR08P100KDCT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -36194,7 +37885,7 @@
 				)
 			)
 		)
-		(property "MFR" "Susumu"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -36206,11 +37897,24 @@
 				)
 			)
 		)
-		(property "MPN" "RR0816P-104-D"
+		(property "MPN" "RMCF0603FT100K"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5203f9e0-0cfe-4b47-8545-e25d5b345f0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7b28525-4a69-4b33-877d-9029beef78ba")
 			(effects
 				(font
 					(size 1 1)
@@ -36493,7 +38197,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36517,7 +38221,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GRM188Z71C475KE21JTR-ND"
+		(property "DPN" "1276-1784-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36529,7 +38233,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36541,11 +38245,24 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188Z71C475KE21J"
+		(property "MPN" "CL10A475KO8NNNC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d52d4b4-06f7-4b3d-b11b-8c8bb20e76a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f81d9348-2ba2-4ab7-9330-56759a8e0ee3")
 			(effects
 				(font
 					(size 1 1)
@@ -36828,7 +38545,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -36852,7 +38569,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0805ZT0R00CT-ND"
+		(property "DPN" "P0.0ATR-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36864,7 +38581,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36876,11 +38593,24 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0805ZT0R00"
+		(property "MPN" "ERJ-6GEY0R00V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36d84e21-e29a-4fbb-a8ee-ad5812f63957")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfff2057-bcf6-40e9-b9ba-a2cf490b54d0")
 			(effects
 				(font
 					(size 1 1)
@@ -37107,7 +38837,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37132,7 +38862,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-1946-2-ND"
+		(property "DPN" "587-3473-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37145,7 +38875,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37158,12 +38888,25 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KP8NNNC"
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bdb9978-16a7-4e04-9a05-417c8a4d3152")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78044caa-287c-425f-bc0f-c705f2d82c9d")
 			(effects
 				(font
 					(size 1 1)
@@ -37447,7 +39190,7 @@
 				)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37505,6 +39248,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7633f3e7-c142-498b-995e-b0fd860d0289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "140508bd-9f8e-42c1-b9a5-33c08488ca47")
 			(effects
 				(font
 					(size 1 1)
@@ -37780,7 +39536,7 @@
 				)
 			)
 		)
-		(property "Description" "2.6A Ideal Diode, SOT23-5"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 1:1 TSOT-23-5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37838,6 +39594,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e204712-69a6-429e-96ac-2c349cb9aa55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d247acb-d427-4a2e-90a4-4cd4881102de")
 			(effects
 				(font
 					(size 1 1)
@@ -38112,7 +39881,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -38137,7 +39906,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-1.00MHRTR-ND"
+		(property "DPN" "RMCF0603FG1M00CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38150,7 +39919,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yaego"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38163,12 +39932,25 @@
 				)
 			)
 		)
-		(property "MPN" "  RC0603FR-071ML"
+		(property "MPN" "RMCF0603FG1M00"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df670b6d-59c1-4626-a5c7-1088043fa793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee0ee9bf-091f-41ed-bbca-28b15a6b5215")
 			(effects
 				(font
 					(size 1 1)
@@ -38452,7 +40234,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38476,7 +40258,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-5798-2-ND"
+		(property "DPN" "587-3472-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38488,7 +40270,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Taiyo Yuden"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38500,11 +40282,24 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "068845d2-4524-497a-9b5b-4341b2242c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61bb909d-e899-4c88-847c-85f604628c59")
 			(effects
 				(font
 					(size 1 1)
@@ -38788,7 +40583,7 @@
 				)
 			)
 		)
-		(property "Description" "P-Channel Power MOSFET, SOT-23-6"
+		(property "Description" "P-Channel 30 V 4.5A (Ta) 1.8W (Ta) Surface Mount TSOT-26"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38825,7 +40620,7 @@
 				)
 			)
 		)
-		(property "MFR" "Diodes Inc."
+		(property "MFR" "Diodes Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38842,6 +40637,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8423916b-7c4f-4cec-8bab-d2efb6a2fee6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02889e26-72c5-42a8-be52-1c9b790e9861")
 			(effects
 				(font
 					(size 1 1)
@@ -39132,7 +40940,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39140,6 +40948,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" "P0.0GTR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62bc0d7a-875e-4aa2-a80e-2130b7fb5dc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d03f390-985c-43e9-b6a1-838ebe9392f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4456e04b-9f27-49bd-83c2-f0d82c1d45ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-3GEY0R00V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d49e3b65-b858-403e-bedc-ca64b9c23949")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -39420,7 +41280,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 Position Receptacle Connector 0.079\" (2.00mm) Surface Mount, Right Angle Gold"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39428,6 +41288,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45ac491c-c7c6-4f86-be70-59bf035775c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DPN" " SAM1237-04-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14901e3c-444f-423b-a9b2-3bb2e543bb40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR" "Samtec"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cf16301-a8dc-42a3-adb7-833032d1c1e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "  MMS-104-02-L-SH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56d3c24e-aa9b-4fe5-b90f-9f35f0600f53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f8e2985-7345-43f5-b684-1d2c7b8fdc23")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -40254,7 +42179,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 26.3 mW 5.53 V"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40316,6 +42241,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "06986c72-9cd5-4754-80d0-9b92a6fbe098")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7797893c-2f7f-420e-a8aa-59dd10217a71")
 			(effects
 				(font
 					(size 1 1)
@@ -40536,7 +42475,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -40562,7 +42501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DPN" "1830-1064-1-ND"
+		(property "DPN" "732-4971-1-ND"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -40575,7 +42514,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFR" "Inolux"
+		(property "MFR" "Wurth"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -40588,11 +42527,25 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "IN-S63AT5A"
+		(property "MPN" "150060GS75000"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5e0e6a41-6c51-4589-9e1a-0ffbba316841")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "610823b8-4653-4bfb-9e6b-0733fe0263f7")
 			(effects
 				(font
 					(size 1 1)
@@ -40732,7 +42685,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 			(at 0 0 -90)
 			(layer "B.Fab")
 			(hide yes)
@@ -40758,7 +42711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DPN" "1830-1064-1-ND"
+		(property "DPN" "732-150060AS75000TR-ND"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -40771,7 +42724,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFR" "Inolux"
+		(property "MFR" "Wurth"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -40784,11 +42737,25 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "IN-S63AT5A"
+		(property "MPN" "150060AS75000"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d9aeedf1-fdc1-46a7-9085-94812439ab83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9db2d41-5466-4e9c-a06e-c9da68e3c058")
 			(effects
 				(font
 					(size 1 1)
@@ -40934,7 +42901,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 0 22 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40996,6 +42963,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "32aff441-c21e-43e0-b97c-30449b331f4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c4c2c94-1e58-4a2c-a553-884ba230524c")
 			(effects
 				(font
 					(size 1 1)
@@ -41261,7 +43242,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 0 22 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41323,6 +43304,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f457a4c6-e96e-4e77-aa16-12b454ed2654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "52ba08d4-4d09-4143-a2c6-f5789de2b3f4")
 			(effects
 				(font
 					(size 1 1)
@@ -41588,7 +43583,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 0 22 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41650,6 +43645,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "97e4fdac-7971-43ca-944e-4691ed7170cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "974d1179-21ba-4178-ba9d-5f6e38064057")
 			(effects
 				(font
 					(size 1 1)
@@ -41915,7 +43924,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 0 22 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41977,6 +43986,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6ce77bd0-2076-4b25-b1ca-879b9f988462")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12809808-b17b-41e9-9d95-df9b29488d66")
 			(effects
 				(font
 					(size 1 1)
@@ -42243,7 +44266,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 26.3 mW 5.53 V"
 			(at 0 12 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42305,6 +44328,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f6e9ef78-b294-4e0e-9c2e-317726ff8690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "63d51a1b-38e4-4121-a7bd-5db001ac4d5a")
 			(effects
 				(font
 					(size 1 1)
@@ -42530,7 +44567,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 0 22 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42592,6 +44629,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "96604f26-810f-4743-aa3c-4039d2ec7e9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d696729b-ff18-4c46-8862-d775e8c08a32")
 			(effects
 				(font
 					(size 1 1)
@@ -42857,7 +44908,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Monocrystalline Solar Cell 179.6 mW 5.53 V"
 			(at 0 22 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42919,6 +44970,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c76d3147-b451-462f-8de2-b943bb4343ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "772730d7-88d9-47c5-999d-c679779c2a30")
 			(effects
 				(font
 					(size 1 1)
@@ -61127,43 +63192,43 @@
 				(xy 124.898607 88.990573) (xy 124.935142 88.995896) (xy 124.980438 89.020274) (xy 124.999466 89.068065)
 				(xy 124.9995 89.07031) (xy 124.9995 90.939562) (xy 125.004964 90.959953) (xy 125.019979 91.01599)
 				(xy 125.044724 91.058849) (xy 125.044725 91.05885) (xy 125.05954 91.084512) (xy 125.85954 91.884511)
-				(xy 125.915489 91.94046) (xy 125.984011 91.980021) (xy 126.060438 92.0005) (xy 126.6743 92.0005)
-				(xy 126.722638 92.018093) (xy 126.748358 92.062642) (xy 126.7495 92.0757) (xy 126.7495 92.503743)
-				(xy 126.731907 92.552081) (xy 126.687358 92.577801) (xy 126.6367 92.568868) (xy 126.61617 92.55145)
-				(xy 126.595037 92.525699) (xy 126.574299 92.504961) (xy 126.543165 92.47941) (xy 126.543161 92.479407)
-				(xy 126.54316 92.479406) (xy 126.50314 92.452665) (xy 126.467604 92.433671) (xy 126.467602 92.43367)
-				(xy 126.467598 92.433668) (xy 126.4405 92.422445) (xy 126.415265 92.414791) (xy 126.401959 92.410755)
-				(xy 126.401956 92.410754) (xy 126.401955 92.410754) (xy 126.365302 92.403463) (xy 126.365226 92.403448)
-				(xy 126.347349 92.399893) (xy 126.347337 92.399891) (xy 126.347331 92.39989) (xy 126.347316 92.399887)
-				(xy 126.327423 92.396937) (xy 126.327421 92.396936) (xy 126.327409 92.396935) (xy 126.31274 92.39549)
-				(xy 126.31273 92.395489) (xy 126.312709 92.395488) (xy 126.292626 92.3945) (xy 126.292594 92.3945)
-				(xy 124.607406 92.3945) (xy 124.607373 92.3945) (xy 124.58729 92.395488) (xy 124.587266 92.395489)
-				(xy 124.58726 92.39549) (xy 124.572591 92.396935) (xy 124.572564 92.396938) (xy 124.572556 92.39694)
-				(xy 124.552677 92.399888) (xy 124.552636 92.399895) (xy 124.538644 92.402677) (xy 124.538638 92.402679)
-				(xy 124.53706 92.402992) (xy 124.537058 92.402993) (xy 124.530025 92.404392) (xy 124.498048 92.410752)
-				(xy 124.498036 92.410755) (xy 124.459486 92.422449) (xy 124.4324 92.433668) (xy 124.432397 92.433669)
-				(xy 124.396868 92.452659) (xy 124.396867 92.45266) (xy 124.396864 92.452661) (xy 124.396862 92.452663)
-				(xy 124.38079 92.463402) (xy 124.356835 92.479408) (xy 124.325697 92.504963) (xy 124.325687 92.504972)
-				(xy 124.304972 92.525687) (xy 124.304963 92.525697) (xy 124.279408 92.556835) (xy 124.279407 92.556837)
-				(xy 124.254242 92.5945) (xy 124.25266 92.596867) (xy 124.252659 92.596868) (xy 124.233669 92.632397)
-				(xy 124.233668 92.6324) (xy 124.222449 92.659486) (xy 124.210755 92.698036) (xy 124.210751 92.698052)
-				(xy 124.202991 92.737067) (xy 124.202992 92.737068) (xy 124.19989 92.75266) (xy 124.199888 92.752677)
-				(xy 124.197969 92.76562) (xy 124.196935 92.772591) (xy 124.19549 92.78726) (xy 124.19549 92.787262)
-				(xy 124.195488 92.78729) (xy 124.1945 92.807373) (xy 119.35159 92.807373) (xy 119.35159 92.754789)
-				(xy 119.3516 92.754638) (xy 119.3516 92.65269) (xy 119.35159 92.652534) (xy 119.35159 90.329305)
-				(xy 119.369183 90.280967) (xy 119.413732 90.255247) (xy 119.42679 90.254105) (xy 119.530834 90.254105)
-				(xy 119.550327 90.250227) (xy 119.589316 90.242472) (xy 119.655637 90.198157) (xy 119.699952 90.131836)
-				(xy 119.711585 90.073353) (xy 119.711585 89.5893) (xy 119.729178 89.540962) (xy 119.773727 89.515242)
-				(xy 119.786785 89.5141) (xy 121.882541 89.5141) (xy 121.882544 89.5141) (xy 121.971688 89.490214)
-				(xy 122.051612 89.44407) (xy 123.78047 87.715212) (xy 123.826614 87.635288) (xy 123.844759 87.567568)
-				(xy 123.8505 87.546144) (xy 123.8505 81.500883) (xy 123.868093 81.452545) (xy 123.912642 81.426825)
-				(xy 123.946884 81.428728) (xy 124.034653 81.4545) (xy 124.034656 81.4545) (xy 124.165344 81.4545)
-				(xy 124.165347 81.4545) (xy 124.290748 81.417679) (xy 124.400695 81.347021) (xy 124.486282 81.248248)
-				(xy 124.522243 81.169503) (xy 124.540572 81.129369) (xy 124.540572 81.129368) (xy 124.540574 81.129364)
-				(xy 124.559174 81) (xy 124.540574 80.870636) (xy 124.540572 80.870631) (xy 124.540572 80.87063)
-				(xy 124.486283 80.751754) (xy 124.486279 80.751747) (xy 124.433269 80.690572) (xy 124.400695 80.652979)
-				(xy 124.290748 80.582321) (xy 124.290746 80.58232) (xy 124.290744 80.582319) (xy 124.165349 80.5455)
-				(xy 124.165347 80.5455) (xy 124.034653 80.5455) (xy 124.03465 80.5455) (xy 123.909253 80.58232)
+				(xy 125.915489 91.94046) (xy 125.984011 91.980021) (xy 126.060438 92.0005) (xy 126.139562 92.0005)
+				(xy 126.6743 92.0005) (xy 126.722638 92.018093) (xy 126.748358 92.062642) (xy 126.7495 92.0757)
+				(xy 126.7495 92.503743) (xy 126.731907 92.552081) (xy 126.687358 92.577801) (xy 126.6367 92.568868)
+				(xy 126.61617 92.55145) (xy 126.595037 92.525699) (xy 126.574299 92.504961) (xy 126.543165 92.47941)
+				(xy 126.543161 92.479407) (xy 126.54316 92.479406) (xy 126.50314 92.452665) (xy 126.467604 92.433671)
+				(xy 126.467602 92.43367) (xy 126.467598 92.433668) (xy 126.4405 92.422445) (xy 126.415265 92.414791)
+				(xy 126.401959 92.410755) (xy 126.401956 92.410754) (xy 126.401955 92.410754) (xy 126.365302 92.403463)
+				(xy 126.365226 92.403448) (xy 126.347349 92.399893) (xy 126.347337 92.399891) (xy 126.347331 92.39989)
+				(xy 126.347316 92.399887) (xy 126.327423 92.396937) (xy 126.327421 92.396936) (xy 126.327409 92.396935)
+				(xy 126.31274 92.39549) (xy 126.31273 92.395489) (xy 126.312709 92.395488) (xy 126.292626 92.3945)
+				(xy 126.292594 92.3945) (xy 124.607406 92.3945) (xy 124.607373 92.3945) (xy 124.58729 92.395488)
+				(xy 124.587266 92.395489) (xy 124.58726 92.39549) (xy 124.572591 92.396935) (xy 124.572564 92.396938)
+				(xy 124.572556 92.39694) (xy 124.552677 92.399888) (xy 124.552636 92.399895) (xy 124.538644 92.402677)
+				(xy 124.538638 92.402679) (xy 124.53706 92.402992) (xy 124.537058 92.402993) (xy 124.530025 92.404392)
+				(xy 124.498048 92.410752) (xy 124.498036 92.410755) (xy 124.459486 92.422449) (xy 124.4324 92.433668)
+				(xy 124.432397 92.433669) (xy 124.396868 92.452659) (xy 124.396867 92.45266) (xy 124.396864 92.452661)
+				(xy 124.396862 92.452663) (xy 124.38079 92.463402) (xy 124.356835 92.479408) (xy 124.325697 92.504963)
+				(xy 124.325687 92.504972) (xy 124.304972 92.525687) (xy 124.304963 92.525697) (xy 124.279408 92.556835)
+				(xy 124.279407 92.556837) (xy 124.254242 92.5945) (xy 124.25266 92.596867) (xy 124.252659 92.596868)
+				(xy 124.233669 92.632397) (xy 124.233668 92.6324) (xy 124.222449 92.659486) (xy 124.210755 92.698036)
+				(xy 124.210751 92.698052) (xy 124.202991 92.737067) (xy 124.202992 92.737068) (xy 124.19989 92.75266)
+				(xy 124.199888 92.752677) (xy 124.197969 92.76562) (xy 124.196935 92.772591) (xy 124.19549 92.78726)
+				(xy 124.19549 92.787262) (xy 124.195488 92.78729) (xy 124.1945 92.807373) (xy 119.35159 92.807373)
+				(xy 119.35159 92.754789) (xy 119.3516 92.754638) (xy 119.3516 92.65269) (xy 119.35159 92.652534)
+				(xy 119.35159 90.329305) (xy 119.369183 90.280967) (xy 119.413732 90.255247) (xy 119.42679 90.254105)
+				(xy 119.530834 90.254105) (xy 119.550327 90.250227) (xy 119.589316 90.242472) (xy 119.655637 90.198157)
+				(xy 119.699952 90.131836) (xy 119.711585 90.073353) (xy 119.711585 89.5893) (xy 119.729178 89.540962)
+				(xy 119.773727 89.515242) (xy 119.786785 89.5141) (xy 121.882541 89.5141) (xy 121.882544 89.5141)
+				(xy 121.971688 89.490214) (xy 122.051612 89.44407) (xy 123.78047 87.715212) (xy 123.826614 87.635288)
+				(xy 123.844759 87.567568) (xy 123.8505 87.546144) (xy 123.8505 81.500883) (xy 123.868093 81.452545)
+				(xy 123.912642 81.426825) (xy 123.946884 81.428728) (xy 124.034653 81.4545) (xy 124.034656 81.4545)
+				(xy 124.165344 81.4545) (xy 124.165347 81.4545) (xy 124.290748 81.417679) (xy 124.400695 81.347021)
+				(xy 124.486282 81.248248) (xy 124.522243 81.169503) (xy 124.540572 81.129369) (xy 124.540572 81.129368)
+				(xy 124.540574 81.129364) (xy 124.559174 81) (xy 124.540574 80.870636) (xy 124.540572 80.870631)
+				(xy 124.540572 80.87063) (xy 124.486283 80.751754) (xy 124.486279 80.751747) (xy 124.433269 80.690572)
+				(xy 124.400695 80.652979) (xy 124.290748 80.582321) (xy 124.290746 80.58232) (xy 124.290744 80.582319)
+				(xy 124.165349 80.5455) (xy 124.165347 80.5455) (xy 124.034653 80.5455) (xy 124.03465 80.5455) (xy 123.909253 80.58232)
 				(xy 123.840655 80.626404) (xy 123.790479 80.637736) (xy 123.759345 80.626404) (xy 123.705859 80.592032)
 				(xy 123.690748 80.582321) (xy 123.690747 80.58232) (xy 123.690746 80.58232) (xy 123.565349 80.5455)
 				(xy 123.565347 80.5455) (xy 123.434653 80.5455) (xy 123.43465 80.5455) (xy 123.309255 80.582319)
@@ -61638,81 +63703,81 @@
 				(xy 142.043817 104.502966) (xy 142.038394 104.451816) (xy 142.0582 104.41677) (xy 142.27796 104.197011)
 				(xy 142.299423 104.159836) (xy 142.317521 104.128489) (xy 142.323483 104.106235) (xy 142.352988 104.0641)
 				(xy 142.396121 104.0505) (xy 142.759138 104.0505) (xy 142.796738 104.060575) (xy 142.806811 104.066391)
-				(xy 142.806813 104.066391) (xy 142.806814 104.066392) (xy 142.934108 104.1005) (xy 143.078706 104.1005)
-				(xy 143.127044 104.118093) (xy 143.152764 104.162642) (xy 143.145028 104.211147) (xy 143.133667 104.232402)
-				(xy 143.122449 104.259486) (xy 143.110755 104.298036) (xy 143.110751 104.298052) (xy 143.102991 104.337067)
-				(xy 143.102992 104.337068) (xy 143.09989 104.35266) (xy 143.099888 104.352677) (xy 143.09694 104.372556)
-				(xy 143.096935 104.372591) (xy 143.096935 104.372592) (xy 143.096935 104.372596) (xy 143.09549 104.387262)
-				(xy 143.095488 104.38729) (xy 143.0945 104.407373) (xy 143.0945 105.792625) (xy 143.095488 105.812708)
-				(xy 143.09549 105.812741) (xy 143.099134 105.849733) (xy 143.100978 105.852809) (xy 143.110753 105.901956)
-				(xy 143.122444 105.940497) (xy 143.122448 105.940508) (xy 143.133668 105.967598) (xy 143.13367 105.967602)
-				(xy 143.133671 105.967604) (xy 143.152665 106.00314) (xy 143.179406 106.04316) (xy 143.179409 106.043164)
-				(xy 143.17941 106.043165) (xy 143.204961 106.074299) (xy 143.225699 106.095037) (xy 143.256837 106.120591)
-				(xy 143.256849 106.1206) (xy 143.296847 106.147327) (xy 143.296856 106.147333) (xy 143.332385 106.166324)
-				(xy 143.34313 106.170774) (xy 143.359492 106.177551) (xy 143.398038 106.189244) (xy 143.452642 106.200106)
-				(xy 143.452661 106.200108) (xy 143.452668 106.20011) (xy 143.457024 106.200756) (xy 143.472592 106.203065)
-				(xy 143.487263 106.20451) (xy 143.499029 106.205088) (xy 143.507375 106.205499) (xy 143.507397 106.205499)
-				(xy 143.507406 106.2055) (xy 143.507414 106.2055) (xy 146.092586 106.2055) (xy 146.092594 106.2055)
-				(xy 146.092603 106.205499) (xy 146.092624 106.205499) (xy 146.100186 106.205126) (xy 146.112737 106.20451)
-				(xy 146.127408 106.203065) (xy 146.147356 106.200106) (xy 146.201958 106.189245) (xy 146.24051 106.17755)
-				(xy 146.267616 106.166322) (xy 146.303146 106.147331) (xy 146.343159 106.120594) (xy 146.374293 106.095043)
-				(xy 146.395038 106.074299) (xy 146.420598 106.043154) (xy 146.447333 106.003142) (xy 146.466322 105.967616)
-				(xy 146.47755 105.94051) (xy 146.477553 105.940502) (xy 146.487872 105.906485) (xy 146.489246 105.901957)
-				(xy 146.500107 105.847354) (xy 146.503065 105.827407) (xy 146.50451 105.812736) (xy 146.505126 105.800185)
-				(xy 146.505499 105.792623) (xy 146.5055 105.792585) (xy 146.5055 104.407413) (xy 146.505499 104.407375)
-				(xy 146.50486 104.394394) (xy 146.50451 104.387263) (xy 146.503065 104.372592) (xy 146.503062 104.372571)
-				(xy 146.503061 104.372561) (xy 146.500113 104.352683) (xy 146.500109 104.35266) (xy 146.500107 104.352645)
-				(xy 146.489246 104.298042) (xy 146.477551 104.25949) (xy 146.466324 104.232386) (xy 146.457292 104.215489)
-				(xy 146.447328 104.196848) (xy 146.447327 104.196847) (xy 146.4206 104.156849) (xy 146.420591 104.156837)
-				(xy 146.395037 104.125699) (xy 146.374299 104.104961) (xy 146.343165 104.07941) (xy 146.343164 104.079409)
-				(xy 146.34316 104.079406) (xy 146.30314 104.052665) (xy 146.267604 104.033671) (xy 146.267602 104.03367)
-				(xy 146.267598 104.033668) (xy 146.2405 104.022445) (xy 146.215507 104.014864) (xy 146.201959 104.010755)
-				(xy 146.201956 104.010754) (xy 146.201955 104.010754) (xy 146.165302 104.003463) (xy 146.165226 104.003448)
-				(xy 146.147349 103.999893) (xy 146.147337 103.999891) (xy 146.147331 103.99989) (xy 146.147316 103.999887)
-				(xy 146.127423 103.996937) (xy 146.127421 103.996936) (xy 146.127409 103.996935) (xy 146.11274 103.99549)
-				(xy 146.11273 103.995489) (xy 146.112709 103.995488) (xy 146.092626 103.9945) (xy 146.092594 103.9945)
-				(xy 144.391081 103.9945) (xy 144.342743 103.976907) (xy 144.317023 103.932358) (xy 144.323522 103.886273)
-				(xy 144.340572 103.851395) (xy 144.340573 103.851393) (xy 144.3505 103.78326) (xy 144.3505 103.41674)
-				(xy 144.340573 103.348607) (xy 144.289198 103.243517) (xy 144.289196 103.243515) (xy 144.289196 103.243514)
-				(xy 144.206485 103.160803) (xy 144.148379 103.132397) (xy 144.101393 103.109427) (xy 144.033268 103.0995)
-				(xy 144.03326 103.0995) (xy 143.765892 103.0995) (xy 143.190862 103.0995) (xy 143.153262 103.089425)
-				(xy 143.143188 103.083608) (xy 143.092268 103.069964) (xy 143.015892 103.0495) (xy 142.859707 103.0495)
-				(xy 142.811369 103.031907) (xy 142.785649 102.987358) (xy 142.794582 102.9367) (xy 142.79997 102.929677)
-				(xy 142.799864 102.929604) (xy 142.8038 102.923857) (xy 142.849467 102.820432) (xy 142.8524 102.79515)
-				(xy 142.8524 102.75) (xy 141.2226 102.75) (xy 141.2226 102.79515) (xy 141.225532 102.820432) (xy 141.271199 102.923857)
-				(xy 141.271201 102.92386) (xy 141.337821 102.99048) (xy 141.359561 103.0371) (xy 141.346247 103.086787)
-				(xy 141.323134 103.106548) (xy 141.323587 103.107182) (xy 141.318514 103.110803) (xy 141.235803 103.193514)
-				(xy 141.184427 103.298606) (xy 141.1745 103.366731) (xy 141.1745 103.733268) (xy 141.184427 103.801393)
-				(xy 141.235803 103.906485) (xy 141.318514 103.989196) (xy 141.318515 103.989196) (xy 141.318517 103.989198)
-				(xy 141.423607 104.040573) (xy 141.423611 104.040573) (xy 141.427308 104.041716) (xy 141.4683 104.072792)
-				(xy 141.479727 104.122946) (xy 141.458289 104.16674) (xy 141.415489 104.20954) (xy 141.392645 104.232384)
-				(xy 141.35954 104.265488) (xy 141.359539 104.26549) (xy 141.31998 104.334009) (xy 141.319976 104.334017)
-				(xy 141.316685 104.346301) (xy 141.287179 104.388437) (xy 141.277077 104.394394) (xy 141.243517 104.410801)
-				(xy 141.243514 104.410803) (xy 141.160803 104.493514) (xy 141.109427 104.598606) (xy 141.0995 104.666731)
-				(xy 140.700499 104.666731) (xy 140.690573 104.598607) (xy 140.639198 104.493517) (xy 140.556483 104.410802)
-				(xy 140.556481 104.410801) (xy 140.55648 104.4108) (xy 140.538339 104.401931) (xy 140.502641 104.364895)
-				(xy 140.498733 104.353847) (xy 140.480021 104.284011) (xy 140.44046 104.215489) (xy 140.384511 104.15954)
-				(xy 140.376416 104.151445) (xy 140.354676 104.104825) (xy 140.36799 104.055138) (xy 140.396561 104.030713)
-				(xy 140.481483 103.989198) (xy 140.564198 103.906483) (xy 140.615573 103.801393) (xy 140.6255 103.73326)
-				(xy 140.6255 103.36674) (xy 140.624434 103.359427) (xy 140.621371 103.338403) (xy 140.615573 103.298607)
-				(xy 140.564198 103.193517) (xy 140.564196 103.193515) (xy 140.564196 103.193514) (xy 140.481485 103.110803)
-				(xy 140.452968 103.096862) (xy 140.376393 103.059427) (xy 140.308268 103.0495) (xy 140.30826 103.0495)
-				(xy 139.828392 103.0495) (xy 138.4757 103.0495) (xy 138.427362 103.031907) (xy 138.401642 102.987358)
-				(xy 138.4005 102.9743) (xy 138.4005 101.466731) (xy 138.8995 101.466731) (xy 138.8995 101.833268)
-				(xy 138.909427 101.901393) (xy 138.960803 102.006485) (xy 139.043514 102.089196) (xy 139.043515 102.089196)
-				(xy 139.043517 102.089198) (xy 139.148607 102.140573) (xy 139.198536 102.147847) (xy 139.216731 102.150499)
-				(xy 139.216736 102.150499) (xy 139.21674 102.1505) (xy 139.216742 102.1505) (xy 140.308258 102.1505)
-				(xy 140.30826 102.1505) (xy 140.308264 102.150499) (xy 140.308268 102.150499) (xy 140.317946 102.149088)
-				(xy 140.376393 102.140573) (xy 140.481483 102.089198) (xy 140.564198 102.006483) (xy 140.615573 101.901393)
-				(xy 140.623768 101.84515) (xy 141.2226 101.84515) (xy 141.225532 101.870432) (xy 141.271199 101.973857)
-				(xy 141.271201 101.97386) (xy 141.351139 102.053798) (xy 141.351145 102.053802) (xy 141.356593 102.056208)
-				(xy 141.393705 102.091827) (xy 141.399239 102.142969) (xy 141.370605 102.185702) (xy 141.356593 102.193792)
-				(xy 141.351145 102.196197) (xy 141.351139 102.196201) (xy 141.271201 102.276139) (xy 141.271199 102.276142)
-				(xy 141.225532 102.379567) (xy 141.2226 102.404849) (xy 141.2226 102.45) (xy 141.8875 102.45) (xy 142.1875 102.45)
-				(xy 142.8524 102.45) (xy 142.8524 102.404849) (xy 142.851275 102.39515) (xy 143.0976 102.39515)
-				(xy 143.100532 102.420432) (xy 143.146199 102.523857) (xy 143.146201 102.52386) (xy 143.226139 102.603798)
-				(xy 143.226142 102.6038) (xy 143.329567 102.649467) (xy 143.35485 102.6524) (xy 143.55 102.6524)
-				(xy 143.85 102.6524) (xy 144.04515 102.6524) (xy 144.070432 102.649467) (xy 144.173857 102.6038)
+				(xy 142.806813 104.066391) (xy 142.806814 104.066392) (xy 142.934108 104.1005) (xy 143.065893 104.1005)
+				(xy 143.078706 104.1005) (xy 143.127044 104.118093) (xy 143.152764 104.162642) (xy 143.145028 104.211147)
+				(xy 143.133667 104.232402) (xy 143.122449 104.259486) (xy 143.110755 104.298036) (xy 143.110751 104.298052)
+				(xy 143.102991 104.337067) (xy 143.102992 104.337068) (xy 143.09989 104.35266) (xy 143.099888 104.352677)
+				(xy 143.09694 104.372556) (xy 143.096935 104.372591) (xy 143.096935 104.372592) (xy 143.096935 104.372596)
+				(xy 143.09549 104.387262) (xy 143.095488 104.38729) (xy 143.0945 104.407373) (xy 143.0945 105.792625)
+				(xy 143.095488 105.812708) (xy 143.09549 105.812741) (xy 143.099134 105.849733) (xy 143.100978 105.852809)
+				(xy 143.110753 105.901956) (xy 143.122444 105.940497) (xy 143.122448 105.940508) (xy 143.133668 105.967598)
+				(xy 143.13367 105.967602) (xy 143.133671 105.967604) (xy 143.152665 106.00314) (xy 143.179406 106.04316)
+				(xy 143.179409 106.043164) (xy 143.17941 106.043165) (xy 143.204961 106.074299) (xy 143.225699 106.095037)
+				(xy 143.256837 106.120591) (xy 143.256849 106.1206) (xy 143.296847 106.147327) (xy 143.296856 106.147333)
+				(xy 143.332385 106.166324) (xy 143.34313 106.170774) (xy 143.359492 106.177551) (xy 143.398038 106.189244)
+				(xy 143.452642 106.200106) (xy 143.452661 106.200108) (xy 143.452668 106.20011) (xy 143.457024 106.200756)
+				(xy 143.472592 106.203065) (xy 143.487263 106.20451) (xy 143.499029 106.205088) (xy 143.507375 106.205499)
+				(xy 143.507397 106.205499) (xy 143.507406 106.2055) (xy 143.507414 106.2055) (xy 146.092586 106.2055)
+				(xy 146.092594 106.2055) (xy 146.092603 106.205499) (xy 146.092624 106.205499) (xy 146.100186 106.205126)
+				(xy 146.112737 106.20451) (xy 146.127408 106.203065) (xy 146.147356 106.200106) (xy 146.201958 106.189245)
+				(xy 146.24051 106.17755) (xy 146.267616 106.166322) (xy 146.303146 106.147331) (xy 146.343159 106.120594)
+				(xy 146.374293 106.095043) (xy 146.395038 106.074299) (xy 146.420598 106.043154) (xy 146.447333 106.003142)
+				(xy 146.466322 105.967616) (xy 146.47755 105.94051) (xy 146.477553 105.940502) (xy 146.487872 105.906485)
+				(xy 146.489246 105.901957) (xy 146.500107 105.847354) (xy 146.503065 105.827407) (xy 146.50451 105.812736)
+				(xy 146.505126 105.800185) (xy 146.505499 105.792623) (xy 146.5055 105.792585) (xy 146.5055 104.407413)
+				(xy 146.505499 104.407375) (xy 146.50486 104.394394) (xy 146.50451 104.387263) (xy 146.503065 104.372592)
+				(xy 146.503062 104.372571) (xy 146.503061 104.372561) (xy 146.500113 104.352683) (xy 146.500109 104.35266)
+				(xy 146.500107 104.352645) (xy 146.489246 104.298042) (xy 146.477551 104.25949) (xy 146.466324 104.232386)
+				(xy 146.457292 104.215489) (xy 146.447328 104.196848) (xy 146.447327 104.196847) (xy 146.4206 104.156849)
+				(xy 146.420591 104.156837) (xy 146.395037 104.125699) (xy 146.374299 104.104961) (xy 146.343165 104.07941)
+				(xy 146.343164 104.079409) (xy 146.34316 104.079406) (xy 146.30314 104.052665) (xy 146.267604 104.033671)
+				(xy 146.267602 104.03367) (xy 146.267598 104.033668) (xy 146.2405 104.022445) (xy 146.215507 104.014864)
+				(xy 146.201959 104.010755) (xy 146.201956 104.010754) (xy 146.201955 104.010754) (xy 146.165302 104.003463)
+				(xy 146.165226 104.003448) (xy 146.147349 103.999893) (xy 146.147337 103.999891) (xy 146.147331 103.99989)
+				(xy 146.147316 103.999887) (xy 146.127423 103.996937) (xy 146.127421 103.996936) (xy 146.127409 103.996935)
+				(xy 146.11274 103.99549) (xy 146.11273 103.995489) (xy 146.112709 103.995488) (xy 146.092626 103.9945)
+				(xy 146.092594 103.9945) (xy 144.391081 103.9945) (xy 144.342743 103.976907) (xy 144.317023 103.932358)
+				(xy 144.323522 103.886273) (xy 144.340572 103.851395) (xy 144.340573 103.851393) (xy 144.3505 103.78326)
+				(xy 144.3505 103.41674) (xy 144.340573 103.348607) (xy 144.289198 103.243517) (xy 144.289196 103.243515)
+				(xy 144.289196 103.243514) (xy 144.206485 103.160803) (xy 144.148379 103.132397) (xy 144.101393 103.109427)
+				(xy 144.033268 103.0995) (xy 144.03326 103.0995) (xy 143.765892 103.0995) (xy 143.190862 103.0995)
+				(xy 143.153262 103.089425) (xy 143.143188 103.083608) (xy 143.092268 103.069964) (xy 143.015892 103.0495)
+				(xy 142.859707 103.0495) (xy 142.811369 103.031907) (xy 142.785649 102.987358) (xy 142.794582 102.9367)
+				(xy 142.79997 102.929677) (xy 142.799864 102.929604) (xy 142.8038 102.923857) (xy 142.849467 102.820432)
+				(xy 142.8524 102.79515) (xy 142.8524 102.75) (xy 141.2226 102.75) (xy 141.2226 102.79515) (xy 141.225532 102.820432)
+				(xy 141.271199 102.923857) (xy 141.271201 102.92386) (xy 141.337821 102.99048) (xy 141.359561 103.0371)
+				(xy 141.346247 103.086787) (xy 141.323134 103.106548) (xy 141.323587 103.107182) (xy 141.318514 103.110803)
+				(xy 141.235803 103.193514) (xy 141.184427 103.298606) (xy 141.1745 103.366731) (xy 141.1745 103.733268)
+				(xy 141.184427 103.801393) (xy 141.235803 103.906485) (xy 141.318514 103.989196) (xy 141.318515 103.989196)
+				(xy 141.318517 103.989198) (xy 141.423607 104.040573) (xy 141.423611 104.040573) (xy 141.427308 104.041716)
+				(xy 141.4683 104.072792) (xy 141.479727 104.122946) (xy 141.458289 104.16674) (xy 141.415489 104.20954)
+				(xy 141.392645 104.232384) (xy 141.35954 104.265488) (xy 141.359539 104.26549) (xy 141.31998 104.334009)
+				(xy 141.319976 104.334017) (xy 141.316685 104.346301) (xy 141.287179 104.388437) (xy 141.277077 104.394394)
+				(xy 141.243517 104.410801) (xy 141.243514 104.410803) (xy 141.160803 104.493514) (xy 141.109427 104.598606)
+				(xy 141.0995 104.666731) (xy 140.700499 104.666731) (xy 140.690573 104.598607) (xy 140.639198 104.493517)
+				(xy 140.556483 104.410802) (xy 140.556481 104.410801) (xy 140.55648 104.4108) (xy 140.538339 104.401931)
+				(xy 140.502641 104.364895) (xy 140.498733 104.353847) (xy 140.480021 104.284011) (xy 140.44046 104.215489)
+				(xy 140.384511 104.15954) (xy 140.376416 104.151445) (xy 140.354676 104.104825) (xy 140.36799 104.055138)
+				(xy 140.396561 104.030713) (xy 140.481483 103.989198) (xy 140.564198 103.906483) (xy 140.615573 103.801393)
+				(xy 140.6255 103.73326) (xy 140.6255 103.36674) (xy 140.624434 103.359427) (xy 140.621371 103.338403)
+				(xy 140.615573 103.298607) (xy 140.564198 103.193517) (xy 140.564196 103.193515) (xy 140.564196 103.193514)
+				(xy 140.481485 103.110803) (xy 140.452968 103.096862) (xy 140.376393 103.059427) (xy 140.308268 103.0495)
+				(xy 140.30826 103.0495) (xy 139.828392 103.0495) (xy 138.4757 103.0495) (xy 138.427362 103.031907)
+				(xy 138.401642 102.987358) (xy 138.4005 102.9743) (xy 138.4005 101.466731) (xy 138.8995 101.466731)
+				(xy 138.8995 101.833268) (xy 138.909427 101.901393) (xy 138.960803 102.006485) (xy 139.043514 102.089196)
+				(xy 139.043515 102.089196) (xy 139.043517 102.089198) (xy 139.148607 102.140573) (xy 139.198536 102.147847)
+				(xy 139.216731 102.150499) (xy 139.216736 102.150499) (xy 139.21674 102.1505) (xy 139.216742 102.1505)
+				(xy 140.308258 102.1505) (xy 140.30826 102.1505) (xy 140.308264 102.150499) (xy 140.308268 102.150499)
+				(xy 140.317946 102.149088) (xy 140.376393 102.140573) (xy 140.481483 102.089198) (xy 140.564198 102.006483)
+				(xy 140.615573 101.901393) (xy 140.623768 101.84515) (xy 141.2226 101.84515) (xy 141.225532 101.870432)
+				(xy 141.271199 101.973857) (xy 141.271201 101.97386) (xy 141.351139 102.053798) (xy 141.351145 102.053802)
+				(xy 141.356593 102.056208) (xy 141.393705 102.091827) (xy 141.399239 102.142969) (xy 141.370605 102.185702)
+				(xy 141.356593 102.193792) (xy 141.351145 102.196197) (xy 141.351139 102.196201) (xy 141.271201 102.276139)
+				(xy 141.271199 102.276142) (xy 141.225532 102.379567) (xy 141.2226 102.404849) (xy 141.2226 102.45)
+				(xy 141.8875 102.45) (xy 142.1875 102.45) (xy 142.8524 102.45) (xy 142.8524 102.404849) (xy 142.851275 102.39515)
+				(xy 143.0976 102.39515) (xy 143.100532 102.420432) (xy 143.146199 102.523857) (xy 143.146201 102.52386)
+				(xy 143.226139 102.603798) (xy 143.226142 102.6038) (xy 143.329567 102.649467) (xy 143.35485 102.6524)
+				(xy 143.55 102.6524) (xy 143.85 102.6524) (xy 144.04515 102.6524) (xy 144.070432 102.649467) (xy 144.173857 102.6038)
 				(xy 144.17386 102.603798) (xy 144.253798 102.52386) (xy 144.2538 102.523857) (xy 144.299467 102.420432)
 				(xy 144.3024 102.39515) (xy 144.3024 102.35) (xy 143.85 102.35) (xy 143.85 102.6524) (xy 143.55 102.6524)
 				(xy 143.55 102.35) (xy 143.0976 102.35) (xy 143.0976 102.39515) (xy 142.851275 102.39515) (xy 142.849467 102.379567)

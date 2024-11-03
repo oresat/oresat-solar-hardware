@@ -59,14 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|142830401|80712500|50bdc6f4-8905-469c-a6d7-0499a63bb22b|b0a1d5d0-e9cc-45ad-8214-502f89eb4bbd",
-        "clearance|142830401|81212500|0184dc47-b277-40f4-be0c-b01909f9af40|50bdc6f4-8905-469c-a6d7-0499a63bb22b",
-        "clearance|142830401|81712500|6609c95c-69cf-4dae-acf8-e28aaa66ea57|0184dc47-b277-40f4-be0c-b01909f9af40",
-        "clearance|142830401|82212500|aac95387-8479-4405-8e39-feab3aaf790b|6609c95c-69cf-4dae-acf8-e28aaa66ea57",
-        "clearance|147055401|80387500|d9b4ed88-1578-4bee-86eb-e927fa12f327|f7a65bd0-5d0e-4352-902a-97b06fcf92ff",
-        "clearance|147055401|80887500|f7a65bd0-5d0e-4352-902a-97b06fcf92ff|14303262-d81f-4707-a15d-6a9d87e7f14b",
-        "clearance|147055401|81387500|14303262-d81f-4707-a15d-6a9d87e7f14b|c86ba4d9-d7fd-4414-bac8-4d9fccfc09f1",
-        "clearance|147055401|81887500|c86ba4d9-d7fd-4414-bac8-4d9fccfc09f1|e2547dff-fa18-45bd-bfb5-fc0c25b5cc44",
         "copper_edge_clearance|118250000|113250000|73fb6808-3cde-4b4b-b90f-c976e2dea536|f8a3584f-c320-4c34-bce4-4c1f7a00783a",
         "copper_edge_clearance|118250000|154750000|c48ee9df-9042-412c-9623-e19ef6a7b54e|4ea2c825-ed29-4ac3-9f92-2c3c874b7b89",
         "copper_edge_clearance|118250000|96750000|7ca7b161-1bac-494f-a546-d1e83710dd9f|54f91676-f273-406f-acba-d8c73a589f08",
@@ -588,12 +580,30 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
         {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
           "show": true
         },
         {
@@ -606,7 +616,7 @@
           "group_by": true,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -616,12 +626,6 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
@@ -640,20 +644,14 @@
         },
         {
           "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DPN",
           "name": "DPN",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MFR",
-          "name": "MFR",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
           "show": true
         },
         {
@@ -679,12 +677,6 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Distributor",
-          "name": "Distributor",
-          "show": true
         }
       ],
       "filter_string": "",
