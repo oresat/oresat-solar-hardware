@@ -10,23 +10,30 @@ That and coffee. You're all doing coffee wrong, too, but we don't hold that agai
 
 ## Solar Cells
 
+### GaAs Cells
 [Spectrolab XTE-SF GaAs solar cells](https://www.spectrolab.com/photovoltaics/XTE-SF_Data_Sheet.pdf). Yeah, they're expensive. But you can't yet get anything close to that kind of power output.
 
-## Design
+### Silicon Cells
+Of course we use the [ANYSOLAR IXOLAR series](https://www.anysolar.biz/Gen3) of cells.
+
+## Design Notes
 
 As usual, we have no clue what we're doing, but we're _particularly_ excited about this MPPT design. The [Analog Devices LT1618 Constant-Current/Constant-Voltage 1.4MHz Step-Up DC/DC Converter](https://www.analog.com/en/products/lt1618.html) happens has an optional "Iadj" input, which allows the user to select a current limit.  Using this current limit, an INA226 V/I sensor, and the DAC onboard the STM32F091, we can whip together a low power software-controlled MPPT. Briefly, the M0 calculates the MPPT using data from the INA226, and uses its DAC to output an analog voltage on the LT1618's Iadj. So we really control the cell's Imp. The 1.4 MHz SPS handles all of the fast control, and we occasionally wake up the STM32 (at 10 Hz), calculate a new MPP, and then go back to sleep.
 
 With software control, you can do cool things like variable step incremental conductance algorithms. However, VS-IC is hard, so what we ended up with is P&O because that just works. One day we'll be cooler and try to more carefully implement VS-IC. 
 
-The M0 reports the V/I data (along with temperature values from TMP101) to our C3 flight computer over CAN. You can find all of the design and CAD files in the ['1u_panel' folder](https://github.com/oresat/solar/tree/master/1u_panel).
-bat
+Design notes can be found in the [OreSat Solar Module Design Notes](https://docs.google.com/document/d/1mogZjYhJievwLsnVkg4Q0sEF9xPMA5q7KPciky3YWKE/edit?usp=sharing).
 
 ## Versions
-
-- v5.3 - Finally got the damn upsidedown TMP101 footprints right.
+### GaAs Modules
+- v5.4 - Moved to KiCAD, small improvements on the 5.3.
+- v5.3 - Finally got the damn upsidedown TMP101 footprints right. Flown on OreSat0 and OreSat0.5
 - v4.0 - Switched from Alta Devices (RIP) to Spectrolab and upgrade to the STM32F091
 - v3.0 and earlier not worth mentioning.
-   
+### Silicon Modules
+- v1.1 - Fixes v1 issues, in progress.
+- v1.0 - First silicon modules, in KiCAD! Lots of serious issues, do not use.
+
 ## LICENSE
 
 Copyright the Portland State Aerospace Society, 2022.
