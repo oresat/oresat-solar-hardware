@@ -13,7 +13,7 @@ All version, status, design notes, and construction info can be found in the [Or
 
 ## LICENSE
 
-Copyright the Portland State Aerospace Society, 2022.
+Copyright the Portland State Aerospace Society, 2025.
 
 This source describes Open Hardware that is licensed under CERN-OHL-S v2, or any later version.
 
