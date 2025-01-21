@@ -4,33 +4,12 @@ This repo contains the design for [OreSat's](oresat.org) solar modules. Part of 
 
 That and coffee. You're all doing coffee wrong, too, but we don't hold that against you, you don't live in Portland, we understand.
 
+We've flown our GaAs solar cell design, and are currently workingon our silicon design.
+
+All version, status, design notes, and construction info can be found in the [OreSat Solar Module Design Notes](https://docs.google.com/document/d/1mogZjYhJievwLsnVkg4Q0sEF9xPMA5q7KPciky3YWKE/edit?usp=sharing).
+
 ![Solar modules on OreSat0](https://github.com/oresat/oresat-solar/blob/master/images/oresat0-solar-modules.jpg)
 ![Top (solar cells) and bottom (circuitry) of the solar modules](https://github.com/oresat/oresat-solar/blob/master/images/oresat-solar-modules.jpg)
-
-
-## Solar Cells
-
-### GaAs Cells
-[Spectrolab XTE-SF GaAs solar cells](https://www.spectrolab.com/photovoltaics/XTE-SF_Data_Sheet.pdf). Yeah, they're expensive. But you can't yet get anything close to that kind of power output.
-
-### Silicon Cells
-Of course we use the [ANYSOLAR IXOLAR series](https://www.anysolar.biz/Gen3) of cells.
-
-## Design Notes
-
-As usual, we have no clue what we're doing, but we're _particularly_ excited about this MPPT design. We have an inner loop controlled at 1.4 MHz by an LT1618 boost converter, and an outer loop controlled by firmware in the STM32 microcontroller. With firmware control, we can do cool things like variable step incremental conductance algorithms. However, VS-IC is hard, so what we ended up with is P&O because that just works. One day we'll be cooler and try to more carefully implement VS-IC. 
-
-Full design notes can be found in the [OreSat Solar Module Design Notes](https://docs.google.com/document/d/1mogZjYhJievwLsnVkg4Q0sEF9xPMA5q7KPciky3YWKE/edit?usp=sharing).
-
-## Versions
-### GaAs Modules
-- v5.4 - IN PROGRESS. Moved to KiCAD, small improvements on the 5.3.
-- v5.3 - Finally got the damn upsidedown TMP101 footprints right. **Successfully flown on OreSat0 and OreSat0.5!**
-- v4.0 - Switched from Alta Devices (RIP) to Spectrolab and upgrade to the STM32F091
-- v3.0 and earlier not worth mentioning.
-### Silicon Modules
-- v1.1 - IN PROGRESS. Fixes v1 issues.
-- v1.0 - First silicon modules, in KiCAD! Lots of serious issues, do not use.
 
 ## LICENSE
 
