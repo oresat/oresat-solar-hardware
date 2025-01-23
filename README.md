@@ -10,6 +10,8 @@ We've flown our GaAs solar cell design, and are currently workingon our silicon 
 
 **Status, design, construction, and testing information can be found in the [OreSat Solar Module Design Notes](https://docs.google.com/document/d/1mogZjYhJievwLsnVkg4Q0sEF9xPMA5q7KPciky3YWKE/edit?usp=sharing).**
 
+# Pretty Pictures
+
 ![Solar modules on OreSat0](https://github.com/oresat/oresat-solar/blob/master/images/oresat0-solar-modules.jpg)
 ![Top (solar cells) and bottom (circuitry) of the solar modules](https://github.com/oresat/oresat-solar/blob/master/images/oresat-solar-modules.jpg)
 
