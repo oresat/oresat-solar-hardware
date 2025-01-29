@@ -2031,6 +2031,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:NTR2101P"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NTR2101P"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NTR2101P_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "NTR2101P_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "oresat-connectors:M55-6021242R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4436,355 +4731,12 @@
 				)
 			)
 		)
-		(symbol "oresat-transistors:DMP3050LVT-7"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q?"
-				(at 6.35 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "DMP3050LVT-7"
-				(at 6.35 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVT.pdf"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-Channel Power MOSFET, SOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Diodes*PowerDI3333*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DMP3050LVT-7_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "DMP3050LVT-7_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+	)
+	(junction
+		(at 87.63 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b9b04be-9fcf-40b2-aac5-aa5095ce4b3d")
 	)
 	(junction
 		(at 318.77 52.07)
@@ -4815,6 +4767,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b7374c-f0a9-4a6a-9223-de2b5a3fbc9a")
+	)
+	(junction
+		(at 87.63 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2565aa12-165f-4cb8-b937-02c621cf0789")
 	)
 	(junction
 		(at 351.79 140.97)
@@ -4857,12 +4815,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f3f2323-6817-4d6d-ba2d-7bfb89c89684")
-	)
-	(junction
-		(at 198.12 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f79c7b5-2ed0-41a5-8d6b-adc88f524ff9")
 	)
 	(junction
 		(at 363.22 59.69)
@@ -5033,10 +4985,10 @@
 		(uuid "c02e7441-f48a-4a71-befa-ea8ac58e4eed")
 	)
 	(junction
-		(at 91.44 95.25)
+		(at 95.25 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c8fa9fd0-1998-41d4-90b6-824172db7876")
+		(uuid "ca0b6fe9-5fe2-446a-9534-6d406b3894f5")
 	)
 	(junction
 		(at 259.08 190.5)
@@ -5260,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 59.69) (xy 198.12 59.69)
+			(xy 193.04 59.69) (xy 201.93 59.69)
 		)
 		(stroke
 			(width 0.3048)
@@ -5440,6 +5392,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 97.79) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16de9f77-5e54-4da3-8d45-b381bea07006")
+	)
+	(wire
+		(pts
 			(xy 335.28 168.91) (xy 335.28 154.94)
 		)
 		(stroke
@@ -5467,6 +5429,16 @@
 			(type solid)
 		)
 		(uuid "18a1cc89-1d3e-4de3-ad91-0abfc8c7e153")
+	)
+	(wire
+		(pts
+			(xy 182.88 67.31) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1939a795-33d2-48bf-b0f5-095fa4edbe27")
 	)
 	(wire
 		(pts
@@ -5810,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 74.93) (xy 193.04 76.2)
+			(xy 193.04 67.31) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6180,6 +6152,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 95.25) (xy 99.06 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "559ca0fc-37d0-4013-a709-2acd52eefec2")
+	)
+	(wire
+		(pts
+			(xy 87.63 97.79) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576a1009-0688-4901-9fc2-f7658c77be76")
+	)
+	(wire
+		(pts
 			(xy 290.83 91.44) (xy 290.83 92.71)
 		)
 		(stroke
@@ -6420,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 97.79) (xy 83.82 74.93)
+			(xy 83.82 97.79) (xy 83.82 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -6480,6 +6472,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 90.17) (xy 86.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73355b54-b635-4604-9137-996bf3332791")
+	)
+	(wire
+		(pts
 			(xy 232.41 83.82) (xy 220.98 83.82)
 		)
 		(stroke
@@ -6530,7 +6532,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 74.93) (xy 86.36 95.25)
+			(xy 86.36 74.93) (xy 86.36 90.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -6577,16 +6579,6 @@
 			(type solid)
 		)
 		(uuid "7c48d59b-8439-4e49-8536-a36bfce5528a")
-	)
-	(wire
-		(pts
-			(xy 198.12 57.15) (xy 198.12 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9b491f-6331-4077-8b71-fb5c2ba2b981")
 	)
 	(wire
 		(pts
@@ -6820,16 +6812,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 85.09) (xy 91.44 95.25)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8db30514-2687-4e0a-8153-5333cf786aed")
-	)
-	(wire
-		(pts
 			(xy 367.03 149.86) (xy 369.57 149.86)
 		)
 		(stroke
@@ -6837,16 +6819,6 @@
 			(type solid)
 		)
 		(uuid "8e6c875e-7fa7-4166-938e-652c14e53bf2")
-	)
-	(wire
-		(pts
-			(xy 83.82 73.66) (xy 83.82 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e804dd8-4e77-4c42-8cd9-ada5bdc18e18")
 	)
 	(polyline
 		(pts
@@ -6880,13 +6852,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 85.09) (xy 99.06 85.09)
+			(xy 95.25 85.09) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "92f24b2b-a67e-47e5-875d-7830f8e949fa")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "938a100b-9980-48e5-8574-ca485614550a")
 	)
 	(wire
 		(pts
@@ -6967,16 +6949,6 @@
 			(type default)
 		)
 		(uuid "9715cc7c-c37b-4ee4-a07e-899595ce91a1")
-	)
-	(wire
-		(pts
-			(xy 182.88 74.93) (xy 182.88 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "988b4f89-4ef4-42c8-9900-5490d8cb9e5f")
 	)
 	(wire
 		(pts
@@ -7370,13 +7342,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 59.69) (xy 198.12 57.15)
+			(xy 92.71 90.17) (xy 92.71 95.25)
 		)
 		(stroke
-			(width 0.3048)
+			(width 0.1524)
 			(type solid)
 		)
-		(uuid "b462f7b5-fc68-4743-9ca0-8a86aa60e117")
+		(uuid "b4c6d32a-2ac2-4364-968a-dd24dc2c1189")
 	)
 	(wire
 		(pts
@@ -7460,16 +7432,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 95.25) (xy 99.06 95.25)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bcb1d3b6-6191-4145-ad25-c6335737fe52")
-	)
-	(wire
-		(pts
 			(xy 162.56 95.25) (xy 162.56 93.98)
 		)
 		(stroke
@@ -7550,7 +7512,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 97.79) (xy 99.06 97.79)
+			(xy 83.82 97.79) (xy 87.63 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -7630,7 +7592,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 95.25) (xy 91.44 95.25)
+			(xy 87.63 90.17) (xy 92.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5512f4-bbe0-4e91-a1da-28d9138a16e2")
+	)
+	(wire
+		(pts
+			(xy 86.36 90.17) (xy 87.63 90.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -7727,16 +7699,6 @@
 			(type solid)
 		)
 		(uuid "d612d682-9ea7-4aeb-b84f-c4fa6a3d01a0")
-	)
-	(wire
-		(pts
-			(xy 198.12 59.69) (xy 201.93 59.69)
-		)
-		(stroke
-			(width 0.3048)
-			(type solid)
-		)
-		(uuid "d7424652-2c81-4724-96cb-f1a6ac21d5aa")
 	)
 	(wire
 		(pts
@@ -8757,7 +8719,7 @@
 		)
 		(uuid "df2c36fa-d6b2-49ef-8e30-2f110dc21227")
 	)
-	(global_label "SDA"
+	(global_label "SCL"
 		(shape bidirectional)
 		(at 137.16 129.54 0)
 		(fields_autoplaced yes)
@@ -8769,7 +8731,7 @@
 		)
 		(uuid "3aad36d7-ca75-41d1-b91a-d83f8645f0b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.5931 129.54 0)
+			(at 144.6116 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +8807,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SDA"
 		(shape bidirectional)
 		(at 137.16 124.46 0)
 		(fields_autoplaced yes)
@@ -8857,7 +8819,7 @@
 		)
 		(uuid "cb6ec20d-21b0-4c21-8907-fccd2c463cb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.5338 124.46 0)
+			(at 144.6709 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,6 +9097,118 @@
 			(project "1u_panel-silicon"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:NTR2101P")
+		(at 298.45 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "045e6c06-fd15-4551-83a9-027c9557bf25")
+		(property "Reference" "Q1"
+			(at 290.068 100.838 0)
+			(effects
+				(font
+					(size 1.75 1.75)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTR4101P"
+			(at 284.734 98.044 0)
+			(effects
+				(font
+					(size 1.75 1.75)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 303.53 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF"
+			(at 298.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Channel 20V 1.8A (Ta) 420mW (Ta) Surface Mount SOT-23-3 (TO-236)"
+			(at 298.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "NTR4101PT1GOSCT-ND"
+			(at 298.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 298.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "On Semiconductor"
+			(at 298.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NTR4101PT1G"
+			(at 298.45 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50dcb2ef-f860-4f5b-bdc5-0ece91bb1160")
+		)
+		(pin "2"
+			(uuid "f95147db-8af6-4a9d-a806-285477d82a33")
+		)
+		(pin "3"
+			(uuid "ab4ec9f9-2aff-4ed7-8799-200047df5a45")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9595,7 +9669,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 82.55 0)
+			(at 126.746 82.042 0)
 			(effects
 				(font
 					(size 1.778 1.27)
@@ -12417,120 +12491,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 193.04 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6db938af-0ed1-4068-8682-264cab461680")
-		(property "Reference" "R34"
-			(at 194.31 68.834 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 194.564 72.898 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 192.024 70.866 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RMCF0603FT100RTR-ND"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc "
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT100R"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Digi-Key"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0181adc1-6780-434c-a64f-23308ede594e")
-		)
-		(pin "2"
-			(uuid "0a4fee1f-b2be-441c-938f-c28b60798243")
-		)
-		(instances
-			(project ""
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 331.47 64.77 90)
 		(unit 1)
@@ -13335,7 +13295,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10"
 			(at 88.646 68.834 90)
 			(effects
 				(font
@@ -13362,7 +13322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -13380,7 +13340,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT100RTR-ND"
+		(property "DPN" "RMCF0603FT10R0CT-ND"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -13389,7 +13349,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc "
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -13398,7 +13358,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT100R"
+		(property "MPN" "RMCF0603FT10R0"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -13802,72 +13762,6 @@
 			(project "1u_panel-silicon"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 198.12 57.15 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8788fe30-32d1-45d6-8a2b-c4e62b5a86f5")
-		(property "Reference" "TP5"
-			(at 195.58 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 198.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 198.12 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 198.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dec06090-154d-4cf9-97bc-92d9c8c1770f")
-		)
-		(instances
-			(project "1u_panel-silicon"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -14687,6 +14581,125 @@
 			(project "1u_panel-silicon"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2ceac3d-2fb1-40ba-bb8e-f66759b940ce")
+		(property "Reference" "C37"
+			(at 88.138 92.71 0)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 87.884 97.282 0)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 86.6648 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee3f1b8-853e-4a74-b4e8-5af867cf080a")
+		)
+		(pin "2"
+			(uuid "4f32496f-2b8b-4af0-9ddd-d6c20d3a6c91")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -15917,120 +15930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 182.88 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8f26753-792b-4a23-8b83-73d165ffbef5")
-		(property "Reference" "R35"
-			(at 184.15 68.834 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 184.15 73.152 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 181.864 70.866 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RMCF0603FT100RTR-ND"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc "
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT100R"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Digi-Key"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb5e6315-4583-4150-88b3-9069f62e03f6")
-		)
-		(pin "2"
-			(uuid "162c0008-af31-4c62-a85e-59de7584b161")
-		)
-		(instances
-			(project "1u_panel-silicon"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-power:GND")
 		(at 259.08 205.74 0)
 		(unit 1)
@@ -16247,7 +16146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.174 90.424 0)
+			(at 127.254 90.424 0)
 			(effects
 				(font
 					(size 1.778 1.27)
@@ -16407,6 +16306,120 @@
 			(project "1u_panel-silicon"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 83.82 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1edc10f-6775-4621-807e-6092e001f645")
+		(property "Reference" "R36"
+			(at 81.28 70.358 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 81.026 65.786 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 84.836 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10R0CT-ND"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10R0"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e7483ae-294b-4384-8fac-edc02c4fb8ad")
+		)
+		(pin "2"
+			(uuid "da7987eb-2582-409b-b0d1-516517428c57")
+		)
+		(instances
+			(project "1u_panel-silicon"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -16676,139 +16689,6 @@
 			(project "1u_panel-silicon"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-transistors:DMP3050LVT-7")
-		(at 298.45 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6100b71-8c6e-401e-a78c-ec341ae32409")
-		(property "Reference" "Q1"
-			(at 297.18 99.06 0)
-			(effects
-				(font
-					(size 1.778 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "DMP3050LVT-7"
-			(at 284.988 101.854 0)
-			(effects
-				(font
-					(size 1.778 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 303.53 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVT.pdf"
-			(at 298.45 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-Channel 30 V 4.5A (Ta) 1.8W (Ta) Surface Mount TSOT-26"
-			(at 298.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 298.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "DMP3050LVT-7DICT-ND"
-			(at 298.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Diodes Inc"
-			(at 298.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DMP3050LVT-7"
-			(at 298.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Digi-Key"
-			(at 298.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89c39918-8ed3-4c91-96ed-273eaf02216e")
-		)
-		(pin "2"
-			(uuid "13a34557-c580-432b-ae80-88d84a985387")
-		)
-		(pin "3"
-			(uuid "f80223d4-a8c4-4e69-a03b-d1d53b8f0731")
-		)
-		(pin "4"
-			(uuid "f8426ccf-dab1-4ff3-bea3-de29604a7d70")
-		)
-		(pin "5"
-			(uuid "bf265300-a444-4988-a326-982fd3946997")
-		)
-		(pin "6"
-			(uuid "f487dda9-fb2f-4f44-89b1-621707d6dd71")
-		)
-		(instances
-			(project "1u_panel-silicon"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -18181,120 +18061,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 83.82 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f43a683b-f4c1-4d31-b20e-aa592a95d16d")
-		(property "Reference" "R36"
-			(at 81.28 74.93 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 81.28 68.834 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 82.804 69.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RMCF0603FT100RTR-ND"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc "
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT100R"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Digi-Key"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47edbe42-5d00-48b2-bf93-87965969b44c")
-		)
-		(pin "2"
-			(uuid "0533b49d-0706-414e-addf-b04ba9732940")
-		)
-		(instances
-			(project "1u_panel-silicon"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-power:GND")
 		(at 269.24 205.74 0)
 		(unit 1)
@@ -18505,7 +18271,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "oresat-ics:MSOP-10_MS"
 			(at 195.58 91.44 0)
 			(effects
 				(font
