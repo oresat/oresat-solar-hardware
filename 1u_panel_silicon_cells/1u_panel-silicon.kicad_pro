@@ -64,18 +64,6 @@
         "copper_edge_clearance|118250000|96750000|7ca7b161-1bac-494f-a546-d1e83710dd9f|54f91676-f273-406f-acba-d8c73a589f08",
         "copper_edge_clearance|130750000|55250000|d37804ea-16d8-44c5-a563-8193347dda1e|1c396d71-158d-4f1c-a5c9-8982a6ed82f6",
         "copper_edge_clearance|142250000|154750000|c48ee9df-9042-412c-9623-e19ef6a7b54e|ac0550a8-b7a7-4b39-b3a8-1e380ec051cc",
-        "copper_edge_clearance|147301100|138253600|a40bc7bf-348a-4699-9ce5-79ea288ad5ad|92144a4d-5ee4-454f-84aa-7565b587b686",
-        "copper_edge_clearance|147301100|139203600|a40bc7bf-348a-4699-9ce5-79ea288ad5ad|ed9ee63f-a3ca-48c3-9603-65e48b905e4a",
-        "copper_edge_clearance|147301100|140153600|a40bc7bf-348a-4699-9ce5-79ea288ad5ad|fd933df4-91c8-48ad-ac63-92a388b0dec6",
-        "copper_edge_clearance|147301100|88353600|f7773915-94bf-4995-b8fa-6627fd9b79e2|2297837f-0188-4f56-9288-e20b5819e9f8",
-        "copper_edge_clearance|147301100|89303600|f7773915-94bf-4995-b8fa-6627fd9b79e2|f8730be5-ea05-46aa-87f5-71f28950ee89",
-        "copper_edge_clearance|147301100|90253600|f7773915-94bf-4995-b8fa-6627fd9b79e2|e8484c48-5c1b-4649-b8f4-680a49c03090",
-        "copper_edge_clearance|149701100|138853600|2f6f5ff7-6945-49d4-a258-fd815d8a72b3|fdad490f-67b4-409f-89a6-5056ab0e40ef",
-        "copper_edge_clearance|149701100|139803600|2f6f5ff7-6945-49d4-a258-fd815d8a72b3|705e1cf2-b9a1-458f-88e9-d34c0216b4e1",
-        "copper_edge_clearance|149701100|140753600|2f6f5ff7-6945-49d4-a258-fd815d8a72b3|4c7c4038-38e8-477f-9bc7-ef99b877a2a9",
-        "copper_edge_clearance|149701100|88953600|bc9d3535-6cce-4784-bbb3-98bb983448ba|8e5ccff9-2707-48d4-ae58-990e4f46b6a9",
-        "copper_edge_clearance|149701100|89903600|bc9d3535-6cce-4784-bbb3-98bb983448ba|6b9cfc59-155a-4510-84dd-8125902b6a0c",
-        "copper_edge_clearance|149701100|90853600|bc9d3535-6cce-4784-bbb3-98bb983448ba|0c16cc73-de86-4445-ac1c-3fce666d41ad",
         "copper_edge_clearance|154750000|55250000|d37804ea-16d8-44c5-a563-8193347dda1e|89c93fbf-947a-45c3-8214-7c6e7e4050a4",
         "copper_edge_clearance|166250000|154750000|c48ee9df-9042-412c-9623-e19ef6a7b54e|af01cdfe-9243-493f-a78f-e3706ef47231",
         "copper_edge_clearance|178750000|113250000|29391e5c-aa0a-43e9-89bc-f5f6650a1e0f|39722d23-41fc-4b31-b461-00dabe2c4035",
@@ -98,18 +86,14 @@
         "solder_mask_bridge|109001100|60003600|f0bd0004-f00e-4951-866e-da467cb93a52|028d38b7-c3b3-406a-9880-5a9c35952a8b",
         "solder_mask_bridge|109001100|90003600|f0bd0004-f00e-4951-866e-da467cb93a52|028d38b7-c3b3-406a-9880-5a9c35952a8b",
         "solder_mask_bridge|109072441|151001052|981ae38e-51b7-4c47-8faf-c4e7ae1a6a80|599c24e5-dd86-44e4-9445-f7766e1897fc",
-        "solder_mask_bridge|109072441|61001052|62c5bce2-3307-4a7e-a37b-39f1455067fb|3111e06e-de9e-47b1-8e74-1c1420e0189a",
         "solder_mask_bridge|109575899|120821894|cf9f2f27-2843-4599-9f28-2518eb85065c|f1aeda4e-a692-4f3f-aa37-18de86c7a277",
-        "solder_mask_bridge|109801641|89404322|65f88547-d321-484e-b7f4-13e9071e0739|076f336c-fe33-4700-a68d-9a62aad19b99",
         "solder_mask_bridge|187426301|120821894|7ea634a8-870c-4035-9c58-d63d59e39212|3c2ccb26-2d33-4493-ab0e-d22e54ae6161",
         "solder_mask_bridge|188001100|120003600|5a0b0de9-f2db-4ec3-8f9f-2f306e84044a|060a3296-30ad-40b9-b0fc-20571d24f5e4",
         "solder_mask_bridge|188001100|150003600|5a0b0de9-f2db-4ec3-8f9f-2f306e84044a|060a3296-30ad-40b9-b0fc-20571d24f5e4",
         "solder_mask_bridge|188001100|59003600|9d12d690-3758-41c3-8407-8176e7f2ab9e|006a4d3b-7a1f-41be-bb81-ce5f1a3d15a4",
         "solder_mask_bridge|188001100|60003600|5a0b0de9-f2db-4ec3-8f9f-2f306e84044a|060a3296-30ad-40b9-b0fc-20571d24f5e4",
         "solder_mask_bridge|188001100|90003600|5a0b0de9-f2db-4ec3-8f9f-2f306e84044a|060a3296-30ad-40b9-b0fc-20571d24f5e4",
-        "solder_mask_bridge|188001103|89003600|8fce941d-c1dc-40d6-96b4-b041a6fb7379|fd5cd03b-f83e-4aab-9c77-7afb5d0bf858",
-        "solder_mask_bridge|188416517|149093969|400dcf1d-22e6-422a-9936-04f52085ab80|e9037331-c445-4572-ac3b-3ce34ba08d0b",
-        "solder_mask_bridge|188878778|60482851|955318d8-78eb-4ebd-95a4-76958c3a75e3|ff836781-3fe0-49d1-b100-14fafcac5c3a"
+        "solder_mask_bridge|188416517|149093969|400dcf1d-22e6-422a-9936-04f52085ab80|e9037331-c445-4572-ac3b-3ce34ba08d0b"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -607,7 +591,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": false

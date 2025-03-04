@@ -1927,6 +1927,317 @@
 				)
 			)
 		)
+		(symbol "Sensor_Temperature:TMP101"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TMP101"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp101.pdf"
+				(at 1.27 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital Temperature Sensor with I2C/SMBus Interface, ±2°C, one-shot conversion, alert, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "digital temperature sensor i2c smbus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TMP101_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TMP101_1_1"
+				(polyline
+					(pts
+						(xy 2.413 -0.635) (xy 3.048 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 0) (xy 3.048 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 0.635) (xy 3.048 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.27) (xy 3.048 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.905) (xy 2.413 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.905) (xy 3.048 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 1.905) (xy 3.683 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.048 -3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 -3.175)
+					(end 2.413 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 3.683 1.905)
+					(mid 3.048 2.5373)
+					(end 2.413 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ADD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "oresat-connectors:J-TE-2-1734592-0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2630,179 +2941,6 @@
 				)
 			)
 		)
-		(symbol "oresat-ics:TMP101NA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 -10.16 0)
-				(effects
-					(font
-						(size 2.0828 1.7703)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 2.54 -12.7 0)
-				(effects
-					(font
-						(size 2.0828 1.7703)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TMP101NA_1_0"
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "ALERT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "ADD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TMP101NA_1_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -3126,7 +3264,7 @@
 		(uuid "077b0315-fb3b-481f-943b-113bcdf0f71a")
 	)
 	(junction
-		(at 147.32 58.42)
+		(at 147.32 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09899f20-52fb-4c06-939f-1dbc20d11c20")
@@ -3168,7 +3306,7 @@
 		(uuid "233a80ca-7c46-4631-ae95-6bee67b42b85")
 	)
 	(junction
-		(at 118.11 58.42)
+		(at 118.11 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28b14270-53c3-45c3-87be-f06877110579")
@@ -3228,16 +3366,16 @@
 		(uuid "70c30bec-31f6-4e4b-900d-f704da1fd864")
 	)
 	(junction
-		(at 123.19 58.42)
+		(at 123.19 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70e9e2ec-23b6-4a17-b899-c05a5efbc15a")
 	)
 	(junction
-		(at 144.78 62.23)
+		(at 144.78 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "728b02e9-26be-44c8-be5d-255ea3028849")
+		(uuid "72d42734-b841-4d2f-8328-4e5edf44e3c4")
 	)
 	(junction
 		(at 250.19 83.82)
@@ -3276,7 +3414,7 @@
 		(uuid "9c8efdd5-adb1-442b-98c5-e0687ad8d33b")
 	)
 	(junction
-		(at 115.57 60.96)
+		(at 115.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a62c7982-8a39-40d1-9dfc-d9629c297525")
@@ -3288,7 +3426,7 @@
 		(uuid "b64509ed-5c0a-4e15-aeae-93de2a8cbeff")
 	)
 	(junction
-		(at 133.35 60.96)
+		(at 133.35 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb399272-2da2-450a-a9ce-b7b47cf516cc")
@@ -3429,16 +3567,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 68.58) (xy 144.78 62.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "00751061-bb6f-487e-8da2-f3903846e0fb")
-	)
-	(wire
-		(pts
 			(xy 256.54 49.53) (xy 257.81 49.53)
 		)
 		(stroke
@@ -3549,6 +3677,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 66.04) (xy 82.55 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "154204a8-e516-4e3e-b3b5-91dc384c57bf")
+	)
+	(wire
+		(pts
 			(xy 67.31 76.2) (xy 67.31 78.74)
 		)
 		(stroke
@@ -3569,7 +3707,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 144.78 60.96)
+			(xy 133.35 58.42) (xy 144.78 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -3636,6 +3774,16 @@
 			(type default)
 		)
 		(uuid "1ff53d04-6266-46ba-8b24-8b70cc42b8cc")
+	)
+	(wire
+		(pts
+			(xy 77.47 111.76) (xy 82.55 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21219e0a-8a43-4bfd-bead-dddc135dc619")
 	)
 	(wire
 		(pts
@@ -3749,7 +3897,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 55.88) (xy 123.19 58.42)
+			(xy 123.19 55.88) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -3766,16 +3914,6 @@
 			(type solid)
 		)
 		(uuid "30c4e257-c35c-416e-a107-6c4572f9fa1a")
-	)
-	(wire
-		(pts
-			(xy 144.78 62.23) (xy 144.78 60.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "314ce53f-9edb-43b4-9e3d-0c3aa2271f9a")
 	)
 	(wire
 		(pts
@@ -3796,16 +3934,6 @@
 			(type solid)
 		)
 		(uuid "3333135c-e319-42a8-973d-e993c17b89ab")
-	)
-	(wire
-		(pts
-			(xy 118.11 58.42) (xy 80.01 58.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3355520a-f40d-49a6-96f1-2ac9028f022e")
 	)
 	(wire
 		(pts
@@ -3846,16 +3974,6 @@
 			(type solid)
 		)
 		(uuid "3895a0f6-a0eb-4d3b-a5f3-5f54614a7c9a")
-	)
-	(wire
-		(pts
-			(xy 118.11 104.14) (xy 80.01 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3ac11e02-7eec-4064-9692-cff71150ebc2")
 	)
 	(wire
 		(pts
@@ -3909,7 +4027,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 109.22) (xy 54.61 109.22)
+			(xy 52.07 104.14) (xy 57.15 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -4019,6 +4137,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 104.14) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ff359dd-a600-4e8b-9d71-b76de88bf1e6")
+	)
+	(wire
+		(pts
 			(xy 341.63 101.6) (xy 339.09 101.6)
 		)
 		(stroke
@@ -4026,6 +4154,16 @@
 			(type solid)
 		)
 		(uuid "50b2d4f6-dfb0-48f9-97d1-3215b735f4bb")
+	)
+	(wire
+		(pts
+			(xy 77.47 106.68) (xy 118.11 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53d6d7dc-8309-4ff5-98db-ae79478d1338")
 	)
 	(wire
 		(pts
@@ -4089,7 +4227,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 58.42) (xy 123.19 58.42)
+			(xy 118.11 60.96) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -4159,7 +4297,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 158.75 58.42)
+			(xy 147.32 60.96) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -4189,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 63.5) (xy 54.61 63.5)
+			(xy 52.07 58.42) (xy 57.15 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -4229,13 +4367,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 58.42) (xy 147.32 58.42)
+			(xy 123.19 60.96) (xy 147.32 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "69635189-a8fb-4b2e-aaea-1cbbed03814c")
+	)
+	(wire
+		(pts
+			(xy 77.47 58.42) (xy 115.57 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6cc20539-b6a6-428b-b833-f9e5eadc9337")
 	)
 	(wire
 		(pts
@@ -4369,16 +4517,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 80.01 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "88187819-4aa0-443b-96a5-657a8da90e18")
-	)
-	(wire
-		(pts
 			(xy 259.08 76.2) (xy 259.08 73.66)
 		)
 		(stroke
@@ -4429,7 +4567,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 144.78 62.23)
+			(xy 158.75 58.42) (xy 144.78 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -4519,16 +4657,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 111.76) (xy 82.55 111.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9456d77c-edfe-4293-be23-0a5324ec1e65")
-	)
-	(wire
-		(pts
 			(xy 147.32 144.78) (xy 232.41 144.78)
 		)
 		(stroke
@@ -4556,16 +4684,6 @@
 			(type default)
 		)
 		(uuid "9a8229a6-cac4-46d3-b754-3156ac19341d")
-	)
-	(wire
-		(pts
-			(xy 80.01 66.04) (xy 82.55 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9c119cc0-e8c7-4c68-a35e-f9ec5541ba71")
 	)
 	(wire
 		(pts
@@ -4739,7 +4857,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 55.88) (xy 133.35 60.96)
+			(xy 133.35 55.88) (xy 133.35 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -4836,6 +4954,16 @@
 			(type solid)
 		)
 		(uuid "bdfe1eb7-c3f6-42d4-9d21-0ad73a55a925")
+	)
+	(wire
+		(pts
+			(xy 77.47 60.96) (xy 118.11 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c0c32110-96bd-45b9-a845-fdae0356ebc7")
 	)
 	(wire
 		(pts
@@ -4936,6 +5064,16 @@
 			(type solid)
 		)
 		(uuid "c83b2513-4e1b-4ebb-b32d-71369e86c0e7")
+	)
+	(wire
+		(pts
+			(xy 144.78 58.42) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb0bfa95-22fd-424d-8f44-636b404c261b")
 	)
 	(polyline
 		(pts
@@ -5039,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 72.39) (xy 147.32 58.42)
+			(xy 147.32 72.39) (xy 147.32 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -5059,7 +5197,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 115.57 60.96)
+			(xy 115.57 104.14) (xy 115.57 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -5069,7 +5207,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 104.14) (xy 118.11 58.42)
+			(xy 118.11 106.68) (xy 118.11 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -5106,16 +5244,6 @@
 			(type solid)
 		)
 		(uuid "e25a2727-f76a-4a0d-8570-0b63dd826612")
-	)
-	(wire
-		(pts
-			(xy 115.57 60.96) (xy 80.01 60.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e389ed07-d399-4e9d-a841-22cf9bc796a6")
 	)
 	(wire
 		(pts
@@ -5179,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 60.96) (xy 133.35 60.96)
+			(xy 115.57 58.42) (xy 133.35 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -5549,7 +5677,6 @@
 	)
 	(label "CAN_TX"
 		(at 265.43 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5560,7 +5687,6 @@
 	)
 	(label "SWCLK"
 		(at 265.43 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5571,7 +5697,6 @@
 	)
 	(label "SWDIO"
 		(at 118.11 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5582,7 +5707,6 @@
 	)
 	(label "NRESET"
 		(at 118.11 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5593,7 +5717,6 @@
 	)
 	(label "LT1618-IADJ"
 		(at 265.43 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5604,7 +5727,6 @@
 	)
 	(label "LT1618-ENABLE"
 		(at 265.43 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5615,7 +5737,6 @@
 	)
 	(label "BOOT0"
 		(at 217.17 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5626,7 +5747,6 @@
 	)
 	(label "OSC_OUT"
 		(at 217.17 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5637,7 +5757,6 @@
 	)
 	(label "PA2/USART2_TX"
 		(at 265.43 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5648,7 +5767,6 @@
 	)
 	(label "SDA"
 		(at 217.17 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5659,7 +5777,6 @@
 	)
 	(label "OSC_IN"
 		(at 217.17 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5670,7 +5787,6 @@
 	)
 	(label "CAN_SILENT"
 		(at 265.43 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5681,7 +5797,6 @@
 	)
 	(label "NRESET"
 		(at 217.17 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5692,7 +5807,6 @@
 	)
 	(label "PA3/USART2_RX"
 		(at 118.11 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5703,7 +5817,6 @@
 	)
 	(label "CAN_RX"
 		(at 265.43 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5714,7 +5827,6 @@
 	)
 	(label "PA0"
 		(at 265.43 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5725,7 +5837,6 @@
 	)
 	(label "SWDIO"
 		(at 265.43 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5736,7 +5847,6 @@
 	)
 	(label "CAN_SHDN"
 		(at 265.43 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5747,7 +5857,6 @@
 	)
 	(label "PA3/USART2_RX"
 		(at 265.43 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5758,7 +5867,6 @@
 	)
 	(label "PA2/USART2_TX"
 		(at 118.11 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5769,7 +5877,6 @@
 	)
 	(label "SWCLK"
 		(at 118.11 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5780,7 +5887,6 @@
 	)
 	(label "SCL"
 		(at 217.17 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5791,7 +5897,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 158.75 62.23 0)
+		(at 158.75 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5801,7 +5907,7 @@
 		)
 		(uuid "17005090-952b-4edc-b6e9-3c18935af121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.1831 62.23 0)
+			(at 166.1831 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5985,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 158.75 58.42 0)
+		(at 158.75 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5889,7 +5995,7 @@
 		)
 		(uuid "8d965d48-005a-4541-acce-6e90490e7df1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.1238 58.42 0)
+			(at 166.1238 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8239,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 52.07 109.22 180)
+		(at 52.07 104.14 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8141,7 +8247,7 @@
 		(dnp no)
 		(uuid "574b7c47-3863-4da9-a7cf-bc8a68489b36")
 		(property "Reference" "TP4"
-			(at 54.61 111.76 0)
+			(at 54.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -8150,7 +8256,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 52.07 109.22 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +8265,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 52.07 119.38 0)
+			(at 52.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +8274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 109.22 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8283,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 52.07 109.22 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +10027,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 52.07 63.5 180)
+		(at 52.07 58.42 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9929,7 +10035,7 @@
 		(dnp no)
 		(uuid "ad145e43-6523-4fcf-9589-3c918d8ed2b6")
 		(property "Reference" "TP30"
-			(at 54.61 66.04 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9938,7 +10044,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 52.07 63.5 0)
+			(at 52.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,7 +10053,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 52.07 73.66 0)
+			(at 52.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,7 +10062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 63.5 0)
+			(at 52.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,7 +10071,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 52.07 63.5 0)
+			(at 52.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10490,7 +10596,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-ics:TMP101NA")
+		(lib_id "Sensor_Temperature:TMP101")
 		(at 67.31 109.22 0)
 		(mirror y)
 		(unit 1)
@@ -10518,24 +10624,26 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:DBV6-SLOT"
-			(at 67.31 109.22 0)
+			(at 66.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 67.31 109.22 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp101.pdf"
+			(at 66.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature Sensor Digital, Local -55°C ~ 125°C 11 b SOT-23-6"
+		(property "Description" "Digital Temperature Sensor with I2C/SMBus Interface, ±2°C, one-shot conversion, alert, SOT-23-6"
 			(at 67.31 109.22 0)
 			(effects
 				(font
@@ -10781,7 +10889,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-ics:SOT23-8_TI-DCN"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 354.33 119.38 0)
 			(effects
 				(font
@@ -11008,7 +11116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-ics:TMP101NA")
+		(lib_id "Sensor_Temperature:TMP101")
 		(at 67.31 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -11036,24 +11144,26 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:DBV6-SLOT"
-			(at 67.31 63.5 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 67.31 63.5 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp101.pdf"
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature Sensor Digital, Local -55°C ~ 125°C 11 b SOT-23-6"
+		(property "Description" "Digital Temperature Sensor with I2C/SMBus Interface, ±2°C, one-shot conversion, alert, SOT-23-6"
 			(at 67.31 63.5 0)
 			(effects
 				(font
