@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f9e0ef83-9a90-4f91-960a-81a03afe74bc")
 	(paper "USLedger")
 	(title_block
@@ -11,7 +11,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -84,7 +86,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -96,7 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -145,9 +147,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -218,18 +223,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -242,7 +235,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -266,7 +259,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -315,6 +320,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-diodes:LTC4411"
 			(exclude_from_sim no)
@@ -375,6 +381,14 @@
 						(type none)
 					)
 				)
+				(text "IN"
+					(at -2.794 1.27 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+					)
+				)
 				(text "CTL"
 					(at -2.286 -1.27 0)
 					(effects
@@ -385,14 +399,6 @@
 				)
 				(text "GND"
 					(at 0 -3.048 0)
-					(effects
-						(font
-							(size 0.8636 0.8636)
-						)
-					)
-				)
-				(text "IN"
-					(at -2.794 1.27 0)
 					(effects
 						(font
 							(size 0.8636 0.8636)
@@ -434,24 +440,6 @@
 					)
 				)
 				(pin input line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -6.35 -1.27 0)
 					(length 2.54)
 					(name ""
@@ -469,8 +457,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 6.35 -1.27 180)
+				(pin input line
+					(at 0 -6.35 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -479,7 +467,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -505,7 +493,26 @@
 						)
 					)
 				)
+				(pin output line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-misc:IXOLAR-KXOB101K08TF"
 			(exclude_from_sim no)
@@ -571,42 +578,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -8.89) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 5.715 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.54) (xy -5.715 2.54)
 					)
 					(stroke
@@ -631,7 +602,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 3.81 5.08)
+						(xy 0 -3.81) (xy 5.715 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -643,7 +614,31 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 5.08) (xy 3.81 3.81)
+						(xy 0 -6.35) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.89) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 3.81 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -667,7 +662,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 5.08) (xy 3.81 5.08)
+						(xy 3.81 5.08) (xy 3.81 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -679,7 +674,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.715 -3.937) (xy -5.715 -3.937)
+						(xy 5.08 5.08) (xy 3.81 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -703,7 +698,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.604 -0.508) (xy 8.89 -2.794)
+						(xy 5.715 -3.937) (xy -5.715 -3.937)
 					)
 					(stroke
 						(width 0.254)
@@ -715,7 +710,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.366 0.254) (xy 9.652 -2.032)
+						(xy 6.604 -0.508) (xy 8.89 -2.794)
 					)
 					(stroke
 						(width 0.254)
@@ -739,6 +734,18 @@
 				)
 				(polyline
 					(pts
+						(xy 7.366 0.254) (xy 9.652 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 7.874 0.254) (xy 7.366 -0.254) (xy 7.112 0.508)
 					)
 					(stroke
@@ -747,24 +754,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(pin power_out line
-					(at 0 -8.89 90)
-					(length 0)
-					(name "C2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "NEG2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 				(pin power_out line
@@ -785,7 +774,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 0 -8.89 90)
+					(length 0)
+					(name "C2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NEG2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-misc:IXOLAR-KXOB2502X8TF"
 			(exclude_from_sim no)
@@ -827,7 +835,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " Monocrystalline Silicon Solar Cell 26.3 mW 5.53 V thin"
+			(property "Description" "Monocrystalline Silicon Solar Cell 26.3 mW 5.53 V thin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -840,42 +848,6 @@
 				(polyline
 					(pts
 						(xy -5.715 2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -8.89) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 5.715 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -911,7 +883,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 3.81 5.08)
+						(xy 0 -3.81) (xy 5.715 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -923,7 +895,31 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 5.08) (xy 3.81 3.81)
+						(xy 0 -6.35) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.89) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 3.81 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -947,7 +943,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 5.08) (xy 3.81 5.08)
+						(xy 3.81 5.08) (xy 3.81 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -959,7 +955,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.715 -3.937) (xy -5.715 -3.937)
+						(xy 5.08 5.08) (xy 3.81 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -983,7 +979,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.604 -0.508) (xy 8.89 -2.794)
+						(xy 5.715 -3.937) (xy -5.715 -3.937)
 					)
 					(stroke
 						(width 0.254)
@@ -995,7 +991,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.366 0.254) (xy 9.652 -2.032)
+						(xy 6.604 -0.508) (xy 8.89 -2.794)
 					)
 					(stroke
 						(width 0.254)
@@ -1019,6 +1015,18 @@
 				)
 				(polyline
 					(pts
+						(xy 7.366 0.254) (xy 9.652 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 7.874 0.254) (xy 7.366 -0.254) (xy 7.112 0.508)
 					)
 					(stroke
@@ -1027,24 +1035,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(pin power_out line
-					(at 0 -8.89 90)
-					(length 0)
-					(name "C2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "NEG2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 				(pin power_out line
@@ -1065,7 +1055,26 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 0 -8.89 90)
+					(length 0)
+					(name "C2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "NEG2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
 			(exclude_from_sim yes)
@@ -1148,12 +1157,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1255,6 +1269,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-power:VSOLAR"
 			(power)
@@ -1358,7 +1373,64 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 44.45 35.56)
+		(end 392.43 227.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 28dde7c2-fdd1-4ba7-8b4c-2dc14c23ea03)
+	)
+	(text "Combined IXOLAR KXOB series cells, Silicon\n- Voc = 5.53 V\n- Vmp = 4.46 V\n- Isc = 269.4 mA\n- Imp = 253 mA\n- Wmp = 1128.4 mW"
+		(exclude_from_sim no)
+		(at 156.718 70.612 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "381c61f5-30be-4cb6-b753-f5fa2882cf1d")
+	)
+	(text "2x IXOLAR KXOB2502X8TF\n1.84cm^2 ea, Silicon\n- Voc = 5.53 V\n- Vmp = 4.46 V\n- Isc = 6.3/12.6 mA ea./tot.\n- Imp = 5.9/11.8 mA ea./tot.\n- Wmp = 26.3/52.6 mW ea./tot."
+		(exclude_from_sim no)
+		(at 63.754 168.91 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "791313cf-f5fc-46bf-88aa-9fb46ff2a833")
+	)
+	(text "Solar Cells"
+		(exclude_from_sim no)
+		(at 155.956 45.466 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea61875e-22e6-49b7-9712-0d51705132bb")
+	)
+	(text "6x IXOLAR KXOB101K08TF\n9.66cm^2 ea, Silicon\n- Voc = 5.53 V\n- Vmp = 4.46 V\n- Isc = 42.8/256.8 mA ea./tot.\n- Imp = 40.2/241.2 mA ea./tot.\n- Wmp = 179.292/1075 mw ea./tot."
+		(exclude_from_sim no)
+		(at 64.008 90.17 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ede0c8e7-0473-481d-992c-d570ee074a99")
 	)
 	(junction
 		(at 191.77 127)
@@ -3566,62 +3638,6 @@
 		)
 		(uuid "fc44a7a1-76f2-40b0-a940-edb0aee8a1e1")
 	)
-	(rectangle
-		(start 44.45 35.56)
-		(end 392.43 227.33)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 28dde7c2-fdd1-4ba7-8b4c-2dc14c23ea03)
-	)
-	(text "Combined IXOLAR KXOB series cells, Silicon\n- Voc = 5.53 V\n- Vmp = 4.46 V\n- Isc = 269.4 mA\n- Imp = 253 mA\n- Wmp = 1128.4 mW"
-		(exclude_from_sim no)
-		(at 156.718 70.612 0)
-		(effects
-			(font
-				(size 1.778 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "381c61f5-30be-4cb6-b753-f5fa2882cf1d")
-	)
-	(text "2x IXOLAR KXOB2502X8TF\n1.84cm^2 ea, Silicon\n- Voc = 5.53 V\n- Vmp = 4.46 V\n- Isc = 6.3/12.6 mA ea./tot.\n- Imp = 5.9/11.8 mA ea./tot.\n- Wmp = 26.3/52.6 mW ea./tot."
-		(exclude_from_sim no)
-		(at 63.754 168.91 0)
-		(effects
-			(font
-				(size 1.778 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "791313cf-f5fc-46bf-88aa-9fb46ff2a833")
-	)
-	(text "Solar Cells"
-		(exclude_from_sim no)
-		(at 155.956 45.466 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea61875e-22e6-49b7-9712-0d51705132bb")
-	)
-	(text "6x IXOLAR KXOB101K08TF\n9.66cm^2 ea, Silicon\n- Voc = 5.53 V\n- Vmp = 4.46 V\n- Isc = 42.8/256.8 mA ea./tot.\n- Imp = 40.2/241.2 mA ea./tot.\n- Wmp = 179.292/1075 mw ea./tot."
-		(exclude_from_sim no)
-		(at 64.008 90.17 0)
-		(effects
-			(font
-				(size 1.778 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ede0c8e7-0473-481d-992c-d570ee074a99")
-	)
 	(symbol
 		(lib_id "oresat-diodes:LTC4411")
 		(at 251.46 118.11 0)
@@ -5041,7 +5057,7 @@
 		(dnp no)
 		(uuid "41505e8b-9c3b-4e68-8c62-262452624fc2")
 		(property "Reference" "D9"
-			(at 223.774 128.016 0)
+			(at 220.472 134.112 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7246,7 +7262,7 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 254 87.63 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
