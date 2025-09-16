@@ -7970,7 +7970,7 @@
 			(uuid "22243814-f114-436e-b2ca-54826bad1696")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND025")
 					(unit 1)
@@ -8036,7 +8036,7 @@
 			(uuid "256b0a80-d8ce-4545-a12f-f073a3a641d1")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND05")
 					(unit 1)
@@ -8145,7 +8145,7 @@
 			(uuid "5518b481-de8b-4e03-8c57-600f87002690")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C15")
 					(unit 1)
@@ -8248,7 +8248,7 @@
 			(uuid "ab4ec9f9-2aff-4ed7-8799-200047df5a45")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "Q1")
 					(unit 1)
@@ -8314,7 +8314,7 @@
 			(uuid "6dc43ee4-e395-478f-b0b8-65bcc1a5109b")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND046")
 					(unit 1)
@@ -8423,7 +8423,7 @@
 			(uuid "694ca210-b332-4f96-ad3e-0a17713567a2")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R12")
 					(unit 1)
@@ -8490,7 +8490,7 @@
 			(uuid "a3d073f5-e0bf-4f7a-b3f1-3b60f3e455f8")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP11")
 					(unit 1)
@@ -8600,7 +8600,7 @@
 			(uuid "3ecd9abe-0ce5-4e20-acf3-8e4d81608fdc")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C8")
 					(unit 1)
@@ -8666,7 +8666,7 @@
 			(uuid "4c11b068-8fa4-48b6-ba6a-9312830ee230")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP10")
 					(unit 1)
@@ -8775,7 +8775,7 @@
 			(uuid "9e6cfcbb-edc8-434d-a45a-b44e12768b8d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R2")
 					(unit 1)
@@ -8884,7 +8884,7 @@
 			(uuid "8fab8c70-7391-4636-9ecf-2ada4fc99bdc")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R21")
 					(unit 1)
@@ -8950,7 +8950,7 @@
 			(uuid "9a06fa19-4486-4619-b985-9663ffe16f9e")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND018")
 					(unit 1)
@@ -9016,7 +9016,7 @@
 			(uuid "ef1fbbec-5f1b-40b6-aa3c-84d02a119f87")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND014")
 					(unit 1)
@@ -9161,7 +9161,7 @@
 			(uuid "a90aeeeb-4c8c-4ee2-906e-697505cbfa8c")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "CF1")
 					(unit 1)
@@ -9227,7 +9227,7 @@
 			(uuid "4f517b51-7d91-42b0-b9d5-b59c7224fa30")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP1")
 					(unit 1)
@@ -9336,7 +9336,7 @@
 			(uuid "5781eb62-20bb-4e2f-9ce7-e90696dc92a9")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C20")
 					(unit 1)
@@ -9445,7 +9445,7 @@
 			(uuid "28cc7daf-0113-4b6f-8b7a-8ecabc406cb0")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C4")
 					(unit 1)
@@ -9511,7 +9511,7 @@
 			(uuid "c1f12ae4-dc50-42cd-b916-2478ecc9d274")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP18")
 					(unit 1)
@@ -9577,7 +9577,7 @@
 			(uuid "32ea3d19-e8ed-43c4-b089-72480b33ce9e")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND021")
 					(unit 1)
@@ -9643,7 +9643,7 @@
 			(uuid "3150028d-9fac-44d7-bbd8-8add545552bb")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND024")
 					(unit 1)
@@ -9752,7 +9752,7 @@
 			(uuid "aaa42ca2-8033-43c7-907b-66e64220e94d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C2")
 					(unit 1)
@@ -9870,7 +9870,7 @@
 			(uuid "d2ad36ee-5cb3-4891-ae24-c65a13f9fe64")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "D4")
 					(unit 1)
@@ -9976,7 +9976,7 @@
 			(uuid "eb191db6-dac2-4689-a74c-e848882f6a20")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "L1")
 					(unit 1)
@@ -10085,7 +10085,7 @@
 			(uuid "f01a59e2-3e4a-4eb1-91c2-9f736954b184")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R17")
 					(unit 1)
@@ -10194,7 +10194,7 @@
 			(uuid "ce666749-af91-4a62-b95c-8bcfba18ae02")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C18")
 					(unit 1)
@@ -10316,7 +10316,7 @@
 			(uuid "0331b4af-e8e0-49f5-82d4-5ff0068725ee")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "Q2")
 					(unit 1)
@@ -10382,7 +10382,7 @@
 			(uuid "68b3a3d6-dc03-41bc-891c-646700c2cd4d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND039")
 					(unit 1)
@@ -10491,7 +10491,7 @@
 			(uuid "31624f1f-421a-4b19-ad7f-ce6c26e82a9c")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C13")
 					(unit 1)
@@ -10600,7 +10600,7 @@
 			(uuid "4f504cba-c1ad-4b88-8030-a55828d23269")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R10")
 					(unit 1)
@@ -10709,7 +10709,7 @@
 			(uuid "acf5549d-ab63-4896-944e-4e3c1c9bdf66")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R1")
 					(unit 1)
@@ -10814,7 +10814,7 @@
 			(uuid "5d581fdb-bc93-4b9b-b567-f884a4176ceb")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "L2")
 					(unit 1)
@@ -10924,7 +10924,7 @@
 			(uuid "6f3574db-27cf-4a3c-abc9-4d7e9ade180c")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R7")
 					(unit 1)
@@ -10991,7 +10991,7 @@
 			(uuid "518ba990-b992-4d83-9027-5675cbdbf30b")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP14")
 					(unit 1)
@@ -11058,7 +11058,7 @@
 			(uuid "6016497f-c276-47d6-b0f0-6543848a1d78")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND013")
 					(unit 1)
@@ -11124,7 +11124,7 @@
 			(uuid "11be5491-c603-46b5-a01a-c9bc30639526")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND011")
 					(unit 1)
@@ -11247,7 +11247,7 @@
 			(uuid "fecd49b8-7533-47a2-b9c7-c139876aa1d8")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "J1")
 					(unit 1)
@@ -11379,7 +11379,7 @@
 			(uuid "fb0a5665-d690-4c3f-9bac-998e1effa350")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "U10")
 					(unit 1)
@@ -11445,7 +11445,7 @@
 			(uuid "8d1c5f65-e131-4178-bebf-a577252f0b54")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND02")
 					(unit 1)
@@ -11511,7 +11511,7 @@
 			(uuid "a5118aa2-7118-4b9b-9075-9fb8c2bb8dfc")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP6")
 					(unit 1)
@@ -11577,7 +11577,7 @@
 			(uuid "17483507-c83d-49c8-afab-58f11f72d0b3")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP17")
 					(unit 1)
@@ -11643,7 +11643,7 @@
 			(uuid "be6a1a43-556f-4e6a-b57e-63aeb5624146")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND09")
 					(unit 1)
@@ -11752,7 +11752,7 @@
 			(uuid "425588a9-b7f5-4fc0-bd4f-7e41c2e8e3cb")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R6")
 					(unit 1)
@@ -11857,7 +11857,7 @@
 			(uuid "8b86368d-6698-4637-9789-df39a7d3a126")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R37")
 					(unit 1)
@@ -11923,7 +11923,7 @@
 			(uuid "515e902b-ba39-426d-81f5-30cec3f6f9a2")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#VSOLAR02")
 					(unit 1)
@@ -12044,7 +12044,7 @@
 			(uuid "4491247e-3044-4bde-89e5-d4543b782703")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "U12")
 					(unit 1)
@@ -12150,7 +12150,7 @@
 			(uuid "f82e4e59-38a2-4171-9b74-ec3e2d53e711")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R11")
 					(unit 1)
@@ -12216,7 +12216,7 @@
 			(uuid "466c4080-e239-406f-a707-0bad97ebb4f6")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND045")
 					(unit 1)
@@ -12325,7 +12325,7 @@
 			(uuid "01c3fa05-c0fa-4c20-8a08-674bb6881e40")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R19")
 					(unit 1)
@@ -12391,7 +12391,7 @@
 			(uuid "c03326c2-b55b-4cca-8cc2-e72eec6e3831")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND023")
 					(unit 1)
@@ -12501,7 +12501,7 @@
 			(uuid "d6c3e7c4-5433-4560-87a3-bc5ca4d69d05")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C7")
 					(unit 1)
@@ -12567,7 +12567,7 @@
 			(uuid "a00e3be7-29ad-4c07-b102-84d355de6e55")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND034")
 					(unit 1)
@@ -12634,7 +12634,7 @@
 			(uuid "3e65351d-a38e-47b9-930c-2a33a3824623")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND026")
 					(unit 1)
@@ -12700,7 +12700,7 @@
 			(uuid "32cb0961-d472-48a2-b3e4-444323d1d768")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND028")
 					(unit 1)
@@ -12806,7 +12806,7 @@
 			(uuid "4f10d5a7-26bd-4601-ae6b-a74bf9cc8667")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R13")
 					(unit 1)
@@ -12873,7 +12873,7 @@
 			(uuid "22ce6259-3a1c-4aaa-8784-f31a5d384ec3")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP12")
 					(unit 1)
@@ -12939,7 +12939,7 @@
 			(uuid "2e675ff2-d05d-4bf2-90ae-e82ed62ebc0d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#SUPPLY07")
 					(unit 1)
@@ -13048,7 +13048,7 @@
 			(uuid "354c44ad-862f-42d2-a9d7-435615a3c944")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C21")
 					(unit 1)
@@ -13158,7 +13158,7 @@
 			(uuid "4f32496f-2b8b-4af0-9ddd-d6c20d3a6c91")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C37")
 					(unit 1)
@@ -13281,7 +13281,7 @@
 			(uuid "a419f6ae-0c87-4e3d-862d-0f6ed27b2cca")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "D3")
 					(unit 1)
@@ -13390,7 +13390,7 @@
 			(uuid "c387aadd-bdf9-43ec-aa73-8a05fae37f9d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C23")
 					(unit 1)
@@ -13457,7 +13457,7 @@
 			(uuid "63d2d567-2dd4-4ebf-9f80-c58b2e7f28cc")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP25")
 					(unit 1)
@@ -13566,7 +13566,7 @@
 			(uuid "599beaa2-65a0-47b8-842a-8e7a3352288c")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C6")
 					(unit 1)
@@ -13675,7 +13675,7 @@
 			(uuid "7cdae134-5516-47be-8026-07c9da7a8909")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C19")
 					(unit 1)
@@ -13741,7 +13741,7 @@
 			(uuid "525890bf-646a-4daf-9374-6f23a315d69a")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND036")
 					(unit 1)
@@ -13850,7 +13850,7 @@
 			(uuid "df3b2590-8ce9-479b-9604-5995159fa0ed")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C14")
 					(unit 1)
@@ -13959,7 +13959,7 @@
 			(uuid "6081a607-db18-4948-b72e-80cf13f72518")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R14")
 					(unit 1)
@@ -14066,7 +14066,7 @@
 			(uuid "497be60d-38c5-413b-9c8c-2b3ef9cc9104")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "D5")
 					(unit 1)
@@ -14132,7 +14132,7 @@
 			(uuid "851a6894-3f63-4126-9390-490ba0f56e0b")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND035")
 					(unit 1)
@@ -14198,7 +14198,7 @@
 			(uuid "13f085a7-012a-4ab7-96e2-a72a505ca021")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND012")
 					(unit 1)
@@ -14264,7 +14264,7 @@
 			(uuid "dbf6fd36-e8d1-466e-904c-8d1d5ea74b2f")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND017")
 					(unit 1)
@@ -14329,7 +14329,7 @@
 			(uuid "32696d09-a5ae-4c52-820d-1526e683bd00")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND08")
 					(unit 1)
@@ -14438,7 +14438,7 @@
 			(uuid "cdd77251-fca2-4d49-a66a-c2e04186413e")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C22")
 					(unit 1)
@@ -14543,7 +14543,7 @@
 			(uuid "da7987eb-2582-409b-b0d1-516517428c57")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R36")
 					(unit 1)
@@ -14661,7 +14661,7 @@
 			(uuid "baffc341-8471-426a-ac4e-21a98bce5f0d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "Q2")
 					(unit 2)
@@ -14727,7 +14727,7 @@
 			(uuid "dcc60fdc-b137-4e7c-bf29-211a605fa11c")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND015")
 					(unit 1)
@@ -14793,7 +14793,7 @@
 			(uuid "ae59e437-d1cc-4349-9b39-b52defd49d9e")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP24")
 					(unit 1)
@@ -14859,7 +14859,7 @@
 			(uuid "4f133711-7752-426a-bc9d-33ec34038937")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#VSOLAR03")
 					(unit 1)
@@ -14968,7 +14968,7 @@
 			(uuid "1a14090e-a3b9-47b6-940f-8eaebcf4ff6d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R16")
 					(unit 1)
@@ -15034,7 +15034,7 @@
 			(uuid "5d67529d-d3ff-4291-8175-babe2f48c8af")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP5")
 					(unit 1)
@@ -15100,7 +15100,7 @@
 			(uuid "f05f3d62-db54-445a-8f92-14822a87d91e")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#SUPPLY09")
 					(unit 1)
@@ -15166,7 +15166,7 @@
 			(uuid "1d5cef53-7d45-40e9-8fe7-f0010ef9861d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP2")
 					(unit 1)
@@ -15232,7 +15232,7 @@
 			(uuid "597a6334-4b76-4682-8264-fbd43e90b7b4")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND03")
 					(unit 1)
@@ -15298,7 +15298,7 @@
 			(uuid "3939af06-8ae0-4bc9-ab7c-7cf2cb8f04e5")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND038")
 					(unit 1)
@@ -15364,7 +15364,7 @@
 			(uuid "6a5f55a3-9843-49d0-806d-203b60ca4639")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#SUPPLY06")
 					(unit 1)
@@ -15430,7 +15430,7 @@
 			(uuid "2f57ccc2-e008-44d1-8be2-9113c0445f07")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND030")
 					(unit 1)
@@ -15553,7 +15553,7 @@
 			(uuid "885fd599-f21e-4270-9214-1119de8bc203")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "D1")
 					(unit 1)
@@ -15619,7 +15619,7 @@
 			(uuid "4093b785-710f-46b0-bbdc-9e1c614fd158")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND07")
 					(unit 1)
@@ -15685,7 +15685,7 @@
 			(uuid "a40fa1ff-992c-4c6e-93f7-34f0b7fa6186")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND016")
 					(unit 1)
@@ -15751,7 +15751,7 @@
 			(uuid "4007de01-6e87-48ea-afec-74d46b1ae0f8")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#SUPPLY01")
 					(unit 1)
@@ -15860,7 +15860,7 @@
 			(uuid "3e14f493-7ad0-481c-9589-59552e9f2b68")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R20")
 					(unit 1)
@@ -15926,7 +15926,7 @@
 			(uuid "63882219-db24-4ae8-9a98-54feee9e9ced")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#VBUS01")
 					(unit 1)
@@ -16055,7 +16055,7 @@
 			(uuid "0dff4a33-7af4-4b96-b163-f04605cfab35")
 		)
 		(instances
-			(project ""
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "U4")
 					(unit 1)
@@ -16121,7 +16121,7 @@
 			(uuid "00c019b6-9409-46e3-a7c3-0fa19a8ed92d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND020")
 					(unit 1)
@@ -16188,7 +16188,7 @@
 			(uuid "0c3d1d71-2cad-405b-b361-929d1ecca65b")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP9")
 					(unit 1)
@@ -16254,7 +16254,7 @@
 			(uuid "17a48eb1-6451-4457-9bdb-5fe938d9dd45")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND032")
 					(unit 1)
@@ -16363,7 +16363,7 @@
 			(uuid "6515900c-92e7-4b90-a73d-6937d15cd6a6")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C12")
 					(unit 1)
@@ -16429,7 +16429,7 @@
 			(uuid "d83ce64e-59b4-47e9-8332-134cf6ffb8cd")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP8")
 					(unit 1)
@@ -16562,7 +16562,7 @@
 			(uuid "dd65dba8-a38a-41a7-a9c7-5031afd7cd1d")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "U3")
 					(unit 1)
@@ -16672,7 +16672,7 @@
 			(uuid "fffe6b6a-0579-4e68-9010-a1b64e0568e5")
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R18")
 					(unit 1)

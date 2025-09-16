@@ -515,7 +515,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1727200|1905000|bdd1eb78-f52e-4d92-8c20-e450075c18c7|00000000-0000-0000-0000-000000000000|/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f|/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2959100|596900|bd0f566e-200f-4c11-bf68-4f2a16a97999|00000000-0000-0000-0000-000000000000|/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f|/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|3162300|596900|4491247e-3044-4bde-89e5-d4543b782703|00000000-0000-0000-0000-000000000000|/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f|/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|3606800|1092200|0100be41-52a6-4738-853c-cd8daadd3e69|00000000-0000-0000-0000-000000000000|/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc|/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -741,7 +758,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "1u_panel-silicon.kicad_pro",
+    "filename": "solar-module-1u-si.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -942,15 +959,15 @@
     ],
     [
       "ec17bb5c-246f-4d5d-bfe1-6c890233ea83",
-      "1u_panel-cells"
+      "Solar Cells"
     ],
     [
       "5c4415f1-d90e-44ce-bb2c-b4c8edead48f",
-      "1u_panel-power"
+      "MPPT and Power"
     ],
     [
       "bfa81e66-0bc2-4d21-a09c-e64719ae80bc",
-      "1u_panel-microcontroller"
+      "Microcontroller"
     ]
   ],
   "text_variables": {

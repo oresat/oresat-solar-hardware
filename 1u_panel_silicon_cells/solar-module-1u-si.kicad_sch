@@ -93,7 +93,7 @@
 	)
 	(text "Mechanical"
 		(exclude_from_sim no)
-		(at 161.29 111.76 0)
+		(at 139.7 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -104,7 +104,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 154.94 123.19 0)
+		(at 133.35 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -113,7 +113,7 @@
 		(fields_autoplaced yes)
 		(uuid "34ddc242-d9bd-4f0a-b4fb-b859a60bae49")
 		(property "Reference" "FID2"
-			(at 157.48 121.9199 0)
+			(at 135.89 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +122,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 157.48 124.4599 0)
+			(at 135.89 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,7 +131,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 154.94 123.19 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 123.19 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,7 +149,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 154.94 123.19 0)
+			(at 133.35 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,7 +168,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 172.72 123.19 0)
+		(at 151.13 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -177,7 +177,7 @@
 		(fields_autoplaced yes)
 		(uuid "397547d5-d851-4690-9ec0-a83164927dc1")
 		(property "Reference" "FID5"
-			(at 175.26 121.9199 0)
+			(at 153.67 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +186,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 175.26 124.4599 0)
+			(at 153.67 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +195,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 172.72 123.19 0)
+			(at 151.13 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,7 +204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 123.19 0)
+			(at 151.13 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -213,7 +213,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 172.72 123.19 0)
+			(at 151.13 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +232,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 154.94 128.27 0)
+		(at 133.35 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -241,7 +241,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1ae553b-3c45-4e13-a455-077c70b0a9e9")
 		(property "Reference" "FID3"
-			(at 157.48 126.9999 0)
+			(at 135.89 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +250,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 157.48 129.5399 0)
+			(at 135.89 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,7 +259,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 154.94 128.27 0)
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,7 +268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 128.27 0)
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,7 +277,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 154.94 128.27 0)
+			(at 133.35 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +296,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 172.72 118.11 0)
+		(at 151.13 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -305,7 +305,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4f90a11-4966-4cdc-be02-279a6575af14")
 		(property "Reference" "FID4"
-			(at 175.26 116.8399 0)
+			(at 153.67 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -314,7 +314,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 175.26 119.3799 0)
+			(at 153.67 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,7 +323,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 172.72 118.11 0)
+			(at 151.13 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -332,7 +332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 118.11 0)
+			(at 151.13 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +341,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 172.72 118.11 0)
+			(at 151.13 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,7 +360,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 154.94 118.11 0)
+		(at 133.35 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -369,7 +369,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1f1933c-e90a-4073-b5a6-64e94d481852")
 		(property "Reference" "FID1"
-			(at 157.48 116.8399 0)
+			(at 135.89 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +378,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 157.48 119.3799 0)
+			(at 135.89 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +387,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 154.94 118.11 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 118.11 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +405,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 154.94 118.11 0)
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,7 +424,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 172.72 128.27 0)
+		(at 151.13 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -433,7 +433,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdc4c765-9282-409a-81ba-db846b73a3e3")
 		(property "Reference" "FID6"
-			(at 175.26 126.9999 0)
+			(at 153.67 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,7 +442,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 175.26 129.5399 0)
+			(at 153.67 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +451,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 172.72 128.27 0)
+			(at 151.13 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 128.27 0)
+			(at 151.13 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +469,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 172.72 128.27 0)
+			(at 151.13 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,7 +487,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 55.88)
+		(at 48.26 118.11)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -502,8 +502,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5c4415f1-d90e-44ce-bb2c-b4c8edead48f")
-		(property "Sheetname" "1u_panel-power"
-			(at 35.56 54.8034 0)
+		(property "Sheetname" "MPPT and Power"
+			(at 48.26 117.0334 0)
 			(effects
 				(font
 					(size 2 2)
@@ -512,8 +512,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1u_panel-power.kicad_sch"
-			(at 35.56 60.2746 0)
+		(property "Sheetfile" "solar-module-1u-si-sch-power.kicad_sch"
+			(at 48.26 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +522,7 @@
 			)
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1"
 					(page "2")
 				)
@@ -530,7 +530,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 71.12)
+		(at 48.26 133.35)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -545,8 +545,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bfa81e66-0bc2-4d21-a09c-e64719ae80bc")
-		(property "Sheetname" "1u_panel-microcontroller"
-			(at 35.56 70.0434 0)
+		(property "Sheetname" "Microcontroller"
+			(at 48.26 132.2734 0)
 			(effects
 				(font
 					(size 2 2)
@@ -555,8 +555,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1u_panel-microcontroller.kicad_sch"
-			(at 35.56 75.5146 0)
+		(property "Sheetfile" "solar-module-1u-si-sch-microcontroller.kicad_sch"
+			(at 48.26 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +565,7 @@
 			)
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1"
 					(page "3")
 				)
@@ -573,7 +573,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 39.37)
+		(at 48.26 101.6)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -588,8 +588,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ec17bb5c-246f-4d5d-bfe1-6c890233ea83")
-		(property "Sheetname" "1u_panel-cells"
-			(at 35.56 38.2934 0)
+		(property "Sheetname" "Solar Cells"
+			(at 48.26 100.5234 0)
 			(effects
 				(font
 					(size 2 2)
@@ -598,8 +598,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1u_panel-cells.kicad_sch"
-			(at 35.56 43.7646 0)
+		(property "Sheetfile" "solar-module-1u-si-sch-cells.kicad_sch"
+			(at 48.26 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +608,7 @@
 			)
 		)
 		(instances
-			(project "1u_panel-silicon"
+			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1"
 					(page "1")
 				)
