@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "1u_panel_breakout-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/1u_panel_breakout-eagle-import.kicad_sym")(options "")(descr ""))
+)
