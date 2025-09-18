@@ -4443,6 +4443,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "DNP\nFOR\nFLIGHT"
 		(exclude_from_sim no)
@@ -5066,6 +5167,12 @@
 		(uuid "cff28d3c-af9c-4dbf-b136-c5afec946db2")
 	)
 	(junction
+		(at 246.38 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1313a5a-26de-4ab3-a60d-2b5dd9c7c011")
+	)
+	(junction
 		(at 147.32 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5088,6 +5195,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8b455ac-272b-40e3-873e-b03818bb9334")
+	)
+	(junction
+		(at 367.03 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea1012df-8059-4471-bba5-c5c59a7f7d3d")
 	)
 	(junction
 		(at 207.01 190.5)
@@ -6969,6 +7082,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 177.8) (xy 246.38 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7a1406-a1d5-4cb7-a6f8-1e9c7b6e1497")
+	)
+	(wire
+		(pts
 			(xy 147.32 87.63) (xy 147.32 86.36)
 		)
 		(stroke
@@ -7159,6 +7282,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 72.39) (xy 367.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc99b407-b0ef-40c2-b09f-427fc6adce50")
+	)
+	(wire
+		(pts
 			(xy 59.69 88.9) (xy 60.96 88.9)
 		)
 		(stroke
@@ -7219,7 +7352,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 71.12) (xy 367.03 73.66)
+			(xy 367.03 71.12) (xy 367.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -15694,16 +15827,17 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-power:3.3V")
-		(at 246.38 179.07 0)
+		(lib_id "power:PWR_FLAG")
+		(at 246.38 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d8742845-6370-4e1f-8b18-9f9ab6bb0beb")
-		(property "Reference" "#SUPPLY01"
-			(at 246.38 179.07 0)
+		(fields_autoplaced yes)
+		(uuid "d860d5a6-954c-493c-a17b-74782c0a8257")
+		(property "Reference" "#FLG01"
+			(at 248.285 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15711,13 +15845,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 246.38 176.276 0)
+		(property "Value" "PWR_FLAG"
+			(at 250.19 179.0699 90)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15729,7 +15863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 246.38 179.07 0)
 			(effects
 				(font
@@ -15738,8 +15872,74 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 246.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a979c908-c06c-41a8-88e4-6e0f662e52d0")
+		)
+		(instances
+			(project ""
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:3.3V")
+		(at 246.38 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8742845-6370-4e1f-8b18-9f9ab6bb0beb")
+		(property "Reference" "#SUPPLY01"
+			(at 246.38 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 246.38 175.006 0)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15863,6 +16063,73 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 367.03 72.39 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e99b3eda-a0ec-45b1-bf2b-063770014d46")
+		(property "Reference" "#FLG02"
+			(at 365.125 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 363.22 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 367.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a215e63d-fa21-433f-b2d0-674763d14146")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
