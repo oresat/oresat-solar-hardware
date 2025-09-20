@@ -10772,7 +10772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 288.544 189.484 90)
 			(effects
 				(font
