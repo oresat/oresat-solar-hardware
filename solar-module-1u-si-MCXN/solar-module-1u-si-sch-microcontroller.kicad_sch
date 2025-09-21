@@ -5538,16 +5538,6 @@
 		)
 		(uuid "b37fb2f2-9cbe-474c-a95d-e09c105f6e90")
 	)
-	(text "can i remove VDD_Core"
-		(exclude_from_sim no)
-		(at 466.598 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b7b769dc-0905-4b76-8add-d6a0c8af26af")
-	)
 	(text "24 MHz allows LPTMRs to work"
 		(exclude_from_sim no)
 		(at 106.68 237.49 0)
