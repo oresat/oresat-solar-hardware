@@ -13349,7 +13349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
+		(property "Datasheet" "~"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -13358,7 +13358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
+		(property "Description" "Diode"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -15556,7 +15556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
+		(property "Datasheet" "~"
 			(at 251.46 43.18 0)
 			(effects
 				(font
@@ -15565,7 +15565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
+		(property "Description" "Diode"
 			(at 251.46 43.18 0)
 			(effects
 				(font
