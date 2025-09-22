@@ -13340,7 +13340,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-diodes:D-SOD323-R"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -15547,7 +15547,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-diodes:D-SOD323-R"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 251.46 43.18 0)
 			(effects
 				(font
