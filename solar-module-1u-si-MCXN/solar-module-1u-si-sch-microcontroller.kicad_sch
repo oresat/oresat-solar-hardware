@@ -5821,6 +5821,12 @@
 		(uuid "a62c7982-8a39-40d1-9dfc-d9629c297525")
 	)
 	(junction
+		(at 375.92 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad1cd625-736a-42e2-a1b3-39cacc215d28")
+	)
+	(junction
 		(at 104.14 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6355,6 +6361,16 @@
 			(type default)
 		)
 		(uuid "1f62b4e7-b23b-4f78-bfe8-51d195994dd7")
+	)
+	(wire
+		(pts
+			(xy 384.81 29.21) (xy 384.81 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20593d40-6fa6-4fbd-a98a-010462fd6f1a")
 	)
 	(wire
 		(pts
@@ -7075,6 +7091,16 @@
 			(type default)
 		)
 		(uuid "7af32b17-a30e-419a-8d7f-9d7dac47b810")
+	)
+	(wire
+		(pts
+			(xy 384.81 24.13) (xy 384.81 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c31f69f-d1a1-46bf-a825-1a2f6571adc7")
 	)
 	(wire
 		(pts
@@ -8055,6 +8081,16 @@
 			(type default)
 		)
 		(uuid "ea3b493c-4fd1-4250-a672-40702a0d5ee0")
+	)
+	(wire
+		(pts
+			(xy 384.81 22.86) (xy 375.92 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea617ca7-20d9-4a54-82ca-f72edbc2942d")
 	)
 	(wire
 		(pts
@@ -13358,6 +13394,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 384.81 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "855ec1cf-a738-4282-a74f-07dd7947ce0c")
+		(property "Reference" "#PWR059"
+			(at 384.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 384.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 384.81 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a1d6aee-6fbe-4c64-81d1-6edbdb1cff34")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 387.35 129.54 0)
 		(mirror y)
 		(unit 1)
@@ -14401,6 +14502,93 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 384.81 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a92a28a7-6c2e-4734-ab65-572872609b89")
+		(property "Reference" "C5"
+			(at 386.08 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 386.08 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 384.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+			(at 384.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 384.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 384.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R72A104KA35D"
+			(at 384.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "082ea9e3-815c-4a82-8cba-d069332e914b")
+		)
+		(pin "1"
+			(uuid "ff429bde-2d00-4ade-a5cc-df87f4af3c73")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "C5")
 					(unit 1)
 				)
 			)
