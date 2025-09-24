@@ -5,8 +5,8 @@
 	(uuid "8e5a1f14-6e06-4573-8170-cf8bfac4698f")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat Solar Module - Silicon Cells")
-		(date "2025-09-16")
+		(title "OreSat Solar Module - Silicon Cells + MCXN")
+		(date "2025-09-23")
 		(rev "1.1")
 	)
 	(lib_symbols
@@ -612,191 +612,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED_Small_Filled"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small_Filled"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_Filled_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_Filled_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4548,17 +4363,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DNP\nFOR\nFLIGHT"
-		(exclude_from_sim no)
-		(at 279.4 196.85 0)
-		(effects
-			(font
-				(size 1.778 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01d4417d-8a15-45e2-baa1-22d2d732e85b")
-	)
 	(text "0805"
 		(exclude_from_sim no)
 		(at 247.65 204.47 0)
@@ -5092,12 +4896,6 @@
 		(uuid "a565df8e-5abf-4044-9a2f-0da8338f2f3f")
 	)
 	(junction
-		(at 95.25 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6c08780-6e02-4e18-97a0-056f9bd55aeb")
-	)
-	(junction
 		(at 318.77 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5114,12 +4912,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aafc7af0-622f-4112-9e3c-e8e755fbcfec")
-	)
-	(junction
-		(at 143.51 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abc46b34-4d9a-4882-9f9a-2a8e7494cf01")
 	)
 	(junction
 		(at 290.83 59.69)
@@ -5585,17 +5377,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 60.96) (xy 143.51 59.69)
-		)
-		(stroke
-			(width 0.3048)
-			(type solid)
-		)
-		(uuid "1ef699ab-747d-469a-9bcb-ecf0eb0f3049")
-	)
-	(wire
-		(pts
-			(xy 39.37 59.69) (xy 143.51 59.69)
+			(xy 39.37 59.69) (xy 158.75 59.69)
 		)
 		(stroke
 			(width 0.3048)
@@ -5665,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 69.85) (xy 143.51 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26381575-1022-4ed0-bacf-8c2274aeee23")
-	)
-	(wire
-		(pts
 			(xy 320.04 59.69) (xy 327.66 59.69)
 		)
 		(stroke
@@ -5692,16 +5464,6 @@
 			(type solid)
 		)
 		(uuid "2d7e5477-bbda-4e04-9e42-0a7e3c8d2dcc")
-	)
-	(wire
-		(pts
-			(xy 143.51 69.85) (xy 143.51 68.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2f1dac59-0d61-411c-b605-0e40f6a9fd15")
 	)
 	(wire
 		(pts
@@ -5732,16 +5494,6 @@
 			(type default)
 		)
 		(uuid "3140a882-7e14-497c-839f-911da01decda")
-	)
-	(wire
-		(pts
-			(xy 275.59 200.66) (xy 275.59 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b37668-414f-4f83-8778-8ceef8d8a1c4")
 	)
 	(wire
 		(pts
@@ -5882,16 +5634,6 @@
 			(type solid)
 		)
 		(uuid "3e5ae105-ab62-4103-9363-1cf7e028f714")
-	)
-	(wire
-		(pts
-			(xy 275.59 193.04) (xy 275.59 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3fc1e43a-c4a9-463f-8735-a0bcdb3c7e61")
 	)
 	(wire
 		(pts
@@ -6845,16 +6587,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 59.69) (xy 158.75 59.69)
-		)
-		(stroke
-			(width 0.3048)
-			(type solid)
-		)
-		(uuid "9fc1f2b8-e430-441d-b08e-bf69ea53c7e7")
-	)
-	(wire
-		(pts
 			(xy 161.29 125.73) (xy 154.94 125.73)
 		)
 		(stroke
@@ -7425,16 +7157,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 182.88) (xy 275.59 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df8acacd-7a22-40f6-bd53-5b6034a3aa71")
-	)
-	(wire
-		(pts
 			(xy 158.75 146.05) (xy 251.46 146.05)
 		)
 		(stroke
@@ -7482,16 +7204,6 @@
 			(type default)
 		)
 		(uuid "e352d280-a1e8-4c5a-877f-58ef39e9f31d")
-	)
-	(wire
-		(pts
-			(xy 143.51 60.96) (xy 143.51 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42a0a53-62e7-42b7-bb34-0ca5cf20a7f8")
 	)
 	(wire
 		(pts
@@ -7672,16 +7384,6 @@
 			(type default)
 		)
 		(uuid "f4065b09-7966-4e65-b567-9a53e180907c")
-	)
-	(wire
-		(pts
-			(xy 275.59 203.2) (xy 275.59 204.47)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f5689e74-fd46-4873-a007-f0a8c2fbb4aa")
 	)
 	(wire
 		(pts
@@ -7921,7 +7623,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7943,7 +7644,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -7965,7 +7665,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7987,7 +7686,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -8009,7 +7707,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8031,7 +7728,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8053,7 +7749,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8397,72 +8092,6 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-power:GND")
-		(at 143.51 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0531b808-c0bc-4d15-93fb-9a24dd9794d9")
-		(property "Reference" "#GND046"
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 141.478 76.2 0)
-			(effects
-				(font
-					(size 1.778 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dc43ee4-e395-478f-b0b8-65bcc1a5109b")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "#GND046")
 					(unit 1)
 				)
 			)
@@ -8991,115 +8620,6 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 275.59 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1856c145-e3c7-4b50-b190-5213320873d1")
-		(property "Reference" "R21"
-			(at 271.018 187.706 0)
-			(effects
-				(font
-					(size 1.778 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2.7k"
-			(at 270.51 190.5 0)
-			(effects
-				(font
-					(size 1.778 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 276.606 189.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 275.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 275.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RMCF0603FT2K70TR-ND"
-			(at 275.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc "
-			(at 275.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT2K70"
-			(at 275.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a43f2732-59f8-4d32-bd3a-18f65d206f00")
-		)
-		(pin "2"
-			(uuid "8fab8c70-7391-4636-9ecf-2ada4fc99bdc")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9968,124 +9488,6 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 275.59 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47c04a10-7575-4d31-98b6-ed8aa00a5c52")
-		(property "Reference" "D4"
-			(at 269.24 196.85 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "GRN"
-			(at 267.97 199.39 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 275.59 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 198.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 275.59 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 275.59 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "732-4971-1-ND"
-			(at 275.59 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Wurth"
-			(at 275.59 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "150060GS75000"
-			(at 275.59 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 275.59 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "711d3a06-b3cf-48da-93fe-e4d864f51c5b")
-		)
-		(pin "2"
-			(uuid "d2ad36ee-5cb3-4891-ae24-c65a13f9fe64")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13897,115 +13299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 143.51 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0596439-61ef-49ea-8b8d-d882e7df7b54")
-		(property "Reference" "C14"
-			(at 145.034 63.246 0)
-			(effects
-				(font
-					(size 1.778 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 145.034 68.326 0)
-			(effects
-				(font
-					(size 1.778 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 144.4752 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Samsung Electro-Mechanics"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A475KO8NNNC"
-			(at 143.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05663287-d473-43ab-827e-f2c640455b6b")
-		)
-		(pin "2"
-			(uuid "df3b2590-8ce9-479b-9604-5995159fa0ed")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 116.84 184.15 180)
 		(unit 1)
@@ -14349,72 +13642,6 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-power:GND")
-		(at 275.59 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc672540-bbe6-4621-8373-6779d26c9a3f")
-		(property "Reference" "#GND012"
-			(at 275.59 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 273.558 208.534 0)
-			(effects
-				(font
-					(size 1.778 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13f085a7-012a-4ab7-96e2-a72a505ca021")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "#GND012")
 					(unit 1)
 				)
 			)
@@ -14944,72 +14171,6 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "#GND015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 95.25 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c56f5a25-383b-4d57-83c3-d811300c1964")
-		(property "Reference" "TP24"
-			(at 92.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 95.25 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae59e437-d1cc-4349-9b39-b52defd49d9e")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -16649,73 +15810,6 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 275.59 182.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4cb0b07-7e4a-4176-88ae-22cf39ca50da")
-		(property "Reference" "#PWR058"
-			(at 275.59 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 275.59 178.7469 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 275.59 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f81e1c1-0915-4393-8a02-460668e37438")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)

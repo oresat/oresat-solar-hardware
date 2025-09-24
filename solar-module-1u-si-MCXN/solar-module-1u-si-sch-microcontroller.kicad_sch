@@ -5,8 +5,8 @@
 	(uuid "ebdfeab3-1fac-4297-94ce-8c36f574849d")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat Solar Module - Silicon Cells")
-		(date "2025-09-16")
+		(title "OreSat Solar Module - Silicon Cells + MCXN")
+		(date "2025-09-23")
 		(rev "1.1")
 	)
 	(lib_symbols
@@ -773,6 +773,191 @@
 					(at 0 -2.54 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5449,6 +5634,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text " To INA226"
+		(exclude_from_sim no)
+		(at 295.91 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "002fa800-9b94-4515-8fbc-b37d2badab81")
+	)
 	(text "Note: Disable LDO_CORE in software for more power savings"
 		(exclude_from_sim no)
 		(at 355.6 151.13 0)
@@ -5491,6 +5686,17 @@
 			)
 		)
 		(uuid "5028e949-ca04-4756-8d28-312724cabd8d")
+	)
+	(text "DNP\nFOR\nFLIGHT"
+		(exclude_from_sim no)
+		(at 134.62 220.98 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cd60c80-6bf7-4faf-9e55-8a1991da231b")
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
@@ -5647,12 +5853,6 @@
 		(uuid "0957530a-a9cb-4c42-9430-5729d4554764")
 	)
 	(junction
-		(at 377.19 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09966393-2b9b-4daa-9ad7-9756c2e79538")
-	)
-	(junction
 		(at 328.93 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5675,6 +5875,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c75b923-aba1-463e-b92a-05f8a92c371c")
+	)
+	(junction
+		(at 271.78 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dca6a34-d712-4d59-b096-e7b5676a333a")
 	)
 	(junction
 		(at 378.46 82.55)
@@ -5707,10 +5913,22 @@
 		(uuid "33770d28-87a0-48e3-b1a5-d833d3682f31")
 	)
 	(junction
+		(at 223.52 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "399ffa98-a443-4270-8e81-581f21d52517")
+	)
+	(junction
 		(at 105.41 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c45ae2-d58c-4be8-ae9a-35f433f6a5c4")
+	)
+	(junction
+		(at 278.13 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ba3963-70a4-49a9-959e-7843ff692674")
 	)
 	(junction
 		(at 323.85 55.88)
@@ -5735,6 +5953,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6412428a-0a76-4163-a795-438449cee826")
+	)
+	(junction
+		(at 278.13 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a6c10f1-d3cd-4826-acd3-e3e28a11ae29")
 	)
 	(junction
 		(at 328.93 133.35)
@@ -5771,6 +5995,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f1b24cd-e99f-4de6-b051-6718b241b63e")
+	)
+	(junction
+		(at 274.32 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b68ee88-bfb6-402f-b121-79acaa2fbb0f")
 	)
 	(junction
 		(at 154.94 46.99)
@@ -5839,16 +6069,22 @@
 		(uuid "ba4be23c-964d-4880-9fde-22f0df497b13")
 	)
 	(junction
+		(at 236.22 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bab263cc-044f-40ab-bb63-5b3015f5f7b0")
+	)
+	(junction
+		(at 229.87 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c83f4255-31e4-4940-87c6-feb601886339")
+	)
+	(junction
 		(at 378.46 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d69af2c0-eba2-4ff8-8846-0a7b963f8281")
-	)
-	(junction
-		(at 377.19 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0c2fc3f-d09d-4520-b189-f776ac2fa077")
 	)
 	(junction
 		(at 382.27 135.89)
@@ -5905,11 +6141,11 @@
 		(uuid "059d9d82-206e-4368-abe5-7a5cc86f6694")
 	)
 	(no_connect
-		(at 260.35 77.47)
+		(at 260.35 104.14)
 		(uuid "05a2f058-1c7f-4432-a9d8-28e4a1328b89")
 	)
 	(no_connect
-		(at 260.35 139.7)
+		(at 260.35 156.21)
 		(uuid "06e166ff-9712-48ce-8dbd-c4a65c18227b")
 	)
 	(no_connect
@@ -5917,7 +6153,7 @@
 		(uuid "06e65563-e3b9-4ba5-97f6-1ba7abf95a28")
 	)
 	(no_connect
-		(at 260.35 129.54)
+		(at 260.35 146.05)
 		(uuid "09dc2bc9-0fb3-44fe-8677-d93d76009264")
 	)
 	(no_connect
@@ -5929,7 +6165,7 @@
 		(uuid "0d1496cc-5b65-4081-a76a-df8f57c996d1")
 	)
 	(no_connect
-		(at 260.35 109.22)
+		(at 260.35 125.73)
 		(uuid "1b47dff2-1180-46b9-b9aa-5462076d8265")
 	)
 	(no_connect
@@ -5937,7 +6173,7 @@
 		(uuid "1c6a7a61-f73f-41a2-a9b2-fb141eed4eff")
 	)
 	(no_connect
-		(at 260.35 116.84)
+		(at 260.35 133.35)
 		(uuid "1d044ede-4731-4a11-8bf0-3674a3d82414")
 	)
 	(no_connect
@@ -5945,7 +6181,7 @@
 		(uuid "1d73aceb-6753-4225-b1a8-bdb6c8f46293")
 	)
 	(no_connect
-		(at 260.35 104.14)
+		(at 260.35 120.65)
 		(uuid "23ea791c-6ad7-401f-81bf-e72d2c4cf153")
 	)
 	(no_connect
@@ -5953,11 +6189,11 @@
 		(uuid "24356fab-857b-4a82-acbf-5f358032bf28")
 	)
 	(no_connect
-		(at 260.35 69.85)
+		(at 260.35 96.52)
 		(uuid "27c3d98e-ca36-4930-b4b3-cb7059b3abce")
 	)
 	(no_connect
-		(at 260.35 114.3)
+		(at 260.35 130.81)
 		(uuid "2809249c-b71a-4afb-985b-79a193488d6f")
 	)
 	(no_connect
@@ -5965,7 +6201,7 @@
 		(uuid "2b09ccc7-d5e5-4033-961a-22f4d0dbdb8f")
 	)
 	(no_connect
-		(at 260.35 62.23)
+		(at 260.35 88.9)
 		(uuid "2db53828-a75d-4fae-b5a2-9071ffa15cdf")
 	)
 	(no_connect
@@ -5973,7 +6209,7 @@
 		(uuid "3613841d-c23c-442b-8d44-818188654c38")
 	)
 	(no_connect
-		(at 260.35 72.39)
+		(at 260.35 99.06)
 		(uuid "37e1dc80-3ef5-46c7-9c9d-e22ea7866f92")
 	)
 	(no_connect
@@ -6041,7 +6277,7 @@
 		(uuid "6c6c75e4-f043-4122-bbd9-bb8161e40efe")
 	)
 	(no_connect
-		(at 260.35 121.92)
+		(at 260.35 138.43)
 		(uuid "6e73d471-7979-4568-84ef-77a20b167119")
 	)
 	(no_connect
@@ -6049,12 +6285,12 @@
 		(uuid "781fc80e-098b-4864-a346-7c853195ba73")
 	)
 	(no_connect
-		(at 260.35 67.31)
-		(uuid "8320b154-42aa-41c4-8a4c-0786cdfcdb19")
+		(at 143.51 204.47)
+		(uuid "81cf254f-d868-432e-b657-16daad749a9c")
 	)
 	(no_connect
-		(at 97.79 204.47)
-		(uuid "83cff8f9-d5e4-4737-975a-ab3462f172b8")
+		(at 260.35 93.98)
+		(uuid "8320b154-42aa-41c4-8a4c-0786cdfcdb19")
 	)
 	(no_connect
 		(at 344.17 165.1)
@@ -6081,11 +6317,11 @@
 		(uuid "a6a00acd-3038-4173-8ba2-9edb05574955")
 	)
 	(no_connect
-		(at 260.35 124.46)
+		(at 260.35 140.97)
 		(uuid "ae2f047f-4ff6-4581-981d-2f0879127e4d")
 	)
 	(no_connect
-		(at 260.35 74.93)
+		(at 260.35 101.6)
 		(uuid "b6bb6abd-9c43-42d8-90c9-73ebb2d7552e")
 	)
 	(no_connect
@@ -6097,7 +6333,11 @@
 		(uuid "bede5959-5976-40d5-905d-36110b9e040c")
 	)
 	(no_connect
-		(at 260.35 132.08)
+		(at 143.51 207.01)
+		(uuid "c6498dc7-6e4d-4348-8477-a3ee9ecaefc2")
+	)
+	(no_connect
+		(at 260.35 148.59)
 		(uuid "cb25480d-5d3d-4e1b-8f99-cfcb8aeac677")
 	)
 	(no_connect
@@ -6113,7 +6353,7 @@
 		(uuid "cf037aa0-7dfb-426c-ab37-4927d433f4dc")
 	)
 	(no_connect
-		(at 260.35 64.77)
+		(at 260.35 91.44)
 		(uuid "d12d6de1-8cec-406f-991b-196cb73999e6")
 	)
 	(no_connect
@@ -6121,11 +6361,11 @@
 		(uuid "d1f2fab3-a1ec-468b-b3ce-1374bc2f70bf")
 	)
 	(no_connect
-		(at 260.35 134.62)
+		(at 260.35 151.13)
 		(uuid "d5150610-b625-4108-bae8-b4b343ba8e55")
 	)
 	(no_connect
-		(at 260.35 142.24)
+		(at 260.35 158.75)
 		(uuid "dc69ff05-3bd8-4a2a-811b-78c916704a7d")
 	)
 	(no_connect
@@ -6133,11 +6373,11 @@
 		(uuid "dccb2a46-08f1-4416-909d-33daa77a9c4a")
 	)
 	(no_connect
-		(at 260.35 80.01)
+		(at 260.35 106.68)
 		(uuid "e03d6683-5661-43c8-b73b-8e9456e45364")
 	)
 	(no_connect
-		(at 260.35 137.16)
+		(at 260.35 153.67)
 		(uuid "e104fd21-6063-428a-a84e-ed4cf2fd5ef0")
 	)
 	(no_connect
@@ -6145,7 +6385,7 @@
 		(uuid "e597767e-cb6d-4454-b97c-7c05ffb5981f")
 	)
 	(no_connect
-		(at 260.35 111.76)
+		(at 260.35 128.27)
 		(uuid "ea7bed4f-39e6-4622-a475-63a49324724c")
 	)
 	(no_connect
@@ -6157,15 +6397,15 @@
 		(uuid "f246fdef-b830-41fe-a554-0039ca9c1db4")
 	)
 	(no_connect
-		(at 260.35 106.68)
+		(at 260.35 123.19)
 		(uuid "f93c4e24-9e55-4a8e-bd84-e58a394497b2")
 	)
 	(no_connect
-		(at 260.35 119.38)
+		(at 260.35 135.89)
 		(uuid "f9def0cc-c83b-4b6c-a881-100f624ef0f3")
 	)
 	(no_connect
-		(at 260.35 127)
+		(at 260.35 143.51)
 		(uuid "fdcb5110-9f8d-400a-a4e3-45ced07bba0e")
 	)
 	(no_connect
@@ -6304,7 +6544,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 54.61) (xy 209.55 54.61)
+			(xy 196.85 54.61) (xy 223.52 54.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -6321,6 +6561,16 @@
 			(type default)
 		)
 		(uuid "1807365f-8c9d-4047-97f5-20a8d29a9d07")
+	)
+	(wire
+		(pts
+			(xy 132.08 215.9) (xy 132.08 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "19e66e55-45bd-4696-a310-c8b9c111e0a8")
 	)
 	(wire
 		(pts
@@ -6494,6 +6744,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 45.72) (xy 223.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bfcd6c-358b-4bce-bbe8-23a8ddf48e64")
+	)
+	(wire
+		(pts
 			(xy 318.77 46.99) (xy 318.77 48.26)
 		)
 		(stroke
@@ -6501,6 +6761,16 @@
 			(type default)
 		)
 		(uuid "298037c1-e239-4967-902c-822c8666d7b9")
+	)
+	(wire
+		(pts
+			(xy 236.22 44.45) (xy 229.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2c5263-90e9-4714-8d1e-ea35887f5240")
 	)
 	(wire
 		(pts
@@ -6684,6 +6954,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 57.15) (xy 280.67 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3dfba89e-95be-43e2-8f7a-f51782b1c47d")
+	)
+	(wire
+		(pts
 			(xy 330.2 29.21) (xy 330.2 30.48)
 		)
 		(stroke
@@ -6724,6 +7004,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 53.34) (xy 236.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468d68f7-91a6-41fe-9420-dc04ed93a09b")
+	)
+	(wire
+		(pts
 			(xy 378.46 67.31) (xy 378.46 64.77)
 		)
 		(stroke
@@ -6741,16 +7031,6 @@
 			(type default)
 		)
 		(uuid "494481a2-73a0-4640-ac79-576b15c2e528")
-	)
-	(wire
-		(pts
-			(xy 377.19 91.44) (xy 373.38 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49f1eda1-9f89-4a7f-8796-0abcf4c70449")
 	)
 	(wire
 		(pts
@@ -6814,7 +7094,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 91.44) (xy 393.7 91.44)
+			(xy 373.38 91.44) (xy 393.7 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6944,16 +7224,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 207.01) (xy 140.97 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a18237d-7c92-496e-aa72-f6eb198b0db8")
-	)
-	(wire
-		(pts
 			(xy 378.46 77.47) (xy 378.46 82.55)
 		)
 		(stroke
@@ -6974,6 +7244,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 204.47) (xy 132.08 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f44b01c-9182-4cac-92f2-909eb30e9e6b")
+	)
+	(wire
+		(pts
 			(xy 318.77 53.34) (xy 318.77 55.88)
 		)
 		(stroke
@@ -6984,13 +7264,23 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 97.79) (xy 373.38 97.79)
+			(xy 373.38 97.79) (xy 405.13 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "703714de-2513-42cc-b920-a22d5103171c")
+	)
+	(wire
+		(pts
+			(xy 236.22 45.72) (xy 236.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ad9d7c-a6fc-4c81-8d14-570c2efcee8c")
 	)
 	(wire
 		(pts
@@ -7031,6 +7321,16 @@
 			(type default)
 		)
 		(uuid "742c7778-1670-499f-b4c0-4cdb041e55e9")
+	)
+	(wire
+		(pts
+			(xy 271.78 57.15) (xy 271.78 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "74e9e2de-56fb-4f8c-a602-9a632427867e")
 	)
 	(wire
 		(pts
@@ -7124,6 +7424,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 223.52) (xy 132.08 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800a6063-2f53-4cd6-99d8-8373596a269d")
+	)
+	(wire
+		(pts
 			(xy 93.98 128.27) (xy 97.79 128.27)
 		)
 		(stroke
@@ -7141,6 +7451,16 @@
 			(type default)
 		)
 		(uuid "8153610a-fb8b-479f-b438-ad8a546662f5")
+	)
+	(wire
+		(pts
+			(xy 274.32 54.61) (xy 278.13 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "82ae6661-7b5d-4972-9b16-7634d8d34b13")
 	)
 	(wire
 		(pts
@@ -7214,16 +7534,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 204.47) (xy 140.97 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5d942b-2bda-4924-b0be-57a9f8a54b52")
-	)
-	(wire
-		(pts
 			(xy 374.65 106.68) (xy 374.65 107.95)
 		)
 		(stroke
@@ -7231,16 +7541,6 @@
 			(type default)
 		)
 		(uuid "8d6509fc-145d-41a4-97c3-8cb12597d35b")
-	)
-	(wire
-		(pts
-			(xy 377.19 97.79) (xy 405.13 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e43e3a6-4298-4537-b2b6-2bdfb6f5a0c2")
 	)
 	(wire
 		(pts
@@ -7324,6 +7624,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 57.15) (xy 271.78 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95b0aa3a-7dc1-497f-bdce-a5809f8fa370")
+	)
+	(wire
+		(pts
 			(xy 378.46 52.07) (xy 373.38 52.07)
 		)
 		(stroke
@@ -7344,7 +7654,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 57.15) (xy 209.55 57.15)
+			(xy 199.39 57.15) (xy 236.22 57.15)
 		)
 		(stroke
 			(width 0.1524)
@@ -7404,6 +7714,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 54.61) (xy 274.32 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9d04ea60-ee2f-453f-a965-2b97f8cf6ac5")
+	)
+	(wire
+		(pts
 			(xy 107.95 218.44) (xy 110.49 218.44)
 		)
 		(stroke
@@ -7411,6 +7731,16 @@
 			(type default)
 		)
 		(uuid "9d1fea0d-31ca-4dac-a5bd-2aff1884f923")
+	)
+	(wire
+		(pts
+			(xy 271.78 57.15) (xy 278.13 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9eefca08-8a33-4f2c-973f-308b7668c426")
 	)
 	(wire
 		(pts
@@ -7451,6 +7781,16 @@
 			(type solid)
 		)
 		(uuid "a4253657-4af0-42dc-a328-ce5940bb5537")
+	)
+	(wire
+		(pts
+			(xy 223.52 44.45) (xy 229.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a579bafa-3184-4c0f-b52c-f40cb0632db7")
 	)
 	(wire
 		(pts
@@ -7514,6 +7854,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 54.61) (xy 280.67 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad25a7e7-2aac-40f6-a67a-8d9927667b81")
+	)
+	(wire
+		(pts
 			(xy 93.98 186.69) (xy 97.79 186.69)
 		)
 		(stroke
@@ -7534,7 +7884,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 204.47) (xy 97.79 204.47)
+			(xy 93.98 204.47) (xy 132.08 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7641,6 +7991,16 @@
 			(type default)
 		)
 		(uuid "b7b46e93-44dc-4cfd-aa07-a624f8fd63d0")
+	)
+	(wire
+		(pts
+			(xy 223.52 53.34) (xy 223.52 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80ce51e-758e-47b6-ab3a-1b4844246b79")
 	)
 	(wire
 		(pts
@@ -8064,6 +8424,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 54.61) (xy 274.32 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e88a785d-1b05-44c4-8760-a86d4c688631")
+	)
+	(wire
+		(pts
 			(xy 415.29 97.79) (xy 415.29 95.25)
 		)
 		(stroke
@@ -8134,6 +8504,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 193.04) (xy 267.97 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0025943-d89b-452d-be9f-bea6db803812")
+	)
+	(wire
+		(pts
 			(xy 297.18 187.96) (xy 297.18 190.5)
 		)
 		(stroke
@@ -8141,6 +8521,16 @@
 			(type default)
 		)
 		(uuid "f0b687db-466d-4e99-b999-154a957c4635")
+	)
+	(wire
+		(pts
+			(xy 229.87 44.45) (xy 229.87 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1225b70-c1b7-4106-a7c5-52382fd68cf7")
 	)
 	(wire
 		(pts
@@ -8204,6 +8594,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 195.58) (xy 267.97 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd947865-7031-4772-931b-44b3a0721c5a")
+	)
+	(wire
+		(pts
 			(xy 165.1 54.61) (xy 196.85 54.61)
 		)
 		(stroke
@@ -8241,6 +8641,26 @@
 			(justify left bottom)
 		)
 		(uuid "1afb30f4-86db-40b5-962e-366e0128c415")
+	)
+	(label "SDA"
+		(at 168.91 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d5cce94-0e0a-4a65-a0d9-e444f664400f")
+	)
+	(label "SCL"
+		(at 171.45 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "299c44d1-7376-4e87-8099-a5fcd7689b44")
 	)
 	(label "RESET"
 		(at 337.82 172.72 0)
@@ -8292,6 +8712,46 @@
 		)
 		(uuid "b4fb76ac-d9e9-420e-a247-2094a62d8f5f")
 	)
+	(label "SDA"
+		(at 171.45 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3b35d77-b4ae-4428-b1cb-093d8873d460")
+	)
+	(label "SDA"
+		(at 261.62 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e42a4ee5-3b2c-4dd4-8230-01a3acc0cbde")
+	)
+	(label "SCL"
+		(at 168.91 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9c15510-6937-4e9a-b41b-401a95e70a25")
+	)
+	(label "SCL"
+		(at 261.62 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f47f6ca3-fa47-4e0a-85df-b6bb2ed8d691")
+	)
 	(global_label "LT1618-IADJ"
 		(shape bidirectional)
 		(at 97.79 128.27 0)
@@ -8310,34 +8770,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 267.97 193.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "1a37789f-c55f-4899-bb3f-4e8049814d68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.3919 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "ISP-UART_RXD"
-		(shape input)
+		(shape output)
 		(at 336.55 187.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8354,7 +8791,27 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 280.67 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35a9439d-55ad-421f-9c96-832a5ae498e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.2233 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8376,7 +8833,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8398,34 +8854,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 267.97 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "74f7b73a-8171-4152-945b-33e6223e7ac1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.3326 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "ISP-UART_TXD"
-		(shape input)
+		(shape output)
 		(at 111.76 194.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8442,7 +8875,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8464,13 +8896,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 209.55 54.61 0)
+	(global_label "SCL"
+		(shape input)
+		(at 280.67 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8478,15 +8909,14 @@
 			)
 			(justify left)
 		)
-		(uuid "aca8ee11-51cf-49f9-a00c-0ad99851d706")
+		(uuid "d09183ef-90fd-47d9-9249-041a5aec0484")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.2146 54.61 0)
+			(at 287.1628 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8508,7 +8938,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8530,29 +8959,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 209.55 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4616072-48c5-4e5f-b823-bb0460eb3a97")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.1541 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8574,7 +8980,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -8686,7 +9091,7 @@
 	)
 	(symbol
 		(lib_id "oresat-ics:MCXN947VKLT")
-		(at 243.84 123.19 180)
+		(at 243.84 139.7 180)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8694,7 +9099,7 @@
 		(dnp no)
 		(uuid "030862b7-7aae-4b82-8725-923d1cd37c93")
 		(property "Reference" "U1"
-			(at 243.84 97.79 0)
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +9107,7 @@
 			)
 		)
 		(property "Value" "MCXN947VKLT"
-			(at 243.84 100.33 0)
+			(at 243.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +9115,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
-			(at 244.094 195.072 0)
+			(at 244.094 211.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +9124,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
-			(at 243.84 188.468 0)
+			(at 243.84 204.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +9133,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 100HLQFP (also MCXN947VNLT)"
-			(at 244.094 191.516 0)
+			(at 244.094 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8737,7 +9142,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 168.91 -361.57 0)
+			(at 168.91 -345.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +9152,7 @@
 			)
 		)
 		(property "MPN" "MCXN947VKLT"
-			(at 168.91 -461.57 0)
+			(at 168.91 -445.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,141 +10031,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 393.7 135.89 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a1c3248-2a70-43ce-8110-2b9691b2555d")
-		(property "Reference" "TP23"
-			(at 394.97 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 386.08 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 383.54 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 393.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9706dd25-2f05-4b69-80aa-3dddabb10eec")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 140.97 204.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ae8825c-fe6c-4a0f-b52b-8bc4aaad6717")
-		(property "Reference" "TP19"
-			(at 138.43 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 140.97 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 140.97 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "335ad325-9064-4b5c-b7ad-47dba5a81e7a")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 330.2 30.48 0)
 		(unit 1)
@@ -10243,73 +10513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 377.19 91.44 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c482727-5d75-4b94-b09d-55974397207e")
-		(property "Reference" "TP21"
-			(at 378.46 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 369.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 367.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 377.19 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e12fe047-a433-42ef-9c83-b6869e992cdd")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 227.33 0)
 		(mirror y)
@@ -10523,6 +10726,124 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 132.08 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47c04a10-7575-4d31-98b6-ed8aa00a5c52")
+		(property "Reference" "D4"
+			(at 125.73 219.71 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "GRN"
+			(at 124.46 222.25 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 132.08 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 132.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 132.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-4971-1-ND"
+			(at 132.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Wurth"
+			(at 132.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060GS75000"
+			(at 132.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "711d3a06-b3cf-48da-93fe-e4d864f51c5b")
+		)
+		(pin "2"
+			(uuid "d2ad36ee-5cb3-4891-ae24-c65a13f9fe64")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12156,73 +12477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 377.19 97.79 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e1335b3-142a-409f-913e-47e53f6ea116")
-		(property "Reference" "TP22"
-			(at 378.46 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 369.57 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 367.03 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 377.19 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b7f0eb3-3bbd-43e8-b5f9-62df5a853b3b")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 138.43 39.37 0)
 		(mirror y)
@@ -12351,6 +12605,116 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 212.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74728331-2e13-4499-bc0d-3871c5f8f8f3")
+		(property "Reference" "R21"
+			(at 130.556 212.598 90)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "2k"
+			(at 130.556 208.788 90)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 131.064 212.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT2K00TR-ND"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT2K00"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bc2c7f7-f100-4196-93eb-feb05390d512")
+		)
+		(pin "2"
+			(uuid "3fe5fb17-e366-42d1-b864-5f391ed42217")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12672,7 +13036,7 @@
 	)
 	(symbol
 		(lib_id "oresat-ics:MCXN947VKLT")
-		(at 243.84 71.12 180)
+		(at 243.84 97.79 180)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12680,7 +13044,7 @@
 		(dnp no)
 		(uuid "7e6703cc-8f8e-4513-9be9-c6fc4b5979a7")
 		(property "Reference" "U1"
-			(at 243.84 54.61 0)
+			(at 243.84 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,7 +13052,7 @@
 			)
 		)
 		(property "Value" "MCXN947VKLT"
-			(at 243.84 57.658 0)
+			(at 243.84 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12696,7 +13060,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
-			(at 244.094 143.002 0)
+			(at 244.094 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,7 +13069,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
-			(at 243.84 136.398 0)
+			(at 243.84 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12714,7 +13078,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 100HLQFP (also MCXN947VNLT)"
-			(at 244.094 139.446 0)
+			(at 244.094 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12723,7 +13087,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 168.91 -413.64 0)
+			(at 168.91 -386.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,7 +13097,7 @@
 			)
 		)
 		(property "MPN" "MCXN947VKLT"
-			(at 168.91 -513.64 0)
+			(at 168.91 -486.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14443,6 +14807,73 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 278.13 54.61 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3557630-f08e-44b9-a0fb-117e584d4bbb")
+		(property "Reference" "TP4"
+			(at 279.4 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 270.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 267.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 278.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "859455ab-9c8d-4d83-9b76-e6196cf34da2")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 397.51 121.92 0)
 		(unit 1)
@@ -15117,6 +15548,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-power:GND")
+		(at 132.08 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc672540-bbe6-4621-8373-6779d26c9a3f")
+		(property "Reference" "#GND012"
+			(at 132.08 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.048 228.854 0)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13f085a7-012a-4ab7-96e2-a72a505ca021")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "#GND012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-ics:MCXN947VKLT")
 		(at 351.79 93.98 0)
 		(mirror y)
@@ -15570,6 +16067,73 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 278.13 57.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8303cb2-7494-4f51-ad10-5d1080dfbc67")
+		(property "Reference" "TP7"
+			(at 276.86 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 285.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 288.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 278.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3b6a288-d750-460d-80d0-04f4b3c15b46")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -16727,6 +17291,73 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 229.87 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4224e56-84d1-4bd3-bb31-28763c7cda1f")
+		(property "Reference" "#PWR060"
+			(at 229.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 229.87 39.0469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8123e4e-3696-478d-b822-2f8848a13857")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 154.94 44.45 0)
 		(mirror y)
 		(unit 1)
@@ -16787,74 +17418,6 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 140.97 207.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8564964-ebeb-496f-be9c-cd965bfb984b")
-		(property "Reference" "TP20"
-			(at 138.43 207.0099 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 140.97 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 140.97 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 140.97 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccff8f01-f60e-4bc0-a128-f221b49abbaa")
-		)
-		(instances
-			(project "solar-module-1u-si"
-				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
-					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -17137,6 +17700,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 223.52 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2bde492-98a5-490a-9996-9b4ec93dac46")
+		(property "Reference" "R23"
+			(at 224.79 46.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 222.504 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cf4ab76-36bc-469b-898b-40d985d6984e")
+		)
+		(pin "2"
+			(uuid "a8ad7ae3-ae27-40c9-9e0b-81b728c531c9")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 339.09 167.64 0)
 		(mirror y)
@@ -17198,6 +17866,111 @@
 			(project "solar-module-1u-si"
 				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 236.22 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f95b9a0d-5f43-4c51-8ff4-ace84e9e9eb3")
+		(property "Reference" "R24"
+			(at 237.49 46.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 237.49 50.8 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 235.204 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13bf4f6b-60b8-4665-8109-64eb50c3b8f7")
+		)
+		(pin "2"
+			(uuid "4f04ef63-3290-401d-8661-5fe70e87a164")
+		)
+		(instances
+			(project "solar-module-1u-si"
+				(path "/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -17637,6 +18410,7 @@
 		)
 		(pin "10"
 			(uuid "54ae0b37-e601-4c89-8249-bbbaaa176400")
+			(alternate "XTAL48M ")
 		)
 		(pin "14"
 			(uuid "6b85b89c-7e8c-4503-99c7-789378af4545")
@@ -17649,9 +18423,11 @@
 		)
 		(pin "1"
 			(uuid "e4c4bba3-cc5a-4f3c-a6a6-f253735d7e91")
+			(alternate "ISP-UART_RXD")
 		)
 		(pin "3"
 			(uuid "1aeb358c-5dd0-46b8-a77e-5ceb4dcd2050")
+			(alternate "CAN0_TXD")
 		)
 		(pin "17"
 			(uuid "5adc6c10-8785-40d5-ab7e-728e4c467c60")
@@ -17667,12 +18443,14 @@
 		)
 		(pin "2"
 			(uuid "04de66fe-37e7-48b8-9e32-ebc4c9969cd4")
+			(alternate "ISP-UART_TXD")
 		)
 		(pin "95"
 			(uuid "4dee66cc-7267-4c99-8813-a4a8afbedaff")
 		)
 		(pin "4"
 			(uuid "1f5921f5-8c5e-4426-941e-3733f4be1a51")
+			(alternate "CAN0_RXD")
 		)
 		(pin "98"
 			(uuid "8c4a2a48-a28c-40d7-a0c2-dda0f6d55786")
@@ -17685,6 +18463,7 @@
 		)
 		(pin "11"
 			(uuid "cc0b5cf0-1aa0-4ce6-92d6-ebcc4257df66")
+			(alternate "EXTAL48M ")
 		)
 		(pin "16"
 			(uuid "ae06a23d-6396-4787-a265-628be563170a")

@@ -5,8 +5,8 @@
 	(uuid "115bd2cd-7c08-4b54-867b-a326ee0699c1")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat Solar Module - Silicon Cells")
-		(date "2025-09-16")
+		(title "OreSat Solar Module - Silicon Cells + MCXN")
+		(date "2025-09-23")
 		(rev "1.1")
 	)
 	(lib_symbols
