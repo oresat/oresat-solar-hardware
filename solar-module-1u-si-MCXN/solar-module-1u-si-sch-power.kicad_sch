@@ -7921,7 +7921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01.pdf"
 			(at 236.22 196.85 0)
 			(effects
 				(font
@@ -7939,7 +7939,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 236.22 196.85 0)
 			(effects
 				(font
@@ -7949,7 +7949,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "GRT21BR61E226ME13L"
+		(property "DPN" "490-9959-1-ND"
 			(at 236.22 196.85 0)
 			(effects
 				(font
@@ -7959,7 +7959,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 236.22 196.85 0)
 			(effects
 				(font
@@ -7969,7 +7969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "490-12389-2-ND"
+		(property "MPN" "GRM21BR61E226ME44L"
 			(at 236.22 196.85 0)
 			(effects
 				(font
@@ -8079,6 +8079,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "DIgiKey"
+			(at 285.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50dcb2ef-f860-4f5b-bdc5-0ece91bb1160")
 		)
@@ -8133,7 +8142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 213.36 81.28 0)
 			(effects
 				(font
@@ -8310,7 +8319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -8328,7 +8337,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -8552,7 +8561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 207.01 210.82 0)
 			(effects
 				(font
@@ -8570,7 +8579,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 207.01 210.82 0)
 			(effects
 				(font
@@ -8809,7 +8818,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 379.73 59.69 0)
 			(effects
 				(font
@@ -9004,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf"
 			(at 134.62 196.85 0)
 			(effects
 				(font
@@ -9022,7 +9031,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 134.62 196.85 0)
 			(effects
 				(font
@@ -9113,7 +9122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -9131,7 +9140,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -9420,7 +9429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2313/ESD_COG_Dielectric.pdf"
 			(at 201.93 95.25 0)
 			(effects
 				(font
@@ -9438,7 +9447,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 201.93 95.25 0)
 			(effects
 				(font
@@ -9527,7 +9536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundferritetypeforpl/m_dem2818c.ashx"
 			(at 170.18 205.74 0)
 			(effects
 				(font
@@ -9545,7 +9554,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 170.18 205.74 0)
 			(effects
 				(font
@@ -9635,7 +9644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-csr_csrn.pdf"
 			(at 168.91 59.69 0)
 			(effects
 				(font
@@ -9644,7 +9653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"
 			(at 168.91 59.69 0)
 			(effects
 				(font
@@ -9744,7 +9753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -9753,7 +9762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -9762,17 +9771,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -9782,7 +9781,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -9792,7 +9791,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 219.71 64.77 0)
 			(effects
 				(font
@@ -9872,7 +9881,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 312.42 48.26 0)
 			(effects
 				(font
@@ -10041,7 +10050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61C106KE13-01.pdf"
 			(at 226.06 196.85 0)
 			(effects
 				(font
@@ -10059,7 +10068,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 226.06 196.85 0)
 			(effects
 				(font
@@ -10150,7 +10159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -10168,7 +10177,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -10259,7 +10268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 207.01 198.12 0)
 			(effects
 				(font
@@ -10277,7 +10286,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 207.01 198.12 0)
 			(effects
 				(font
@@ -10384,7 +10393,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 189.23 59.69 0)
 			(effects
 				(font
@@ -10474,7 +10483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 147.32 92.71 0)
 			(effects
 				(font
@@ -10492,7 +10501,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 147.32 92.71 0)
 			(effects
 				(font
@@ -10783,7 +10792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/mms-1xx-02-xxx-xx-xx-xx-x-xx-mkt.pdf"
 			(at 328.93 149.86 0)
 			(effects
 				(font
@@ -10801,7 +10810,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 328.93 149.86 0)
 			(effects
 				(font
@@ -10810,7 +10819,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" " SAM1237-04-ND"
+		(property "DPN" "MMS-104-02-L-SH-ND"
 			(at 328.93 149.86 0)
 			(effects
 				(font
@@ -10924,7 +10933,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 182.88 200.66 0)
 			(effects
 				(font
@@ -11302,7 +11311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 158.75 96.52 0)
 			(effects
 				(font
@@ -11320,7 +11329,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 158.75 96.52 0)
 			(effects
 				(font
@@ -11411,7 +11420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 59.69 68.58 0)
 			(effects
 				(font
@@ -11429,7 +11438,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 59.69 68.58 0)
 			(effects
 				(font
@@ -11600,7 +11609,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 306.07 62.23 0)
 			(effects
 				(font
@@ -11704,7 +11713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 161.29 209.55 0)
 			(effects
 				(font
@@ -11722,7 +11731,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 161.29 209.55 0)
 			(effects
 				(font
@@ -11875,7 +11884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 278.13 86.36 0)
 			(effects
 				(font
@@ -11893,7 +11902,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 278.13 86.36 0)
 			(effects
 				(font
@@ -12051,7 +12060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 195.58 222.25 0)
 			(effects
 				(font
@@ -12069,7 +12078,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 195.58 222.25 0)
 			(effects
 				(font
@@ -12360,7 +12369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 104.14 107.95 0)
 			(effects
 				(font
@@ -12378,7 +12387,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 104.14 107.95 0)
 			(effects
 				(font
@@ -12532,7 +12541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 290.83 66.04 0)
 			(effects
 				(font
@@ -12550,7 +12559,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 290.83 66.04 0)
 			(effects
 				(font
@@ -12642,7 +12651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 60.96 92.71 0)
 			(effects
 				(font
@@ -12660,7 +12669,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 60.96 92.71 0)
 			(effects
 				(font
@@ -12751,7 +12760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -12760,7 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode 50 V 150mA Surface Mount SOD-323"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -12787,7 +12796,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 261.62 43.18 0)
 			(effects
 				(font
@@ -12874,7 +12883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01.pdf"
 			(at 256.54 196.85 0)
 			(effects
 				(font
@@ -12892,7 +12901,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 256.54 196.85 0)
 			(effects
 				(font
@@ -12902,7 +12911,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "GRT21BR61E226ME13L"
+		(property "DPN" "490-9959-1-ND"
 			(at 256.54 196.85 0)
 			(effects
 				(font
@@ -12912,7 +12921,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 256.54 196.85 0)
 			(effects
 				(font
@@ -12922,7 +12931,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "490-12389-2-ND"
+		(property "MPN" "GRM21BR61E226ME44L"
 			(at 256.54 196.85 0)
 			(effects
 				(font
@@ -13050,7 +13059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -13068,7 +13077,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -13159,7 +13168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E226ME44-01.pdf"
 			(at 246.38 196.85 0)
 			(effects
 				(font
@@ -13177,7 +13186,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 246.38 196.85 0)
 			(effects
 				(font
@@ -13187,7 +13196,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "GRT21BR61E226ME13L"
+		(property "DPN" "490-9959-1-ND"
 			(at 246.38 196.85 0)
 			(effects
 				(font
@@ -13197,7 +13206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "Murata Electronics"
 			(at 246.38 196.85 0)
 			(effects
 				(font
@@ -13207,7 +13216,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "490-12389-2-ND"
+		(property "MPN" "GRM21BR61E226ME44L"
 			(at 246.38 196.85 0)
 			(effects
 				(font
@@ -13334,7 +13343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ6GEY0R00V"
 			(at 116.84 184.15 0)
 			(effects
 				(font
@@ -13508,7 +13517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr130lsft1-d.pdf"
 			(at 204.47 59.69 0)
 			(effects
 				(font
@@ -13517,7 +13526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Diode 30 V 1A Surface Mount SOD-123FL"
 			(at 204.47 59.69 0)
 			(effects
 				(font
@@ -13526,7 +13535,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 204.47 59.69 0)
 			(effects
 				(font
@@ -13814,7 +13823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0603C100J5GACAUTO"
 			(at 213.36 207.01 0)
 			(effects
 				(font
@@ -13832,7 +13841,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 213.36 207.01 0)
 			(effects
 				(font
@@ -13923,7 +13932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -13941,7 +13950,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -14047,7 +14056,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 299.72 48.26 0)
 			(effects
 				(font
@@ -14278,7 +14287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 196.85 88.9 0)
 			(effects
 				(font
@@ -14717,7 +14726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
 			(at 251.46 43.18 0)
 			(effects
 				(font
@@ -14726,7 +14735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "Diode 50 V 150mA Surface Mount SOD-323"
 			(at 251.46 43.18 0)
 			(effects
 				(font
@@ -14753,7 +14762,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 251.46 43.18 0)
 			(effects
 				(font
@@ -15039,7 +15048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ6GEY0R00V"
 			(at 246.38 184.15 0)
 			(effects
 				(font
@@ -15299,7 +15308,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 82.55 91.44 0)
 			(effects
 				(font
@@ -15676,7 +15685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 124.46 196.85 0)
 			(effects
 				(font
@@ -15694,7 +15703,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 124.46 196.85 0)
 			(effects
 				(font
@@ -15869,7 +15878,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 176.53 83.82 0)
 			(effects
 				(font
@@ -15985,7 +15994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 152.4 195.58 0)
 			(effects
 				(font
@@ -16003,7 +16012,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 152.4 195.58 0)
 			(effects
 				(font

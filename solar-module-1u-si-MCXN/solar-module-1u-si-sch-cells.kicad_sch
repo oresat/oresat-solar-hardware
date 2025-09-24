@@ -3705,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 266.7 123.19 0)
 			(effects
 				(font
@@ -3801,7 +3801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 102.87 127 0)
 			(effects
 				(font
@@ -3819,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 102.87 127 0)
 			(effects
 				(font
@@ -4318,7 +4318,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 214.63 123.19 0)
 			(effects
 				(font
@@ -4480,7 +4480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 255.27 127 0)
 			(effects
 				(font
@@ -4498,7 +4498,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 255.27 127 0)
 			(effects
 				(font
@@ -4684,7 +4684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -4702,7 +4702,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -4811,7 +4811,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 137.16 132.08 0)
 			(effects
 				(font
@@ -4898,7 +4898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 307.34 127 0)
 			(effects
 				(font
@@ -4916,7 +4916,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 307.34 127 0)
 			(effects
 				(font
@@ -5025,7 +5025,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 240.03 132.08 0)
 			(effects
 				(font
@@ -5197,7 +5197,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 292.1 132.08 0)
 			(effects
 				(font
@@ -5302,7 +5302,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 232.41 213.36 0)
 			(effects
 				(font
@@ -5389,7 +5389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 267.97 208.28 0)
 			(effects
 				(font
@@ -5398,7 +5398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 267.97 208.28 0)
 			(effects
 				(font
@@ -5407,17 +5407,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 267.97 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 267.97 208.28 0)
 			(effects
 				(font
@@ -5427,7 +5417,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 267.97 208.28 0)
 			(effects
 				(font
@@ -5437,7 +5427,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 267.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 267.97 208.28 0)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 327.66 127 0)
 			(effects
 				(font
@@ -5507,7 +5507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 327.66 127 0)
 			(effects
 				(font
@@ -5516,17 +5516,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 327.66 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 327.66 127 0)
 			(effects
 				(font
@@ -5536,7 +5526,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 327.66 127 0)
 			(effects
 				(font
@@ -5546,7 +5536,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 327.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 327.66 127 0)
 			(effects
 				(font
@@ -5674,7 +5674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -5683,7 +5683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -5692,17 +5692,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 171.45 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -5712,7 +5702,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -5722,7 +5712,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -5801,7 +5801,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 344.17 132.08 0)
 			(effects
 				(font
@@ -5906,7 +5906,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 87.63 132.08 0)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 195.58 208.28 0)
 			(effects
 				(font
@@ -6173,7 +6173,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 195.58 208.28 0)
 			(effects
 				(font
@@ -6426,7 +6426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 359.41 127 0)
 			(effects
 				(font
@@ -6444,7 +6444,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 359.41 127 0)
 			(effects
 				(font
@@ -6669,7 +6669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -6678,7 +6678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -6687,17 +6687,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 120.65 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -6707,7 +6697,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -6717,7 +6707,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 120.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -6929,7 +6929,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 207.01 204.47 0)
 			(effects
 				(font
@@ -7175,7 +7175,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 163.83 123.19 0)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 370.84 123.19 0)
 			(effects
 				(font
@@ -7451,7 +7451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 275.59 127 0)
 			(effects
 				(font
@@ -7460,7 +7460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 275.59 127 0)
 			(effects
 				(font
@@ -7469,17 +7469,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 275.59 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 275.59 127 0)
 			(effects
 				(font
@@ -7489,7 +7479,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 275.59 127 0)
 			(effects
 				(font
@@ -7499,7 +7489,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 275.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 275.59 127 0)
 			(effects
 				(font
@@ -7644,7 +7644,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 180.34 213.36 0)
 			(effects
 				(font
@@ -7748,7 +7748,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 318.77 123.19 0)
 			(effects
 				(font
@@ -7844,7 +7844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 215.9 208.28 0)
 			(effects
 				(font
@@ -7853,7 +7853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 215.9 208.28 0)
 			(effects
 				(font
@@ -7862,17 +7862,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 215.9 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 215.9 208.28 0)
 			(effects
 				(font
@@ -7882,7 +7872,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 215.9 208.28 0)
 			(effects
 				(font
@@ -7892,7 +7882,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 215.9 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 215.9 208.28 0)
 			(effects
 				(font
@@ -8020,7 +8020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 223.52 127 0)
 			(effects
 				(font
@@ -8029,7 +8029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 223.52 127 0)
 			(effects
 				(font
@@ -8038,17 +8038,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 223.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 223.52 127 0)
 			(effects
 				(font
@@ -8058,7 +8048,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 223.52 127 0)
 			(effects
 				(font
@@ -8068,7 +8058,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 223.52 127 0)
 			(effects
 				(font
@@ -8146,7 +8146,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 259.08 204.47 0)
 			(effects
 				(font
@@ -8260,7 +8260,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 187.96 132.08 0)
 			(effects
 				(font
@@ -8364,7 +8364,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 113.03 123.19 0)
 			(effects
 				(font
@@ -8555,7 +8555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 247.65 208.28 0)
 			(effects
 				(font
@@ -8573,7 +8573,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 247.65 208.28 0)
 			(effects
 				(font
@@ -8664,7 +8664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 203.2 127 0)
 			(effects
 				(font
@@ -8682,7 +8682,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 203.2 127 0)
 			(effects
 				(font
@@ -8840,7 +8840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 379.73 127 0)
 			(effects
 				(font
@@ -8849,7 +8849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 379.73 127 0)
 			(effects
 				(font
@@ -8858,17 +8858,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 379.73 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1276-1784-1-ND"
+		(property "DIS" "DigiKey"
 			(at 379.73 127 0)
 			(effects
 				(font
@@ -8878,7 +8868,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "DPN" "587-4332-1-ND"
 			(at 379.73 127 0)
 			(effects
 				(font
@@ -8888,7 +8878,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475KO8NNNC"
+		(property "MFR" "Taiyo Yuden"
+			(at 379.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 379.73 127 0)
 			(effects
 				(font

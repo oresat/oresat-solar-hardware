@@ -5689,7 +5689,7 @@
 	)
 	(text "DNP\nFOR\nFLIGHT"
 		(exclude_from_sim no)
-		(at 134.62 220.98 0)
+		(at 134.62 214.63 0)
 		(effects
 			(font
 				(size 1.778 1.27)
@@ -9056,6 +9056,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 156.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "296-46215-1-ND"
+			(at 156.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4eb1ce1b-af92-4a53-8cd8-f44d033cf4aa")
 		)
@@ -9158,6 +9176,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 243.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 243.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9585,7 +9621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-sg/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GCJ31CR71A685KA13%23"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 387.35 125.73 0)
 			(effects
 				(font
@@ -9594,7 +9630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6.8 µF ±10% 10V Ceramic Capacitor X7R 1206 (3216 Metric)"
+		(property "Description" "6.8 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 387.35 125.73 0)
 			(effects
 				(font
@@ -9603,7 +9639,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "TDK Corporation"
 			(at 387.35 125.73 0)
 			(effects
 				(font
@@ -9612,7 +9648,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCJ31CR71A685KA13L"
+		(property "MPN" "CGA4J1X5R1C685K125AC"
+			(at 387.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 387.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "445-12661-1-ND"
 			(at 387.35 125.73 0)
 			(effects
 				(font
@@ -9805,7 +9859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ6GEY0R00V"
 			(at 327.66 210.82 0)
 			(effects
 				(font
@@ -9914,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 337.82 26.67 0)
 			(effects
 				(font
@@ -9923,7 +9977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 337.82 26.67 0)
 			(effects
 				(font
@@ -9932,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 337.82 26.67 0)
 			(effects
 				(font
@@ -9941,7 +9995,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 337.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 337.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 337.82 26.67 0)
 			(effects
 				(font
@@ -10216,7 +10288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Murata"
 			(at 116.84 223.52 0)
 			(effects
 				(font
@@ -10226,6 +10298,24 @@
 			)
 		)
 		(property "MPN" "GRM1885C1H4R7WA01D"
+			(at 116.84 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 116.84 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
 			(at 116.84 223.52 0)
 			(effects
 				(font
@@ -10285,7 +10375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E475KE11-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 383.54 82.55 0)
 			(effects
 				(font
@@ -10294,7 +10384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 383.54 82.55 0)
 			(effects
 				(font
@@ -10303,7 +10393,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 383.54 82.55 0)
 			(effects
 				(font
@@ -10312,8 +10402,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61E475KE11D"
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 383.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 383.54 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-4332-1-ND"
+			(at 383.54 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10372,7 +10480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 374.65 139.7 0)
 			(effects
 				(font
@@ -10381,7 +10489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 374.65 139.7 0)
 			(effects
 				(font
@@ -10390,7 +10498,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 374.65 139.7 0)
 			(effects
 				(font
@@ -10399,7 +10507,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 374.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 374.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 374.65 139.7 0)
 			(effects
 				(font
@@ -10461,7 +10587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 318.77 50.8 0)
 			(effects
 				(font
@@ -10489,6 +10615,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 318.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 318.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 318.77 50.8 0)
 			(effects
 				(font
@@ -10614,7 +10758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 330.2 26.67 0)
 			(effects
 				(font
@@ -10623,7 +10767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 330.2 26.67 0)
 			(effects
 				(font
@@ -10632,7 +10776,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 330.2 26.67 0)
 			(effects
 				(font
@@ -10641,7 +10785,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 330.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 330.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 330.2 26.67 0)
 			(effects
 				(font
@@ -10741,7 +10903,7 @@
 		(dnp no)
 		(uuid "47c04a10-7575-4d31-98b6-ed8aa00a5c52")
 		(property "Reference" "D4"
-			(at 125.73 219.71 90)
+			(at 134.62 220.98 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -10749,8 +10911,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "GRN"
-			(at 124.46 222.25 90)
+		(property "Value" "AMBER"
+			(at 134.62 223.52 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -10767,7 +10929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060AS75000.pdf"
 			(at 132.08 220.98 90)
 			(effects
 				(font
@@ -10776,7 +10938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 			(at 132.08 220.98 0)
 			(effects
 				(font
@@ -10785,7 +10947,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 132.08 220.98 0)
 			(effects
 				(font
@@ -10795,7 +10957,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "732-4971-1-ND"
+		(property "DPN" "732-150060AS75000CT-ND"
 			(at 132.08 220.98 0)
 			(effects
 				(font
@@ -10815,7 +10977,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060GS75000"
+		(property "MPN" "150060AS75000"
 			(at 132.08 220.98 0)
 			(effects
 				(font
@@ -10886,7 +11048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 173.99 46.99 0)
 			(effects
 				(font
@@ -10904,7 +11066,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 173.99 46.99 0)
 			(effects
 				(font
@@ -11128,7 +11290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 288.29 190.5 0)
 			(effects
 				(font
@@ -11137,8 +11299,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 288.29 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 288.29 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 288.29 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 288.29 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 288.29 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,6 +11765,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "Mouser"
+			(at 245.11 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 245.11 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "3400f71f-711b-4780-8312-a4f01d60c844")
 		)
@@ -11923,7 +12139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E475KE11-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -11932,7 +12148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -11941,7 +12157,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -11950,7 +12166,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61E475KE11D"
+		(property "MPN" "EMK107BBJ475KAHT"
+			(at 382.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 382.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-4332-1-ND"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -12011,7 +12245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -12029,7 +12263,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -12153,6 +12387,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12647,7 +12899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 132.08 212.09 0)
 			(effects
 				(font
@@ -12758,7 +13010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -12767,7 +13019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -12776,7 +13028,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -12785,7 +13037,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 318.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 318.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -12844,7 +13114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830108212309.pdf"
 			(at 105.41 218.44 0)
 			(effects
 				(font
@@ -12853,7 +13123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" "24 MHz ±10ppm Crystal 8pF 100 Ohms 4-SMD, No Lead"
 			(at 105.41 218.44 0)
 			(effects
 				(font
@@ -12872,6 +13142,24 @@
 			)
 		)
 		(property "MPN" "830108212309"
+			(at 105.41 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DIgiKey"
+			(at 105.41 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1923-830108212309CT-ND"
 			(at 105.41 218.44 90)
 			(effects
 				(font
@@ -13103,6 +13391,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13499,6 +13805,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "DIgiKey"
+			(at 411.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1934-1472-1-ND"
+			(at 411.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ef9c50f-3fed-4491-a10c-b06f69f4abe8")
 		)
@@ -13550,7 +13874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 137.16 95.25 0)
 			(effects
 				(font
@@ -13568,7 +13892,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 137.16 95.25 0)
 			(effects
 				(font
@@ -13960,6 +14284,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "Mouser"
+			(at 243.84 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 243.84 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "3400f71f-711b-4780-8312-a4f01d60c841")
 		)
@@ -14316,7 +14658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 360.68 26.67 0)
 			(effects
 				(font
@@ -14325,7 +14667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 360.68 26.67 0)
 			(effects
 				(font
@@ -14334,7 +14676,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 360.68 26.67 0)
 			(effects
 				(font
@@ -14343,7 +14685,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 360.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 360.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 360.68 26.67 0)
 			(effects
 				(font
@@ -14403,7 +14763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 168.91 190.5 0)
 			(effects
 				(font
@@ -14412,7 +14772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 168.91 190.5 0)
 			(effects
 				(font
@@ -14421,7 +14781,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 168.91 190.5 0)
 			(effects
 				(font
@@ -14430,7 +14790,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 168.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 168.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 168.91 190.5 0)
 			(effects
 				(font
@@ -14755,7 +15133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 368.3 26.67 0)
 			(effects
 				(font
@@ -14764,7 +15142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 368.3 26.67 0)
 			(effects
 				(font
@@ -14773,7 +15151,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 368.3 26.67 0)
 			(effects
 				(font
@@ -14782,7 +15160,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 368.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 368.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 368.3 26.67 0)
 			(effects
 				(font
@@ -14974,7 +15370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 384.81 26.67 0)
 			(effects
 				(font
@@ -14983,7 +15379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 384.81 26.67 0)
 			(effects
 				(font
@@ -14992,7 +15388,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 384.81 26.67 0)
 			(effects
 				(font
@@ -15001,7 +15397,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 384.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 384.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 384.81 26.67 0)
 			(effects
 				(font
@@ -15092,6 +15506,24 @@
 			)
 		)
 		(property "MPN" "2-1734592-0"
+			(at 355.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DIgiKey"
+			(at 355.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "A100287CT-ND"
 			(at 355.6 193.04 0)
 			(effects
 				(font
@@ -15409,7 +15841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 375.92 26.67 0)
 			(effects
 				(font
@@ -15418,7 +15850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 375.92 26.67 0)
 			(effects
 				(font
@@ -15427,7 +15859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 375.92 26.67 0)
 			(effects
 				(font
@@ -15436,7 +15868,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 375.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 375.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 375.92 26.67 0)
 			(effects
 				(font
@@ -15496,7 +15946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E225KA12-01.pdf"
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=MCASU105AB7683KFCA01&fileType=CS"
 			(at 397.51 118.11 0)
 			(effects
 				(font
@@ -15505,7 +15955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "2.2 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 397.51 118.11 0)
 			(effects
 				(font
@@ -15514,7 +15964,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 397.51 118.11 0)
 			(effects
 				(font
@@ -15523,7 +15973,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61E225KA12D"
+		(property "MPN" "TMK107BBJ225MAHT"
+			(at 397.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 397.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-4929-1-ND"
 			(at 397.51 118.11 0)
 			(effects
 				(font
@@ -15684,6 +16152,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 351.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 351.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16343,6 +16829,24 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "DIgiKey"
+			(at 383.54 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "118-SRP2012TMA-1R5MCT-ND"
+			(at 383.54 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "087db0c9-cd77-4784-b13d-526ea5ce9400")
 		)
@@ -16461,7 +16965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 353.06 26.67 0)
 			(effects
 				(font
@@ -16470,7 +16974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 353.06 26.67 0)
 			(effects
 				(font
@@ -16479,7 +16983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 353.06 26.67 0)
 			(effects
 				(font
@@ -16488,7 +16992,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 353.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 353.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 353.06 26.67 0)
 			(effects
 				(font
@@ -16613,7 +17135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM185R61E105KA12-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
 			(at 405.13 107.95 0)
 			(effects
 				(font
@@ -16622,7 +17144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 405.13 107.95 0)
 			(effects
 				(font
@@ -16631,7 +17153,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 405.13 107.95 0)
 			(effects
 				(font
@@ -16640,7 +17162,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM185R61E105KA12J"
+		(property "MPN" "TMK107BJ105KAHT"
+			(at 405.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 405.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3473-1-ND"
 			(at 405.13 107.95 0)
 			(effects
 				(font
@@ -16721,7 +17261,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 154.94 105.41 0)
 			(effects
 				(font
@@ -17088,7 +17628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 138.43 45.72 0)
 			(effects
 				(font
@@ -17106,7 +17646,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 138.43 45.72 0)
 			(effects
 				(font
@@ -17480,7 +18020,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 154.94 59.69 0)
 			(effects
 				(font
@@ -17648,7 +18188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
 			(at 345.44 26.67 0)
 			(effects
 				(font
@@ -17657,7 +18197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 345.44 26.67 0)
 			(effects
 				(font
@@ -17666,7 +18206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 345.44 26.67 0)
 			(effects
 				(font
@@ -17675,7 +18215,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "TMK107BJ104KAHT"
+			(at 345.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 345.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
 			(at 345.44 26.67 0)
 			(effects
 				(font
@@ -17735,7 +18293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 223.52 49.53 0)
 			(effects
 				(font
@@ -17744,7 +18302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 223.52 49.53 0)
 			(effects
 				(font
@@ -17753,7 +18311,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 223.52 49.53 0)
 			(effects
 				(font
@@ -17762,7 +18320,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 223.52 49.53 0)
 			(effects
 				(font
@@ -17780,7 +18338,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 223.52 49.53 0)
 			(effects
 				(font
@@ -17907,7 +18465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 236.22 49.53 0)
 			(effects
 				(font
@@ -17916,7 +18474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 236.22 49.53 0)
 			(effects
 				(font
@@ -17925,7 +18483,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DIgiKey"
 			(at 236.22 49.53 0)
 			(effects
 				(font
@@ -17934,7 +18492,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 236.22 49.53 0)
 			(effects
 				(font
@@ -17952,7 +18510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 236.22 49.53 0)
 			(effects
 				(font
@@ -18032,7 +18590,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Murata"
 			(at 97.79 226.06 0)
 			(effects
 				(font
@@ -18042,6 +18600,24 @@
 			)
 		)
 		(property "MPN" "GRM1885C1H4R7WA01D"
+			(at 97.79 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 97.79 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
 			(at 97.79 226.06 0)
 			(effects
 				(font
@@ -18268,6 +18844,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Mouser"
+			(at 77.47 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "771-MCXN947VKLT"
+			(at 77.47 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
