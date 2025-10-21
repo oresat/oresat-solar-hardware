@@ -1,0 +1,2 @@
+12:53:27 PM: Directory '/home/andrew/.var/app/org.kicad.KiCad/data/kicad/9.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/web/user-file-examples' couldn't be deleted (error 39: Directory not empty)
+12:53:27 PM: Directory '/home/andrew/.var/app/org.kicad.KiCad/data/kicad/9.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/web' couldn't be deleted (error 39: Directory not empty)

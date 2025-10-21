@@ -432,7 +432,11 @@
           ""
         ],
         [
-          "solder_mask_bridge|108364053|120774425|cf9f2f27-2843-4599-9f28-2518eb85065c|f1aeda4e-a692-4f3f-aa37-18de86c7a277",
+          "solder_mask_bridge|108293993|150710707|981ae38e-51b7-4c47-8faf-c4e7ae1a6a80|599c24e5-dd86-44e4-9445-f7766e1897fc",
+          ""
+        ],
+        [
+          "solder_mask_bridge|108401495|59203303|62c5bce2-3307-4a7e-a37b-39f1455067fb|3111e06e-de9e-47b1-8e74-1c1420e0189a",
           ""
         ],
         [
@@ -444,7 +448,7 @@
           ""
         ],
         [
-          "solder_mask_bridge|109001100|59003600|9d12d690-3758-41c3-8407-8176e7f2ab9e|c5d47292-af55-4c4b-8a94-4e3e455e2e2e",
+          "solder_mask_bridge|109001100|59003600|9d12d690-3758-41c3-8407-8176e7f2ab9e|006a4d3b-7a1f-41be-bb81-ce5f1a3d15a4",
           ""
         ],
         [
@@ -456,15 +460,11 @@
           ""
         ],
         [
-          "solder_mask_bridge|109350566|59066651|62c5bce2-3307-4a7e-a37b-39f1455067fb|3111e06e-de9e-47b1-8e74-1c1420e0189a",
-          ""
-        ],
-        [
           "solder_mask_bridge|109801640|90602878|65f88547-d321-484e-b7f4-13e9071e0739|076f336c-fe33-4700-a68d-9a62aad19b99",
           ""
         ],
         [
-          "solder_mask_bridge|109990921|149861285|981ae38e-51b7-4c47-8faf-c4e7ae1a6a80|599c24e5-dd86-44e4-9445-f7766e1897fc",
+          "solder_mask_bridge|109981838|120198927|cf9f2f27-2843-4599-9f28-2518eb85065c|f1aeda4e-a692-4f3f-aa37-18de86c7a277",
           ""
         ],
         [
@@ -476,7 +476,7 @@
           ""
         ],
         [
-          "solder_mask_bridge|188001100|59003600|9d12d690-3758-41c3-8407-8176e7f2ab9e|c5d47292-af55-4c4b-8a94-4e3e455e2e2e",
+          "solder_mask_bridge|188001100|59003600|9d12d690-3758-41c3-8407-8176e7f2ab9e|006a4d3b-7a1f-41be-bb81-ce5f1a3d15a4",
           ""
         ],
         [
@@ -1114,7 +1114,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {

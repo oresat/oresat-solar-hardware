@@ -2557,7 +2557,7 @@
 				(pin power_in line
 					(at -21.59 41.91 0)
 					(length 3.81)
-					(name "VDD_1"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 				(pin power_in line
 					(at -21.59 39.37 0)
 					(length 3.81)
-					(name "VDD_2"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2593,7 +2593,7 @@
 				(pin power_in line
 					(at -21.59 34.29 0)
 					(length 3.81)
-					(name "VDD_P3_1"
+					(name "VDD_P3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2611,7 +2611,7 @@
 				(pin power_in line
 					(at -21.59 31.75 0)
 					(length 3.81)
-					(name "VDD_P3_2"
+					(name "VDD_P3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2629,7 +2629,7 @@
 				(pin power_in line
 					(at -21.59 29.21 0)
 					(length 3.81)
-					(name "VDD_P3_3"
+					(name "VDD_P3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2827,7 +2827,7 @@
 				(pin power_in line
 					(at -21.59 -39.37 0)
 					(length 3.81)
-					(name "VDD_CORE_1"
+					(name "VDD_CORE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2845,7 +2845,7 @@
 				(pin power_in line
 					(at -21.59 -41.91 0)
 					(length 3.81)
-					(name "VDD_CORE_2"
+					(name "VDD_CORE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2913,34 +2913,6 @@
 							)
 						)
 					)
-				)
-				(pin no_connect line
-					(at 21.59 0 180)
-					(length 3.81)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CT2_MAT1 " passive line)
-					(alternate "DIS" passive line)
-					(alternate "FC2_P5 " passive line)
-					(alternate "FLEXIO0_D29 " passive line)
-					(alternate "OPAMP2_INN " passive line)
-					(alternate "OPAMP2_INP1/ADC1_B6 " passive line)
-					(alternate "P4_21 " passive line)
-					(alternate "P4_21/ANA_22" passive line)
-					(alternate "SINC0_MBIT2" passive line)
-					(alternate "TRIG_IN9 " passive line)
 				)
 				(pin power_in line
 					(at 21.59 -36.83 180)
@@ -4575,8 +4547,8 @@
 			)
 			(symbol "MCXN947VKLT_6_1"
 				(rectangle
-					(start -12.7 21.59)
-					(end 12.7 -21.59)
+					(start -12.7 22.86)
+					(end 12.7 -22.86)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4586,7 +4558,7 @@
 					)
 				)
 				(pin passive line
-					(at -16.51 19.05 0)
+					(at -16.51 20.32 0)
 					(length 3.81)
 					(name "P4_0/ANA_0"
 						(effects
@@ -4611,7 +4583,7 @@
 					(alternate "TRIG_IN6" passive line)
 				)
 				(pin passive line
-					(at -16.51 16.51 0)
+					(at -16.51 17.78 0)
 					(length 3.81)
 					(name "P4_1/ANA_1"
 						(effects
@@ -4635,7 +4607,7 @@
 					(alternate "TRIG_IN7" passive line)
 				)
 				(pin passive line
-					(at -16.51 13.97 0)
+					(at -16.51 15.24 0)
 					(length 3.81)
 					(name "P4_2"
 						(effects
@@ -4662,7 +4634,7 @@
 					(alternate "TRIG_IN6" passive line)
 				)
 				(pin passive line
-					(at -16.51 11.43 0)
+					(at -16.51 12.7 0)
 					(length 3.81)
 					(name "P4_3"
 						(effects
@@ -4688,7 +4660,7 @@
 					(alternate "TRIG_IN7" passive line)
 				)
 				(pin passive line
-					(at -16.51 8.89 0)
+					(at -16.51 10.16 0)
 					(length 3.81)
 					(name "P4_4/ANA_4"
 						(effects
@@ -4712,7 +4684,7 @@
 					(alternate "SMARTDMA_PIO28" passive line)
 				)
 				(pin passive line
-					(at -16.51 6.35 0)
+					(at -16.51 7.62 0)
 					(length 3.81)
 					(name "P4_5/ANA_5"
 						(effects
@@ -4736,7 +4708,7 @@
 					(alternate "SMARTDMA_PIO29" passive line)
 				)
 				(pin passive line
-					(at -16.51 3.81 0)
+					(at -16.51 5.08 0)
 					(length 3.81)
 					(name "P4_6/ANA_6"
 						(effects
@@ -4760,7 +4732,7 @@
 					(alternate "TRIG_OUT4" passive line)
 				)
 				(pin passive line
-					(at -16.51 1.27 0)
+					(at -16.51 2.54 0)
 					(length 3.81)
 					(name "P4_7/ANA_7"
 						(effects
@@ -4781,7 +4753,7 @@
 					(alternate "VREFI/VREFO/ADC0_A7/ADC1_A7 " passive line)
 				)
 				(pin passive line
-					(at -16.51 -1.27 0)
+					(at -16.51 0 0)
 					(length 3.81)
 					(name "P4_12"
 						(effects
@@ -4807,7 +4779,7 @@
 					(alternate "USB0_VBUS_DET" passive line)
 				)
 				(pin passive line
-					(at -16.51 -3.81 0)
+					(at -16.51 -2.54 0)
 					(length 3.81)
 					(name "P4_13/ANA_14"
 						(effects
@@ -4835,7 +4807,7 @@
 					(alternate "USB1_OTGn_ID" passive line)
 				)
 				(pin passive line
-					(at -16.51 -6.35 0)
+					(at -16.51 -5.08 0)
 					(length 3.81)
 					(name "P4_15"
 						(effects
@@ -4861,7 +4833,7 @@
 					(alternate "USB1_VBUSVALID_EXT" passive line)
 				)
 				(pin passive line
-					(at -16.51 -8.89 0)
+					(at -16.51 -7.62 0)
 					(length 3.81)
 					(name "P4_16"
 						(effects
@@ -4887,7 +4859,7 @@
 					(alternate "USB1_OTGn_PWR" passive line)
 				)
 				(pin passive line
-					(at -16.51 -11.43 0)
+					(at -16.51 -10.16 0)
 					(length 3.81)
 					(name "P4_17/ANA_18"
 						(effects
@@ -4914,7 +4886,7 @@
 					(alternate "USB1_OTGn_OC" passive line)
 				)
 				(pin passive line
-					(at -16.51 -13.97 0)
+					(at -16.51 -12.7 0)
 					(length 3.81)
 					(name "P4_19"
 						(effects
@@ -4938,7 +4910,7 @@
 					(alternate "TRIG_OUT5" passive line)
 				)
 				(pin passive line
-					(at -16.51 -16.51 0)
+					(at -16.51 -15.24 0)
 					(length 3.81)
 					(name "P4_20"
 						(effects
@@ -4962,7 +4934,35 @@
 					(alternate "TRIG_IN8" passive line)
 				)
 				(pin passive line
-					(at -16.51 -19.05 0)
+					(at -16.51 -17.78 0)
+					(length 3.81)
+					(name "P4_21/ANA_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CT2_MAT1 " passive line)
+					(alternate "DIS" passive line)
+					(alternate "FC2_P5 " passive line)
+					(alternate "FLEXIO0_D29 " passive line)
+					(alternate "OPAMP2_INN " passive line)
+					(alternate "OPAMP2_INP1/ADC1_B6 " passive line)
+					(alternate "P4_21 " passive line)
+					(alternate "P4_21/ANA_22" passive line)
+					(alternate "SINC0_MBIT2" passive line)
+					(alternate "TRIG_IN9 " passive line)
+				)
+				(pin passive line
+					(at -16.51 -20.32 0)
 					(length 3.81)
 					(name "P4_23"
 						(effects
@@ -6261,6 +6261,10 @@
 		(uuid "63133f47-06c1-4573-b29f-fa237048c4d8")
 	)
 	(no_connect
+		(at 93.98 97.79)
+		(uuid "65603a7c-2d11-44cb-9a2f-83300570061d")
+	)
+	(no_connect
 		(at 93.98 107.95)
 		(uuid "6a18df69-d8e4-4dad-98b9-ad1f0d50eb54")
 	)
@@ -6484,7 +6488,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 54.61) (xy 129.54 97.79)
+			(xy 129.54 54.61) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0.1524)
@@ -8534,7 +8538,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 97.79) (xy 93.98 97.79)
+			(xy 129.54 95.25) (xy 93.98 95.25)
 		)
 		(stroke
 			(width 0.1524)
@@ -8711,6 +8715,26 @@
 			(justify left bottom)
 		)
 		(uuid "b4fb76ac-d9e9-420e-a247-2094a62d8f5f")
+	)
+	(label "CELL1_TEMP_ALERT"
+		(at 95.25 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e29c24-2419-4585-965c-1a454c518883")
+	)
+	(label "CELL2_TEMP_ALERT"
+		(at 95.25 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d31eecc5-23f9-46a9-b630-c280ec0a36e5")
 	)
 	(label "SDA"
 		(at 171.45 100.33 0)
@@ -12320,7 +12344,7 @@
 	)
 	(symbol
 		(lib_id "oresat-ics:MCXN947VKLT")
-		(at 77.47 116.84 180)
+		(at 77.47 115.57 180)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12328,7 +12352,7 @@
 		(dnp no)
 		(uuid "6d3ba75b-870c-40b4-b233-b20caac70583")
 		(property "Reference" "U1"
-			(at 77.47 141.732 0)
+			(at 77.47 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12360,7 @@
 			)
 		)
 		(property "Value" "MCXN947VKLT"
-			(at 77.47 139.7 0)
+			(at 77.47 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12368,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
-			(at 77.724 188.722 0)
+			(at 77.724 187.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12377,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
-			(at 77.47 182.118 0)
+			(at 77.47 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +12386,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 100HLQFP (also MCXN947VNLT)"
-			(at 77.724 185.166 0)
+			(at 77.724 183.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12395,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 2.54 -367.92 0)
+			(at 2.54 -369.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12381,7 +12405,7 @@
 			)
 		)
 		(property "MPN" "MCXN947VKLT"
-			(at 2.54 -467.92 0)
+			(at 2.54 -469.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12391,7 +12415,7 @@
 			)
 		)
 		(property "DIS" "Mouser"
-			(at 77.47 116.84 0)
+			(at 77.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12400,7 +12424,7 @@
 			)
 		)
 		(property "DPN" "771-MCXN947VKLT"
-			(at 77.47 116.84 0)
+			(at 77.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19004,7 +19028,6 @@
 		)
 		(pin "10"
 			(uuid "54ae0b37-e601-4c89-8249-bbbaaa176400")
-			(alternate "XTAL48M ")
 		)
 		(pin "14"
 			(uuid "6b85b89c-7e8c-4503-99c7-789378af4545")
@@ -19017,11 +19040,9 @@
 		)
 		(pin "1"
 			(uuid "e4c4bba3-cc5a-4f3c-a6a6-f253735d7e91")
-			(alternate "ISP-UART_RXD")
 		)
 		(pin "3"
 			(uuid "1aeb358c-5dd0-46b8-a77e-5ceb4dcd2050")
-			(alternate "CAN0_TXD")
 		)
 		(pin "17"
 			(uuid "5adc6c10-8785-40d5-ab7e-728e4c467c60")
@@ -19037,14 +19058,12 @@
 		)
 		(pin "2"
 			(uuid "04de66fe-37e7-48b8-9e32-ebc4c9969cd4")
-			(alternate "ISP-UART_TXD")
 		)
 		(pin "95"
 			(uuid "4dee66cc-7267-4c99-8813-a4a8afbedaff")
 		)
 		(pin "4"
 			(uuid "1f5921f5-8c5e-4426-941e-3733f4be1a51")
-			(alternate "CAN0_RXD")
 		)
 		(pin "98"
 			(uuid "8c4a2a48-a28c-40d7-a0c2-dda0f6d55786")
@@ -19057,7 +19076,6 @@
 		)
 		(pin "11"
 			(uuid "cc0b5cf0-1aa0-4ce6-92d6-ebcc4257df66")
-			(alternate "EXTAL48M ")
 		)
 		(pin "16"
 			(uuid "ae06a23d-6396-4787-a265-628be563170a")
