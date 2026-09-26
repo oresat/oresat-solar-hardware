@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "8e3682fb-4963-4368-af88-544f0840a328")
 	(paper "A4")
+	(title_block
+		(title "1u Solar Breakout")
+		(date "2026-09-15")
+		(rev "0")
+		(company "oresat!")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x20"
 			(pin_names
