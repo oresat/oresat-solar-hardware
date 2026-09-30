@@ -1323,6 +1323,12 @@
 		(uuid "5cf7ed75-6ed8-491b-a9d3-aab03a702afe")
 	)
 	(junction
+		(at 194.31 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d9ee302-d4f6-4cea-a3a0-0d1dbaa4571d")
+	)
+	(junction
 		(at 173.99 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1358,9 +1364,13 @@
 		(color 0 0 0 0)
 		(uuid "f575f6f2-4283-4487-91d7-93b9ca7614d4")
 	)
+	(no_connect
+		(at 208.28 81.28)
+		(uuid "e93817ca-5256-4f06-bfa5-074854a1fa2d")
+	)
 	(wire
 		(pts
-			(xy 205.74 66.04) (xy 181.61 66.04)
+			(xy 205.74 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 81.28) (xy 208.28 83.82)
+			(xy 194.31 66.04) (xy 194.31 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1407,6 +1417,16 @@
 			(type default)
 		)
 		(uuid "2d538f34-b893-47e0-9dd6-e356b9ca1d70")
+	)
+	(wire
+		(pts
+			(xy 194.31 66.04) (xy 181.61 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3213b184-c84a-4d03-93c8-32a42fe4a089")
 	)
 	(wire
 		(pts
@@ -1691,7 +1711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
 			(at 191.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1917,7 +1937,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 83.82 0)
+		(at 194.31 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1928,7 +1948,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3da7ccb-bc86-4ba0-85a5-fac1cebdb2f9")
 		(property "Reference" "#PWR01"
-			(at 208.28 90.17 0)
+			(at 194.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1939,7 +1959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 88.9 0)
+			(at 194.31 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1949,7 +1969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 83.82 0)
+			(at 194.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1960,7 +1980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 83.82 0)
+			(at 194.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1971,7 +1991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 83.82 0)
+			(at 194.31 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
