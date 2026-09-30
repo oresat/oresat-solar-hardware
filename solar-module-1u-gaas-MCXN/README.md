@@ -25,7 +25,7 @@ The solar module takes power from the solar cells and does true maximum power po
 ## Documentation Links
 
 - Git repository: <https://github.com/oresat/oresat-solar-hardware>
-- **TODO:** Design Notes + Design Review Notes
+- [Design Notes](https://docs.google.com/document/d/1mogZjYhJievwLsnVkg4Q0sEF9xPMA5q7KPciky3YWKE/edit?usp=sharing)
 
 ## Documentation Files
 
@@ -129,7 +129,7 @@ The solar module takes power from the solar cells and does true maximum power po
 ## Assembly Info
 
 - All components are on the top side of the board.
-- This PCBA uses both surface mount (SMT) and through-hole (THT) components.
+- This PCBA uses only surface mount (SMT) components.
 
 ## Assembly Requirements
 
@@ -143,8 +143,8 @@ The solar module takes power from the solar cells and does true maximum power po
 
 ## Component Specific Assembly Information
 
-- U2 and U7 are hand installed upside down; see "TMP101 Installation SOP"
-- Solar Cells D2 and D6 are hand placed; see "GaAs Solar Cell Installation SOP"
+- U2 and U7 are hand installed upside down; see ["PSAS SOP - TMP101 Mounting on Solar MOdules"](https://docs.google.com/document/d/1C_-naV0ThPKOAYU6vSqqT_bxouM6lSOQ0vK8YNHYac8/edit?usp=sharing).
+- Solar Cells D2 and D6 are hand placed; see ["PSAS SOP - Solar Cell mounting with PSA"](https://docs.google.com/document/d/1PRLbhDLpztdpU8TQuk0uR0zjref0UoxRCXlIfN_OXDI/edit?usp=sharing).
 
 
 ## Assembly Files
