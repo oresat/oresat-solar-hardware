@@ -1,0 +1,8 @@
+(version 1)
+
+# For the SMPM edge connectors, ignore copper near edge cuts errors
+
+(rule "Allow_Copper_To_Edge"
+    (condition "A.insideArea('EDGE_PERMIT_ZONE')")
+    (constraint edge_clearance (min -1mm))
+)
