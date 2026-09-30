@@ -212,7 +212,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -225,7 +225,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-27725-2-ND"
+		(property "DPN" "296-27725-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1625,7 +1625,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K00TR-ND"
+		(property "DPN" "RMCF0603FT2K00CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2112,7 +2112,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3758,7 +3758,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT14K7TR-ND"
+		(property "DPN" "RMCF0603FT14K7CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3992,7 +3992,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4692,7 +4692,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4705,7 +4705,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-27725-2-ND"
+		(property "DPN" "296-27725-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10346,7 +10346,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10835,7 +10835,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10848,7 +10848,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-29100-2-ND"
+		(property "DPN" "296-29100-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12402,7 +12402,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12415,7 +12415,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-30204-2-ND"
+		(property "DPN" "296-30204-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13112,7 +13112,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14373,7 +14373,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14622,7 +14622,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14975,7 +14975,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15329,7 +15329,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15590,7 +15590,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT82K5TR-ND"
+		(property "DPN" "RMCF0603FT82K5CT-ND"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15827,7 +15827,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15839,7 +15839,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT560KTR-ND"
+		(property "DPN" "RMCF0603FT560KCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16344,7 +16344,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K00TR-ND"
+		(property "DPN" "RMCF0603FT2K00CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19577,7 +19577,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19590,7 +19590,7 @@
 				)
 			)
 		)
-		(property "DPN" "505-LTC4412ES6#TRPBFTR-ND"
+		(property "DPN" "505-LTC4412ES6#TRPBFCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20582,7 +20582,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20595,7 +20595,7 @@
 				)
 			)
 		)
-		(property "DPN" "LT1618EMS#TRPBFTR-ND"
+		(property "DPN" "LT1618EMS#TRPBFCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21430,7 +21430,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21443,7 +21443,7 @@
 				)
 			)
 		)
-		(property "DPN" "NRVB130LSFT1GOSTR-ND"
+		(property "DPN" "NRVB130LSFT1GOSCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22012,7 +22012,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22025,7 +22025,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-14160-2-ND"
+		(property "DPN" "490-14160-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23746,7 +23746,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K00TR-ND"
+		(property "DPN" "RMCF0603FT2K00CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23983,7 +23983,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24510,7 +24510,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25296,7 +25296,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26403,7 +26403,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27652,7 +27652,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -29131,7 +29131,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29359,7 +29359,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntr4101p-d.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29372,7 +29372,7 @@
 				)
 			)
 		)
-		(property "Description" "P-Channel 20V 1.8A (Ta) 420mW (Ta) Surface Mount SOT-23-3 (TO-236)"
+		(property "Description" "P-Channel 20 V 4.9A (Ta) 810mW (Ta) Surface Mount SOT-23-3"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29385,7 +29385,7 @@
 				)
 			)
 		)
-		(property "DPN" "NTR4101PT1GOSCT-ND"
+		(property "DPN" "31-DMP2035UQ-7CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29398,7 +29398,7 @@
 				)
 			)
 		)
-		(property "MFR" "ON Semi"
+		(property "MFR" "Diodes Incorporated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29411,7 +29411,7 @@
 				)
 			)
 		)
-		(property "MPN" "NTR4101PT1G"
+		(property "MPN" "DMP2035UQ-7"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29825,7 +29825,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30000,7 +30000,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

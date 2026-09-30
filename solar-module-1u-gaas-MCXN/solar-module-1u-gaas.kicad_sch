@@ -3742,7 +3742,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 298.45 62.23 0)
 			(hide yes)
 			(show_name no)
