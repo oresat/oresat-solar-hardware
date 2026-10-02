@@ -38,13 +38,13 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_57555555)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -157,8 +157,8 @@
 		(uuid "1ad7aa38-98e5-4cba-8d5a-70543cb8fd05")
 	)
 	(gr_rect
-		(start 140 76.45)
-		(end 140.792 69.95)
+		(start 140 69.95)
+		(end 140.792 76.45)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -169,8 +169,8 @@
 		(uuid "e8159911-55e7-477d-9cef-8583eb6f0ca5")
 	)
 	(gr_rect
-		(start 141.225 76.45)
-		(end 142.05 69.95)
+		(start 141.225 69.95)
+		(end 142.05 76.45)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -181,8 +181,8 @@
 		(uuid "3c434236-ed4d-4d6a-a47e-4d4b3b2d71f2")
 	)
 	(gr_rect
-		(start 142.525 76.45)
-		(end 143.325 69.95)
+		(start 142.525 69.95)
+		(end 143.325 76.45)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -193,8 +193,8 @@
 		(uuid "4902569a-cd73-4804-8650-11fb77f23506")
 	)
 	(gr_rect
-		(start 143.8 76.45)
-		(end 144.6 69.95)
+		(start 143.8 69.95)
+		(end 144.6 76.45)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -205,8 +205,8 @@
 		(uuid "e29e29a3-f8fd-4589-bc32-03b141fbcdce")
 	)
 	(gr_rect
-		(start 145.05 76.45)
-		(end 145.85 69.95)
+		(start 145.05 69.95)
+		(end 145.85 76.45)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -217,8 +217,8 @@
 		(uuid "e2563e26-e500-45cd-a910-35eeb145b4f7")
 	)
 	(gr_rect
-		(start 146.325 76.45)
-		(end 147.125 69.95)
+		(start 146.325 69.95)
+		(end 147.125 76.45)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -339,8 +339,8 @@
 		(uuid "2b9321b6-eb4a-42af-859b-1910cbd84230")
 	)
 	(gr_rect
-		(start 140.892 76.45)
-		(end 141.125 69.95)
+		(start 140.892 69.95)
+		(end 141.125 76.45)
 		(stroke
 			(width 0.01)
 			(type default)
@@ -350,8 +350,8 @@
 		(uuid "f8661691-ef12-4241-ab25-377d535b06f9")
 	)
 	(gr_rect
-		(start 142.15 76.45)
-		(end 142.425 69.95)
+		(start 142.15 69.95)
+		(end 142.425 76.45)
 		(stroke
 			(width 0.01)
 			(type default)
@@ -361,8 +361,8 @@
 		(uuid "2b9704d3-9a8f-47c4-87e2-b1797fa0abc5")
 	)
 	(gr_rect
-		(start 143.425 76.45)
-		(end 143.7 69.95)
+		(start 143.425 69.95)
+		(end 143.7 76.45)
 		(stroke
 			(width 0.01)
 			(type default)
@@ -372,8 +372,8 @@
 		(uuid "2b8558c0-7801-4f6e-ba7c-49a51c3f3cd4")
 	)
 	(gr_rect
-		(start 144.7 76.45)
-		(end 144.95 69.95)
+		(start 144.7 69.95)
+		(end 144.95 76.45)
 		(stroke
 			(width 0.01)
 			(type default)
@@ -383,8 +383,8 @@
 		(uuid "a1120489-3895-4a81-9e7a-ecdf00ed69e5")
 	)
 	(gr_rect
-		(start 145.95 76.45)
-		(end 146.225 69.95)
+		(start 145.95 69.95)
+		(end 146.225 76.45)
 		(stroke
 			(width 0.01)
 			(type default)
