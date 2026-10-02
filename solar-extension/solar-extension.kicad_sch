@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Solar Extension")
-		(date "2026-09-29")
+		(date "2026-10-02")
 		(rev "1")
-		(company "Julia Al-Otoom")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x20"
