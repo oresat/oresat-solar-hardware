@@ -11194,7 +11194,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K00TR-ND"
+		(property "DPN" "RMCF0603FT2K00CT-ND"
 			(at 124.46 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13114,7 +13114,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K00TR-ND"
+		(property "DPN" "RMCF0603FT2K00CT-ND"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13378,7 +13378,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 101.6 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -14018,7 +14018,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 403.86 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17270,7 +17270,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 375.92 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -17781,7 +17781,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 154.94 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -17793,7 +17793,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "296-27725-2-ND"
+		(property "DPN" "296-27725-1-ND"
 			(at 154.94 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -18677,7 +18677,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 154.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18689,7 +18689,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "296-27725-2-ND"
+		(property "DPN" "296-27725-1-ND"
 			(at 154.94 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19020,7 +19020,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 223.52 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19145,7 +19145,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 236.22 134.62 0)
 			(hide yes)
 			(show_name no)

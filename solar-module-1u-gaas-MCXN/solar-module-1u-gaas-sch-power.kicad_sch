@@ -7113,7 +7113,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntr4101p-d.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf"
 			(at 307.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7125,7 +7125,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "P-Channel 20V 1.8A (Ta) 420mW (Ta) Surface Mount SOT-23-3 (TO-236)"
+		(property "Description" "P-Channel 20 V 4.9A (Ta) 810mW (Ta) Surface Mount SOT-23-3"
 			(at 307.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7136,7 +7136,7 @@
 				)
 			)
 		)
-		(property "DPN" "NTR4101PT1GOSCT-ND"
+		(property "DPN" "31-DMP2035UQ-7CT-ND"
 			(at 307.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7147,7 +7147,7 @@
 				)
 			)
 		)
-		(property "MFR" "ON Semi"
+		(property "MFR" "Diodes Incorporated"
 			(at 307.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7158,7 +7158,7 @@
 				)
 			)
 		)
-		(property "MPN" "NTR4101PT1G"
+		(property "MPN" "DMP2035UQ-7"
 			(at 307.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7276,7 +7276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT14K7TR-ND"
+		(property "DPN" "RMCF0603FT14K7CT-ND"
 			(at 234.95 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7680,7 +7680,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 228.6 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -8503,7 +8503,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 191.77 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -8515,7 +8515,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "490-14160-2-ND"
+		(property "DPN" "490-14160-1-ND"
 			(at 191.77 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -9326,7 +9326,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT82K5TR-ND"
+		(property "DPN" "RMCF0603FT82K5CT-ND"
 			(at 234.95 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9443,7 +9443,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 228.6 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9455,7 +9455,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT560KTR-ND"
+		(property "DPN" "RMCF0603FT560KCT-ND"
 			(at 228.6 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9570,7 +9570,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 210.82 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9698,7 +9698,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 168.91 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10061,7 +10061,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 204.47 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -10072,7 +10072,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-30204-2-ND"
+		(property "DPN" "296-30204-1-ND"
 			(at 204.47 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -10523,7 +10523,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10652,7 +10652,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 81.28 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10777,7 +10777,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 327.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10789,7 +10789,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "505-LTC4412ES6#TRPBFTR-ND"
+		(property "DPN" "505-LTC4412ES6#TRPBFCT-ND"
 			(at 327.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11121,7 +11121,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 299.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12097,7 +12097,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 287.02 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12971,7 +12971,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 226.06 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12983,7 +12983,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "NRVB130LSFT1GOSTR-ND"
+		(property "DPN" "NRVB130LSFT1GOSCT-ND"
 			(at 226.06 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13383,7 +13383,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 78.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13812,7 +13812,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K00TR-ND"
+		(property "DPN" "RMCF0603FT2K00CT-ND"
 			(at 218.44 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14415,7 +14415,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 287.02 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14825,7 +14825,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 104.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14836,7 +14836,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-29100-2-ND"
+		(property "DPN" "296-29100-1-ND"
 			(at 104.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15493,7 +15493,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 198.12 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15505,7 +15505,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "LT1618EMS#TRPBFTR-ND"
+		(property "DPN" "LT1618EMS#TRPBFCT-ND"
 			(at 198.12 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15647,7 +15647,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 173.99 198.12 0)
 			(hide yes)
 			(show_name no)
