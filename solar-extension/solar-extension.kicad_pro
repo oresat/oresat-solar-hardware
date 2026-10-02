@@ -70,12 +70,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "net_conflict|178000000|94595000|fbc77d3d-aa2b-495e-bfb5-141a32d0e609|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -245,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0"
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -493,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "1u-solar-breakout.kicad_pro",
+    "filename": "solar-extension.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -648,8 +643,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "1u-solar-breakout.kicad_sch",
-        "name": "1u-solar-breakout",
+        "filename": "solar-extension.kicad_sch",
+        "name": "solar-extension",
         "uuid": "8e3682fb-4963-4368-af88-544f0840a328"
       }
     ],
@@ -659,7 +654,7 @@
   "sheets": [
     [
       "8e3682fb-4963-4368-af88-544f0840a328",
-      "1u-solar-breakout"
+      "solar-extension"
     ]
   ],
   "text_variables": {},
