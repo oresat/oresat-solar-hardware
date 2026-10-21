@@ -3074,7 +3074,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
 				(justify right bottom)
 			)
@@ -3152,7 +3152,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3162,7 +3162,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
 			)
 		)

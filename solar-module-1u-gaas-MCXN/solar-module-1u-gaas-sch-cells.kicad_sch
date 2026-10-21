@@ -1428,15 +1428,14 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "08027e05-e020-45a1-8f8a-1e6d1922de23")
 		(property "Reference" "D2"
-			(at 219.71 140.335 0)
+			(at 219.964 141.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -1447,7 +1446,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -1801,15 +1800,14 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "addf5fbe-a0e2-4efe-a4ff-2bc206f8fdab")
 		(property "Reference" "D6"
-			(at 219.71 160.655 0)
+			(at 219.71 161.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -1820,7 +1818,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -2023,7 +2021,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)

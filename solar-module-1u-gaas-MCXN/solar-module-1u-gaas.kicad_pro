@@ -78,38 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "items_not_allowed|109700039|120452780|f1aeda4e-a692-4f3f-aa37-18de86c7a277|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|109700039|150452780|599c24e5-dd86-44e4-9445-f7766e1897fc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|109700039|60452780|3111e06e-de9e-47b1-8e74-1c1420e0189a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|109700039|90452780|076f336c-fe33-4700-a68d-9a62aad19b99|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|188700039|120452780|3c2ccb26-2d33-4493-ab0e-d22e54ae6161|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|188700039|150452780|e9037331-c445-4572-ac3b-3ce34ba08d0b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|188700039|60452780|ff836781-3fe0-49d1-b100-14fafcac5c3a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|188700039|90452780|fd5cd03b-f83e-4aab-9c77-7afb5d0bf858|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_over_copper|113750000|152503600|8b4fb4a1-12d5-4016-a06a-55bd79120d5f|94d9a284-6473-4627-a403-acd5171952c2",
           ""
         ],
@@ -281,6 +249,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -292,6 +261,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -303,6 +273,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -411,6 +382,10 @@
       ],
       [
         "power_pin_not_driven|3924300|1346200|7d746251-bbee-4e13-869e-5cd2440ec484|00000000-0000-0000-0000-000000000000|/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc|/115bd2cd-7c08-4b54-867b-a326ee0699c1/bfa81e66-0bc2-4d21-a09c-e64719ae80bc|",
+        ""
+      ],
+      [
+        "same_local_global_label|3619500|596900|b07319b9-dbb9-45d7-b3fc-2a59645f209d|aa0623fe-c5a2-4f58-93c9-3fc9d0b456d5|/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f|/115bd2cd-7c08-4b54-867b-a326ee0699c1/5c4415f1-d90e-44ce-bb2c-b4c8edead48f|/115bd2cd-7c08-4b54-867b-a326ee0699c1",
         ""
       ]
     ],
@@ -624,6 +599,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -707,8 +683,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -887,7 +863,7 @@
         "uuid": "115bd2cd-7c08-4b54-867b-a326ee0699c1"
       }
     ],
-    "used_designators": "U5-6,#GND109",
+    "used_designators": "#GND109,U5-6",
     "variants": []
   },
   "sheets": [
